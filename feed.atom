@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-17T14:51:41.837Z</updated>
+    <updated>2021-10-17T15:01:08.502Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
@@ -268,18 +268,6 @@ My solution for counting words looks like this.
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Boolean shorthands and truthiness]]></title>
-        <id>https://gomakethings.com/boolean-shorthands-and-truthiness/</id>
-        <link href="https://gomakethings.com/boolean-shorthands-and-truthiness/"/>
-        <updated>2021-10-15T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Today in the current session of Vanilla JS Academy, my students are working on a character and word count script.
-My solution for counting words looks like this.
-// Split the text content into an array, using spaces to break words // Use Array.filter() to remove any words without a length // (this removes double spaces in the content) let words = text.value.split(' ').filter(function (word) { return word.length; });  One of my students has a solution that looks like this.]]></summary>
-        <author>
-            <name>Go Make Things</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[💾 Save the date for GitHub Game Off 2021]]></title>
         <id>https://github.blog/?p=60666</id>
         <link href="https://github.blog/2021-10-15-save-the-date-for-github-game-off-2021/"/>
@@ -487,19 +475,6 @@ If you want to create a fanpage of some obscure topic, everything is just … to
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Was it easier to build websites a decade ago?]]></title>
-        <id>https://gomakethings.com/was-it-easier-to-build-websites-a-decade-ago/</id>
-        <link href="https://gomakethings.com/was-it-easier-to-build-websites-a-decade-ago/"/>
-        <updated>2021-10-14T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[This week, Tim McNamara tweeted:
- Why is it harder to make a website in 2021 than it was in 1996?
-I mean, writing your own HTML in Notepad and uploading it via FTP was a chore. But it was understandable and easy.
-If you want to create a fanpage of some obscure topic, everything is just … too much. So instead, people will create an Instagram/TikTok/Facebook/etc and start posting there.]]></summary>
-        <author>
-            <name>Go Make Things</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[W3C and Yubico offer first online Web Authentication course for developers]]></title>
         <id>https://www.w3.org/blog/news/?p=9282</id>
         <link href="https://www.w3.org/blog/news/archives/9282"/>
@@ -647,40 +622,6 @@ Over 600 people have attended the Vanilla JS Academy in the last two years.]]></
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Vanilla JS Academy for Teams]]></title>
-        <id>https://gomakethings.com/vanilla-js-academy-for-teams/</id>
-        <link href="https://gomakethings.com/vanilla-js-academy-for-teams/"/>
-        <updated>2021-10-13T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Two years ago, I launched a project-based online JavaScript workshop call the Vanilla JS Academy.
-I’d heard from so many people who understood the basics of JS, but struggled to put this pieces together to build actual projects. The program was specifically designed to help students get better at that, and learn how to use JavaScript to solve problems.
-It quickly became my most popular product.
-Over 600 people have attended the Vanilla JS Academy in the last two years.]]></summary>
-        <author>
-            <name>Go Make Things</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Podcast on Running a Podcast]]></title>
-        <id>dee06b78-2566-423b-be17-aea824e29569</id>
-        <link href="https://traffic.libsyn.com/secure/syntax/Syntax396.mp3"/>
-        <updated>2021-10-13T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this episode of Syntax, Scott and Wes talk about running a podcast — recording, sponsoring, where to start, and more!
- Freshbooks - Sponsor
-  Get a 30 day free trial of Freshbooks at freshbooks.com/syntax and put SYNTAX in the “How did you hear about us?” section.
-  LogRocket - Sponsor
-  LogRocket lets you replay what users do on your site, helping you reproduce bugs and fix issues faster. It’s an exception tracker, a session re-player and a performance monitor. Get 14 days free at logrocket.com/syntax.
-  Cloudinary - Sponsor
-   Cloudinary is the best way to manage images and videos in the cloud. Edit and transform for any use case, from performance to personalization, using Cloudinary’s APIs, SDKs, widgets, and integrations.
-  Show Notes
-  01:45 - Recording Setup
-  
- Zoom to chat
-  Rec…]]></summary>
-        <author>
-            <name>Syntax - Tasty Web Development Treats</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Cloudflare and the IETF]]></title>
         <id>6166a9d065133e02a961134c</id>
         <link href="https://blog.cloudflare.com/cloudflare-and-the-ietf/"/>
@@ -788,6 +729,26 @@ pair of components. A traditional sidebar of checkboxes for…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Bootstrap Icons v1.6.0]]></title>
+        <id>https://blog.getbootstrap.com/2021/10/13/bootstrap-icons-1-6-0/</id>
+        <link href="https://blog.getbootstrap.com/2021/10/13/bootstrap-icons-1-6-0/"/>
+        <updated>2021-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bootstrap Icons v1.6.0 adds over 30 new icons, adds official Composer support, includes a new .scss stylesheet for the icon font, plus some other enhancements and bug fixes. Keep reading to see what’s new!
+1,400+ icons
+We’ve officially passed 1,400 glyphs in Bootstrap Icons with this release—woohoo! Seems utterly insane to me that the project has come this far and there are still so many more icons to include.
+We have a few dozen new and updated icons in this release, including:
+New brand icons for Apple, Behance, Dribbble, Line, Medium, Microsoft, PayPal, Pinterest, Signal, Snapchat, Spotify, Stack Overflow, Strava, Vimeo, Windows, and WordPress
+Two new easel variations
+New fingerprint icon
+New magic stick
+New people variations for rolodex, workspace, and video chat
+New webcam icons
+New r…]]></summary>
+        <author>
+            <name>Bootstrap Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Apply now for GitHub Universe 2021 micro-mentoring]]></title>
         <id>https://github.blog/?p=60608</id>
         <link href="https://github.blog/2021-10-12-apply-github-universe-2021-micro-mentoring/"/>
@@ -840,18 +801,6 @@ Best conceptual hack: know your rubbish
 The post Jamstack Developers’ Favorite Frameworks of 2021 appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <author>
             <name>Laurie Voss</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Function expressions vs. function declarations revisisted]]></title>
-        <id>https://gomakethings.com/function-expressions-vs.-function-declarations-revisisted/</id>
-        <link href="https://gomakethings.com/function-expressions-vs.-function-declarations-revisisted/"/>
-        <updated>2021-10-12T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Four years ago, I wrote the difference between function expressions and function declarations. Since writing that article, I’ve both changed my approach to writing functions and expanded my explanation to capture the nuance of hoisting in JavaScript.
-Today, I wanted to share my updated thoughts on writing functions. Lets dig in!
-What’s the difference between function expressions and function declarations? There have historically been two ways to write a function.]]></summary>
-        <author>
-            <name>Go Make Things</name>
         </author>
     </entry>
     <entry>
@@ -1084,18 +1033,6 @@ You can watch the whole thing on YouTube now. It’s well worth 20 minutes of yo
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Transitional apps]]></title>
-        <id>https://gomakethings.com/transitional-apps/</id>
-        <link href="https://gomakethings.com/transitional-apps/"/>
-        <updated>2021-10-11T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Rich Harris, the guy who created Svelte (learn more about compilers here), gave a talk at Jamstack Conf last week, and its one of the best talks I’ve ever seen.
-Rich dug into the issues with both single-page apps and multi-page apps (or, more accurately, websites), and coined a term for a new “somewhere in the middle” approach: transitional apps.
-You can watch the whole thing on YouTube now. It’s well worth 20 minutes of your time.]]></summary>
-        <author>
-            <name>Go Make Things</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Better Collaboration With Pull Requests]]></title>
         <id>https://css-tricks.com/?p=352569</id>
         <link href="https://css-tricks.com/better-collaboration-with-pull-requests/"/>
@@ -1115,20 +1052,6 @@ The post Better Collaboration With Pull Requests appeared first on CSS-Tricks. Y
         <summary type="html"><![CDATA[We're talking about Cloudflare product updates, whether you should lie to the browser about image size, Chris is having Cloudinary issues, Dave's answering questions about upgrading from Vue 2 to Vue 3, a question about Font Awesome icons, and what's the deal with Webhint?]]></summary>
         <author>
             <name>ShopTalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hasty Treat - Neat Things in CSS Color - Current and Coming!]]></title>
-        <id>dccce2d3-f3a8-4f5a-bafb-56ead60eaa41</id>
-        <link href="https://traffic.libsyn.com/secure/syntax/Syntax395.mp3"/>
-        <updated>2021-10-11T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this Hasty Treat, Scott and Wes talk about all things color in CSS, both current and coming soon!
- Sentry - Sponsor
- If you want to know what’s happening with your code, track errors and monitor performance with Sentry. Sentry’s Application Monitoring platform helps developers see performance issues, fix errors faster, and optimize their code health. Cut your time on error resolution from hours to minutes. It works with any language and integrates with dozens of other services. Syntax listeners new to Sentry can get two months for free by visiting Sentry.io and using the coupon code TASTYTREAT during sign up.
-  Sanity - Sponsor
-  Sanity.io is a real-time headless CMS with a fully customizable Content Studio built in React. Get a Sanity powered site up and running in minutes at sanity.io…]]></summary>
-        <author>
-            <name>Syntax - Tasty Web Development Treats</name>
         </author>
     </entry>
     <entry>
@@ -1357,19 +1280,6 @@ Any request that comes from the site and any response it gets back first goes th
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Service worker strategies]]></title>
-        <id>https://gomakethings.com/service-worker-strategies/</id>
-        <link href="https://gomakethings.com/service-worker-strategies/"/>
-        <updated>2021-10-08T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[I just launched a brand new pocket guide on Service Workers. Today, I wanted to take a look at the different types of strategies you can use with service workers.
-Let’s dig in!
-What is a service worker? A service worker is a special type of JavaScript file that acts like middleware for your site.
-Any request that comes from the site and any response it gets back first goes through the service worker file.]]></summary>
-        <author>
-            <name>Go Make Things</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[CEO doesn't care about your CSS strategy, as long as you use Tailwind]]></title>
         <id>https://news.ycombinator.com/item?id=28799487</id>
         <link href="https://ideas.krishnan.ca/your-ceo-doesnt-care-about-your-css-strategy-as-long-as-you-use-tailwind"/>
@@ -1578,20 +1488,6 @@ The first, start, is the index of the item you want to modify in the array. It�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to delete an item from an array with vanilla JavaScript]]></title>
-        <id>https://gomakethings.com/how-to-delete-an-item-from-an-array-with-vanilla-javascript/</id>
-        <link href="https://gomakethings.com/how-to-delete-an-item-from-an-array-with-vanilla-javascript/"/>
-        <updated>2021-10-07T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Let’s say you have an array of wizards, like this.
-let wizards = ['Gandalf', 'Radagast', 'Merlin'];  You want to remove the second item, Radagast, from the array. How would you do it?
-Let’s dig in!
-Using the Array.splice() method The Array.splice() method accepts three arguments: start, delete, and items.
-The first, start, is the index of the item you want to modify in the array. It’s the only required argument.]]></summary>
-        <author>
-            <name>Go Make Things</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Using #nextjs? 
 
 GitHub user @‌alb got you covered with the new tiptap installation guide. ⚡️
@@ -1703,18 +1599,6 @@ The post Control your data for good with Rally appeared first on Mozilla Hacks -
 The post Control your data for good with Rally appeared first on Mozilla Hacks - the Web developer blog.]]></summary>
         <author>
             <name>Melissa Thermidor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Potluck — Corn Shucking × Self-Hosting Images × WordPress × Getting Scammed × Portfolios]]></title>
-        <id>c9204b4d-7144-4589-bff5-2fd2276fc119</id>
-        <link href="https://traffic.libsyn.com/secure/syntax/Syntax394.mp3"/>
-        <updated>2021-10-06T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s another Potluck! In this episode, Scott and Wes answer your questions about corn shucking, self-hosting images, WordPress, getting scammed, portfolios, more!
- Linode - Sponsor
-  Whether you’re working on a personal project or managing enterprise infrastructure, you deserve simple, affordable, and accessible cloud computing solutions that allow you to take your project to the next level. Simplify your cloud infrastructure with Linode’s Linux virtual machines and develop, deploy, and scale your modern applications faster and easier. Get started on Linode today with a $100 in free credit for listeners of Syntax. You can find all the details at linode.com/syntax. Linode has 11 global data centers and provides 24/7/365 human support with no tiers or hand-offs regardless of your plan size. …]]></summary>
-        <author>
-            <name>Syntax - Tasty Web Development Treats</name>
         </author>
     </entry>
     <entry>
@@ -1834,6 +1718,35 @@ A third-party embed is any content …]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Bootstrap 5.1.2]]></title>
+        <id>https://blog.getbootstrap.com/2021/10/05/bootstrap-5-1-2/</id>
+        <link href="https://blog.getbootstrap.com/2021/10/05/bootstrap-5-1-2/"/>
+        <updated>2021-10-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bootstrap v5.1.2 is here with a handful of improvements across our components, plus a fix for an issue in another project that prevented our Sass from compiling properly. Keep reading for the highlights.
+Highlights
+Temporarily patched a postcss-values-parser issue by rearranging our calc() functions that use negative numbers. This should restore the ability to import and compile Bootstrap’s Sass in create-react-app.
+Added border-radius sizes to small and large .form-selects
+Added align-self: center to buttons for improved rendering in flex containers
+Fixed Collapse regression that prevented toggling between sibling children
+Updated JS Sanitizer to add sms in the SAFE_URL_PATTERN
+Improved docs around .img-fluid
+Added role="switch" to our form switches in our docs
+Implemented GitHub Issue forms to replace our previous issue templates.
+Up next
+Up next is our v5.2.0 release, adding more utility improvements and fixing an issue with how Sass handles re-assigned maps and variables. Alongside that, we’ll be shipping an update to v4 soon as well.
+Get the release
+Head to https://getbootstrap.com for the latest. It’s also been pushed to npm:
+npm i bootstrap
+
+
+Review the GitHub v5.1.2 release changelog for a complete list of changes since our last release.
+Support the team
+Visit our Open Collective page or our team members' GitHub profiles to help support the maintainers contributing to Bootstrap.]]></summary>
+        <author>
+            <name>Bootstrap Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[A new public beta of GitHub Releases: How we’re improving the release experience]]></title>
         <id>https://github.blog/?p=60544</id>
         <link href="https://github.blog/2021-10-04-beta-github-releases-improving-release-experience/"/>
@@ -1879,90 +1792,6 @@ piped.kavin.rocks/watch?v=oG6XPy1t…]]></summary>
         <summary type="html"><![CDATA[As Chris says, we're back to the meat 'n potatoes of ShopTalk with a Q&A episode including: XState thoughts, getting comfortable with JavaScript, tips on managing several WordPress sites, the best method to schedule high latency tasks with Node.js, a strategy for background images in CSS, and dealing with landing pages and subpages.]]></summary>
         <author>
             <name>ShopTalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hasty Treat - Spicy Takeout - PHP Is Good and We’re Just Re-Creating It]]></title>
-        <id>1837f8a6-fcaa-4cef-b0c8-d3dfd80a2506</id>
-        <link href="https://traffic.libsyn.com/secure/syntax/Syntax393.mp3"/>
-        <updated>2021-10-04T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this Hasty Treat, Scott and Wes talk about how much modern web development has taken from PHP!
- Freshbooks - Sponsor
-  Get a 30 day free trial of Freshbooks at freshbooks.com/syntax and put SYNTAX in the “How did you hear about us?” section.
-  LogRocket - Sponsor
-  LogRocket lets you replay what users do on your site, helping you reproduce bugs and fix issues faster. It’s an exception tracker, a session re-player and a performance monitor. Get 14 days free at logrocket.com/syntax.
-  Show Notes
-  03:56 - Why much of modern web development is just recreating PHP
-  
- Everyone loves to hate on PHP, but modern Web dev takes a lot from PHP
-  
- 05:44 - Mixing templating and logic
-  
- We do this with JSX
-  
- 07:39 - Each request has its own scope
-  08:57 - Massive standard lib
-  
- Format a date? No sweat!
-  Image resizing? Sure!
-  Audio bindings? Sure!
-  
- 10:16 - URL-based routing
-  
- Next.js pages
-  Serverless functions
-  
- 11:13 - Server-rendered
-  
- Hotwire
-  
- 11:38 - $_GET, $_POST, are just available
-  
- Next.js hooks
-  
- 12:29 - Variable interpolation
-  12:59 - All-in-one frameworks
-  
- Laravel did it
-  CakePHP
-  CodeIgnighter
-  
- 13:32 - Direct DB access
-  
- SQL statements
-  
- 14:37 - Why do people hate PHP?
-  
- WordPress
-  Inconsistent API
-  Their first code was PHP and they sucked
-  PHP has come a long way
-  It used to not be safe
-  Blocking by default - no async/await
-  
- 17:48 - Why is JS still better?
-  
- Shared code between frontend and backend
-  Single language
-  Huge ecosystem (could be a con)
-  
- Links
-  
-  Syntax 267: Hasty Treat - Turbolinks + Server Generated HTML + JS Sprinkles
-  https://vuejs.org/
-  https://www.hey.com/
-  
- Tweet us your tasty treats!
-  
- Scott’s Instagram
-  LevelUpTutorials Instagram
-  Wes’ Instagram
-  Wes’ Twitter
-  Wes’ Facebook
-  Scott’s Twitter
-  Make sure to include @SyntaxFM in your tweets]]></summary>
-        <author>
-            <name>Syntax - Tasty Web Development Treats</name>
         </author>
     </entry>
     <entry>
@@ -2274,20 +2103,6 @@ I happily defer to their expertise on this topic. Have a listen and hear what th
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Changelog Frontend Feud]]></title>
-        <id>f8c38a43-70e3-4845-8337-7248c69a0247</id>
-        <link href="https://traffic.libsyn.com/secure/syntax/Syntax392.mp3"/>
-        <updated>2021-09-29T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this episode of Syntax, Scott and Wes do a crossover episode with Changelog’s JS Party! Your favorite web dev podcasts join forces for a super collab that’ll knock you frontend off! Amelia joins Chris Coyier and Dave Rupert from ShopTalk Show, while Divya teams up with Wes Bos and Scott Tolinski from Syntax. Let the FEUDing begin!
- .TECH Domains - Sponsor
-  .TECH is taking the tech industry by storm. A domain that shows the world what you are all about! If you’re looking for a domain name for your startup, portfolio, or your own project like we did with uses.tech, check out .tech Domains. Syntax listeners can snap their .TECH Domains at 80% off on five-year registration by visiting go.tech/syntaxistech and using the coupon code “syntax5”.
-  LogRocket - Sponsor
-  LogRocket lets you repla…]]></summary>
-        <author>
-            <name>Syntax - Tasty Web Development Treats</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Using Modern Image Formats: AVIF And WebP]]></title>
         <id>https://smashingmagazine.com/2021/09/modern-image-formats-avif-webp/</id>
         <link href="https://smashingmagazine.com/2021/09/modern-image-formats-avif-webp/"/>
@@ -2475,18 +2290,6 @@ Points: 14
         <summary type="html"><![CDATA[In 2019, to meet GitHub's growth and availability challenges, we set a plan in motion to improve our tooling and ability to partition relational databases.]]></summary>
         <author>
             <name>Engineering – The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hasty Treat - Desktop Apps + New Tech We Love]]></title>
-        <id>992bf148-3315-4457-8f32-141795c8cad8</id>
-        <link href="https://traffic.libsyn.com/secure/syntax/Syntax391.mp3"/>
-        <updated>2021-09-27T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this Hasty Treat, Scott and Wes talk about the hottest new tech they love!
- Linode - Sponsor
-  Whether you’re working on a personal project or managing enterprise infrastructure, you deserve simple, affordable, and accessible cloud computing solutions that allow you to take your project to the next level. Simplify your cloud infrastructure with Linode’s Linux virtual machines and develop, deploy, and scale your modern applications faster and easier. Get started on Linode today with a $100 in free credit for listeners of Syntax. You can find all the details at linode.com/syntax. Linode has 11 global data centers and provides 24/7/365 human support with no tiers or hand-offs regardless of your plan size. In addition to shared and dedicated compute instances, you can use your $100 in credi…]]></summary>
-        <author>
-            <name>Syntax - Tasty Web Development Treats</name>
         </author>
     </entry>
     <entry>
@@ -2817,6 +2620,16 @@ accessing FTP URLs …]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Kustomer Is Hiring]]></title>
+        <id>https://benmccormick.org/2021/09/23/kustomer-is-hiring</id>
+        <link href="https://benmccormick.org/2021/09/23/kustomer-is-hiring"/>
+        <updated>2021-09-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ben McCormick's blog on JavaScript and Web Development]]></summary>
+        <author>
+            <name>ben@benmccormick.org (Ben McCormick)</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[334: Custom Properties]]></title>
         <id>https://blog.codepen.io/?p=15889</id>
         <link href="https://blog.codepen.io/2021/09/22/334-custom-properties/"/>
@@ -2838,17 +2651,13 @@ The post 334: Custom Properties appeared first on CodePen Blog.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[From React To SvelteKit]]></title>
-        <id>4817c5e0-4cac-4ad0-8da6-abe9f55a6abb</id>
-        <link href="https://traffic.libsyn.com/secure/syntax/Syntax390.mp3"/>
-        <updated>2021-09-22T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this episode of Syntax, Scott talks with Wes about moving Level Up Tutorials from React to SvelteKit — why he did it, how, benefits, things to watch out for, and more!
- Prismic - Sponsor
-  Prismic is a Headless CMS that makes it easy to build website pages as a set of components. Break pages into sections of components using React, Vue, or whatever you like. Make corresponding Slices in Prismic. Start building pages dynamically in minutes. Get started at prismic.io/syntax.
-  Sentry - Sponsor
- If you want to know what’s happening with your code, track errors and monitor performance with Sentry. Sentry’s Application Monitoring platform helps developers see performance issues, fix errors faster, and optimize their code health. Cut your time on error resolution from hours to minutes. It wor…]]></summary>
+        <title type="html"><![CDATA[(Neo)vim tips and tricks: Volume One]]></title>
+        <id>https://benfrain.com/?p=4361</id>
+        <link href="https://benfrain.com/neovim-tips-and-tricks-volume-one/"/>
+        <updated>2021-09-22T12:02:37.000Z</updated>
+        <summary type="html"><![CDATA[Intro Want the YouTube version? I flip back and forth between editors. Usually I'm in Sublime but I'm back using NeoVim for the last few weeks. Subsequently, I've picked up a few things using it, and being back in the Terminal full time, that I thought would be worth sharing. Copying/Moving lines to marks There's […]]]></summary>
         <author>
-            <name>Syntax - Tasty Web Development Treats</name>
+            <name>Ben Frain</name>
         </author>
     </entry>
     <entry>
@@ -3027,18 +2836,6 @@ using sRGB. Previously, s…]]></summary>
         <summary type="html"><![CDATA[Crossover! Your favorite web dev podcasts join forces for a super collab that’ll knock you frontend off! Amelia joins Chris Coyier and Dave Rupert from ShopTalk Show while Divya teams up with Wes Bos & Scott Tolinski from Syntax. Let the FEUDing begin!]]></summary>
         <author>
             <name>ShopTalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hasty Treat - Webhooks]]></title>
-        <id>da53ef35-ec58-4629-8668-c468fe3ebab7</id>
-        <link href="https://traffic.libsyn.com/secure/syntax/Syntax389.mp3"/>
-        <updated>2021-09-20T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this Hasty Treat, Scott and Wes talk about webhooks — one of those concepts that seems a lot scarier than it actually is.
- Linode - Sponsor
-  Whether you’re working on a personal project or managing enterprise infrastructure, you deserve simple, affordable, and accessible cloud computing solutions that allow you to take your project to the next level. Simplify your cloud infrastructure with Linode’s Linux virtual machines and develop, deploy, and scale your modern applications faster and easier. Get started on Linode today with a $100 in free credit for listeners of Syntax. You can find all the details at linode.com/syntax. Linode has 11 global data centers and provides 24/7/365 human support with no tiers or hand-offs regardless of your plan size. In addition to shared and dedicated co…]]></summary>
-        <author>
-            <name>Syntax - Tasty Web Development Treats</name>
         </author>
     </entry>
     <entry>

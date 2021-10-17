@@ -1531,76 +1531,6 @@
       ]
     },
     {
-      "title": "Go Make Things",
-      "feedUrl": "https://gomakethings.com/feed",
-      "siteUrl": "https://gomakethings.com",
-      "articles": [
-        {
-          "id": "https://gomakethings.com/boolean-shorthands-and-truthiness/",
-          "author": null,
-          "description": "Today in the current session of Vanilla JS Academy, my students are working on a character and word count script.\nMy solution for counting words looks like this.\n// Split the text content into an array, using spaces to break words // Use Array.filter() to remove any words without a length // (this removes double spaces in the content) let words = text.value.split(' ').filter(function (word) { return word.length; });  One of my students has a solution that looks like this.",
-          "link": "https://gomakethings.com/boolean-shorthands-and-truthiness/",
-          "publishedOn": "2021-10-15T14:30:00.000Z",
-          "wordCount": 322,
-          "title": "Boolean shorthands and truthiness"
-        },
-        {
-          "id": "https://gomakethings.com/was-it-easier-to-build-websites-a-decade-ago/",
-          "author": null,
-          "description": "This week, Tim McNamara tweeted:\n Why is it harder to make a website in 2021 than it was in 1996?\nI mean, writing your own HTML in Notepad and uploading it via FTP was a chore. But it was understandable and easy.\nIf you want to create a fanpage of some obscure topic, everything is just … too much. So instead, people will create an Instagram/TikTok/Facebook/etc and start posting there.",
-          "link": "https://gomakethings.com/was-it-easier-to-build-websites-a-decade-ago/",
-          "publishedOn": "2021-10-14T14:30:00.000Z",
-          "wordCount": 1056,
-          "title": "Was it easier to build websites a decade ago?"
-        },
-        {
-          "id": "https://gomakethings.com/vanilla-js-academy-for-teams/",
-          "author": null,
-          "description": "Two years ago, I launched a project-based online JavaScript workshop call the Vanilla JS Academy.\nI’d heard from so many people who understood the basics of JS, but struggled to put this pieces together to build actual projects. The program was specifically designed to help students get better at that, and learn how to use JavaScript to solve problems.\nIt quickly became my most popular product.\nOver 600 people have attended the Vanilla JS Academy in the last two years.",
-          "link": "https://gomakethings.com/vanilla-js-academy-for-teams/",
-          "publishedOn": "2021-10-13T14:30:00.000Z",
-          "wordCount": 362,
-          "title": "Vanilla JS Academy for Teams"
-        },
-        {
-          "id": "https://gomakethings.com/function-expressions-vs.-function-declarations-revisisted/",
-          "author": null,
-          "description": "Four years ago, I wrote the difference between function expressions and function declarations. Since writing that article, I’ve both changed my approach to writing functions and expanded my explanation to capture the nuance of hoisting in JavaScript.\nToday, I wanted to share my updated thoughts on writing functions. Lets dig in!\nWhat’s the difference between function expressions and function declarations? There have historically been two ways to write a function.",
-          "link": "https://gomakethings.com/function-expressions-vs.-function-declarations-revisisted/",
-          "publishedOn": "2021-10-12T14:30:00.000Z",
-          "wordCount": 594,
-          "title": "Function expressions vs. function declarations revisisted"
-        },
-        {
-          "id": "https://gomakethings.com/transitional-apps/",
-          "author": null,
-          "description": "Rich Harris, the guy who created Svelte (learn more about compilers here), gave a talk at Jamstack Conf last week, and its one of the best talks I’ve ever seen.\nRich dug into the issues with both single-page apps and multi-page apps (or, more accurately, websites), and coined a term for a new “somewhere in the middle” approach: transitional apps.\nYou can watch the whole thing on YouTube now. It’s well worth 20 minutes of your time.",
-          "link": "https://gomakethings.com/transitional-apps/",
-          "publishedOn": "2021-10-11T14:30:00.000Z",
-          "wordCount": 176,
-          "title": "Transitional apps"
-        },
-        {
-          "id": "https://gomakethings.com/service-worker-strategies/",
-          "author": null,
-          "description": "I just launched a brand new pocket guide on Service Workers. Today, I wanted to take a look at the different types of strategies you can use with service workers.\nLet’s dig in!\nWhat is a service worker? A service worker is a special type of JavaScript file that acts like middleware for your site.\nAny request that comes from the site and any response it gets back first goes through the service worker file.",
-          "link": "https://gomakethings.com/service-worker-strategies/",
-          "publishedOn": "2021-10-08T14:30:00.000Z",
-          "wordCount": 875,
-          "title": "Service worker strategies"
-        },
-        {
-          "id": "https://gomakethings.com/how-to-delete-an-item-from-an-array-with-vanilla-javascript/",
-          "author": null,
-          "description": "Let’s say you have an array of wizards, like this.\nlet wizards = ['Gandalf', 'Radagast', 'Merlin'];  You want to remove the second item, Radagast, from the array. How would you do it?\nLet’s dig in!\nUsing the Array.splice() method The Array.splice() method accepts three arguments: start, delete, and items.\nThe first, start, is the index of the item you want to modify in the array. It’s the only required argument.",
-          "link": "https://gomakethings.com/how-to-delete-an-item-from-an-array-with-vanilla-javascript/",
-          "publishedOn": "2021-10-07T14:30:00.000Z",
-          "wordCount": 525,
-          "title": "How to delete an item from an array with vanilla JavaScript"
-        }
-      ]
-    },
-    {
       "title": "ShopTalk",
       "feedUrl": "https://shoptalkshow.com/feed/podcast/",
       "siteUrl": "https://shoptalkshow.com/",
@@ -1671,149 +1601,6 @@
             "url": "https://shoptalkshow.com/podcast-download/5127/481.mp3",
             "length": "25325171",
             "type": "audio/mpeg"
-          }
-        }
-      ]
-    },
-    {
-      "title": "Syntax - Tasty Web Development Treats",
-      "feedUrl": "https://feed.syntax.fm/rss",
-      "siteUrl": "https://syntax.fm",
-      "articles": [
-        {
-          "id": "dee06b78-2566-423b-be17-aea824e29569",
-          "author": null,
-          "description": "In this episode of Syntax, Scott and Wes talk about running a podcast — recording, sponsoring, where to start, and more!\n Freshbooks - Sponsor\n  Get a 30 day free trial of Freshbooks at freshbooks.com/syntax and put SYNTAX in the “How did you hear about us?” section.\n  LogRocket - Sponsor\n  LogRocket lets you replay what users do on your site, helping you reproduce bugs and fix issues faster. It’s an exception tracker, a session re-player and a performance monitor. Get 14 days free at logrocket.com/syntax.\n  Cloudinary - Sponsor\n   Cloudinary is the best way to manage images and videos in the cloud. Edit and transform for any use case, from performance to personalization, using Cloudinary’s APIs, SDKs, widgets, and integrations.\n  Show Notes\n  01:45 - Recording Setup\n  \n Zoom to chat\n  Rec…",
-          "link": "https://traffic.libsyn.com/secure/syntax/Syntax396.mp3",
-          "publishedOn": "2021-10-13T13:00:00.000Z",
-          "wordCount": null,
-          "title": "A Podcast on Running a Podcast",
-          "itunes": {
-            "duration": "52:28"
-          },
-          "enclosure": {
-            "length": "54177085",
-            "type": "audio/mpeg",
-            "url": "https://traffic.libsyn.com/secure/syntax/Syntax396.mp3?dest-id=532671"
-          }
-        },
-        {
-          "id": "dccce2d3-f3a8-4f5a-bafb-56ead60eaa41",
-          "author": null,
-          "description": "In this Hasty Treat, Scott and Wes talk about all things color in CSS, both current and coming soon!\n Sentry - Sponsor\n If you want to know what’s happening with your code, track errors and monitor performance with Sentry. Sentry’s Application Monitoring platform helps developers see performance issues, fix errors faster, and optimize their code health. Cut your time on error resolution from hours to minutes. It works with any language and integrates with dozens of other services. Syntax listeners new to Sentry can get two months for free by visiting Sentry.io and using the coupon code TASTYTREAT during sign up.\n  Sanity - Sponsor\n  Sanity.io is a real-time headless CMS with a fully customizable Content Studio built in React. Get a Sanity powered site up and running in minutes at sanity.io…",
-          "link": "https://traffic.libsyn.com/secure/syntax/Syntax395.mp3",
-          "publishedOn": "2021-10-11T13:00:00.000Z",
-          "wordCount": null,
-          "title": "Hasty Treat - Neat Things in CSS Color - Current and Coming!",
-          "itunes": {
-            "duration": "26:48"
-          },
-          "enclosure": {
-            "length": "29537826",
-            "type": "audio/mpeg",
-            "url": "https://traffic.libsyn.com/secure/syntax/Syntax395.mp3?dest-id=532671"
-          }
-        },
-        {
-          "id": "c9204b4d-7144-4589-bff5-2fd2276fc119",
-          "author": null,
-          "description": "It’s another Potluck! In this episode, Scott and Wes answer your questions about corn shucking, self-hosting images, WordPress, getting scammed, portfolios, more!\n Linode - Sponsor\n  Whether you’re working on a personal project or managing enterprise infrastructure, you deserve simple, affordable, and accessible cloud computing solutions that allow you to take your project to the next level. Simplify your cloud infrastructure with Linode’s Linux virtual machines and develop, deploy, and scale your modern applications faster and easier. Get started on Linode today with a $100 in free credit for listeners of Syntax. You can find all the details at linode.com/syntax. Linode has 11 global data centers and provides 24/7/365 human support with no tiers or hand-offs regardless of your plan size. …",
-          "link": "https://traffic.libsyn.com/secure/syntax/Syntax394.mp3",
-          "publishedOn": "2021-10-06T13:00:00.000Z",
-          "wordCount": null,
-          "title": "Potluck — Corn Shucking × Self-Hosting Images × WordPress × Getting Scammed × Portfolios",
-          "itunes": {
-            "duration": "57:39"
-          },
-          "enclosure": {
-            "length": "59172277",
-            "type": "audio/mpeg",
-            "url": "https://traffic.libsyn.com/secure/syntax/Syntax394.mp3?dest-id=532671"
-          }
-        },
-        {
-          "id": "1837f8a6-fcaa-4cef-b0c8-d3dfd80a2506",
-          "author": null,
-          "description": "In this Hasty Treat, Scott and Wes talk about how much modern web development has taken from PHP!\n Freshbooks - Sponsor\n  Get a 30 day free trial of Freshbooks at freshbooks.com/syntax and put SYNTAX in the “How did you hear about us?” section.\n  LogRocket - Sponsor\n  LogRocket lets you replay what users do on your site, helping you reproduce bugs and fix issues faster. It’s an exception tracker, a session re-player and a performance monitor. Get 14 days free at logrocket.com/syntax.\n  Show Notes\n  03:56 - Why much of modern web development is just recreating PHP\n  \n Everyone loves to hate on PHP, but modern Web dev takes a lot from PHP\n  \n 05:44 - Mixing templating and logic\n  \n We do this with JSX\n  \n 07:39 - Each request has its own scope\n  08:57 - Massive standard lib\n  \n Format a date? No sweat!\n  Image resizing? Sure!\n  Audio bindings? Sure!\n  \n 10:16 - URL-based routing\n  \n Next.js pages\n  Serverless functions\n  \n 11:13 - Server-rendered\n  \n Hotwire\n  \n 11:38 - $_GET, $_POST, are just available\n  \n Next.js hooks\n  \n 12:29 - Variable interpolation\n  12:59 - All-in-one frameworks\n  \n Laravel did it\n  CakePHP\n  CodeIgnighter\n  \n 13:32 - Direct DB access\n  \n SQL statements\n  \n 14:37 - Why do people hate PHP?\n  \n WordPress\n  Inconsistent API\n  Their first code was PHP and they sucked\n  PHP has come a long way\n  It used to not be safe\n  Blocking by default - no async/await\n  \n 17:48 - Why is JS still better?\n  \n Shared code between frontend and backend\n  Single language\n  Huge ecosystem (could be a con)\n  \n Links\n  \n  Syntax 267: Hasty Treat - Turbolinks + Server Generated HTML + JS Sprinkles\n  https://vuejs.org/\n  https://www.hey.com/\n  \n Tweet us your tasty treats!\n  \n Scott’s Instagram\n  LevelUpTutorials Instagram\n  Wes’ Instagram\n  Wes’ Twitter\n  Wes’ Facebook\n  Scott’s Twitter\n  Make sure to include @SyntaxFM in your tweets",
-          "link": "https://traffic.libsyn.com/secure/syntax/Syntax393.mp3",
-          "publishedOn": "2021-10-04T13:00:00.000Z",
-          "wordCount": null,
-          "title": "Hasty Treat - Spicy Takeout - PHP Is Good and We’re Just Re-Creating It",
-          "itunes": {
-            "duration": "21:43"
-          },
-          "enclosure": {
-            "length": "24650212",
-            "type": "audio/mpeg",
-            "url": "https://traffic.libsyn.com/secure/syntax/Syntax393.mp3?dest-id=532671"
-          }
-        },
-        {
-          "id": "f8c38a43-70e3-4845-8337-7248c69a0247",
-          "author": null,
-          "description": "In this episode of Syntax, Scott and Wes do a crossover episode with Changelog’s JS Party! Your favorite web dev podcasts join forces for a super collab that’ll knock you frontend off! Amelia joins Chris Coyier and Dave Rupert from ShopTalk Show, while Divya teams up with Wes Bos and Scott Tolinski from Syntax. Let the FEUDing begin!\n .TECH Domains - Sponsor\n  .TECH is taking the tech industry by storm. A domain that shows the world what you are all about! If you’re looking for a domain name for your startup, portfolio, or your own project like we did with uses.tech, check out .tech Domains. Syntax listeners can snap their .TECH Domains at 80% off on five-year registration by visiting go.tech/syntaxistech and using the coupon code “syntax5”.\n  LogRocket - Sponsor\n  LogRocket lets you repla…",
-          "link": "https://traffic.libsyn.com/secure/syntax/Syntax392.mp3",
-          "publishedOn": "2021-09-29T13:00:00.000Z",
-          "wordCount": null,
-          "title": "Changelog Frontend Feud",
-          "itunes": {
-            "duration": "53:15"
-          },
-          "enclosure": {
-            "length": "54925012",
-            "type": "audio/mpeg",
-            "url": "https://traffic.libsyn.com/secure/syntax/Syntax392.mp3?dest-id=532671"
-          }
-        },
-        {
-          "id": "992bf148-3315-4457-8f32-141795c8cad8",
-          "author": null,
-          "description": "In this Hasty Treat, Scott and Wes talk about the hottest new tech they love!\n Linode - Sponsor\n  Whether you’re working on a personal project or managing enterprise infrastructure, you deserve simple, affordable, and accessible cloud computing solutions that allow you to take your project to the next level. Simplify your cloud infrastructure with Linode’s Linux virtual machines and develop, deploy, and scale your modern applications faster and easier. Get started on Linode today with a $100 in free credit for listeners of Syntax. You can find all the details at linode.com/syntax. Linode has 11 global data centers and provides 24/7/365 human support with no tiers or hand-offs regardless of your plan size. In addition to shared and dedicated compute instances, you can use your $100 in credi…",
-          "link": "https://traffic.libsyn.com/secure/syntax/Syntax391.mp3",
-          "publishedOn": "2021-09-27T13:00:00.000Z",
-          "wordCount": null,
-          "title": "Hasty Treat - Desktop Apps + New Tech We Love",
-          "itunes": {
-            "duration": "32:30"
-          },
-          "enclosure": {
-            "length": "35012339",
-            "type": "audio/mpeg",
-            "url": "https://traffic.libsyn.com/secure/syntax/Syntax391.mp3?dest-id=532671"
-          }
-        },
-        {
-          "id": "4817c5e0-4cac-4ad0-8da6-abe9f55a6abb",
-          "author": null,
-          "description": "In this episode of Syntax, Scott talks with Wes about moving Level Up Tutorials from React to SvelteKit — why he did it, how, benefits, things to watch out for, and more!\n Prismic - Sponsor\n  Prismic is a Headless CMS that makes it easy to build website pages as a set of components. Break pages into sections of components using React, Vue, or whatever you like. Make corresponding Slices in Prismic. Start building pages dynamically in minutes. Get started at prismic.io/syntax.\n  Sentry - Sponsor\n If you want to know what’s happening with your code, track errors and monitor performance with Sentry. Sentry’s Application Monitoring platform helps developers see performance issues, fix errors faster, and optimize their code health. Cut your time on error resolution from hours to minutes. It wor…",
-          "link": "https://traffic.libsyn.com/secure/syntax/Syntax390.mp3",
-          "publishedOn": "2021-09-22T13:00:00.000Z",
-          "wordCount": null,
-          "title": "From React To SvelteKit",
-          "itunes": {
-            "duration": "55:27"
-          },
-          "enclosure": {
-            "length": "57046818",
-            "type": "audio/mpeg",
-            "url": "https://traffic.libsyn.com/secure/syntax/Syntax390.mp3?dest-id=532671"
-          }
-        },
-        {
-          "id": "da53ef35-ec58-4629-8668-c468fe3ebab7",
-          "author": null,
-          "description": "In this Hasty Treat, Scott and Wes talk about webhooks — one of those concepts that seems a lot scarier than it actually is.\n Linode - Sponsor\n  Whether you’re working on a personal project or managing enterprise infrastructure, you deserve simple, affordable, and accessible cloud computing solutions that allow you to take your project to the next level. Simplify your cloud infrastructure with Linode’s Linux virtual machines and develop, deploy, and scale your modern applications faster and easier. Get started on Linode today with a $100 in free credit for listeners of Syntax. You can find all the details at linode.com/syntax. Linode has 11 global data centers and provides 24/7/365 human support with no tiers or hand-offs regardless of your plan size. In addition to shared and dedicated co…",
-          "link": "https://traffic.libsyn.com/secure/syntax/Syntax389.mp3",
-          "publishedOn": "2021-09-20T13:00:00.000Z",
-          "wordCount": null,
-          "title": "Hasty Treat - Webhooks",
-          "itunes": {
-            "duration": "21:35"
-          },
-          "enclosure": {
-            "length": "24537653",
-            "type": "audio/mpeg",
-            "url": "https://traffic.libsyn.com/secure/syntax/Syntax389.mp3?dest-id=532671"
           }
         }
       ]
@@ -2735,6 +2522,93 @@
       "title": "Always Twisted",
       "feedUrl": "https://alwaystwisted.com/rss.php",
       "siteUrl": "http://alwaystwisted.com/",
+      "articles": []
+    },
+    {
+      "title": "Bootstrap Blog",
+      "feedUrl": "https://blog.getbootstrap.com/feed.xml",
+      "siteUrl": "https://blog.getbootstrap.com/",
+      "articles": [
+        {
+          "id": "https://blog.getbootstrap.com/2021/10/13/bootstrap-icons-1-6-0/",
+          "author": null,
+          "description": "Bootstrap Icons v1.6.0 adds over 30 new icons, adds official Composer support, includes a new .scss stylesheet for the icon font, plus some other enhancements and bug fixes. Keep reading to see what’s new!\n1,400+ icons\nWe’ve officially passed 1,400 glyphs in Bootstrap Icons with this release—woohoo! Seems utterly insane to me that the project has come this far and there are still so many more icons to include.\nWe have a few dozen new and updated icons in this release, including:\nNew brand icons for Apple, Behance, Dribbble, Line, Medium, Microsoft, PayPal, Pinterest, Signal, Snapchat, Spotify, Stack Overflow, Strava, Vimeo, Windows, and WordPress\nTwo new easel variations\nNew fingerprint icon\nNew magic stick\nNew people variations for rolodex, workspace, and video chat\nNew webcam icons\nNew r…",
+          "link": "https://blog.getbootstrap.com/2021/10/13/bootstrap-icons-1-6-0/",
+          "publishedOn": "2021-10-13T00:00:00.000Z",
+          "wordCount": 580,
+          "title": "Bootstrap Icons v1.6.0"
+        },
+        {
+          "id": "https://blog.getbootstrap.com/2021/10/05/bootstrap-5-1-2/",
+          "author": null,
+          "description": "Bootstrap v5.1.2 is here with a handful of improvements across our components, plus a fix for an issue in another project that prevented our Sass from compiling properly. Keep reading for the highlights.\nHighlights\nTemporarily patched a postcss-values-parser issue by rearranging our calc() functions that use negative numbers. This should restore the ability to import and compile Bootstrap’s Sass in create-react-app.\nAdded border-radius sizes to small and large .form-selects\nAdded align-self: center to buttons for improved rendering in flex containers\nFixed Collapse regression that prevented toggling between sibling children\nUpdated JS Sanitizer to add sms in the SAFE_URL_PATTERN\nImproved docs around .img-fluid\nAdded role=\"switch\" to our form switches in our docs\nImplemented GitHub Issue forms to replace our previous issue templates.\nUp next\nUp next is our v5.2.0 release, adding more utility improvements and fixing an issue with how Sass handles re-assigned maps and variables. Alongside that, we’ll be shipping an update to v4 soon as well.\nGet the release\nHead to https://getbootstrap.com for the latest. It’s also been pushed to npm:\nnpm i bootstrap\n\n\nReview the GitHub v5.1.2 release changelog for a complete list of changes since our last release.\nSupport the team\nVisit our Open Collective page or our team members' GitHub profiles to help support the maintainers contributing to Bootstrap.",
+          "link": "https://blog.getbootstrap.com/2021/10/05/bootstrap-5-1-2/",
+          "publishedOn": "2021-10-05T00:00:00.000Z",
+          "wordCount": 314,
+          "title": "Bootstrap 5.1.2"
+        }
+      ]
+    },
+    {
+      "title": "Mozilla Accessibility",
+      "feedUrl": "https://blog.mozilla.org/accessibility/feed/",
+      "siteUrl": "https://blog.mozilla.org/accessibility",
+      "articles": []
+    },
+    {
+      "title": "Firefox UX",
+      "feedUrl": "https://blog.mozilla.org/ux/feed/",
+      "siteUrl": "https://blog.mozilla.org/ux",
+      "articles": []
+    },
+    {
+      "title": "Modern CSS Solutions for Old CSS Problems",
+      "feedUrl": "https://moderncss.dev/feed/",
+      "siteUrl": "https://moderncss.dev/feed/",
+      "articles": []
+    },
+    {
+      "title": "Axess Lab",
+      "feedUrl": "https://axesslab.com/feed/",
+      "siteUrl": "https://axesslab.com",
+      "articles": []
+    },
+    {
+      "title": "Ben Frain",
+      "feedUrl": "https://benfrain.com/feed/",
+      "siteUrl": "https://benfrain.com",
+      "articles": [
+        {
+          "id": "https://benfrain.com/?p=4361",
+          "author": "Ben Frain",
+          "description": "Intro Want the YouTube version? I flip back and forth between editors. Usually I'm in Sublime but I'm back using NeoVim for the last few weeks. Subsequently, I've picked up a few things using it, and being back in the Terminal full time, that I thought would be worth sharing. Copying/Moving lines to marks There's […]",
+          "link": "https://benfrain.com/neovim-tips-and-tricks-volume-one/",
+          "publishedOn": "2021-09-22T12:02:37.000Z",
+          "wordCount": 3125,
+          "title": "(Neo)vim tips and tricks: Volume One"
+        }
+      ]
+    },
+    {
+      "title": "benmccormick.org",
+      "feedUrl": "https://benmccormick.org/rss/",
+      "siteUrl": "http://benmccormick.org",
+      "articles": [
+        {
+          "id": "https://benmccormick.org/2021/09/23/kustomer-is-hiring",
+          "author": "ben@benmccormick.org (Ben McCormick)",
+          "description": "Ben McCormick's blog on JavaScript and Web Development",
+          "link": "https://benmccormick.org/2021/09/23/kustomer-is-hiring",
+          "publishedOn": "2021-09-23T00:00:00.000Z",
+          "wordCount": 689,
+          "title": "Kustomer Is Hiring"
+        }
+      ]
+    },
+    {
+      "title": "Better Web Type",
+      "feedUrl": "https://betterwebtype.com/feed.xml",
+      "siteUrl": "https://betterwebtype.com/",
       "articles": []
     }
   ],
