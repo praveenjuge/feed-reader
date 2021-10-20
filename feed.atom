@@ -2,10 +2,194 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-19T04:28:20.435Z</updated>
+    <updated>2021-10-20T00:25:45.177Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[WDRL — Edition 291: Back again with a mostly CSS edition]]></title>
+        <id>https://wdrl.info/archive/291</id>
+        <link href="https://wdrl.info/archive/291"/>
+        <updated>2021-10-20T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey,
+no, you didn’t miss an edition, I just failed to write again. The struggles of writing WDRL lately made me think and write down something but so far I have no conclusion on how it’ll go on. A few ideas are in my mind already. But autumn in full progress here in Germany, I found some time to read through articles and technologies and here is an edition mostly showing nice CSS solutions but also a couple of things to think about.
+Security
+Jake Archibald teaches us how we win at CORS (Cross-Origin Resource Sharing). This is great because it’s one of the trickier things to test, debug and grasp CORS as a developer.
+HTML & SVG
+Christian Kozalla shows the proper approach to implement and style a dialog element to show a dialog/overlay/modal to a user.
+Accessibility
+Eric Eggert explains the …]]></summary>
+        <author>
+            <name>Latest WDRL editions via Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Create a Winning Blog Content Strategy in 7 Steps]]></title>
+        <id>https://ahrefs.com/blog/?p=136085</id>
+        <link href="https://ahrefs.com/blog/blog-content-strategy/"/>
+        <updated>2021-10-19T21:34:07.000Z</updated>
+        <summary type="html"><![CDATA[Drive traffic to your business. Increase awareness of your brand and products. Bring new customers your way. Educate and nurture your customers and prospects. Help you become a thought leader in your niche. We say “can” because you first need…
+Read more ›]]></summary>
+        <author>
+            <name>Katy Mrvova</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[@supports selector()]]></title>
+        <id>https://css-tricks.com/?p=354115</id>
+        <link href="https://css-tricks.com/supports-selector/"/>
+        <updated>2021-10-19T21:12:18.000Z</updated>
+        <summary type="html"><![CDATA[I didn’t realize the support for @supports determining selector support was so good! I usually think of @supports as a way to test for property: value pair support. But with the selector() function, we can test for selector support …
+The post @supports selector() appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s new from GitHub Changelog? September 2021 recap]]></title>
+        <id>https://github.blog/?p=60737</id>
+        <link href="https://github.blog/2021-10-19-whats-new-from-github-changelog-september-2021-recap/"/>
+        <updated>2021-10-19T19:44:33.000Z</updated>
+        <summary type="html"><![CDATA[Catch up on 44 ships, including a colorblind-accessible theme, a public README.md for organizations, and customization of code review settings.]]></summary>
+        <author>
+            <name>Sidi Merzouk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🎨 Alpha Paintlet]]></title>
+        <id>https://daverupert.com/2021/10/alpha-paintlet/</id>
+        <link href="https://daverupert.com/2021/10/alpha-paintlet/"/>
+        <updated>2021-10-19T15:25:00.000Z</updated>
+        <summary type="html"><![CDATA[On a recent ShopTalk Video about Breakin’ up CSS Custom Properties where we discussed the different degrees of CSS Custom Property usage, I mouthblogged an idea about using CSS Houdini to help make this easier. It stuck with me so I took it out of the mouthblogosphere and made it a reality.
+See the Pen 
+  Alpha Paintlet Demo by Dave Rupert (@davatron5000)
+  on CodePen.
+
+
+View Source on GitHub
+View Demo on CodePen
+And… it works! If you’re wondering why I made this, the tl;dr is that Sass has a superior way of adjusting the alpha channel on ANY COLOR (rgb, hsl, named color, etc) but that does not work with CSS Custom Properties. This little paint worklet restores that flavor of color manipulation to backgrounds and borders. Here’s a video with a more in-depth explanation:
+
+How it works
+To us…]]></summary>
+        <author>
+            <name>daverupert.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Backwards-compatibility in
+Cloudflare Workers]]></title>
+        <id>616edeff48fe5202a7314e2f</id>
+        <link href="https://blog.cloudflare.com/backwards-compatibility-in-cloudflare-workers/"/>
+        <updated>2021-10-19T15:20:10.000Z</updated>
+        <summary type="html"><![CDATA[On the Workers team, we have a policy:
+A change to the Workers Runtime must never break an application that is live in production.]]></summary>
+        <author>
+            <name>Kenton Varda</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An Interview With Elad Shechter on “The New CSS Reset”]]></title>
+        <id>https://css-tricks.com/?p=353462</id>
+        <link href="https://css-tricks.com/an-interview-with-elad-shechter-on-the-new-css-reset/"/>
+        <updated>2021-10-19T14:48:40.000Z</updated>
+        <summary type="html"><![CDATA[Hey folks! Elad reached out to me to show me his new CSS reset project called the-new-css-reset. It’s quite interesting! I thought a neat way to share it with you is not only to point you toward it, but …
+The post An Interview With Elad Shechter on “The New CSS Reset” appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Elad Shechter</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What even is JavaScript?]]></title>
+        <id>https://gomakethings.com/what-even-is-javascript/</id>
+        <link href="https://gomakethings.com/what-even-is-javascript/"/>
+        <updated>2021-10-19T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[A few weeks ago, I had the pleasure of chatting with Jennifer Blumberg, Andrew Welch, and Ryan Irelan over at DevMode.fm (again) about what JavaScript actually is.
+We talked about JavaScript’s convoluted origins, and how a language written in 10 days has become the most popular language on the planet. I also referred to the guy who invented it as Voldemort the entire episode, and somehow got my esteemed hosts onboard with doing so as well!]]></summary>
+        <author>
+            <name>Go Make Things</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building An API With Gatsby Functions]]></title>
+        <id>https://smashingmagazine.com/2021/10/building-api-gatsby-functions/</id>
+        <link href="https://smashingmagazine.com/2021/10/building-api-gatsby-functions/"/>
+        <updated>2021-10-19T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this tutorial, Paul Scanlon explains how to build an API by using Gatsby Functions and what you need to keep in mind when deploying it to Gatsby Cloud.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Paul Scanlon)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[W3C Strategic Highlights, October 2021]]></title>
+        <id>https://www.w3.org/blog/news/?p=9295</id>
+        <link href="https://www.w3.org/blog/news/archives/9295"/>
+        <updated>2021-10-19T13:11:51.000Z</updated>
+        <summary type="html"><![CDATA[W3C released today to the public the October 2021 edition of the W3C Strategic Highlights. This report highlights recent work W3C Members and the public do at the Web Consortium to enhance the Web platform, work towards its growth and strength so that the web remains a tool that has and will continue to accelerate […]]]></summary>
+        <author>
+            <name>Coralie Mercier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeScript & Community Love @ Commsverse]]></title>
+        <id>http://accessibledreams.net/?p=225</id>
+        <link href="https://accessibledreams.net/2021/10/19/commsverse/"/>
+        <updated>2021-10-19T12:16:17.000Z</updated>
+        <summary type="html"><![CDATA[Well, well, what a crazy 18 months ahead. 18 Months of in person conferences lockdown, mental and health challenges all over the world. I admit I didn’t blog enough. As an extrovert I need incentives to create nice blog posts. I spoke at a lot of virtual conferences, so I served the community with my insights. Speaking at (even virtual) conferences is for me easier than blogging because I have more balance between energy givingand energy receiving comparing speaking next to blogging.  Enough of nagging for an optimist like me, because last month I’ve been to my first in person conference after those crazy 18 months. I’ve been to Commsverse in Weybridge in the UK.  We’re running on Teams!  Commsverse is a community conference dedicated on Microsoft Teams. And I know, I am a Developer Technologies MVP coming from Xamarin, moving more and more to Blazor, what did I do at a Microsoft Teams conference? Well, one easy answer: During the pandemic my nonprofit – DDSoft – grew and served a whole new customer base via Microsoft Teams. I’ve been responsible to adopt self-support groups on virtual meetings. It was a … Continue reading TypeScript & Community Love @ Commsverse →]]></summary>
+        <author>
+            <name>Dennie Declercq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pondering Some Scala Performance Questions]]></title>
+        <id>https://www.theguardian.com/info/2021/oct/19/pondering-some-scala-performance-questions</id>
+        <link href="https://www.theguardian.com/info/2021/oct/19/pondering-some-scala-performance-questions"/>
+        <updated>2021-10-19T12:01:38.000Z</updated>
+        <summary type="html"><![CDATA[The Scala compiler is a fascinating tool which powers a large proportion of the Guardian’s infrastructure. But sometimes the work that it does can seem somewhat mysterious. Guardian Scala developer Paul Roberts explores in detail one aspect of this mystery and looks at how understanding it can help us write code more effectively
+Scala is the programming language which underpins many of the most important tools which allow the Guardian to deliver its journalism. And when compared to other languages, Scala has a lot of wonderful tools for making your code simpler. However, sometimes this is achieved by hiding a lot of the complexity. Usually this is a good thing – it’s the compiler writer’s problem and we have the luxury of just being able to ignore it and get on with what we are trying to do. But occasionally it can actually influence the way our code is running and as a result, present us with surprises.
+To have something to work with, I began playing around with solutions to Project Euler problem 39 (spoilers for problems after 100 are discouraged but this one is OK).
+If p is the perimeter of a right angle triangle with integral length sides, {a,b,c}, there are exactly three solutions for p = 120.
+{20,48,52}, {24,45,51}, {30,40,50}
+ Continue reading...]]></summary>
+        <author>
+            <name>Paul Roberts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smashing Podcast Episode 42 With Jeff Smith: What Is DevOps?]]></title>
+        <id>https://smashingmagazine.com/2021/10/smashing-podcast-episode-42/</id>
+        <link href="https://smashingmagazine.com/2021/10/smashing-podcast-episode-42/"/>
+        <updated>2021-10-19T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this episode, we’re talking about DevOps. What is it, and is it a string to add to your web development bow? Drew McLellan talks to expert Jeff Smith to find out.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Drew McLellan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New in Chrome 95]]></title>
+        <id>https://developer.chrome.com/en/blog/new-in-chrome-95/</id>
+        <link href="https://developer.chrome.com/en/blog/new-in-chrome-95/"/>
+        <updated>2021-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Here's what you need to know:
+Routing gets easier with URLPattern baked into the browser.
+The Eye Dropper API provides a built in tool for selecting
+colors.
+There's a new origin trial that allows you to opt into receiving the
+reduced UA string now.
+The PWA Summit videos are all online.
+And there's plenty more.
+I'm Pete LePage, working, and shooting
+from home, let's dive in and see what's new for developers in Chrome 95.
+# Routing with URLPattern
+Nearly all web apps depend on routing in some way whether it's code running
+on a server that maps a path to files on disk or logic in a single-page app
+that updates the DOM when the URL changes. URLPattern is a new web
+platform API that standardizes routing pattern syntax.
+It builds on the foundation of existing frameworks, making it easier to perf…]]></summary>
+        <author>
+            <name>Chrome Developers - Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Three-Digit Browser Versions in March 2022]]></title>
         <id>https://css-tricks.com/?p=354269</id>
@@ -2945,71 +3129,6 @@ using sRGB. Previously, s…]]></summary>
         <summary type="html"><![CDATA[Crossover! Your favorite web dev podcasts join forces for a super collab that’ll knock you frontend off! Amelia joins Chris Coyier and Dave Rupert from ShopTalk Show while Divya teams up with Wes Bos & Scott Tolinski from Syntax. Let the FEUDing begin!]]></summary>
         <author>
             <name>ShopTalk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are Imposter Domains Re-Publishing Your Website?]]></title>
-        <id>https://smashingmagazine.com/2021/09/imposter-domains-republishing-website/</id>
-        <link href="https://smashingmagazine.com/2021/09/imposter-domains-republishing-website/"/>
-        <updated>2021-09-20T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Content scraping is a fact of life on the Internet. When you think of web scraping, you probably do not think about the scrapers turning around and immediately serving your entire, whole page content on another website. But what if your site content is being re-published?  It might be already happening.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Ken Harker)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Future of CSS: Cascade Layers (CSS @layer)]]></title>
-        <id>https://dailydevlinks.com/?p=8446</id>
-        <link href="https://dailydevlinks.com/the-future-of-css-cascade-layers-css-layer/"/>
-        <updated>2021-09-20T09:16:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IndieWeb Avatar, yet another Eleventy Image Service API]]></title>
-        <id>https://www.zachleat.com/web/indieweb-avatar/</id>
-        <link href="https://www.zachleat.com/web/indieweb-avatar/"/>
-        <updated>2021-09-20T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Eleventy API ecosystem is growing (again).
-Screenshots
-Sparklines
-And now, avatars.
-I use Twitter avatars everywhere. They require an Twitter Developer account and an API key to implement. They require the talent being pictured to have a Twitter account (not everyone does). I wanted a more open alternative. I decided to build a little image service that would fetch the icon from any web site, optimize it using Eleventy Image, and return that instead.
-Demo #
-     
-If you want a live demo in the wild, check out the Eleventy Leaderboards (via Speedlify).
-Source Code #
-https://github.com/11ty/api-indieweb-avatar
-Only one path parameter is supported right now: /[url]/ (must be encoded via e.g. encodeURIComponent)
-My version is running on https://v1.indieweb-avatar.11ty.dev/ using the same versioning via Netlify Branch Subdomains strategy as the screenshot and sparkline services.
-It makes use of Netlify’s On-Demand Builders to reduce the number of external HTTP requests to generate the images.
-Deploy your own #]]></summary>
-        <author>
-            <name>Zach Leatherman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What's New In DevTools (Chrome 95)]]></title>
-        <id>https://developer.chrome.com/en/blog/new-in-devtools-95/</id>
-        <link href="https://developer.chrome.com/en/blog/new-in-devtools-95/"/>
-        <updated>2021-09-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Interested in helping improve DevTools? Sign up to participate in Google User Research here.
-# New CSS length authoring tools
-DevTools added an easier yet flexible way to update lengths in CSS!
-In the Styles pane, look for any CSS property with length (e.g. height, padding).
-Hover over the unit type, and notice the unit type is underlined. Click on it to select a unit type from the dropdown.
-          
-Hover over the unit value, and your mouse pointer is changed to horizontal cursor. Drag horizontally to increase or decrease the value. To adjust the value by 10, hold the Shift key when dragging.
-          
-You can still edit the unit value as text — just click on the value and start editing.
-          
-Chromium issues: 1126178, 1172993
-# Hide issues in the Issues tab
-You can now hide speci…]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
         </author>
     </entry>
 </feed>
