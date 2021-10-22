@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>{{siteTitle}}</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://praveenjuge.com/favicon.ico" />
+  <link rel="alternate" type="application/rss+xml" title="{{siteTitle}}" href="{{feedHref}}" />
+  <style>
+    html {
+      max-width: 800px;
+      line-height: 1.5;
+      margin: 20px auto;
+      font-family: sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color-scheme: dark;
+    }
+
+    article {
+      margin: 15px auto;
+    }
+
+    a {
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    p {
+      color: #727272;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  {{#each dates}}
+  <p>{{isoPublishDate}}</p>
+  {{#each sources}}
+  <a href={{siteUrl}} target=_blank>{{title}}</a>
+  {{#each articles}}
+  <article>
+    <a href={{link}} target=_blank>{{title}}</a>
+    <p>{{description}}</p>
+  </article>
+  {{/each}}
+  {{/each}}
+  {{/each}}
+</body>
+
+</html>
