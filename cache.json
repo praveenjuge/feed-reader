@@ -311,220 +311,6 @@
       "articles": []
     },
     {
-      "title": "The Cloudflare Blog",
-      "feedUrl": "https://blog.cloudflare.com/rss/",
-      "siteUrl": "https://blog.cloudflare.com/",
-      "articles": [
-        {
-          "id": "6171a69548fe5202a7315035",
-          "author": "Alice Bracchi",
-          "description": "See how we’re using Cloudflare Tunnel to share our technical writing with internal stakeholders for a faster, seamless feedback process.",
-          "link": "https://blog.cloudflare.com/cloudflare-tunnel-for-content-teams/",
-          "publishedOn": "2021-10-25T12:59:23.000Z",
-          "wordCount": null,
-          "title": "Cloudflare Tunnel for Content Teams"
-        },
-        {
-          "id": "6172d5ea48fe5202a73150b1",
-          "author": "Dina Kozlov",
-          "description": "We are very excited to announce that Cloudflare for SaaS is generally available, so that every customer, big and small, can use Cloudflare for SaaS to continue scaling and building their SaaS business.",
-          "link": "https://blog.cloudflare.com/cloudflare-for-saas-for-all-now-generally-available/",
-          "publishedOn": "2021-10-22T15:31:00.000Z",
-          "wordCount": null,
-          "title": "Cloudflare for SaaS for All, now Generally Available!"
-        },
-        {
-          "id": "616f127d48fe5202a7314ef1",
-          "author": "Sam Marsh",
-          "description": "Understand how Cloudflare product’s interact via the new dashboard addition ‘Traffic Sequence’.",
-          "link": "https://blog.cloudflare.com/traffic-sequence-which-product-runs-first/",
-          "publishedOn": "2021-10-20T19:00:00.000Z",
-          "wordCount": null,
-          "title": "Traffic Sequence: Which Product Runs First?"
-        },
-        {
-          "id": "616f0f5248fe5202a7314eae",
-          "author": "Sudarsan Reddy",
-          "description": "It is now possible to connect a Cloudflare Tunnel to the Cloudflare network with QUIC. While doing this, we ran into an interesting connectivity problem unique to UDP.",
-          "link": "https://blog.cloudflare.com/getting-cloudflare-tunnels-to-connect-to-the-cloudflare-network-with-quic/",
-          "publishedOn": "2021-10-20T13:00:53.000Z",
-          "wordCount": null,
-          "title": "Getting Cloudflare Tunnels to connect to the Cloudflare Network with QUIC"
-        },
-        {
-          "id": "616f010648fe5202a7314e6c",
-          "author": "Fernando Serto",
-          "description": "Over the last few years, Zero Trust, a term coined by Forrester, picked up a lot of steam. Zero Trust, in its core, is a network architecture and security framework focusing on not having a distinction between external and internal access environments, and never trusting users/roles.",
-          "link": "https://blog.cloudflare.com/zero-trust-not-a-buzzword/",
-          "publishedOn": "2021-10-20T01:00:23.000Z",
-          "wordCount": null,
-          "title": "Zero Trust — Not a Buzzword"
-        },
-        {
-          "id": "616edeff48fe5202a7314e2f",
-          "author": "Kenton Varda",
-          "description": "On the Workers team, we have a policy:\nA change to the Workers Runtime must never break an application that is live in production.",
-          "link": "https://blog.cloudflare.com/backwards-compatibility-in-cloudflare-workers/",
-          "publishedOn": "2021-10-19T15:20:10.000Z",
-          "wordCount": null,
-          "title": "Backwards-compatibility in\nCloudflare Workers"
-        },
-        {
-          "id": "616d8d9ac2a0ee02a722ce51",
-          "author": "Alex Krivit",
-          "description": "Crawler Hints now supports IndexNow, a new protocol that allows websites to notify search engines whenever content on their website content is created, updated, or deleted.",
-          "link": "https://blog.cloudflare.com/cloudflare-now-supports-indexnow/",
-          "publishedOn": "2021-10-18T16:30:53.000Z",
-          "wordCount": null,
-          "title": "Crawler Hints Update: Cloudflare Supports IndexNow and Announces General Availability"
-        },
-        {
-          "id": "61688d7cc2a0ee02a722c84c",
-          "author": "Abe Carryl",
-          "description": "Starting today, users who deploy and manage Cloudflare Tunnel at scale now have easier visibility into their Tunnel’s respective status, routes, uptime, connectors, cloudflared version, and much more through our new UI in the Cloudflare for Teams Dashboard.",
-          "link": "https://blog.cloudflare.com/observe-and-manage-cloudflare-tunnel/",
-          "publishedOn": "2021-10-18T13:46:00.000Z",
-          "wordCount": null,
-          "title": "Tunnel: Cloudflare’s Newest Homeowner"
-        },
-        {
-          "id": "61688bccc2a0ee02a722c828",
-          "author": "Matt Lewis",
-          "description": "We aim to continue expanding our ecosystem of programs and partners to make it seamless for our customers to use Cloudflare. To support our growing ecosystem of partners, we are excited to launch our Technology Partner Program.",
-          "link": "https://blog.cloudflare.com/technology-partner-program/",
-          "publishedOn": "2021-10-15T15:30:00.000Z",
-          "wordCount": null,
-          "title": "Introducing Cloudflare’s Technology Partner Program"
-        },
-        {
-          "id": "61688ea9c2a0ee02a722c876",
-          "author": "Ellie Jamison",
-          "description": "This upcoming summer, we expect to have the largest intern class ever at Cloudflare.",
-          "link": "https://blog.cloudflare.com/kicking-off-cloudflares-summer-2022-internship-program/",
-          "publishedOn": "2021-10-15T15:11:28.000Z",
-          "wordCount": null,
-          "title": "Kicking Off Cloudflare's Summer 2022 Internship Program"
-        },
-        {
-          "id": "616978acc2a0ee02a722cb90",
-          "author": "Vasilis Giotsas",
-          "description": "A challenge with measuring and comparing network performance is the lack of large-scale global performance metrics, like RTT measurements. In this article we describe an alternative approach to active measurements, which accurately predicts network latencies using only passively collected data.",
-          "link": "https://blog.cloudflare.com/cdn-latency-passive-measurement/",
-          "publishedOn": "2021-10-15T13:02:06.000Z",
-          "wordCount": null,
-          "title": "“Look, Ma, no probes!” — Characterizing CDNs’ latencies with passive measurement"
-        },
-        {
-          "id": "616889c7c2a0ee02a722c7e4",
-          "author": "Alex Chen",
-          "description": "We’ve devised novel methods to detect multi-user IP addresses, and today we’re excited to announce their integration into our global threat intelligence products. These will improve the quality of our detection techniques and reduce false positives for our customers, and the clients that visit them.",
-          "link": "https://blog.cloudflare.com/multi-user-ip-address-detection/",
-          "publishedOn": "2021-10-15T13:01:28.000Z",
-          "wordCount": null,
-          "title": "Multi-User IP Address Detection"
-        },
-        {
-          "id": "61687f92c2a0ee02a722c789",
-          "author": "Tanya Verma",
-          "description": "Diagnosing scaling issues in a service associated with TLS termination through a deep dive into some of the incidents it caused.",
-          "link": "https://blog.cloudflare.com/scaling-geo-key-manager/",
-          "publishedOn": "2021-10-15T13:00:57.000Z",
-          "wordCount": null,
-          "title": "Geo Key Manager: Setting up a service for scale"
-        },
-        {
-          "id": "6166e7e065133e02a961145d",
-          "author": "Luke Valenta",
-          "description": "Announcing a public demo and open-sourced implementation of a privacy-preserving compromised credential checking service",
-          "link": "https://blog.cloudflare.com/privacy-preserving-compromised-credential-checking/",
-          "publishedOn": "2021-10-14T12:59:53.000Z",
-          "wordCount": null,
-          "title": "Privacy-Preserving Compromised Credential Checking"
-        },
-        {
-          "id": "6167095265133e02a96114e9",
-          "author": "Marwan Fayed",
-          "description": "IP addresses associated with names, interfaces, and sockets, can tie these things together in a way that IP was never designed to support. This post describes Cloudflare efforts to decouple of IP addresses from names, the latest in a quest for something we’re calling Addressing Agility.",
-          "link": "https://blog.cloudflare.com/addressing-agility/",
-          "publishedOn": "2021-10-14T12:59:18.000Z",
-          "wordCount": null,
-          "title": "Unbuckling the narrow waist of IP: Addressing Agility for Names and Web Services"
-        },
-        {
-          "id": "6166e36a65133e02a961140f",
-          "author": "Ian McQuoid",
-          "description": "We've been studying password problems, including malicious logins using compromised credentials. Here's what we learned and here's where we think we can go from here with safer password systems.",
-          "link": "https://blog.cloudflare.com/research-directions-in-password-security/",
-          "publishedOn": "2021-10-14T12:59:14.000Z",
-          "wordCount": null,
-          "title": "Research Directions in Password Security"
-        },
-        {
-          "id": "6166a9d065133e02a961134c",
-          "author": "Jonathan Hoyland",
-          "description": "Cloudflare helps build a better Internet through collaboration on open and interoperable standards. This post will describe how Cloudflare contributes to the standardization process to enable incremental innovation and drive long-term architectural change.",
-          "link": "https://blog.cloudflare.com/cloudflare-and-the-ietf/",
-          "publishedOn": "2021-10-13T12:59:37.000Z",
-          "wordCount": null,
-          "title": "Cloudflare and the IETF"
-        },
-        {
-          "id": "61607c79966cdd02a833baaf",
-          "author": "Armando Faz-Hernández",
-          "description": "Our Go cryptographic library CIRCL announces support for pairing-based cryptography.",
-          "link": "https://blog.cloudflare.com/circl-pairings-update/",
-          "publishedOn": "2021-10-13T12:59:30.000Z",
-          "wordCount": null,
-          "title": "Pairings in CIRCL"
-        },
-        {
-          "id": "6166aa0165133e02a9611351",
-          "author": "Jonathan Hoyland",
-          "description": "Learn more about Exported Authenticators, a new extension to TLS, currently going through the IETF standardisation process.",
-          "link": "https://blog.cloudflare.com/exported-authenticators-the-long-road-to-rfc/",
-          "publishedOn": "2021-10-13T12:59:28.000Z",
-          "wordCount": null,
-          "title": "Exported Authenticators: The long road to RFC"
-        },
-        {
-          "id": "61655d7b65133e02a9611159",
-          "author": "Talha Paracha",
-          "description": "Real world experiments for evaluating connection coalescing effects.",
-          "link": "https://blog.cloudflare.com/connection-coalescing-experiments/",
-          "publishedOn": "2021-10-13T12:59:25.000Z",
-          "wordCount": null,
-          "title": "Coalescing Connections to Improve Network Privacy and Performance"
-        },
-        {
-          "id": "6164533765133e02a9610f1c",
-          "author": "Suleman Ahmad",
-          "description": "Introducing customized recommendations to improve the security of your website.",
-          "link": "https://blog.cloudflare.com/ssl-tls-recommender/",
-          "publishedOn": "2021-10-12T13:01:00.000Z",
-          "wordCount": null,
-          "title": "Introducing SSL/TLS Recommender"
-        },
-        {
-          "id": "61646f7065133e02a961101c",
-          "author": "Kenton Varda",
-          "description": "Cloudflare worked with TU Graz to study the impact of Spectre on Cloudflare Workers and to develop new defenses against it. Today we're publishing a paper about our research.",
-          "link": "https://blog.cloudflare.com/spectre-research-with-tu-graz/",
-          "publishedOn": "2021-10-12T12:59:31.000Z",
-          "wordCount": null,
-          "title": "Dynamic Process Isolation: Research by Cloudflare and TU Graz"
-        },
-        {
-          "id": "61646b3c65133e02a9610fce",
-          "author": "Christopher Wood",
-          "description": "In this post, we’ll dig into ECH details and describe what this protocol does to move the needle to help build a better Internet.",
-          "link": "https://blog.cloudflare.com/handshake-encryption-endgame-an-ech-update/",
-          "publishedOn": "2021-10-12T12:59:22.000Z",
-          "wordCount": null,
-          "title": "Handshake Encryption: Endgame (an ECH update)"
-        }
-      ]
-    },
-    {
       "title": "CodePen Blog",
       "feedUrl": "https://blog.codepen.io/feed/",
       "siteUrl": "https://blog.codepen.io",
@@ -646,6 +432,15 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=353496",
+          "author": "Mike Neumegen",
+          "description": "The past year has seen a healthy debate around the term ‘Jamstack’ as the definition gets stretched to include new use cases. I recently posted my take on a Jamstack definition in “Static vs. Dynamic vs. Jamstack: Where’s The Line?”…\nThe post The Semantics of Jamstack appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/the-semantics-of-jamstack/",
+          "publishedOn": "2021-10-25T14:20:08.000Z",
+          "wordCount": 1707,
+          "title": "The Semantics of Jamstack"
+        },
         {
           "id": "https://css-tricks.com/?p=354567",
           "author": "Chris Coyier",
@@ -1505,6 +1300,15 @@
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
         {
+          "id": "https://developer.chrome.com/en/blog/new-in-devtools-96/",
+          "author": null,
+          "description": "Interested in helping improve DevTools? Sign up to participate in Google User Research here.\n# Preview feature: New CSS Overview panel\nUse the new CSS Overview panel to identify potential CSS improvements on your page.\nOpen the CSS Overview panel, then click on Capture overview to generate a report of your page’s CSS.\nYou can further drill down on the information. For example, click on a color in the Colors section to view the list of elements that apply the same color. Click on an element to open the element in the Elements panel.\nThe CSS Overview panel is a preview feature. Our team is still actively working on it and we are looking for your feedback for further enhancements.\nRead this article to learn more on the CSS Overview panel.\nChromium issue: 1254557\n# Rendering tab updates\n# Emul…",
+          "link": "https://developer.chrome.com/en/blog/new-in-devtools-96/",
+          "publishedOn": "2021-10-25T00:00:00.000Z",
+          "wordCount": 3035,
+          "title": "What's New In DevTools (Chrome 96)"
+        },
+        {
           "id": "https://developer.chrome.com/en/blog/deps-rems-96/",
           "author": null,
           "description": "Visit ChromeStatus.com for lists of current deprecations and previous removals.\nChrome 96 beta was released on October 21, 2021 and is expected to become the\nstable version in late November, 2021.\n# The \"basic-card\" method of PaymentRequest API\nThe PaymentRequest API has deprecated the basic card payment\nmethod. Its usage is low\nand declining. It underperforms when compared to other payment methods in\ntime-to-checkout and completion rate. Developers can switch to other payment\nmethods as an alternative. Examples include Google Pay, Apple Pay, and Samsung\nPay.\n# Removal timeline\nChrome 96\nThe basic-card method is deprecated in the Reporting API.\nChrome 100\nThe basic-card method will be removed.\n# Deprecation policy\nTo keep the platform healthy, we sometimes remove APIs from the Web Platform\nwhich have run their course. There can be many reasons why we would remove an\nAPI, such as:\nThey are superseded by newer APIs.\nThey are updated to reflect changes to specifications to bring alignment and\nconsistency with other browsers.\nThey are early experiments that never came to fruition in other browsers and\nthus can increase the burden of support for web developers.\nSome of these changes will have an effect on a very small number of sites. To\nmitigate issues ahead of time, we try to give developers advanced notice so they\ncan make the required changes to keep their sites running.\nChrome currently has a process for deprecations and removals of\nAPI's,\nessentially:\nAnnounce on the\nblink-dev\nmailing list.\nSet warnings and give time scales in the Chrome DevTools Console when usage\nis detected on the page.\nWait, monitor, and then remove the feature as usage drops.\nYou can find a list of all deprecated features on chromestatus.com using the\ndeprecated filter and\nremoved features by applying the removed\nfilter. We will also try to\nsummarize some of the changes, reasoning, and migration paths in these posts.",
@@ -1781,6 +1585,15 @@
       "feedUrl": "https://gomakethings.com/feed",
       "siteUrl": "https://gomakethings.com",
       "articles": [
+        {
+          "id": "https://gomakethings.com/the-css-not-pseudo-selector/",
+          "author": null,
+          "description": "I don’t work with CSS much, but whenever I do, I’m continually blown away by how much easier modern CSS is now than it was five years ago.\nI was working on a side-project this weekend, and the :not() pseudo-selector made my life a lot easier!\nWhat the :not() pseudo-selector does The :not() pseudo-selector lets you select elements, but exclude ones that match an additional set of selectors. Pass in the selectors to ignore as an argument.",
+          "link": "https://gomakethings.com/the-css-not-pseudo-selector/",
+          "publishedOn": "2021-10-25T14:30:00.000Z",
+          "wordCount": 331,
+          "title": "The css :not() pseudo-selector"
+        },
         {
           "id": "https://gomakethings.com/pair-programming-sucks/",
           "author": null,
@@ -2243,6 +2056,51 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=28989581",
+          "author": "huashu",
+          "description": "Article URL: https://blog.typogram.co/FontDiscovery-28-Modern-Musings-1e4daa65881143a29f57ddb0397add58\nComments URL: https://news.ycombinator.com/item?id=28989581\nPoints: 1\n# Comments: 0",
+          "link": "https://blog.typogram.co/FontDiscovery-28-Modern-Musings-1e4daa65881143a29f57ddb0397add58",
+          "publishedOn": "2021-10-25T16:18:32.000Z",
+          "wordCount": 10,
+          "title": "FontDiscovery 28: Modern Musings – Elevate your design with this Font"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=28988755",
+          "author": "SebastianFish",
+          "description": "Question: Hacker News, if someone were designing a new programming language (or library system within an existing language) to mitigate supply chain attacks, what features would be most important to you?\nBackground: Open-source code has been an amazing boon for software productivity. However, I believe that most of the code that companies run isn't written by their own developers, it is from various packages and frameworks written by outside individuals and groups. My main focus is writing data intensive software where malicious actors, or just poorly written code, could compromise the confidentiality and/or integrity of customer data via a popular package/dependency. Better sandboxing of relatively untrusted code could be a huge boon for applications that have lots of plugins (think Chrome of VS code).\nA few thoughts I have had on this front is limiting access of untrusted code to system calls that control file and network access is critical. Also, there would be a need to ensure that dependencies can't \"takeover\" a process by overwriting the call-stack to run their own code or spawning a new thread / process. Interested in your thoughts.\nComments URL: https://news.ycombinator.com/item?id=28988755\nPoints: 2\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=28988755",
+          "publishedOn": "2021-10-25T15:16:41.000Z",
+          "wordCount": 287,
+          "title": "Ask HN: Language design to mitigate supply chain attacks?"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=28988511",
+          "author": "kecupochren",
+          "description": "Article URL: https://michel.codes/blogs/ui-as-an-afterthought/\nComments URL: https://news.ycombinator.com/item?id=28988511\nPoints: 2\n# Comments: 0",
+          "link": "https://michel.codes/blogs/ui-as-an-afterthought/",
+          "publishedOn": "2021-10-25T14:55:41.000Z",
+          "wordCount": 1887,
+          "title": "UI as an afterthought"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=28988358",
+          "author": "behnamoh",
+          "description": "Article URL: https://old.reddit.com/r/GooglePixel/comments/qbwd0n/compilation_of_why_android_12_is_not_so_good_with/\nComments URL: https://news.ycombinator.com/item?id=28988358\nPoints: 24\n# Comments: 14",
+          "link": "https://old.reddit.com/r/GooglePixel/comments/qbwd0n/compilation_of_why_android_12_is_not_so_good_with/",
+          "publishedOn": "2021-10-25T14:43:16.000Z",
+          "wordCount": 12982,
+          "title": "Android 12's design is offensive to the user"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=28988276",
+          "author": "samizdis",
+          "description": "Article URL: https://arstechnica.com/science/2021/10/firefly-completes-design-of-moon-mission-aiming-for-2023-launch/\nComments URL: https://news.ycombinator.com/item?id=28988276\nPoints: 5\n# Comments: 0",
+          "link": "https://arstechnica.com/science/2021/10/firefly-completes-design-of-moon-mission-aiming-for-2023-launch/",
+          "publishedOn": "2021-10-25T14:35:47.000Z",
+          "wordCount": 1062,
+          "title": "Firefly completes design of Moon mission, aiming for 2023 launch"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=28986996",
           "author": "rbanffy",
@@ -4126,6 +3984,15 @@
       "feedUrl": "https://www.designernews.co/?format=rss",
       "siteUrl": "/",
       "articles": [
+        {
+          "id": "https://www.designernews.co/stories/118561-a-good-read-if-youre-looking-for-some-motivation-for-those-creative-projects-dify",
+          "author": null,
+          "description": "https://herbertlui.net/dify/",
+          "link": "https://www.designernews.co/stories/118561-a-good-read-if-youre-looking-for-some-motivation-for-those-creative-projects-dify",
+          "publishedOn": "2021-10-25T14:22:20.000Z",
+          "wordCount": 185,
+          "title": "A good read if you're looking for some motivation for those creative projects! DIFY"
+        },
         {
           "id": "https://www.designernews.co/stories/118557-why-webflow-is-better-than-wordpress-in-2021",
           "author": null,
