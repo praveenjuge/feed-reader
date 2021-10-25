@@ -1,43 +1,29 @@
-<html lang="en">
+<meta charset="utf-8" />
+<title>{{siteTitle}}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="dark" />
+<link rel="shortcut icon" href="https://praveenjuge.com/favicon.ico" />
+<link href="index.css" rel="stylesheet" />
 
-  <meta charset="utf-8" />
-  <title>{{siteTitle}}</title>
-  <meta name="robots" content="noindex, nofollow" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="dark" />
-  <link
-    rel="shortcut icon"
-    type="image/x-icon"
-    href="https://praveenjuge.com/favicon.ico"
-  />
-  <link
-    rel="alternate"
-    type="application/rss+xml"
-    title="{{siteTitle}}"
-    href="{{feedHref}}"
-  />
-  <link href="index.css" rel="stylesheet" />
-  <body
-    class="space-y-5 mb-5 antialiased text-stone-500 bg-black mx-auto max-w-4xl p-3 text-sm"
-  >
-    {{#each dates}}
-      <p>{{isoPublishDate}}</p>
-      {{#each sources}}
-        <div class="rounded bg-stone-900 my-5 p-3 space-y-5">
-          <p>{{title}}</p>
-          {{#each articles}}
-            <article class="space-y-0.5">
-              <a
-                href={{link}}
-                target="_blank"
-                class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
-              >{{title}}</a>
-              <p>{{description}}</p>
-            </article>
-          {{/each}}
-        </div>
-      {{/each}}
+<body
+  class="space-y-5 antialiased text-stone-500 bg-black mx-auto max-w-4xl p-3 text-sm my-5"
+>
+  {{#each dates}}
+    <p>{{isoPublishDate}}</p>
+    {{#each sources}}
+      <div class="rounded border border-stone-900 p-3 space-y-5">
+        <p>{{title}}</p>
+        {{#each articles}}
+          <div>
+            <a
+              href={{link}}
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >{{title}}</a>
+            <p class="mt-0.5">{{description}}</p>
+          </div>
+        {{/each}}
+      </div>
     {{/each}}
-  </body>
-
-</html>
+  {{/each}}
+</body>
