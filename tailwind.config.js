@@ -1,3 +1,3 @@
 module.exports = {
-  content: ["./includes/*.hbs", "./public/*.html"],
+  content: ["./includes/*.hbs"],
 };

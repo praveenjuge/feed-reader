@@ -1,14 +1,10 @@
-<html
-  lang="en"
-  class="antialiased text-stone-500 bg-black font-sans mx-auto max-w-4xl p-4 overflow-x-hidden"
->
+<html lang="en">
 
   <meta charset="utf-8" />
   <title>{{siteTitle}}</title>
   <meta name="robots" content="noindex, nofollow" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="dark" />
-  <meta name="theme-color" content="#1C1917" />
   <link
     rel="shortcut icon"
     type="image/x-icon"
@@ -21,20 +17,27 @@
     href="{{feedHref}}"
   />
   <link href="index.css" rel="stylesheet" />
-
-  {{#each dates}}
-    <p>{{isoPublishDate}}</p>
-    {{#each sources}}
-      <section>
-        <a href={{siteUrl}} target="_blank">{{title}}</a>
-        {{#each articles}}
-          <article>
-            <a href={{link}} target="_blank">{{title}}</a>
-            <p>{{description}}</p>
-          </article>
-        {{/each}}
-      </section>
+  <body
+    class="space-y-5 mb-5 antialiased text-stone-500 bg-black mx-auto max-w-4xl p-3 text-sm"
+  >
+    {{#each dates}}
+      <p>{{isoPublishDate}}</p>
+      {{#each sources}}
+        <div class="rounded bg-stone-900 my-5 p-3 space-y-5">
+          <p>{{title}}</p>
+          {{#each articles}}
+            <article class="space-y-0.5">
+              <a
+                href={{link}}
+                target="_blank"
+                class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+              >{{title}}</a>
+              <p>{{description}}</p>
+            </article>
+          {{/each}}
+        </div>
+      {{/each}}
     {{/each}}
-  {{/each}}
+  </body>
 
 </html>
