@@ -374,6 +374,15 @@
       "siteUrl": "https://blog.getbootstrap.com/",
       "articles": [
         {
+          "id": "https://blog.getbootstrap.com/2021/11/01/bootstrap-icons-1-7-0/",
+          "author": null,
+          "description": "Bootstrap Icons v1.7.0 is here with 120 new and updated icons, taking us over 1,500 total icons for the project! It’s the largest update since the initial release, so keep reading to see what’s new.\n120 new icons\nThis update was a lot of fun for me—drawing all these tiny computer parts most of all! There are dozens of new computer related icons for parts, ports, and peripheral devices. There are also several new brand icons, including Meta, and some other fun icons like a new robot head and a boombox.\nLooking for more new icons? Head to the issue tracker to check for open requests or submit a new one.\nInstall\nTo get started, install or update via npm:\nnpm i bootstrap-icons\n\n\nOr Composer:\ncomposer require twbs/bootstrap-icons\n\n\nYou can also download the release from GitHub, or download just the SVGs and fonts (without the rest of the repository files).\nFigma\nThe Figma file is now published to the Figma Community! It’s the same Bootstrap Icons Figma file you’ve seen from previous releases, just a little more accessible to those using the app.",
+          "link": "https://blog.getbootstrap.com/2021/11/01/bootstrap-icons-1-7-0/",
+          "publishedOn": "2021-11-01T00:00:00.000Z",
+          "wordCount": 285,
+          "title": "Bootstrap Icons v1.7.0"
+        },
+        {
           "id": "https://blog.getbootstrap.com/2021/10/28/bootstrap-4.6.1/",
           "author": null,
           "description": "Bootstrap v4.6.1 has finally arrived! Biggest change here is a re-implementation of our Sass division functions and updates from v5, as well as some accessibility improvements and general bug fixes.\nRead on for the highlights or head to the v4.6.x docs to see the latest in action.\nWhat’s changed\nReplace Sass division with multiplication and custom divide() function\nfix(forms): input-group and validation icons\nFix minor visual bug in FF caused by moz-focusring\nAdjust SAFE_URL_PATTERN regex for use with test method of regexes\nAdd sms in the SAFE_URL_PATTERN for sanitizer\nAdjust feedback icon position and padding for select.form-control\nCarousel: use buttons, not links, for prev/next controls\nv4: Sass docs for default variables\nHandle complex expressions in add() & subtract()\nMore concise improvements for add() and subtract()\nRemove aria-haspopup from dropdowns\nDropdown: support .dropdown-item wrapped in <li> tags\nUpdate Node versions in JS tests (drop Node 10, add Node 16) and add variables for vertical-align in spinners\nReplace Freenode with Libera IRC server\nFix repetition in the Navbar docs description\nEnable 0.x with negative margins in utilities\nRemove print thead rule\nFix prevented show event disabling modals with fade class from being displayed again\nInput group validation with custom-file input\nAdd eslint-plugin-qunit and tighten JS tests\nUpdate our tests to Node 16 and npm 8\nDisabled link cleanup\nReview the GitHub v4.6.1 release changelog for more details.\nNext up\nWe’ll be flipping back to v5 development after this release, focusing on v5.2.0 with some additional updates to using more CSS variables and other awesome features. Sometime after that, we hope to ship a v4.7.0 release with some additional backported features and improvements to v4.\nPlease keep the feedback coming on what we can improve, how our releases are performing, and any other suggestions.\nSupport the team\nVisit our Open Collective page or our team members' GitHub profiles to help support the maintainers contributing to Bootstrap.",
@@ -474,6 +483,20 @@
       "siteUrl": "https://christianheilmann.com",
       "articles": [
         {
+          "id": "https://christianheilmann.com/?p=6999",
+          "author": "Chris Heilmann",
+          "description": "This is a talk that I’ve given at CityJS this September. I am a principal product manager for developer tools in Microsoft Edge and these are things I encountered during working on the tools, documenting them and going through user feedback. You can watch the recording of the talk on Youtube . Here’s a write-up […]",
+          "link": "https://christianheilmann.com/2021/11/01/developer-tools-secrets-that-shouldnt-be-secrets/",
+          "publishedOn": "2021-11-01T14:21:08.000Z",
+          "wordCount": 2400,
+          "title": "Developer Tools secrets that shouldn’t be secrets",
+          "enclosure": {
+            "url": "https://christianheilmann.com/wp-content/uploads/2021/10/log-vs-live-expression-smaller.mp4",
+            "length": "2040538",
+            "type": "video/mp4"
+          }
+        },
+        {
           "id": "https://christianheilmann.com/?p=6988",
           "author": "Chris Heilmann",
           "description": "The 1.4.0 release of the Microsoft Tools for Visual Studio Code brings a few highly requested features. We improved the screencasting feature, added device emulation and live issue reporting in your source code. You can check the 3 minute highlight reel here . Improved screencasting In previous versions of the extension, the screencast was a […]",
@@ -504,6 +527,15 @@
       "feedUrl": "https://css-irl.info/rss.xml",
       "siteUrl": "https://css-irl.info/rss.xml/",
       "articles": [
+        {
+          "id": "https://css-irl.info/accessible-toggles/",
+          "author": null,
+          "description": "I recently received some great advice from Scott O’Hara on improving the accessibility of a demo featuring a reduced-motion toggle (for this article). The demo sets the play-state of the animation depending on the user’s motion preferences (using the prefers-reduced-motion media query). Users could also click the button to toggle motion on and off, which also changes the text of the button to “Turn on motion” or “Turn off motion”. Here’s the original version:\nSee the Pen \n  Reduced-motion toggle by Michelle Barker (@michellebarker)\n  on CodePen.\n\n\nScott pointed out that some screenreaders wouldn’t announce the change to the button text when the button is clicked.\nI have one suggestion though, per the accessibility of the toggle control. Changing the accessible name of the button will not b…",
+          "link": "https://css-irl.info/accessible-toggles/",
+          "publishedOn": "2021-11-01T00:00:00.000Z",
+          "wordCount": 751,
+          "title": "Accessible Toggles"
+        },
         {
           "id": "https://css-irl.info/respecting-users-motion-preferences/",
           "author": null,
@@ -547,6 +579,24 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=354978",
+          "author": "Chris Coyier",
+          "description": "There are thousands of articles out there about buttons and links on the web; the differences and how to use them properly. Hey, I don’t mind. I wrote my own as well¹.\nIt’s such a common mistake on …\nThe post Buttons vs. Links appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/buttons-vs-links/",
+          "publishedOn": "2021-11-01T22:58:12.000Z",
+          "wordCount": 650,
+          "title": "Buttons vs. Links"
+        },
+        {
+          "id": "https://css-tricks.com/?p=355034",
+          "author": "Chris Coyier",
+          "description": "A big heaping 19-minute bowl of not-too-hot, not-too-cold baby bear porridge website building from Rich Harris. \nI’ve certainly overheard more than my fair share of arguments about Single Page Apps (SPAs) vs Multi-Page Apps (MPAs). Although it’s only recently that …\nThe post Have Single-Page Apps Ruined the Web? (“Transitional Apps”) appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/have-single-page-apps-ruined-the-web-transitional-apps/",
+          "publishedOn": "2021-11-01T21:43:10.000Z",
+          "wordCount": 576,
+          "title": "Have Single-Page Apps Ruined the Web? (“Transitional Apps”)"
+        },
         {
           "id": "https://css-tricks.com/?p=354588",
           "author": "Sarah Dayan",
@@ -1749,6 +1799,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=61078",
+          "author": "Lee Reilly",
+          "description": "The theme for this year’s Game Off is… …BUG! Your challenge, should you choose to accept it, is to create a game between now and December 1 incorporating the theme somehow, and submit it to",
+          "link": "https://github.blog/2021-11-01-game-off-2021-theme-announcement/",
+          "publishedOn": "2021-11-01T20:30:06.000Z",
+          "wordCount": 651,
+          "title": "Game Off 2021 theme announcement"
+        },
+        {
           "id": "https://github.blog/?p=61087",
           "author": "Jeff Guerra",
           "description": "We’re excited to highlight another top contributing researcher to GitHub’s Bug Bounty Program: @yvvdwf",
@@ -2236,6 +2295,24 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29071216",
+          "author": "st_goliath",
+          "description": "Article URL: https://www.webdesignmuseum.org/\nComments URL: https://news.ycombinator.com/item?id=29071216\nPoints: 1\n# Comments: 0",
+          "link": "https://www.webdesignmuseum.org/",
+          "publishedOn": "2021-11-01T18:53:56.000Z",
+          "wordCount": 238,
+          "title": "Web Design Museum 1991 – 2006"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29069916",
+          "author": "phylyp",
+          "description": "Article URL: https://www.patternsgameprog.com/strategy-game-3-ground\nComments URL: https://news.ycombinator.com/item?id=29069916\nPoints: 1\n# Comments: 0",
+          "link": "https://www.patternsgameprog.com/strategy-game-3-ground",
+          "publishedOn": "2021-11-01T17:27:40.000Z",
+          "wordCount": 1871,
+          "title": "2D Strategy Game (3): Ground Layer – Design Patterns and Video Games"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29067068",
           "author": "PaulHoule",
@@ -3135,6 +3212,15 @@
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=29069844",
+          "author": "calflegal",
+          "description": "Article URL: https://calvinflegal.com/2021/11/01/building-paper-audio-with-nestjs-jovo-react.html\nComments URL: https://news.ycombinator.com/item?id=29069844\nPoints: 4\n# Comments: 1",
+          "link": "https://calvinflegal.com/2021/11/01/building-paper-audio-with-nestjs-jovo-react.html",
+          "publishedOn": "2021-11-01T17:22:32.000Z",
+          "wordCount": 1282,
+          "title": "Show HN: Building Paper Audio for Voice Speakers with Jovo, NestJS, and React"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=29068005",
           "author": "Julien_r2",
           "description": "Article URL: https://www.julienr2.me/article/building-a-react-Native-app-for-toby\nComments URL: https://news.ycombinator.com/item?id=29068005\nPoints: 1\n# Comments: 0",
@@ -3339,6 +3425,24 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29075020",
+          "author": "tpkahlon",
+          "description": "Article URL: https://webly.vercel.app\nComments URL: https://news.ycombinator.com/item?id=29075020\nPoints: 1\n# Comments: 0",
+          "link": "https://webly.vercel.app",
+          "publishedOn": "2021-11-01T23:56:39.000Z",
+          "wordCount": 3,
+          "title": "Webly – Weekly updates on Frontend, JavaScript and CSS"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29073856",
+          "author": "bradley_taunt",
+          "description": "Article URL: https://uglyduck.ca/soma-terminal-css/\nComments URL: https://news.ycombinator.com/item?id=29073856\nPoints: 1\n# Comments: 0",
+          "link": "https://uglyduck.ca/soma-terminal-css/",
+          "publishedOn": "2021-11-01T22:07:47.000Z",
+          "wordCount": 767,
+          "title": "Soma Inspired Terminal Display with CSS"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29066734",
           "author": "gk1",
@@ -4530,6 +4634,15 @@
       "siteUrl": "https://www.30secondsofcode.org",
       "articles": [
         {
+          "id": "https://www.30secondsofcode.org/react/s/use-set",
+          "author": null,
+          "description": "Creates a stateful Set object, and a set of functions to manipulate it.",
+          "link": "https://www.30secondsofcode.org/react/s/use-set",
+          "publishedOn": "2021-11-01T09:00:00.000Z",
+          "wordCount": 236,
+          "title": "React useSet hook"
+        },
+        {
           "id": "https://www.30secondsofcode.org/articles/s/javascript-prefix-postfix-operators",
           "author": null,
           "description": "While both the prefix and postfix operators increment a value, the resulting value of the expression is very different.",
@@ -4618,15 +4731,6 @@
           "publishedOn": "2021-10-05T09:00:00.000Z",
           "wordCount": 229,
           "title": "React useHover hook"
-        },
-        {
-          "id": "https://www.30secondsofcode.org/articles/s/js-callbacks",
-          "author": null,
-          "description": "JavaScript uses callback functions in various places for different purposes. From event listeners to asynchronous operations, they are an invaluable tool you need to master.",
-          "link": "https://www.30secondsofcode.org/articles/s/js-callbacks",
-          "publishedOn": "2021-10-03T09:00:00.000Z",
-          "wordCount": 294,
-          "title": "What is a callback function?"
         }
       ]
     },
@@ -4651,6 +4755,24 @@
           "title": "Is No Code REALLY The Future Of Web Design?"
         },
         {
+          "id": "https://www.designernews.co/stories/118660-mailer-boxes--locking-mailer-boxes",
+          "author": null,
+          "description": "https://quickcustomboxes.com/locking-mailer/",
+          "link": "https://www.designernews.co/stories/118660-mailer-boxes--locking-mailer-boxes",
+          "publishedOn": "2021-11-01T13:40:11.000Z",
+          "wordCount": 163,
+          "title": "Mailer Boxes - Locking Mailer Boxes"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118659-how-to-hire-top-mobile-app-developers-in-usa",
+          "author": null,
+          "description": "http://www.appcluesinfotech.com/",
+          "link": "https://www.designernews.co/stories/118659-how-to-hire-top-mobile-app-developers-in-usa",
+          "publishedOn": "2021-11-01T12:45:48.000Z",
+          "wordCount": 173,
+          "title": "How to Hire Top Mobile App Developers in USA?"
+        },
+        {
           "id": "https://www.designernews.co/stories/118658-optimal-workshop-giveaway",
           "author": null,
           "description": "https://www.linkedin.com/feed/update/urn:li:activity:6860910151851900929",
@@ -4660,6 +4782,33 @@
           "title": "Optimal Workshop Giveaway"
         },
         {
+          "id": "https://www.designernews.co/stories/118657-revision-path-ep-423-terresa-moses-community-organizer-design-educator-and-researcher-creative-director-at-blackbird-revolt",
+          "author": null,
+          "description": "https://revisionpath.com/terresa-moses/",
+          "link": "https://www.designernews.co/stories/118657-revision-path-ep-423-terresa-moses-community-organizer-design-educator-and-researcher-creative-director-at-blackbird-revolt",
+          "publishedOn": "2021-11-01T11:50:14.000Z",
+          "wordCount": 357,
+          "title": "Revision Path Ep. 423: Terresa Moses, community organizer, design educator and researcher, creative director at Blackbird Revolt"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118656-mobile-app-website-landing-page-design",
+          "author": null,
+          "description": "https://uikit.to/downloads/mobile-app-landing-page-template/",
+          "link": "https://www.designernews.co/stories/118656-mobile-app-website-landing-page-design",
+          "publishedOn": "2021-11-01T01:47:40.000Z",
+          "wordCount": 202,
+          "title": "Mobile App Website Landing Page Design"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118655-how-to-design-a-tattoo-flash-sheet",
+          "author": null,
+          "description": "https://shorturl.at/adqFL",
+          "link": "https://www.designernews.co/stories/118655-how-to-design-a-tattoo-flash-sheet",
+          "publishedOn": "2021-10-31T17:18:30.000Z",
+          "wordCount": 165,
+          "title": "How to Design a Tattoo Flash Sheet"
+        },
+        {
           "id": "https://www.designernews.co/stories/118654-free-design-tools-line-icon-pack",
           "author": null,
           "description": "https://freewebsites.live/",
@@ -4667,6 +4816,24 @@
           "publishedOn": "2021-10-31T17:15:14.000Z",
           "wordCount": 179,
           "title": "Free Design Tools Line Icon Pack"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118653-how-to-design-a-vintage-logo-a-stepbystep-guide--examples",
+          "author": null,
+          "description": "http://shorturl.at/abnsN",
+          "link": "https://www.designernews.co/stories/118653-how-to-design-a-vintage-logo-a-stepbystep-guide--examples",
+          "publishedOn": "2021-10-31T17:11:24.000Z",
+          "wordCount": 173,
+          "title": "How To Design A Vintage Logo (A Step-By-Step Guide + Examples)"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118652-a-beginners-guide-to-brush-lettering",
+          "author": null,
+          "description": "http://shorturl.at/gLORV",
+          "link": "https://www.designernews.co/stories/118652-a-beginners-guide-to-brush-lettering",
+          "publishedOn": "2021-10-31T17:08:24.000Z",
+          "wordCount": 163,
+          "title": "A Beginner’s Guide to Brush Lettering"
         },
         {
           "id": "https://www.designernews.co/stories/118651-free-cloud-icon-pack",
@@ -5845,6 +6012,15 @@
       "feedUrl": "https://xkcd.com/rss.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2536/",
+          "author": null,
+          "description": "",
+          "link": "https://xkcd.com/2536/",
+          "publishedOn": "2021-11-01T04:00:00.000Z",
+          "wordCount": 183,
+          "title": "Wirecutter"
+        },
         {
           "id": "https://xkcd.com/2535/",
           "author": null,
