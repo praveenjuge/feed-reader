@@ -2,10 +2,611 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2021-11-02T00:25:23.282Z</updated>
+    <updated>2021-11-03T00:24:41.722Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Complex Forms Made Simple]]></title>
+        <id>gAcnFASXFC45AsTcX</id>
+        <link href="https://medium.com/seek-blog/complex-forms-made-simple-50754a68a6e2"/>
+        <updated>2021-11-03T00:21:35.000Z</updated>
+        <summary type="html"><![CDATA[In order for organisations to complete a certain business process, they must sometimes ask a lot from their user in terms of specific details.]]></summary>
+        <author>
+            <name>@seek_geek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Have Single-Page Apps Ruined the Web?]]></title>
+        <id>rKCYgDz4yzGR3KZqW</id>
+        <link href="https://www.youtube.com/watch?v=860d8usGC0o"/>
+        <updated>2021-11-03T00:20:13.000Z</updated>
+        <summary type="html"><![CDATA[The backlash to modern front end development is gaining steam, with good reason: single-page apps have ruined the web.]]></summary>
+        <author>
+            <name>@rich_harris</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First steps with GPT-3 for frontend developers]]></title>
+        <id>2hjZhww2bovBcEHJf</id>
+        <link href="https://blog.maximeheckel.com/posts/first-steps-with-gpt-3-and-beyond"/>
+        <updated>2021-11-03T00:16:02.000Z</updated>
+        <summary type="html"><![CDATA[A beginners guide to OpenAI’s API that eases frontend developers into the world of GPT-3.]]></summary>
+        <author>
+            <name>@MaximeHeckel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Value of Design Systems Study: Developer Efficiency and Design Consistency]]></title>
+        <id>bF4gEuLYTwX8r927q</id>
+        <link href="https://sparkbox.com/foundry/design_system_roi_impact_of_design_systems_business_value_carbon_design_system"/>
+        <updated>2021-11-03T00:10:37.000Z</updated>
+        <summary type="html"><![CDATA[Design systems are great for developer efficiency, visual consistency, and accessible experiences.]]></summary>
+        <author>
+            <name>@hearsparkbox</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Towards an animation smoothness metric]]></title>
+        <id>https://web.dev/smoothness/</id>
+        <link href="https://web.dev/smoothness/"/>
+        <updated>2021-11-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You've probably experienced pages that "stutter" or "freeze" during scrolling or
+animations. We like to say that these experiences are not smooth. To address
+these types of issues, the Chrome team has been working on adding more support
+to our lab tooling for animation detection, as well making steady improvements
+to the rendering pipeline diagnostics within Chromium.
+We'd like to share some recent progress, offer concrete tooling guidance, and
+discuss ideas for future animation smoothness metrics. As always, we would love
+to hear your feedback.
+This post will cover three main topics:
+A quick look at animations and animation frames.
+Our current thoughts on measuring overall animation smoothness.
+A few practical suggestions for you to leverage in lab tooling today.
+What are animations? #
+An…]]></summary>
+        <author>
+            <name>web.dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Feedback wanted: An experimental responsiveness metric]]></title>
+        <id>https://web.dev/responsiveness/</id>
+        <link href="https://web.dev/responsiveness/"/>
+        <updated>2021-11-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this year, the Chrome Speed Metrics Team shared some of the
+ideas we were considering for a
+new responsiveness metric. We want to design a metric that better captures the
+end-to-end latency of individual events and offers a more holistic picture of
+the overall responsiveness of a page throughout its lifetime.
+We've made a lot of progress on this metric in the last few months, and we
+wanted to share an update on how we plan to measure interaction latency as well
+as introduce a few specific aggregation options we're considering to quantify
+the overall responsiveness of a web page.
+We'd love to get feedback from developers and site owners as to
+which of these options would be most representative of the overall input
+responsiveness of their pages.
+Measure interaction latency #
+As a rev…]]></summary>
+        <author>
+            <name>web.dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Proxying Third-Party JavaScript as First-Party JavaScript (and the Potential Effect on Analytics)]]></title>
+        <id>https://css-tricks.com/?p=354619</id>
+        <link href="https://css-tricks.com/proxying-third-party-javascript-as-first-party-javascript-and-the-potential-effect-on-analytics/"/>
+        <updated>2021-11-02T22:50:37.000Z</updated>
+        <summary type="html"><![CDATA[First, check out how incredibly easy it is to write a Cloudflare Worker to proxy another URL:
+addEventListener("fetch", (event) ={
+  event.respondWith(
+     fetch("https://css-tricks.com")
+  );
+});
+It doesn’t have any error handling or anything, but hey, it works:
+Now imagine how …
+The post Proxying Third-Party JavaScript as First-Party JavaScript (and the Potential Effect on Analytics) appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GUI Challenges]]></title>
+        <id>https://css-tricks.com/?p=355016</id>
+        <link href="https://web.dev/shows/gui-challenges/"/>
+        <updated>2021-11-02T21:28:22.000Z</updated>
+        <summary type="html"><![CDATA[I keep bookmarking Adam’s GUI Challenges posts/videos and, before I even have a chance to review and link them up, another one is already published! Fortunately, the homepage for them on web.dev is a nice roundup. 
+For example, a recent …
+The post GUI Challenges appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ct.css – Take a look inside your <head>]]></title>
+        <id>https://news.ycombinator.com/item?id=29087538</id>
+        <link href="https://github.com/csswizardry/ct"/>
+        <updated>2021-11-02T21:21:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/csswizardry/ct
+Comments URL: https://news.ycombinator.com/item?id=29087538
+Points: 68
+# Comments: 11]]></summary>
+        <author>
+            <name>valgaze</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webframe: Design Inspiration Library]]></title>
+        <id>https://news.ycombinator.com/item?id=29087053</id>
+        <link href="https://webframe.xyz/"/>
+        <updated>2021-11-02T20:40:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://webframe.xyz/
+Comments URL: https://news.ycombinator.com/item?id=29087053
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>omarfarooq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Changing Opinion on Personal Website Design]]></title>
+        <id>https://news.ycombinator.com/item?id=29086047</id>
+        <link href="https://uglyduck.ca/personal-website-opinions/"/>
+        <updated>2021-11-02T19:11:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://uglyduck.ca/personal-website-opinions/
+Comments URL: https://news.ycombinator.com/item?id=29086047
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>throwoutway</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blues Wireless – Just Like React, but for IoT]]></title>
+        <id>https://news.ycombinator.com/item?id=29084238</id>
+        <link href="https://blues.io/blog/reactjs-vs-blues-wireless-iot/"/>
+        <updated>2021-11-02T17:14:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blues.io/blog/reactjs-vs-blues-wireless-iot/
+Comments URL: https://news.ycombinator.com/item?id=29084238
+Points: 7
+# Comments: 3]]></summary>
+        <author>
+            <name>sipacate</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The State Of The Web]]></title>
+        <id>https://adactio.com/articles/18580</id>
+        <link href="https://adactio.com/articles/18580"/>
+        <updated>2021-11-02T17:02:21.000Z</updated>
+        <summary type="html"><![CDATA[The opening presentation from An Event Apart Spring Summit held online in April 2021.]]></summary>
+        <author>
+            <name>Adactio: Articles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blue-teaming for Exiv2, part 1: creating a security advisory process]]></title>
+        <id>https://github.blog/?p=61106</id>
+        <link href="https://github.blog/2021-11-02-blue-teaming-create-security-advisory-process/"/>
+        <updated>2021-11-02T16:16:01.000Z</updated>
+        <summary type="html"><![CDATA[This blog post is the first in a series about hardening the security of the Exiv2 project. My goal is to share tips that will help you harden the security of your own project.]]></summary>
+        <author>
+            <name>Kevin Backhouse</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: As a React Native Developer how should one prepare one self for FAANG?]]></title>
+        <id>https://news.ycombinator.com/item?id=29083185</id>
+        <link href="https://news.ycombinator.com/item?id=29083185"/>
+        <updated>2021-11-02T16:02:33.000Z</updated>
+        <summary type="html"><![CDATA[Hi, every one,
+As the title suggest, I am a react native developer and I wanted to get a job at FAANG.
+From various resources, I’ve come to know that at the starting of career, joining at FAANG may not be a good idea.
+So, My initial plan is
+ try get selected for internship at siliconvalleyinternship.com/
+after spending there 2 years then go for FAANG.
+But, Life may not go according to plan. So, I am trying for both.
+According to my research, 
+I’ve to be good at what I am doing, in my case it will JavaScript, and Design implementation. 
+I also have be good at Data Structure and Algorithm
+Little Bit about myself:
+Top 8% ( 458 reputation ) in Stack Overflow in 2021 ( https://stackoverflow.com/users/14302873/mrpmohiburrahman ) 
+I am working as a React Native Developer since 30th December, 2020.
+I do not have any kind project to show case
+I am willing to work with anything as long as it’s Functional Programming with JS.
+This is my LinkedIn profile: https://www.linkedin.com/in/mrpmohiburrahman/
+What do you suggest?
+How can I prepare myself so that I’ll be able to join FAANG as a Front End developer or as JS developer on any stack?
+Comments URL: https://news.ycombinator.com/item?id=29083185
+Points: 1
+# Comments: 1]]></summary>
+        <author>
+            <name>mrpmohibur</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is SaaS Marketing? 8 Tactics We Use at Ahrefs]]></title>
+        <id>https://ahrefs.com/blog/?p=136420</id>
+        <link href="https://ahrefs.com/blog/saas-marketing/"/>
+        <updated>2021-11-02T16:00:09.000Z</updated>
+        <summary type="html"><![CDATA[As a SaaS company ourselves, we’re no strangers to the process. In fact, we’d like to think we’re more than decent at it. Not only have we reached an eight-figure ARR, but marketers also frequently analyze our marketing strategy on…
+Read more ›]]></summary>
+        <author>
+            <name>Si Quan Ong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[William Morris and wallpaper design (2018)]]></title>
+        <id>https://news.ycombinator.com/item?id=29083060</id>
+        <link href="https://www.vam.ac.uk/articles/william-morris-and-wallpaper-design"/>
+        <updated>2021-11-02T15:53:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.vam.ac.uk/articles/william-morris-and-wallpaper-design
+Comments URL: https://news.ycombinator.com/item?id=29083060
+Points: 28
+# Comments: 8]]></summary>
+        <author>
+            <name>severine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Free People Icon Pack]]></title>
+        <id>https://www.designernews.co/stories/118678-free-people-icon-pack</id>
+        <link href="https://www.designernews.co/stories/118678-free-people-icon-pack"/>
+        <updated>2021-11-02T15:29:33.000Z</updated>
+        <summary type="html"><![CDATA[https://freewebsites.live/]]></summary>
+        <author>
+            <name>Designer News Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Plasmic — web design tool that plugs into React and other codebases]]></title>
+        <id>https://news.ycombinator.com/item?id=29081956</id>
+        <link href="https://www.plasmic.app/"/>
+        <updated>2021-11-02T14:40:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.plasmic.app/
+Comments URL: https://news.ycombinator.com/item?id=29081956
+Points: 56
+# Comments: 7]]></summary>
+        <author>
+            <name>yaaang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Plasmic — web design tool that plugs into React and other codebases]]></title>
+        <id>https://news.ycombinator.com/item?id=29081956</id>
+        <link href="https://www.plasmic.app/"/>
+        <updated>2021-11-02T14:40:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.plasmic.app/
+Comments URL: https://news.ycombinator.com/item?id=29081956
+Points: 56
+# Comments: 7]]></summary>
+        <author>
+            <name>yaaang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rebase vs. Merge: Integrating Changes in Git]]></title>
+        <id>https://css-tricks.com/?p=354734</id>
+        <link href="https://css-tricks.com/rebase-vs-merge-integrating-changes-in-git/"/>
+        <updated>2021-11-02T14:19:12.000Z</updated>
+        <summary type="html"><![CDATA[This article is part of our “Advanced Git” series. Be sure to follow us on Twitter or sign up for our newsletter to hear about the next articles!
+Most developers understand that it’s important to use branches in Git. In …
+The post Rebase vs. Merge: Integrating Changes in Git appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Tobias Günther</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Responsible JavaScript]]></title>
+        <id>https://css-tricks.com/?p=355395</id>
+        <link href="https://css-tricks.com/responsible-javascript-2/"/>
+        <updated>2021-11-02T14:17:55.000Z</updated>
+        <summary type="html"><![CDATA[High five to Jeremy on the big release of Responsible JavaScript on A Book Apart. There is a lot of talk about how the proliferation of JavaScript has had a negative impact on the web, but now we have …
+The post Responsible JavaScript appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Footing Design: Raft or Isolated?]]></title>
+        <id>https://news.ycombinator.com/item?id=29081350</id>
+        <link href="https://monacivilengineering.blogspot.com/2021/11/footing-design-raft-or-isolated.html"/>
+        <updated>2021-11-02T14:02:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://monacivilengineering.blogspot.com/2021/11/footing-design-raft-or-isolated.html
+Comments URL: https://news.ycombinator.com/item?id=29081350
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>picture</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Self-Hosted SVG/React Based Miro Whiteboard Clone POC]]></title>
+        <id>https://news.ycombinator.com/item?id=29081048</id>
+        <link href="https://workshoppr.com/"/>
+        <updated>2021-11-02T13:40:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://workshoppr.com/
+Comments URL: https://news.ycombinator.com/item?id=29081048
+Points: 2
+# Comments: 1]]></summary>
+        <author>
+            <name>simon_000666</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[​​The Guideline Gap]]></title>
+        <id>https://dailydevlinks.com/?p=8722</id>
+        <link href="https://dailydevlinks.com/%e2%80%8b%e2%80%8bthe-guideline-gap/"/>
+        <updated>2021-11-02T12:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Design]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating A Magento PWA: Customizing Themes vs. Coding From Scratch]]></title>
+        <id>https://smashingmagazine.com/2021/11/magento-pwa-customizing-themes-coding/</id>
+        <link href="https://smashingmagazine.com/2021/11/magento-pwa-customizing-themes-coding/"/>
+        <updated>2021-11-02T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article sheds the spotlight on Magento PWAs and explains why business owners are getting them (often instead of native applications). Alex Husar introduces ways of how progressive web applications can be developed on Magento, as well as go over the major pros and cons of each development path.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Alex Husar)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Seen Talkspace campaign in UK on Instagram? Here is how illustrations were made.]]></title>
+        <id>https://www.designernews.co/stories/118674-seen-talkspace-campaign-in-uk-on-instagram-here-is-how-illustrations-were-made</id>
+        <link href="https://www.designernews.co/stories/118674-seen-talkspace-campaign-in-uk-on-instagram-here-is-how-illustrations-were-made"/>
+        <updated>2021-11-02T11:50:38.000Z</updated>
+        <summary type="html"><![CDATA[https://tasteminty.com/page/2021/09/14/case-study-judit-zengovari-for-harrys-x-talkspace-campaign/]]></summary>
+        <author>
+            <name>Designer News Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7 Top Elementor Slider Plugins You Need to Explore]]></title>
+        <id>https://www.designernews.co/stories/118673-7-top-elementor-slider-plugins-you-need-to-explore</id>
+        <link href="https://www.designernews.co/stories/118673-7-top-elementor-slider-plugins-you-need-to-explore"/>
+        <updated>2021-11-02T11:49:38.000Z</updated>
+        <summary type="html"><![CDATA[https://wpklik.com/wordpress-plugins/elementor-slider-plugins/]]></summary>
+        <author>
+            <name>Designer News Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Golden Ratio and User-Interface Design]]></title>
+        <id>https://dailydevlinks.com/?p=8719</id>
+        <link href="https://dailydevlinks.com/the-golden-ratio-and-user-interface-design/"/>
+        <updated>2021-11-02T11:46:00.000Z</updated>
+        <summary type="html"><![CDATA[UI]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Develop an App Like Netflix?]]></title>
+        <id>https://www.designernews.co/stories/118672-how-to-develop-an-app-like-netflix</id>
+        <link href="https://www.designernews.co/stories/118672-how-to-develop-an-app-like-netflix"/>
+        <updated>2021-11-02T11:29:53.000Z</updated>
+        <summary type="html"><![CDATA[http://www.appcluesinfotech.com/how-much-does-it-cost-to-make-an-app-like-netflix/]]></summary>
+        <author>
+            <name>Designer News Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New MasterCard design is meant to make life easier for visually impaired users]]></title>
+        <id>https://news.ycombinator.com/item?id=29079549</id>
+        <link href="https://www.npr.org/2021/11/02/1051365892/mastercard-unveils-new-card-feature-to-help-blind-customers"/>
+        <updated>2021-11-02T11:12:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.npr.org/2021/11/02/1051365892/mastercard-unveils-new-card-feature-to-help-blind-customers
+Comments URL: https://news.ycombinator.com/item?id=29079549
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>pseudolus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A free collection of fluid gradient wallpapers (5120x2880 pixels)]]></title>
+        <id>https://www.designernews.co/stories/118670-a-free-collection-of-fluid-gradient-wallpapers-5120x2880-pixels</id>
+        <link href="https://www.designernews.co/stories/118670-a-free-collection-of-fluid-gradient-wallpapers-5120x2880-pixels"/>
+        <updated>2021-11-02T09:07:54.000Z</updated>
+        <summary type="html"><![CDATA[https://www.magicpattern.design/wallpapers]]></summary>
+        <author>
+            <name>Designer News Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Idiot Design]]></title>
+        <id>https://news.ycombinator.com/item?id=29078620</id>
+        <link href="https://www.academia.edu/39798331/Damned_if_You_Do_and_Damned_if_You_Dont_The_Problem_of_God_talk_in_Biology_Textbooks"/>
+        <updated>2021-11-02T08:47:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.academia.edu/39798331/Damned_if_You_Do_and_Damned_if_You_Dont_The_Problem_of_God_talk_in_Biology_Textbooks
+Comments URL: https://news.ycombinator.com/item?id=29078620
+Points: 2
+# Comments: 1]]></summary>
+        <author>
+            <name>nincompoopdrop</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let’s vote on it]]></title>
+        <id>https://seths.blog/?p=41729</id>
+        <link href="https://seths.blog/2021/11/lets-vote-on-it/"/>
+        <updated>2021-11-02T08:36:00.000Z</updated>
+        <summary type="html"><![CDATA[Voting with a capital “V” is fraught. It happens rarely, it’s fairly permanent and thus momentous. We bring identity and media and politics into a swirl, spending billions of dollars to create something that feels both fruitless and participatory at the same time. Voting uses a 5,000-year-old method to, in a tiny moment of time, […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are design patterns relevant with Golang?]]></title>
+        <id>https://news.ycombinator.com/item?id=29078533</id>
+        <link href="https://news.ycombinator.com/item?id=29078533"/>
+        <updated>2021-11-02T08:35:42.000Z</updated>
+        <summary type="html"><![CDATA[I'm really confused on this. My understanding on Golang's intentions and design is that it is an intentionally simple language lacking most of traditional OO features. The language is relying on interfaces (and Generics?) for doing most of the things you'd do with classic OO.
+Yet I see job ads requiring and even classes teaching Design Pattterns with Golang. And by inquiry I see that they're not talking about Golang-specific DPs (that would make sense) but about fitting traditional OO DPs (and principles like SOLID) to Golang. Which in turn seems to me like bending the language to something it was not designed for in order to fit into models we developed for traditional OO languages like java and C++.
+Unsure what is going on here and what the consensus on best practice is (if any).
+Comments URL: https://news.ycombinator.com/item?id=29078533
+Points: 12
+# Comments: 6]]></summary>
+        <author>
+            <name>itistricky</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Know if Tile Decals Are What I Need for My Home?]]></title>
+        <id>https://www.designernews.co/stories/118669-how-to-know-if-tile-decals-are-what-i-need-for-my-home</id>
+        <link href="https://www.designernews.co/stories/118669-how-to-know-if-tile-decals-are-what-i-need-for-my-home"/>
+        <updated>2021-11-02T08:00:42.000Z</updated>
+        <summary type="html"><![CDATA[If you have new house and feel that you do not want to get tiling done then you can easily paste these tile covers directly on the floor as long as it is completely flat. You can use them even if you do not have tiles on your floor. If you are getting your house remodeled and want to remove the existing tiles, then you can paste them on top of the floors instead of undergoing the hassle of retiling.
+
+Read More:-
+https://tilestyledecals.blogspot.com/2021/11/How-to-Know-if-Tile-Decals-Are-What-I-Need-for-My-Home.html]]></summary>
+        <author>
+            <name>Designer News Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The golden ratio and user interface design]]></title>
+        <id>https://heydesigner.com/?p=63889</id>
+        <link href="https://heydesigner.com/the-golden-ratio-and-user-interface-design/"/>
+        <updated>2021-11-02T06:00:13.000Z</updated>
+        <summary type="html"><![CDATA[Although traditionally used in art and architecture, the golden ratio can be referenced to design aesthetically pleasing interfaces.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three ways to more effectively present your designs]]></title>
+        <id>https://heydesigner.com/?p=63887</id>
+        <link href="https://heydesigner.com/three-ways-to-more-effectively-present-your-designs/"/>
+        <updated>2021-11-02T05:58:54.000Z</updated>
+        <summary type="html"><![CDATA[Learning to better present designs will make your life easier by getting critical feedback or support quickly and succinctly.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The guideline gap]]></title>
+        <id>https://heydesigner.com/?p=63885</id>
+        <link href="https://heydesigner.com/the-guideline-gap/"/>
+        <updated>2021-11-02T05:55:16.000Z</updated>
+        <summary type="html"><![CDATA[How to shorten the bug iteration loop and repair relationships.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tasty buttons]]></title>
+        <id>https://heydesigner.com/?p=63883</id>
+        <link href="https://heydesigner.com/tasty-buttons/"/>
+        <updated>2021-11-02T05:54:28.000Z</updated>
+        <summary type="html"><![CDATA[The burger button and his tasty friends (kebab, meatball and bento) usually reveal a list of links when activated.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First steps with GTP-3 for frontend developers]]></title>
+        <id>https://heydesigner.com/?p=63881</id>
+        <link href="https://heydesigner.com/first-steps-with-gtp-3-for-frontend-developers/"/>
+        <updated>2021-11-02T05:49:59.000Z</updated>
+        <summary type="html"><![CDATA[We’ll take a look together at the fundamentals of GPT-3 illustrated through some interactive widgets.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS-ing Candy Ghost Buttons]]></title>
+        <id>BHB3qfMiw4fHF3JgQ</id>
+        <link href="https://css-tricks.com/css-ing-candy-ghost-buttons/"/>
+        <updated>2021-11-02T05:47:11.000Z</updated>
+        <summary type="html"><![CDATA[Recently I came across these candy ghost buttons.]]></summary>
+        <author>
+            <name>@CSS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing with ketchup]]></title>
+        <id>RxtgmEBQCn93WsdXx</id>
+        <link href="https://uxdesign.cc/designing-with-ketchup-290067480428"/>
+        <updated>2021-11-02T05:45:39.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this week, I made a series of extensive jokes on Twitter about ketchup as a design tool.]]></summary>
+        <author>
+            <name>@uxdesigncc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can a Robot Do a Designer’s Job?]]></title>
+        <id>fapEXTXJzANtPSceS</id>
+        <link href="https://www.chrbutler.com/the-threat-of-automation-to-design"/>
+        <updated>2021-11-02T05:40:21.000Z</updated>
+        <summary type="html"><![CDATA[Automation isn’t as much of a threat as we have been told.]]></summary>
+        <author>
+            <name>@chrbutler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[llline: Smooth SVG Line/Stroke Generator]]></title>
+        <id>NkiCyrgN2cL3zjhHN</id>
+        <link href="https://fffuel.co/llline/"/>
+        <updated>2021-11-02T05:34:59.000Z</updated>
+        <summary type="html"><![CDATA[SVG generator that makes it easy to create lines & strokes that look and feel organic.]]></summary>
+        <author>
+            <name>@ffffffuel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[So, You Want to Build an @mention Autocomplete Feature?]]></title>
+        <id>tQZkM458mLQwnWw5p</id>
+        <link href="https://css-tricks.com/so-you-want-to-build-an-mention-autocomplete-feature/"/>
+        <updated>2021-11-02T05:34:15.000Z</updated>
+        <summary type="html"><![CDATA[There’s no reason a composition box has to be a dull text area.]]></summary>
+        <author>
+            <name>@CSS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The best free resources for graphic designer assets]]></title>
+        <id>https://www.designernews.co/stories/118666-the-best-free-resources-for-graphic-designer-assets</id>
+        <link href="https://www.designernews.co/stories/118666-the-best-free-resources-for-graphic-designer-assets"/>
+        <updated>2021-11-02T05:22:46.000Z</updated>
+        <summary type="html"><![CDATA[https://designerassets.in/graphic-design/]]></summary>
+        <author>
+            <name>Designer News Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[15 Best Collaboration Tools for Designers & Marketing Teams]]></title>
+        <id>https://www.designernews.co/stories/118665-15-best-collaboration-tools-for-designers--marketing-teams</id>
+        <link href="https://www.designernews.co/stories/118665-15-best-collaboration-tools-for-designers--marketing-teams"/>
+        <updated>2021-11-02T04:08:18.000Z</updated>
+        <summary type="html"><![CDATA[https://en.eagle.cool/blog/post/15-best-collaboration-tools-for-designers-marketing-teams]]></summary>
+        <author>
+            <name>Designer News Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best UI Kit Design]]></title>
+        <id>https://www.designernews.co/stories/118664-best-ui-kit-design</id>
+        <link href="https://www.designernews.co/stories/118664-best-ui-kit-design"/>
+        <updated>2021-11-02T01:51:21.000Z</updated>
+        <summary type="html"><![CDATA[https://uikit.to/]]></summary>
+        <author>
+            <name>Designer News Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Name, labels, ARIA, what to do?]]></title>
+        <id>https://scottohara.me//blog/2021/11/02/names-and-labels.html</id>
+        <link href="https://scottohara.me//blog/2021/11/02/names-and-labels.html"/>
+        <updated>2021-11-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the first of a two part blog post series about naming and labeling web content. These concepts can trip people up, and while there are other articles on the web that have gone over these topics before, I haven’t. Or, at least, I have not explicitly. I’m sure I’ve said something about it before… hmm…]]></summary>
+        <author>
+            <name>Scott O’Hara - Accessibility engineer, UX developer and designer</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Webly – Weekly updates on Frontend, JavaScript and CSS]]></title>
         <id>https://news.ycombinator.com/item?id=29075020</id>
@@ -67,6 +668,16 @@ The post Have Single-Page Apps Ruined the Web? (“Transitional Apps”) appeare
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Best Booster Website HTML Template]]></title>
+        <id>https://www.designernews.co/stories/118663-best-booster-website-html-template</id>
+        <link href="https://www.designernews.co/stories/118663-best-booster-website-html-template"/>
+        <updated>2021-11-01T19:11:54.000Z</updated>
+        <summary type="html"><![CDATA[https://htmltemplates.org/downloads/booster-website-html-template/]]></summary>
+        <author>
+            <name>Designer News Feed</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Web Design Museum 1991 – 2006]]></title>
         <id>https://news.ycombinator.com/item?id=29071216</id>
         <link href="https://www.webdesignmuseum.org/"/>
@@ -77,6 +688,16 @@ Points: 1
 # Comments: 0]]></summary>
         <author>
             <name>st_goliath</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10+ Best Real Estate Illustration Pack]]></title>
+        <id>https://www.designernews.co/stories/118662-10-best-real-estate-illustration-pack</id>
+        <link href="https://www.designernews.co/stories/118662-10-best-real-estate-illustration-pack"/>
+        <updated>2021-11-01T18:49:07.000Z</updated>
+        <summary type="html"><![CDATA[https://graphicdesign.cx/downloads/10-real-estate-illustration-pack/]]></summary>
+        <author>
+            <name>Designer News Feed</name>
         </author>
     </entry>
     <entry>
@@ -285,6 +906,16 @@ Points: 1
         <summary type="html"><![CDATA[JS]]></summary>
         <author>
             <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What's new in Svelte: November 2021]]></title>
+        <id>https://svelte.dev/blog/whats-new-in-svelte-november-2021</id>
+        <link href="https://svelte.dev/blog/whats-new-in-svelte-november-2021"/>
+        <updated>2021-11-01T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Over 5000 stars to light up the showcase]]></summary>
+        <author>
+            <name>Svelte blog</name>
         </author>
     </entry>
     <entry>
@@ -657,6 +1288,26 @@ Points: 4
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Do you need to read in the age of technology?]]></title>
+        <id>https://www.designernews.co/stories/118650-do-you-need-to-read-in-the-age-of-technology</id>
+        <link href="https://www.designernews.co/stories/118650-do-you-need-to-read-in-the-age-of-technology"/>
+        <updated>2021-10-31T15:55:39.000Z</updated>
+        <summary type="html"><![CDATA[In the age of technology, it is very important to keep books popular. Since childhood, I have taught my son to read with the help of personalized children's books https://letstel.net/personalized-books I believe that it is very important to develop comprehensively in our time.]]></summary>
+        <author>
+            <name>Designer News Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Free Instagram Marketing Landing Page Template-You Must Download]]></title>
+        <id>https://www.designernews.co/stories/118649-free-instagram-marketing-landing-page-templateyou-must-download</id>
+        <link href="https://www.designernews.co/stories/118649-free-instagram-marketing-landing-page-templateyou-must-download"/>
+        <updated>2021-10-31T14:25:21.000Z</updated>
+        <summary type="html"><![CDATA[https://uidesign.to/downloads/free-instagram-landing-page-template/]]></summary>
+        <author>
+            <name>Designer News Feed</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Four days]]></title>
         <id>https://adactio.com/journal/18574</id>
         <link href="https://adactio.com/journal/18574"/>
@@ -829,6 +1480,16 @@ Points: 5
 # Comments: 2]]></summary>
         <author>
             <name>iqbal125</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Home Delivery Vector Illustration]]></title>
+        <id>https://www.designernews.co/stories/118644-home-delivery-vector-illustration</id>
+        <link href="https://www.designernews.co/stories/118644-home-delivery-vector-illustration"/>
+        <updated>2021-10-30T15:00:35.000Z</updated>
+        <summary type="html"><![CDATA[https://makewebsite.xyz/downloads/home-delivery-vector/]]></summary>
+        <author>
+            <name>Designer News Feed</name>
         </author>
     </entry>
     <entry>
@@ -6977,109 +7638,6 @@ A third-party embed is any content …]]></summary>
         <summary type="html"><![CDATA[GitHub Releases has a new look and updated tools to make it easier for open source communities to create and share high-quality releases with auto-generated release notes.]]></summary>
         <author>
             <name>Myles Borins</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Designing Accordions: Best practices]]></title>
-        <id>https://dailydevlinks.com/?p=8535</id>
-        <link href="https://dailydevlinks.com/designing-accordions-best-practices/"/>
-        <updated>2021-10-04T11:38:00.000Z</updated>
-        <summary type="html"><![CDATA[UI]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How To Build An Expandable Accessible Gallery]]></title>
-        <id>https://smashingmagazine.com/2021/10/build-expandable-accessible-gallery/</id>
-        <link href="https://smashingmagazine.com/2021/10/build-expandable-accessible-gallery/"/>
-        <updated>2021-10-04T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, we’ll be looking at how to set up a gallery that is expandable as well as accessible with a few tips and tricks along the way. Let’s get started!]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Silvestar Bistrović)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practical frontend philosophy]]></title>
-        <id>https://dailydevlinks.com/?p=8532</id>
-        <link href="https://dailydevlinks.com/practical-frontend-philosophy/"/>
-        <updated>2021-10-04T08:18:00.000Z</updated>
-        <summary type="html"><![CDATA[Development]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS accent-color]]></title>
-        <id>https://davidwalsh.name/css-accent-color</id>
-        <link href="https://davidwalsh.name/css-accent-color"/>
-        <updated>2021-10-04T08:08:36.000Z</updated>
-        <summary type="html"><![CDATA[<p>For better or worse, form fields have been somewhat difficult to style with CSS. Form control display is dependent upon device, operating system, and browser, so you can imagine the difficulty in making styling easy. We have slowly been given some controls over form control display, as evidenced by accent-color! The accent-color CSS property allows [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://davidwalsh.name/css-accent-color">CSS accent-color</a> appeared first on <a rel="nofollow" href="https://davidwalsh.name">David Walsh Blog</a>.</p>
-<p><a href="https://tkjs.us/dwb"><img style="margin:0 auto" alt="" src="https://davidwalsh.name/demo/tjs_block-1.svg"></a></p>]]></summary>
-        <author>
-            <name>David Walsh Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Putting an image on the page is easy, until it’s not]]></title>
-        <id>https://dailydevlinks.com/?p=8529</id>
-        <link href="https://dailydevlinks.com/putting-an-image-on-the-page-is-easy-until-its-not/"/>
-        <updated>2021-10-04T05:36:00.000Z</updated>
-        <summary type="html"><![CDATA[Development]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Conditional Border Radius In CSS]]></title>
-        <id>http://ishadeed.com/article/conditional-border-radius/</id>
-        <link href="http://ishadeed.com/article/conditional-border-radius/"/>
-        <updated>2021-10-04T03:47:11.000Z</updated>
-        <summary type="html"><![CDATA[How to use CSS comparison functions to create a conditional border radius]]></summary>
-        <author>
-            <name>Ahmad Shadeed Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Chromium Chronicle #25: Thread Safety Annotations]]></title>
-        <id>https://developer.chrome.com/en/blog/chromium-chronicle-25/</id>
-        <link href="https://developer.chrome.com/en/blog/chromium-chronicle-25/"/>
-        <updated>2021-10-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Episode 25: by Victor Costan in SFO (October, 2021)
-Previous episodes
-In C++, ruling out the possibility of data races comes down to a small thread-safety correctness proof for every data member access.
-These proofs add up to a lot of mental toil, especially when reviewing or refactoring code.
-Clang's static analysis framework takes over the toil of thread-safety proofs.
-# Add GUARDED_BY_CONTEXT() to data members in thread-unsafe classes
-Most Chrome classes are thread-unsafe, and should be used on a single sequence.
-Add annotations to all data members that are not thread-safe.
-Unnecessary annotations are safe, but missing annotations are a risk of data races.
-#include "base/sequence_checker.h"  // for SEQUENCE_CHECKER()
-#include "base/thread_annotations.h"  // for GUARDED_BY_CONTEXT()
-clas…]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Get a catch block error message with TypeScript]]></title>
-        <id>https://kentcdodds.com/blog/get-a-catch-block-error-message-with-typescript</id>
-        <link href="https://kentcdodds.com/blog/get-a-catch-block-error-message-with-typescript"/>
-        <updated>2021-10-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TypeScript forces you to acknowledge you can't know what was thrown making getting the error message a pain. Here's how you can manage it.]]></summary>
-        <author>
-            <name>Kent C. Dodds Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Redundantly Redundant a11y Accessibility]]></title>
-        <id>https://scottohara.me//blog/2021/10/04/redundantly-redundant.html</id>
-        <link href="https://scottohara.me//blog/2021/10/04/redundantly-redundant.html"/>
-        <updated>2021-10-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Let’s take a look at the following markup snippet, shall we?]]></summary>
-        <author>
-            <name>Scott O’Hara - Accessibility engineer, UX developer and designer</name>
         </author>
     </entry>
 </feed>

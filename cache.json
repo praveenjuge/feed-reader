@@ -26,7 +26,21 @@
       "title": "Adactio: Articles",
       "feedUrl": "https://adactio.com/articles/rss",
       "siteUrl": "https://adactio.com/articles/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://adactio.com/articles/18580",
+          "author": null,
+          "description": "The opening presentation from An Event Apart Spring Summit held online in April 2021.",
+          "link": "https://adactio.com/articles/18580",
+          "publishedOn": "2021-11-02T17:02:21.000Z",
+          "wordCount": 6572,
+          "title": "The State Of The Web",
+          "enclosure": {
+            "url": "https://adactio.s3.amazonaws.com/audio/articles/aea2021stateoftheweb.mp3",
+            "type": "audio/mpeg"
+          }
+        }
+      ]
     },
     {
       "title": "Adactio: Journal",
@@ -140,6 +154,15 @@
       "feedUrl": "https://ahrefs.com/blog/feed/",
       "siteUrl": "https://ahrefs.com/blog",
       "articles": [
+        {
+          "id": "https://ahrefs.com/blog/?p=136420",
+          "author": "Si Quan Ong",
+          "description": "As a SaaS company ourselves, we’re no strangers to the process. In fact, we’d like to think we’re more than decent at it. Not only have we reached an eight-figure ARR, but marketers also frequently analyze our marketing strategy on…\nRead more ›",
+          "link": "https://ahrefs.com/blog/saas-marketing/",
+          "publishedOn": "2021-11-02T16:00:09.000Z",
+          "wordCount": 2912,
+          "title": "What is SaaS Marketing? 8 Tactics We Use at Ahrefs"
+        },
         {
           "id": "https://ahrefs.com/blog/?p=135816",
           "author": "Si Quan Ong",
@@ -580,6 +603,42 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=354619",
+          "author": "Chris Coyier",
+          "description": "First, check out how incredibly easy it is to write a Cloudflare Worker to proxy another URL:\naddEventListener(\"fetch\", (event) ={\n  event.respondWith(\n     fetch(\"https://css-tricks.com\")\n  );\n});\nIt doesn’t have any error handling or anything, but hey, it works:\nNow imagine how …\nThe post Proxying Third-Party JavaScript as First-Party JavaScript (and the Potential Effect on Analytics) appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/proxying-third-party-javascript-as-first-party-javascript-and-the-potential-effect-on-analytics/",
+          "publishedOn": "2021-11-02T22:50:37.000Z",
+          "wordCount": 1137,
+          "title": "Proxying Third-Party JavaScript as First-Party JavaScript (and the Potential Effect on Analytics)"
+        },
+        {
+          "id": "https://css-tricks.com/?p=355016",
+          "author": "Chris Coyier",
+          "description": "I keep bookmarking Adam’s GUI Challenges posts/videos and, before I even have a chance to review and link them up, another one is already published! Fortunately, the homepage for them on web.dev is a nice roundup. \nFor example, a recent …\nThe post GUI Challenges appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://web.dev/shows/gui-challenges/",
+          "publishedOn": "2021-11-02T21:28:22.000Z",
+          "wordCount": 547,
+          "title": "GUI Challenges"
+        },
+        {
+          "id": "https://css-tricks.com/?p=354734",
+          "author": "Tobias Günther",
+          "description": "This article is part of our “Advanced Git” series. Be sure to follow us on Twitter or sign up for our newsletter to hear about the next articles!\nMost developers understand that it’s important to use branches in Git. In …\nThe post Rebase vs. Merge: Integrating Changes in Git appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/rebase-vs-merge-integrating-changes-in-git/",
+          "publishedOn": "2021-11-02T14:19:12.000Z",
+          "wordCount": 2057,
+          "title": "Rebase vs. Merge: Integrating Changes in Git"
+        },
+        {
+          "id": "https://css-tricks.com/?p=355395",
+          "author": "Chris Coyier",
+          "description": "High five to Jeremy on the big release of Responsible JavaScript on A Book Apart. There is a lot of talk about how the proliferation of JavaScript has had a negative impact on the web, but now we have …\nThe post Responsible JavaScript appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/responsible-javascript-2/",
+          "publishedOn": "2021-11-02T14:17:55.000Z",
+          "wordCount": 692,
+          "title": "Responsible JavaScript"
+        },
+        {
           "id": "https://css-tricks.com/?p=354978",
           "author": "Chris Coyier",
           "description": "There are thousands of articles out there about buttons and links on the web; the differences and how to use them properly. Hey, I don’t mind. I wrote my own as well¹.\nIt’s such a common mistake on …\nThe post Buttons vs. Links appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
@@ -982,6 +1041,24 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=8722",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://dailydevlinks.com/%e2%80%8b%e2%80%8bthe-guideline-gap/",
+          "publishedOn": "2021-11-02T12:55:00.000Z",
+          "wordCount": 136,
+          "title": "​​The Guideline Gap"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=8719",
+          "author": "Adam Marsden",
+          "description": "UI",
+          "link": "https://dailydevlinks.com/the-golden-ratio-and-user-interface-design/",
+          "publishedOn": "2021-11-02T11:46:00.000Z",
+          "wordCount": 144,
+          "title": "The Golden Ratio and User-Interface Design"
+        },
         {
           "id": "https://dailydevlinks.com/?p=8716",
           "author": "Adam Marsden",
@@ -1485,33 +1562,6 @@
           "publishedOn": "2021-10-05T05:03:00.000Z",
           "wordCount": 141,
           "title": "The Simplest Sass Compile Setup"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=8535",
-          "author": "Adam Marsden",
-          "description": "UI",
-          "link": "https://dailydevlinks.com/designing-accordions-best-practices/",
-          "publishedOn": "2021-10-04T11:38:00.000Z",
-          "wordCount": 139,
-          "title": "Designing Accordions: Best practices"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=8532",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/practical-frontend-philosophy/",
-          "publishedOn": "2021-10-04T08:18:00.000Z",
-          "wordCount": 144,
-          "title": "Practical frontend philosophy"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=8529",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/putting-an-image-on-the-page-is-easy-until-its-not/",
-          "publishedOn": "2021-10-04T05:36:00.000Z",
-          "wordCount": 155,
-          "title": "Putting an image on the page is easy, until it’s not"
         }
       ]
     },
@@ -1637,15 +1687,6 @@
           "publishedOn": "2021-10-10T17:42:32.000Z",
           "wordCount": 561,
           "title": "Terminate Process on a Port from Command Line"
-        },
-        {
-          "id": "https://davidwalsh.name/css-accent-color",
-          "author": null,
-          "description": "<p>For better or worse, form fields have been somewhat difficult to style with CSS. Form control display is dependent upon device, operating system, and browser, so you can imagine the difficulty in making styling easy. We have slowly been given some controls over form control display, as evidenced by accent-color! The accent-color CSS property allows [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://davidwalsh.name/css-accent-color\">CSS accent-color</a> appeared first on <a rel=\"nofollow\" href=\"https://davidwalsh.name\">David Walsh Blog</a>.</p>\n<p><a href=\"https://tkjs.us/dwb\"><img style=\"margin:0 auto\" alt=\"\" src=\"https://davidwalsh.name/demo/tjs_block-1.svg\"></a></p>",
-          "link": "https://davidwalsh.name/css-accent-color",
-          "publishedOn": "2021-10-04T08:08:36.000Z",
-          "wordCount": 545,
-          "title": "CSS accent-color"
         }
       ]
     },
@@ -1725,15 +1766,6 @@
           "publishedOn": "2021-10-08T00:00:00.000Z",
           "wordCount": 2235,
           "title": "RenderingNG deep-dive: LayoutNG"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/chromium-chronicle-25/",
-          "author": null,
-          "description": "Episode 25: by Victor Costan in SFO (October, 2021)\nPrevious episodes\nIn C++, ruling out the possibility of data races comes down to a small thread-safety correctness proof for every data member access.\nThese proofs add up to a lot of mental toil, especially when reviewing or refactoring code.\nClang's static analysis framework takes over the toil of thread-safety proofs.\n# Add GUARDED_BY_CONTEXT() to data members in thread-unsafe classes\nMost Chrome classes are thread-unsafe, and should be used on a single sequence.\nAdd annotations to all data members that are not thread-safe.\nUnnecessary annotations are safe, but missing annotations are a risk of data races.\n#include \"base/sequence_checker.h\"  // for SEQUENCE_CHECKER()\n#include \"base/thread_annotations.h\"  // for GUARDED_BY_CONTEXT()\nclas…",
-          "link": "https://developer.chrome.com/en/blog/chromium-chronicle-25/",
-          "publishedOn": "2021-10-04T00:00:00.000Z",
-          "wordCount": 438,
-          "title": "The Chromium Chronicle #25: Thread Safety Annotations"
         }
       ]
     },
@@ -1798,6 +1830,15 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=61106",
+          "author": "Kevin Backhouse",
+          "description": "This blog post is the first in a series about hardening the security of the Exiv2 project. My goal is to share tips that will help you harden the security of your own project.",
+          "link": "https://github.blog/2021-11-02-blue-teaming-create-security-advisory-process/",
+          "publishedOn": "2021-11-02T16:16:01.000Z",
+          "wordCount": 1571,
+          "title": "Blue-teaming for Exiv2, part 1: creating a security advisory process"
+        },
         {
           "id": "https://github.blog/?p=61078",
           "author": "Lee Reilly",
@@ -2081,6 +2122,51 @@
       "siteUrl": "https://heydesigner.com",
       "articles": [
         {
+          "id": "https://heydesigner.com/?p=63889",
+          "author": "Travis",
+          "description": "Although traditionally used in art and architecture, the golden ratio can be referenced to design aesthetically pleasing interfaces.",
+          "link": "https://heydesigner.com/the-golden-ratio-and-user-interface-design/",
+          "publishedOn": "2021-11-02T06:00:13.000Z",
+          "wordCount": 72,
+          "title": "The golden ratio and user interface design"
+        },
+        {
+          "id": "https://heydesigner.com/?p=63887",
+          "author": "Travis",
+          "description": "Learning to better present designs will make your life easier by getting critical feedback or support quickly and succinctly.",
+          "link": "https://heydesigner.com/three-ways-to-more-effectively-present-your-designs/",
+          "publishedOn": "2021-11-02T05:58:54.000Z",
+          "wordCount": 75,
+          "title": "Three ways to more effectively present your designs"
+        },
+        {
+          "id": "https://heydesigner.com/?p=63885",
+          "author": "Travis",
+          "description": "How to shorten the bug iteration loop and repair relationships.",
+          "link": "https://heydesigner.com/the-guideline-gap/",
+          "publishedOn": "2021-11-02T05:55:16.000Z",
+          "wordCount": 56,
+          "title": "The guideline gap"
+        },
+        {
+          "id": "https://heydesigner.com/?p=63883",
+          "author": "Travis",
+          "description": "The burger button and his tasty friends (kebab, meatball and bento) usually reveal a list of links when activated.",
+          "link": "https://heydesigner.com/tasty-buttons/",
+          "publishedOn": "2021-11-02T05:54:28.000Z",
+          "wordCount": 64,
+          "title": "Tasty buttons"
+        },
+        {
+          "id": "https://heydesigner.com/?p=63881",
+          "author": "Travis",
+          "description": "We’ll take a look together at the fundamentals of GPT-3 illustrated through some interactive widgets.",
+          "link": "https://heydesigner.com/first-steps-with-gtp-3-for-frontend-developers/",
+          "publishedOn": "2021-11-02T05:49:59.000Z",
+          "wordCount": 68,
+          "title": "First steps with GTP-3 for frontend developers"
+        },
+        {
           "id": "https://heydesigner.com/?p=63872",
           "author": "Travis",
           "description": "Automation isn’t as much of a threat as we have been told.",
@@ -2295,6 +2381,78 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29087053",
+          "author": "omarfarooq",
+          "description": "Article URL: https://webframe.xyz/\nComments URL: https://news.ycombinator.com/item?id=29087053\nPoints: 1\n# Comments: 0",
+          "link": "https://webframe.xyz/",
+          "publishedOn": "2021-11-02T20:40:41.000Z",
+          "wordCount": 75,
+          "title": "Webframe: Design Inspiration Library"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29086047",
+          "author": "throwoutway",
+          "description": "Article URL: https://uglyduck.ca/personal-website-opinions/\nComments URL: https://news.ycombinator.com/item?id=29086047\nPoints: 2\n# Comments: 0",
+          "link": "https://uglyduck.ca/personal-website-opinions/",
+          "publishedOn": "2021-11-02T19:11:38.000Z",
+          "wordCount": 377,
+          "title": "My Changing Opinion on Personal Website Design"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29083060",
+          "author": "severine",
+          "description": "Article URL: https://www.vam.ac.uk/articles/william-morris-and-wallpaper-design\nComments URL: https://news.ycombinator.com/item?id=29083060\nPoints: 28\n# Comments: 8",
+          "link": "https://www.vam.ac.uk/articles/william-morris-and-wallpaper-design",
+          "publishedOn": "2021-11-02T15:53:25.000Z",
+          "wordCount": 1939,
+          "title": "William Morris and wallpaper design (2018)"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29081956",
+          "author": "yaaang",
+          "description": "Article URL: https://www.plasmic.app/\nComments URL: https://news.ycombinator.com/item?id=29081956\nPoints: 56\n# Comments: 7",
+          "link": "https://www.plasmic.app/",
+          "publishedOn": "2021-11-02T14:40:44.000Z",
+          "wordCount": 1541,
+          "title": "Show HN: Plasmic — web design tool that plugs into React and other codebases"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29081350",
+          "author": "picture",
+          "description": "Article URL: https://monacivilengineering.blogspot.com/2021/11/footing-design-raft-or-isolated.html\nComments URL: https://news.ycombinator.com/item?id=29081350\nPoints: 1\n# Comments: 0",
+          "link": "https://monacivilengineering.blogspot.com/2021/11/footing-design-raft-or-isolated.html",
+          "publishedOn": "2021-11-02T14:02:34.000Z",
+          "wordCount": 1374,
+          "title": "Footing Design: Raft or Isolated?"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29079549",
+          "author": "pseudolus",
+          "description": "Article URL: https://www.npr.org/2021/11/02/1051365892/mastercard-unveils-new-card-feature-to-help-blind-customers\nComments URL: https://news.ycombinator.com/item?id=29079549\nPoints: 2\n# Comments: 0",
+          "link": "https://www.npr.org/2021/11/02/1051365892/mastercard-unveils-new-card-feature-to-help-blind-customers",
+          "publishedOn": "2021-11-02T11:12:20.000Z",
+          "wordCount": 736,
+          "title": "New MasterCard design is meant to make life easier for visually impaired users"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29078620",
+          "author": "nincompoopdrop",
+          "description": "Article URL: https://www.academia.edu/39798331/Damned_if_You_Do_and_Damned_if_You_Dont_The_Problem_of_God_talk_in_Biology_Textbooks\nComments URL: https://news.ycombinator.com/item?id=29078620\nPoints: 2\n# Comments: 1",
+          "link": "https://www.academia.edu/39798331/Damned_if_You_Do_and_Damned_if_You_Dont_The_Problem_of_God_talk_in_Biology_Textbooks",
+          "publishedOn": "2021-11-02T08:47:58.000Z",
+          "wordCount": 248,
+          "title": "Idiot Design"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29078533",
+          "author": "itistricky",
+          "description": "I'm really confused on this. My understanding on Golang's intentions and design is that it is an intentionally simple language lacking most of traditional OO features. The language is relying on interfaces (and Generics?) for doing most of the things you'd do with classic OO.\nYet I see job ads requiring and even classes teaching Design Pattterns with Golang. And by inquiry I see that they're not talking about Golang-specific DPs (that would make sense) but about fitting traditional OO DPs (and principles like SOLID) to Golang. Which in turn seems to me like bending the language to something it was not designed for in order to fit into models we developed for traditional OO languages like java and C++.\nUnsure what is going on here and what the consensus on best practice is (if any).\nComments URL: https://news.ycombinator.com/item?id=29078533\nPoints: 12\n# Comments: 6",
+          "link": "https://news.ycombinator.com/item?id=29078533",
+          "publishedOn": "2021-11-02T08:35:42.000Z",
+          "wordCount": 493,
+          "title": "Are design patterns relevant with Golang?"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29071216",
           "author": "st_goliath",
@@ -3212,6 +3370,42 @@
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=29084238",
+          "author": "sipacate",
+          "description": "Article URL: https://blues.io/blog/reactjs-vs-blues-wireless-iot/\nComments URL: https://news.ycombinator.com/item?id=29084238\nPoints: 7\n# Comments: 3",
+          "link": "https://blues.io/blog/reactjs-vs-blues-wireless-iot/",
+          "publishedOn": "2021-11-02T17:14:39.000Z",
+          "wordCount": 1556,
+          "title": "Blues Wireless – Just Like React, but for IoT"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29083185",
+          "author": "mrpmohibur",
+          "description": "Hi, every one,\nAs the title suggest, I am a react native developer and I wanted to get a job at FAANG.\nFrom various resources, I’ve come to know that at the starting of career, joining at FAANG may not be a good idea.\nSo, My initial plan is\n try get selected for internship at siliconvalleyinternship.com/\nafter spending there 2 years then go for FAANG.\nBut, Life may not go according to plan. So, I am trying for both.\nAccording to my research, \nI’ve to be good at what I am doing, in my case it will JavaScript, and Design implementation. \nI also have be good at Data Structure and Algorithm\nLittle Bit about myself:\nTop 8% ( 458 reputation ) in Stack Overflow in 2021 ( https://stackoverflow.com/users/14302873/mrpmohiburrahman ) \nI am working as a React Native Developer since 30th December, 2020.\nI do not have any kind project to show case\nI am willing to work with anything as long as it’s Functional Programming with JS.\nThis is my LinkedIn profile: https://www.linkedin.com/in/mrpmohiburrahman/\nWhat do you suggest?\nHow can I prepare myself so that I’ll be able to join FAANG as a Front End developer or as JS developer on any stack?\nComments URL: https://news.ycombinator.com/item?id=29083185\nPoints: 1\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=29083185",
+          "publishedOn": "2021-11-02T16:02:33.000Z",
+          "wordCount": 293,
+          "title": "Ask HN: As a React Native Developer how should one prepare one self for FAANG?"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29081956",
+          "author": "yaaang",
+          "description": "Article URL: https://www.plasmic.app/\nComments URL: https://news.ycombinator.com/item?id=29081956\nPoints: 56\n# Comments: 7",
+          "link": "https://www.plasmic.app/",
+          "publishedOn": "2021-11-02T14:40:44.000Z",
+          "wordCount": 1541,
+          "title": "Show HN: Plasmic — web design tool that plugs into React and other codebases"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29081048",
+          "author": "simon_000666",
+          "description": "Article URL: https://workshoppr.com/\nComments URL: https://news.ycombinator.com/item?id=29081048\nPoints: 2\n# Comments: 1",
+          "link": "https://workshoppr.com/",
+          "publishedOn": "2021-11-02T13:40:44.000Z",
+          "wordCount": 13,
+          "title": "Show HN: Self-Hosted SVG/React Based Miro Whiteboard Clone POC"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=29069844",
           "author": "calflegal",
           "description": "Article URL: https://calvinflegal.com/2021/11/01/building-paper-audio-with-nestjs-jovo-react.html\nComments URL: https://news.ycombinator.com/item?id=29069844\nPoints: 4\n# Comments: 1",
@@ -3425,6 +3619,15 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29087538",
+          "author": "valgaze",
+          "description": "Article URL: https://github.com/csswizardry/ct\nComments URL: https://news.ycombinator.com/item?id=29087538\nPoints: 68\n# Comments: 11",
+          "link": "https://github.com/csswizardry/ct",
+          "publishedOn": "2021-11-02T21:21:18.000Z",
+          "wordCount": 672,
+          "title": "ct.css – Take a look inside your <head>"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29075020",
           "author": "tpkahlon",
@@ -3729,15 +3932,6 @@
           "publishedOn": "2021-10-21T03:47:11.000Z",
           "wordCount": 1194,
           "title": "Prevent Scroll Chaining With Overscroll Behavior"
-        },
-        {
-          "id": "http://ishadeed.com/article/conditional-border-radius/",
-          "author": null,
-          "description": "How to use CSS comparison functions to create a conditional border radius",
-          "link": "http://ishadeed.com/article/conditional-border-radius/",
-          "publishedOn": "2021-10-04T03:47:11.000Z",
-          "wordCount": 1122,
-          "title": "Conditional Border Radius In CSS"
         }
       ]
     },
@@ -3783,17 +3977,7 @@
       "title": "Kent C. Dodds Blog",
       "feedUrl": "https://kentcdodds.com/blog/rss.xml",
       "siteUrl": "https://kentcdodds.com/blog",
-      "articles": [
-        {
-          "id": "https://kentcdodds.com/blog/get-a-catch-block-error-message-with-typescript",
-          "author": null,
-          "description": "TypeScript forces you to acknowledge you can't know what was thrown making getting the error message a pain. Here's how you can manage it.",
-          "link": "https://kentcdodds.com/blog/get-a-catch-block-error-message-with-typescript",
-          "publishedOn": "2021-10-04T00:00:00.000Z",
-          "wordCount": 1159,
-          "title": "Get a catch block error message with TypeScript"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Learn UI Design - Blog",
@@ -3892,6 +4076,15 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=41729",
+          "author": "Seth Godin",
+          "description": "Voting with a capital “V” is fraught. It happens rarely, it’s fairly permanent and thus momentous. We bring identity and media and politics into a swirl, spending billions of dollars to create something that feels both fruitless and participatory at the same time. Voting uses a 5,000-year-old method to, in a tiny moment of time, […]",
+          "link": "https://seths.blog/2021/11/lets-vote-on-it/",
+          "publishedOn": "2021-11-02T08:36:00.000Z",
+          "wordCount": 566,
+          "title": "Let’s vote on it"
+        },
         {
           "id": "https://seths.blog/?p=41760",
           "author": "Seth Godin",
@@ -4034,6 +4227,87 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "gAcnFASXFC45AsTcX",
+          "author": "@seek_geek",
+          "description": "In order for organisations to complete a certain business process, they must sometimes ask a lot from their user in terms of specific details.",
+          "link": "https://medium.com/seek-blog/complex-forms-made-simple-50754a68a6e2",
+          "publishedOn": "2021-11-03T00:21:35.000Z",
+          "wordCount": 1548,
+          "title": "Complex Forms Made Simple"
+        },
+        {
+          "id": "rKCYgDz4yzGR3KZqW",
+          "author": "@rich_harris",
+          "description": "The backlash to modern front end development is gaining steam, with good reason: single-page apps have ruined the web.",
+          "link": "https://www.youtube.com/watch?v=860d8usGC0o",
+          "publishedOn": "2021-11-03T00:20:13.000Z",
+          "wordCount": null,
+          "title": "Have Single-Page Apps Ruined the Web?"
+        },
+        {
+          "id": "2hjZhww2bovBcEHJf",
+          "author": "@MaximeHeckel",
+          "description": "A beginners guide to OpenAI’s API that eases frontend developers into the world of GPT-3.",
+          "link": "https://blog.maximeheckel.com/posts/first-steps-with-gpt-3-and-beyond",
+          "publishedOn": "2021-11-03T00:16:02.000Z",
+          "wordCount": 3945,
+          "title": "First steps with GPT-3 for frontend developers"
+        },
+        {
+          "id": "bF4gEuLYTwX8r927q",
+          "author": "@hearsparkbox",
+          "description": "Design systems are great for developer efficiency, visual consistency, and accessible experiences.",
+          "link": "https://sparkbox.com/foundry/design_system_roi_impact_of_design_systems_business_value_carbon_design_system",
+          "publishedOn": "2021-11-03T00:10:37.000Z",
+          "wordCount": 1035,
+          "title": "The Value of Design Systems Study: Developer Efficiency and Design Consistency"
+        },
+        {
+          "id": "BHB3qfMiw4fHF3JgQ",
+          "author": "@CSS",
+          "description": "Recently I came across these candy ghost buttons.",
+          "link": "https://css-tricks.com/css-ing-candy-ghost-buttons/",
+          "publishedOn": "2021-11-02T05:47:11.000Z",
+          "wordCount": 6455,
+          "title": "CSS-ing Candy Ghost Buttons"
+        },
+        {
+          "id": "RxtgmEBQCn93WsdXx",
+          "author": "@uxdesigncc",
+          "description": "Earlier this week, I made a series of extensive jokes on Twitter about ketchup as a design tool.",
+          "link": "https://uxdesign.cc/designing-with-ketchup-290067480428",
+          "publishedOn": "2021-11-02T05:45:39.000Z",
+          "wordCount": 2089,
+          "title": "Designing with ketchup"
+        },
+        {
+          "id": "fapEXTXJzANtPSceS",
+          "author": "@chrbutler",
+          "description": "Automation isn’t as much of a threat as we have been told.",
+          "link": "https://www.chrbutler.com/the-threat-of-automation-to-design",
+          "publishedOn": "2021-11-02T05:40:21.000Z",
+          "wordCount": 2585,
+          "title": "Can a Robot Do a Designer’s Job?"
+        },
+        {
+          "id": "NkiCyrgN2cL3zjhHN",
+          "author": "@ffffffuel",
+          "description": "SVG generator that makes it easy to create lines & strokes that look and feel organic.",
+          "link": "https://fffuel.co/llline/",
+          "publishedOn": "2021-11-02T05:34:59.000Z",
+          "wordCount": 228,
+          "title": "llline: Smooth SVG Line/Stroke Generator"
+        },
+        {
+          "id": "tQZkM458mLQwnWw5p",
+          "author": "@CSS",
+          "description": "There’s no reason a composition box has to be a dull text area.",
+          "link": "https://css-tricks.com/so-you-want-to-build-an-mention-autocomplete-feature/",
+          "publishedOn": "2021-11-02T05:34:15.000Z",
+          "wordCount": 2114,
+          "title": "So, You Want to Build an @mention Autocomplete Feature?"
+        },
         {
           "id": "LcShMN6D84WbGfWqh",
           "author": null,
@@ -4319,7 +4593,17 @@
       "title": "Svelte blog",
       "feedUrl": "https://svelte.dev/blog/rss.xml",
       "siteUrl": "https://svelte.dev/blog",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://svelte.dev/blog/whats-new-in-svelte-november-2021",
+          "author": null,
+          "description": "Over 5000 stars to light up the showcase",
+          "link": "https://svelte.dev/blog/whats-new-in-svelte-november-2021",
+          "publishedOn": "2021-11-01T12:00:00.000Z",
+          "wordCount": 1158,
+          "title": "What's new in Svelte: November 2021"
+        }
+      ]
     },
     {
       "title": "The Blog of Author Tim Ferriss",
@@ -4490,6 +4774,24 @@
       "feedUrl": "https://web.dev/feed.xml",
       "siteUrl": "https://web.dev/feed.xml",
       "articles": [
+        {
+          "id": "https://web.dev/smoothness/",
+          "author": null,
+          "description": "You've probably experienced pages that \"stutter\" or \"freeze\" during scrolling or\nanimations. We like to say that these experiences are not smooth. To address\nthese types of issues, the Chrome team has been working on adding more support\nto our lab tooling for animation detection, as well making steady improvements\nto the rendering pipeline diagnostics within Chromium.\nWe'd like to share some recent progress, offer concrete tooling guidance, and\ndiscuss ideas for future animation smoothness metrics. As always, we would love\nto hear your feedback.\nThis post will cover three main topics:\nA quick look at animations and animation frames.\nOur current thoughts on measuring overall animation smoothness.\nA few practical suggestions for you to leverage in lab tooling today.\nWhat are animations? #\nAn…",
+          "link": "https://web.dev/smoothness/",
+          "publishedOn": "2021-11-03T00:00:00.000Z",
+          "wordCount": 3261,
+          "title": "Towards an animation smoothness metric"
+        },
+        {
+          "id": "https://web.dev/responsiveness/",
+          "author": null,
+          "description": "Earlier this year, the Chrome Speed Metrics Team shared some of the\nideas we were considering for a\nnew responsiveness metric. We want to design a metric that better captures the\nend-to-end latency of individual events and offers a more holistic picture of\nthe overall responsiveness of a page throughout its lifetime.\nWe've made a lot of progress on this metric in the last few months, and we\nwanted to share an update on how we plan to measure interaction latency as well\nas introduce a few specific aggregation options we're considering to quantify\nthe overall responsiveness of a web page.\nWe'd love to get feedback from developers and site owners as to\nwhich of these options would be most representative of the overall input\nresponsiveness of their pages.\nMeasure interaction latency #\nAs a rev…",
+          "link": "https://web.dev/responsiveness/",
+          "publishedOn": "2021-11-03T00:00:00.000Z",
+          "wordCount": 1360,
+          "title": "Feedback wanted: An experimental responsiveness metric"
+        },
         {
           "id": "https://web.dev/eyedropper/",
           "author": null,
@@ -4746,6 +5048,105 @@
       "siteUrl": "/",
       "articles": [
         {
+          "id": "https://www.designernews.co/stories/118678-free-people-icon-pack",
+          "author": null,
+          "description": "https://freewebsites.live/",
+          "link": "https://www.designernews.co/stories/118678-free-people-icon-pack",
+          "publishedOn": "2021-11-02T15:29:33.000Z",
+          "wordCount": 159,
+          "title": "Free People Icon Pack"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118674-seen-talkspace-campaign-in-uk-on-instagram-here-is-how-illustrations-were-made",
+          "author": null,
+          "description": "https://tasteminty.com/page/2021/09/14/case-study-judit-zengovari-for-harrys-x-talkspace-campaign/",
+          "link": "https://www.designernews.co/stories/118674-seen-talkspace-campaign-in-uk-on-instagram-here-is-how-illustrations-were-made",
+          "publishedOn": "2021-11-02T11:50:38.000Z",
+          "wordCount": 178,
+          "title": "Seen Talkspace campaign in UK on Instagram? Here is how illustrations were made."
+        },
+        {
+          "id": "https://www.designernews.co/stories/118673-7-top-elementor-slider-plugins-you-need-to-explore",
+          "author": null,
+          "description": "https://wpklik.com/wordpress-plugins/elementor-slider-plugins/",
+          "link": "https://www.designernews.co/stories/118673-7-top-elementor-slider-plugins-you-need-to-explore",
+          "publishedOn": "2021-11-02T11:49:38.000Z",
+          "wordCount": 170,
+          "title": "7 Top Elementor Slider Plugins You Need to Explore"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118672-how-to-develop-an-app-like-netflix",
+          "author": null,
+          "description": "http://www.appcluesinfotech.com/how-much-does-it-cost-to-make-an-app-like-netflix/",
+          "link": "https://www.designernews.co/stories/118672-how-to-develop-an-app-like-netflix",
+          "publishedOn": "2021-11-02T11:29:53.000Z",
+          "wordCount": 168,
+          "title": "How To Develop an App Like Netflix?"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118670-a-free-collection-of-fluid-gradient-wallpapers-5120x2880-pixels",
+          "author": null,
+          "description": "https://www.magicpattern.design/wallpapers",
+          "link": "https://www.designernews.co/stories/118670-a-free-collection-of-fluid-gradient-wallpapers-5120x2880-pixels",
+          "publishedOn": "2021-11-02T09:07:54.000Z",
+          "wordCount": 170,
+          "title": "A free collection of fluid gradient wallpapers (5120x2880 pixels)"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118669-how-to-know-if-tile-decals-are-what-i-need-for-my-home",
+          "author": null,
+          "description": "If you have new house and feel that you do not want to get tiling done then you can easily paste these tile covers directly on the floor as long as it is completely flat. You can use them even if you do not have tiles on your floor. If you are getting your house remodeled and want to remove the existing tiles, then you can paste them on top of the floors instead of undergoing the hassle of retiling.\r\n\r\nRead More:-\r\nhttps://tilestyledecals.blogspot.com/2021/11/How-to-Know-if-Tile-Decals-Are-What-I-Need-for-My-Home.html",
+          "link": "https://www.designernews.co/stories/118669-how-to-know-if-tile-decals-are-what-i-need-for-my-home",
+          "publishedOn": "2021-11-02T08:00:42.000Z",
+          "wordCount": 259,
+          "title": "How to Know if Tile Decals Are What I Need for My Home?"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118666-the-best-free-resources-for-graphic-designer-assets",
+          "author": null,
+          "description": "https://designerassets.in/graphic-design/",
+          "link": "https://www.designernews.co/stories/118666-the-best-free-resources-for-graphic-designer-assets",
+          "publishedOn": "2021-11-02T05:22:46.000Z",
+          "wordCount": 169,
+          "title": "The best free resources for graphic designer assets"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118665-15-best-collaboration-tools-for-designers--marketing-teams",
+          "author": null,
+          "description": "https://en.eagle.cool/blog/post/15-best-collaboration-tools-for-designers-marketing-teams",
+          "link": "https://www.designernews.co/stories/118665-15-best-collaboration-tools-for-designers--marketing-teams",
+          "publishedOn": "2021-11-02T04:08:18.000Z",
+          "wordCount": 170,
+          "title": "15 Best Collaboration Tools for Designers & Marketing Teams"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118664-best-ui-kit-design",
+          "author": null,
+          "description": "https://uikit.to/",
+          "link": "https://www.designernews.co/stories/118664-best-ui-kit-design",
+          "publishedOn": "2021-11-02T01:51:21.000Z",
+          "wordCount": 194,
+          "title": "Best UI Kit Design"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118663-best-booster-website-html-template",
+          "author": null,
+          "description": "https://htmltemplates.org/downloads/booster-website-html-template/",
+          "link": "https://www.designernews.co/stories/118663-best-booster-website-html-template",
+          "publishedOn": "2021-11-01T19:11:54.000Z",
+          "wordCount": 164,
+          "title": "Best Booster Website HTML Template"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118662-10-best-real-estate-illustration-pack",
+          "author": null,
+          "description": "https://graphicdesign.cx/downloads/10-real-estate-illustration-pack/",
+          "link": "https://www.designernews.co/stories/118662-10-best-real-estate-illustration-pack",
+          "publishedOn": "2021-11-01T18:49:07.000Z",
+          "wordCount": 164,
+          "title": "10+ Best Real Estate Illustration Pack"
+        },
+        {
           "id": "https://www.designernews.co/stories/118661-is-no-code-really-the-future-of-web-design",
           "author": null,
           "description": "https://www.youtube.com/watch?v=xAPAT6uw_LM",
@@ -4845,6 +5246,24 @@
           "title": "Free Cloud Icon Pack"
         },
         {
+          "id": "https://www.designernews.co/stories/118650-do-you-need-to-read-in-the-age-of-technology",
+          "author": null,
+          "description": "In the age of technology, it is very important to keep books popular. Since childhood, I have taught my son to read with the help of personalized children's books https://letstel.net/personalized-books I believe that it is very important to develop comprehensively in our time.",
+          "link": "https://www.designernews.co/stories/118650-do-you-need-to-read-in-the-age-of-technology",
+          "publishedOn": "2021-10-31T15:55:39.000Z",
+          "wordCount": 222,
+          "title": "Do you need to read in the age of technology?"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118649-free-instagram-marketing-landing-page-templateyou-must-download",
+          "author": null,
+          "description": "https://uidesign.to/downloads/free-instagram-landing-page-template/",
+          "link": "https://www.designernews.co/stories/118649-free-instagram-marketing-landing-page-templateyou-must-download",
+          "publishedOn": "2021-10-31T14:25:21.000Z",
+          "wordCount": 169,
+          "title": "Free Instagram Marketing Landing Page Template-You Must Download"
+        },
+        {
           "id": "https://www.designernews.co/stories/118648-2021-halloween-giveaway--get-smart-itunes-alternative-app-for-mac-free",
           "author": null,
           "description": "https://www.minicreo.com/event/2021-halloween-giveaway.html",
@@ -4852,6 +5271,15 @@
           "publishedOn": "2021-10-31T08:11:55.000Z",
           "wordCount": 188,
           "title": "2021 Halloween Giveaway - Get Smart iTunes Alternative App for Mac Free"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118644-home-delivery-vector-illustration",
+          "author": null,
+          "description": "https://makewebsite.xyz/downloads/home-delivery-vector/",
+          "link": "https://www.designernews.co/stories/118644-home-delivery-vector-illustration",
+          "publishedOn": "2021-10-30T15:00:35.000Z",
+          "wordCount": 163,
+          "title": "Home Delivery Vector Illustration"
         },
         {
           "id": "https://www.designernews.co/stories/118643-free-online-education-vector",
@@ -5556,6 +5984,15 @@
       "siteUrl": "https://scottohara.me//",
       "articles": [
         {
+          "id": "https://scottohara.me//blog/2021/11/02/names-and-labels.html",
+          "author": null,
+          "description": "This is the first of a two part blog post series about naming and labeling web content. These concepts can trip people up, and while there are other articles on the web that have gone over these topics before, I haven’t. Or, at least, I have not explicitly. I’m sure I’ve said something about it before… hmm…",
+          "link": "https://scottohara.me//blog/2021/11/02/names-and-labels.html",
+          "publishedOn": "2021-11-02T00:00:00.000Z",
+          "wordCount": 2175,
+          "title": "Name, labels, ARIA, what to do?"
+        },
+        {
           "id": "https://scottohara.me//blog/2021/10/31/headingless.html",
           "author": null,
           "description": "The Headingless Horseman emerges from the shadows that surround the quagmire of &lt;div&gt;s which the auditor has unwittingly wandered towards. Silently, the imposing Horseman quickly becomes all the auditor can perceive, as an inaccessible overlay fog dims all but the imposing figure. It dismounts, and what seems almost instantly, stands mere feet in front of the lone auditor. A headingless mass with no immediately perceivable purpose. At least, none other than to incite confusion and dread to all that wander too close to the source code.",
@@ -5572,15 +6009,6 @@
           "publishedOn": "2021-10-21T00:00:00.000Z",
           "wordCount": 2017,
           "title": "Semantic &lt;menu&gt; context"
-        },
-        {
-          "id": "https://scottohara.me//blog/2021/10/04/redundantly-redundant.html",
-          "author": null,
-          "description": "Let’s take a look at the following markup snippet, shall we?",
-          "link": "https://scottohara.me//blog/2021/10/04/redundantly-redundant.html",
-          "publishedOn": "2021-10-04T00:00:00.000Z",
-          "wordCount": 1691,
-          "title": "Redundantly Redundant a11y Accessibility"
         }
       ]
     },
@@ -5589,6 +6017,20 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2021/11/magento-pwa-customizing-themes-coding/",
+          "author": "hello@smashingmagazine.com (Alex Husar)",
+          "description": "This article sheds the spotlight on Magento PWAs and explains why business owners are getting them (often instead of native applications). Alex Husar introduces ways of how progressive web applications can be developed on Magento, as well as go over the major pros and cons of each development path.",
+          "link": "https://smashingmagazine.com/2021/11/magento-pwa-customizing-themes-coding/",
+          "publishedOn": "2021-11-02T12:00:00.000Z",
+          "wordCount": 5953,
+          "title": "Creating A Magento PWA: Customizing Themes vs. Coding From Scratch",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/77155632-96bd-44a8-af99-50ebad7534e6/magento-pwa-customizing-themes-coding.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          }
+        },
         {
           "id": "https://smashingmagazine.com/2021/10/desktop-wallpaper-calendars-november-2021/",
           "author": "hello@smashingmagazine.com (Cosima Mielke)",
@@ -5935,20 +6377,6 @@
           "title": "Local Testing A Serverless API (API Gateway And Lambda)",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d43ff4a2-4767-4595-9f46-f1ca18f64060/local-testing-serverless-api-gateway-lambda.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/10/build-expandable-accessible-gallery/",
-          "author": "hello@smashingmagazine.com (Silvestar Bistrović)",
-          "description": "In this article, we’ll be looking at how to set up a gallery that is expandable as well as accessible with a few tips and tricks along the way. Let’s get started!",
-          "link": "https://smashingmagazine.com/2021/10/build-expandable-accessible-gallery/",
-          "publishedOn": "2021-10-04T10:00:00.000Z",
-          "wordCount": 2611,
-          "title": "How To Build An Expandable Accessible Gallery",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8271f985-0b13-4db2-afd6-3f6026272fc2/build-expandable-accessible-gallery.jpg",
             "length": "0",
             "type": "image/jpg"
           }
