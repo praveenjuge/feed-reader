@@ -48,6 +48,15 @@
       "siteUrl": "https://adactio.com/journal/",
       "articles": [
         {
+          "id": "https://adactio.com/journal/18586",
+          "author": null,
+          "description": "Back in April I gave a talk at An Event Apart Spring Summit. The talk was called The State Of The Web, and I’ve published the transcript. I’ve also published the video.\nI put a lot of work into this talk and I think it paid off. I wrote about preparing the talk. I also wrote about recording it. I also published links related to the talk. It was an intense process, but a rewarding one.\nI almost called the talk The Overview Effect. My main goal with the talk was to instil a sense of perspective. Hence the references to the famous Earthrise photograph.\nOn the one hand, I wanted the audience to grasp just how far the web has come. So the first half of the talk is a bit of a trip down memory lane, with a constant return to just how much we can accomplish in browsers today. It’s all very positive and upbeat.\nThen I twist the knife. Having shown just how far we’ve progressed technically, I switch gears the moment I say:\nThe biggest challenges facing the World Wide Web today are not technical challenges.\nThen I dive into those challenges, as I see them. It turns out that technical challenges would be preferable to the seemingly intractable problems of today’s web.\nI almost wish I could’ve flipped the order: talk about the negative stuff first but then finish with the positive. I worry that the talk could be a bit of a downer. Still, I tried to finish on an optimistic note.\nI won’t spoil it any more for you. Watch the video or have a read of The State Of The Web.",
+          "link": "https://adactio.com/journal/18586",
+          "publishedOn": "2021-11-03T18:50:26.000Z",
+          "wordCount": 693,
+          "title": "Publishing The State Of The Web"
+        },
+        {
           "id": "https://adactio.com/journal/18574",
           "author": null,
           "description": "I had an extra long weekend recently. It was four days of being a culture vulture. It was also four days of ever-increasing risk assessment.\nIt began on Thursday morning with the first Salter Cane band practice in eighteen months. That was pretty safe—three of us in a room, reminding ourselves of how the songs go. I honestly thought it could’ve been a disaster and that I wouldn’t remember anything, but thanks to a little bit of last-minute revision the evening before, it actually went really well. And boy, did it feel good to plug in and play those songs again.\nLater that day, Jessica went up to London. We spent that evening in the Royal Opera House, watching a ballet, The Dante Project. We wore masks. Not everyone else did.\n\n\n\nThe next day, the indoor gatherings continued. We went to the …",
@@ -154,6 +163,15 @@
       "feedUrl": "https://ahrefs.com/blog/feed/",
       "siteUrl": "https://ahrefs.com/blog",
       "articles": [
+        {
+          "id": "https://ahrefs.com/blog/?p=136474",
+          "author": "Tim Soulo",
+          "description": "GSC is widely considered the “single source of truth” for accurate keyword data because it shows you the exact number of times your page appeared in Google’s search results for a specific keyword. So if your page consistently ranks on…\nRead more ›",
+          "link": "https://ahrefs.com/blog/gsc-gkp-search-volume-study/",
+          "publishedOn": "2021-11-03T16:00:40.000Z",
+          "wordCount": 1877,
+          "title": "GSC vs. GKP: Comparing Search Volumes for 72k Keywords [A Study by Ahrefs]"
+        },
         {
           "id": "https://ahrefs.com/blog/?p=136420",
           "author": "Si Quan Ong",
@@ -422,15 +440,6 @@
           "publishedOn": "2021-10-13T00:00:00.000Z",
           "wordCount": 580,
           "title": "Bootstrap Icons v1.6.0"
-        },
-        {
-          "id": "https://blog.getbootstrap.com/2021/10/05/bootstrap-5-1-2/",
-          "author": null,
-          "description": "Bootstrap v5.1.2 is here with a handful of improvements across our components, plus a fix for an issue in another project that prevented our Sass from compiling properly. Keep reading for the highlights.\nHighlights\nTemporarily patched a postcss-values-parser issue by rearranging our calc() functions that use negative numbers. This should restore the ability to import and compile Bootstrap’s Sass in create-react-app.\nAdded border-radius sizes to small and large .form-selects\nAdded align-self: center to buttons for improved rendering in flex containers\nFixed Collapse regression that prevented toggling between sibling children\nUpdated JS Sanitizer to add sms in the SAFE_URL_PATTERN\nImproved docs around .img-fluid\nAdded role=\"switch\" to our form switches in our docs\nImplemented GitHub Issue forms to replace our previous issue templates.\nUp next\nUp next is our v5.2.0 release, adding more utility improvements and fixing an issue with how Sass handles re-assigned maps and variables. Alongside that, we’ll be shipping an update to v4 soon as well.\nGet the release\nHead to https://getbootstrap.com for the latest. It’s also been pushed to npm:\nnpm i bootstrap\n\n\nReview the GitHub v5.1.2 release changelog for a complete list of changes since our last release.\nSupport the team\nVisit our Open Collective page or our team members' GitHub profiles to help support the maintainers contributing to Bootstrap.",
-          "link": "https://blog.getbootstrap.com/2021/10/05/bootstrap-5-1-2/",
-          "publishedOn": "2021-10-05T00:00:00.000Z",
-          "wordCount": 314,
-          "title": "Bootstrap 5.1.2"
         }
       ]
     },
@@ -603,6 +612,15 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=354925",
+          "author": "Jay Hoffmann",
+          "description": "In June of 1995, representatives from Microsoft arrived at the Netscape offices. The stated goal was to find ways to work together—Netscape as the single dominant force in the browser market and Microsoft as a tech giant just beginning to …\nThe post Chapter 10: Browser Wars appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/chapter-10-browser-wars/",
+          "publishedOn": "2021-11-03T15:09:50.000Z",
+          "wordCount": 6546,
+          "title": "Chapter 10: Browser Wars"
+        },
+        {
           "id": "https://css-tricks.com/?p=354619",
           "author": "Chris Coyier",
           "description": "First, check out how incredibly easy it is to write a Cloudflare Worker to proxy another URL:\naddEventListener(\"fetch\", (event) ={\n  event.respondWith(\n     fetch(\"https://css-tricks.com\")\n  );\n});\nIt doesn’t have any error handling or anything, but hey, it works:\nNow imagine how …\nThe post Proxying Third-Party JavaScript as First-Party JavaScript (and the Potential Effect on Analytics) appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
@@ -610,6 +628,15 @@
           "publishedOn": "2021-11-02T22:50:37.000Z",
           "wordCount": 1137,
           "title": "Proxying Third-Party JavaScript as First-Party JavaScript (and the Potential Effect on Analytics)"
+        },
+        {
+          "id": "https://css-tricks.com/?p=355016",
+          "author": "Chris Coyier",
+          "description": "I keep bookmarking Adam’s GUI Challenges posts/videos and, before I even have a chance to review and link them up, another one is already published! Fortunately, the homepage for them on web.dev is a nice roundup. \nFor example, a recent …\nThe post GUI Challenges appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/gui-challenges/",
+          "publishedOn": "2021-11-02T21:28:22.000Z",
+          "wordCount": 698,
+          "title": "GUI Challenges"
         },
         {
           "id": "https://css-tricks.com/?p=355016",
@@ -691,6 +718,15 @@
           "publishedOn": "2021-10-29T14:14:55.000Z",
           "wordCount": 3495,
           "title": "Create Your Own Automated Social Images With Resoc"
+        },
+        {
+          "id": "https://css-tricks.com/?p=354922",
+          "author": "Chris Coyier",
+          "description": "There is an old Russian fable where Okhsv and Okhsl are on a rowboat and Okhsv says to Okhsl, “What are the known shortcomings of HSL and HSV color pickers in design applications?” I kid, I kid. But really, what …\nThe post Okhsv and Okhsl appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/okhsv-and-okhsl/",
+          "publishedOn": "2021-10-28T20:20:07.000Z",
+          "wordCount": 523,
+          "title": "Okhsv and Okhsl"
         },
         {
           "id": "https://css-tricks.com/?p=354922",
@@ -1041,6 +1077,33 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=8728",
+          "author": "Adam Marsden",
+          "description": "Git",
+          "link": "https://dailydevlinks.com/rebase-vs-merge-integrating-changes-in-git/",
+          "publishedOn": "2021-11-03T11:35:00.000Z",
+          "wordCount": 143,
+          "title": "Rebase vs. Merge: Integrating Changes in Git"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=8731",
+          "author": "Adam Marsden",
+          "description": "BrowserDevelopment",
+          "link": "https://dailydevlinks.com/are-online-editors-the-future/",
+          "publishedOn": "2021-11-03T11:02:00.000Z",
+          "wordCount": 143,
+          "title": "Are online editors the future?"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=8725",
+          "author": "Adam Marsden",
+          "description": "Development",
+          "link": "https://dailydevlinks.com/have-single-page-apps-ruined-the-web/",
+          "publishedOn": "2021-11-03T11:02:00.000Z",
+          "wordCount": 145,
+          "title": "Have Single-Page Apps Ruined the Web?"
+        },
         {
           "id": "https://dailydevlinks.com/?p=8722",
           "author": "Adam Marsden",
@@ -1544,24 +1607,6 @@
           "publishedOn": "2021-10-06T05:03:00.000Z",
           "wordCount": 134,
           "title": "OpenMoji"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=8541",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://dailydevlinks.com/quickly-testing-css-fallbacks/",
-          "publishedOn": "2021-10-05T05:04:00.000Z",
-          "wordCount": 137,
-          "title": "Quickly Testing CSS Fallbacks"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=8538",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/the-simplest-sass-compile-setup/",
-          "publishedOn": "2021-10-05T05:03:00.000Z",
-          "wordCount": 141,
-          "title": "The Simplest Sass Compile Setup"
         }
       ]
     },
@@ -1670,6 +1715,15 @@
       "feedUrl": "https://davidwalsh.name/feed/atom",
       "siteUrl": "https://davidwalsh.name",
       "articles": [
+        {
+          "id": "https://davidwalsh.name/fast-accurate-geolocation-data-with-ipwhois-io",
+          "author": null,
+          "description": "<p>In the world of marketing and content targeting, having accurate geolocation data can be the difference between a thriving enterprise and a floundering business. Accurate data is everything, especially in the targeted marketing. When you need trustworthy geolocation data, IPWHOIS.io is a great source: fast, reliable, and accurate! Quick Hits Start for free, very competitive [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://davidwalsh.name/fast-accurate-geolocation-data-with-ipwhois-io\">Fast, Accurate Geolocation Data with IPWHOIS.io (Sponsored)</a> appeared first on <a rel=\"nofollow\" href=\"https://davidwalsh.name\">David Walsh Blog</a>.</p>\n<p><a href=\"https://tkjs.us/dwb\"><img style=\"margin:0 auto\" alt=\"\" src=\"https://davidwalsh.name/demo/tjs_block-1.svg\"></a></p>",
+          "link": "https://davidwalsh.name/fast-accurate-geolocation-data-with-ipwhois-io",
+          "publishedOn": "2021-11-03T15:01:14.000Z",
+          "wordCount": 523,
+          "title": "Fast, Accurate Geolocation Data with IPWHOIS.io (Sponsored)"
+        },
         {
           "id": "https://davidwalsh.name/command-line-trash",
           "author": null,
@@ -1830,6 +1884,24 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=61172",
+          "author": "Thomas Dohmke",
+          "description": "This morning, I shared the following post with Hubbers in response to Nat’s announcement about his next adventure. I am thrilled to take on the role of CEO to build the next phase of GitHub for our global community of software developers.",
+          "link": "https://github.blog/2021-11-03-building-the-next-phase-of-github-together/",
+          "publishedOn": "2021-11-03T15:08:47.000Z",
+          "wordCount": 757,
+          "title": "Building the next phase of GitHub, together"
+        },
+        {
+          "id": "https://github.blog/?p=61166",
+          "author": "Nat Friedman",
+          "description": "This morning, I sent the following post to the GitHub team. TL;DR: I’m moving on to my next adventure, and Thomas Dohmke (currently Chief Product Officer) will be GitHub’s next CEO.",
+          "link": "https://github.blog/2021-11-03-thank-you-github/",
+          "publishedOn": "2021-11-03T15:08:17.000Z",
+          "wordCount": 1059,
+          "title": "Thank you, GitHub"
+        },
         {
           "id": "https://github.blog/?p=61106",
           "author": "Kevin Backhouse",
@@ -2018,15 +2090,6 @@
           "publishedOn": "2021-10-05T16:00:31.000Z",
           "wordCount": 839,
           "title": "13 tiny and terrific entries from the js13kGames competition"
-        },
-        {
-          "id": "https://github.blog/?p=60544",
-          "author": "Myles Borins",
-          "description": "GitHub Releases has a new look and updated tools to make it easier for open source communities to create and share high-quality releases with auto-generated release notes.",
-          "link": "https://github.blog/2021-10-04-beta-github-releases-improving-release-experience/",
-          "publishedOn": "2021-10-04T18:07:00.000Z",
-          "wordCount": 762,
-          "title": "A new public beta of GitHub Releases: How we’re improving the release experience"
         }
       ]
     },
@@ -2051,6 +2114,15 @@
       "feedUrl": "https://gomakethings.com/feed/index.xml",
       "siteUrl": "https://gomakethings.com",
       "articles": [
+        {
+          "id": "https://gomakethings.com/how-to-get-set-and-remove-data-attributes-with-vanilla-javascript/",
+          "author": null,
+          "description": "Today, we’re going to look at how to get, set, remove, and check for data attributes on an element. Let’s dig in!\nWhat is a data attribute? A data attribute is a custom attribute on an element that starts with data-*. It can be used to store information (or “state”) about the element, or even just as a selector for JavaScript components.\nIn this example, the button has a data attribute named [data-click].",
+          "link": "https://gomakethings.com/how-to-get-set-and-remove-data-attributes-with-vanilla-javascript/",
+          "publishedOn": "2021-11-03T14:30:00.000Z",
+          "wordCount": 523,
+          "title": "How to get, set, and remove data attributes with vanilla JavaScript"
+        },
         {
           "id": "https://gomakethings.com/the-golden-rule-of-javascript-use-as-little-as-possible/",
           "author": null,
@@ -2121,6 +2193,51 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=63903",
+          "author": "Travis",
+          "description": "Yes, design systems do improve developer efficiency and design consistency.",
+          "link": "https://heydesigner.com/the-value-of-design-systems-study/",
+          "publishedOn": "2021-11-03T09:02:02.000Z",
+          "wordCount": 61,
+          "title": "The value of design systems study"
+        },
+        {
+          "id": "https://heydesigner.com/?p=63901",
+          "author": "Travis",
+          "description": "Content guidelines explain the rules, conventions and principles an organisation follows when designing content for its users.",
+          "link": "https://heydesigner.com/how-to-integrate-content-guidelines-into-design-system-documentation/",
+          "publishedOn": "2021-11-03T09:00:24.000Z",
+          "wordCount": 75,
+          "title": "How to integrate content guidelines into design system documentation"
+        },
+        {
+          "id": "https://heydesigner.com/?p=63898",
+          "author": "Travis",
+          "description": "There is no one way to solve interfaces challenges.",
+          "link": "https://heydesigner.com/gui-challenges/",
+          "publishedOn": "2021-11-03T08:59:03.000Z",
+          "wordCount": 54,
+          "title": "GUI challenges"
+        },
+        {
+          "id": "https://heydesigner.com/?p=63896",
+          "author": "Travis",
+          "description": "I started working as a freelance development consultant in April 2021.",
+          "link": "https://heydesigner.com/mistakes-from-6-months-of-freelancing/",
+          "publishedOn": "2021-11-03T08:54:17.000Z",
+          "wordCount": 62,
+          "title": "Mistakes from 6 months of freelancing"
+        },
+        {
+          "id": "https://heydesigner.com/?p=63894",
+          "author": "Travis",
+          "description": "We’re not always able to load different-sized images for an HTML element.",
+          "link": "https://heydesigner.com/a-deep-dive-into-object-fit-and-background-size-in-css/",
+          "publishedOn": "2021-11-03T08:51:25.000Z",
+          "wordCount": 71,
+          "title": "A deep dive into object-fit and background-size In CSS"
+        },
         {
           "id": "https://heydesigner.com/?p=63889",
           "author": "Travis",
@@ -2381,6 +2498,51 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29095135",
+          "author": "danny00",
+          "description": "Article URL: http://stevenblack.com/articles/hooks-and-anchors/\nComments URL: https://news.ycombinator.com/item?id=29095135\nPoints: 2\n# Comments: 0",
+          "link": "http://stevenblack.com/articles/hooks-and-anchors/",
+          "publishedOn": "2021-11-03T14:30:47.000Z",
+          "wordCount": 2536,
+          "title": "The Hooks and Anchors Design Pattern"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29093820",
+          "author": "mad_ned",
+          "description": "Article URL: https://madned.substack.com/p/what-heathkit-taught-me-about-good\nComments URL: https://news.ycombinator.com/item?id=29093820\nPoints: 1\n# Comments: 0",
+          "link": "https://madned.substack.com/p/what-heathkit-taught-me-about-good",
+          "publishedOn": "2021-11-03T12:46:38.000Z",
+          "wordCount": 2621,
+          "title": "What Heathkit Taught Me About Good UX Design"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29092872",
+          "author": "tekkertje",
+          "description": "Article URL: https://www.stormly.com/blog/social-dilemma-demonised-ai\nComments URL: https://news.ycombinator.com/item?id=29092872\nPoints: 2\n# Comments: 0",
+          "link": "https://www.stormly.com/blog/social-dilemma-demonised-ai",
+          "publishedOn": "2021-11-03T10:30:53.000Z",
+          "wordCount": 1498,
+          "title": "How the Social Dilemma Demonized Addictive Design and Growth Hacking"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29091232",
+          "author": "ar2808",
+          "description": "Article URL: https://uxdesign.cc/5-misunderstandings-about-product-design-1664823354f6?gi=93a93c889dab\nComments URL: https://news.ycombinator.com/item?id=29091232\nPoints: 3\n# Comments: 0",
+          "link": "https://uxdesign.cc/5-misunderstandings-about-product-design-1664823354f6?gi=93a93c889dab",
+          "publishedOn": "2021-11-03T04:57:06.000Z",
+          "wordCount": 1115,
+          "title": "Misunderstandings about Product Design"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29090985",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://www.ics.uci.edu/~taylor/classes/121/IEEE86_Parnas_Clement.pdf\nComments URL: https://news.ycombinator.com/item?id=29090985\nPoints: 1\n# Comments: 0",
+          "link": "https://www.ics.uci.edu/~taylor/classes/121/IEEE86_Parnas_Clement.pdf",
+          "publishedOn": "2021-11-03T04:01:43.000Z",
+          "wordCount": 15342,
+          "title": "A Rational Design Process: How and Why to Fake It (1986) [pdf]"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29087053",
           "author": "omarfarooq",
@@ -3370,6 +3532,33 @@
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=29101144",
+          "author": "wr1472",
+          "description": "Article URL: https://reactrouter.com/\nComments URL: https://news.ycombinator.com/item?id=29101144\nPoints: 6\n# Comments: 2",
+          "link": "https://reactrouter.com/",
+          "publishedOn": "2021-11-03T22:19:13.000Z",
+          "wordCount": 315,
+          "title": "React Router 6"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29100852",
+          "author": "pspeter3",
+          "description": "Article URL: https://remix.run/blog/react-router-v6\nComments URL: https://news.ycombinator.com/item?id=29100852\nPoints: 1\n# Comments: 0",
+          "link": "https://remix.run/blog/react-router-v6",
+          "publishedOn": "2021-11-03T21:56:06.000Z",
+          "wordCount": 3440,
+          "title": "React Router v6"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29100827",
+          "author": "brijeshb42",
+          "description": "Article URL: https://reactrouter.com/docs/en/v6/getting-started/overview\nComments URL: https://news.ycombinator.com/item?id=29100827\nPoints: 1\n# Comments: 0",
+          "link": "https://reactrouter.com/docs/en/v6/getting-started/overview",
+          "publishedOn": "2021-11-03T21:54:06.000Z",
+          "wordCount": 1496,
+          "title": "React Router 6"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=29084238",
           "author": "sipacate",
           "description": "Article URL: https://blues.io/blog/reactjs-vs-blues-wireless-iot/\nComments URL: https://news.ycombinator.com/item?id=29084238\nPoints: 7\n# Comments: 3",
@@ -3619,6 +3808,33 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29096634",
+          "author": "bradley_taunt",
+          "description": "Article URL: https://uglyduck.ca/css-js-mistake/\nComments URL: https://news.ycombinator.com/item?id=29096634\nPoints: 2\n# Comments: 0",
+          "link": "https://uglyduck.ca/css-js-mistake/",
+          "publishedOn": "2021-11-03T16:11:15.000Z",
+          "wordCount": 645,
+          "title": "A Reality Where CSS and JavaScript Don't Exist"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29096237",
+          "author": "alizauf",
+          "description": "Article URL: https://twitter.com/alizauf/status/1455922198380691458\nComments URL: https://news.ycombinator.com/item?id=29096237\nPoints: 2\n# Comments: 0",
+          "link": "https://twitter.com/alizauf/status/1455922198380691458",
+          "publishedOn": "2021-11-03T15:43:31.000Z",
+          "wordCount": 196,
+          "title": "Google Chrome has broken CSS editing workflow"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29092269",
+          "author": "0066cc",
+          "description": "Article URL: https://ishadeed.com/article/conditional-border-radius/\nComments URL: https://news.ycombinator.com/item?id=29092269\nPoints: 3\n# Comments: 0",
+          "link": "https://ishadeed.com/article/conditional-border-radius/",
+          "publishedOn": "2021-11-03T08:33:11.000Z",
+          "wordCount": 1130,
+          "title": "Conditional Border Radius in CSS"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29087538",
           "author": "valgaze",
@@ -3925,6 +4141,15 @@
       "siteUrl": "http://ishadeed.com/",
       "articles": [
         {
+          "id": "http://ishadeed.com/article/facebook-messenger-chat-component/",
+          "author": null,
+          "description": "A deep dive into building Facebook Messenger’s Chat Bubble",
+          "link": "http://ishadeed.com/article/facebook-messenger-chat-component/",
+          "publishedOn": "2021-11-03T03:47:11.000Z",
+          "wordCount": 3842,
+          "title": "Building Real-life Components: Facebook Messenger's Chat Bubble"
+        },
+        {
           "id": "http://ishadeed.com/article/prevent-scroll-chaining-overscroll-behavior/",
           "author": null,
           "description": "How to prevent scroll chaining with overscroll-behavior property in CSS",
@@ -3977,7 +4202,17 @@
       "title": "Kent C. Dodds Blog",
       "feedUrl": "https://kentcdodds.com/blog/rss.xml",
       "siteUrl": "https://kentcdodds.com/blog",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://kentcdodds.com/blog/how-to-react",
+          "author": null,
+          "description": "Let's see how learning React ⚛️ in the right order can make it less overwhelming.",
+          "link": "https://kentcdodds.com/blog/how-to-react",
+          "publishedOn": "2021-11-03T00:00:00.000Z",
+          "wordCount": 1769,
+          "title": "How to React ⚛️"
+        }
+      ]
     },
     {
       "title": "Learn UI Design - Blog",
@@ -4076,6 +4311,15 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=41727",
+          "author": "Seth Godin",
+          "description": "There are two confusions. The first is that the next big idea must be fully original. The second is that it have no competition. This is almost never the case. Henry Ford didn’t invent the car, and there were plenty of social networks before the dominance of Facebook. Madam CJ Walker didn’t invent haircare, and […]",
+          "link": "https://seths.blog/2021/11/the-next-big-idea/",
+          "publishedOn": "2021-11-03T08:23:00.000Z",
+          "wordCount": 443,
+          "title": "The next big idea"
+        },
         {
           "id": "https://seths.blog/?p=41729",
           "author": "Seth Godin",
@@ -4611,6 +4855,20 @@
       "siteUrl": "https://tim.blog",
       "articles": [
         {
+          "id": "https://tim.blog/?p=58203",
+          "author": "Tim Ferriss",
+          "description": "Interview with John Doerr on The Tim Ferriss Show podcast",
+          "link": "https://tim.blog/2021/11/03/john-doerr/",
+          "publishedOn": "2021-11-03T13:21:07.000Z",
+          "wordCount": 2612,
+          "title": "Legendary Investor John Doerr on Picking Winners — From Google in 1999 to Solving the Climate Crisis Now (#543)",
+          "enclosure": {
+            "url": "https://rss.art19.com/episodes/a2c2f0a8-4377-4c48-a96a-9ea24040f215.mp3",
+            "length": "0",
+            "type": "audio/mpeg"
+          }
+        },
+        {
           "id": "https://tim.blog/?p=58124",
           "author": "Tim Ferriss",
           "description": "Listen to Chris Dixon and Naval Ravikant on The Tim Ferriss Show podcast",
@@ -4775,6 +5033,33 @@
       "siteUrl": "https://web.dev/feed.xml",
       "articles": [
         {
+          "id": "https://web.dev/whats-new-pagespeed-insights/",
+          "author": null,
+          "description": "Over the years, PageSpeed\nInsights (PSI) has\nevolved into a one-stop source for both\nfield\nand\nlab data.\nIt integrates information from the\nChrome UX Report\n(CrUX) and Lighthouse\ndiagnostics to provide insights that help improve the performance of your\nwebsite.\nToday, we are excited to announce an updated version of PSI! While it is a\ncritical element in our speed tooling suite,\nthe PSI code base was ten years old, contained a lot of legacy code, and was due\nfor a redesign. We used this as an opportunity to address interface-related\nissues in PSI which have sometimes made it difficult for users to navigate the\nreport. Our primary goals were to:\nMake the UI more intuitive by clearly differentiating between data\nderived from a synthetic environment and data collected from users in the\nfield.…",
+          "link": "https://web.dev/whats-new-pagespeed-insights/",
+          "publishedOn": "2021-11-03T00:00:00.000Z",
+          "wordCount": 1472,
+          "title": "What's new in PageSpeed Insights"
+        },
+        {
+          "id": "https://web.dev/lighthouse-user-flows/",
+          "author": null,
+          "description": "Lighthouse is a fantastic tool for testing performance and best practices during initial page load. However, it's traditionally been difficult to use Lighthouse to analyze other aspects of the life of a page, such as:\nPage loads with a warm cache\nPages with an activated Service Worker\nAccounting for potential user interactions\nThis means that Lighthouse can miss vital information. The Core Web Vitals are based on all page loads, not just those with an empty cache. Additionally, metrics like Cumulative Layout Shift (CLS) are measurable for the entire time a page is open.\nLighthouse has a new user flow API that allows lab testing at any point within a page's lifespan. Puppeteer is used to script page loads and trigger synthetic user interactions, and Lighthouse can be invoked in multiple way…",
+          "link": "https://web.dev/lighthouse-user-flows/",
+          "publishedOn": "2021-11-03T00:00:00.000Z",
+          "wordCount": 1583,
+          "title": "Lighthouse user flows"
+        },
+        {
+          "id": "https://web.dev/cds2021-updates/",
+          "author": null,
+          "description": "This post rounds up all the key announcements from the 2021 Chrome Dev Summit, with the links you need to find out more.\nMake the web more interoperable #\nWeb compatibility is one of the biggest challenges for web developers,\nand so Google has been working with other browser vendors to fix the top five compatibility pain points:\nflexbox,\ngrid,\nposition: sticky,\naspect-ratio,\nand transforms.\nThe work has already led to improvements in these key areas.\nYou can read about those in the Compat 2021 mid-year update.\nThe Microsoft Edge team took on the work of rewriting CSS grid layout as part of the Compat 2021 effort.\nYou can read about their work in the post\nCompat2021: Improving CSS Grid compatibility with GridNG.\nAllow new classes of applications to run on the web #\nProject Fugu is an effort…",
+          "link": "https://web.dev/cds2021-updates/",
+          "publishedOn": "2021-11-03T00:00:00.000Z",
+          "wordCount": 825,
+          "title": "Everything announced at Chrome Dev Summit 2021"
+        },
+        {
           "id": "https://web.dev/smoothness/",
           "author": null,
           "description": "You've probably experienced pages that \"stutter\" or \"freeze\" during scrolling or\nanimations. We like to say that these experiences are not smooth. To address\nthese types of issues, the Chrome team has been working on adding more support\nto our lab tooling for animation detection, as well making steady improvements\nto the rendering pipeline diagnostics within Chromium.\nWe'd like to share some recent progress, offer concrete tooling guidance, and\ndiscuss ideas for future animation smoothness metrics. As always, we would love\nto hear your feedback.\nThis post will cover three main topics:\nA quick look at animations and animation frames.\nOur current thoughts on measuring overall animation smoothness.\nA few practical suggestions for you to leverage in lab tooling today.\nWhat are animations? #\nAn…",
@@ -4881,15 +5166,6 @@
           "publishedOn": "2021-10-06T00:00:00.000Z",
           "wordCount": 1419,
           "title": "Safe DOM manipulation with the Sanitizer API"
-        },
-        {
-          "id": "https://web.dev/embed-best-practices/",
-          "author": null,
-          "description": "Many sites use third-party embeds to create an engaging user experience by delegating some sections of a web page to another content provider. The most common examples of third-party content embeds are video players, social-media feeds, maps, and advertisements.\nThird-party content can impact the performance of a page in many ways. It can be render-blocking, contend with other critical resources for network and bandwidth, or affect the Core Web Vitals metrics. Third-party embeds may also cause layout shifts as they load. This article discusses performance best practices that you can use when loading third-party embeds, efficient loading techniques, and the Layout Shift Terminator tool that helps reduce layout shifts for popular embeds.\nWhat is an embed #\nA third-party embed is any content …",
-          "link": "https://web.dev/embed-best-practices/",
-          "publishedOn": "2021-10-05T00:00:00.000Z",
-          "wordCount": 2706,
-          "title": "Best practices for using third-party embeds"
         }
       ]
     },
@@ -5024,15 +5300,6 @@
           "publishedOn": "2021-10-08T09:00:00.000Z",
           "wordCount": 371,
           "title": "React useScript hook"
-        },
-        {
-          "id": "https://www.30secondsofcode.org/react/s/use-hover",
-          "author": null,
-          "description": "Handles the event of hovering over the wrapped component.",
-          "link": "https://www.30secondsofcode.org/react/s/use-hover",
-          "publishedOn": "2021-10-05T09:00:00.000Z",
-          "wordCount": 229,
-          "title": "React useHover hook"
         }
       ]
     },
@@ -5048,6 +5315,123 @@
       "siteUrl": "/",
       "articles": [
         {
+          "id": "https://www.designernews.co/stories/118694-drag--drop-design-tool-for-health-and-medical-apps",
+          "author": null,
+          "description": "https://www.healthuikit.com/",
+          "link": "https://www.designernews.co/stories/118694-drag--drop-design-tool-for-health-and-medical-apps",
+          "publishedOn": "2021-11-03T16:10:54.000Z",
+          "wordCount": 170,
+          "title": "Drag & drop design tool for health and medical apps"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118693-the-most-popular-15-website-visual-structure-templates-and-examples-for-free",
+          "author": null,
+          "description": "https://octopus.do/sitemap/resource/sitemap-template",
+          "link": "https://www.designernews.co/stories/118693-the-most-popular-15-website-visual-structure-templates-and-examples-for-free",
+          "publishedOn": "2021-11-03T15:30:10.000Z",
+          "wordCount": 173,
+          "title": "The most popular 15 Website visual structure templates and examples for free"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118692-fill-your-portfolio-with-inspiring-brand--identity-projects",
+          "author": null,
+          "description": "https://briefbox.me/courses/brand-and-identity-01",
+          "link": "https://www.designernews.co/stories/118692-fill-your-portfolio-with-inspiring-brand--identity-projects",
+          "publishedOn": "2021-11-03T15:08:35.000Z",
+          "wordCount": 167,
+          "title": "Fill your portfolio with inspiring brand & Identity projects"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118691-free-generator-for-black-friday-offers--templates--feedback-needed",
+          "author": null,
+          "description": "https://shorturl.at/bcyLV",
+          "link": "https://www.designernews.co/stories/118691-free-generator-for-black-friday-offers--templates--feedback-needed",
+          "publishedOn": "2021-11-03T14:56:59.000Z",
+          "wordCount": 171,
+          "title": "Free generator for Black Friday offers + templates | Feedback needed"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118687-powerful-coms-com-ecommerce-html-landing-page",
+          "author": null,
+          "description": "https://htmltemplates.org/downloads/ecommerce-html-landing-page/",
+          "link": "https://www.designernews.co/stories/118687-powerful-coms-com-ecommerce-html-landing-page",
+          "publishedOn": "2021-11-03T10:56:04.000Z",
+          "wordCount": 166,
+          "title": "Powerful Coms Com ECommerce Html Landing Page"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118686-best-live-streaming-features",
+          "author": null,
+          "description": "Hello, I am new to this site. I have needed the Best live streaming features, But I am not able to find them. So please tell me about this",
+          "link": "https://www.designernews.co/stories/118686-best-live-streaming-features",
+          "publishedOn": "2021-11-03T10:49:39.000Z",
+          "wordCount": 310,
+          "title": "Best live streaming features"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118685-100-most-useful-tools-site-and-assets-for-a-designer",
+          "author": null,
+          "description": "https://designerassets.in/",
+          "link": "https://www.designernews.co/stories/118685-100-most-useful-tools-site-and-assets-for-a-designer",
+          "publishedOn": "2021-11-03T10:36:44.000Z",
+          "wordCount": 171,
+          "title": "100+ Most useful tools, site and assets for a designer"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118684-top-mobile-app-development-blogs",
+          "author": null,
+          "description": "http://appcluesinfotech.wixsite.com/app-development/blog",
+          "link": "https://www.designernews.co/stories/118684-top-mobile-app-development-blogs",
+          "publishedOn": "2021-11-03T09:41:01.000Z",
+          "wordCount": 164,
+          "title": "Top Mobile App Development Blogs"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118683-10-mini-habits-to-improve-your-time-management-instantly",
+          "author": null,
+          "description": "https://blog.tmetric.com/10-mini-habits-to-improve-your-time-management-instantly/",
+          "link": "https://www.designernews.co/stories/118683-10-mini-habits-to-improve-your-time-management-instantly",
+          "publishedOn": "2021-11-03T08:54:48.000Z",
+          "wordCount": 205,
+          "title": "10 Mini Habits To Improve Your Time Management Instantly"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118682-how-to-develop-an-app-like-tinder",
+          "author": null,
+          "description": "http://www.appcluesinfotech.com/how-much-does-it-cost-to-develop-an-online-dating-app-like-tinder/",
+          "link": "https://www.designernews.co/stories/118682-how-to-develop-an-app-like-tinder",
+          "publishedOn": "2021-11-03T08:00:48.000Z",
+          "wordCount": 164,
+          "title": "How To Develop an App Like Tinder?"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118681-5-misunderstandings-about-product-design",
+          "author": null,
+          "description": "https://uxdesign.cc/5-misunderstandings-about-product-design-1664823354f6",
+          "link": "https://www.designernews.co/stories/118681-5-misunderstandings-about-product-design",
+          "publishedOn": "2021-11-03T05:13:43.000Z",
+          "wordCount": 160,
+          "title": "5 misunderstandings about product design"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118680-httpsuxdesigncc5misunderstandingsaboutproductdesign1664823354f6",
+          "author": null,
+          "description": "https://uxdesign.cc/5-misunderstandings-about-product-design-1664823354f6",
+          "link": "https://www.designernews.co/stories/118680-httpsuxdesigncc5misunderstandingsaboutproductdesign1664823354f6",
+          "publishedOn": "2021-11-03T04:58:15.000Z",
+          "wordCount": 152,
+          "title": "https://uxdesign.cc/5-misunderstandings-about-product-design-1664823354f6"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118679-tuner-instrument-tool",
+          "author": null,
+          "description": "https://www.tunerinstrument.com/\r\n\r\nA website made with React, simple and easy",
+          "link": "https://www.designernews.co/stories/118679-tuner-instrument-tool",
+          "publishedOn": "2021-11-02T15:58:11.000Z",
+          "wordCount": 163,
+          "title": "Tuner Instrument tool"
+        },
+        {
           "id": "https://www.designernews.co/stories/118678-free-people-icon-pack",
           "author": null,
           "description": "https://freewebsites.live/",
@@ -5055,6 +5439,24 @@
           "publishedOn": "2021-11-02T15:29:33.000Z",
           "wordCount": 159,
           "title": "Free People Icon Pack"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118676-digital-product-website-template-black-friday-sale",
+          "author": null,
+          "description": "https://makewebsite.xyz/downloads/digital-product-website-template/",
+          "link": "https://www.designernews.co/stories/118676-digital-product-website-template-black-friday-sale",
+          "publishedOn": "2021-11-02T14:36:52.000Z",
+          "wordCount": 167,
+          "title": "Digital Product Website Template black friday sale"
+        },
+        {
+          "id": "https://www.designernews.co/stories/118675-the-best-web-app-ui-kit-collection-",
+          "author": null,
+          "description": "https://webapp.cx/downloads/web-app-ui-kit/",
+          "link": "https://www.designernews.co/stories/118675-the-best-web-app-ui-kit-collection-",
+          "publishedOn": "2021-11-02T13:16:37.000Z",
+          "wordCount": 197,
+          "title": "The Best Web App UI Kit Collection"
         },
         {
           "id": "https://www.designernews.co/stories/118674-seen-talkspace-campaign-in-uk-on-instagram-here-is-how-illustrations-were-made",
@@ -6018,6 +6420,20 @@
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
         {
+          "id": "https://smashingmagazine.com/2021/11/deep-dive-into-serverless-ui-typescript/",
+          "author": "hello@smashingmagazine.com (Ikeh Akinyemi)",
+          "description": "Serverless UI is simply a free, open-source command-line utility for quickly building and deploying serverless applications on the AWS platform. In this article, we will learn and cover everything needed on using Serverless UI to deploy our projects or serverless applications to cloud services providers.",
+          "link": "https://smashingmagazine.com/2021/11/deep-dive-into-serverless-ui-typescript/",
+          "publishedOn": "2021-11-03T11:30:00.000Z",
+          "wordCount": 3625,
+          "title": "A Deep Dive Into Serverless UI With TypeScript",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/aff46dfe-164d-4bf7-8e14-057470001b41/deep-dive-into-serverless-ui-typescript.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          }
+        },
+        {
           "id": "https://smashingmagazine.com/2021/11/magento-pwa-customizing-themes-coding/",
           "author": "hello@smashingmagazine.com (Alex Husar)",
           "description": "This article sheds the spotlight on Magento PWAs and explains why business owners are getting them (often instead of native applications). Alex Husar introduces ways of how progressive web applications can be developed on Magento, as well as go over the major pros and cons of each development path.",
@@ -6366,20 +6782,6 @@
             "length": "0",
             "type": "image/jpg"
           }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/10/local-testing-serverless-api-gateway-lambda/",
-          "author": "hello@smashingmagazine.com (Tom Hudson)",
-          "description": "Have you ever struggled with testing cloud services locally? Specifically, have you ever struggled with locally testing an API that uses API Gateway and Lambda, with the Serverless framework, on AWS? In this article, Tom Hudson shares a quick overview of how easy it is to quickly set up your project to test locally before deploying to AWS.",
-          "link": "https://smashingmagazine.com/2021/10/local-testing-serverless-api-gateway-lambda/",
-          "publishedOn": "2021-10-05T10:00:00.000Z",
-          "wordCount": 1788,
-          "title": "Local Testing A Serverless API (API Gateway And Lambda)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d43ff4a2-4767-4595-9f46-f1ca18f64060/local-testing-serverless-api-gateway-lambda.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
         }
       ]
     },
@@ -6440,6 +6842,15 @@
       "feedUrl": "https://xkcd.com/rss.xml",
       "siteUrl": "https://xkcd.com/",
       "articles": [
+        {
+          "id": "https://xkcd.com/2537/",
+          "author": null,
+          "description": "",
+          "link": "https://xkcd.com/2537/",
+          "publishedOn": "2021-11-03T04:00:00.000Z",
+          "wordCount": 185,
+          "title": "Painbow Award"
+        },
         {
           "id": "https://xkcd.com/2536/",
           "author": null,
