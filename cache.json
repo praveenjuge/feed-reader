@@ -42,6 +42,24 @@
       "siteUrl": "https://adactio.com/journal/",
       "articles": [
         {
+          "id": "https://adactio.com/journal/18604",
+          "author": null,
+          "description": "When I’ve spoken in the past about evaluating technology, I’ve mentioned two categories of tools for web development. I still don’t know quite what to call these categories. Internal and external? Developer-facing and user-facing?\nThe first category covers things like build tools, version control, transpilers, pre-processers, and linters. These are tools that live on your machine—or on the server—taking what you’ve written and transforming it into the raw materials of the web: HTML, CSS, and JavaScript.\nThe second category of tools are those that are made of the raw materials of the web: CSS frameworks and JavaScript libraries.\nI think the criteria for evaluating these different kinds of tools should be very different.\nFor the first category, developer-facing tools, use whatever you want. …",
+          "link": "https://adactio.com/journal/18604",
+          "publishedOn": "2021-11-08T17:46:39.000Z",
+          "wordCount": 1400,
+          "title": "Inertia"
+        },
+        {
+          "id": "https://adactio.com/journal/18602",
+          "author": null,
+          "description": "For over a year now I’ve been recording the audio versions of Jay Hoffman’s excellent Web History series on CSS Tricks.\nWe’re up to ten chapters now. The audio version of each chapter is between 30 and 40 minutes long. That’s around 400 minutes of my voice: a good six and a half hours of me narrating the history of the web. That’s like an audio book!\nThe story so far covers:\nBirth\nBrowsers\nThe Website\nSearch\nPublishing\nWeb Design\nStandards\nCSS\nCommunity\nBrowser Wars\n…with more to come.\nThe audio is available as a podcast. You can subscribe to the RSS feed. It’s also available from Apple and Spotify.\nThat’ll give you plenty to listen to while you wait for the next season of the Clearleft podcast.",
+          "link": "https://adactio.com/journal/18602",
+          "publishedOn": "2021-11-08T16:05:58.000Z",
+          "wordCount": 390,
+          "title": "Ten episodes of the Web History podcast"
+        },
+        {
           "id": "https://adactio.com/journal/18598",
           "author": null,
           "description": "I just finished watching The Billion Dollar Code, a German languge miniseries on Netflix. It’s no Halt and Catch Fire, but it combines ’90s nostalgia, early web tech, and an opportunity for me to exercise my German comprehension.\nIt’s based on a true story, but with amalgamated characters. The plot, which centres around the preparation for a court case, inevitably invites comparison to The Social Network, although this time the viewpoint is from that of the underdogs trying to take on the incumbent. The incumbent is Google. The underdogs are ART+COM, artist-hackers who created the technology later used by Google Earth.\nEarly on, one of the characters says something about creating a one-to-one model of the whole world. That phrase struck me as familiar…\nI remember being at the inaugural Future Of Web Apps conference  in London back in 2006. Discussing the talks with friends afterwards, we all got a kick out of the speaker from Google, who happened to be German. His content and delivery was like a wonderfully Stranglovesque mad scientist. I’m sure I remember him saying something like “vee made a vun-to-vun model of the vurld.”\nHis name was Steffen Meschkat.  I liveblogged the talk at the time. Turns out he was indeed on the team at ART+COM when they created Terravision, the technology later appropriated by Google (he ended up working at Google, which doesn’t make for as exciting a story as the TV show).\nHis 2006 talk was all about Ajax, something he was very familiar with, being on the Google Maps team. The Internet Archive even has a copy of the original audio!\nIt’s easy to forget now just how much hype there was around Ajax back then.  It prompted me to write a book about combining Ajax and progressive enhancement.\nThese days, no one talks about Ajax. But that’s not because the technology went away. Quite the opposite. The technology became so ubiquituous that it no longer even needs a label.\nA web developer today might ask “what’s Ajax?” in the same way that a fish might ask “what’s water?”",
@@ -727,6 +745,15 @@
       "siteUrl": "https://codeascraft.com",
       "articles": [
         {
+          "id": "https://codeascraft.com/?p=5695",
+          "author": "Salem Hilal",
+          "description": "Over the past few years, Etsy’s Web Platform team has spent a lot of time bringing our frontend code up to date. It was only a year and a half ago that we modernized our Javascript build system in order to enable advanced features, things like arrow functions and classes, that have been added to […]",
+          "link": "https://codeascraft.com/2021/11/08/etsys-journey-to-typescript/",
+          "publishedOn": "2021-11-08T15:07:25.000Z",
+          "wordCount": 4782,
+          "title": "Etsy’s Journey to TypeScript"
+        },
+        {
           "id": "https://codeascraft.com/?p=5686",
           "author": "Allie Jones",
           "description": "Keeping up with the latest developments in frontend architecture can be challenging, especially with a codebase the size and age of Etsy’s. It’s difficult to balance the benefits of adopting newer tools with the cost of migrating to them. When a total rewrite isn’t possible, how can you ensure that old patterns can coexist with […]",
@@ -777,15 +804,6 @@
           "publishedOn": "2021-10-19T00:00:00.000Z",
           "wordCount": 989,
           "title": "Evaluating Clever CSS Solutions"
-        },
-        {
-          "id": "https://css-irl.info/creating-3d-characters-in-threejs/",
-          "author": null,
-          "description": "In this tutorial we’ll talk through creating a three-dimensional character using Three.js, adding some simple but effective animation, and a generative colour palette.\nRead the full article on Codrops",
-          "link": "https://css-irl.info/creating-3d-characters-in-threejs/",
-          "publishedOn": "2021-10-10T00:00:00.000Z",
-          "wordCount": 85,
-          "title": "Creating 3D Characters in Three.js"
         }
       ]
     },
@@ -794,6 +812,33 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=356204",
+          "author": "Chris Coyier",
+          "description": "Bonafide CSS trick alert! Nelson Menezes figured out a new way (that only works in Firefox for now) that is awfully clever.\nPerhaps you know that CSS cannot animate to auto dimensions, which is super unfortunate. Animating from …\nThe post CSS Grid Can Do Auto Height Transitions appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/css-grid-can-do-auto-height-transitions/",
+          "publishedOn": "2021-11-08T19:01:31.000Z",
+          "wordCount": 561,
+          "title": "CSS Grid Can Do Auto Height Transitions"
+        },
+        {
+          "id": "https://css-tricks.com/?p=322098",
+          "author": "Ana Tudor",
+          "description": "I recently came across a cool effect known as glassmorphism in a Dribble shot. My first thought was I could quickly recreate it in a few minutes if I just use some emojis for the icons without wasting time …\nThe post Icon Glassmorphism Effect in CSS appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/icon-glassmorphism-effect-in-css/",
+          "publishedOn": "2021-11-08T14:57:42.000Z",
+          "wordCount": 7960,
+          "title": "Icon Glassmorphism Effect in CSS"
+        },
+        {
+          "id": "https://css-tricks.com/?p=356134",
+          "author": "Chris Coyier",
+          "description": "Just ran across îles, a new static site generator mostly centered around Vue. The world has no particular shortage of static site generators, but it’s interesting to see what this “next generation” of SSGs seem to focus on or …\nThe post Does the Next Generation of Static Site Generators Make Building Sites Better? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/does-the-next-generation-of-static-site-generators-make-building-sites-better/",
+          "publishedOn": "2021-11-08T14:56:23.000Z",
+          "wordCount": 674,
+          "title": "Does the Next Generation of Static Site Generators Make Building Sites Better?"
+        },
         {
           "id": "https://css-tricks.com/?p=355780",
           "author": "Chris Coyier",
@@ -1287,6 +1332,15 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=8759",
+          "author": "Adam Marsden",
+          "description": "Development",
+          "link": "https://dailydevlinks.com/developer-tools-secrets-that-shouldnt-be-secrets/",
+          "publishedOn": "2021-11-08T12:02:00.000Z",
+          "wordCount": 148,
+          "title": "Developer Tools secrets that shouldn’t be secrets"
+        },
         {
           "id": "https://dailydevlinks.com/?p=8750",
           "author": "Adam Marsden",
@@ -2285,6 +2339,15 @@
       "siteUrl": "https://gomakethings.com",
       "articles": [
         {
+          "id": "https://gomakethings.com/my-sublime-text-setup-for-front-end-web-development/",
+          "author": null,
+          "description": "Even though VS Code is the new hotness, I still use Sublime Text for all of my web development and text editing needs.\nToday, I wanted to share my setup. Let’s dig in!\nFirst: why Sublime over VS Code? I recommend VS Code to all of my students. It is hands-down the best free text editor available today.\nIt even does something Sublime can’t: preserve formatting when copy/pasting code. This is invaluable when putting together presentations with code samples, so I use VS Code myself when building conference talks.",
+          "link": "https://gomakethings.com/my-sublime-text-setup-for-front-end-web-development/",
+          "publishedOn": "2021-11-08T15:30:00.000Z",
+          "wordCount": 1159,
+          "title": "My Sublime Text setup for front end web development"
+        },
+        {
           "id": "https://gomakethings.com/strategies-for-working-with-data-attributes-in-vanilla-javascript/",
           "author": null,
           "description": "Over the last two days, we’ve learned how to get, set, and remove data attributes using a handful of native methods, as well as with the Element.dataset property. Today, we’re going to look at some different strategies for working with data attributes.\nLet’s dig in!\nAs JavaScript selectors One of my favorite ways to use data attributes in projects is as selectors for my JavaScript.\nFor example, if I had a JavaScript dropdown menu component, I might target it with the [data-dropdown] element.",
@@ -2718,6 +2781,15 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29152983",
+          "author": "hdjjhhvvhga",
+          "description": "Article URL: https://github.com/AvaloniaUI/Avalonia\nComments URL: https://news.ycombinator.com/item?id=29152983\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/AvaloniaUI/Avalonia",
+          "publishedOn": "2021-11-08T19:10:38.000Z",
+          "wordCount": 1097,
+          "title": "Avalonia: A cross-platform XAML-based UI framework"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29145371",
           "author": "adamius",
@@ -3896,6 +3968,51 @@
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=29153133",
+          "author": "frankiesardo",
+          "description": "Article URL: https://www.smashingmagazine.com/2021/11/hydrogen-react-framework-dynamic-contextual-personalized-ecommerce/\nComments URL: https://news.ycombinator.com/item?id=29153133\nPoints: 3\n# Comments: 0",
+          "link": "https://www.smashingmagazine.com/2021/11/hydrogen-react-framework-dynamic-contextual-personalized-ecommerce/",
+          "publishedOn": "2021-11-08T19:26:27.000Z",
+          "wordCount": 1524,
+          "title": "Hydrogen: A React Framework for Dynamic, Contextual and Personalized E-Commerce"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29152846",
+          "author": "slorber",
+          "description": "Article URL: https://shopify.engineering/high-performance-hydrogen-powered-storefronts\nComments URL: https://news.ycombinator.com/item?id=29152846\nPoints: 4\n# Comments: 0",
+          "link": "https://shopify.engineering/high-performance-hydrogen-powered-storefronts",
+          "publishedOn": "2021-11-08T18:58:16.000Z",
+          "wordCount": 1800,
+          "title": "Shopify explains how/why they built a React framework"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29151545",
+          "author": "davidajackson",
+          "description": "For those building early stage products, how much or how little do you use Redux, etc.? Have some opinions on this but want to hear from others.\nComments URL: https://news.ycombinator.com/item?id=29151545\nPoints: 3\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=29151545",
+          "publishedOn": "2021-11-08T17:17:49.000Z",
+          "wordCount": 181,
+          "title": "Ask HN: What do you like to use for state management with React?"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29150634",
+          "author": "ChrisArchitect",
+          "description": "Article URL: https://hydrogen.shopify.dev/\nComments URL: https://news.ycombinator.com/item?id=29150634\nPoints: 125\n# Comments: 51",
+          "link": "https://hydrogen.shopify.dev/",
+          "publishedOn": "2021-11-08T16:00:54.000Z",
+          "wordCount": 487,
+          "title": "Hydrogen: React-based framework for building custom storefronts"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29150400",
+          "author": "bartproost",
+          "description": "Comments URL: https://news.ycombinator.com/item?id=29150400\nPoints: 4\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=29150400",
+          "publishedOn": "2021-11-08T15:42:31.000Z",
+          "wordCount": 83,
+          "title": "Hydrogen: Shopify's new React-based framework ships with Tailwind, ts and Vite"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=29147714",
           "author": "zioncodev",
           "description": "Article URL: https://blog.openreplay.com/building-an-encyclopedia-with-react-and-wikipedia-search-api/\nComments URL: https://news.ycombinator.com/item?id=29147714\nPoints: 1\n# Comments: 1",
@@ -4298,6 +4415,15 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29150400",
+          "author": "bartproost",
+          "description": "Comments URL: https://news.ycombinator.com/item?id=29150400\nPoints: 4\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=29150400",
+          "publishedOn": "2021-11-08T15:42:31.000Z",
+          "wordCount": 83,
+          "title": "Hydrogen: Shopify's new React-based framework ships with Tailwind, ts and Vite"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29147821",
           "author": "yuchi",
@@ -4880,6 +5006,16 @@
           "id": "https://stratechery.com/2021/an-interview-with-mark-zuckerberg-about-the-metaverse/",
           "author": "Ben Thompson",
           "description": "An Interview with Mark Zuckerberg about the Metaverse",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMS9hbi1pbnRlcnZpZXctd2l0aC1tYXJrLXp1Y2tlcmJlcmctYWJvdXQtdGhlLW1ldGF2ZXJzZS8.P_M5JCu6Ixj2M-wNCurEPTCctZ02PB2YIE6SChq8BPxzZ1y8v5Om7-irl67m8LKdP-d5HtlfPFOQZkvolBAMACkHsW8uyxA4IFO7a5nDv6W0wYwsnBRx80IDzXy5bhGCiL8_WgYcpeFhRTk1UC-iJ9_teXqo4zRnebPlD4CeNOGPut2HDPlueYEuXTMiVh4tjaxZfH-ZL9NtxX-SGHdncjCfG5ST3cJABHcWAK51Yvs6IIL1BCtplcl7eVfkG_h2bzPw1dS4D6P3ONTMoYPEtGXynRWEZnNVr7LCH1KMFGSANZv_NnBrTRuxHG0UhpDZPZ3U2Qzs_LXsW5VV2igGPQ",
+          "publishedOn": "2021-10-28T18:19:46.000Z",
+          "wordCount": null,
+          "title": "[FREE] An Interview with Mark Zuckerberg about the Metaverse",
+          "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2021/an-interview-with-mark-zuckerberg-about-the-metaverse/",
+          "author": "Ben Thompson",
+          "description": "An Interview with Mark Zuckerberg about the Metaverse",
           "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMS9hbi1pbnRlcnZpZXctd2l0aC1tYXJrLXp1Y2tlcmJlcmctYWJvdXQtdGhlLW1ldGF2ZXJzZS8.OwXg9wvslmaoIu7OjgvVSD4n3UxqJRm48ysZ2zFR_hC7QaT6biS4BehNTs-JnQaCFT247NatJpJz20B-Cx3nnIRHUjYPfmqgPB0W6ZbhD_Wp-Ror5NvhQ5uAQ9IaD2ULBcNWyGwIlW6vgujsmnL8pszN8uE8NNkE7vYKqtlmKynKD2rlb3QwjS3buyJxpTHJN6ehpwBD0NpyNFUlU_NU6FqMIP_8xLgCulxQ05xCEcoJsVR8_X8om5AUNaqeZKVS6itD8b0orj0P2HtJwwPnC4xvZYkkSeYnSaKA_Uxm_cx7RgFcNVchHQzFfIL79oFrtxC6jBWmyBIgH1_j6DIHiQ",
           "publishedOn": "2021-10-28T18:19:46.000Z",
           "wordCount": null,
@@ -4904,6 +5040,16 @@
           "publishedOn": "2021-10-28T18:19:46.000Z",
           "wordCount": null,
           "title": "[FREE] An Interview with Mark Zuckerberg about the Metaverse",
+          "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2021/meta/",
+          "author": "Ben Thompson",
+          "description": "Facebook's reorganization into Meta is the ultimate bet on the power of founder control.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMS9tZXRhLw.ToaPG3Lyv77vGmm3OnL4zewyzDhTfq9COCNry2N9Z1LuGaf7CWGiQ-Ho0LlHIq2xHyoegRGrKZLX3rFP6ev_qn6EjxR9bbqj_gFYGdkPwcqzKbbQ6-jqJby3ETDw4VLqp9egWNRr27jOnMG0-Gj3fW6lsHVuyZnuCi3kHVZCmcqJ0UWOkf0yDnrurvFWAaI-dWTQf5B3bwVaE5jhQvzRAuBUngBnu91zU5GAkkgEwExbBYEOrr-ylH2JcUi4vg9FYk5MWAE1LOEwVo5txhJROYKHEfR8dpcyD3kqDfwnD41ctvQqLA2blmwIkqlHqyGzaMWCij_yj4OV2fGxxFA8Kw",
+          "publishedOn": "2021-10-28T18:19:37.000Z",
+          "wordCount": null,
+          "title": "Meta",
           "itunes": {}
         },
         {
@@ -4940,6 +5086,16 @@
           "id": "https://stratechery.com/2021/sequoia-productive-capital/",
           "author": "Ben Thompson",
           "description": "Sequoia's transformation of its venture capital model is actually a shift from financial capital to productive capital",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMS9zZXF1b2lhLXByb2R1Y3RpdmUtY2FwaXRhbC8.scR9v1Uc9soCYCAvaAQB1dpvC9Z8cWXtBk0WcLu7vjog3vKjL3niLi42YpB_dhYwKa0fHESK18pV7RuBQLLSqMBYYItS01bkKaFNHd90hI9gs1bkj4KrG1ttf7kvjEVPSen34UNrLZRlNj9C8qVhbNCZ5-dkq1CiFx9-SjGxBbgn9gb6FyPZLZaqYI40I2lJaBZSCQQhg1okAjMWYs3iAjsb8IOz0EG1WwtpTL0jJwA9hRIi3dzZ3HAclQafhSAHAQNaeMFp4F2DIgQbrRZ7FNfCxfcP3XiSODUCCALhOpCwuQ1_8AmdktTd_sX3Z0jxLyxIhx--hz2yfswtdqJ_pw",
+          "publishedOn": "2021-10-27T11:30:09.000Z",
+          "wordCount": null,
+          "title": "Sequoia Productive Capital",
+          "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2021/sequoia-productive-capital/",
+          "author": "Ben Thompson",
+          "description": "Sequoia's transformation of its venture capital model is actually a shift from financial capital to productive capital",
           "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMS9zZXF1b2lhLXByb2R1Y3RpdmUtY2FwaXRhbC8.AitHQGDPbV251jR0uY1Ly5ZN1jjrKsXVjUsh_pJ6lB-JttKB8zuyL2HoqvAW1FdujOIBP7uX6OaAj9t5wZ6cDFBnd2jPqTRV2-SIkMO2NxtQMnMEO2-EEbhT-FmcjSrKv5PbQVLToMMbgQRevSWFqWZH4DHBuTzqUX0FzOC9byLuvWQ5VseFm4Y20IU7GtJggQUfF6T96XQNRZvtrAW4iWdffvTqhkkH0usEibhpWqRD4vKGOuG4Ac63-K4uXQgJ5ctQHKYeD3TQnhAfblNrtKXGmkcB-6XnDS9_WCkcwrfca0bcKp3hz3MMuidt5JCknBfESQ-REFChPQUibNKIKg",
           "publishedOn": "2021-10-27T11:30:09.000Z",
           "wordCount": null,
@@ -4964,6 +5120,16 @@
           "publishedOn": "2021-10-27T11:30:09.000Z",
           "wordCount": null,
           "title": "Sequoia Productive Capital",
+          "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2021/the-death-and-birth-of-technological-revolutions/",
+          "author": "Ben Thompson",
+          "description": "Carlota Perez documents technological revolutions, and thinks we're in the middle of the current one; what, though, if we are nearing its maturation? Is crypto next?",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMS90aGUtZGVhdGgtYW5kLWJpcnRoLW9mLXRlY2hub2xvZ2ljYWwtcmV2b2x1dGlvbnMv.FQEEUAY4p-CXEe-v3ZJf91929DL7lRdhBjJViTF9v5MtkOcPRac2zsgNvgr1-_LpWPB0AMHYxM0iev8ecQ4HjdzeXffoFRLc43pdCYS7ofaqQWYTUO8E2zuQx1u8bw3oOMtdJ_vFLspje4EZxqsx2HBYwOlsKMs4b0Wbu5uNVV1tG5jOb0iBcUAaKkP29LEVxYF3VeF9knXV4Kj9esE_a3ppI_BgwFdSSQWSL89lWJLpdhUI3-FdYVTydo7fdKyMd-63Tbkg-Rz4gZYF0d7DfNOv6Bjp6bcmACkT2R2JwPgdJoJjmhtzR4vuEJzCgwVMlv4mtWcx2WgWbKt1uGwCMw",
+          "publishedOn": "2021-10-12T13:18:41.000Z",
+          "wordCount": null,
+          "title": "The Death and Birth of Technological Revolutions",
           "itunes": {}
         },
         {
@@ -6001,15 +6167,6 @@
           "publishedOn": "2021-10-13T09:00:00.000Z",
           "wordCount": 230,
           "title": "React useSearchParam hook"
-        },
-        {
-          "id": "https://www.30secondsofcode.org/articles/s/javascript-string-immutability",
-          "author": null,
-          "description": "When it comes to immutability, many developers have trouble wrapping their head around JavaScript strings. Yet they're not as complicated as you might expect.",
-          "link": "https://www.30secondsofcode.org/articles/s/javascript-string-immutability",
-          "publishedOn": "2021-10-10T09:00:00.000Z",
-          "wordCount": 277,
-          "title": "Are JavaScript strings immutable?"
         }
       ]
     },
@@ -6202,6 +6359,20 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2021/11/hydrogen-react-framework-dynamic-contextual-personalized-ecommerce/",
+          "author": "hello@smashingmagazine.com (Ilya Grigorik)",
+          "description": "A great commerce experience is not a Lighthouse score or a set of Core Web Vitals figures (although both are important inputs), but it’s also a trilemma that carefully balances competing needs of delivering a great customer experience, dynamic storefront capabilities and long-term business objectives.",
+          "link": "https://smashingmagazine.com/2021/11/hydrogen-react-framework-dynamic-contextual-personalized-ecommerce/",
+          "publishedOn": "2021-11-08T14:30:00.000Z",
+          "wordCount": 1524,
+          "title": "Meet Hydrogen: A React Framework For Dynamic, Contextual And Personalized E-Commerce",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ee33395f-684a-40e5-bf72-56d9e9e4d975/hydrogen-react-framework-dynamic-contextual-personalized-ecommerce.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          }
+        },
         {
           "id": "https://smashingmagazine.com/2021/11/concept-testing-part-of-product-design/",
           "author": "hello@smashingmagazine.com (Victor Yocco)",
@@ -6567,6 +6738,15 @@
           "publishedOn": "2021-10-28T05:00:00.000Z",
           "wordCount": 754,
           "title": "Recycling Open Graph Images for display on my Web Site"
+        },
+        {
+          "id": "https://www.zachleat.com/web/new-mascot-from-geri-coady/",
+          "author": null,
+          "description": "Originally posted at: https://www.11ty.dev/blog/new-mascot-from-geri-coady/\nRead on the Eleventy Blog: A New Eleventy Mascot from Geri Coady",
+          "link": "https://www.zachleat.com/web/new-mascot-from-geri-coady/",
+          "publishedOn": "2021-10-18T05:00:00.000Z",
+          "wordCount": 212,
+          "title": "A New Eleventy Mascot from Geri Coady"
         },
         {
           "id": "https://www.zachleat.com/web/lighthouse-deception/",
