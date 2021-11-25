@@ -42,6 +42,15 @@
       "siteUrl": "https://adactio.com/journal/",
       "articles": [
         {
+          "id": "https://adactio.com/journal/18640",
+          "author": null,
+          "description": "I’m a fan of logical properties in CSS. As I wrote in the responsive design course on web.dev, they’re crucial for internationalisation.\nAlaa Abd El-Rahim has written articles on CSS tricks about building multi-directional layouts and controlling layout in a multi-directional website. Not having to write separate stylesheets—or even separate rules—for different writing modes is great!\nMore than that though, I think understanding logical properties is the best way to truly understand CSS layout tools like grid and flexbox.\nIt’s like when you’re learning a new language. At some point your brain goes from translating from your mother tongue into the other language, and instead starts thinking in that other language. Likewise with CSS, as some point you want to stop translating “left” and “rig…",
+          "link": "https://adactio.com/journal/18640",
+          "publishedOn": "2021-11-24T14:03:46.000Z",
+          "wordCount": 944,
+          "title": "Faulty logic"
+        },
+        {
           "id": "https://adactio.com/journal/18628",
           "author": null,
           "description": "As you may already know, I’m a nerd for design principles. I collect them. I did a podcast episode on them. I even have a favourite design principle. It’s from the HTML design principles. The priority of constituencies:\nIn case of conflict, consider users over authors over implementors over specifiers over theoretical purity.\nIt’s all about priorities, see?\nPrioritisation isn’t easy, and it gets harder the more factors come into play: user needs, business needs, technical constraints. But it’s worth investing the time to get agreement on the priority of your constituencies. And then formulate that agreement into design principles.\nJason is also a fan of the priority of constituencies. He recently wrote about applying it to design systems and came up with this:\nUser needs come before the ne…",
@@ -445,24 +454,6 @@
           "publishedOn": "2021-10-28T10:00:00.000Z",
           "wordCount": 4538,
           "title": "Heritage at sea"
-        },
-        {
-          "id": "urn:id:4679",
-          "author": "Aeon Video",
-          "description": "Work in the 21st century, as experienced by a group of fifth-graders in Portland, Oregon, on a field trip to the ‘real world’ \n - by Aeon Video\n Watch at Aeon",
-          "link": "https://aeon.co/videos/why-does-life-have-to-be-so-complicated-a-school-trip-to-the-world-of-work?utm_source=rss-feed",
-          "publishedOn": "2021-10-26T10:01:00.000Z",
-          "wordCount": 399,
-          "title": "The field trip"
-        },
-        {
-          "id": "urn:id:4671",
-          "author": "Willem deVries",
-          "description": "Too dense, too abstract, too suspect, Hegel was outside the Anglophone canon for a century. Why is his star rising again? \n - by Willem deVries\n Read at Aeon",
-          "link": "https://aeon.co/essays/how-the-anglophone-world-is-rediscovering-hegels-philosophy?utm_source=rss-feed",
-          "publishedOn": "2021-10-26T10:00:00.000Z",
-          "wordCount": 4563,
-          "title": "Hegel today"
         }
       ]
     },
@@ -869,6 +860,15 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=357294",
+          "author": "George Francis",
+          "description": "The browser has long been a medium for art and design. From Lynn Fisher’s joyful A Single Div creations to Diana Smith’s staggeringly detailed CSS paintings, wildly creative, highly skilled developers have — over the years — continuously pushed …\nThe post Creating Generative Patterns with The CSS Paint API appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/creating-generative-patterns-with-the-css-paint-api/",
+          "publishedOn": "2021-11-24T15:49:08.000Z",
+          "wordCount": 5297,
+          "title": "Creating Generative Patterns with The CSS Paint API"
+        },
         {
           "id": "https://css-tricks.com/?p=357412",
           "author": "Chris Coyier",
@@ -1444,24 +1444,6 @@
           "publishedOn": "2021-10-26T14:10:05.000Z",
           "wordCount": 621,
           "title": "Userwell is for Managing Customer Feedback"
-        },
-        {
-          "id": "https://css-tricks.com/?p=353728",
-          "author": "Chris Coyier",
-          "description": "When I wrote the “book” The Greatest CSS Tricks Vol. I, I put “book” in quotes because there wasn’t anything terribly book-like about it. The only way you could read it was online, logged into this website, with an …\nThe post The Greatest CSS Tricks Vol. I eBook (PDF and EPUB) appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/the-greatest-css-tricks-vol-i-ebook-pdf-and-epub/",
-          "publishedOn": "2021-10-25T19:25:17.000Z",
-          "wordCount": 1821,
-          "title": "The Greatest CSS Tricks Vol. I eBook (PDF and EPUB)"
-        },
-        {
-          "id": "https://css-tricks.com/?p=353496",
-          "author": "Mike Neumegen",
-          "description": "The past year has seen a healthy debate around the term ‘Jamstack’ as the definition gets stretched to include new use cases. I recently posted my take on a Jamstack definition in “Static vs. Dynamic vs. Jamstack: Where’s The Line?”…\nThe post The Semantics of Jamstack appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/the-semantics-of-jamstack/",
-          "publishedOn": "2021-10-25T14:20:08.000Z",
-          "wordCount": 1707,
-          "title": "The Semantics of Jamstack"
         }
       ]
     },
@@ -1470,6 +1452,42 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=8866",
+          "author": "Adam Marsden",
+          "description": "JSPerformance",
+          "link": "https://dailydevlinks.com/javascript-tips-to-improve-your-webpage-performance/",
+          "publishedOn": "2021-11-24T12:22:00.000Z",
+          "wordCount": 149,
+          "title": "JavaScript Tips to Improve Your Webpage Performance"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=8860",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/learn-the-ways-you-can-style-backgrounds-of-boxes-using-css/",
+          "publishedOn": "2021-11-24T07:49:00.000Z",
+          "wordCount": 156,
+          "title": "Learn the ways you can style backgrounds of boxes using CSS"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=8857",
+          "author": "Adam Marsden",
+          "description": "DesignPerformance",
+          "link": "https://dailydevlinks.com/design-tool-performance-signatures/",
+          "publishedOn": "2021-11-24T06:03:00.000Z",
+          "wordCount": 152,
+          "title": "Design tool performance signatures"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=8863",
+          "author": "Adam Marsden",
+          "description": "Development",
+          "link": "https://dailydevlinks.com/powerful-terminal-and-command-line-cli-tools-for-modern-web-development/",
+          "publishedOn": "2021-11-24T06:00:00.000Z",
+          "wordCount": 149,
+          "title": "Powerful Terminal And Command-Line (CLI) Tools For Modern Web Development"
+        },
         {
           "id": "https://dailydevlinks.com/?p=8851",
           "author": "Adam Marsden",
@@ -1937,51 +1955,6 @@
           "publishedOn": "2021-10-27T08:48:00.000Z",
           "wordCount": 149,
           "title": "Let the designers design"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=8678",
-          "author": "Adam Marsden",
-          "description": "HTML",
-          "link": "https://dailydevlinks.com/lets-talk-about-native-html-tabs/",
-          "publishedOn": "2021-10-26T11:49:00.000Z",
-          "wordCount": 142,
-          "title": "Let’s talk about Native HTML Tabs"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=8675",
-          "author": "Adam Marsden",
-          "description": "SVG",
-          "link": "https://dailydevlinks.com/currentcolor-svg-in-forced-colors-modes/",
-          "publishedOn": "2021-10-26T10:34:00.000Z",
-          "wordCount": 152,
-          "title": "CurrentColor SVG in forced colors modes"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=8688",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/cheat-sheets-that-always-save-my-time-during-web-development-%f0%9f%9a%80/",
-          "publishedOn": "2021-10-26T09:42:00.000Z",
-          "wordCount": 159,
-          "title": "Cheat Sheets that always save my time during web development 🚀"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=8685",
-          "author": "Adam Marsden",
-          "description": "LibraryVue",
-          "link": "https://dailydevlinks.com/an-introduction-to-quasar-framework-building-cross-platform-applications/",
-          "publishedOn": "2021-10-26T07:11:00.000Z",
-          "wordCount": 158,
-          "title": "An Introduction To Quasar Framework: Building Cross-Platform Applications"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=8682",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/the-micro-frontend-chaos-and-how-to-solve-it/",
-          "publishedOn": "2021-10-26T07:08:00.000Z",
-          "wordCount": 151,
-          "title": "The Micro-Frontend Chaos (and how to solve it)"
         }
       ]
     },
@@ -2444,15 +2417,6 @@
           "publishedOn": "2021-10-27T15:30:56.000Z",
           "wordCount": 2019,
           "title": "Everything new from Universe 2021"
-        },
-        {
-          "id": "https://github.blog/?p=60887",
-          "author": "Lee Reilly",
-          "description": "The 49th Ludum Dare game jam just wrapped up with almost 3000 entries. Here’s a peek at some of the highest-rated entries that you can play, plus their source code that you can poke around",
-          "link": "https://github.blog/2021-10-25-a-peek-inside-some-of-the-top-games-from-ludum-dare-49/",
-          "publishedOn": "2021-10-25T21:32:53.000Z",
-          "wordCount": 1131,
-          "title": "A peek inside some of the top games from Ludum Dare 49"
         }
       ]
     },
@@ -2467,6 +2431,15 @@
       "feedUrl": "https://gomakethings.com/feed/index.xml",
       "siteUrl": "https://gomakethings.com",
       "articles": [
+        {
+          "id": "https://gomakethings.com/my-preferred-way-to-pass-arguments-into-a-function-with-vanilla-javascript/",
+          "author": null,
+          "description": "Today, I want to talk about a way to handle passing arguments into functions when there’s more than two or three of them that I think results in a better experience for everyone.\nLet’s dig in!\nAn object of arguments If I have just two or three parameters, I’ll accept them as individual arguments just like you would expect.\nfunction wizard (name, job) { // ... }  But once I have more arguments than that, remembering the order of the accepted parameters becomes difficult.",
+          "link": "https://gomakethings.com/my-preferred-way-to-pass-arguments-into-a-function-with-vanilla-javascript/",
+          "publishedOn": "2021-11-24T15:30:00.000Z",
+          "wordCount": 365,
+          "title": "My preferred way to pass arguments into a function with vanilla JavaScript"
+        },
         {
           "id": "https://gomakethings.com/how-to-bundle-es-modules-into-multiple-formats-with-rollup.js/",
           "author": null,
@@ -2637,15 +2610,6 @@
           "publishedOn": "2021-10-26T14:30:00.000Z",
           "wordCount": 187,
           "title": "David Bowie on the internet"
-        },
-        {
-          "id": "https://gomakethings.com/the-css-not-pseudo-selector/",
-          "author": null,
-          "description": "I don’t work with CSS much, but whenever I do, I’m continually blown away by how much easier modern CSS is now than it was five years ago.\nI was working on a side-project this weekend, and the :not() pseudo-selector made my life a lot easier!\nWhat the :not() pseudo-selector does The :not() pseudo-selector lets you select elements, but exclude ones that match an additional set of selectors. Pass in the selectors to ignore as an argument.",
-          "link": "https://gomakethings.com/the-css-not-pseudo-selector/",
-          "publishedOn": "2021-10-25T14:30:00.000Z",
-          "wordCount": 331,
-          "title": "The css :not() pseudo-selector"
         }
       ]
     },
@@ -2654,6 +2618,51 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=64081",
+          "author": "Travis",
+          "description": "A guide on how to build design systems that scale easily and sync with GitHub, with the help of a plugin called Figma Tokens.",
+          "link": "https://heydesigner.com/creating-design-systems-with-figma-tokens/",
+          "publishedOn": "2021-11-24T08:41:07.000Z",
+          "wordCount": 74,
+          "title": "Creating design systems with Figma Tokens"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64079",
+          "author": "Travis",
+          "description": "Calibrating contextual colours to be readable and recognisable anywhere.",
+          "link": "https://heydesigner.com/adaptive-accessible-and-automated-colour-for-design-systems/",
+          "publishedOn": "2021-11-24T08:34:55.000Z",
+          "wordCount": 64,
+          "title": "Adaptive, accessible and automated colour for design systems"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64077",
+          "author": "Travis",
+          "description": "You need to get an understanding of the problem you’re solving at the earliest stages, before you’ve built something to test.",
+          "link": "https://heydesigner.com/two-kinds-of-usability/",
+          "publishedOn": "2021-11-24T08:30:55.000Z",
+          "wordCount": 68,
+          "title": "Two kinds of usability"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64075",
+          "author": "Travis",
+          "description": "Whenever I start a new project, the first order of business is to sand down some of the rough edges in the CSS language.",
+          "link": "https://heydesigner.com/my-custom-css-reset/",
+          "publishedOn": "2021-11-24T08:22:28.000Z",
+          "wordCount": 71,
+          "title": "My custom CSS reset"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64073",
+          "author": "Travis",
+          "description": "CSS relative colors enable the dynamic color manipulation I’ve always wanted in vanilla CSS since Sass’ color functions first came on the scene.",
+          "link": "https://heydesigner.com/dynamic-color-manipulation-with-css-relative-colors/",
+          "publishedOn": "2021-11-24T08:20:25.000Z",
+          "wordCount": 78,
+          "title": "Dynamic color manipulation with CSS relative colors"
+        },
         {
           "id": "https://heydesigner.com/?p=64067",
           "author": "Travis",
@@ -3364,15 +3373,6 @@
           "publishedOn": "2021-10-27T09:28:19.000Z",
           "wordCount": 69,
           "title": "Web performance metrics cheatsheet"
-        },
-        {
-          "id": "https://heydesigner.com/?p=63833",
-          "author": "Travis",
-          "description": "Here’s a selection of 10 of the best podcasts of 2021 I found compelling and capable of completing my knowledge of humanity and how our brains work.",
-          "link": "https://heydesigner.com/the-best-2021-podcasts-to-level-up-your-design-game/",
-          "publishedOn": "2021-10-26T07:14:46.000Z",
-          "wordCount": 82,
-          "title": "The best 2021 podcasts to level up your design game"
         }
       ]
     },
@@ -3387,6 +3387,87 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29335729",
+          "author": "donbrae",
+          "description": "Article URL: https://valhalladsp.com/2021/09/20/getting-started-with-reverb-design-part-1-dev-environments/\nComments URL: https://news.ycombinator.com/item?id=29335729\nPoints: 18\n# Comments: 4",
+          "link": "https://valhalladsp.com/2021/09/20/getting-started-with-reverb-design-part-1-dev-environments/",
+          "publishedOn": "2021-11-24T22:06:30.000Z",
+          "wordCount": 1670,
+          "title": "Getting Started with Reverb Design, Part 1: Dev Environments"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29332360",
+          "author": "PStamatiou",
+          "description": "Article URL: https://twitter.com/Stammy/status/1463546553340153866\nComments URL: https://news.ycombinator.com/item?id=29332360\nPoints: 2\n# Comments: 0",
+          "link": "https://twitter.com/Stammy/status/1463546553340153866",
+          "publishedOn": "2021-11-24T17:14:18.000Z",
+          "wordCount": 196,
+          "title": "Crypto Design Challenges"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29332081",
+          "author": "thunderbong",
+          "description": "Article URL: https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm\nComments URL: https://news.ycombinator.com/item?id=29332081\nPoints: 3\n# Comments: 0",
+          "link": "https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm",
+          "publishedOn": "2021-11-24T16:55:48.000Z",
+          "wordCount": 362,
+          "title": "Architectural Styles and the Design of Network-Based Software Architectures"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29331007",
+          "author": "zthxxx",
+          "description": "Article URL: https://github.com/zthxxx/jovial\nComments URL: https://news.ycombinator.com/item?id=29331007\nPoints: 2\n# Comments: 0",
+          "link": "https://github.com/zthxxx/jovial",
+          "publishedOn": "2021-11-24T15:38:58.000Z",
+          "wordCount": 1371,
+          "title": "Jovial – A lovely zsh theme with responsive-design, it's simply but usefully"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29329852",
+          "author": "neilxm",
+          "description": "Article URL: https://www.dabble.so\nComments URL: https://news.ycombinator.com/item?id=29329852\nPoints: 2\n# Comments: 3",
+          "link": "https://www.dabble.so",
+          "publishedOn": "2021-11-24T13:39:59.000Z",
+          "wordCount": 446,
+          "title": "Show HN: Dabble – We built an A.I. assisted interior design tool"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29329713",
+          "author": "choudharism",
+          "description": "I've been working with web testing frameworks (Selenium and its wrappers / Cypress / Puppeteer / Playwright / others) for the last few years, but I asked myself what \"frameworks of the future\" should look like. I found myself not wanting things too wild or different from what we have today - just incremental improvements. Is that objectively true? What, if anything, is the next leap forward? Or are we close to them being \"good enough\" for the most part?\nMy top \"problems\", in some shape or form, from existing products:\n- Be faster to complete builds\n- Have fewer false positives (or do accurate self-healing magic)\n- Be easier to get started with (or be optionally codeless like Selenium IDE)\n- Don't be a walled garden (what if I want to run the same logical 'test' across Playwright and Cypress)\n- Help me write better tests (or be difficult to write bad tests within)\n- Emulate mobile devices better than just viewport modification\nWhat do the HN folks think?\nComments URL: https://news.ycombinator.com/item?id=29329713\nPoints: 2\n# Comments: 2",
+          "link": "https://news.ycombinator.com/item?id=29329713",
+          "publishedOn": "2021-11-24T13:22:06.000Z",
+          "wordCount": 434,
+          "title": "Ask HN: What should the future of web/UI testing frameworks be like?"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29328694",
+          "author": "bliblablubb2",
+          "description": "Need halp, plis gibe tool to desing SQI Tabel QQ.\nComments URL: https://news.ycombinator.com/item?id=29328694\nPoints: 3\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=29328694",
+          "publishedOn": "2021-11-24T10:40:36.000Z",
+          "wordCount": 73,
+          "title": "Design SQL Table plis hlep"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29326572",
+          "author": "slugiscool99",
+          "description": "Article URL: https://stackoverflow.blog/2021/11/08/adapting-a-design-system-to-work-for-the-metaverse/\nComments URL: https://news.ycombinator.com/item?id=29326572\nPoints: 1\n# Comments: 0",
+          "link": "https://stackoverflow.blog/2021/11/08/adapting-a-design-system-to-work-for-the-metaverse/",
+          "publishedOn": "2021-11-24T03:10:55.000Z",
+          "wordCount": 2440,
+          "title": "Adapting a design system to work for the Metaverse"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29325874",
+          "author": "morpheusme",
+          "description": "Article URL: https://www.kdnuggets.com/2021/11/design-patterns-machine-learning-pipelines.html\nComments URL: https://news.ycombinator.com/item?id=29325874\nPoints: 4\n# Comments: 0",
+          "link": "https://www.kdnuggets.com/2021/11/design-patterns-machine-learning-pipelines.html",
+          "publishedOn": "2021-11-24T01:16:38.000Z",
+          "wordCount": 1633,
+          "title": "Design Patterns for Machine Learning Pipelines"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29322394",
           "author": "slimsag",
@@ -3449,6 +3530,15 @@
           "publishedOn": "2021-11-23T09:25:41.000Z",
           "wordCount": 2009,
           "title": "A humble guide to database schema design"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29315195",
+          "author": "montogeek",
+          "description": "Article URL: https://tamagui.dev/\nComments URL: https://news.ycombinator.com/item?id=29315195\nPoints: 2\n# Comments: 0",
+          "link": "https://tamagui.dev/",
+          "publishedOn": "2021-11-23T06:47:51.000Z",
+          "wordCount": 372,
+          "title": "Tamagui – React Native and Web UI Kit"
         },
         {
           "id": "https://news.ycombinator.com/item?id=29313542",
@@ -4691,60 +4781,6 @@
           "publishedOn": "2021-10-26T13:22:31.000Z",
           "wordCount": null,
           "title": "Surface UI: A bridge to the JavaScript community"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=28989581",
-          "author": "huashu",
-          "description": "Article URL: https://blog.typogram.co/FontDiscovery-28-Modern-Musings-1e4daa65881143a29f57ddb0397add58\nComments URL: https://news.ycombinator.com/item?id=28989581\nPoints: 1\n# Comments: 0",
-          "link": "https://blog.typogram.co/FontDiscovery-28-Modern-Musings-1e4daa65881143a29f57ddb0397add58",
-          "publishedOn": "2021-10-25T16:18:32.000Z",
-          "wordCount": 10,
-          "title": "FontDiscovery 28: Modern Musings – Elevate your design with this Font"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=28988755",
-          "author": "SebastianFish",
-          "description": "Question: Hacker News, if someone were designing a new programming language (or library system within an existing language) to mitigate supply chain attacks, what features would be most important to you?\nBackground: Open-source code has been an amazing boon for software productivity. However, I believe that most of the code that companies run isn't written by their own developers, it is from various packages and frameworks written by outside individuals and groups. My main focus is writing data intensive software where malicious actors, or just poorly written code, could compromise the confidentiality and/or integrity of customer data via a popular package/dependency. Better sandboxing of relatively untrusted code could be a huge boon for applications that have lots of plugins (think Chrome of VS code).\nA few thoughts I have had on this front is limiting access of untrusted code to system calls that control file and network access is critical. Also, there would be a need to ensure that dependencies can't \"takeover\" a process by overwriting the call-stack to run their own code or spawning a new thread / process. Interested in your thoughts.\nComments URL: https://news.ycombinator.com/item?id=28988755\nPoints: 2\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=28988755",
-          "publishedOn": "2021-10-25T15:16:41.000Z",
-          "wordCount": 287,
-          "title": "Ask HN: Language design to mitigate supply chain attacks?"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=28988511",
-          "author": "kecupochren",
-          "description": "Article URL: https://michel.codes/blogs/ui-as-an-afterthought/\nComments URL: https://news.ycombinator.com/item?id=28988511\nPoints: 2\n# Comments: 0",
-          "link": "https://michel.codes/blogs/ui-as-an-afterthought/",
-          "publishedOn": "2021-10-25T14:55:41.000Z",
-          "wordCount": 1887,
-          "title": "UI as an afterthought"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=28988358",
-          "author": "behnamoh",
-          "description": "Article URL: https://old.reddit.com/r/GooglePixel/comments/qbwd0n/compilation_of_why_android_12_is_not_so_good_with/\nComments URL: https://news.ycombinator.com/item?id=28988358\nPoints: 24\n# Comments: 14",
-          "link": "https://old.reddit.com/r/GooglePixel/comments/qbwd0n/compilation_of_why_android_12_is_not_so_good_with/",
-          "publishedOn": "2021-10-25T14:43:16.000Z",
-          "wordCount": 12982,
-          "title": "Android 12's design is offensive to the user"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=28988276",
-          "author": "samizdis",
-          "description": "Article URL: https://arstechnica.com/science/2021/10/firefly-completes-design-of-moon-mission-aiming-for-2023-launch/\nComments URL: https://news.ycombinator.com/item?id=28988276\nPoints: 5\n# Comments: 0",
-          "link": "https://arstechnica.com/science/2021/10/firefly-completes-design-of-moon-mission-aiming-for-2023-launch/",
-          "publishedOn": "2021-10-25T14:35:47.000Z",
-          "wordCount": 1062,
-          "title": "Firefly completes design of Moon mission, aiming for 2023 launch"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=28986996",
-          "author": "rbanffy",
-          "description": "Article URL: https://www.theverge.com/2014/5/28/5757660/apple-80s-prototype-computers-tablets-phones-image-gallery\nComments URL: https://news.ycombinator.com/item?id=28986996\nPoints: 1\n# Comments: 0",
-          "link": "https://www.theverge.com/2014/5/28/5757660/apple-80s-prototype-computers-tablets-phones-image-gallery",
-          "publishedOn": "2021-10-25T12:27:03.000Z",
-          "wordCount": 323,
-          "title": "Early Apple Prototypes from Frog Design's Hartmut Esslinger"
         }
       ]
     },
@@ -4753,6 +4789,51 @@
       "feedUrl": "https://hnrss.org/newest?q=react+OR+reactjs+OR+svelte+OR+sveltejs",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29334022",
+          "author": "joeyespo",
+          "description": "Article URL: https://blog.expo.dev/drastically-faster-bundling-in-react-native-a54f268e0ed1?gi=a5f6b110b91f\nComments URL: https://news.ycombinator.com/item?id=29334022\nPoints: 1\n# Comments: 0",
+          "link": "https://blog.expo.dev/drastically-faster-bundling-in-react-native-a54f268e0ed1?gi=a5f6b110b91f",
+          "publishedOn": "2021-11-24T19:22:51.000Z",
+          "wordCount": 2273,
+          "title": "Drastically Faster Bundling in React Native"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29333293",
+          "author": "debo_",
+          "description": "Article URL: https://koreaexpose.com/what-makes-life-meaningful-in-korea/\nComments URL: https://news.ycombinator.com/item?id=29333293\nPoints: 69\n# Comments: 80",
+          "link": "https://koreaexpose.com/what-makes-life-meaningful-in-korea/",
+          "publishedOn": "2021-11-24T18:24:26.000Z",
+          "wordCount": 1316,
+          "title": "Koreans react to startling results in Pew \"what makes life meaningful\" poll"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29329610",
+          "author": "vexcaustic",
+          "description": "Article URL: https://ory.dev/login-spa-react-nextjs-authentication-example-api-open-source/\nComments URL: https://news.ycombinator.com/item?id=29329610\nPoints: 96\n# Comments: 43",
+          "link": "https://ory.dev/login-spa-react-nextjs-authentication-example-api-open-source/",
+          "publishedOn": "2021-11-24T13:08:09.000Z",
+          "wordCount": 1369,
+          "title": "Show HN: Open-Source Auth for NextJS / React"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29329174",
+          "author": "osener",
+          "description": "Article URL: https://github.com/pmndrs/valtio\nComments URL: https://news.ycombinator.com/item?id=29329174\nPoints: 2\n# Comments: 0",
+          "link": "https://github.com/pmndrs/valtio",
+          "publishedOn": "2021-11-24T12:07:57.000Z",
+          "wordCount": 1798,
+          "title": "Valtio – Proxy-based state management for React"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29326610",
+          "author": "grhhhh",
+          "description": "Article URL: https://medium.com/@sylvs.liu/novas-accelerating-svelte-and-deno-application-generation-3371c395461a\nComments URL: https://news.ycombinator.com/item?id=29326610\nPoints: 2\n# Comments: 0",
+          "link": "https://medium.com/@sylvs.liu/novas-accelerating-svelte-and-deno-application-generation-3371c395461a",
+          "publishedOn": "2021-11-24T03:18:40.000Z",
+          "wordCount": 744,
+          "title": "Novas – Enabling Svelte in the Deno Environment"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29321934",
           "author": "trypwire",
@@ -4815,6 +4896,15 @@
           "publishedOn": "2021-11-23T09:49:43.000Z",
           "wordCount": 830,
           "title": "Show HN: Rerousel, React Carousel with Simple DX"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29315195",
+          "author": "montogeek",
+          "description": "Article URL: https://tamagui.dev/\nComments URL: https://news.ycombinator.com/item?id=29315195\nPoints: 2\n# Comments: 0",
+          "link": "https://tamagui.dev/",
+          "publishedOn": "2021-11-23T06:47:51.000Z",
+          "wordCount": 372,
+          "title": "Tamagui – React Native and Web UI Kit"
         },
         {
           "id": "https://news.ycombinator.com/item?id=29312063",
@@ -5436,15 +5526,6 @@
           "publishedOn": "2021-10-27T08:05:16.000Z",
           "wordCount": 2504,
           "title": "Toward Hermes Being the Default React Native JavaScript Engine"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=28998902",
-          "author": "angusjf",
-          "description": "Article URL: https://blog.theodo.com/2021/10/intro-to-elm-for-react-devs/\nComments URL: https://news.ycombinator.com/item?id=28998902\nPoints: 6\n# Comments: 0",
-          "link": "https://blog.theodo.com/2021/10/intro-to-elm-for-react-devs/",
-          "publishedOn": "2021-10-26T11:17:40.000Z",
-          "wordCount": 1775,
-          "title": "A Quick Intro to Elm for React Developers"
         }
       ]
     },
@@ -5453,6 +5534,42 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29332692",
+          "author": "saranshk",
+          "description": "Article URL: https://www.wisdomgeek.com/development/web-development/writing-conditionals-in-css-when-else/\nComments URL: https://news.ycombinator.com/item?id=29332692\nPoints: 5\n# Comments: 0",
+          "link": "https://www.wisdomgeek.com/development/web-development/writing-conditionals-in-css-when-else/",
+          "publishedOn": "2021-11-24T17:40:11.000Z",
+          "wordCount": 1042,
+          "title": "Writing conditionals in CSS: when/else"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29330335",
+          "author": "pavel_lishin",
+          "description": "Article URL: https://www.joshwcomeau.com/css/custom-css-reset/#the-css-reset%2F%2F%2F%2F%2F%2F/\nComments URL: https://news.ycombinator.com/item?id=29330335\nPoints: 4\n# Comments: 0",
+          "link": "https://www.joshwcomeau.com/css/custom-css-reset/#the-css-reset%2F%2F%2F%2F%2F%2F/",
+          "publishedOn": "2021-11-24T14:37:25.000Z",
+          "wordCount": 3037,
+          "title": "Modern CSS Reset"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29330299",
+          "author": "TheStormRagesOn",
+          "description": "Article URL: https://cloudfour.com/thinks/modern-css-in-a-nutshell/\nComments URL: https://news.ycombinator.com/item?id=29330299\nPoints: 2\n# Comments: 0",
+          "link": "https://cloudfour.com/thinks/modern-css-in-a-nutshell/",
+          "publishedOn": "2021-11-24T14:34:36.000Z",
+          "wordCount": 1036,
+          "title": "Modern CSS in a Nutshell"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29328491",
+          "author": "tosh",
+          "description": "Article URL: https://github.com/tw-in-js/twind\nComments URL: https://news.ycombinator.com/item?id=29328491\nPoints: 4\n# Comments: 1",
+          "link": "https://github.com/tw-in-js/twind",
+          "publishedOn": "2021-11-24T10:04:16.000Z",
+          "wordCount": 1123,
+          "title": "Twind: Tailwind-in-JS"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29319349",
           "author": "feross",
@@ -5956,24 +6073,6 @@
           "publishedOn": "2021-10-27T05:02:25.000Z",
           "wordCount": 2856,
           "title": "Things You Can Do with CSS Today"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=28991323",
-          "author": "sashaonly",
-          "description": "Article URL: https://uploadcare.com/blog/how-to-crop-an-image-in-css/\nComments URL: https://news.ycombinator.com/item?id=28991323\nPoints: 5\n# Comments: 1",
-          "link": "https://uploadcare.com/blog/how-to-crop-an-image-in-css/",
-          "publishedOn": "2021-10-25T18:24:39.000Z",
-          "wordCount": 2411,
-          "title": "Image crop in CSS. The workaround techniques with code examples"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=28988589",
-          "author": "captainbrosset",
-          "description": "Article URL: https://patrickbrosset.com/articles/2015-03-27-do-you-really-understand-CSS-linear-gradients/\nComments URL: https://news.ycombinator.com/item?id=28988589\nPoints: 4\n# Comments: 0",
-          "link": "https://patrickbrosset.com/articles/2015-03-27-do-you-really-understand-CSS-linear-gradients/",
-          "publishedOn": "2021-10-25T15:01:41.000Z",
-          "wordCount": 1893,
-          "title": "Do you really understand CSS linear gradients"
         }
       ]
     },
@@ -7134,6 +7233,24 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths-blog-production.mystagingwebsite.com/?p=31347",
+          "author": "Seth Godin",
+          "description": "I was sitting in a friend’s study the other day, and noticed that he had hundreds of books I’d never read. Each was written, perhaps over the course of a year (or a decade), by a smart, passionate person with something to share. All of that focus and insight, generously shared with anyone who wants […]",
+          "link": "https://seths.blog/2021/11/books-unread/",
+          "publishedOn": "2021-11-24T09:19:00.000Z",
+          "wordCount": 219,
+          "title": "Books unread"
+        },
+        {
+          "id": "https://seths.blog/?p=41913",
+          "author": "Seth Godin",
+          "description": "Some folks think of marketing as something that is done to people. A hustle, a hype, a stealing of attention. We need a name for that, but I don’t think that’s marketing. On the other hand, calling dinner, “cold dead fish on rice,” while accurate, doesn’t really help people enjoy their sushi. Human beings aren’t […]",
+          "link": "https://seths.blog/2021/11/marketing-as-a-service/",
+          "publishedOn": "2021-11-24T09:08:00.000Z",
+          "wordCount": 360,
+          "title": "Marketing as a service"
+        },
+        {
           "id": "https://seths.blog/?p=40939",
           "author": "Seth Godin",
           "description": "What do you own?What are you really good at?What do you enjoy? Engaging with the marketplace requires creating value for people who have a choice. And deciding what to offer your customers is your choice. If you own something (a patent, a building, a process, a set of relationships) you can create more value than […]",
@@ -7402,15 +7519,6 @@
           "publishedOn": "2021-10-27T08:59:00.000Z",
           "wordCount": 332,
           "title": "Effort toward quality"
-        },
-        {
-          "id": "https://seths-blog-production.mystagingwebsite.com/?p=31181",
-          "author": "Seth Godin",
-          "description": "A feeling of entitlement is hard won. You suffered to get to this spot. You were mistreated. You worked hard. You paid your dues. You were treated unfairly. It’s your turn. Justice demands it. You’re aggrieved. Or perhaps the thing you’ve worked so hard on is magical, special and totally worth people’s attention. Like I […]",
-          "link": "https://seths.blog/2021/10/entitlement/",
-          "publishedOn": "2021-10-26T08:48:00.000Z",
-          "wordCount": 283,
-          "title": "Entitlement"
         }
       ]
     },
@@ -7419,6 +7527,51 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "N93Z47LnnMFdmBQvM",
+          "author": "@Shutterstock",
+          "description": "See the top 3 colors that are rising in popularity to become our 2022 Color Trends.",
+          "link": "https://www.shutterstock.com/blog/trends/color-trends",
+          "publishedOn": "2021-11-24T01:20:57.000Z",
+          "wordCount": 1026,
+          "title": "2022 Color Trends: The Year’s Top Colors"
+        },
+        {
+          "id": "RGN849u8JzKSyRvkD",
+          "author": "@thejupiterapp",
+          "description": "I have been hearing my parents emphasise the importance of savings from the day I was born.",
+          "link": "https://life.jupiter.money/pots-on-jupiter-designed-to-save-5eea44052059",
+          "publishedOn": "2021-11-24T01:20:29.000Z",
+          "wordCount": 1389,
+          "title": "Pots on Jupiter — Designed to save"
+        },
+        {
+          "id": "3f29dzDABdSbdhFNn",
+          "author": "@AndroidPolice",
+          "description": "Allowing you to use nothing but your eyes to communicate, if everything else fails.",
+          "link": "https://www.androidpolice.com/googles-incredible-look-to-speak-app-now-works-with-more-languages/",
+          "publishedOn": "2021-11-24T01:14:49.000Z",
+          "wordCount": 1017,
+          "title": "Google's incredible 'Look to Speak' app now works with more languages"
+        },
+        {
+          "id": "DwRq2JgLkkBzPuWSB",
+          "author": "@CloudFour",
+          "description": "When I started giving talks about SVG back in 2016, I’d occasionally hear a question I never had a great answer for.",
+          "link": "https://cloudfour.com/thinks/svg-icon-stress-test/",
+          "publishedOn": "2021-11-24T00:28:43.000Z",
+          "wordCount": 2410,
+          "title": "Which SVG technique performs best for way too many icons?"
+        },
+        {
+          "id": "RcNCznaBngYaFtf85",
+          "author": "@joshwcomeau",
+          "description": "I have a set of baseline CSS styles that come with me from project to project.",
+          "link": "https://www.joshwcomeau.com/css/custom-css-reset/",
+          "publishedOn": "2021-11-24T00:27:31.000Z",
+          "wordCount": 3037,
+          "title": "My Custom CSS Reset"
+        },
         {
           "id": "XoTvYiQSn7dah2uaZ",
           "author": "@TweetsByTBI",
@@ -8318,51 +8471,6 @@
           "publishedOn": "2021-10-27T00:52:54.000Z",
           "wordCount": 3400,
           "title": "Mass Effect: How to Indoctrinate Users with UX Consistency"
-        },
-        {
-          "id": "CFxL44MSis4eWM9hT",
-          "author": "@uxdesigncc",
-          "description": "If you’ve been in the web design industry as long as I have, you know one thing is imminent, the only constant is change.",
-          "link": "https://uxdesign.cc/the-start-of-a-new-era-for-responsive-web-design-6658a6bbeb9b",
-          "publishedOn": "2021-10-26T01:39:35.000Z",
-          "wordCount": 1821,
-          "title": "The start of a new era for Responsive Web Design"
-        },
-        {
-          "id": "nX6v4jFBiWkXE4eLj",
-          "author": "@Microsoft",
-          "description": "Scaling the Microsoft Teams Component Libraries (TCL) in Figma.",
-          "link": "https://medium.com/inside-designing-microsoft-teams/keeping-things-organized-7586999982f6",
-          "publishedOn": "2021-10-26T01:38:35.000Z",
-          "wordCount": 5224,
-          "title": "Keeping Things Organized"
-        },
-        {
-          "id": "cfSGSJPqLpaqLQKkj",
-          "author": "@ChangSchool",
-          "description": "A fun way to learn about web accessibility challenges and solutions.",
-          "link": "https://de.ryerson.ca/games/accessibility/#/?utm_source=swlinks-tw",
-          "publishedOn": "2021-10-26T01:36:41.000Z",
-          "wordCount": 28,
-          "title": "Accessibility Maze"
-        },
-        {
-          "id": "2RqqRw5JiKAggwQw5",
-          "author": "@Codrops",
-          "description": "In this article, I want to show you the steps that brought us to the last version of CodyFrame.",
-          "link": "https://tympanus.net/codrops/2021/10/25/the-process-of-building-a-css-framework/",
-          "publishedOn": "2021-10-26T01:34:55.000Z",
-          "wordCount": 2911,
-          "title": "The Process of Building a CSS Framework"
-        },
-        {
-          "id": "Ki72q995CGhXwBuzX",
-          "author": "@refindcom",
-          "description": "Thousands of busy people start their day with Refind. The 5 most relevant links from around the web, tailored to you. Sign up for free!",
-          "link": "https://refind.com",
-          "publishedOn": "2021-10-26T01:14:24.000Z",
-          "wordCount": 40,
-          "title": "The essence of the web, every morning in your inbox"
         }
       ]
     },
@@ -8398,7 +8506,17 @@
       "title": "Usability Geek",
       "feedUrl": "https://usabilitygeek.com/feed/",
       "siteUrl": "https://usabilitygeek.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://usabilitygeek.com/?p=13250",
+          "author": "Mads Soegaard",
+          "description": "UX designers rejoice! This Black Friday, our friends over at the Interaction Design Foundation (IxDF) have a gift for you: 25% off UX design courses on new memberships and a $200 discount on UX Bootcamps for new and existing members. The offer is now open and ends at midnight on Cyber Monday, 29 November.        […]\nThe post Discounts on UX Courses and Bootcamps for  Black Friday 2021! appeared first on Usability Geek",
+          "link": "https://usabilitygeek.com/discounts-on-ux-courses-and-bootcamps-for-black-friday-2021/",
+          "publishedOn": "2021-11-24T10:00:00.000Z",
+          "wordCount": 975,
+          "title": "Discounts on UX Courses and Bootcamps for  Black Friday 2021!"
+        }
+      ]
     },
     {
       "title": "Utopia",
@@ -8507,15 +8625,6 @@
           "publishedOn": "2021-10-27T00:00:00.000Z",
           "wordCount": 1218,
           "title": "Picking colors of any pixel on the screen with the EyeDropper API"
-        },
-        {
-          "id": "https://web.dev/ps-on-the-web/",
-          "author": null,
-          "description": "Over the last three years, Chrome has been working to empower web applications that want to push the boundaries of what's possible in the browser. One such web application has been Photoshop. The idea of running software as complex as Photoshop directly in the browser would have been hard to imagine just a few years ago. However, by using various new standardized web technologies, Adobe has now brought a public beta of Photoshop to the web.\nIn this post, we'd like to share for the first time the details of how our collaboration is extending Photoshop to the web. You can use all the APIs Adobe used and more in your own apps as well. Be sure to check out our web capabilities related blog posts for inspiration and watch our API tracker for the latest and greatest we're working on.\nWhy Photosh…",
-          "link": "https://web.dev/ps-on-the-web/",
-          "publishedOn": "2021-10-26T00:00:00.000Z",
-          "wordCount": 1512,
-          "title": "Photoshop's journey to the web"
         }
       ]
     },
@@ -8573,6 +8682,15 @@
       "feedUrl": "https://www.30secondsofcode.org/feed",
       "siteUrl": "https://www.30secondsofcode.org",
       "articles": [
+        {
+          "id": "https://www.30secondsofcode.org/react/s/use-mutation-observer",
+          "author": null,
+          "description": "Watches for changes made to the DOM tree, using a MutationObserver",
+          "link": "https://www.30secondsofcode.org/react/s/use-mutation-observer",
+          "publishedOn": "2021-11-23T09:00:00.000Z",
+          "wordCount": 270,
+          "title": "React useMutationObserver hook"
+        },
         {
           "id": "https://www.30secondsofcode.org/articles/s/javascript-classical-vs-prototypal-inheritance",
           "author": null,
@@ -8692,6 +8810,15 @@
       "feedUrl": "https://www.lesswrong.com/feed.xml?view=curated-rss",
       "siteUrl": "https://www.lesswrong.com",
       "articles": [
+        {
+          "id": "t2LGSDwT7zSnAGybG",
+          "author": "Duncan_Sabien",
+          "description": "Published on November 21, 2021 6:27 AM GMT\n\nThis is an essay describing a basic sanity-inducing mental movement that I use approximately ten times per week, and suspect other people would benefit from adopting (and regularly reminding each other to do). I've talked about it elsewhere, but until now it didn't have its own linkable reference post.\n\nP1: Things are often not what they seem.\nThis can be because the seeming itself is broken, e.g. the progression that goes:\n \"Well, here I am in 1700's America and it sure seems to me that these black folk are fundamentally intellectually and morally and spiritually inferior to white folk\" or \"Well, here I am in 1800's America and it sure seems to me that these women are constitutionally incapable of holding political office\" or \"Well, here I am in…",
+          "link": "https://www.lesswrong.com/posts/t2LGSDwT7zSnAGybG/split-and-commit",
+          "publishedOn": "2021-11-24T04:01:05.000Z",
+          "wordCount": 4329,
+          "title": "Split and Commit"
+        },
         {
           "id": "PHmYhE4sKnwzYgvkh",
           "author": "Vitor",
@@ -8872,6 +8999,20 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2021/11/showcase-lovely-little-websites/",
+          "author": "hello@smashingmagazine.com (Cosima Mielke)",
+          "description": "Instead of spending your coffee break scrolling through your social feeds, how about a lovely little website instead? We came across some fantastic ones that are just too good not to be shared. But be warned, your break might take a bit longer than intended.",
+          "link": "https://smashingmagazine.com/2021/11/showcase-lovely-little-websites/",
+          "publishedOn": "2021-11-24T12:00:00.000Z",
+          "wordCount": 4256,
+          "title": "A Showcase Of Lovely Little Websites",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/5a0a3a89-ba5a-40a8-af80-f8db0554af37/radiooooo-opt.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
         {
           "id": "https://smashingmagazine.com/2021/11/dyslexia-friendly-mode-website/",
           "author": "hello@smashingmagazine.com (John C Barstow)",
@@ -9162,34 +9303,6 @@
           "title": "Eye-Tracking In Mobile UX Research",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/3012986b-e407-4c49-8186-13a99528ef13/eye-tracking-mobile-ux-research.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/10/optimizing-nextjs-applications-nx/",
-          "author": "hello@smashingmagazine.com (Melvin Kosisochukwu)",
-          "description": "Nx is a build framework that facilitates optimization, efficient scaling of applications, and other features such as shared libraries and components. In this article, we will be looking at how we can effectively scale Next.js applications by using Nx.",
-          "link": "https://smashingmagazine.com/2021/10/optimizing-nextjs-applications-nx/",
-          "publishedOn": "2021-10-26T10:00:00.000Z",
-          "wordCount": 3029,
-          "title": "Optimizing Next.js Applications With Nx",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/32b5517f-415c-43ed-98a6-70215d408f7a/optimizing-nextjs-applications-nx.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/10/object-fit-background-size-css/",
-          "author": "hello@smashingmagazine.com (Ahmad Shadeed)",
-          "description": "In this article, we will go through how `object-fit` and `background-size` work, when we can use them, and why, along with some practical use cases and recommendations. Let’s dive in.",
-          "link": "https://smashingmagazine.com/2021/10/object-fit-background-size-css/",
-          "publishedOn": "2021-10-25T13:00:00.000Z",
-          "wordCount": 2035,
-          "title": "A Deep Dive Into `object-fit` And `background-size` In CSS",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/19e7f717-46d5-4949-96f4-671f4744d0e1/object-fit-background-size-css.jpg",
             "length": "0",
             "type": "image/jpg"
           }
