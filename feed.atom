@@ -2,10 +2,519 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2021-11-30T00:25:37.388Z</updated>
+    <updated>2021-12-01T00:27:31.073Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Initial thoughts on internal design of server-less Redshift (announced today)]]></title>
+        <id>https://news.ycombinator.com/item?id=29398974</id>
+        <link href="https://news.ycombinator.com/item?id=29398974"/>
+        <updated>2021-11-30T23:53:55.000Z</updated>
+        <summary type="html"><![CDATA[Historically, RS has nodes and slices. One node made of a given number of slices (varies by node type). Data is distributed over slices, and only the slice holding a block can access that block.
+These days, you have RA3. RA3 has data slices and compute slices. The “data slice” I think is a group of one or more network attached SSDs, and each compute slice is an EC2 instance. Data is still distributed over slices, but I empirically see now that any slice on a node can access any block which is on that node - that’s definitely not how it used to be.
+So I think what happens now is SSD is on the network, which is now a notional “data slice”, but there’s only one data slice per “node” (you don’t really have nodes any more - it’s more of a legacy billing concept), and you have a cloud of EC2 ins…]]></summary>
+        <author>
+            <name>MaxGanzII</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[gcry_mpi_sub_ui result is positive when it should be negative]]></title>
+        <id>https://news.ycombinator.com/item?id=29398242</id>
+        <link href="https://lists.gnupg.org/pipermail/gcrypt-devel/2021-November/005191.html"/>
+        <updated>2021-11-30T22:21:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lists.gnupg.org/pipermail/gcrypt-devel/2021-November/005191.html
+Comments URL: https://news.ycombinator.com/item?id=29398242
+Points: 4
+# Comments: 0]]></summary>
+        <author>
+            <name>tosh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Extend Raycast with React and TypeScript]]></title>
+        <id>https://news.ycombinator.com/item?id=29395720</id>
+        <link href="https://www.raycast.com/developers"/>
+        <updated>2021-11-30T18:39:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.raycast.com/developers
+Comments URL: https://news.ycombinator.com/item?id=29395720
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>thomaspaulmann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[6 Habits for Mental Health That Will Change Your Life for the Better]]></title>
+        <id>https://www.pickthebrain.com/blog/?p=88125</id>
+        <link href="https://www.pickthebrain.com/blog/6-habits-for-mental-health-that-will-change-your-life-for-the-better/"/>
+        <updated>2021-11-30T17:52:18.000Z</updated>
+        <summary type="html"><![CDATA[It is becoming increasingly important to prioritize nurturing your mental health. Being mentally healthy allows you to enjoy a wide range of benefits, including:
+
+
+Preventing or combating mental and physical health problems 
+Better life quality 
+Being in great relationships 
+Developing strong work ethics and stability 
+
+
+You need to be conscious about everything you do to ensure you are not jeopardizing your mental health. It includes exploring free dating sites to meet the person who compliments you. Many people are not aware of how to keep good mental health. Below we will reveal the best habits you can take up to protect your mental health and ultimately change your life for the better. 
+
+
+1.     Take Care of Your Body 
+
+
+
+
+
+Source: https://unsplash.com/photos/cPGv4rXhryc
+
+
+One of the b…]]></summary>
+        <author>
+            <name>Erin Falconer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Diagonal Stripes Wipe Animation]]></title>
+        <id>https://css-tricks.com/?p=357109</id>
+        <link href="https://css-tricks.com/diagonal-stripes-wipe-animation/"/>
+        <updated>2021-11-30T17:26:35.000Z</updated>
+        <summary type="html"><![CDATA[I was playing this game on Apple Arcade the other day called wurdweb. It’s a fun little game! Little touches like the little shape dudes that walk around the screen (but otherwise don’t do anything) give it a lot …]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 DevOps tips to speed up your developer workflow]]></title>
+        <id>https://github.blog/?p=61638</id>
+        <link href="https://github.blog/2021-11-30-5-devops-tips-to-speed-up-your-developer-workflow/"/>
+        <updated>2021-11-30T17:09:28.000Z</updated>
+        <summary type="html"><![CDATA[From learning YAML to scripting with Bash, here are a few simple tips for developers who want to speed up their workflows.]]></summary>
+        <author>
+            <name>Damian Brady</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Set Up Server Side Rendering (SSR) with React, Express.js, and Esbuild]]></title>
+        <id>https://news.ycombinator.com/item?id=29394359</id>
+        <link href="https://devtails.xyz/how-to-set-up-server-side-rendering-ssr-with-react-and-esbuild"/>
+        <updated>2021-11-30T17:02:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://devtails.xyz/how-to-set-up-server-side-rendering-ssr-with-react-and-esbuild
+Comments URL: https://news.ycombinator.com/item?id=29394359
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>devtailz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lazygit: A simple terminal UI for Git commands]]></title>
+        <id>https://news.ycombinator.com/item?id=29394162</id>
+        <link href="https://github.com/jesseduffield/lazygit"/>
+        <updated>2021-11-30T16:49:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/jesseduffield/lazygit
+Comments URL: https://news.ycombinator.com/item?id=29394162
+Points: 205
+# Comments: 79]]></summary>
+        <author>
+            <name>tnorthcutt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Strapi v4: new UI, query engine, plugin API and advanced GraphQL and REST APIs]]></title>
+        <id>https://news.ycombinator.com/item?id=29393805</id>
+        <link href="https://strapi.io/blog/announcing-strapi-v4"/>
+        <updated>2021-11-30T16:22:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://strapi.io/blog/announcing-strapi-v4
+Comments URL: https://news.ycombinator.com/item?id=29393805
+Points: 6
+# Comments: 0]]></summary>
+        <author>
+            <name>vcoisne</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is Growth Marketing? A Beginner’s Guide]]></title>
+        <id>https://ahrefs.com/blog/?p=136895</id>
+        <link href="https://ahrefs.com/blog/growth-marketing/"/>
+        <updated>2021-11-30T16:00:39.000Z</updated>
+        <summary type="html"><![CDATA[This integration of product and marketing was new at the time. Sean Ellis, then DropBox’s first marketer, coined it “growth hacking.” Another marketer, Andrew Chen, followed on by calling growth hackers the “new VPs of marketing.” Coupled with the success…
+Read more ›]]></summary>
+        <author>
+            <name>Si Quan Ong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using the Reflog to Restore Lost Commits]]></title>
+        <id>https://css-tricks.com/?p=357728</id>
+        <link href="https://css-tricks.com/using-the-reflog-to-restore-lost-commits/"/>
+        <updated>2021-11-30T15:53:27.000Z</updated>
+        <summary type="html"><![CDATA[This article is part of our “Advanced Git” series. Be sure to follow us on Twitter or sign up for our newsletter to hear about future articles!
+The “Reflog” is one of Git’s lesser-known features—but one that can be extremely …]]></summary>
+        <author>
+            <name>Tobias Günther</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Another way to destructure function arguments with vanilla JavaScript]]></title>
+        <id>https://gomakethings.com/another-way-to-destructure-function-arguments-with-vanilla-javascript/</id>
+        <link href="https://gomakethings.com/another-way-to-destructure-function-arguments-with-vanilla-javascript/"/>
+        <updated>2021-11-30T15:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Last week, I shared my preferred way to pass large set of arguments into a function using object destructuring and the Object.assign() method.
+function wizard (args) { // Get the argument values 	let {name, job, spell, isEvil} = Object.assign({ job: 'Wizard', spell: null, isEvil: false }, args); console.log(name, job, spell, isEvil); }  A few astute readers wrote to me letting me know that you can achieve the same result by destructuring directly in the parameter assignment.]]></summary>
+        <author>
+            <name>Go Make Things</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Look at the Cloudinary WordPress Plugin]]></title>
+        <id>https://css-tricks.com/?p=357679</id>
+        <link href="https://css-tricks.com/a-look-at-the-cloudinary-wordpress-plugin/"/>
+        <updated>2021-11-30T15:23:00.000Z</updated>
+        <summary type="html"><![CDATA[(This is a sponsored post.)
+Cloudinary (the media hosting and optimization service) has a brand new version (v3) of its WordPress plugin that has really nailed it. First, a high-level look at the biggest things this plugin does:
+It 
+…]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mitosis: Write components once, run everywhere. Compiles to Vue, React, Svelte,…]]></title>
+        <id>https://news.ycombinator.com/item?id=29393014</id>
+        <link href="https://github.com/BuilderIO/mitosis"/>
+        <updated>2021-11-30T15:17:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/BuilderIO/mitosis
+Comments URL: https://news.ycombinator.com/item?id=29393014
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>skrebbel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Status Performance Analysis in Team Fortress 2]]></title>
+        <id>https://daverupert.com/2021/11/tf2-hats/</id>
+        <link href="https://daverupert.com/2021/11/tf2-hats/"/>
+        <updated>2021-11-30T14:54:00.000Z</updated>
+        <summary type="html"><![CDATA[In 2013 Chong-U Lim wrote a research paper for MIT wordily titled Modeling Player Performance in Avatar Customization Using Social Network Data: A Case Study Using Virtual Items in Team Fortress 2. It’s all about the correlation between in-game loot —digital items people win or buy on the Steam marketplace— and player’s social status in an online competitive game called Team Fortress 2. What a phenomenal research topic! It’s a dense paper, so thankfully Tommy Thompson at the AI & Games YouTube channel breaks it down.
+One interesting piece was how the study talks about players creating a “phantasmal identity” —a projection of real-world human ideas onto a digital avatar— and how the player’s identity is often projected in a “ridiculous and exaggerated fashion”. A machine learning model was able to classify and predict (with ~60% accuracy) a player’s social status (social interactions) based on their status performance (value of in-game hats). I think about this often, because it’s a fascinating look at the relationship between digital cosmetics (hats, skins, avatars, sprays) and social status broadcasting. Louis Vuitton, but Loot Boxes.
+Anyways… NFTs]]></summary>
+        <author>
+            <name>daverupert.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smashing Podcast Episode 44 With Chris Ferdinandi: Is The Web Dead?]]></title>
+        <id>https://smashingmagazine.com/2021/11/smashing-podcast-episode-44/</id>
+        <link href="https://smashingmagazine.com/2021/11/smashing-podcast-episode-44/"/>
+        <updated>2021-11-30T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this episode, we’re asking if changes to best practises over the last year have negatively impacted the web. Is it all downhill from here? Drew McLellan talks to expert Chris Ferdinandi to find out.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Drew McLellan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitter Has a New CEO; What About a New Business Model?]]></title>
+        <id>https://stratechery.com/2021/twitter-has-a-new-ceo-what-about-a-new-business-model/</id>
+        <link href="https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMS90d2l0dGVyLWhhcy1hLW5ldy1jZW8td2hhdC1hYm91dC1hLW5ldy1idXNpbmVzcy1tb2RlbC8.tNp0ZmDh9okdQB5KwPrHYrLdSLBxu2zeHQ6fC0oxuABP12nDswv1g_kTZZVKRRoauV7TYa7qQr31BT90oPCuxfuHM0tqFfM5RuYfppXJoosEAdwMAJPNEND-tXN-7prpmpwqmzg4UhvzuJNMOwL-Cfu6bgXbDC8E2vCzs9hucIgDkkFC-xYf-BIGFyUblNm3nWMvzy03lL4X2S9JCq5RymVL9rlDIcmO6ThxKTtEBR-PyoUCzCUl7AuOdW-H3vVS8u23WWSk9RVhsQPeFSznbCqn3SPX1gz344RWBh2o80LSKJ2rnNYRQlfRAMfyvfEcmzy8fSCQjfysrQYUf_Gf8A"/>
+        <updated>2021-11-30T13:20:41.000Z</updated>
+        <summary type="html"><![CDATA[Twitter is changing CEOs once again; what if the company changed its business model from ads to subscriptions?]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021 Design Tools Survey Results]]></title>
+        <id>https://news.ycombinator.com/item?id=29391567</id>
+        <link href="https://uxtools.co/survey-2021/"/>
+        <updated>2021-11-30T12:52:22.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://uxtools.co/survey-2021/
+Comments URL: https://news.ycombinator.com/item?id=29391567
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>jrdnbwmn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adding A Dyslexia-Friendly Mode To A Website]]></title>
+        <id>https://dailydevlinks.com/?p=8893</id>
+        <link href="https://dailydevlinks.com/adding-a-dyslexia-friendly-mode-to-a-website/"/>
+        <updated>2021-11-30T12:25:00.000Z</updated>
+        <summary type="html"><![CDATA[A11Y]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Example of Using React Testing Library with 3rd Party Component]]></title>
+        <id>https://news.ycombinator.com/item?id=29391179</id>
+        <link href="https://blog.ag-grid.com/using-react-testing-library-with-ag-grid/"/>
+        <updated>2021-11-30T11:53:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.ag-grid.com/using-react-testing-library-with-ag-grid/
+Comments URL: https://news.ycombinator.com/item?id=29391179
+Points: 1
+# Comments: 1]]></summary>
+        <author>
+            <name>eviltester</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Researchers propose a simpler design for quantum computers]]></title>
+        <id>https://news.ycombinator.com/item?id=29391030</id>
+        <link href="https://phys.org/news/2021-11-simpler-quantum.html"/>
+        <updated>2021-11-30T11:30:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://phys.org/news/2021-11-simpler-quantum.html
+Comments URL: https://news.ycombinator.com/item?id=29391030
+Points: 7
+# Comments: 0]]></summary>
+        <author>
+            <name>wjSgoWPm5bWAhXB</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The lifeguard hack]]></title>
+        <id>https://seths.blog/?p=41949</id>
+        <link href="https://seths.blog/2021/11/the-lifeguard-hack/"/>
+        <updated>2021-11-30T11:17:00.000Z</updated>
+        <summary type="html"><![CDATA[Who am I to walk up to someone at a party and introduce myself? Who are you to start a new project? Who are they to give a talk on the main stage? Don’t raise your hand–someone else might have a better question. Don’t ship that work, it’s not ready… There are endless excuses, comparisons […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The legend of Annapurna]]></title>
+        <id>urn:id:4739</id>
+        <link href="https://aeon.co/videos/how-the-hindu-myth-of-annapurna-goddess-of-food-connects-sustenance-with-spirituality?utm_source=rss-feed"/>
+        <updated>2021-11-30T11:01:00.000Z</updated>
+        <summary type="html"><![CDATA[A golden bowl of porridge after a long famine – how the Hindu legend of Annapurna connects nourishment with spirituality 
+ - by Aeon Video
+ Watch at Aeon]]></summary>
+        <author>
+            <name>Aeon Video</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we became weekly]]></title>
+        <id>urn:id:4745</id>
+        <link href="https://aeon.co/essays/how-we-came-to-depend-on-the-week-despite-its-artificiality?utm_source=rss-feed"/>
+        <updated>2021-11-30T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The week is the most artificial and recent of our time counts yet it’s impossible to imagine our shared lives without it 
+ - by David Henkin
+ Read at Aeon]]></summary>
+        <author>
+            <name>David Henkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Object Calisthenics, 9 steps to better software design today [pdf]]]></title>
+        <id>https://news.ycombinator.com/item?id=29390858</id>
+        <link href="http://www.bennadel.com/resources/uploads/2012/objectcalisthenics.pdf"/>
+        <updated>2021-11-30T10:54:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: http://www.bennadel.com/resources/uploads/2012/objectcalisthenics.pdf
+Comments URL: https://news.ycombinator.com/item?id=29390858
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>jslakro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UI design trends of today and how to apply them in your apps]]></title>
+        <id>https://heydesigner.com/?p=64122</id>
+        <link href="https://heydesigner.com/ui-design-trends-of-today-and-how-to-apply-them-in-your-apps/"/>
+        <updated>2021-11-30T10:01:13.000Z</updated>
+        <summary type="html"><![CDATA[From outline icons to switch designs, the UIs of major OSes are all starting to look similar.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stop thinking about flows, start thinking about objects]]></title>
+        <id>https://heydesigner.com/?p=64119</id>
+        <link href="https://heydesigner.com/stop-thinking-about-flows-start-thinking-about-objects/"/>
+        <updated>2021-11-30T10:00:04.000Z</updated>
+        <summary type="html"><![CDATA[Why an object-oriented UX approach helps build scalable and consistent systems.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4 kinds of product problems]]></title>
+        <id>https://heydesigner.com/?p=64117</id>
+        <link href="https://heydesigner.com/4-kinds-of-product-problems/"/>
+        <updated>2021-11-30T09:59:12.000Z</updated>
+        <summary type="html"><![CDATA[There are 4 kinds of problems which prohibits the usage of a feature/product.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Productive work vs. busywork]]></title>
+        <id>https://heydesigner.com/?p=64115</id>
+        <link href="https://heydesigner.com/productive-work-vs-busywork/"/>
+        <updated>2021-11-30T09:55:51.000Z</updated>
+        <summary type="html"><![CDATA[What action do you want your team to take? What mindset do you want to plant to the team?]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Modern CSS in a nutshell]]></title>
+        <id>https://heydesigner.com/?p=64113</id>
+        <link href="https://heydesigner.com/modern-css-in-a-nutshell/"/>
+        <updated>2021-11-30T09:53:54.000Z</updated>
+        <summary type="html"><![CDATA[You’d be surprised how much you can do with vanilla CSS nowadays.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It’s That Time Of The Year (December 2021 Desktop Wallpapers Edition)]]></title>
+        <id>https://smashingmagazine.com/2021/11/desktop-wallpaper-calendars-december-2021/</id>
+        <link href="https://smashingmagazine.com/2021/11/desktop-wallpaper-calendars-december-2021/"/>
+        <updated>2021-11-30T09:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Let’s welcome December with some new wallpapers! Designed by artists and designers from across the globe, they are available with and without a calendar for the month. Enjoy!]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Valuable Skills Developers Should Learn in 2022]]></title>
+        <id>https://dailydevlinks.com/?p=8898</id>
+        <link href="https://dailydevlinks.com/5-valuable-skills-developers-should-learn-in-2022/"/>
+        <updated>2021-11-30T07:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Development]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 common misconceptions about design interface our designers often hear about.]]></title>
+        <id>https://dailydevlinks.com/?p=8890</id>
+        <link href="https://dailydevlinks.com/10-common-misconceptions-about-design-interface-our-designers-often-hear-about/"/>
+        <updated>2021-11-30T06:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Design]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design Issues for Foreign Function Interfaces (2004)]]></title>
+        <id>https://news.ycombinator.com/item?id=29389241</id>
+        <link href="http://web.archive.org/web/20170315194527/http://autocad.xarch.at/lisp/ffis.html"/>
+        <updated>2021-11-30T05:26:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: http://web.archive.org/web/20170315194527/http://autocad.xarch.at/lisp/ffis.html
+Comments URL: https://news.ycombinator.com/item?id=29389241
+Points: 36
+# Comments: 3]]></summary>
+        <author>
+            <name>metagame</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solidjs – JavaScript UI Library]]></title>
+        <id>https://news.ycombinator.com/item?id=29388296</id>
+        <link href="https://www.solidjs.com/"/>
+        <updated>2021-11-30T02:43:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.solidjs.com/
+Comments URL: https://news.ycombinator.com/item?id=29388296
+Points: 332
+# Comments: 83]]></summary>
+        <author>
+            <name>elias94</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Modern CSS in a Nutshell]]></title>
+        <id>sqcGbyJmK3WmtBN5L</id>
+        <link href="https://cloudfour.com/thinks/modern-css-in-a-nutshell/"/>
+        <updated>2021-11-30T02:27:17.000Z</updated>
+        <summary type="html"><![CDATA[A friend recently shared his frustration with CSS development. I responded to him with a high-level overview of the current state of CSS.]]></summary>
+        <author>
+            <name>@CloudFour</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to make Google Docs not hurt your eyes]]></title>
+        <id>GCLKYXKoPmWHPAfxp</id>
+        <link href="https://medium.com/@gem_ray/how-to-make-google-docs-not-hurt-your-eyes-771b8d8b617c"/>
+        <updated>2021-11-30T02:25:52.000Z</updated>
+        <summary type="html"><![CDATA[Better default styles for Google Docs.]]></summary>
+        <author>
+            <name>@Medium</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The best-designed gifts of 2021]]></title>
+        <id>yssgYHbwKXLC6hPYp</id>
+        <link href="https://www.fastcompany.com/90695160/the-best-designed-gifts-of-2021"/>
+        <updated>2021-11-30T02:19:50.000Z</updated>
+        <summary type="html"><![CDATA[The annual Co.Design gift guide has loads of creative ideas for holiday shopping, no matter who is on your list.]]></summary>
+        <author>
+            <name>@fastcompany</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recreating the Apple Music Hits Playlist Animation in CSS]]></title>
+        <id>KeQLELumFvPzjhPhJ</id>
+        <link href="https://css-tricks.com/recreating-the-apple-music-hits-playlist-animation-in-css/"/>
+        <updated>2021-11-30T02:12:54.000Z</updated>
+        <summary type="html"><![CDATA[Apple Music has this “Spatial Audio” feature where the direction of the music in your headphones is based on the location of the device.]]></summary>
+        <author>
+            <name>@CSS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Be usable, not consistent, not uniform]]></title>
+        <id>cbAeF9g8bTwNtLJ68</id>
+        <link href="https://uxdesign.cc/be-usable-not-consistent-not-uniform-9ac72374cf93"/>
+        <updated>2021-11-30T02:11:49.000Z</updated>
+        <summary type="html"><![CDATA[There is a harmful myth that pervades design decision-making.]]></summary>
+        <author>
+            <name>@uxdesigncc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Any cooking/recipe websites with good UX?]]></title>
+        <id>https://news.ycombinator.com/item?id=29387511</id>
+        <link href="https://news.ycombinator.com/item?id=29387511"/>
+        <updated>2021-11-30T01:04:55.000Z</updated>
+        <summary type="html"><![CDATA[I don't know what it is about cooking and recipe-focused websites. They seem to be some of the worst in terms of pop ups, and superfluous garbage content. I spend so much time searching for the actual content on most pages because there are so many links to other crap.
+For example, check out this Betty Crocker page where there's about 300px of whitespace at the top, a huge useless picture of flour, and a navbar that doesn't quite stick to the top of the page (viewing on Firefox) https://www.bettycrocker.com/how-to/tipslibrary/charts-timetables-measuring/equivalent-measures-abbreviations
+Another example is allrecipes.com. I think it fares pretty well on Desktop, but on my phone I notice they insert adds throughout the ingredient list and instructions. Also met with a full-screen popup from Amazon about Cyber Monday.
+There's gotta be some plain and simple sites out there, and I'd like to hear about them.
+Comments URL: https://news.ycombinator.com/item?id=29387511
+Points: 1
+# Comments: 4]]></summary>
+        <author>
+            <name>denvaar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Progress in the Privacy Sandbox (November 2021)]]></title>
+        <id>https://developer.chrome.com/en/blog/progress-in-the-privacy-sandbox-2021-11/</id>
+        <link href="https://developer.chrome.com/en/blog/progress-in-the-privacy-sandbox-2021-11/"/>
+        <updated>2021-11-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the November edition of "Progress in the Privacy
+Sandbox," tracking the milestones on
+the path to phasing out third-party cookies in Chrome and working towards a more
+private web. Each month we'll share an overview of the updates to the Privacy
+Sandbox timeline along with news from
+across the project. We've also provided an update on our Privacy Sandbox
+commitments
+as we ensure proposals are designed, developed and implemented with regulatory
+oversight and input from the UK’s Competition and Markets Authority (CMA) and
+Information Commissioner's Office (ICO).
+As we approach the end of the year there are fewer changes across the different
+proposals, so the update here is also lighter. However, this does mean it's a
+good time for testing and addressing questions, which we are alwa…]]></summary>
+        <author>
+            <name>Chrome Developers - Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What Virgil Abloh’s Drudge Report Inspired Site Says About the State of Design]]></title>
         <id>https://news.ycombinator.com/item?id=29385870</id>
@@ -3706,6 +4215,16 @@ Read more ›]]></summary>
     <entry>
         <title type="html"><![CDATA[Unity, Weta, and Faceless Platforms (Stratechery Article 11-18-2021)]]></title>
         <id>https://stratechery.com/2021/unity-weta-and-faceless-platforms/</id>
+        <link href="https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMS91bml0eS13ZXRhLWFuZC1mYWNlbGVzcy1wbGF0Zm9ybXMv.UEg6vCkQbOv20yONwOAhdIY1px8ttYOJRPwbHfQO-y682MVduJ5FCo-rejFCFQUKZPP8yMmVOBEOLx0zOkiKCxmWX__xutKGLRqxxnd0gyb75KU1ky8AsLR893E1uWnWX0_i4gckEkAZPyKD5N4dDcsT8GkFxDOE9PALUuiwAu1KWDdE2201L7-6K95-TSFBaNSVtWNdn0C_m4u61NM2Y4pzZnnKo3pvgmdAzvj5OWOgkTQ4f6NRP17qn5bwP9DMt-nCp5lhR8zAZYFAcpH2_x8dITxnTrY_zTt8oh_GRT1SfB62y3m90zwnWuV7wYwmVUADHGaQpxuYxUxNMc-zxA"/>
+        <updated>2021-11-18T09:10:10.000Z</updated>
+        <summary type="html"><![CDATA[Unity's acquisition of Weta digital makes sense for both sides, and positions Unity to be an essential platform for tech's future.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unity, Weta, and Faceless Platforms (Stratechery Article 11-18-2021)]]></title>
+        <id>https://stratechery.com/2021/unity-weta-and-faceless-platforms/</id>
         <link href="https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMS91bml0eS13ZXRhLWFuZC1mYWNlbGVzcy1wbGF0Zm9ybXMv.rp0C4ODLNceTKHVRE1w9Rb2iNWXzGeKfCl8pQ4nXQ7DJPBpUPIMKJ3oSO91jRwZN3oo8F0FStne8JsuILghAdx9qlFr_aage2IPPne6tHJqJh6XfA46h_7UjBRUYsmrFMDlMiQmSZ_wGY6UNh4xoqzqXHWbN7DkHa-EAQtI2mMIjnt70hrt5yck5Rd04ytl7g2eZxq6wPGxNBuBfskB7m6Ya44NBFgT-Po3RnOajG6FfL3qW_4BcpYCSNsSHwZwlD9wSZ1KX0V6k60OPt8aoVO9MhXqAd8hMRLZdWn06BiehquSMusuLQ1T327Lbb497xyfRl3MccSPCr6PiUE3MdA"/>
         <updated>2021-11-18T09:10:10.000Z</updated>
         <summary type="html"><![CDATA[Unity's acquisition of Weta digital makes sense for both sides, and positions Unity to be an essential platform for tech's future.]]></summary>
@@ -6882,6 +7401,16 @@ Points: 2
         <summary type="html"><![CDATA[When you're fixing a bug, especially a security vulnerability, you should add a regression test, fix the bug, and find & fix variants.]]></summary>
         <author>
             <name>Kevin Backhouse</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft and the Metaverse]]></title>
+        <id>https://stratechery.com/2021/microsoft-and-the-metaverse/</id>
+        <link href="https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMS9taWNyb3NvZnQtYW5kLXRoZS1tZXRhdmVyc2Uv.FQfT6HIUDzdr1OgtPnv5z01z8Pr81W4OR0s6WAs159H3I23GciKRLL_ha0Vmw27auSMo08mtc7ueNd4Bzv973jkv0CfVI3f6L4Yv-nrV-Qr-E5-aUfZP1fr14iap7jPUz2WW74ZAWxIgpeWKii0UyaZnxxmwCM8XuinK-8ak3d6SapPAR4osGVX2Vn-hlWJXJ6-vVXxpC7S5n1ZEIX-oxHJozLU7-lOkw8oJyKuOs5xiHtcaALMRIlLqlSkeUVoDJEEn1XhwSzDm_FzpfJ-F77GfZercKwH01nmvC9auyHk7HH66c6viRwwSHQdA2h9a3J37WmoiZK93CekZv2aEig"/>
+        <updated>2021-11-09T15:52:37.000Z</updated>
+        <summary type="html"><![CDATA[Defining the Metaverse, and explaining why Microsoft is well-placed for the virtual reality opportunity]]></summary>
+        <author>
+            <name>Ben Thompson</name>
         </author>
     </entry>
     <entry>
@@ -10396,415 +10925,6 @@ Points: 1
 # Comments: 0]]></summary>
         <author>
             <name>shivajikobardan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In-Page Filtered Search With Vanilla JavaScript]]></title>
-        <id>https://dailydevlinks.com/?p=8716</id>
-        <link href="https://dailydevlinks.com/in-page-filtered-search-with-vanilla-javascript/"/>
-        <updated>2021-11-01T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What's new in Svelte: November 2021]]></title>
-        <id>https://svelte.dev/blog/whats-new-in-svelte-november-2021</id>
-        <link href="https://svelte.dev/blog/whats-new-in-svelte-november-2021"/>
-        <updated>2021-11-01T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Over 5000 stars to light up the showcase]]></summary>
-        <author>
-            <name>Svelte blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Math Class Is Boring—and What to Do About It]]></title>
-        <id>https://fs.blog/?p=43615</id>
-        <link href="https://fs.blog/mathematicians-lament-2/"/>
-        <updated>2021-11-01T11:32:00.000Z</updated>
-        <summary type="html"><![CDATA[There are two types of people in the world: those who enjoyed mathematics class in school, and the other 98% of the population. No other subject is associated with such widespread fear, confusion, and even outright hatred. No other subject is so often declared by children and adults alike to be something they “can’t do” …
-The post Why Math Class Is Boring—and What to Do About It appeared first on Farnam Street.]]></summary>
-        <author>
-            <name>Rosie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anjan Chatterjee: neurological disorder and art]]></title>
-        <id>urn:id:4693</id>
-        <link href="https://aeon.co/videos/artists-can-flourish-after-brain-damage-what-does-this-say-about-neurology-and-aesthetics?utm_source=rss-feed"/>
-        <updated>2021-11-01T10:01:00.000Z</updated>
-        <summary type="html"><![CDATA[How can brain damage make people ‘better’ artists? What neuroaesthetics reveals about the complexity of artistic creation 
- - by Aeon Video
- Watch at Aeon]]></summary>
-        <author>
-            <name>Aeon Video</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The posthuman dog]]></title>
-        <id>urn:id:4685</id>
-        <link href="https://aeon.co/essays/who-could-dogs-become-without-humans-in-their-lives?utm_source=rss-feed"/>
-        <updated>2021-11-01T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[If humans were to disappear from the face of the Earth, what might dogs become? And would they be better off without us? 
- - by Jessica Pierce
- Read at Aeon]]></summary>
-        <author>
-            <name>Jessica Pierce</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On-Demand Atomic CSS]]></title>
-        <id>https://news.ycombinator.com/item?id=29064544</id>
-        <link href="https://github.com/antfu/unocss"/>
-        <updated>2021-11-01T09:26:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/antfu/unocss
-Comments URL: https://news.ycombinator.com/item?id=29064544
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>timursaurus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An interactive web UI for gRPC, along the lines of postman]]></title>
-        <id>https://news.ycombinator.com/item?id=29064386</id>
-        <link href="https://github.com/fullstorydev/grpcui"/>
-        <updated>2021-11-01T09:02:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/fullstorydev/grpcui
-Comments URL: https://news.ycombinator.com/item?id=29064386
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>ngaut</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7 easy ways to make your content more accessible]]></title>
-        <id>https://bighack.org/?p=3545</id>
-        <link href="https://bighack.org/7-easy-ways-to-make-your-content-more-accessible/"/>
-        <updated>2021-11-01T09:00:13.000Z</updated>
-        <summary type="html"><![CDATA[The post 7 easy ways to make your content more accessible appeared first on The Big Hack.]]></summary>
-        <author>
-            <name>Daisy Bird</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React useSet hook]]></title>
-        <id>https://www.30secondsofcode.org/react/s/use-set</id>
-        <link href="https://www.30secondsofcode.org/react/s/use-set"/>
-        <updated>2021-11-01T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Creates a stateful Set object, and a set of functions to manipulate it.]]></summary>
-        <author>
-            <name>30 seconds of code</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“You’re either with us or against us”]]></title>
-        <id>https://seths.blog/?p=39711</id>
-        <link href="https://seths.blog/2021/11/youre-either-with-us-or-against-us/"/>
-        <updated>2021-11-01T08:20:00.000Z</updated>
-        <summary type="html"><![CDATA[This is almost never true. For just about any issue, behavior, company or movement, the vast majority of people are neither. They might be unaware, they might be unconcerned, they might have a different priority list. Forward motion happens from two things: First, creating synchronized, persistent action among the people who are with you. Second, […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You don’t know what value for money is until you see Be Theme]]></title>
-        <id>LcShMN6D84WbGfWqh</id>
-        <link href="https://muffingroup.com/betheme/?utm_source=sidebar&amp;utm_medium=newsletter&amp;utm_campaign=nov21"/>
-        <updated>2021-11-01T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With 600+ stunning pre-built websites & stores, 3 builders, unmatched performance, quality, and support (4.83/5 stars), Be redefines value for money.]]></summary>
-        <author>
-            <name>Sidebar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can a robot do a designer’s job?]]></title>
-        <id>https://heydesigner.com/?p=63872</id>
-        <link href="https://heydesigner.com/can-a-robot-do-a-designers-job/"/>
-        <updated>2021-11-01T06:21:17.000Z</updated>
-        <summary type="html"><![CDATA[Automation isn’t as much of a threat as we have been told.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Make your design system accessible — Part 1: Color]]></title>
-        <id>https://heydesigner.com/?p=63870</id>
-        <link href="https://heydesigner.com/make-your-design-system-accessible-part-1-color/"/>
-        <updated>2021-11-01T06:21:11.000Z</updated>
-        <summary type="html"><![CDATA[Design systems are often seen as a way to improve accessibility. Some even say that you get accessibility for free by using a design system.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design for yourself. (Sometimes)]]></title>
-        <id>https://heydesigner.com/?p=63868</id>
-        <link href="https://heydesigner.com/design-for-yourself-sometimes/"/>
-        <updated>2021-11-01T06:21:03.000Z</updated>
-        <summary type="html"><![CDATA[Individual creativity is a remarkable source for innovation.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding iconic design]]></title>
-        <id>https://heydesigner.com/?p=63866</id>
-        <link href="https://heydesigner.com/understanding-iconic-design/"/>
-        <updated>2021-11-01T06:20:56.000Z</updated>
-        <summary type="html"><![CDATA[Exploring what hamburger buns, computer hardware, and moles teach us about iconic design.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building an effective Image Component]]></title>
-        <id>https://heydesigner.com/?p=63864</id>
-        <link href="https://heydesigner.com/building-an-effective-image-component/"/>
-        <updated>2021-11-01T06:20:47.000Z</updated>
-        <summary type="html"><![CDATA[An image component encapsulates performance best practices and provides an out-of-the-box solution to optimize images.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS-ing Candy Ghost Buttons]]></title>
-        <id>https://dailydevlinks.com/?p=8713</id>
-        <link href="https://dailydevlinks.com/css-ing-candy-ghost-buttons/"/>
-        <updated>2021-11-01T06:03:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding the gender spectrum]]></title>
-        <id>RGzASAzctobmLjQmN</id>
-        <link href="https://kittygiraudel.com/2021/10/08/understanding-the-gender-spectrum/"/>
-        <updated>2021-11-01T04:27:00.000Z</updated>
-        <summary type="html"><![CDATA[It helps trying to see gender as some sort of a spectrum rather than a binary thing.]]></summary>
-        <author>
-            <name>@KittyGiraudel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spectrum]]></title>
-        <id>29MBhMRGEeb5majJy</id>
-        <link href="https://colorspectrum.design/"/>
-        <updated>2021-11-01T04:25:51.000Z</updated>
-        <summary type="html"><![CDATA[A tool which instantly makes color palettes come alive on your design]]></summary>
-        <author>
-            <name>@millons098</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One last time: custom styling radio buttons and checkboxes]]></title>
-        <id>SbRiYEaDxfHBf6ZF6</id>
-        <link href="https://www.scottohara.me//blog/2021/09/24/custom-radio-checkbox-again.html"/>
-        <updated>2021-11-01T04:24:14.000Z</updated>
-        <summary type="html"><![CDATA[What’s necessary to directly restyle radios and checkboxes?]]></summary>
-        <author>
-            <name>@scottohara</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The effect of CSS on screen readers]]></title>
-        <id>QnQYum6GE4Bt4drgi</id>
-        <link href="https://uselessdivs.com/blog/the-effect-of-css-on-screen-readers"/>
-        <updated>2021-11-01T04:21:19.000Z</updated>
-        <summary type="html"><![CDATA[We can find a lot of information about how badly written HTML can affect the screen readers, but there is almost nothing about CSS.]]></summary>
-        <author>
-            <name>@JocoPolgar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wirecutter]]></title>
-        <id>https://xkcd.com/2536/</id>
-        <link href="https://xkcd.com/2536/"/>
-        <updated>2021-11-01T04:00:00.000Z</updated>
-        <author>
-            <name>xkcd.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS-ing Candy Ghost Buttons]]></title>
-        <id>https://css-tricks.com/?p=354804</id>
-        <link href="https://css-tricks.com/css-ing-candy-ghost-buttons/"/>
-        <updated>2021-11-01T01:04:53.000Z</updated>
-        <summary type="html"><![CDATA[Recently, while looking for some ideas on what to code as I have zero artistic sense so the only thing I can do is find pretty things that other people have come up with and remake them with clean and …
-The post CSS-ing Candy Ghost Buttons appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Ana Tudor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leave Feedback Directly on Websites, Images and PDFs. For Free.]]></title>
-        <id>8tMJP8Ewk52Xocm6J</id>
-        <link href="https://www.markup.io?utm_source=sponsored&amp;utm_medium=sidebar"/>
-        <updated>2021-11-01T00:00:34.000Z</updated>
-        <summary type="html"><![CDATA[Cut through the noise with immediate, visual feedback. Go from design to build to publish without losing your mind in the process.]]></summary>
-        <author>
-            <name>@markup_io</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bootstrap Icons v1.7.0]]></title>
-        <id>https://blog.getbootstrap.com/2021/11/01/bootstrap-icons-1-7-0/</id>
-        <link href="https://blog.getbootstrap.com/2021/11/01/bootstrap-icons-1-7-0/"/>
-        <updated>2021-11-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Bootstrap Icons v1.7.0 is here with 120 new and updated icons, taking us over 1,500 total icons for the project! It’s the largest update since the initial release, so keep reading to see what’s new.
-120 new icons
-This update was a lot of fun for me—drawing all these tiny computer parts most of all! There are dozens of new computer related icons for parts, ports, and peripheral devices. There are also several new brand icons, including Meta, and some other fun icons like a new robot head and a boombox.
-Looking for more new icons? Head to the issue tracker to check for open requests or submit a new one.
-Install
-To get started, install or update via npm:
-npm i bootstrap-icons
-
-
-Or Composer:
-composer require twbs/bootstrap-icons
-
-
-You can also download the release from GitHub, or download just the SVGs and fonts (without the rest of the repository files).
-Figma
-The Figma file is now published to the Figma Community! It’s the same Bootstrap Icons Figma file you’ve seen from previous releases, just a little more accessible to those using the app.]]></summary>
-        <author>
-            <name>Bootstrap Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accessible Toggles]]></title>
-        <id>https://css-irl.info/accessible-toggles/</id>
-        <link href="https://css-irl.info/accessible-toggles/"/>
-        <updated>2021-11-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I recently received some great advice from Scott O’Hara on improving the accessibility of a demo featuring a reduced-motion toggle (for this article). The demo sets the play-state of the animation depending on the user’s motion preferences (using the prefers-reduced-motion media query). Users could also click the button to toggle motion on and off, which also changes the text of the button to “Turn on motion” or “Turn off motion”. Here’s the original version:
-See the Pen 
-  Reduced-motion toggle by Michelle Barker (@michellebarker)
-  on CodePen.
-
-
-Scott pointed out that some screenreaders wouldn’t announce the change to the button text when the button is clicked.
-I have one suggestion though, per the accessibility of the toggle control. Changing the accessible name of the button will not b…]]></summary>
-        <author>
-            <name>CSS In Real Life</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Implementing CSP and Trusted Types debugging in Chrome DevTools]]></title>
-        <id>https://developer.chrome.com/en/blog/csp-issues/</id>
-        <link href="https://developer.chrome.com/en/blog/csp-issues/"/>
-        <updated>2021-11-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Interested in helping improve DevTools? Sign up to participate in Google User Research here.
-This blog post is about the implementation of DevTools support for debugging Content Security Policy (CSP) issues with the help of the recently introduced Issues tab.
-The implementation work was done in the course of 2 internships:
-During the first one, we built the general reporting framework and designed the issue messages for 3 CSP violation issues.
-During the second one, we added Trusted Type issues alongside some specialized DevTools features for Trusted Types debugging.
-# What is a Content Security Policy?
-Content Security Policy (CSP) allows to restrict certain behaviors in a website to increase security. For example, CSP can be used to disallow inline scripts or to disallow eval, both of wh…]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Force Chrome major version to 100 in the User-Agent string]]></title>
-        <id>https://developer.chrome.com/en/blog/force-major-version-to-100/</id>
-        <link href="https://developer.chrome.com/en/blog/force-major-version-to-100/"/>
-        <updated>2021-11-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In the first half of 2022, Chrome will reach a three-digit major version number:
-100!  When browsers first reached version 10 many eons ago,
-lots of issues were discovered
-with User-Agent parsing libraries as the major version number went from one
-digit to two.  Now that we are approaching version 100 in both Chrome and
-Firefox, with Edge not far behind, we want to detect possible issues related
-to three-digit version number early, so we are ready when it becomes a reality.
-Starting in Chrome 96, until Chrome 99, a feature flag will be available to force the User-Agent
-string to use the major version number 100, regardless of the actual major version
-number. It will apply to both the User-Agent request header and the Javascript
-APIs (for example, navigator.userAgent).
-Similar experiments
-are being run on Firefox as well.
-Visit
-Is Chrome 100 yet? to
-check if your browser is sending the major version 100 in the User-Agent
-string.
-To turn the flag on in Chrome and experiment, type chrome://flags in the address bar and enable
-the #force-major-version-to-100 flag.
-Visiting
-Is Chrome 100 yet?
-after enabling the flag reports that the User-Agent has major version number 100.
-The goal is to uncover as many issues as possible ahead of time, so send your
-bug reports to
-Web Compat
-and help prepare the web for three-digit major browser version numbers!]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I help you build better websites]]></title>
-        <id>https://kentcdodds.com/blog/how-i-help-you-build-better-websites</id>
-        <link href="https://kentcdodds.com/blog/how-i-help-you-build-better-websites"/>
-        <updated>2021-11-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I'm making a career move to more effectively help you make the web (and the world) better.]]></summary>
-        <author>
-            <name>Kent C. Dodds Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Network Topology visualization UI libraries for Web?]]></title>
-        <id>https://news.ycombinator.com/item?id=29058095</id>
-        <link href="https://news.ycombinator.com/item?id=29058095"/>
-        <updated>2021-10-31T16:23:58.000Z</updated>
-        <summary type="html"><![CDATA[Ask:
-Is anyone familiar with any network topology visualizer libraries for the web?
-About: I am software engineer looking for a UI library to help visualize network topologies / company infrastructure?
-This seems like a very niche space understandably, so looking to hear more from the community.
-What I've found so far (Open Source)
-- Skydive: https://skydive.network (best I've seen)
-- Netjson: https://netjson.org/
-a long list of other open source but old & unmaintained: https://elise-deux.medium.com/the-list-of-graph-visualization-libraries-7a7b89aab6a6
-What I've found so far (Paid, but quite expensive)
-- Cisco NeXtUi https://developer.cisco.com/site/neXt/ (no longer maintained, old, poor docs)
-- regraph: https://cambridge-intelligence.com/regraph/
-- Auvik: https://www.auvik.com/lp/network-mapping-software/
-- Yfiles: https://www.yworks.com/products/yfiles
-- Linkurious: https://linkurio.us/solution/neo4j/
-Comments URL: https://news.ycombinator.com/item?id=29058095
-Points: 4
-# Comments: 1]]></summary>
-        <author>
-            <name>cfrover</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Four days]]></title>
-        <id>https://adactio.com/journal/18574</id>
-        <link href="https://adactio.com/journal/18574"/>
-        <updated>2021-10-31T14:18:58.000Z</updated>
-        <summary type="html"><![CDATA[I had an extra long weekend recently. It was four days of being a culture vulture. It was also four days of ever-increasing risk assessment.
-It began on Thursday morning with the first Salter Cane band practice in eighteen months. That was pretty safe—three of us in a room, reminding ourselves of how the songs go. I honestly thought it could’ve been a disaster and that I wouldn’t remember anything, but thanks to a little bit of last-minute revision the evening before, it actually went really well. And boy, did it feel good to plug in and play those songs again.
-Later that day, Jessica went up to London. We spent that evening in the Royal Opera House, watching a ballet, The Dante Project. We wore masks. Not everyone else did.
-
-
-
-The next day, the indoor gatherings continued. We went to the …]]></summary>
-        <author>
-            <name>Adactio: Journal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[45system architecture design pattern sessions]]></title>
-        <id>https://news.ycombinator.com/item?id=29056684</id>
-        <link href="https://www.youtube.com/playlist?list=PLNFJm7gz3hcMIa8DvDRnLKRQsLDqWmmLm"/>
-        <updated>2021-10-31T13:04:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/playlist?list=PLNFJm7gz3hcMIa8DvDRnLKRQsLDqWmmLm
-Comments URL: https://news.ycombinator.com/item?id=29056684
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>palashkulsh</name>
         </author>
     </entry>
 </feed>
