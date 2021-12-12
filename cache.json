@@ -28,6 +28,15 @@
       "siteUrl": "https://adactio.com/journal/",
       "articles": [
         {
+          "id": "https://adactio.com/journal/18682",
+          "author": null,
+          "description": "Last month I wrote about writing on web.dev. At that time, the first five parts of a fifteen-part course on responsive design had been published. I’m pleased to say that the next five parts are now available. They are:\nTypography\nResponsive images\nThe picture element\nIcons\nTheming\nIt wasn’t planned, but these five modules feel like they belong together. The first five modules were concerned with layout tools—media queries, flexbox, grid, and even container queries. The latest five modules are about the individual elements of design—type, colour, and images. But those elements are examined through the lens of responsiveness; responsive typography with clamp, responsive colour with prefers-color-scheme, and responsive images with picture and srcset.\nThe final five modules should be available later this month. In the mean time, I hope you like the first ten modules.",
+          "link": "https://adactio.com/journal/18682",
+          "publishedOn": "2021-12-11T17:04:49.000Z",
+          "wordCount": 575,
+          "title": "More writing on web.dev"
+        },
+        {
           "id": "https://adactio.com/journal/18666",
           "author": null,
           "description": "The three-part almost nine-hour long documentary Get Back is quite fascinating.\nFirst of all, the fact that all this footage exists is remarkable. It’s as if Disney had announced that they’d found the footage for a film shot between Star Wars and The Empire Strikes Back.\nStill, does this treasure trove really warrant the daunting length of this new Beatles documentary? As Terence puts it:\nThere are two problems with this Peter Jackson documentary. The first is that it is far too long - are casual fans really going to sit through 9 hours of a band bickering? The second problem is that it is far too short! Beatles obsessives (like me) could happily drink in a hundred hours of this stuff.\nIn some ways, watching Get Back is liking watching one of those Andy Warhol art projects where he just po…",
@@ -377,15 +386,6 @@
           "publishedOn": "2021-11-15T11:00:00.000Z",
           "wordCount": 2520,
           "title": "Learn from machine learning"
-        },
-        {
-          "id": "urn:id:4716",
-          "author": "Ramin Skibba",
-          "description": "Instead of treating Mars and the Moon as sites of conquest and settlement, we need a radical new ethics of space exploration \n - by Ramin Skibba\n Read at Aeon",
-          "link": "https://aeon.co/essays/we-need-a-more-egalitarian-approach-to-space-exploration?utm_source=rss-feed",
-          "publishedOn": "2021-11-12T11:00:00.000Z",
-          "wordCount": 4168,
-          "title": "Decolonising the cosmos"
         }
       ]
     },
@@ -510,15 +510,6 @@
           "publishedOn": "2021-11-16T16:00:22.000Z",
           "wordCount": 1537,
           "title": "6 Important Insights About Title Tags (953,276 Pages Studied)"
-        },
-        {
-          "id": "https://ahrefs.com/blog/?p=136651",
-          "author": "Mateusz Makosiewicz",
-          "description": "SEO doesn’t require a big budget and, if done correctly, brings free traffic that grows almost on autopilot. What’s more, it can boost other marketing tactics and influence every phase of the marketing funnel. So if you want to start…\nRead more ›",
-          "link": "https://ahrefs.com/blog/seo-for-startups/",
-          "publishedOn": "2021-11-11T16:00:48.000Z",
-          "wordCount": 4731,
-          "title": "SEO for Startups: 8 Steps to Grow on a Budget"
         }
       ]
     },
@@ -1271,33 +1262,6 @@
           "publishedOn": "2021-11-12T15:16:24.000Z",
           "wordCount": 1838,
           "title": "Interactive Rebase: Clean up your Commit History"
-        },
-        {
-          "id": "https://css-tricks.com/?p=356652",
-          "author": "Chris Coyier",
-          "description": "Scott digs into the history of the <menu> element. He traced it as far back as HTML 2 (!) in a 1994 changelog. The vibe then, it seems, was to mark up a list. I would suspect the intention …\nThe post Semantic menu context appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/semantic-menu-context/",
-          "publishedOn": "2021-11-11T20:07:40.000Z",
-          "wordCount": 528,
-          "title": "Semantic menu context"
-        },
-        {
-          "id": "https://css-tricks.com/?p=355683",
-          "author": "Abram Thau",
-          "description": "I was working on a large React application for a startup, and aside from just wanting some good strategies to keep our styles organized, I wanted to give this whole “dark mode” thing a shot. With the huge ecosystem around …\nThe post Easy Dark Mode (and Multiple Color Themes!) in React appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/easy-dark-mode-and-multiple-color-themes-in-react/",
-          "publishedOn": "2021-11-11T15:28:04.000Z",
-          "wordCount": 2426,
-          "title": "Easy Dark Mode (and Multiple Color Themes!) in React"
-        },
-        {
-          "id": "https://css-tricks.com/?p=355516",
-          "author": "Chris Coyier",
-          "description": "(This is a sponsored post.)\nMeasuring things is great. They say what you only fix what you measure. Raygun is great at measuring websites. Measuring performance, measuring errors and crashes, measuring code problems. \nYou know what’s even better than …\nThe post Quickly Get Alerted to Front-End Errors and Performance Issues appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/quickly-get-alerted-to-front-end-errors-and-performance-issues/",
-          "publishedOn": "2021-11-11T15:22:31.000Z",
-          "wordCount": 1141,
-          "title": "Quickly Get Alerted to Front-End Errors and Performance Issues"
         }
       ]
     },
@@ -2436,15 +2400,6 @@
           "publishedOn": "2021-11-12T15:30:00.000Z",
           "wordCount": 172,
           "title": "How is JavaScript changing?"
-        },
-        {
-          "id": "https://gomakethings.com/a-vanilla-js-state-based-ui-library/",
-          "author": null,
-          "description": "Today, I wanted to share some high-level thoughts I have about what a state-based UI library that takes a more “vanilla JS” approach might look like.\nLet’s dig in!\nWhat is state-based UI? In the past, I’ve written about state-based UI: what it is, when it’s useful, and when it’s not.\n State is data at a particular moment in time. It’s the present “state” of your data. Get it?",
-          "link": "https://gomakethings.com/a-vanilla-js-state-based-ui-library/",
-          "publishedOn": "2021-11-11T15:30:00.000Z",
-          "wordCount": 727,
-          "title": "A vanilla JS state-based UI library?"
         }
       ]
     },
@@ -3217,51 +3172,6 @@
           "publishedOn": "2021-11-15T06:40:43.000Z",
           "wordCount": 77,
           "title": "A reality where CSS and JavaScript don’t exist"
-        },
-        {
-          "id": "https://heydesigner.com/?p=63983",
-          "author": "Travis",
-          "description": "Making the case of the best companion for principles.",
-          "link": "https://heydesigner.com/design-principles-and-tactics-why-you-need-both/",
-          "publishedOn": "2021-11-12T09:52:53.000Z",
-          "wordCount": 65,
-          "title": "Design principles and tactics: Why you need both"
-        },
-        {
-          "id": "https://heydesigner.com/?p=63980",
-          "author": "Travis",
-          "description": "The solution to user errors is not to blame the user or try to train the mistakes out of them.",
-          "link": "https://heydesigner.com/how-designers-can-prevent-user-errors/",
-          "publishedOn": "2021-11-12T09:51:34.000Z",
-          "wordCount": 74,
-          "title": "How designers can prevent user errors"
-        },
-        {
-          "id": "https://heydesigner.com/?p=63978",
-          "author": "Travis",
-          "description": "From fonts to animated movies, curves and surfaces constitute fundamental building blocks of many geometrical designs.",
-          "link": "https://heydesigner.com/curves-and-surfaces/",
-          "publishedOn": "2021-11-12T09:49:44.000Z",
-          "wordCount": 61,
-          "title": "Curves and surfaces"
-        },
-        {
-          "id": "https://heydesigner.com/?p=63976",
-          "author": "Travis",
-          "description": "There are a few interconnected and important concepts related to learning that come together in an interesting and foundational way.",
-          "link": "https://heydesigner.com/how-learning-works-components-systems-and-loops/",
-          "publishedOn": "2021-11-12T09:48:13.000Z",
-          "wordCount": 73,
-          "title": "How learning works: Components, systems, and loops"
-        },
-        {
-          "id": "https://heydesigner.com/?p=63974",
-          "author": "Travis",
-          "description": "Once upon a time, there was an element called menu. An element which had great aspirations.",
-          "link": "https://heydesigner.com/semantic-menu-context/",
-          "publishedOn": "2021-11-12T09:45:24.000Z",
-          "wordCount": 63,
-          "title": "Semantic menu context"
         }
       ]
     },
@@ -3276,6 +3186,42 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29524747",
+          "author": "GDC7",
+          "description": "Comments URL: https://news.ycombinator.com/item?id=29524747\nPoints: 5\n# Comments: 5",
+          "link": "https://news.ycombinator.com/item?id=29524747",
+          "publishedOn": "2021-12-11T22:14:40.000Z",
+          "wordCount": 285,
+          "title": "Ask HN: Which car brand has the best exterior design language?"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29523430",
+          "author": "rustoo",
+          "description": "Article URL: https://www.umass.edu/news/article/first-researchers-design-robots-dont-need-electricity\nComments URL: https://news.ycombinator.com/item?id=29523430\nPoints: 2\n# Comments: 0",
+          "link": "https://www.umass.edu/news/article/first-researchers-design-robots-dont-need-electricity",
+          "publishedOn": "2021-12-11T19:16:07.000Z",
+          "wordCount": 1027,
+          "title": "In a first, researchers design robots that don’t need electricity"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29517907",
+          "author": "burgerrito",
+          "description": "Article URL: https://www.pyedifice.org/index.html\nComments URL: https://news.ycombinator.com/item?id=29517907\nPoints: 5\n# Comments: 2",
+          "link": "https://www.pyedifice.org/index.html",
+          "publishedOn": "2021-12-11T02:36:51.000Z",
+          "wordCount": 1256,
+          "title": "Edifice: A Declarative UI Library for Python"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29517415",
+          "author": "mardiyah",
+          "description": "Article URL: https://interestingengineering.com/chinas-new-hypersonic-aircraft-is-based-on-a-rejected-nasa-design\nComments URL: https://news.ycombinator.com/item?id=29517415\nPoints: 8\n# Comments: 0",
+          "link": "https://interestingengineering.com/chinas-new-hypersonic-aircraft-is-based-on-a-rejected-nasa-design",
+          "publishedOn": "2021-12-11T01:07:29.000Z",
+          "wordCount": 825,
+          "title": "China's New Aircraft Is Based on a Rejected NASA Design"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29516820",
           "author": "keyle",
@@ -4886,51 +4832,6 @@
           "publishedOn": "2021-11-12T15:18:49.000Z",
           "wordCount": 1345,
           "title": "Xbox Design Lab"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29196994",
-          "author": "truly",
-          "description": "I am trying to get better at making my own drawings and animations.\nI would like a recommendation for a good lecture/book that teaches graphics design. Paid or free, what is important to me is the quality. I have tried googling around, but I cannot tell what is good from what is bad.\nSpecifically, I'm looking for resources that help me answer questions such as: do these colours go together, what are the right proportions of these objects, what would be the right font here.\nI'm not looking for technical resources such as: how to make a transparent rectangle in GIMP.\nComments URL: https://news.ycombinator.com/item?id=29196994\nPoints: 8\n# Comments: 3",
-          "link": "https://news.ycombinator.com/item?id=29196994",
-          "publishedOn": "2021-11-12T07:07:31.000Z",
-          "wordCount": 249,
-          "title": "Ask HN: What are good resources to learn about graphics design?"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29196178",
-          "author": "danboarder",
-          "description": "Article URL: https://thechop.blog/thechop/impact-of-covid-on-future-cruise-ship-design\nComments URL: https://news.ycombinator.com/item?id=29196178\nPoints: 1\n# Comments: 0",
-          "link": "https://thechop.blog/thechop/impact-of-covid-on-future-cruise-ship-design",
-          "publishedOn": "2021-11-12T03:58:13.000Z",
-          "wordCount": 2060,
-          "title": "The Impact of Covid-19 on Future Cruise Ship Design"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29194619",
-          "author": "bredren",
-          "description": "Article URL: https://twitter.com/jetsetter/status/1458936908315127829\nComments URL: https://news.ycombinator.com/item?id=29194619\nPoints: 2\n# Comments: 1",
-          "link": "https://twitter.com/jetsetter/status/1458936908315127829",
-          "publishedOn": "2021-11-11T23:31:25.000Z",
-          "wordCount": 196,
-          "title": "UX Grey Patterns in Google Workspaces plan self-transition"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29188428",
-          "author": "geerlingguy",
-          "description": "Article URL: https://api.starlink.com/public-files/StarlinkInstallGuide_Rectangular.pdf\nComments URL: https://news.ycombinator.com/item?id=29188428\nPoints: 2\n# Comments: 1",
-          "link": "https://api.starlink.com/public-files/StarlinkInstallGuide_Rectangular.pdf",
-          "publishedOn": "2021-11-11T14:54:01.000Z",
-          "wordCount": 21017,
-          "title": "Starlink's new rectangular dish design [pdf]"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29187221",
-          "author": "rbanffy",
-          "description": "Article URL: https://www.phoronix.com/scan.php?page=news_item&px=Btrfs-Improving-Painful-Parts\nComments URL: https://news.ycombinator.com/item?id=29187221\nPoints: 3\n# Comments: 0",
-          "link": "https://www.phoronix.com/scan.php?page=news_item&px=Btrfs-Improving-Painful-Parts",
-          "publishedOn": "2021-11-11T12:34:38.000Z",
-          "wordCount": 772,
-          "title": "On-Disk Format Changes Ahead to Improve “Painful” Parts of Btrfs Design"
         }
       ]
     },
@@ -4939,6 +4840,51 @@
       "feedUrl": "https://hnrss.org/newest?q=react+OR+reactjs+OR+svelte+OR+sveltejs",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29523070",
+          "author": "keewee7",
+          "description": "Article URL: https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190\nComments URL: https://news.ycombinator.com/item?id=29523070\nPoints: 2\n# Comments: 0",
+          "link": "https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190",
+          "publishedOn": "2021-12-11T18:32:05.000Z",
+          "wordCount": 2186,
+          "title": "Did React Win the 201* Framework Wars?"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29521975",
+          "author": "ekzhang",
+          "description": "Article URL: https://github.com/ekzhang/percival\nComments URL: https://news.ycombinator.com/item?id=29521975\nPoints: 12\n# Comments: 0",
+          "link": "https://github.com/ekzhang/percival",
+          "publishedOn": "2021-12-11T16:19:20.000Z",
+          "wordCount": 1274,
+          "title": "Show HN: Percival – Web-based reactive Datalog notebooks, made with Rust+Svelte"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29520913",
+          "author": "hliyan",
+          "description": "Article URL: https://poub330.medium.com/react-costs-companies-a-lot-of-money-6bfa3e5cc6f4\nComments URL: https://news.ycombinator.com/item?id=29520913\nPoints: 11\n# Comments: 1",
+          "link": "https://poub330.medium.com/react-costs-companies-a-lot-of-money-6bfa3e5cc6f4",
+          "publishedOn": "2021-12-11T14:03:42.000Z",
+          "wordCount": 892,
+          "title": "React costs companies a lot of money"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29520359",
+          "author": "kqito",
+          "description": "Article URL: https://github.com/kqito/use-light-atom\nComments URL: https://news.ycombinator.com/item?id=29520359\nPoints: 2\n# Comments: 0",
+          "link": "https://github.com/kqito/use-light-atom",
+          "publishedOn": "2021-12-11T12:15:47.000Z",
+          "wordCount": 1578,
+          "title": "A lightweight atom-based state management for react"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=29517568",
+          "author": "leopardlazy",
+          "description": "Hi folks, I'm building a social media app on Dart. I've been working on it for some time but it always bugs me whether I'm making a right choice by picking it over React.\nRight now my plan is to build an MVP, apply to YC and then maybe keep Dart long term. Also, Our team is more familiar with Dart than React. We need a language which can work cross platform and is simpler to implement features.\nThoughts.\nComments URL: https://news.ycombinator.com/item?id=29517568\nPoints: 2\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=29517568",
+          "publishedOn": "2021-12-11T01:36:25.000Z",
+          "wordCount": 160,
+          "title": "Dart/React for a full fledged social media app in the short term and long term?"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29508840",
           "author": "nailer",
@@ -5703,60 +5649,6 @@
           "publishedOn": "2021-11-12T12:33:13.000Z",
           "wordCount": 6597,
           "title": "Using OAuth to add authentication to a React app"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29198007",
-          "author": "StaticChamp",
-          "description": "Article URL: https://sveltethemes.dev/\nComments URL: https://news.ycombinator.com/item?id=29198007\nPoints: 1\n# Comments: 0",
-          "link": "https://sveltethemes.dev/",
-          "publishedOn": "2021-11-12T10:48:51.000Z",
-          "wordCount": 4,
-          "title": "Directory for Svelte Themes and Resources"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29192497",
-          "author": "sphuff",
-          "description": "Article URL: https://sphuff.dev/adding-react-to-an-existing-application/\nComments URL: https://news.ycombinator.com/item?id=29192497\nPoints: 3\n# Comments: 0",
-          "link": "https://sphuff.dev/adding-react-to-an-existing-application/",
-          "publishedOn": "2021-11-11T20:06:50.000Z",
-          "wordCount": 1152,
-          "title": "Adding React to an Existing Application"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29191994",
-          "author": "chefkoch111",
-          "description": "Article URL: https://github.com/tkwant/react-steps\nComments URL: https://news.ycombinator.com/item?id=29191994\nPoints: 1\n# Comments: 0",
-          "link": "https://github.com/tkwant/react-steps",
-          "publishedOn": "2021-11-11T19:24:24.000Z",
-          "wordCount": 682,
-          "title": "React Stepper which can also be used on mobile devices"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29189467",
-          "author": "lucis",
-          "description": "Article URL: https://twitter.com/Rich_Harris/status/1458822051263823875\nComments URL: https://news.ycombinator.com/item?id=29189467\nPoints: 12\n# Comments: 1",
-          "link": "https://twitter.com/Rich_Harris/status/1458822051263823875",
-          "publishedOn": "2021-11-11T16:07:08.000Z",
-          "wordCount": 196,
-          "title": "Rich Harris, Svelte's creator, joins Vercel"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29189209",
-          "author": "darkhorsematt",
-          "description": "Article URL: https://www.infoworld.com/article/3639521/svelte-creator-web-development-should-be-more-fun.html\nComments URL: https://news.ycombinator.com/item?id=29189209\nPoints: 51\n# Comments: 25",
-          "link": "https://www.infoworld.com/article/3639521/svelte-creator-web-development-should-be-more-fun.html",
-          "publishedOn": "2021-11-11T15:49:15.000Z",
-          "wordCount": 1861,
-          "title": "Svelte Creator Rich Harris: Web development should be more fun"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29189144",
-          "author": "leodriesch",
-          "description": "Article URL: https://twitter.com/Rich_Harris/status/1458822051263823875\nComments URL: https://news.ycombinator.com/item?id=29189144\nPoints: 673\n# Comments: 322",
-          "link": "https://twitter.com/Rich_Harris/status/1458822051263823875",
-          "publishedOn": "2021-11-11T15:43:47.000Z",
-          "wordCount": 196,
-          "title": "Rich Harris joins Vercel to work on Svelte full time"
         }
       ]
     },
@@ -5765,6 +5657,15 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=29519391",
+          "author": "mathnmusic",
+          "description": "Article URL: https://cleartax.github.io/html-mocker/\nComments URL: https://news.ycombinator.com/item?id=29519391\nPoints: 97\n# Comments: 9",
+          "link": "https://cleartax.github.io/html-mocker/",
+          "publishedOn": "2021-12-11T08:15:18.000Z",
+          "wordCount": 107,
+          "title": "Show HN: Randomize HTML content to test your defensive CSS"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=29501125",
           "author": "joshmanders",
@@ -6304,15 +6205,6 @@
           "publishedOn": "2021-11-13T07:40:10.000Z",
           "wordCount": 497,
           "title": "Simple.css"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29187629",
-          "author": "marvindanig",
-          "description": "Article URL: https://bubblin.io/blog/a-css-router\nComments URL: https://news.ycombinator.com/item?id=29187629\nPoints: 1\n# Comments: 0",
-          "link": "https://bubblin.io/blog/a-css-router",
-          "publishedOn": "2021-11-11T13:31:59.000Z",
-          "wordCount": 3699,
-          "title": "Writing a Router in CSS"
         }
       ]
     },
@@ -6476,15 +6368,6 @@
           "publishedOn": "2021-11-21T00:00:00.000Z",
           "wordCount": 1655,
           "title": "Why I write and why I won't [blog]"
-        },
-        {
-          "id": "2021-11-11-0ad5612e",
-          "author": null,
-          "description": "I think this might be one of the first balanced or non-invested reads of what \"Web3\" means and Sloan's opening notes really resonate:\n\nIt’s for kids. I mean that in a good way! I think Web3 has resonated powerfully with young people because it feels like something genuinely new, and it feels like it can be theirs. Who could argue with those feelings? Not me.\n\nThe notes go on and I come away with the same general sense that I've had so far of the crowd cheering on for Web3: it's about making money. Which is fine, the world runs on capitalism for the most part, it's just not entirely for me.\nAnd I think that's the rub, the stories I know of the creation and the spread of the web (and indeed the internet) came from those wanting to share and do good. The stories I've read were never about making money but instead creating a place for others.\nI will concede that I don't tend to read the \"got rich by selling X web start up\" - but it's that start in the web that's what drives me, and what I love about the web. It's what I love about the Open Web.\nWeb Zero if you will. It was about sharing, community, learning and finding a place in the world.\nSource: society.robinsloan.com",
-          "link": "https://remysharp.com/links/2021-11-11-0ad5612e",
-          "publishedOn": "2021-11-11T19:39:57.000Z",
-          "wordCount": 376,
-          "title": "Notes on Web3 by Robin Sloan [link]"
         }
       ]
     },
@@ -6811,6 +6694,15 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=41032",
+          "author": "Seth Godin",
+          "description": "Things decay. We know precisely how many yoctoseconds it takes for half of a given amount of Hydrogen-7 to transform into ordinary hydrogen. And we know how old old things are because Carbon-14 loses half its mass every 5,700 years. But ideas and cultural impact have a half-life as well. Einstein wrote a paper 120 […]",
+          "link": "https://seths.blog/2021/12/cultural-half-life/",
+          "publishedOn": "2021-12-11T09:57:00.000Z",
+          "wordCount": 413,
+          "title": "Cultural half-life"
+        },
+        {
           "id": "https://seths.blog/?p=42003",
           "author": "Seth Godin",
           "description": "This is my book of the year. It delivers on so many things that we want a book to do–it could never be replicated by a website or even a film. The audiobook is even better… It’s engaging, powerful and resonates really deeply. Mann has given us a deeply researched narrative, a book that will […]",
@@ -7079,15 +6971,6 @@
           "publishedOn": "2021-11-13T11:16:00.000Z",
           "wordCount": 311,
           "title": "Reading scripts and pushing buttons"
-        },
-        {
-          "id": "https://seths.blog/?p=41805",
-          "author": "Seth Godin",
-          "description": "In the US, Thanksgiving is right around the corner. Despite what you might see around you, it’s not a holiday that exists to mark the beginning of shopping season. It celebrates the harvest, and in the original glossed-over telling, celebrates the connections between people from different backgrounds and cultures. And each year, we get another […]",
-          "link": "https://seths.blog/2021/11/together/",
-          "publishedOn": "2021-11-12T09:36:00.000Z",
-          "wordCount": 365,
-          "title": "Together"
         }
       ]
     },
@@ -7995,51 +7878,6 @@
           "publishedOn": "2021-11-15T06:37:48.000Z",
           "wordCount": 244,
           "title": "Feneon Typeface"
-        },
-        {
-          "id": "Tp6DrJbdzbpznhfi5",
-          "author": "@uxdesigncc",
-          "description": "While accordions may seem like a simple component, there is more to them than meets the eye.",
-          "link": "https://uxdesign.cc/ui-cheat-sheet-accordions-3e88f0d4dfee",
-          "publishedOn": "2021-11-12T05:22:25.000Z",
-          "wordCount": 2055,
-          "title": "UI cheat sheet: Accordions"
-        },
-        {
-          "id": "xZLtr4gizWrLyfmyT",
-          "author": "@polypane",
-          "description": "With the new EyeDropper API in Chromium, websites can let visitors pick colors from anywhere on their screen.",
-          "link": "https://polypane.app/blog/the-eye-dropper-api-pick-colors-from-anywhere-on-your-screen/",
-          "publishedOn": "2021-11-12T05:20:34.000Z",
-          "wordCount": 1504,
-          "title": "The EyeDropper API: Pick colors from anywhere on your screen"
-        },
-        {
-          "id": "7M2qHWQ45XBc6pZZW",
-          "author": "@TildaPublishing",
-          "description": "Free tutorials on web animation with templates and videos to help you easily animate websites on Tilda website builder.",
-          "link": "https://tilda.education/en/web-animation-course",
-          "publishedOn": "2021-11-12T05:18:10.000Z",
-          "wordCount": 387,
-          "title": "Practical Guide to Web Animation"
-        },
-        {
-          "id": "rTTStSXo4k4nTQraK",
-          "author": "@ChromiumDev",
-          "description": "A foundational overview of how to build a responsive, adaptive, and accessible 3D game menu.",
-          "link": "https://web.dev/building-a-3d-game-menu-component/",
-          "publishedOn": "2021-11-12T05:13:40.000Z",
-          "wordCount": 2269,
-          "title": "Building a 3D game menu component"
-        },
-        {
-          "id": "qpsmwCRzaempraMk2",
-          "author": "@bciechanowski",
-          "description": "Interactive article explaining how curves and surfaces are modelled.",
-          "link": "https://ciechanow.ski/curves-and-surfaces/",
-          "publishedOn": "2021-11-12T05:12:41.000Z",
-          "wordCount": 7834,
-          "title": "Curves and Surfaces"
         }
       ]
     },
@@ -8466,15 +8304,6 @@
           "publishedOn": "2021-11-16T01:54:21.000Z",
           "wordCount": 1131,
           "title": "3 Tips For Generating a Positive & Productive Mindset First Thing in The Morning"
-        },
-        {
-          "id": "https://www.pickthebrain.com/blog/?p=88109",
-          "author": "Christian Pyrros",
-          "description": "You’re confident. You’re confident? You’re confident!\n\n\nIf only gaining confidence was as easy as telling yourself that you’re confident. But the truth is, it takes just a bit of effort in a few specific areas.\n\n\nHere’s the deal: I know it’s not easy to be confident at all times. I've been there. And I've made it to the other side.\n\n\nThe good news about confidence is that it can be learned. Yes, I had to do some work. But with practice, you can actually become a master at it.\n\n\nYou must be wondering, what are the steps? How does one gain confidence if they don’t have any of it built-in yet? \n\n\nEspecially for some personality types (MBTI or Big Five factors), the effort you need to reach full confidence will vary. Based on your current scores, these personality tests can be a helpful feedba…",
-          "link": "https://www.pickthebrain.com/blog/what-is-the-truth-to-gaining-confidence/",
-          "publishedOn": "2021-11-11T18:28:15.000Z",
-          "wordCount": 1576,
-          "title": "What is the Truth to Gaining Confidence?"
         }
       ]
     },
@@ -8718,34 +8547,6 @@
             "length": "0",
             "type": "image/jpg"
           }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/useful-react-hooks/",
-          "author": "hello@smashingmagazine.com (Ifeanyi Dike)",
-          "description": "The React team introduced several hooks in React 16.8 which you can use from third-party providers in your application, or even create your own custom hook. In this tutorial, we’ll take a look at some of the most useful hooks in React and how to use them.",
-          "link": "https://smashingmagazine.com/2021/11/useful-react-hooks/",
-          "publishedOn": "2021-11-12T10:00:00.000Z",
-          "wordCount": 10270,
-          "title": "Useful React Hooks That You Can Use In Your Projects",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ad5f8d5b-6da6-4441-a6f7-466c79e7fb0d/useful-react-hooks.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/11/dashboard-design-research-decluttering-data-viz/",
-          "author": "hello@smashingmagazine.com (Adam Fard)",
-          "description": "Dribbbleshots just might be the hotbed of questionable dashboards. Striking visuals, little context, and no research: all recipes for mediocrity. Mediocrity won’t do. We’ll pursue greatness. And in that pursuit, we’ll cover research, decluttering, and data visualization.",
-          "link": "https://smashingmagazine.com/2021/11/dashboard-design-research-decluttering-data-viz/",
-          "publishedOn": "2021-11-11T14:00:00.000Z",
-          "wordCount": 4315,
-          "title": "From Good To Great In Dashboard Design: Research, Decluttering And Data Viz",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/835f0cba-e214-437a-a025-e69ba7691997/dashboard-design-research-decluttering-data-viz.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
         }
       ]
     },
@@ -8886,15 +8687,6 @@
           "publishedOn": "2021-11-15T05:00:00.000Z",
           "wordCount": 185,
           "title": "Daylight Calendar"
-        },
-        {
-          "id": "https://xkcd.com/2541/",
-          "author": null,
-          "description": "",
-          "link": "https://xkcd.com/2541/",
-          "publishedOn": "2021-11-12T05:00:00.000Z",
-          "wordCount": 183,
-          "title": "Occam"
         }
       ]
     },
