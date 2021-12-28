@@ -26,7 +26,251 @@ Overall, LCP improved by 80% from 4.5 sec…</p>
       </div>
     <p>2021-12-27</p>
       <div class="rounded border border-stone-800 p-3 space-y-5">
+        <p>CSS In Real Life</p>
+          <div>
+            <a
+              href=https://css-irl.info/has-has-landed-in-safari/
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >:has() Has Landed in Safari</a>
+            <p class="mt-0.5 overflow-x-hidden">Just a few days ago Safari gave us all an early Christmas present: the latest Safari Technology Preview release includes support for the :has() pseudo-class! Otherwise known as the “parent selector”, (but officially termed in the the spec ‘The Relational Pseudo-class’) it allows us to style an element based on its descendants. We can do things like (off the top of my head) style any sections that contain img elements:
+section:has(img) {
+  background: lightgray;
+}
+But eagle-eyed CSS aficionados might spot that it opens up way more possibilities than that, as Bramus writes in his blog post. He’s also been experimenting with form styling, including styling labels based on the validity of their inputs.
+You could even style a whole form differently if it contains invalid inputs:
+form:has(input:invalid) {
+  border: 2px solid red;
+}
+The parent selector is something the CSS world has been crying out for for some time, and I’m sure we’ll see lots more imaginative use cases come to light over the coming year.
+It’s worth mentioning that you can test for support for :has() using feature queries with the selector() function, as detailed in this CSS Tricks post. Having never needed to use it before, this had completely passed me by, but it’s yet another cool CSS feature that’ll come in handy. Bramus uses it in his post to show or hide a warning message, depending on whether the browser supports :has():
+@supports selector(:has(*)) {
+  .info,
+  .warning {
+    display: none;
+  }
+}
+On a side note, it’s great to see Safari leading the way on new CSS features like :has(), after years of lagging behind — no doubt spearheaded by Jen Simmons’ presence on the team.</p>
+          </div>
+      </div>
+      <div class="rounded border border-stone-800 p-3 space-y-5">
+        <p>CSS-Tricks</p>
+          <div>
+            <a
+              href=https://css-tricks.com/honor-prefers-color-scheme-in-the-css-paint-api-with-custom-properties/
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Honor prefers-color-scheme in the CSS Paint API with Custom Properties</a>
+            <p class="mt-0.5 overflow-x-hidden">One of the coolest things I’ve been messing with in the last couple years is the CSS Paint API. I love it. I did a talk on it, and made a little gallery of my own paint worklets…</p>
+          </div>
+      </div>
+      <div class="rounded border border-stone-800 p-3 space-y-5">
+        <p>David Walsh Blog</p>
+          <div>
+            <a
+              href=https://davidwalsh.name/javascript-s
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >JavaScript String replaceAll</a>
+            <p class="mt-0.5 overflow-x-hidden">Replacing a substring of text within a larger string has always been misleading in JavaScript. I wrote Replace All Occurrences of a String in JavaScript years ago and it’s still one of my most read articles. The confusion lies in that replace only replaces the first occurrence of a substring, not all occurrences. For example: […]
+The post JavaScript String replaceAll appeared first on David Walsh Blog.</p>
+          </div>
+      </div>
+      <div class="rounded border border-stone-800 p-3 space-y-5">
+        <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;ui-design&quot;&quot;</p>
+          <div>
+            <a
+              href=https://www.smashingmagazine.com/2021/12/tools-tips-resources-to-build-better-user-experiences/
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Useful UX Guidelines, Tools and Resources – Smashing Magazine</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://www.smashingmagazine.com/2021/12/tools-tips-resources-to-build-better-user-experiences/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29707826
+Points: 1
+# Comments: 0</p>
+          </div>
+          <div>
+            <a
+              href=http://designwithfontforge.com/en-US/index.html
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Design with Fontforge (2017)</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: http://designwithfontforge.com/en-US/index.html
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29706307
+Points: 1
+# Comments: 0</p>
+          </div>
+          <div>
+            <a
+              href=https://www.linkedin.com/pulse/ergonomic-design-glove80-split-contoured-keyboard-moergo
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Show HN: Ergonomic design of the Glove80 split contoured keyboard</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://www.linkedin.com/pulse/ergonomic-design-glove80-split-contoured-keyboard-moergo
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29706216
+Points: 2
+# Comments: 2</p>
+          </div>
+          <div>
+            <a
+              href=https://mauikit.org/
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >MauiKit – UI Framework</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://mauikit.org/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29705868
+Points: 1
+# Comments: 0</p>
+          </div>
+          <div>
+            <a
+              href=https://drovp.app
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Show HN: Drovp – Convenient UI for any drag and drop operations</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://drovp.app
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29705794
+Points: 53
+# Comments: 5</p>
+          </div>
+          <div>
+            <a
+              href=https://github.com/webeetle/react-headless-hooks
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Show HN: React hooks library to build powerful components UI framework agnostic</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://github.com/webeetle/react-headless-hooks
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29701053
+Points: 6
+# Comments: 0</p>
+          </div>
+      </div>
+      <div class="rounded border border-stone-800 p-3 space-y-5">
+        <p>Hacker News - Newest: &quot;&quot;react&quot; &quot;reactjs&quot; &quot;svelte&quot; &quot;sveltejs&quot;&quot;</p>
+          <div>
+            <a
+              href=https://blog.changani.me/2021/12/25/react-creating-a-heading-component-leveraging-typescript-s-typing-system/
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >React: Creating a Heading component leveraging TypeScript’s typing system</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://blog.changani.me/2021/12/25/react-creating-a-heading-component-leveraging-typescript-s-typing-system/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29705154
+Points: 2
+# Comments: 0</p>
+          </div>
+          <div>
+            <a
+              href=https://blog.isquaredsoftware.com/2021/12/codebase-conversion-mean-react-next-ts/
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Migrating a Mean AngularJS App to React, Next.js, and TypeScript</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://blog.isquaredsoftware.com/2021/12/codebase-conversion-mean-react-next-ts/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29704801
+Points: 1
+# Comments: 0</p>
+          </div>
+          <div>
+            <a
+              href=https://github.com/garbles/concave
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Show HN: Concave, a lens-like state management library for React</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://github.com/garbles/concave
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29703919
+Points: 1
+# Comments: 1</p>
+          </div>
+          <div>
+            <a
+              href=https://www.amitmerchant.com/update-state-of-hook-from-other-components-in-react/
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Update state of component from other components using React hooks</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://www.amitmerchant.com/update-state-of-hook-from-other-components-in-react/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29702167
+Points: 3
+# Comments: 1</p>
+          </div>
+          <div>
+            <a
+              href=https://github.com/webeetle/react-headless-hooks
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Show HN: React hooks library to build powerful components UI framework agnostic</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://github.com/webeetle/react-headless-hooks
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29701053
+Points: 6
+# Comments: 0</p>
+          </div>
+          <div>
+            <a
+              href=https://damiisdandy.com/articles/use-fetch/
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Custom React useFetch() hook for data fetching with revalidation</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://damiisdandy.com/articles/use-fetch/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29700910
+Points: 1
+# Comments: 1</p>
+          </div>
+      </div>
+      <div class="rounded border border-stone-800 p-3 space-y-5">
+        <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot;&quot;</p>
+          <div>
+            <a
+              href=https://www.willmcgugan.com/blog/tech/post/css-in-the-terminal-with-python-and-textual/
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >CSS in the Terminal with Python and Textual</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://www.willmcgugan.com/blog/tech/post/css-in-the-terminal-with-python-and-textual/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29703963
+Points: 13
+# Comments: 0</p>
+          </div>
+          <div>
+            <a
+              href=https://timonweb.com/python/you-can-now-use-pip-to-install-tailwind-css-nodejs-is-no-longer-required/
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >You can now use &#x27;pip&#x27; to install Tailwind CSS. Node.js is no longer required</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://timonweb.com/python/you-can-now-use-pip-to-install-tailwind-css-nodejs-is-no-longer-required/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29703496
+Points: 11
+# Comments: 0</p>
+          </div>
+          <div>
+            <a
+              href=https://github.com/facelessuser/soupsieve
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Soup Sieve – A modern CSS selector implementation for BeautifulSoup</a>
+            <p class="mt-0.5 overflow-x-hidden">Article URL: https://github.com/facelessuser/soupsieve
+Comments URL: https://news.ycombinator.com/item?id&#x3D;29700707
+Points: 3
+# Comments: 0</p>
+          </div>
+      </div>
+      <div class="rounded border border-stone-800 p-3 space-y-5">
+        <p>Seth&#x27;s Blog</p>
+          <div>
+            <a
+              href=https://seths.blog/2021/12/best-behavior/
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Best behavior</a>
+            <p class="mt-0.5 overflow-x-hidden">If we’re new to a situation, or feeling unsure, we pay careful attention. We’re closely examining how others feel, what the cultural norms are, and what impact we’re seeking to make. On the other hand, sometimes we fail to be on our best behavior. That’s another way of describing impulsive selfishness. The surprising thing isn’t […]</p>
+          </div>
+      </div>
+      <div class="rounded border border-stone-800 p-3 space-y-5">
         <p>Sidebar</p>
+          <div>
+            <a
+              href=https://readymag.com/readymag/2021-product-roundup/?utm_source&#x3D;sidebar&amp;utm_medium&#x3D;partnership&amp;utm_campaign&#x3D;roundup_sidebar
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >2021: Product round-up</a>
+            <p class="mt-0.5 overflow-x-hidden">Meet an expanded design arsenal from Readymag! This is a list of most anticipated design instruments and updates rolled out by the team in 2021.</p>
+          </div>
           <div>
             <a
               href=https://www.modernwiki.app/
@@ -66,6 +310,46 @@ Overall, LCP improved by 80% from 4.5 sec…</p>
               class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
             >Strut Your Stuff With a Custom Scrollbar</a>
             <p class="mt-0.5 overflow-x-hidden">The first time I had my breath taken away by a humble scrollbar was on this very site.</p>
+          </div>
+      </div>
+      <div class="rounded border border-stone-800 p-3 space-y-5">
+        <p>Latest WDRL editions via Feed</p>
+          <div>
+            <a
+              href=https://wdrl.info/archive/294
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >WDRL — Edition 294: Floating UI, Aria not allowed, Open Props, Mercy and Opinion overload reduction</a>
+            <p class="mt-0.5 overflow-x-hidden">Hey,
+every year towards the end of it I want to remind you that if you like my work, you can help financing this newsletter by giving a contribution. I want to say thank you to everyone here who reads or supports this project.
+This year has been challenging for many. For me, it definitely was. Thankfully, I made a very good decision three years ago that enables me to be outside in nature most of the days. It helps me a lot dealing with the many challenges that are in everyone’s heads right now. Especially now as a father of a young child, it’s not always easy to stay positive, to not be stressed out or discuss, talk about certain topics all the time. But nature has helped me, my child has helped me, meditation and focusing on my own opinion, on my own body, on my own health helps me stayin…</p>
+          </div>
+      </div>
+      <div class="rounded border border-stone-800 p-3 space-y-5">
+        <p>LessWrong</p>
+          <div>
+            <a
+              href=https://www.lesswrong.com/posts/nNqXfnjiezYukiMJi/reply-to-eliezer-on-biological-anchors
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Reply to Eliezer on Biological Anchors</a>
+            <p class="mt-0.5 overflow-x-hidden">Published on December 23, 2021 4:15 PM GMT
+
+The &quot;biological anchors&quot; method for forecasting transformative AI is the biggest non-trust-based input into my thinking about likely timelines for transformative AI. While I&#x27;m sympathetic to parts of Eliezer Yudkowsky&#x27;s recent post on it, I overall disagree with the post, and think it&#x27;s easy to get a misimpression of the &quot;biological anchors&quot; report (which I&#x27;ll abbreviate as &quot;Bio Anchors&quot;) - and Open Philanthropy&#x27;s take on it - by reading it. 
+This post has three sections:
+
+Most of Eliezer&#x27;s critique seems directed at assumptions the report explicitly does not make about how transformative AI will be developed, and more broadly, about the connection between its (the report&#x27;s) compute estimates and all-things-considered AI timelines. One way of put…</p>
+          </div>
+      </div>
+      <div class="rounded border border-stone-800 p-3 space-y-5">
+        <p>Articles on Smashing Magazine — For Web Designers And Developers</p>
+          <div>
+            <a
+              href=https://smashingmagazine.com/2021/12/building-gatsby-themes-wordpress-powered-websites/
+              target="_blank"
+              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
+            >Building Gatsby Themes For WordPress-Powered Websites</a>
+            <p class="mt-0.5 overflow-x-hidden">Have you already built and published a Gatsby theme? In this article, Paulina Hetman explains how Gatsby themes work and what problems they can solve by comparing Gatsby themes with their WordPress counterparts.</p>
           </div>
       </div>
     <p>2021-12-26</p>
@@ -9527,39 +9811,6 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;29369624
 Points: 3
 # Comments: 1</p>
           </div>
-          <div>
-            <a
-              href=https://www.darkmodedesign.com/
-              target="_blank"
-              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
-            >Dark Mode Design</a>
-            <p class="mt-0.5 overflow-x-hidden">Article URL: https://www.darkmodedesign.com/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;29367805
-Points: 1
-# Comments: 0</p>
-          </div>
-          <div>
-            <a
-              href=https://refiapp.io/
-              target="_blank"
-              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
-            >An Open-source FireStore UI tool to make development with Firestore less pain</a>
-            <p class="mt-0.5 overflow-x-hidden">Article URL: https://refiapp.io/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;29367239
-Points: 1
-# Comments: 1</p>
-          </div>
-          <div>
-            <a
-              href=https://danajwright.medium.com/the-five-biggest-product-design-challenges-in-crypto-b17b6088ecff
-              target="_blank"
-              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
-            >The Five Biggest Product Design Challenges in Crypto</a>
-            <p class="mt-0.5 overflow-x-hidden">Article URL: https://danajwright.medium.com/the-five-biggest-product-design-challenges-in-crypto-b17b6088ecff
-Comments URL: https://news.ycombinator.com/item?id&#x3D;29366564
-Points: 2
-# Comments: 1</p>
-          </div>
       </div>
       <div class="rounded border border-stone-800 p-3 space-y-5">
         <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot;&quot;</p>
@@ -9576,17 +9827,6 @@ Points: 2
           </div>
       </div>
       <div class="rounded border border-stone-800 p-3 space-y-5">
-        <p>Seth&#x27;s Blog</p>
-          <div>
-            <a
-              href=https://seths.blog/2021/11/a-scrabble-hack/
-              target="_blank"
-              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
-            >A Scrabble hack</a>
-            <p class="mt-0.5 overflow-x-hidden">It’s definitely a regular pastime of mine, and one of my favorite games. I usually play solo with the Word Master app. The structure of the game rewards knowledge of really short words like qi and aa, but the exciting part happens when you find a seven-letter word… The hack that would work if you’re […]</p>
-          </div>
-      </div>
-      <div class="rounded border border-stone-800 p-3 space-y-5">
         <p>zen habits</p>
           <div>
             <a
@@ -9596,46 +9836,6 @@ Points: 2
             >Using the Pandemic as Mental Training Ground</a>
             <p class="mt-0.5 overflow-x-hidden">By Leo Babauta This neverending pandemic hasn’t been the best mental health environment for many people — it has created raised levels of uncertainty, anxiety, loneliness, unhappiness, procrastination and feelings of dreariness for large numbers of people. That’s understandable, and I feel tremendous compassion for everyone who is suffering right now. I strongly believe that this […]
 The post Using the Pandemic as Mental Training Ground appeared first on zen habits.</p>
-          </div>
-      </div>
-    <p>2021-11-27</p>
-      <div class="rounded border border-stone-800 p-3 space-y-5">
-        <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;ui-design&quot;&quot;</p>
-          <div>
-            <a
-              href=https://www.uifoundations.com/
-              target="_blank"
-              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
-            >Show HN: UI Foundations, explaining UI design in an interactive platform</a>
-            <p class="mt-0.5 overflow-x-hidden">Article URL: https://www.uifoundations.com/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;29361685
-Points: 8
-# Comments: 1</p>
-          </div>
-          <div>
-            <a
-              href=https://www.thecodedmessage.com/posts/endian_polymorphism/
-              target="_blank"
-              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
-            >Endianness, API Design, and Polymorphism in Rust</a>
-            <p class="mt-0.5 overflow-x-hidden">Article URL: https://www.thecodedmessage.com/posts/endian_polymorphism/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;29359828
-Points: 2
-# Comments: 0</p>
-          </div>
-      </div>
-      <div class="rounded border border-stone-800 p-3 space-y-5">
-        <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot;&quot;</p>
-          <div>
-            <a
-              href=https://softwareengineering.stackexchange.com/questions/314537/why-does-nth-child-in-css-start-from-1-instead-of-0
-              target="_blank"
-              class="text-stone-300 hover:text-white visited:text-stone-500 font-medium"
-            >Why does:nth-child() in CSS start from 1 instead of 0?</a>
-            <p class="mt-0.5 overflow-x-hidden">Article URL: https://softwareengineering.stackexchange.com/questions/314537/why-does-nth-child-in-css-start-from-1-instead-of-0
-Comments URL: https://news.ycombinator.com/item?id&#x3D;29363161
-Points: 1
-# Comments: 1</p>
           </div>
       </div>
 </body>
