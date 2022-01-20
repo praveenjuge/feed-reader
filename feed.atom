@@ -2,10 +2,417 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2022-01-19T00:25:48.841Z</updated>
+    <updated>2022-01-20T00:31:41.422Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Existing framework to build/control a UI from a workflow?]]></title>
+        <id>https://news.ycombinator.com/item?id=30002330</id>
+        <link href="https://news.ycombinator.com/item?id=30002330"/>
+        <updated>2022-01-20T00:04:03.000Z</updated>
+        <summary type="html"><![CDATA[Before I build something myself, I wanted to check if there is anything already out there that does this.
+Essentially want to build custom apps by designing them in a visual workflow builder to define the interactivity.
+Imagine being able to drag a "Prompt" activity, define the content you want to display to the user, and the options for how the user can respond (ex: show Yes/No buttons, or other choices), and then have a decision activity that can evaluate what the user chose and branch to some other UI - like another prompt dialog, or a file upload dialog, or a form, etc etc.
+The more activities that you implement the richer the app you could build.
+Right now I am leaning towards using "node red" as the workflow engine, and building a bunch of custom nodes that represent all the UI functionality I want - and then implementing an app host in Angular or React that will integrate with the workflow - probably via web socket messages.
+So at the end of the day, this App Host UI is receiving commands from the workflow as far as what content to display to the user, and then sending back what the user is doing with the UI to the workflow so it can send follow up commands.
+Comments URL: https://news.ycombinator.com/item?id=30002330
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>bbatchelder</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Serene CSS Dappled Light Effect]]></title>
+        <id>https://css-tricks.com/?p=360899</id>
+        <link href="https://css-tricks.com/css-dappled-light-effect/"/>
+        <updated>2022-01-19T22:46:39.000Z</updated>
+        <summary type="html"><![CDATA[There’s a serene warmth to the early evening sunlight peaking through rustling leaves. Artists use dappled light to create a soft, hypnotic effect.
+Bedford Dwellings by Ron Donoughe (2013)
+We can create the same sort of dappled light effect in …
+A Serene CSS Dappled Light Effect originally published on CSS-Tricks. You should get the newsletter and become a supporter.]]></summary>
+        <author>
+            <name>Preethi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ever wondered what a Wordle social media update sounds to screenreader users?]]></title>
+        <id>https://christianheilmann.com/?p=7086</id>
+        <link href="https://christianheilmann.com/2022/01/19/ever-wondered-what-a-wordle-social-media-update-sounds-to-screenreader-users/"/>
+        <updated>2022-01-19T21:44:07.000Z</updated>
+        <summary type="html"><![CDATA[It’s not pretty. This isn’t a dig at Skoop, he was just first on my timeline with a result when I did some accessibility testing. Screenreaders read out the squares as “black large square”, “green square” and “yellow square”. As a saving grace, they cleverly do group them, so four yellow squares are announces as […]]]></summary>
+        <author>
+            <name>Chris Heilmann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft is working on a new Task Manager for Windows 11 with Fluent Design]]></title>
+        <id>https://news.ycombinator.com/item?id=30000362</id>
+        <link href="https://www.xda-developers.com/windows-11-task-manager-fluent-design/"/>
+        <updated>2022-01-19T21:24:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.xda-developers.com/windows-11-task-manager-fluent-design/
+Comments URL: https://news.ycombinator.com/item?id=30000362
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>sangeeth96</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creativity requires optimism]]></title>
+        <id>https://world.hey.com/jason/creativity-requires-optimism-1158ff2b</id>
+        <link href="https://world.hey.com/jason/creativity-requires-optimism-1158ff2b"/>
+        <updated>2022-01-19T20:36:15.000Z</updated>
+        <summary type="html"><![CDATA[Pessimism can spark an idea.
+Annoyance can drive ingenuity.
+Disappointment can redirect effort towards change.
+But creativity requires optimism.
+Creativity isn't about starting something. It's about making something. Making requires sustained effort, and sustained effort requires fuel.
+That fuel is optimism.
+When you run out, momentum dies, and effort grinds to a halt.
+When you run out, creativity converts to drudgery.
+When you run out, you give up.
+If you're making something that doesn't exist, you must believe that it can. That's optimism, that's the feeling. That's the chemical reaction. Without it, creativity is inert.]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A simple math equation can transform your productivity]]></title>
+        <id>https://news.ycombinator.com/item?id=29998492</id>
+        <link href="https://nextbigideaclub.com/magazine/simple-math-equation-can-transform-productivity/31950/"/>
+        <updated>2022-01-19T19:09:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nextbigideaclub.com/magazine/simple-math-equation-can-transform-productivity/31950/
+Comments URL: https://news.ycombinator.com/item?id=29998492
+Points: 135
+# Comments: 88]]></summary>
+        <author>
+            <name>productivetom</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Algolia Introduces React InstantSearch Hooks]]></title>
+        <id>https://news.ycombinator.com/item?id=29998014</id>
+        <link href="https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/react-hooks/"/>
+        <updated>2022-01-19T18:38:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/react-hooks/
+Comments URL: https://news.ycombinator.com/item?id=29998014
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>saranshk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: A modern React Playground]]></title>
+        <id>https://news.ycombinator.com/item?id=29995208</id>
+        <link href="https://play-react.vercel.app/"/>
+        <updated>2022-01-19T15:53:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://play-react.vercel.app/
+Comments URL: https://news.ycombinator.com/item?id=29995208
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>liteneo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to get, set, and remove attributes and properties with vanilla JavaScript]]></title>
+        <id>https://gomakethings.com/how-to-get-set-and-remove-attributes-and-properties-with-vanilla-javascript/</id>
+        <link href="https://gomakethings.com/how-to-get-set-and-remove-attributes-and-properties-with-vanilla-javascript/"/>
+        <updated>2022-01-19T15:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, we’re going to look at how to get, set, and remove attributes and properties with vanilla JS. We’ll also learn the difference between attributes and properties, and some “gotchas” when working with them.
+Let’s dig in!
+The Element.*Attribute() methods You can use the Element.getAttribute(), Element.setAttribute(), Element.removeAttribute(), and Element.hasAttribute() methods to get, set, remove, and check for the existence of attributes (including data attributes) on an element, respectively.
+If an attribute does not exist on an element, the Element.]]></summary>
+        <author>
+            <name>Go Make Things</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reducing security risk in open source software with GitHub Actions and OpenSSF Scorecards V4]]></title>
+        <id>https://github.blog/?p=62472</id>
+        <link href="https://github.blog/2022-01-19-reducing-security-risk-oss-actions-opensff-scorecards-v4/"/>
+        <updated>2022-01-19T15:00:02.000Z</updated>
+        <summary type="html"><![CDATA[We’re excited to announce the V4 release of the OpenSSF’s Scorecard project in partnership with Google.]]></summary>
+        <author>
+            <name>Jose Palafox</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What should someone learn about CSS if they last boned up during CSS3?]]></title>
+        <id>https://css-tricks.com/?p=359857</id>
+        <link href="https://css-tricks.com/whats-new-since-css3/"/>
+        <updated>2022-01-19T14:25:31.000Z</updated>
+        <summary type="html"><![CDATA[What's new in CSS? If someone asked you that, who knows CSS but hasn't stayed up to date the last, say, half a decade or more, what advice would you give?
+What should someone learn about CSS if they last boned up during CSS3? originally published on CSS-Tricks. You should get the newsletter and become a supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple turns the legislative contempt up to 11]]></title>
+        <id>https://world.hey.com/dhh/apple-turns-the-legislative-contempt-up-to-11-7c65eeec</id>
+        <link href="https://world.hey.com/dhh/apple-turns-the-legislative-contempt-up-to-11-7c65eeec"/>
+        <updated>2022-01-19T14:18:21.000Z</updated>
+        <summary type="html"><![CDATA[In North Dakota, Apple sent Erik Neuenschwander, a chief privacy engineer, to make its case that opening up the App Store to free and fair competition on payment processing would be bad for privacy. He focused in a relatively sober tone on the sanctity of Apple's integration and curation as arguments for why they deserved their monopoly privileges. A technical witness perhaps stretching the truth to fit the narrative needed, but at least feeling somewhat constrained by it.
+In Arizona, Apple sent Kyle Andeer, the Chief Compliance Offer, to claim that preventing Apple from shaking down app developers for 30% would be tantamount to "a government mandate that Apple give away the App Store" because it would "allow billion-dollar developers to take all of the App Store’s value for free". This wa…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Polaroid camera]]></title>
+        <id>https://news.ycombinator.com/item?id=29993654</id>
+        <link href="https://www.cssartist.com/inprogress"/>
+        <updated>2022-01-19T13:57:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cssartist.com/inprogress
+Comments URL: https://news.ycombinator.com/item?id=29993654
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>soneca</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Upcoming Online Workshops: January &ndash; May 2022]]></title>
+        <id>https://smashingmagazine.com/2022/01/smashingconf-workshops-january-may-2022/</id>
+        <link href="https://smashingmagazine.com/2022/01/smashingconf-workshops-january-may-2022/"/>
+        <updated>2022-01-19T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What goes into creating a successful design system? How can you take your testing workflow to the next level? And what smart interface design patterns could help you enhance your UIs? Let’s figure it out. With our [online workshops on front-end and UX](https://smashingconf.com/online-workshops).]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4 Quality Options for a Table of Contents Block in WordPress]]></title>
+        <id>https://dailydevlinks.com/?p=9179</id>
+        <link href="https://dailydevlinks.com/4-quality-options-for-a-table-of-contents-block-in-wordpress/"/>
+        <updated>2022-01-19T10:36:00.000Z</updated>
+        <summary type="html"><![CDATA[WordPress]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building UI Components With SVG and CSS]]></title>
+        <id>https://dailydevlinks.com/?p=9182</id>
+        <link href="https://dailydevlinks.com/building-ui-components-with-svg-and-css/"/>
+        <updated>2022-01-19T10:11:00.000Z</updated>
+        <summary type="html"><![CDATA[CSSSVG]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazing Text Editing Experiences with UltraEdit (Sponsored)]]></title>
+        <id>https://davidwalsh.name/amazing-text-editing-experiences-with-ultraedit</id>
+        <link href="https://davidwalsh.name/amazing-text-editing-experiences-with-ultraedit"/>
+        <updated>2022-01-19T10:05:39.000Z</updated>
+        <summary type="html"><![CDATA[<p>There&#8217;s a common saying that adults spend more time with coworkers than family; for us software engineers, we spend more time with our text editor than our families. And why shouldn&#8217;t we? They&#8217;re our main tool to do a variety of things, and as these editors evolve, they&#8217;re capable of doing even more. UltraEdit, a [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://davidwalsh.name/amazing-text-editing-experiences-with-ultraedit">Amazing Text Editing Experiences with UltraEdit (Sponsored)</a> appeared first on <a rel="nofollow" href="https://davidwalsh.name">David Walsh Blog</a>.</p>
+<p><a href="https://tkjs.us/dwb"><img style="margin:0 auto" alt="" src="https://davidwalsh.name/demo/tjs_block-1.svg"></a></p>]]></summary>
+        <author>
+            <name>David Walsh Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building UI Components with SVG and CSS]]></title>
+        <id>https://news.ycombinator.com/item?id=29991730</id>
+        <link href="https://ishadeed.com/article/building-components-svg-css/"/>
+        <updated>2022-01-19T09:57:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ishadeed.com/article/building-components-svg-css/
+Comments URL: https://news.ycombinator.com/item?id=29991730
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>pcr910303</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building UI Components with SVG and CSS]]></title>
+        <id>https://news.ycombinator.com/item?id=29991730</id>
+        <link href="https://ishadeed.com/article/building-components-svg-css/"/>
+        <updated>2022-01-19T09:57:12.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ishadeed.com/article/building-components-svg-css/
+Comments URL: https://news.ycombinator.com/item?id=29991730
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>pcr910303</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why introverts make exceptional designers and how leaders can support them]]></title>
+        <id>https://heydesigner.com/?p=64474</id>
+        <link href="https://heydesigner.com/why-introverts-make-exceptional-designers-and-how-leaders-can-support-them/"/>
+        <updated>2022-01-19T09:47:15.000Z</updated>
+        <summary type="html"><![CDATA[I still remember where I was and what I was doing when I first learned the true difference between introverted and extroverted people.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The last design you'll ever make]]></title>
+        <id>https://news.ycombinator.com/item?id=29991674</id>
+        <link href="https://interactionmagic.com/Design-for-repair"/>
+        <updated>2022-01-19T09:45:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://interactionmagic.com/Design-for-repair
+Comments URL: https://news.ycombinator.com/item?id=29991674
+Points: 202
+# Comments: 87]]></summary>
+        <author>
+            <name>bryanrasmussen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The art of storytelling for case studies]]></title>
+        <id>https://heydesigner.com/?p=64472</id>
+        <link href="https://heydesigner.com/the-art-of-storytelling-for-case-studies/"/>
+        <updated>2022-01-19T09:42:37.000Z</updated>
+        <summary type="html"><![CDATA[These tips will make your UX portfolio easier to write and easier to read.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The side project prophecy]]></title>
+        <id>https://heydesigner.com/?p=64470</id>
+        <link href="https://heydesigner.com/the-side-project-prophecy/"/>
+        <updated>2022-01-19T09:41:13.000Z</updated>
+        <summary type="html"><![CDATA[The more you talk about building your side project, the less likely you are to ship it.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spatial web browsing]]></title>
+        <id>https://heydesigner.com/?p=64468</id>
+        <link href="https://heydesigner.com/spatial-web-browsing/"/>
+        <updated>2022-01-19T09:39:58.000Z</updated>
+        <summary type="html"><![CDATA[Adding spatial affordances to the experience of browsing the web.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notational intelligence]]></title>
+        <id>https://heydesigner.com/?p=64466</id>
+        <link href="https://heydesigner.com/notational-intelligence/"/>
+        <updated>2022-01-19T09:37:26.000Z</updated>
+        <summary type="html"><![CDATA[I spent the last month wondering and investigating how we might design better workflows for creative work that meld the best of human intuition and machine intelligence. I think a promising path is in the design of notation.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The myth about the apples]]></title>
+        <id>https://seths.blog/?p=41261</id>
+        <link href="https://seths.blog/2022/01/the-myth-about-the-apples/"/>
+        <updated>2022-01-19T09:33:00.000Z</updated>
+        <summary type="html"><![CDATA[In settings where sorting is difficult, half a bushel of perfect apples is worth more than a full bushel with a rotten apple in it. One bad apple can spoil a whole bunch. We pay a significant premium for pre-selection, confidence and a guarantee. Sorting adds value.]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hire React Developer: Why, How and What to Expect]]></title>
+        <id>https://news.ycombinator.com/item?id=29991490</id>
+        <link href="https://epist.io/blog/hire-react-developer"/>
+        <updated>2022-01-19T09:16:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://epist.io/blog/hire-react-developer
+Comments URL: https://news.ycombinator.com/item?id=29991490
+Points: 2
+# Comments: 2]]></summary>
+        <author>
+            <name>onurgenes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Speedrun]]></title>
+        <id>https://dailydevlinks.com/?p=9185</id>
+        <link href="https://dailydevlinks.com/css-speedrun/"/>
+        <updated>2022-01-19T06:18:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comparing CSS Specificity values]]></title>
+        <id>https://dailydevlinks.com/?p=9176</id>
+        <link href="https://dailydevlinks.com/comparing-css-specificity-values/"/>
+        <updated>2022-01-19T06:03:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A graph placement methodology for fast chip design]]></title>
+        <id>https://news.ycombinator.com/item?id=29990305</id>
+        <link href="https://www.nature.com/articles/s41586-021-03544-w"/>
+        <updated>2022-01-19T05:26:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nature.com/articles/s41586-021-03544-w
+Comments URL: https://news.ycombinator.com/item?id=29990305
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>lnyan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Writing With Respect]]></title>
+        <id>sSnbyW9Btizh6J62j</id>
+        <link href="https://uxdesign.cc/writing-with-respect-fb3d9604a374"/>
+        <updated>2022-01-19T03:15:01.000Z</updated>
+        <summary type="html"><![CDATA[Respect for the craft. And respect for the reader. It’s obvious. But it’s also hard to do — and increasingly rare.]]></summary>
+        <author>
+            <name>@uxdesigncc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building UI Components With SVG and CSS]]></title>
+        <id>zwYymSw93uJbAL9H3</id>
+        <link href="http://ishadeed.com/article/building-components-svg-css/"/>
+        <updated>2022-01-19T03:13:47.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to use SVG and CSS to build UI components.]]></summary>
+        <author>
+            <name>@shadeed9</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Speedrun: Test your CSS Skills]]></title>
+        <id>2ecWuJja9hrxKNjDw</id>
+        <link href="https://css-speedrun.netlify.app/"/>
+        <updated>2022-01-19T03:12:26.000Z</updated>
+        <summary type="html"><![CDATA[A small fun app to test your CSS knowledge. Find the correct CSS selectors for the 10 puzzles as fast as possible.]]></summary>
+        <author>
+            <name>@wweb_dev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GPS]]></title>
+        <id>DZ4Z9QD3Ci5uaoj6u</id>
+        <link href="https://ciechanow.ski/gps/"/>
+        <updated>2022-01-19T03:11:43.000Z</updated>
+        <summary type="html"><![CDATA[A beautifully-illustrated interactive article explaining how GPS works.]]></summary>
+        <author>
+            <name>@bciechanowski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wiki History Game]]></title>
+        <id>686dBT5KZvwHDv7sW</id>
+        <link href="https://wikitrivia.tomjwatson.com/"/>
+        <updated>2022-01-19T03:10:53.000Z</updated>
+        <summary type="html"><![CDATA[Place events and people on a timeline in the correct order.]]></summary>
+        <author>
+            <name>@tom_j_watson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[4 Quality Options for a Table of Contents Block in WordPress]]></title>
         <id>https://css-tricks.com/?p=360362</id>
@@ -150,6 +557,16 @@ prompting the user when new content is available
 Making a Site Work Offline Using the VitePWA Plugin originally published on CSS-Tricks. You should get the newsletter and become a supporter.]]></summary>
         <author>
             <name>Adam Rackis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Intel Split]]></title>
+        <id>https://stratechery.com/2022/the-intel-split/</id>
+        <link href="https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi90aGUtaW50ZWwtc3BsaXQv.OSdl4qRLNPdt5iHZpAKRhAJueKjQjJUQLuzM6HrsrJlvQ21sXCeFaoOwyt_mXNgiXqImvhc5G1hAOnB5VwwJcDH1lZRSOkq2CRUIHA2x9tdsaxSQog7Zw1XqlsoB5Ipt8HP2e9Nu_N49fjR7cfKj_eX7O7ZfongjYjALPB5QaK8UBTXOMON6l2rDFBQzBTFgx2q64E08AacrAChprr3HYl_0m2uO7KGNVrMM1UJe7SOMrTG-liKXm-IAp7oUVLGClf1XLsQgKg2q613KORU8yC_-sm5xveVEkq4vOn9oHv1zEdbGMRdo_ioS5-rX6oFwrm_rm6ZxTTJjYDWwnD6Lew"/>
+        <updated>2022-01-18T14:13:49.000Z</updated>
+        <summary type="html"><![CDATA[It appears that Intel's partnership with TSMC is much larger than it first seemed; the implications for Intel as whole are massive.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
         </author>
     </entry>
     <entry>
@@ -4905,6 +5322,16 @@ Points: 1
     <entry>
         <title type="html"><![CDATA[OpenSea, Web3, and Aggregation Theory]]></title>
         <id>https://stratechery.com/2022/opensea-raises-money-bans-nfts-openseas-value-cryptos-aggregators/</id>
+        <link href="https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9vcGVuc2VhLXJhaXNlcy1tb25leS1iYW5zLW5mdHMtb3BlbnNlYXMtdmFsdWUtY3J5cHRvcy1hZ2dyZWdhdG9ycy8.V93dZAgudItmVxBxzfC6kIrhKGIRQ7urgLCXYkRW5sWWRs4lK1Da-4xV79lP-RXL4UieHjkpd63huUocEa1LSBiTMSCgkHbchbqK8EExC65Lxzj1Lx8CBuXyEfacAunDumJ8yHqe0AvOmSgQCBdFRHT3ievbJkXTPx7F_XRhRPz-JdEEghK3B-LVGHRGhc1s2cb4Br36DoBrP4-iRLMhmbVMayHfNWu7JsZaHuAwPANQ6j2OS0Ruml0RCIxaxFSr2tMADdSlbtTAhp4NW9yTVhp06CY40j7bvzZVsGgzkOCLeoz_DRX3bSIuItFcOyf6FeuhRpOp4krday92GF4yEA"/>
+        <updated>2022-01-05T13:56:03.000Z</updated>
+        <summary type="html"><![CDATA[OpenSea is positioned as another Aggregator, which is evidence that Web 3 is a layer on top of the Internet, not a replacement.]]></summary>
+        <author>
+            <name>Ben Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenSea, Web3, and Aggregation Theory]]></title>
+        <id>https://stratechery.com/2022/opensea-raises-money-bans-nfts-openseas-value-cryptos-aggregators/</id>
         <link href="https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9vcGVuc2VhLXJhaXNlcy1tb25leS1iYW5zLW5mdHMtb3BlbnNlYXMtdmFsdWUtY3J5cHRvcy1hZ2dyZWdhdG9ycy8.cPj6U3gQx5sgT87GjJK-GhtGlU12kYJ8DYd14P59rcRvpcN-9PbuRCXy_wZRxpd2qQ4xxkt-fCGyaqwWy6Zm3CwLtAeEE_WMX8q5DURYrjbbYGBvi0O8qiNtoBJOFpHVlnihnINkHVIUFr_JSXHZkjKckfpJDQaWDlZLg3v5mv8VPD3wF8qTt36OMCtw2BmKRXE1qsJXOQHKrNPHT9S9ryCdXcTtVNy4Oakm9J8L2VPPLFeXBl3vEoPdggZfgN--rK_e1oA4AgLM_5AWcsgn2glRSLogfejk6mZ5uAfb82nJwnAAH5v8EWPFmNJ8Keov0Cgtyxc-wrYskwPDRshkoQ"/>
         <updated>2022-01-05T13:56:03.000Z</updated>
         <summary type="html"><![CDATA[OpenSea is positioned as another Aggregator, which is evidence that Web 3 is a layer on top of the Internet, not a replacement.]]></summary>
@@ -8511,414 +8938,6 @@ Points: 1
 # Comments: 0]]></summary>
         <author>
             <name>nickjj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Patterns.dev – design patterns and component patterns for building powerful web apps]]></title>
-        <id>https://dailydevlinks.com/?p=9013</id>
-        <link href="https://dailydevlinks.com/patterns-dev-design-patterns-and-component-patterns-for-building-powerful-web-apps/"/>
-        <updated>2021-12-21T11:54:00.000Z</updated>
-        <summary type="html"><![CDATA[Development]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Diagnose and Fix UX/UI Problems]]></title>
-        <id>https://dailydevlinks.com/?p=9018</id>
-        <link href="https://dailydevlinks.com/diagnose-and-fix-ux-ui-problems/"/>
-        <updated>2021-12-21T11:12:00.000Z</updated>
-        <summary type="html"><![CDATA[UIUX]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Why is tech UX so bad in general?]]></title>
-        <id>https://news.ycombinator.com/item?id=29636149</id>
-        <link href="https://news.ycombinator.com/item?id=29636149"/>
-        <updated>2021-12-21T10:58:42.000Z</updated>
-        <summary type="html"><![CDATA[I have just tried to get my access back to my bank account.
-Since I switch numbers frequently due to moving countries, 2FA is hell for me.
-To get my account back I need a selfie with both my face and ID visible. Very hard. Guess it's due to security.
-After some hours wasted I got it done. Time to transfer the file. Of course gmail does not send my email.
-Fear not, I am smarter than that. Upload to Drive. Nope, does not work either. Weird.
-Upload with facebook messenger maybe? Hmm they compress images like hell.
-The other day fiverr was not loading orders for like a day. Wise.com turned chinese for no reason. Google cloud resets my functions to private randomly.
-Am I losing my mind? Getting old? Too busy? Frustrated? Am I just a shitty developer? How do non techies cope?
-Comments URL: https://news.ycombinator.com/item?id=29636149
-Points: 31
-# Comments: 36]]></summary>
-        <author>
-            <name>friendly_chap</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intricate systems]]></title>
-        <id>https://seths-blog-production.mystagingwebsite.com/?p=30640</id>
-        <link href="https://seths.blog/2021/12/intricate-systems/"/>
-        <updated>2021-12-21T09:48:00.000Z</updated>
-        <summary type="html"><![CDATA[Over time, every system becomes increasingly complex. That’s because in order to make it better, we tweak it. We add exceptions. We do things that are urgent, essential or smart for a particular use case. We learn from what’s broken and we fix that broken spot. New projects can’t possibly be as intricate as old […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Quick Tips to Improve Website Form UX]]></title>
-        <id>https://dailydevlinks.com/?p=9024</id>
-        <link href="https://dailydevlinks.com/5-quick-tips-to-improve-website-form-ux/"/>
-        <updated>2021-12-21T08:08:00.000Z</updated>
-        <summary type="html"><![CDATA[UX]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazing Portfolio website using HTML, CSS and JS.]]></title>
-        <id>https://dailydevlinks.com/?p=9021</id>
-        <link href="https://dailydevlinks.com/amazing-portfolio-website-using-html-css-and-js/"/>
-        <updated>2021-12-21T06:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Development]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Radix UI (Colors) – A gorgeous, accessible color system]]></title>
-        <id>https://news.ycombinator.com/item?id=29633643</id>
-        <link href="https://www.radix-ui.com/colors"/>
-        <updated>2021-12-21T03:52:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.radix-ui.com/colors
-Comments URL: https://news.ycombinator.com/item?id=29633643
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>shanewwarren</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“It Started as a Joke”: On the Design of Idle Games (2019)]]></title>
-        <id>https://news.ycombinator.com/item?id=29633599</id>
-        <link href="https://dl.acm.org/doi/10.1145/3311350.3347180"/>
-        <updated>2021-12-21T03:47:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dl.acm.org/doi/10.1145/3311350.3347180
-Comments URL: https://news.ycombinator.com/item?id=29633599
-Points: 101
-# Comments: 60]]></summary>
-        <author>
-            <name>shagie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are we past peak "woke"?]]></title>
-        <id>https://world.hey.com/dhh/are-we-past-peak-woke-c313b7d1</id>
-        <link href="https://world.hey.com/dhh/are-we-past-peak-woke-c313b7d1"/>
-        <updated>2021-12-21T01:10:42.000Z</updated>
-        <summary type="html"><![CDATA[Could John McWhorter have gone on MSNBC or The View or PBS or NPR a year ago to talk about a new book called Woke Racism? Would a book with a title like that even have been welcome at that moment in such chambers? I doubt it.
-But now it is. McWhorter has not only written an important book that's rightfully garnering broad attention, he's also secured an important platform by joining The New York Times as a columnist, and through these outlets, brought an oppositional argument to what five minutes ago were unassailable, widely adopted axioms of antiracism.
-That's both an incredible personal achievement for McWhorter, and an indication of how quickly sentiments can change. The religious fervor of "woke", as McWhorter might put it, reached a stunning cultural dominance over the past year or t…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pico.css: Minimal CSS Framework for semantic HTML]]></title>
-        <id>QrGmJAekGr2hk3xZn</id>
-        <link href="https://picocss.com/"/>
-        <updated>2021-12-21T01:01:24.000Z</updated>
-        <summary type="html"><![CDATA[Elegant styles for all natives HTML elements without .classes and dark mode automatically enabled.]]></summary>
-        <author>
-            <name>Sidebar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Auto Dark Theme]]></title>
-        <id>7vrMooKiDJCL4SbML</id>
-        <link href="https://css-tricks.com/auto-dark-theme/"/>
-        <updated>2021-12-21T00:55:45.000Z</updated>
-        <summary type="html"><![CDATA[There are a number of ways to approach a dark mode for your website.]]></summary>
-        <author>
-            <name>@css</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The web starts on page four]]></title>
-        <id>yuygszaEbtyEJrSAH</id>
-        <link href="https://christianheilmann.com/2021/12/20/the-web-starts-on-page-four/"/>
-        <updated>2021-12-21T00:37:35.000Z</updated>
-        <summary type="html"><![CDATA[After 25 years of working for, on and with the web, I am looking at the current state of it and I don’t like it.]]></summary>
-        <author>
-            <name>@codepo8</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Eyes Want]]></title>
-        <id>Y8LEtMc8eR9NsYePK</id>
-        <link href="https://www.chrbutler.com/what-eyes-want"/>
-        <updated>2021-12-21T00:29:06.000Z</updated>
-        <summary type="html"><![CDATA[Understanding the eye-mind connection is critical to transcending distraction in design and creating focus.]]></summary>
-        <author>
-            <name>@chrbutler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SVG generator for 3D-like isometric patterns]]></title>
-        <id>Je9zCjtA62nriBdRK</id>
-        <link href="https://fffuel.co/mmmotif/"/>
-        <updated>2021-12-21T00:25:16.000Z</updated>
-        <summary type="html"><![CDATA[Generate SVG shape patterns with a 3D feel, thanks to isometric design.]]></summary>
-        <author>
-            <name>@ffffffuel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Five good feelings]]></title>
-        <id>https://daverupert.com/2021/12/five-good-feelings/</id>
-        <link href="https://daverupert.com/2021/12/five-good-feelings/"/>
-        <updated>2021-12-21T00:05:00.000Z</updated>
-        <summary type="html"><![CDATA[Reading the first page of a new book
-Reading 10% of the way through the book.
-Reading 25% of the way through the book.
-Reading 50% of the way through the book.
-Finishing the book.]]></summary>
-        <author>
-            <name>daverupert.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a Greener Web]]></title>
-        <id>https://css-irl.info/building-a-greener-web/</id>
-        <link href="https://css-irl.info/building-a-greener-web/"/>
-        <updated>2021-12-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As web developers we don’t tend to talk a great deal about the environmental impact of the products we build. But the uncomfortable truth is that the web is responsible for a growing proportion of carbon emissions. Rising temperatures, increasingly extreme weather events, and the failure of this year’s COP26 conference to deliver strong leadership have all highlighted the urgency of reducing our emissions if we’re to avoid disastrous climate change. The commitments of world leaders may have fallen short, but we all have a role to play, and we can’t escape our responsibility.
-Talking honestly about our impact
-When I published an article for CSS Tricks suggesting that perhaps we should set a carbon budget for our websites, I got a lot of responses. Some were broadly supportive, others were i…]]></summary>
-        <author>
-            <name>CSS In Real Life</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making your open source project sponsor-ready, Part 2: Project hygiene]]></title>
-        <id>https://humanwhocodes.com/blog/2021/12/making-open-source-project-sponsor-ready-project-hygiene/</id>
-        <link href="https://humanwhocodes.com/blog/2021/12/making-open-source-project-sponsor-ready-project-hygiene/"/>
-        <updated>2021-12-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In part 11 of this series, I described how companies make decisions about spending their money and why they might (or might not) sponsor an open source project. If you haven’t yet read that post, I’d suggest going back to do so now before continuing. Everything in this post builds off the topics discussed in...]]></summary>
-        <author>
-            <name>Nicholas C. Zakas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What's in a Heartbeat?]]></title>
-        <id>https://world.hey.com/jason/what-s-in-a-heartbeat-4fd72d0e</id>
-        <link href="https://world.hey.com/jason/what-s-in-a-heartbeat-4fd72d0e"/>
-        <updated>2021-12-20T23:39:33.000Z</updated>
-        <summary type="html"><![CDATA[We're famous for having very few meetings at Basecamp. We generally think meetings are toxic.
-Yet, meetings do convey information, and we need to convey information, so what's our replacement?
-Writing. Long-form, complete-thought, considered writing. We write a lot at Basecamp.
-Since long-form writing is an asynchronous form of communication, people can publish thoughts when they're ready, and others can read them, consider them, and respond to them when they have time. No synchronization of schedules required, no pulling people off their work to sit around a table (or show their face in a box on the screen), and none of the FOMO or stress that's tied to real-time communication like group chat.
-Long-form writing takes many forms at Basecamp, but "Heartbeats" are a prime example.
-Heartbeats…]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Benchmarking esbuild, swc, tsc, and Babel for React/JSX projects]]></title>
-        <id>https://news.ycombinator.com/item?id=29630919</id>
-        <link href="https://datastation.multiprocess.io/blog/2021-11-13-benchmarking-esbuild-swc-typescript-babel.html"/>
-        <updated>2021-12-20T22:02:06.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://datastation.multiprocess.io/blog/2021-11-13-benchmarking-esbuild-swc-typescript-babel.html
-Comments URL: https://news.ycombinator.com/item?id=29630919
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>eatonphil</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Release Notes for Safari Technology Preview 137]]></title>
-        <id>https://webkit.org/?p=12156</id>
-        <link href="https://webkit.org/blog/12156/release-notes-for-safari-technology-preview-137/"/>
-        <updated>2021-12-20T21:23:09.000Z</updated>
-        <summary type="html"><![CDATA[Safari Technology Preview Release 137 is now available for download for macOS Big Sur and betas of macOS Monterey.]]></summary>
-        <author>
-            <name>Blog – WebKit</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I've made a Figma plugin that converts design to HTML with TailwindCSS]]></title>
-        <id>https://news.ycombinator.com/item?id=29630364</id>
-        <link href="https://www.figma.com/community/plugin/1049994768493726219/Inspect---Export-to-HTML%2C-React%2C-TailwindCSS"/>
-        <updated>2021-12-20T21:14:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.figma.com/community/plugin/1049994768493726219/Inspect---Export-to-HTML%2C-React%2C-TailwindCSS
-Comments URL: https://news.ycombinator.com/item?id=29630364
-Points: 12
-# Comments: 0]]></summary>
-        <author>
-            <name>candylifter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I've made a Figma plugin that converts design to HTML with TailwindCSS]]></title>
-        <id>https://news.ycombinator.com/item?id=29630364</id>
-        <link href="https://www.figma.com/community/plugin/1049994768493726219/Inspect---Export-to-HTML%2C-React%2C-TailwindCSS"/>
-        <updated>2021-12-20T21:14:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.figma.com/community/plugin/1049994768493726219/Inspect---Export-to-HTML%2C-React%2C-TailwindCSS
-Comments URL: https://news.ycombinator.com/item?id=29630364
-Points: 12
-# Comments: 0]]></summary>
-        <author>
-            <name>candylifter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design Patterns in Googles Prediction Market on Google Cloud]]></title>
-        <id>https://news.ycombinator.com/item?id=29629665</id>
-        <link href="https://cloud.google.com/blog/topics/solutions-how-tos/design-patterns-in-googles-prediction-market-on-google-cloud"/>
-        <updated>2021-12-20T20:13:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cloud.google.com/blog/topics/solutions-how-tos/design-patterns-in-googles-prediction-market-on-google-cloud
-Comments URL: https://news.ycombinator.com/item?id=29629665
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>aleyan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NextMockup – Offers Free UX Designs]]></title>
-        <id>https://news.ycombinator.com/item?id=29629548</id>
-        <link href="https://www.nextmockup.com/"/>
-        <updated>2021-12-20T20:06:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nextmockup.com/
-Comments URL: https://news.ycombinator.com/item?id=29629548
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>mjaghoub</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Immune imprinting and SARS-CoV-2 vaccine design]]></title>
-        <id>https://news.ycombinator.com/item?id=29628570</id>
-        <link href="https://www.cell.com/trends/immunology/fulltext/S1471-4906(21)00177-0#%20"/>
-        <updated>2021-12-20T18:57:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cell.com/trends/immunology/fulltext/S1471-4906(21)00177-0#%20
-Comments URL: https://news.ycombinator.com/item?id=29628570
-Points: 7
-# Comments: 0]]></summary>
-        <author>
-            <name>analyte123</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Auto Dark Theme]]></title>
-        <id>https://css-tricks.com/?p=359017</id>
-        <link href="https://css-tricks.com/auto-dark-theme/"/>
-        <updated>2021-12-20T18:34:47.000Z</updated>
-        <summary type="html"><![CDATA[There are a number of ways to approach a dark mode for your website, but essentially you get all the styles ready for it and then apply them when the user has indicated they want them, whether by direct …]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Build Great Apps: Designer and Developer Collaboration Just Got Easier]]></title>
-        <id>https://css-tricks.com/?p=359201</id>
-        <link href="https://css-tricks.com/build-great-apps-designer-and-developer-collaboration-just-got-easier/"/>
-        <updated>2021-12-20T18:34:27.000Z</updated>
-        <summary type="html"><![CDATA[(This is a sponsored post.)
-We’re going to go over details on how designer ↔️ developer collaboration in AWS Amplify Studio can make app building easier, but let’s cover one of those things right at the top here. 
-Say …]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The web starts on page four]]></title>
-        <id>https://christianheilmann.com/?p=7063</id>
-        <link href="https://christianheilmann.com/2021/12/20/the-web-starts-on-page-four/"/>
-        <updated>2021-12-20T18:06:05.000Z</updated>
-        <summary type="html"><![CDATA[After 25 years of working for, on and with the web, I am looking at the current state of it and I don’t like it. There is still a lot of beautiful, creative and amazing work out there, but on the whole, we lost an amazing opportunity. In its place we have a consumption machine […]]]></summary>
-        <author>
-            <name>Chris Heilmann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to leverage security frameworks and libraries for secure code]]></title>
-        <id>https://github.blog/?p=62090</id>
-        <link href="https://github.blog/2021-12-20-how-to-leverage-security-frameworks-and-libraries-for-secure-code/"/>
-        <updated>2021-12-20T17:47:15.000Z</updated>
-        <summary type="html"><![CDATA[In this post, I’ll discuss how to apply OWASP Proactive Control C2: Leverage security frameworks and libraries.]]></summary>
-        <author>
-            <name>Alvaro Munoz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ditch the Short Lived New Year’s Resolutions This Year]]></title>
-        <id>https://www.pickthebrain.com/blog/?p=88144</id>
-        <link href="https://www.pickthebrain.com/blog/ditch-the-short-lived-new-years-resolutions-this-year/"/>
-        <updated>2021-12-20T16:59:10.000Z</updated>
-        <summary type="html"><![CDATA[How to create healthy habits that actually stick  
-
-
-By Katey Chambers
-
-
-With the new year quickly approaching, you might be starting to think about your health goals, such as losing weight, eating healthier, starting an exercise routine and/or finding ways to manage your stress. And let’s be honest, these might be the same goals you had at the top of your list last year, am I right?⠀⠀⠀⠀⠀⠀⠀⠀⠀
-
-
-So what prevented you from reaching your goals? How will this year be different? Sometimes, the difference between success and failure is simply in the approach. The reason most people abandon their resolutions by mid-February is because their goals were too vague, too overwhelming and lacked a realistic plan. The truth is the approach failed, not them. Want to know the secret to actually sticking w…]]></summary>
-        <author>
-            <name>Katey Chambers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to add and remove a CSS class from multiple elements with vanilla JavaScript]]></title>
-        <id>https://gomakethings.com/how-to-add-and-remove-a-css-class-from-multiple-elements-with-vanilla-javascript/</id>
-        <link href="https://gomakethings.com/how-to-add-and-remove-a-css-class-from-multiple-elements-with-vanilla-javascript/"/>
-        <updated>2021-12-20T15:30:00.000Z</updated>
-        <summary type="html"><![CDATA[For the next few weeks, I want to go back-to-basics and look at JavaScript fundamentals. Today, we’re going to look at how to add and remove classes from multiple elements.
-Let’s dig in!
-An example Let’s imagine you have some CSS that affects the color of some text, like this.
-.color-blue { color: blue; } .color-purple { color: rebeccapurple; } And you’ve got some HTML like this.
-<p class="color-purple">Hello</p> <p>there!]]></summary>
-        <author>
-            <name>Go Make Things</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Be Prepared for Failure and Handle it Gracefully]]></title>
-        <id>https://css-tricks.com/?p=358037</id>
-        <link href="https://css-tricks.com/be-prepared-for-failure-and-handle-it-gracefully/"/>
-        <updated>2021-12-20T15:22:04.000Z</updated>
-        <summary type="html"><![CDATA[When I was working at my first “real” job in the field in the mid-2000s, it was hammered in the web dev field to build tiny websites (no more than 100KB per page), only use JavaScript for special effects, and …]]></summary>
-        <author>
-            <name>Heather Migliorisi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Free Self-Hosted Zendesk and HelpScout: Architecture, Design and Usability]]></title>
-        <id>https://news.ycombinator.com/item?id=29625722</id>
-        <link href="https://freescout.medium.com/free-self-hosted-zendesk-help-scout-architecture-design-and-usability-1824be6b14fe"/>
-        <updated>2021-12-20T15:09:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://freescout.medium.com/free-self-hosted-zendesk-help-scout-architecture-design-and-usability-1824be6b14fe
-Comments URL: https://news.ycombinator.com/item?id=29625722
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>lioeters</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React-query look alike in Flutter for better API caching]]></title>
-        <id>https://news.ycombinator.com/item?id=29624418</id>
-        <link href="https://coreline.agency/blog/flutter-package-for-cached-http-layer/"/>
-        <updated>2021-12-20T13:01:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://coreline.agency/blog/flutter-package-for-cached-http-layer/
-Comments URL: https://news.ycombinator.com/item?id=29624418
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>filip_cl</name>
         </author>
     </entry>
 </feed>
