@@ -88,15 +88,6 @@
           "publishedOn": "2021-12-30T03:20:12.000Z",
           "wordCount": 2400,
           "title": "Books I read in 2021"
-        },
-        {
-          "id": "https://adactio.com/journal/18702",
-          "author": null,
-          "description": "The final four are here! The course on responsive design I wrote for web.dev is now complete, just in time for Christmas. The four new modules are:\nAccessibility\nUser interface patterns\nMedia features\nScreen configurations\nThese four felt quite “big picture”, and often quite future-facing. I certainly learned a lot researching proposals for potential media features and foldable screens. That felt like a fitting way to close out the course, bookending it nicely with the history of responsive design in the introduction.\nAnd with that, the full course is now online. Go forth and learn responsive design!",
-          "link": "https://adactio.com/journal/18702",
-          "publishedOn": "2021-12-23T18:54:26.000Z",
-          "wordCount": 493,
-          "title": "Even more writing on web.dev"
         }
       ]
     },
@@ -845,33 +836,6 @@
           "publishedOn": "2021-12-24T12:33:11.000Z",
           "wordCount": 883,
           "title": "Care for the Text"
-        },
-        {
-          "id": "https://css-tricks.com/?p=358936",
-          "author": "Emma Bostian",
-          "description": "One thing people can do to make their websites better is to remember that you are not representative of all your users. Our life experiences and how we interact with the web are not indicative of how everyone interacts with …",
-          "link": "https://css-tricks.com/remember-you-are-not-the-user/",
-          "publishedOn": "2021-12-23T19:31:04.000Z",
-          "wordCount": 499,
-          "title": "Remember You Are Not the User"
-        },
-        {
-          "id": "https://css-tricks.com/?p=359205",
-          "author": "Geoff Graham",
-          "description": "Last year, we kicked out a roundup of published surveys, research, and other findings from around the web. There were some nice nuggets in there, like a general sentiment that the web needs more documentation, Tailwind CSS dun …",
-          "link": "https://css-tricks.com/2021-roundup-of-web-research/",
-          "publishedOn": "2021-12-23T18:34:04.000Z",
-          "wordCount": 4685,
-          "title": "2021 Roundup of Web Research"
-        },
-        {
-          "id": "https://css-tricks.com/?p=357692",
-          "author": "Mel Choyce",
-          "description": "How much time do you spend designing the content presentation for your websites? When you write a new blog post or create a new page, are you thinking about just the words, or how your readers will engage with those …",
-          "link": "https://css-tricks.com/show-dont-tell/",
-          "publishedOn": "2021-12-23T13:29:14.000Z",
-          "wordCount": 1717,
-          "title": "Show, Don’t Tell"
         }
       ]
     },
@@ -1320,15 +1284,6 @@
           "publishedOn": "2021-12-28T09:43:00.000Z",
           "wordCount": 148,
           "title": "PrinceJS"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9045",
-          "author": "Adam Marsden",
-          "description": "UX",
-          "link": "https://dailydevlinks.com/100-smart-interface-design-patterns-examples-6h-video-live-ux-training/",
-          "publishedOn": "2021-12-24T06:22:00.000Z",
-          "wordCount": 154,
-          "title": "100 Smart Interface Design Patterns & Examples. 6h Video + Live UX Training."
         }
       ]
     },
@@ -2413,6 +2368,42 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30039988",
+          "author": "lawrjone",
+          "description": "Article URL: https://blog.lawrencejones.dev/goa/\nComments URL: https://news.ycombinator.com/item?id=30039988\nPoints: 2\n# Comments: 2",
+          "link": "https://blog.lawrencejones.dev/goa/",
+          "publishedOn": "2022-01-22T19:28:05.000Z",
+          "wordCount": 1628,
+          "title": "Design driven API development with type-safety across the stack"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30039731",
+          "author": "Tomte",
+          "description": "Article URL: http://printingcode.runemadsen.com/\nComments URL: https://news.ycombinator.com/item?id=30039731\nPoints: 3\n# Comments: 1",
+          "link": "http://printingcode.runemadsen.com/",
+          "publishedOn": "2022-01-22T19:03:06.000Z",
+          "wordCount": 2909,
+          "title": "Programming Design Systems"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30037964",
+          "author": "urlwolf",
+          "description": "Article URL: https://addons.mozilla.org/en-US/firefox/addon/fix-twitter/\nComments URL: https://news.ycombinator.com/item?id=30037964\nPoints: 3\n# Comments: 0",
+          "link": "https://addons.mozilla.org/en-US/firefox/addon/fix-twitter/",
+          "publishedOn": "2022-01-22T16:20:12.000Z",
+          "wordCount": 464,
+          "title": "Fix Twitter Addon for Firefox that improves UX on thread commenting"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30033277",
+          "author": "_448",
+          "description": "I am working on a side-project to learn web-development. The app is simple, with following features: account creation, creation of \"content\"(e.g. a blog post), commenting, reporting, up/down voting, bookmarking and tagging. So during the development I thought what if I treat everything in the app as \"content\" and create hierarchy of the content, and then create every entity relation in the DB as many-to-many. Naturally, lot of tables were created in the DB. But that got me thinking, that this design opens up lots of interesting use-cases such as sub-accounts, group accounts, sub-posts, multi-commenting, multi-reporting, comment-threading, group-posting etc.\nThis was a very interesting exercise. I think there will be DB performance as well as storage size issues with this design. Not sure though, never tried anything like this in practice.\nComments URL: https://news.ycombinator.com/item?id=30033277\nPoints: 2\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=30033277",
+          "publishedOn": "2022-01-22T03:51:12.000Z",
+          "wordCount": 204,
+          "title": "Tell HN: I created a complex DB design as an experiment"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30028323",
           "author": "jger15",
@@ -3771,51 +3762,6 @@
           "publishedOn": "2021-12-24T15:43:51.000Z",
           "wordCount": 509,
           "title": "Free Android UI Designs Made with Jetpack Compose"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29668910",
-          "author": "mroche",
-          "description": "Article URL: http://www.csszengarden.com/\nComments URL: https://news.ycombinator.com/item?id=29668910\nPoints: 166\n# Comments: 64",
-          "link": "http://www.csszengarden.com/",
-          "publishedOn": "2021-12-24T01:28:31.000Z",
-          "wordCount": 826,
-          "title": "CSS Zen Garden: A demonstration of what can be achieved through CSS-based design"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29667866",
-          "author": "monssoen",
-          "description": "Article URL: https://blog.replit.com/rui-eng\nComments URL: https://news.ycombinator.com/item?id=29667866\nPoints: 1\n# Comments: 0",
-          "link": "https://blog.replit.com/rui-eng",
-          "publishedOn": "2021-12-23T23:35:09.000Z",
-          "wordCount": null,
-          "title": "Implementing RUI, Replit's Design System"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29664926",
-          "author": "olvy0",
-          "description": "Article URL: https://medium.com/pulsar/modern-enterprise-ui-design-part-1-tables-ad8ee1b9feb\nComments URL: https://news.ycombinator.com/item?id=29664926\nPoints: 2\n# Comments: 0",
-          "link": "https://medium.com/pulsar/modern-enterprise-ui-design-part-1-tables-ad8ee1b9feb",
-          "publishedOn": "2021-12-23T18:39:20.000Z",
-          "wordCount": 1932,
-          "title": "Modern Enterprise UI Design – Part 1: Tables"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29663775",
-          "author": "quux",
-          "description": "I've been playing with OpenStep in a VM lately and it got me wondering what the transition from OpenStep on Intel/Sparc/NeXT hardware to Rhapsody on PPC was like.\nWere there builds of basically stock OpenStep 4.2 running on PPC Macs within Apple on the early days? Were there builds with the Rhapsody UI running on Intel only while the rest of the OS was still being ported? Were these both happening at the same time in the same codebase?\nI figure someone on here should have some inside information ;)\nComments URL: https://news.ycombinator.com/item?id=29663775\nPoints: 4\n# Comments: 3",
-          "link": "https://news.ycombinator.com/item?id=29663775",
-          "publishedOn": "2021-12-23T17:05:20.000Z",
-          "wordCount": 396,
-          "title": "Ask HN: Which came first? OpenStep on PPC? Or the MacOS UI on a NeXT derived OS?"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29661508",
-          "author": "cyber_kinetist",
-          "description": "Article URL: https://github.com/cmuratori/misc/blob/main/vulkan_dynamic_state.md\nComments URL: https://news.ycombinator.com/item?id=29661508\nPoints: 3\n# Comments: 0",
-          "link": "https://github.com/cmuratori/misc/blob/main/vulkan_dynamic_state.md",
-          "publishedOn": "2021-12-23T13:13:55.000Z",
-          "wordCount": 1331,
-          "title": "Reservations about Vulkan API’s design"
         }
       ]
     },
@@ -5090,24 +5036,6 @@
           "publishedOn": "2021-12-24T18:14:33.000Z",
           "wordCount": 427,
           "title": "Ask HN: Simple prebuilt CSS themes for semantic HTML?"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29668910",
-          "author": "mroche",
-          "description": "Article URL: http://www.csszengarden.com/\nComments URL: https://news.ycombinator.com/item?id=29668910\nPoints: 166\n# Comments: 64",
-          "link": "http://www.csszengarden.com/",
-          "publishedOn": "2021-12-24T01:28:31.000Z",
-          "wordCount": 826,
-          "title": "CSS Zen Garden: A demonstration of what can be achieved through CSS-based design"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29665246",
-          "author": "john-doe",
-          "description": "Article URL: https://cadars.github.io/photosheet/\nComments URL: https://news.ycombinator.com/item?id=29665246\nPoints: 20\n# Comments: 14",
-          "link": "https://cadars.github.io/photosheet/",
-          "publishedOn": "2021-12-23T19:06:21.000Z",
-          "wordCount": 137,
-          "title": "Show HN: HTML/CSS Photo Sheet"
         }
       ]
     },
@@ -5545,15 +5473,6 @@
           "publishedOn": "2021-12-29T00:00:00.000Z",
           "wordCount": 509,
           "title": "A Psalm for the Wild-Built (Monk & Robot, #1) [book]"
-        },
-        {
-          "id": "hercule-poirots-christmas",
-          "author": null,
-          "description": "I totally failed to guess the killer!\nPoirot was staple TV viewing when I was a teenage so the image of the character is burned well into my consciousness (thank you David Suchet) - so reading an Agatha Christie book tends to come with very easy imagination and even accents for characters.\nThe story is well built, told in a way that makes me think I should have been able to deduce the killer myself (and something I've always wondered about murder mystery stories) and does a good job of flipping my expectations on its head!\nSolid stuff.",
-          "link": "https://remysharp.com/books/2021/hercule-poirots-christmas",
-          "publishedOn": "2021-12-24T00:00:00.000Z",
-          "wordCount": 253,
-          "title": "Hercule Poirot's Christmas [book]"
         }
       ]
     },
@@ -5729,6 +5648,15 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=41275",
+          "author": "Seth Godin",
+          "description": "When things go wrong, is your instinct to hide in a corner and hope you won’t get noticed–or to lean into the situation and make it clear that this one is on you? “I’ve got this,” is a phrase that some people will go out of their way to avoid saying. At work, where it’s […]",
+          "link": "https://seths.blog/2022/01/your-responsibility-preference/",
+          "publishedOn": "2022-01-22T09:20:00.000Z",
+          "wordCount": 313,
+          "title": "Your responsibility preference"
+        },
         {
           "id": "https://seths.blog/?p=41272",
           "author": "Seth Godin",
@@ -5980,15 +5908,6 @@
           "publishedOn": "2021-12-25T10:15:00.000Z",
           "wordCount": 182,
           "title": "Lead by leading"
-        },
-        {
-          "id": "https://seths.blog/?p=39905",
-          "author": "Seth Godin",
-          "description": "No one freely buys anything unless it’s worth more than it costs. And so, in a competitive market, organizations will compete to capture as little value as they can afford to, offering the most surplus to the customer, because that’s how they can grow and thrive. And monopolies (and organizations that would like to profit […]",
-          "link": "https://seths.blog/2021/12/value-capture-and-the-minibar/",
-          "publishedOn": "2021-12-24T09:55:00.000Z",
-          "wordCount": 256,
-          "title": "Value capture (and the minibar)"
         }
       ]
     },
@@ -6851,51 +6770,6 @@
           "publishedOn": "2021-12-27T00:15:09.000Z",
           "wordCount": 898,
           "title": "Strut Your Stuff With a Custom Scrollbar"
-        },
-        {
-          "id": "Dnk8cwY7dt6znGKZH",
-          "author": "@dojacat",
-          "description": "Go code Doja Cat’s new music video! Created in partnership with Girls Who Code.",
-          "link": "https://dojacode.com/",
-          "publishedOn": "2021-12-24T04:47:58.000Z",
-          "wordCount": 10,
-          "title": "DojaCode: The First Ever Codable Music Video Experience"
-        },
-        {
-          "id": "bvC8xNZh3PwWJae7x",
-          "author": "@Netlify",
-          "description": "Ship a site to Netlify and turn that dusty domain you’ve been squatting on into real money for charity.",
-          "link": "https://dusty.domains/",
-          "publishedOn": "2021-12-24T04:40:45.000Z",
-          "wordCount": 359,
-          "title": "Dusty Domains"
-        },
-        {
-          "id": "YwMS7dnkXdr5kibp5",
-          "author": null,
-          "description": "(mac)OStalgia is exploring my 2021 work-from-home routine from a nostalgic perspective.",
-          "link": "https://swallowmygraphicdesign.com/project/macostalgia",
-          "publishedOn": "2021-12-24T04:37:09.000Z",
-          "wordCount": 782,
-          "title": "(mac)OStalgia"
-        },
-        {
-          "id": "QSdYPJJJKtCSCjzj8",
-          "author": "@kottke",
-          "description": "It is difficult to separate 2021 from the previous year — Covid, social & political unrest, and the climate crisis bind them together in my memory.",
-          "link": "https://kottke.org/21/12/the-photos-of-the-year-for-2021",
-          "publishedOn": "2021-12-24T04:33:54.000Z",
-          "wordCount": 410,
-          "title": "The Photos of the Year for 2021"
-        },
-        {
-          "id": "ris5K8BPGCC9HFLFS",
-          "author": "@css",
-          "description": "It is pretty interesting to not only see what trends are emerging in our industry (and those adjacent to it) but how those trends trend over time.",
-          "link": "https://css-tricks.com/2021-roundup-of-web-research/",
-          "publishedOn": "2021-12-24T04:29:54.000Z",
-          "wordCount": 4695,
-          "title": "2021 Roundup of Web Research"
         }
       ]
     },
@@ -6961,17 +6835,7 @@
       "title": "Usability Geek",
       "feedUrl": "https://usabilitygeek.com/feed/",
       "siteUrl": "https://usabilitygeek.com",
-      "articles": [
-        {
-          "id": "https://usabilitygeek.com/?p=13302",
-          "author": "Igor Artiukhov",
-          "description": "Hi! I’m Igor Artiukhov, the Lead Designer at NIX United. During my nine years in IT, I’ve become acquainted with various domains and participated in the development of large products. In my current project, I regularly interact with the client’s team, so this article is written based on real experience and will be useful to […]\nThe post How to Design so That You Don’t Get the Phrase “That’s Not What We Need” appeared first on Usability Geek",
-          "link": "https://usabilitygeek.com/how-to-design-so-that-you-dont-get-the-phrase-thats-not-what-we-need/",
-          "publishedOn": "2021-12-24T09:55:16.000Z",
-          "wordCount": 3205,
-          "title": "How to Design so That You Don’t Get the Phrase “That’s Not What We Need”"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Utopia",
