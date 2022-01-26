@@ -334,15 +334,6 @@
           "publishedOn": "2021-12-31T00:00:00.000Z",
           "wordCount": 1078,
           "title": "2021 in Review"
-        },
-        {
-          "id": "https://css-irl.info/has-has-landed-in-safari/",
-          "author": null,
-          "description": "Just a few days ago Safari gave us all an early Christmas present: the latest Safari Technology Preview release includes support for the :has() pseudo-class! Otherwise known as the “parent selector”, (but officially termed in the the spec ‘The Relational Pseudo-class’) it allows us to style an element based on its descendants. We can do things like (off the top of my head) style any sections that contain img elements:\nsection:has(img) {\n  background: lightgray;\n}\nBut eagle-eyed CSS aficionados might spot that it opens up way more possibilities than that, as Bramus writes in his blog post. He’s also been experimenting with form styling, including styling labels based on the validity of their inputs.\nYou could even style a whole form differently if it contains invalid inputs:\nform:has(input:invalid) {\n  border: 2px solid red;\n}\nThe parent selector is something the CSS world has been crying out for for some time, and I’m sure we’ll see lots more imaginative use cases come to light over the coming year.\nIt’s worth mentioning that you can test for support for :has() using feature queries with the selector() function, as detailed in this CSS Tricks post. Having never needed to use it before, this had completely passed me by, but it’s yet another cool CSS feature that’ll come in handy. Bramus uses it in his post to show or hide a warning message, depending on whether the browser supports :has():\n@supports selector(:has(*)) {\n  .info,\n  .warning {\n    display: none;\n  }\n}\nOn a side note, it’s great to see Safari leading the way on new CSS features like :has(), after years of lagging behind — no doubt spearheaded by Jen Simmons’ presence on the team.",
-          "link": "https://css-irl.info/has-has-landed-in-safari/",
-          "publishedOn": "2021-12-27T00:00:00.000Z",
-          "wordCount": 324,
-          "title": ":has() Has Landed in Safari"
         }
       ]
     },
@@ -351,6 +342,24 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=362044",
+          "author": "Chris Coyier",
+          "description": "Say you’ve got a <Card /> component. It’s highly likely it shouldn’t be butted right up against any other components with no spacing around it. That’s true for… pretty much every component. So, how do you handle component spacing in …\nHow Do You Handle Component Spacing in a Design System? originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
+          "link": "https://css-tricks.com/component-spacing-design-system/",
+          "publishedOn": "2022-01-25T23:10:20.000Z",
+          "wordCount": 803,
+          "title": "How Do You Handle Component Spacing in a Design System?"
+        },
+        {
+          "id": "https://css-tricks.com/?p=360550",
+          "author": "Md Shuvo",
+          "description": "A little bit of animation on a site can add some flair, impress users, and get their attention. You could have them run, no matter where they are on the page, immediately when the page loads. But what if your …\nHow to Make a Scroll-Triggered Animation With Basic JavaScript originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
+          "link": "https://css-tricks.com/scroll-triggered-animation-vanilla-javascript/",
+          "publishedOn": "2022-01-25T14:14:11.000Z",
+          "wordCount": 1567,
+          "title": "How to Make a Scroll-Triggered Animation With Basic JavaScript"
+        },
         {
           "id": "https://css-tricks.com/?p=360811",
           "author": "Melanie Sumner",
@@ -845,6 +854,42 @@
       "siteUrl": "https://dailydevlinks.com",
       "articles": [
         {
+          "id": "https://dailydevlinks.com/?p=9218",
+          "author": "Adam Marsden",
+          "description": "UX",
+          "link": "https://dailydevlinks.com/wordle-ux-sometimes-a-game-just-feels-good/",
+          "publishedOn": "2022-01-25T12:13:00.000Z",
+          "wordCount": 146,
+          "title": "Wordle UX: Sometimes a game just feels good"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9221",
+          "author": "Adam Marsden",
+          "description": "A11Y",
+          "link": "https://dailydevlinks.com/why-dont-developers-take-accessibility-seriously/",
+          "publishedOn": "2022-01-25T11:51:00.000Z",
+          "wordCount": 145,
+          "title": "Why Don’t Developers Take Accessibility Seriously?"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9215",
+          "author": "Adam Marsden",
+          "description": "HTML",
+          "link": "https://dailydevlinks.com/div-divisiveness/",
+          "publishedOn": "2022-01-25T06:05:00.000Z",
+          "wordCount": 139,
+          "title": "Div divisiveness"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9212",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/getting-started-with-css-cascade-layers/",
+          "publishedOn": "2022-01-25T06:03:00.000Z",
+          "wordCount": 141,
+          "title": "Getting Started With CSS Cascade Layers"
+        },
+        {
           "id": "https://dailydevlinks.com/?p=9203",
           "author": "Adam Marsden",
           "description": "SVGWordPress",
@@ -1326,6 +1371,15 @@
       "siteUrl": "https://daverupert.com",
       "articles": [
         {
+          "id": "https://daverupert.com/2022/01/the-man-playing-the-ukulele-at-the-doctor-s-office/",
+          "author": null,
+          "description": "I was leaving a doctor’s appointment and as I rounded the corner to the waiting room I could hear the dulcet tones of a ukulele, but it sounded close.\nMy first reaction was “What in the fuck is going on?” as I scanned the ceiling for the speaker where the Muzak was coming from. Then in the waiting room I saw an older white man with a ponytail and a Hawaiian shirt calmly strumming his ukulele.\nAgain, I reacted, “What the fuck is going on?”\nThen I caught myself. This… is… weird.\nWhy was he playing it in the doctors office? Was he a minstrel? Was he calming the souls of fellow patients?  A minister? A minister to himself? Does he just love Hawaii and goddamn it ain’t no one gonna stop him not even the cops at the doctors office?\nI think this moment struck me like a ton of bricks because it’s been awhile since I’ve encountered weird due to the pandemic. Angry? Oh, I’ve encountered plenty of angry. Hot-headed assholes losing their shit in a Chic-fil-A drive thru, yeah I’ve seen that, but been awhile since I’ve seen weird.\nThe world could use a little more weird.\nI miss weird. I miss old Austin.",
+          "link": "https://daverupert.com/2022/01/the-man-playing-the-ukulele-at-the-doctor-s-office/",
+          "publishedOn": "2022-01-25T20:51:00.000Z",
+          "wordCount": 255,
+          "title": "The man playing the ukulele at the doctor’s office."
+        },
+        {
           "id": "https://daverupert.com/2022/01/html-is-general-aria-is-specific/",
           "author": null,
           "description": "In Open UI there’s been some discussion about what default ARIA role the proposed <popupdialog> element should have, if any…\nThe proposed <popupdialog> element is a top-layer element that anchors to another element. Semantically, that’s a lot like a non-modal dialog, but people will probably use it incorrectly as a listbox, tooltip, combobox, etc. which are not a dialog and have their own more appropriate semantics. Should it be a dialog? Or should it be nothing like a <div> or a <span> but sits on the top layer of a website? Should we have other (similar) elements for those specific use cases? Is display: popup the best primitive here?\nAll good questions and I’m sure someone smarter than me will provide an answer.\nWhat struck me about it all was how ARIA wants to be specific. It asks elements “Who are you deep down in your soul?” It’s a sentry at the gate, asking elements to identify themselves and if the element belongs to or fits within the known lexicon then there are well-defined interaction patterns that work with the Assistive Technology. It’s all useful and makes sense if you consider aural interfaces.\nHTML, in my view, tends to be more general and permissive. A chill uncle. <div>? Sure, that can be a div. <article>? If you think that’s the article, great, let’s start there. <video>? Sure, send me some sources and I’ll do my best otherwise I’ll do nothing. Did you use a link for a <button> and a <button> for a link? Aww geeze, Rick. Wish you hadn’t done that. There’s right and wrong ways to do HTML, but there’s often more than one path to a solution. HTML provides a lot of building blocks, spicy divs and spicy spans, sometimes with built-in functionality and semantics, and other times the functionality it’s all bring-your-own.\nThere’s a tension there, but I think that’s what you get in a robust language designed to be liberal in what it accepts but conservative in what it does.",
@@ -1540,6 +1594,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/?p=62598",
+          "author": "Berk Veral",
+          "description": "GitHub continues to improve account security and developer experience with a new 2FA mechanism in GitHub Mobile on iOS and Android.",
+          "link": "https://github.blog/2022-01-25-secure-your-github-account-github-mobile-2fa/",
+          "publishedOn": "2022-01-25T16:41:56.000Z",
+          "wordCount": 738,
+          "title": "Secure your GitHub account with GitHub Mobile 2FA"
+        },
+        {
           "id": "https://github.blog/?p=62535",
           "author": "Taylor Blau",
           "description": "The open source Git project just released Git 2.35. Here's GitHub's look at some of the most interesting features and changes introduced since last time.",
@@ -1670,6 +1733,15 @@
       "feedUrl": "https://gomakethings.com/feed/index.xml",
       "siteUrl": "https://gomakethings.com",
       "articles": [
+        {
+          "id": "https://gomakethings.com/three-ways-to-convert-strings-to-numbers-and-modify-existing-numbers-with-vanilla-javascript/",
+          "author": null,
+          "description": "Today, we’re going to look at three techniques you can use convert strings into numbers with JavaScript. These methods can also be used to modify existing numbers.\nLet’s dig in!\nThe parseInt() method You can use the parseInt() method to convert a string into an integer (a whole number). The second argument, 10, is called the radix. This is the base number used in mathematical systems. For our use, it should always be 10.",
+          "link": "https://gomakethings.com/three-ways-to-convert-strings-to-numbers-and-modify-existing-numbers-with-vanilla-javascript/",
+          "publishedOn": "2022-01-25T15:30:00.000Z",
+          "wordCount": 431,
+          "title": "Three ways to convert strings to numbers (and modify existing numbers) with vanilla JavaScript"
+        },
         {
           "id": "https://gomakethings.com/i-quit-my-job/",
           "author": null,
@@ -1830,6 +1902,15 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=64501",
+          "author": "Travis",
+          "description": "Cascade layers introduce the new at-rule of @layer. The intent is to help CSS authors be more intentional about ordering the “layers” of CSS rules as a new method of cascade management.",
+          "link": "https://heydesigner.com/getting-started-with-css-cascade-layers/",
+          "publishedOn": "2022-01-25T12:43:53.000Z",
+          "wordCount": 75,
+          "title": "Getting started with CSS cascade layers"
+        },
         {
           "id": "https://heydesigner.com/?p=64496",
           "author": "Travis",
@@ -2449,6 +2530,33 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30073322",
+          "author": "dandysavage",
+          "description": "Article URL: https://salad.com/blog/mtm-7-centralization-is-a-systems-design-problem/\nComments URL: https://news.ycombinator.com/item?id=30073322\nPoints: 2\n# Comments: 0",
+          "link": "https://salad.com/blog/mtm-7-centralization-is-a-systems-design-problem/",
+          "publishedOn": "2022-01-25T16:02:03.000Z",
+          "wordCount": 2712,
+          "title": "Centralization Is a Systems Design Problem"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30071484",
+          "author": "rsecora",
+          "description": "Article URL: https://stackoverflow.blog/2021/11/08/adapting-a-design-system-to-work-for-the-metaverse/\nComments URL: https://news.ycombinator.com/item?id=30071484\nPoints: 3\n# Comments: 0",
+          "link": "https://stackoverflow.blog/2021/11/08/adapting-a-design-system-to-work-for-the-metaverse/",
+          "publishedOn": "2022-01-25T13:24:02.000Z",
+          "wordCount": 2408,
+          "title": "Adapting a design system to work for the Metaverse"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30067468",
+          "author": "edward1",
+          "description": "I've been building a material UI code generator. Essentially you upload a design from something like figma, and then the output is the react markup. I'm wondering who would use this, and if we need to add input support for sketches, and also wireframes, opposed to just high fidelity designs. TIA any feedback is appreciated.\nComments URL: https://news.ycombinator.com/item?id=30067468\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=30067468",
+          "publishedOn": "2022-01-25T03:15:55.000Z",
+          "wordCount": 118,
+          "title": "Material UI markup code generator"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30064546",
           "author": "andrewstuart",
@@ -3870,15 +3978,6 @@
           "publishedOn": "2021-12-27T19:19:21.000Z",
           "wordCount": 1120,
           "title": "Show HN: Drovp – Convenient UI for any drag and drop operations"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29701053",
-          "author": "riktar",
-          "description": "Article URL: https://github.com/webeetle/react-headless-hooks\nComments URL: https://news.ycombinator.com/item?id=29701053\nPoints: 6\n# Comments: 0",
-          "link": "https://github.com/webeetle/react-headless-hooks",
-          "publishedOn": "2021-12-27T09:49:44.000Z",
-          "wordCount": 496,
-          "title": "Show HN: React hooks library to build powerful components UI framework agnostic"
         }
       ]
     },
@@ -3887,6 +3986,24 @@
       "feedUrl": "https://hnrss.org/newest?q=react+OR+reactjs+OR+svelte+OR+sveltejs",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30079003",
+          "author": "cst2989",
+          "description": "Article URL: https://betterprogramming.pub/5-tips-to-solve-common-pitfalls-with-react-native-fcf66772b4b7?gi=f5cbacdf62c6\nComments URL: https://news.ycombinator.com/item?id=30079003\nPoints: 1\n# Comments: 0",
+          "link": "https://betterprogramming.pub/5-tips-to-solve-common-pitfalls-with-react-native-fcf66772b4b7?gi=f5cbacdf62c6",
+          "publishedOn": "2022-01-25T22:27:16.000Z",
+          "wordCount": 1464,
+          "title": "Tips to Solve Common Pitfalls with React Native"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30072339",
+          "author": "tdjsnelling",
+          "description": "Article URL: https://northflank.com/blog/adding-themes-to-a-react-app-using-styled-components\nComments URL: https://news.ycombinator.com/item?id=30072339\nPoints: 6\n# Comments: 0",
+          "link": "https://northflank.com/blog/adding-themes-to-a-react-app-using-styled-components",
+          "publishedOn": "2022-01-25T14:49:36.000Z",
+          "wordCount": 2545,
+          "title": "Adding themes to a React app using styled-components"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30065502",
           "author": "johnidouglas",
@@ -4669,33 +4786,6 @@
           "publishedOn": "2021-12-27T13:05:23.000Z",
           "wordCount": 708,
           "title": "Update state of component from other components using React hooks"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29701053",
-          "author": "riktar",
-          "description": "Article URL: https://github.com/webeetle/react-headless-hooks\nComments URL: https://news.ycombinator.com/item?id=29701053\nPoints: 6\n# Comments: 0",
-          "link": "https://github.com/webeetle/react-headless-hooks",
-          "publishedOn": "2021-12-27T09:49:44.000Z",
-          "wordCount": 496,
-          "title": "Show HN: React hooks library to build powerful components UI framework agnostic"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29700910",
-          "author": "klefcodes",
-          "description": "Article URL: https://damiisdandy.com/articles/use-fetch/\nComments URL: https://news.ycombinator.com/item?id=29700910\nPoints: 1\n# Comments: 1",
-          "link": "https://damiisdandy.com/articles/use-fetch/",
-          "publishedOn": "2021-12-27T09:22:47.000Z",
-          "wordCount": 1013,
-          "title": "Custom React useFetch() hook for data fetching with revalidation"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29695636",
-          "author": "Joeri",
-          "description": "Article URL: https://github.com/jsebrech/create-react-app-zero\nComments URL: https://news.ycombinator.com/item?id=29695636\nPoints: 1\n# Comments: 1",
-          "link": "https://github.com/jsebrech/create-react-app-zero",
-          "publishedOn": "2021-12-26T19:46:31.000Z",
-          "wordCount": 1008,
-          "title": "Show HN: Create React App Zero, a no build tools way of making a React app"
         }
       ]
     },
@@ -4704,6 +4794,15 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30070345",
+          "author": "bennettdams",
+          "description": "Article URL: https://tailwindcss.com/blog/automatic-class-sorting-with-prettier\nComments URL: https://news.ycombinator.com/item?id=30070345\nPoints: 1\n# Comments: 0",
+          "link": "https://tailwindcss.com/blog/automatic-class-sorting-with-prettier",
+          "publishedOn": "2022-01-25T10:40:15.000Z",
+          "wordCount": 680,
+          "title": "Automatic (Tailwind) Class Sorting with Prettier"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30022945",
           "author": "ckluis",
@@ -5144,15 +5243,6 @@
           "publishedOn": "2021-12-27T15:55:19.000Z",
           "wordCount": 412,
           "title": "You can now use 'pip' to install Tailwind CSS. Node.js is no longer required"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29700707",
-          "author": "supercucumber",
-          "description": "Article URL: https://github.com/facelessuser/soupsieve\nComments URL: https://news.ycombinator.com/item?id=29700707\nPoints: 3\n# Comments: 0",
-          "link": "https://github.com/facelessuser/soupsieve",
-          "publishedOn": "2021-12-27T08:45:37.000Z",
-          "wordCount": 823,
-          "title": "Soup Sieve – A modern CSS selector implementation for BeautifulSoup"
         }
       ]
     },
@@ -5161,6 +5251,33 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30071874",
+          "author": "derekni",
+          "description": "Hey HN!\nAs a CS student who has trouble staying focused while working, I made a Chrome extension that gamifies productivity by the minute, using a Pomodoro-like timer.\n- Earn a mint for every minute worked (and block sites like Facebook, Youtube, and/or Hacker News(?) while working)\n- Earn mints for completing todos from a personal todo list\n- Spend mints on rewards like watching TV or treating yourself to dining out\nI hope this can help others stay productive and would love feedback!\nComments URL: https://news.ycombinator.com/item?id=30071874\nPoints: 1\n# Comments: 0",
+          "link": "https://chrome.google.com/webstore/detail/minto/hcgkjlalkeaekjkelpilagbjcengeebl",
+          "publishedOn": "2022-01-25T14:04:25.000Z",
+          "wordCount": 407,
+          "title": "Show HN: Chrome extension that gamifies productivity by the minute"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30071245",
+          "author": "jger15",
+          "description": "Article URL: https://www.nateliason.com/medley/298\nComments URL: https://news.ycombinator.com/item?id=30071245\nPoints: 1\n# Comments: 0",
+          "link": "https://www.nateliason.com/medley/298",
+          "publishedOn": "2022-01-25T12:56:56.000Z",
+          "wordCount": 783,
+          "title": "Is Productivity a Worthwhile Goal?"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30070134",
+          "author": "FreeTrade",
+          "description": "Article URL: https://member.cash/p/d821a18859\nComments URL: https://news.ycombinator.com/item?id=30070134\nPoints: 2\n# Comments: 1",
+          "link": "https://member.cash/p/d821a18859",
+          "publishedOn": "2022-01-25T09:59:28.000Z",
+          "wordCount": 151,
+          "title": "Follow Any RSS Feed Like It Is a Social Media Account"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30064108",
           "author": "Naac",
@@ -5611,6 +5728,16 @@
           "id": "https://stratechery.com/2022/the-intel-split/",
           "author": "Ben Thompson",
           "description": "It appears that Intel's partnership with TSMC is much larger than it first seemed; the implications for Intel as whole are massive.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi90aGUtaW50ZWwtc3BsaXQv.E-sjm126yjsCk_yqpUqcuuIq59_AJ5y9xjojMyVX71EdRcU7qNdt0RMMPpdAn_Yo-5Fhl0NcQsdM0l89W_gWm6SxW4OtPHgHBk-OB7_7W8xxEOdonXsaVnTlWg3C_Iv4l4YbxAj2SG1Ei0sRq-A310CHogJud6dMtGV3thyPgitdEvraxf9YrKiW-3NnrwAHv8gBEzZxp-ZzKentMVX7XdEbZAnMJYro3vU7v_XU-K0wefRCfhpcNLV5qvMIZfKPRDfW55GKn445cvcVqHSLyW1ARWGfHrDABBVIm3sHVP8NP03A9K3-JHuqvzWNKnD7DCbmYmoEXkUydaSx6FebKA",
+          "publishedOn": "2022-01-18T14:13:49.000Z",
+          "wordCount": null,
+          "title": "The Intel Split",
+          "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2022/the-intel-split/",
+          "author": "Ben Thompson",
+          "description": "It appears that Intel's partnership with TSMC is much larger than it first seemed; the implications for Intel as whole are massive.",
           "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi90aGUtaW50ZWwtc3BsaXQv.ng78ibVGwHvR1igXkAz5_0TyqczndKz5yBnVzu2RonaG8k4nhv664GWxVgVebClg2S9ggtRI3mePig9-h8CoFxTld4aDtLnQd0hRMWPZHB8i4ok4I21C-uA4iYA5GMABFZeDujAuooGkOpZkJDqFRWLdkeW_4pKcQItnZPVnAP7r3m2jgIoPtjLWB4VHBGGhXz5U71sjwRjZk_UAHzfxwz36KAMEHdUMotf_Uf5-hYkH1M31UX0gBvWVG_3yetr-tGcyz1n-lfiZSqivkRmpiXkzsx4i5NQHW01qcKZMiXbvk0e9l95I524gLdb9p4mUX9y56mxsXz6qEeVc5mGDsA",
           "publishedOn": "2022-01-18T14:13:49.000Z",
           "wordCount": null,
@@ -5675,6 +5802,16 @@
           "publishedOn": "2022-01-18T14:13:49.000Z",
           "wordCount": null,
           "title": "The Intel Split",
+          "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2022/opensea-raises-money-bans-nfts-openseas-value-cryptos-aggregators/",
+          "author": "Ben Thompson",
+          "description": "OpenSea is positioned as another Aggregator, which is evidence that Web 3 is a layer on top of the Internet, not a replacement.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9vcGVuc2VhLXJhaXNlcy1tb25leS1iYW5zLW5mdHMtb3BlbnNlYXMtdmFsdWUtY3J5cHRvcy1hZ2dyZWdhdG9ycy8.nPx7ES4KgWjXPIfUfARGZ5cGD4ZnJm3fZ7uyJCZnc3UcTWNsz5C0a-A5NuwYJjf26ZJ-h2p85alF9oDi_QNs9vkHcqZCubdNXR1UA8hgVMlzzNyxf-EvY9UlHITeFZyXN0xuy_qLezQsSDJsQInp67zyZ5Mq9gksWIlZfarjNgxfgNN-Q6nHlUHbYwiV_w-Mnq5_oiTpDZEAHv7CZ1EnsTeCKMHNpE0oTpkHui6G8EBAkFgf468XumfX-zIGcofPwxBIT28gT3-uPLmx2KSGPUTN9l04M4jRHleQO1LX8j8g-RItveb9SxagLmIpuenXgCH63-LqT0scPtz3M2VP4Q",
+          "publishedOn": "2022-01-05T13:56:03.000Z",
+          "wordCount": null,
+          "title": "OpenSea, Web3, and Aggregation Theory",
           "itunes": {}
         },
         {
@@ -5814,6 +5951,15 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=41288",
+          "author": "Seth Godin",
+          "description": "The ostracod is extinct. Over millions of years, with good reasons at every step, it evolved to become the creature it was. And when we add up all of those little steps, we end up with a creature that was no longer fit for its environment. Organizations develop like this. So do work practices, cultural […]",
+          "link": "https://seths.blog/2022/01/ostracodish/",
+          "publishedOn": "2022-01-25T09:22:00.000Z",
+          "wordCount": 281,
+          "title": "Ostracodish"
+        },
         {
           "id": "https://seths.blog/?p=40215",
           "author": "Seth Godin",
@@ -6065,15 +6211,6 @@
           "publishedOn": "2021-12-28T09:45:00.000Z",
           "wordCount": 500,
           "title": "Choice vs. convenience"
-        },
-        {
-          "id": "https://seths.blog/?p=41171",
-          "author": "Seth Godin",
-          "description": "If we’re new to a situation, or feeling unsure, we pay careful attention. We’re closely examining how others feel, what the cultural norms are, and what impact we’re seeking to make. On the other hand, sometimes we fail to be on our best behavior. That’s another way of describing impulsive selfishness. The surprising thing isn’t […]",
-          "link": "https://seths.blog/2021/12/best-behavior/",
-          "publishedOn": "2021-12-27T09:48:00.000Z",
-          "wordCount": 218,
-          "title": "Best behavior"
         }
       ]
     },
@@ -6082,6 +6219,51 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "gqTgM6dKY2mbALPJA",
+          "author": "@uxdesigncc",
+          "description": "Every once in a generation something beautifully simple comes along and revolutionizes our lives: the paperclip, Post-its, the iPod, Wordle.",
+          "link": "https://uxdesign.cc/wordle-ux-sometimes-a-game-just-feels-good-8749b26834ef",
+          "publishedOn": "2022-01-25T02:21:47.000Z",
+          "wordCount": 1744,
+          "title": "Wordle UX: Sometimes a game just feels good"
+        },
+        {
+          "id": "4RE2xoaAxM9ahGxJM",
+          "author": "@thelifeofrishi",
+          "description": "A free, open-source app to quickly generate beauiful screenshots. Apply backgrounds, tweak shadows, add rounded corners and more.",
+          "link": "https://pika.rishimohan.me",
+          "publishedOn": "2022-01-25T02:18:44.000Z",
+          "wordCount": 51,
+          "title": "Pika – Create beautiful screenshots quickly"
+        },
+        {
+          "id": "K5z8oDyyJMZ2Km87c",
+          "author": "@charmcli",
+          "description": "We build tools to make the command line glamorous.",
+          "link": "https://charm.sh/",
+          "publishedOn": "2022-01-25T02:10:24.000Z",
+          "wordCount": 333,
+          "title": "Charm"
+        },
+        {
+          "id": "i2ebDMefbmyrmFLmC",
+          "author": "@mindovertech",
+          "description": "The journey we took to use game design to build a compelling physical tool to help form better digital habits.",
+          "link": "https://www.mindovertech.com/posts/how-we-worked-with-a-professional-board-game-designer-to-improve-our-first-physical-product/",
+          "publishedOn": "2022-01-25T02:07:49.000Z",
+          "wordCount": 788,
+          "title": "How we worked with a board game designer to improve our first physical product."
+        },
+        {
+          "id": "gZn54dnZmngQbm4pp",
+          "author": "@CSS",
+          "description": "This article covers perspectives on accessibility in web design that could help us bridge the great divide between users and designers/developers.",
+          "link": "https://css-tricks.com/why-dont-developers-take-accessibility-seriously/",
+          "publishedOn": "2022-01-25T02:04:23.000Z",
+          "wordCount": 4006,
+          "title": "Why Don’t Developers Take Accessibility Seriously?"
+        },
         {
           "id": "WsP8Xom5JvTfRpr3T",
           "author": "@ContentsquareRD",
@@ -6936,51 +7118,6 @@
           "publishedOn": "2021-12-27T15:00:00.000Z",
           "wordCount": 15,
           "title": "2021: Product round-up"
-        },
-        {
-          "id": "MSQZkufw72Mz22M6x",
-          "author": "@Codrops",
-          "description": "A beautiful, clean, modern web UI for Wikipedia.",
-          "link": "https://www.modernwiki.app/",
-          "publishedOn": "2021-12-27T00:27:24.000Z",
-          "wordCount": 295,
-          "title": "Modern for Wikipedia"
-        },
-        {
-          "id": "PzSjZMBZo3npCDtTA",
-          "author": "@Codrops",
-          "description": "Get updated on the latests web design trends with this carefully selected collection of creative websites.",
-          "link": "https://tympanus.net/codrops/2021/12/14/inspirational-websites-roundup-32/",
-          "publishedOn": "2021-12-27T00:26:28.000Z",
-          "wordCount": 941,
-          "title": "Inspirational Websites Roundup #32"
-        },
-        {
-          "id": "qsDTdDo6jMgkNKinw",
-          "author": "@zhenpixels",
-          "description": "As I explored the art and transportation of Japan, I started to rethink my life.",
-          "link": "https://www.arun.is/blog/japan-transformation-2/",
-          "publishedOn": "2021-12-27T00:23:30.000Z",
-          "wordCount": 2524,
-          "title": "My transformative first trip to Japan · II"
-        },
-        {
-          "id": "ihwz56x92sHELEssT",
-          "author": "@usemuzli",
-          "description": "Neumorphism is more than playing with inner and outer shadows, that’s just scratching the surface.",
-          "link": "https://medium.muz.li/beyond-neumorphism-design-journal-ac2016e15b1",
-          "publishedOn": "2021-12-27T00:21:20.000Z",
-          "wordCount": 1296,
-          "title": "Beyond Neumorphism"
-        },
-        {
-          "id": "DzdW9whQ4s8SyiW5v",
-          "author": "@css",
-          "description": "The first time I had my breath taken away by a humble scrollbar was on this very site.",
-          "link": "https://css-tricks.com/strut-your-stuff-with-a-custom-scrollbar/",
-          "publishedOn": "2021-12-27T00:15:09.000Z",
-          "wordCount": 898,
-          "title": "Strut Your Stuff With a Custom Scrollbar"
         }
       ]
     },
@@ -7203,6 +7340,20 @@
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
         {
+          "id": "https://smashingmagazine.com/2022/01/devtools-updates-2022/",
+          "author": "hello@smashingmagazine.com (Patrick Brosset)",
+          "description": "What’s new in Chrome, Edge, Safari and Firefox? Patrick Brosset breaks it down with the latest features in DevTools across browsers.",
+          "link": "https://smashingmagazine.com/2022/01/devtools-updates-2022/",
+          "publishedOn": "2022-01-25T13:00:00.000Z",
+          "wordCount": 2516,
+          "title": "What’s New In DevTools?",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e516aa85-3b77-418a-9b43-cec06943b129/devtools-updates-2022.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          }
+        },
+        {
           "id": "https://smashingmagazine.com/2022/01/introduction-css-cascade-layers/",
           "author": "hello@smashingmagazine.com (Stephanie Eckles)",
           "description": "Cascade layers introduce the new at-rule of @layer. The intent is to help CSS authors be more intentional about ordering the “layers” of CSS rules as a new method of cascade management.",
@@ -7411,20 +7562,6 @@
             "length": "0",
             "type": "image/jpg"
           }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/12/building-gatsby-themes-wordpress-powered-websites/",
-          "author": "hello@smashingmagazine.com (Paulina Hetman)",
-          "description": "Have you already built and published a Gatsby theme? In this article, Paulina Hetman explains how Gatsby themes work and what problems they can solve by comparing Gatsby themes with their WordPress counterparts.",
-          "link": "https://smashingmagazine.com/2021/12/building-gatsby-themes-wordpress-powered-websites/",
-          "publishedOn": "2021-12-27T10:30:00.000Z",
-          "wordCount": 4224,
-          "title": "Building Gatsby Themes For WordPress-Powered Websites",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c5b60a4b-63f6-47e2-a9aa-33faa3e9ca9e/building-gatsby-themes-wordpress-powered-websites.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
         }
       ]
     },
@@ -7433,6 +7570,15 @@
       "feedUrl": "https://www.zachleat.com/web/feed/",
       "siteUrl": "https://www.zachleat.com/web/feed/",
       "articles": [
+        {
+          "id": "https://www.zachleat.com/web/trailing-slash/",
+          "author": null,
+          "description": "After some discussion with Salma last week, I decided it was worthwhile to do a deep dive on Trailing Slashes in URLs. More specifically, which of these should I be using?\nhttp://zachleat.com/resource\nhttp://zachleat.com/resource/\nI did what any curious but self-doubting person might do in this situation. I posted a Twitter poll. The results surprised me!\nBut before we go much further, let’s go over the problems we’re trying to solve:\nPerformance: when you leave off a trailing slash and the platform expects one (or vice versa), you get a redirect which is a performance no-no.\nSEO: if your content exists at two (or more!) distinct URL endpoints, it is a SEO no-no. SE-no-no. SEO-apolo-graphql-anton-ohno (I apologize for nothing). *Ahem*. You need redirects.\nAsset References: if your markup u…",
+          "link": "https://www.zachleat.com/web/trailing-slash/",
+          "publishedOn": "2022-01-24T00:00:00.000Z",
+          "wordCount": 2217,
+          "title": "Trailing Slashes on URLs: Contentious or Settled?"
+        },
         {
           "id": "https://www.zachleat.com/web/external-link-favicons/",
           "author": null,
@@ -7493,6 +7639,15 @@
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
         {
+          "id": "https://world.hey.com/jason/the-presence-prison-69608e0f",
+          "author": null,
+          "description": "As a general rule, nobody at Basecamp really knows where anyone else is at any given moment. Are they working? Dunno. Are they taking a break? Dunno. Are they at lunch? Dunno. Are they picking up their kid from school? Dunno. Don’t care.\n\nThe vast majority of the time, it just doesn’t matter. What matters is letting people design their own schedule around when they can do their best work.\n\nThis is not nearly as hard as it sounds. But it does require a shift in mindset. Away from “I have to call Jeff into a meeting now to get his take on this new feature idea” to “I’ll write up my feature idea for Jeff to check-out whenever he has some free time, and then, maybe, we can have a chat about it live later, if needed”.\n\nIf you’re constantly pulling people into things, then yeah, where they are r…",
+          "link": "https://world.hey.com/jason/the-presence-prison-69608e0f",
+          "publishedOn": "2022-01-25T19:51:28.000Z",
+          "wordCount": 776,
+          "title": "The Presence Prison"
+        },
+        {
           "id": "https://world.hey.com/jason/creativity-requires-optimism-1158ff2b",
           "author": null,
           "description": "Pessimism can spark an idea.\nAnnoyance can drive ingenuity.\nDisappointment can redirect effort towards change.\nBut creativity requires optimism.\nCreativity isn't about starting something. It's about making something. Making requires sustained effort, and sustained effort requires fuel.\nThat fuel is optimism.\nWhen you run out, momentum dies, and effort grinds to a halt.\nWhen you run out, creativity converts to drudgery.\nWhen you run out, you give up.\nIf you're making something that doesn't exist, you must believe that it can. That's optimism, that's the feeling. That's the chemical reaction. Without it, creativity is inert.",
@@ -7544,6 +7699,15 @@
       "feedUrl": "https://world.hey.com/dhh/feed.atom",
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
+        {
+          "id": "https://world.hey.com/dhh/just-the-cost-of-doing-business-crimes-c9a0316e",
+          "author": null,
+          "description": "The Dutch competition authorities just slapped Apple with a five million euro fine for refusing to comply with the country's new requirements on App Store policies. These new requirements are somewhat oddly contained to just dating apps, as they came as a consequence of a specific complaint from a specific provider, but even with that seriously restrictive caveat, Apple has chosen to blow them off. Because this is just the cost of doing business [crimes]!\nThe five million euro fine is the first of potentially ten such weekly fines, which will come due if Apple continues to violate the new requirements (like allowing Dutch dating apps the right to link out of app for payment). But as Daring Fireball points out, €50 million is \"spare-change-under-the-sofa\" money for Apple, a company that literally makes a billion dollars per day in revenue.\nThis is the problem with fines. They put a price on criminal behavior, and if the gains from committing those crimes exceed the cost of the fines, there's a base hyper-rational calculus that says the company should continue to break the law.\nI don't necessarily disagree with the basic incentives here. Fines should be sufficient to deter violations (and these surely are not). But I also have some sympathy with the Dutch authorities. The normal rules of commerce, competition, and regulation just don't apply when you're dealing with a trillion-dollar global behemoth like Apple. For whom a €50 million fine is chump change.\nWhat'll be curious to see now is whether Apple will embrace this calculus, and the odious cape of contempt that comes with it. Because while that might make sense in the short term, there's just no way this is the last stop. If Apple willfully decides to flip off the Dutch and their national sovereignty, I think we might just see the leviathan that is the European Union awaken.",
+          "link": "https://world.hey.com/dhh/just-the-cost-of-doing-business-crimes-c9a0316e",
+          "publishedOn": "2022-01-25T09:31:29.000Z",
+          "wordCount": 352,
+          "title": "Just the cost of doing business [crimes]"
+        },
         {
           "id": "https://world.hey.com/dhh/the-mac-proves-apple-can-safely-open-the-iphone-cfa68a72",
           "author": null,
