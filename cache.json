@@ -28,6 +28,15 @@
       "siteUrl": "https://adactio.com/journal/",
       "articles": [
         {
+          "id": "https://adactio.com/journal/18819",
+          "author": null,
+          "description": "The Competition and Markets Authority (CMA) recently published an interim report on their mobile ecosystems market study. It’s well worth reading, especially the section on competition in the supply of mobile browsers:\nOn iOS devices, Apple bans the use of alternative browser engines – this means that Apple has a monopoly over the supply of browser engines on iOS. It also chooses not to implement – or substantially delays – a wide range of features in its browser engine. This restriction has 2 main effects:\nlimiting rival browsers’ ability to differentiate themselves from Safari on factors such as speed and functionality, meaning that Safari faces less competition from other browsers than it otherwise could do; and\nlimiting the functionality of web apps – which could be an alternative to n…",
+          "link": "https://adactio.com/journal/18819",
+          "publishedOn": "2022-02-02T16:12:56.000Z",
+          "wordCount": 1103,
+          "title": "2.5.6"
+        },
+        {
           "id": "https://adactio.com/journal/18776",
           "author": null,
           "description": "I wrote about how I created a page on The Session with instructions for installing the site to your home screen. When I said that I included screenshots on that page, I may have underplayed the effort involved. It was real faff.\nI’ve got an iPhone so generating screenshots (and video) from that wasn’t too bad. But I don’t have access to an Android phone. I found myself scouring the web for templates that I could use to mockup a screenshot of the address bar.\nThat got me thinking…\nWouldn’t it be cool if there were a service that generated those screenshots for you? You give it a URL, and it spits out screenshots of the site complete with overlays showing the installation flow on Android and iOS. It could even generate the img markup, complete with differently-scaled images for the srcset attribute.\nDownload the images. Copy that markup. Paste it into a page on your site. Boom! Now you’ve got somewhere to point your visitors to if you’d like them to install your progressive web app.\nThere are already some services out there for generating screenshots of mobile phones but they’re missing is the menu overlays for adding to home screen.\nThe devrels at both Google and Microsoft have been doing a great job of promoting progressive web apps. They’ve built tools to help you with tasks like generating icons or creating your web app manifest. It would be sooooo nifty if those tools also generated instructional screenshots for adding to home screen!",
@@ -137,7 +146,26 @@
       "title": "benmccormick.org",
       "feedUrl": "https://benmccormick.org/rss/",
       "siteUrl": "http://benmccormick.org",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://benmccormick.org/2022/01/25/mental-models-for-change",
+          "author": "ben@benmccormick.org (Ben McCormick)",
+          "description": "Ben McCormick's blog on JavaScript and Web Development",
+          "link": "https://benmccormick.org/2022/01/25/mental-models-for-change",
+          "publishedOn": "2022-01-25T00:00:00.000Z",
+          "wordCount": 1021,
+          "title": "Mental Models For Managing Change"
+        },
+        {
+          "id": "https://benmccormick.org/2022/01/11/more-thoughts-on-time",
+          "author": "ben@benmccormick.org (Ben McCormick)",
+          "description": "Ben McCormick's blog on JavaScript and Web Development",
+          "link": "https://benmccormick.org/2022/01/11/more-thoughts-on-time",
+          "publishedOn": "2022-01-11T00:00:00.000Z",
+          "wordCount": 1384,
+          "title": "More Thoughts On Time"
+        }
+      ]
     },
     {
       "title": "Page Array – The Big Hack",
@@ -152,15 +180,6 @@
           "publishedOn": "2022-02-01T14:11:03.000Z",
           "wordCount": 1075,
           "title": "Designing for people on the autism spectrum"
-        },
-        {
-          "id": "https://bighack.org/?p=3691",
-          "author": "Daisy Bird",
-          "description": "The post 7 tips for more inclusive meetings appeared first on The Big Hack.",
-          "link": "https://bighack.org/7-tips-for-more-inclusive-meetings/",
-          "publishedOn": "2022-01-04T12:20:18.000Z",
-          "wordCount": 866,
-          "title": "7 tips for more inclusive meetings"
         }
       ]
     },
@@ -175,6 +194,15 @@
       "feedUrl": "https://blog.doist.com/feed/",
       "siteUrl": "https://blog.doist.com",
       "articles": [
+        {
+          "id": "https://blog.doist.com/proving-your-value-at-work%e2%80%8a-%e2%80%8awhy-its-so-hard-and-how-to-do-it-anyway/",
+          "author": "Jeremey DuVall",
+          "description": "If a tree falls in the woods and no one is there to hear it, does it make a sound? Make sure you’re heard.\nThe post The Remote Worker’s Guide to “Managing Up” appeared first on Ambition & Balance.",
+          "link": "https://blog.doist.com/how-to-promote-yourself-at-work/",
+          "publishedOn": "2022-02-02T14:00:17.000Z",
+          "wordCount": 3453,
+          "title": "The Remote Worker’s Guide to “Managing Up”"
+        },
         {
           "id": "https://blog.doist.com/?p=9152",
           "author": "The Todoist Team",
@@ -391,6 +419,24 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=362893",
+          "author": "Chris Coyier",
+          "description": "Here’s a super classy demo from Michelle Barker over on Codrops that shows how to build a scrollable and draggable timeline with GSAP. It’s an interesting challenge to have two different interactions (vertical scrolling and horizontal dragging) be tied together …\nBuilding a Scrollable and Draggable Timeline with GSAP originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
+          "link": "https://css-tricks.com/building-a-scrollable-and-draggable-timeline-with-gsap/",
+          "publishedOn": "2022-02-02T21:11:55.000Z",
+          "wordCount": 381,
+          "title": "Building a Scrollable and Draggable Timeline with GSAP"
+        },
+        {
+          "id": "https://css-tricks.com/?p=362521",
+          "author": "Taminoturoko Briggs",
+          "description": "The ability to identify users is vital for maintaining the security of any applications. Equally important is the code that’s written to manage user identities, particularly when it comes to avoiding loopholes for unauthorized access to data held by an …\nUser Registration and Auth Using Firebase and React originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
+          "link": "https://css-tricks.com/user-registration-authentication-firebase-react/",
+          "publishedOn": "2022-02-02T15:42:43.000Z",
+          "wordCount": 4765,
+          "title": "User Registration and Auth Using Firebase and React"
+        },
         {
           "id": "https://css-tricks.com/?p=362169",
           "author": "Eric Bailey",
@@ -885,24 +931,6 @@
           "publishedOn": "2022-01-04T15:28:03.000Z",
           "wordCount": 937,
           "title": "Jetpack Features We Love and Use at CSS-Tricks"
-        },
-        {
-          "id": "https://css-tricks.com/?p=360385",
-          "author": "Chris Coyier",
-          "description": "Fingerprinting is bad. It’s a term that refers to building up enough metadata about a user that you can essentially figure out who they are. JavaScript has access to all sorts of fingerprinting possibilities, which then combined with the IP …\nCSS-Based Fingerprinting originally published on CSS-Tricks",
-          "link": "https://css-tricks.com/css-based-fingerprinting/",
-          "publishedOn": "2022-01-03T21:45:10.000Z",
-          "wordCount": 819,
-          "title": "CSS-Based Fingerprinting"
-        },
-        {
-          "id": "https://css-tricks.com/?p=359615",
-          "author": "Lars Kölker",
-          "description": "I’ll bet you are using browser extensions right now. Some of them are extremely popular and useful, like ad blockers, password managers, and PDF viewers. These extensions (or “add-ons”) are not limited to those purposes — you can do a …\nHow to Create a Browser Extension originally published on CSS-Tricks",
-          "link": "https://css-tricks.com/how-to-create-a-browser-extension/",
-          "publishedOn": "2022-01-03T15:12:31.000Z",
-          "wordCount": 4633,
-          "title": "How to Create a Browser Extension"
         }
       ]
     },
@@ -1441,24 +1469,6 @@
           "publishedOn": "2022-01-05T06:17:00.000Z",
           "wordCount": 153,
           "title": "8 techniques to write cleaner JavaScript code"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9087",
-          "author": "Adam Marsden",
-          "description": "Tool",
-          "link": "https://dailydevlinks.com/create-beautiful-code-snippets-with-ease/",
-          "publishedOn": "2022-01-04T12:04:00.000Z",
-          "wordCount": 144,
-          "title": "Create beautiful code snippets with ease"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9090",
-          "author": "Adam Marsden",
-          "description": "Tool",
-          "link": "https://dailydevlinks.com/75-tiny-little-web-based-tools-for-web-designers/",
-          "publishedOn": "2022-01-04T06:32:00.000Z",
-          "wordCount": 156,
-          "title": "75 Tiny Little Web-Based Tools for Web Designers"
         }
       ]
     },
@@ -1602,6 +1612,24 @@
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
         {
+          "id": "https://developer.chrome.com/en/blog/permissions-chip/",
+          "author": null,
+          "description": "# The permissions UX until now\nWhen a user visits a site that requests a permission, a bubble pops up to prompt the user to make a\ndecision. For example, below you can see the geolocation permission prompt as implemented in Chrome\nup to version 96. (You can try this and other permissions on our demo site\npermission.site.)\n# Most permission prompts are ignored or dismissed\nChrome's telemetry data proves that a lot of permission prompts are ignored. You can explore the\nnotification permission data\nin the Chrome UX report yourself. For now, consider the table below that shows\nhow Windows users reacted to the geolocation and the notification prompts on sites in an accumulated way:\nAction\nPercent of geolocation prompts\nPercent of notification prompts\n\n\n\n\nAllow\n8.09%\n6.69%\n\n\nBlock\n6.47%\n9.20%\n\n\n…",
+          "link": "https://developer.chrome.com/en/blog/permissions-chip/",
+          "publishedOn": "2022-02-01T00:00:00.000Z",
+          "wordCount": 830,
+          "title": "Permissions request chip"
+        },
+        {
+          "id": "https://developer.chrome.com/en/blog/chromium-chronicle-28/",
+          "author": null,
+          "description": "Episode 28: by Mark Cogan in Paris, France (January, 2022)\nPrevious episodes\nIn 2022, Chrome on iOS will celebrate its 10th anniversary.\nChrome is one of the most widely used iOS apps—it's currently the number 2 Utility app in the US App Store.\nChrome on iOS provides all of the great Chrome features our users love, including Sync, Translate, Incognito, Password Manager, Autofill, and many more.\nChrome on iOS also integrates with native iOS features such as multi-window and device-wide password autofill.\nHowever, there's one major thing that makes Chrome on iOS very different from all other Chrome platform implementations.\nChrome on iOS doesn't use Blink.\nBecause of Apple's App Store rules, Chrome on iOS has to use the iOS platform APIs for fetching and rendering web content. So Chrome on i…",
+          "link": "https://developer.chrome.com/en/blog/chromium-chronicle-28/",
+          "publishedOn": "2022-02-01T00:00:00.000Z",
+          "wordCount": 504,
+          "title": "The Chromium Chronicle #28: Getting started with Chrome on iOS"
+        },
+        {
           "id": "https://developer.chrome.com/en/blog/new-in-chrome-98/",
           "author": null,
           "description": "Here's what you need to know:\nIf you’ve tried the Auto Dark Theme origin trial, there’s a new way to\nopt out at a per element level.\nThere’s now support for COLRv1, an evolution of the COLRv0 font\nformat.\nAnd there's plenty more.\nI'm Pete LePage. Let's dive in and\nsee what's new for developers in Chrome 98.\n# Opting out of auto-dark themes on Android\nIn Chrome 96, we started an origin trial for\nAuto Dark Themes on Android.\nWith this feature, if your site is light themed and the user’s OS is in dark\nmode, the browser applies an automatically generated dark theme to your site.\nIf you've signed up for the origin trial, and you want to opt out of the\nautomatically generated dark theme for a specific page, you can use a meta tag.\n<meta name=\"color-scheme\" content=\"only light\">\nOr you can opt-ou…",
@@ -1690,15 +1718,6 @@
           "publishedOn": "2022-01-06T00:00:00.000Z",
           "wordCount": 1575,
           "title": "COLRv1 Color Gradient Vector Fonts in Chrome 98"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/new-in-chrome-97/",
-          "author": null,
-          "description": "Here's what you need to know:\nWebTransport is a new option for sending real time messages\nbetween the client and server.\nYou can use feature detection to see what\ntypes of scripts a browser supports.\nSearching arrays from the end becomes a little\neasier.\nAnd there's plenty more.\nHappy New Year! I'm Pete LePage. Let's dive in and\nsee what's new for developers in Chrome 97.\n# Web Transport\nIf you're using Web Sockets or the WebRTC Data Channel API to send messages\nbetween your server and the page, there's a new option for you. WebTransport\nis a new API offering low-latency, bidirectional, client-server messaging.\nIt has lower latency than WebSockets, and unlike the RTC Data Channel API,\nwhich is designed for peer-to-peer messaging, the Web Transport API is\nspecifically designed for client-se…",
-          "link": "https://developer.chrome.com/en/blog/new-in-chrome-97/",
-          "publishedOn": "2022-01-04T00:00:00.000Z",
-          "wordCount": 753,
-          "title": "New in Chrome 97"
         }
       ]
     },
@@ -1724,32 +1743,40 @@
       "title": "Geoff Graham",
       "feedUrl": "https://geoffgraham.me/feed/",
       "siteUrl": "https://geoffgraham.me",
-      "articles": [
-        {
-          "id": "https://geoffgraham.me/?p=3280",
-          "author": "Geoff Graham",
-          "description": "…a swell fella named Chris took a gamble on little ol’ me and published a post I wrote for his blog. 435 posts, tutorials, and guides later and I’m just as elated today as I was the morning I first saw my name slathered at the top of the site. Thanks, Chris. Being a part […]\nThe post 7 Years Ago Today… appeared first on Geoff Graham.",
-          "link": "https://geoffgraham.me/7-years-ago-today/",
-          "publishedOn": "2022-01-03T14:05:00.000Z",
-          "wordCount": 201,
-          "title": "7 Years Ago Today…"
-        },
-        {
-          "id": "https://geoffgraham.me/?p=3280",
-          "author": "Geoff Graham",
-          "description": "…a swell fella named Chris took a gamble on little ol’ me and published a post I wrote for his blog. 435 posts, tutorials, and guides later and I’m just as elated today as I was the morning I first saw my name slathered at the top of the site. Thanks, Chris. Being a part […]\nThe post 6 Years Ago Today… appeared first on Geoff Graham.",
-          "link": "https://geoffgraham.me/6-years-ago-today/",
-          "publishedOn": "2022-01-03T14:05:00.000Z",
-          "wordCount": 201,
-          "title": "6 Years Ago Today…"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The GitHub Blog",
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=62836",
+          "author": "Scott Sanders",
+          "description": "In January, we experienced no incidents resulting in service downtime to our core services.",
+          "link": "https://github.blog/2022-02-02-github-availability-report-january-2022/",
+          "publishedOn": "2022-02-03T00:00:24.000Z",
+          "wordCount": 318,
+          "title": "GitHub Availability Report: January 2022"
+        },
+        {
+          "id": "https://github.blog/?p=62762",
+          "author": "Brian Douglas",
+          "description": "A quick guide on the advantages of using GitHub Actions as your preferred CI/CD tool—and how to build a CI/CD pipeline with it.",
+          "link": "https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/",
+          "publishedOn": "2022-02-02T19:48:18.000Z",
+          "wordCount": 2528,
+          "title": "How to build a CI/CD pipeline with GitHub Actions in four simple steps"
+        },
+        {
+          "id": "https://github.blog/?p=62801",
+          "author": "Jessica Lord",
+          "description": "Along with the release of sponsors-only repositories, here’s a look at what’s new and what’s next for Sponsors.",
+          "link": "https://github.blog/2022-02-02-new-sponsors-only-repositories-custom-amounts-and-more/",
+          "publishedOn": "2022-02-02T18:00:04.000Z",
+          "wordCount": 940,
+          "title": "New sponsors-only repositories, custom amounts, and more"
+        },
         {
           "id": "https://github.blog/?p=62743",
           "author": "Nick Rolfe",
@@ -1935,6 +1962,15 @@
       "feedUrl": "https://gomakethings.com/feed/index.xml",
       "siteUrl": "https://gomakethings.com",
       "articles": [
+        {
+          "id": "https://gomakethings.com/bailey-the-lab-mix/",
+          "author": null,
+          "description": "Bailey\nDecember 1, 2010 - February 1, 2022   If you’ve been following me for a while, you may already be familiar Bailey, my black lab mix. Yesterday, she passed away at home after several years of liver issues.\nWhen we adopted Bailey 12 years ago, we were looking for a small dog. She was listed as a “chihuahua/rat terrier mix,” expected to be about 15 pounds. Then 20 pounds came and went.",
+          "link": "https://gomakethings.com/bailey-the-lab-mix/",
+          "publishedOn": "2022-02-02T15:30:00.000Z",
+          "wordCount": 449,
+          "title": "Bailey the lab-mix"
+        },
         {
           "id": "https://gomakethings.com/how-to-progressively-enhance-a-nav-menu/",
           "author": null,
@@ -2123,15 +2159,6 @@
           "publishedOn": "2022-01-04T15:30:00.000Z",
           "wordCount": 235,
           "title": "Add a service worker to your site this year"
-        },
-        {
-          "id": "https://gomakethings.com/can-you-do-me-a-favor/",
-          "author": null,
-          "description": "A lot of folks don’t know this, but I have a day job.\nMy JavaScript education business is actually a side-hustle. It’s a pretty successful one, but not enough to be my full-time thing… yet.\nI’d like to make 2022 the year that changes, but I need your help.\nTo make my JS education work fully self-sustaining, I need to reach more people. If you’ve enjoyed learning from me, here are some specific ways you can help…",
-          "link": "https://gomakethings.com/can-you-do-me-a-favor/",
-          "publishedOn": "2022-01-03T15:30:00.000Z",
-          "wordCount": 275,
-          "title": "Can you do me a favor?"
         }
       ]
     },
@@ -2140,6 +2167,51 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=64564",
+          "author": "Travis",
+          "description": "Icon explorer with instant searching, powered by Iconify.",
+          "link": "https://heydesigner.com/icones/",
+          "publishedOn": "2022-02-02T09:39:39.000Z",
+          "wordCount": 50,
+          "title": "Icônes"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64562",
+          "author": "Travis",
+          "description": "Context menus have existed for decades, from macOS to Windows, from Xerox Parc to the web.",
+          "link": "https://heydesigner.com/building-like-its-1984-a-comprehensive-guide-to-creating-intuitive-context-menus/",
+          "publishedOn": "2022-02-02T09:37:55.000Z",
+          "wordCount": 82,
+          "title": "Building like it’s 1984: A comprehensive guide to creating intuitive context menus"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64560",
+          "author": "Travis",
+          "description": "Getting lost in your knowledge management system is a fantastic way to avoid creating things.",
+          "link": "https://heydesigner.com/notes-against-note-taking-systems/",
+          "publishedOn": "2022-02-02T09:36:51.000Z",
+          "wordCount": 62,
+          "title": "Notes against note-taking systems"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64558",
+          "author": "Travis",
+          "description": "For centuries, most jobs were just about completing tasks. Factory work. Finish this thing and then do the next thing.",
+          "link": "https://heydesigner.com/work-is-more-than-a-list-of-tasks/",
+          "publishedOn": "2022-02-02T09:35:56.000Z",
+          "wordCount": 76,
+          "title": "Work is more than a list of tasks"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64556",
+          "author": "Travis",
+          "description": "In all honesty, every design thinker, every chef out there, ought to use first principles to solve problems. It is impossible to unleash creative possibilities otherwise.",
+          "link": "https://heydesigner.com/first-principles-thinking/",
+          "publishedOn": "2022-02-02T09:31:59.000Z",
+          "wordCount": 68,
+          "title": "First principles thinking"
+        },
         {
           "id": "https://heydesigner.com/?p=64537",
           "author": "Travis",
@@ -2796,51 +2868,6 @@
           "publishedOn": "2022-01-05T09:47:46.000Z",
           "wordCount": 66,
           "title": "Accessible heading structure"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64355",
-          "author": "Travis",
-          "description": "A resource for cultivating awareness of when and how cognitive bias can be introduced into the design process.",
-          "link": "https://heydesigner.com/biased-by-design/",
-          "publishedOn": "2022-01-04T06:26:25.000Z",
-          "wordCount": 64,
-          "title": "Biased by design"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64353",
-          "author": "Travis",
-          "description": "Figma has advanced enough where it now supports some powerful concepts that can help with the flexibility and maintainability of a design system.",
-          "link": "https://heydesigner.com/composition-based-design-system-in-figma/",
-          "publishedOn": "2022-01-04T06:26:16.000Z",
-          "wordCount": 72,
-          "title": "Composition-based design system in Figma"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64351",
-          "author": "Travis",
-          "description": "It doesn’t matter if you’re a designer, programmer, PM, or anything else — slow typing disrupts the creative process.",
-          "link": "https://heydesigner.com/typing-fast-is-a-high-leverage-skill/",
-          "publishedOn": "2022-01-04T06:26:07.000Z",
-          "wordCount": 70,
-          "title": "Typing fast is a high-leverage skill"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64349",
-          "author": "Travis",
-          "description": "A grid layout with columns that scroll in opposite directions and a content preview animation.",
-          "link": "https://heydesigner.com/alternate-column-scroll-animation/",
-          "publishedOn": "2022-01-04T06:25:59.000Z",
-          "wordCount": 64,
-          "title": "Alternate column scroll animation"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64357",
-          "author": "Travis",
-          "description": "A history of our metaphorical understanding of the web.",
-          "link": "https://heydesigner.com/metaphors-we-web-by/",
-          "publishedOn": "2022-01-04T06:25:41.000Z",
-          "wordCount": 57,
-          "title": "Metaphors we web by"
         }
       ]
     },
@@ -2849,6 +2876,60 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30186385",
+          "author": "techbrother",
+          "description": "Hi, I'm a PM at a series B startup. I've been put in charge of redesigning the web page, which currently sucks. Ideally, I can outsource most of this to a good web dev agency. We are in the MLOps space, and so some domain knowledge from the agency would be great (or the ablity to learn about the space and incorporate it into the design). Does anyone have any good recs for an agency like this?\nComments URL: https://news.ycombinator.com/item?id=30186385\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=30186385",
+          "publishedOn": "2022-02-03T00:14:58.000Z",
+          "wordCount": 147,
+          "title": "Startup Website Design Agency Recs"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30184354",
+          "author": "_Microft",
+          "description": "Article URL: https://robertweetman.wordpress.com/2018/11/13/design-details-1/\nComments URL: https://news.ycombinator.com/item?id=30184354\nPoints: 1\n# Comments: 0",
+          "link": "https://robertweetman.wordpress.com/2018/11/13/design-details-1/",
+          "publishedOn": "2022-02-02T21:32:43.000Z",
+          "wordCount": 8275,
+          "title": "Nicer Cities, Liveable Places: Design Details of ‘Continuous Footways’ (2018)"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30181291",
+          "author": "tommoor",
+          "description": "Article URL: https://linear.app/blog/settings-are-not-a-design-failure\nComments URL: https://news.ycombinator.com/item?id=30181291\nPoints: 241\n# Comments: 191",
+          "link": "https://linear.app/blog/settings-are-not-a-design-failure",
+          "publishedOn": "2022-02-02T18:00:21.000Z",
+          "wordCount": 854,
+          "title": "Settings are not a design failure"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30181162",
+          "author": "fredyandrei1",
+          "description": "Article URL: https://www.creative-tim.com/product/argon-dashboard-chakra\nComments URL: https://news.ycombinator.com/item?id=30181162\nPoints: 3\n# Comments: 0",
+          "link": "https://www.creative-tim.com/product/argon-dashboard-chakra",
+          "publishedOn": "2022-02-02T17:52:35.000Z",
+          "wordCount": 854,
+          "title": "Free React Chakra UI Dashboard (Open Source)"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30180924",
+          "author": "mooreds",
+          "description": "Article URL: https://medium.com/paypal-tech/using-documentation-driven-design-to-guide-api-decisions-e451d7f3e8fd\nComments URL: https://news.ycombinator.com/item?id=30180924\nPoints: 2\n# Comments: 0",
+          "link": "https://medium.com/paypal-tech/using-documentation-driven-design-to-guide-api-decisions-e451d7f3e8fd",
+          "publishedOn": "2022-02-02T17:38:40.000Z",
+          "wordCount": 1132,
+          "title": "Using Documentation-Driven Design to Guide API Decisions"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30178118",
+          "author": "CapitalistCartr",
+          "description": "Article URL: https://www.lesswrong.com/posts/bGDk58fPYQK7pRHvS/design-policy-to-be-testable\nComments URL: https://news.ycombinator.com/item?id=30178118\nPoints: 1\n# Comments: 0",
+          "link": "https://www.lesswrong.com/posts/bGDk58fPYQK7pRHvS/design-policy-to-be-testable",
+          "publishedOn": "2022-02-02T14:38:12.000Z",
+          "wordCount": 1648,
+          "title": "Design Policy to Be Testable"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30166908",
           "author": "laurex",
@@ -4423,15 +4504,6 @@
           "publishedOn": "2022-01-04T17:13:57.000Z",
           "wordCount": 5134,
           "title": "NVIDIA Omniverse Platform Open Beta for 3D Design Collaboration and Simulation"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29783481",
-          "author": "ingve",
-          "description": "Article URL: https://devblogs.microsoft.com/oldnewthing/20220103-00/?p=106109\nComments URL: https://news.ycombinator.com/item?id=29783481\nPoints: 1\n# Comments: 0",
-          "link": "https://devblogs.microsoft.com/oldnewthing/20220103-00/?p=106109",
-          "publishedOn": "2022-01-03T17:34:29.000Z",
-          "wordCount": 2015,
-          "title": "Speculation on design decisions that led to the common ABI for C++ coroutines"
         }
       ]
     },
@@ -4440,6 +4512,78 @@
       "feedUrl": "https://hnrss.org/newest?q=react+OR+reactjs+OR+svelte+OR+sveltejs",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30184973",
+          "author": "avremel",
+          "description": "Article URL: https://www.avikaminetzky.dev/posts/react-flavored-js\nComments URL: https://news.ycombinator.com/item?id=30184973\nPoints: 1\n# Comments: 0",
+          "link": "https://www.avikaminetzky.dev/posts/react-flavored-js",
+          "publishedOn": "2022-02-02T22:27:11.000Z",
+          "wordCount": 501,
+          "title": "React Flavored JavaScript"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30183920",
+          "author": "brundolf",
+          "description": "Article URL: https://www.brandons.me/blog/grasping-react-hooks\nComments URL: https://news.ycombinator.com/item?id=30183920\nPoints: 2\n# Comments: 0",
+          "link": "https://www.brandons.me/blog/grasping-react-hooks",
+          "publishedOn": "2022-02-02T20:53:40.000Z",
+          "wordCount": 2545,
+          "title": "Grasping React Hooks"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30183060",
+          "author": "bpierre",
+          "description": "Article URL: https://lyts.christiankaindl.com/\nComments URL: https://news.ycombinator.com/item?id=30183060\nPoints: 1\n# Comments: 0",
+          "link": "https://lyts.christiankaindl.com/",
+          "publishedOn": "2022-02-02T19:52:39.000Z",
+          "wordCount": 116,
+          "title": "LYTS: Layout Primitives for React"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30181162",
+          "author": "fredyandrei1",
+          "description": "Article URL: https://www.creative-tim.com/product/argon-dashboard-chakra\nComments URL: https://news.ycombinator.com/item?id=30181162\nPoints: 3\n# Comments: 0",
+          "link": "https://www.creative-tim.com/product/argon-dashboard-chakra",
+          "publishedOn": "2022-02-02T17:52:35.000Z",
+          "wordCount": 854,
+          "title": "Free React Chakra UI Dashboard (Open Source)"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30180372",
+          "author": "colinchartier",
+          "description": "Article URL: https://greenjs.io/\nComments URL: https://news.ycombinator.com/item?id=30180372\nPoints: 7\n# Comments: 1",
+          "link": "https://greenjs.io/",
+          "publishedOn": "2022-02-02T17:06:33.000Z",
+          "wordCount": 211,
+          "title": "Show HN: GreenJS, add performant React pages to an existing site"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30176796",
+          "author": "losfair",
+          "description": "Article URL: https://github.com/NotionX/react-notion-x\nComments URL: https://news.ycombinator.com/item?id=30176796\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/NotionX/react-notion-x",
+          "publishedOn": "2022-02-02T12:52:04.000Z",
+          "wordCount": 1772,
+          "title": "React Notion X – Fast and accurate React renderer for Notion"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30176349",
+          "author": "nabi_nafio",
+          "description": "Article URL: https://www.youtube.com/watch?v=Wm_xI7KntDs\nComments URL: https://news.ycombinator.com/item?id=30176349\nPoints: 3\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=Wm_xI7KntDs",
+          "publishedOn": "2022-02-02T11:51:13.000Z",
+          "wordCount": null,
+          "title": "The Story of React"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30175680",
+          "author": "synchton",
+          "description": "Article URL: https://www.youtube.com/watch?v=5_Te8SxQ1Dg\nComments URL: https://news.ycombinator.com/item?id=30175680\nPoints: 3\n# Comments: 2",
+          "link": "https://www.youtube.com/watch?v=5_Te8SxQ1Dg",
+          "publishedOn": "2022-02-02T10:02:16.000Z",
+          "wordCount": null,
+          "title": "Annoying React useState mistake I've seen senior engineers make"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30168950",
           "author": "eropple",
@@ -5303,15 +5447,6 @@
           "publishedOn": "2022-01-05T01:17:38.000Z",
           "wordCount": 2,
           "title": "Dioxus: A React-like library for building UIs with Rust"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29790369",
-          "author": "flinchnot",
-          "description": "Article URL: https://blog.sktch.io/post/introducing-sktch-io-s-exporter-build-in-nocode-export-to-any-framework-61cb6bb64c94073f6791307f\nComments URL: https://news.ycombinator.com/item?id=29790369\nPoints: 1\n# Comments: 0",
-          "link": "https://blog.sktch.io/post/introducing-sktch-io-s-exporter-build-in-nocode-export-to-any-framework-61cb6bb64c94073f6791307f",
-          "publishedOn": "2022-01-04T02:16:28.000Z",
-          "wordCount": 361,
-          "title": "Show HN: Build in NoCode, Export To: Node.js, React, PHP Laravel"
         }
       ]
     },
@@ -5320,6 +5455,24 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30174893",
+          "author": "robin_reala",
+          "description": "Article URL: https://twitter.com/sitnikcode/status/1470753530491424779\nComments URL: https://news.ycombinator.com/item?id=30174893\nPoints: 2\n# Comments: 0",
+          "link": "https://twitter.com/sitnikcode/status/1470753530491424779",
+          "publishedOn": "2022-02-02T07:49:57.000Z",
+          "wordCount": 196,
+          "title": "A thread about the future of color in CSS"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30173234",
+          "author": "sanketpatrikar",
+          "description": "Article URL: https://twitter.com/FirefoxDevTools/status/1488553788843642880\nComments URL: https://news.ycombinator.com/item?id=30173234\nPoints: 2\n# Comments: 0",
+          "link": "https://twitter.com/FirefoxDevTools/status/1488553788843642880",
+          "publishedOn": "2022-02-02T03:16:24.000Z",
+          "wordCount": 196,
+          "title": "Firefox 98 will report possible CSS issues on your page using MozDevNet"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30163309",
           "author": "tonerow",
@@ -5778,24 +5931,6 @@
           "publishedOn": "2022-01-04T13:36:11.000Z",
           "wordCount": 608,
           "title": "Browser fingerprinting using only CSS"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29791975",
-          "author": "manojvivek",
-          "description": "Article URL: https://mxstbr.com/thoughts/margin/\nComments URL: https://news.ycombinator.com/item?id=29791975\nPoints: 198\n# Comments: 205",
-          "link": "https://mxstbr.com/thoughts/margin/",
-          "publishedOn": "2022-01-04T06:18:27.000Z",
-          "wordCount": 332,
-          "title": "Use spacer components instead of CSS margins (2020)"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29780639",
-          "author": "yonatan06",
-          "description": "A while ago someone (the creator?) published a link to an open source css theme using css variables only (\"native css\"). Can't find it since then, can anyone help?\nComments URL: https://news.ycombinator.com/item?id=29780639\nPoints: 3\n# Comments: 4",
-          "link": "https://news.ycombinator.com/item?id=29780639",
-          "publishedOn": "2022-01-03T13:38:51.000Z",
-          "wordCount": 190,
-          "title": "Ask HN: Looking for an open CSS variables theme that was published here"
         }
       ]
     },
@@ -5804,6 +5939,24 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30181585",
+          "author": "samiur1204",
+          "description": "Article URL: https://www.fastcompany.com/90717773/best-new-productivity-apps\nComments URL: https://news.ycombinator.com/item?id=30181585\nPoints: 1\n# Comments: 0",
+          "link": "https://www.fastcompany.com/90717773/best-new-productivity-apps",
+          "publishedOn": "2022-02-02T18:18:53.000Z",
+          "wordCount": 795,
+          "title": "Smart ways to amp up your productivity"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30172140",
+          "author": "jbegley",
+          "description": "Article URL: https://www.nytimes.com/2022/02/01/business/worker-productivity-monitoring.html\nComments URL: https://news.ycombinator.com/item?id=30172140\nPoints: 3\n# Comments: 0",
+          "link": "https://www.nytimes.com/2022/02/01/business/worker-productivity-monitoring.html",
+          "publishedOn": "2022-02-02T01:02:45.000Z",
+          "wordCount": 244,
+          "title": "Have You Worked for a Company That Monitors Employee Productivity?"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30169636",
           "author": "ecmacoder",
@@ -6379,10 +6532,30 @@
           "id": "https://stratechery.com/2022/gaming-the-smiling-curve/",
           "author": "Ben Thompson",
           "description": "The spate of recent acquisitions in the gaming space — Take-Two and Zynga, Microsoft and Activision, and Sony and Bungie — make sense in the context of the Smiling Curve.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9nYW1pbmctdGhlLXNtaWxpbmctY3VydmUv.c4nE8rGDZ76X35f99zFysTOTpWvwX83jrDt9L_zc8sjbflG0COt_IASOhg4zp2jd4ARYW51ZGgZ4kZfkL2nwUL0CxK8Dgots0qpPNcgF8EVE3MDqBVZd0OSzW2_9k3COvMsScrmDl7KOLg7E1RFwQJkSOJYBb848-6tIhGbWt-kd9EIX1PCtgf31eAHq0r32LiaRQXXKrmndKNQ-5HxPSZX1iabZRBEGNyVuFpaGvPMB0ONjdg1rrh_Qxg0gtt6DniEPZXptCvoEsI1IxQ8f-ZoNUuX2n9ombuxmT9Rqjl7sA5wPDANEidFGa_VnR3PszTKEeW9-YpZtPisE8CfSyA",
+          "publishedOn": "2022-02-01T12:45:53.000Z",
+          "wordCount": null,
+          "title": "Gaming the Smiling Curve",
+          "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2022/gaming-the-smiling-curve/",
+          "author": "Ben Thompson",
+          "description": "The spate of recent acquisitions in the gaming space — Take-Two and Zynga, Microsoft and Activision, and Sony and Bungie — make sense in the context of the Smiling Curve.",
           "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9nYW1pbmctdGhlLXNtaWxpbmctY3VydmUv.t3HfVGvI90RSDs9JMd1_mP2dVcxuXgIH4-B_8MqFsmjR3Lx-RNAx6UPBsT9RJOjhbkK2ARQHQ95cY7xDM4zzizufSHIB4KGZMVIiMtynUYOvUGLWP5IjH9Dc8Zw4vILTW6GgaHqXlWylLG3IpvamTZirF4_fw7SSGJSaUbbvc2c7276CHcBLOLuGx0_4Xvxq6wNe5-ZkzNfSN4IvdXV7ZQ5zmbp1bexd2My0LbvDDoH-qzLmk_eYv005cFThEg6ozZAmNDd4hLLyVwa450RTt7LNoHROwNfObgkgDuFL5_oVfd9MHRNkDYaNUOmSrsPppZtGLuVEESFBtzLhAslRGw",
           "publishedOn": "2022-02-01T12:45:53.000Z",
           "wordCount": null,
           "title": "Gaming the Smiling Curve",
+          "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2022/the-intel-split/",
+          "author": "Ben Thompson",
+          "description": "It appears that Intel's partnership with TSMC is much larger than it first seemed; the implications for Intel as whole are massive.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi90aGUtaW50ZWwtc3BsaXQv.cydWMlM0xwO-3iWTXmZa2BKpzqdgzG-uwdVq5iVJNkKQ5Zlw0aPF6M0ClWc-gE-962lMCknMYc7NaFAWqeGj2dQtAEFRL776wvBOCEttI6XbtK_-ulkgRhnImTWC4_eRv67kDdvS856If19VqQ0zwzxRfyD9J8RNWTDrEHxaqPfrk0GwD_rPGknHtv6t6mAzbX2ccegBk0MF-G_Ei_vdxb2DftHsWlpKb8rX8-TYM5xlkkRC3rmz5DCiEuKVhvQEcvfunWADtCcR5VjpV_TAUrZMy27j2F-KmtZC9AO7w_S6ipNYCgM_z--0fdQgELjXaFtGevEbLkQe_rhq_K_bnw",
+          "publishedOn": "2022-01-18T14:13:49.000Z",
+          "wordCount": null,
+          "title": "The Intel Split",
           "itunes": {}
         },
         {
@@ -6533,6 +6706,16 @@
           "publishedOn": "2022-01-18T14:13:49.000Z",
           "wordCount": null,
           "title": "The Intel Split",
+          "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2022/opensea-raises-money-bans-nfts-openseas-value-cryptos-aggregators/",
+          "author": "Ben Thompson",
+          "description": "OpenSea is positioned as another Aggregator, which is evidence that Web 3 is a layer on top of the Internet, not a replacement.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9vcGVuc2VhLXJhaXNlcy1tb25leS1iYW5zLW5mdHMtb3BlbnNlYXMtdmFsdWUtY3J5cHRvcy1hZ2dyZWdhdG9ycy8.b74iXPyQr_-aR7FD7imEJJhr6CT9IBi5UNHAdtWx1pcverhvwQz-9zhBTJizBYWyeFV-RckeTwBDP44fdloCKD-9_IX-i_hUk9N2DOgKu_wuSf27-Rw8Mzer-ZA4-glxJ05Uw0tW4pjsnDnDz2WcLVD9niur9dxMHxkAPbMrbhAS4anoJPbPboTVYBMGvWtMrGSDstOGQAlRJOk_3OxwF2mKL6cVh6aW_q6OfzcxRmnrIOf2TaiwUz9k4EUkfwJrsMrHHzEiBQiZZyhF0-rhOd_xNENjmYAa_YhDPUpqUnnV7e9roPeMXn-Q8nIumHt7DjTvYe7J4mSyS37sTu4gSg",
+          "publishedOn": "2022-01-05T13:56:03.000Z",
+          "wordCount": null,
+          "title": "OpenSea, Web3, and Aggregation Theory",
           "itunes": {}
         },
         {
@@ -6752,6 +6935,15 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=41325",
+          "author": "Seth Godin",
+          "description": "Successful organizations of just one or two freelancers have very high revenue per employee, effective labor utilization and few communications problems. And significant organizations of a hundred or a thousand people also produce enormous amounts of revenue, profit and perhaps value. In between, though, there’s a slog. That’s because a successful tiny organization that adds […]",
+          "link": "https://seths.blog/2022/02/the-trough-of-inefficiency/",
+          "publishedOn": "2022-02-02T12:40:00.000Z",
+          "wordCount": 298,
+          "title": "The trough of inefficiency"
+        },
         {
           "id": "https://seths.blog/?p=41307",
           "author": "Seth Godin",
@@ -7012,15 +7204,6 @@
           "publishedOn": "2022-01-05T10:10:00.000Z",
           "wordCount": 203,
           "title": "Laser noise"
-        },
-        {
-          "id": "https://seths.blog/?p=41190",
-          "author": "Seth Godin",
-          "description": "The problem with becoming defensive is that our internal narrative gets in the way of expressing what’s actually going on. Because we’re imagining all the blame and shame and scorn that the other person may or may not be feeling toward us, we bring those feelings into our words and actions, and end up making […]",
-          "link": "https://seths.blog/2022/01/defensive-offensive-actual/",
-          "publishedOn": "2022-01-04T09:51:00.000Z",
-          "wordCount": 233,
-          "title": "Defensive/offensive/actual"
         }
       ]
     },
@@ -7029,6 +7212,24 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "Xt7enNF9zbrPQWYSF",
+          "author": "@_geekculture_",
+          "description": "After months of anticipation, Tesla finally released a shiny new UI update for their vehicles.",
+          "link": "https://medium.com/geekculture/is-teslas-v11-update-bad-design-1af36b13228b",
+          "publishedOn": "2022-02-02T00:33:04.000Z",
+          "wordCount": 1519,
+          "title": "Is Tesla’s v11 update… bad design?"
+        },
+        {
+          "id": "e37Gwtdpz7aBPZDWK",
+          "author": "@nngroup",
+          "description": "Inclusive design describes methodologies to create products that understand and enable people of all backgrounds and abilities.",
+          "link": "https://www.nngroup.com/articles/inclusive-design/",
+          "publishedOn": "2022-02-02T00:30:31.000Z",
+          "wordCount": 2548,
+          "title": "Inclusive Design"
+        },
         {
           "id": "qjpTGZyzu5Eae56g9",
           "author": "@spolsky",
@@ -7955,51 +8156,6 @@
           "publishedOn": "2022-01-05T04:21:33.000Z",
           "wordCount": 264,
           "title": "The list of 2021 visualization lists"
-        },
-        {
-          "id": "LPP25niRdJJ4tCXGT",
-          "author": "@CSS",
-          "description": "Fingerprinting is bad. It’s a term that refers to building up enough metadata about a user that you can essentially figure out who they are.",
-          "link": "https://css-tricks.com/css-based-fingerprinting/",
-          "publishedOn": "2022-01-04T01:19:17.000Z",
-          "wordCount": 927,
-          "title": "CSS-Based Fingerprinting"
-        },
-        {
-          "id": "47zmgE9PbeWfNiMoK",
-          "author": "@mariacameireles",
-          "description": "Exploring how New Horizons prevents errors through the lens of the 10 usability heuristics",
-          "link": "https://mariameireles.medium.com/1667c97598de",
-          "publishedOn": "2022-01-04T01:17:46.000Z",
-          "wordCount": 3468,
-          "title": "Applying Usability Heuristics to Animal Crossing: New Horizons"
-        },
-        {
-          "id": "StxrX6ooTaQkCWujQ",
-          "author": "@jonyablonski",
-          "description": "A resource for cultivating awareness of when and how cognitive bias can be introduced into the design process.",
-          "link": "https://biasedbydesign.com/",
-          "publishedOn": "2022-01-04T01:13:51.000Z",
-          "wordCount": 83,
-          "title": "Biased by Design"
-        },
-        {
-          "id": "anTooA6t4ybqBv2WK",
-          "author": "@aweelllll",
-          "description": "A dissection of the toggle, checkbox, radio button, and related components.",
-          "link": "https://www.alexbuenodesign.com/blog/the_good_the_bad_and_the_toogle",
-          "publishedOn": "2022-01-04T01:13:29.000Z",
-          "wordCount": 1140,
-          "title": "The good, the bad, and the toggle"
-        },
-        {
-          "id": "W48ygFeaqtdfWnNa8",
-          "author": "@ilovetypography",
-          "description": "What a year! There was much to bemoan in 2021, but the never-ending year was still an inspiring one in type.",
-          "link": "https://ilovetypography.com/2021/12/28/the-year-in-type",
-          "publishedOn": "2022-01-04T00:22:09.000Z",
-          "wordCount": 1039,
-          "title": "The Year in Type"
         }
       ]
     },
@@ -8008,6 +8164,15 @@
       "feedUrl": "https://svelte.dev/blog/rss.xml",
       "siteUrl": "https://svelte.dev/blog",
       "articles": [
+        {
+          "id": "https://svelte.dev/blog/whats-new-in-svelte-february-2022",
+          "author": null,
+          "description": "Rapid-fire releases across Svelte, SvelteKit and the community",
+          "link": "https://svelte.dev/blog/whats-new-in-svelte-february-2022",
+          "publishedOn": "2022-02-01T12:00:00.000Z",
+          "wordCount": 932,
+          "title": "What's new in Svelte: February 2022"
+        },
         {
           "id": "https://svelte.dev/blog/accelerating-sveltes-development",
           "author": null,
@@ -8097,7 +8262,26 @@
       "title": "Writing JavaScript",
       "feedUrl": "https://writingjavascript.com/rss.xml",
       "siteUrl": "https://writingjavascript.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://writingjavascript.com/how-can-i-add-x-days-to-a-javascript-date-object",
+          "author": "Fredrik Söderström",
+          "description": "One of the more infamous sides of JavaScript has been its date and time constructs. After years of having to use Datejs/Moment.js for many date-handling tasks, I have found more and more that the native Date constructor is almost always good enough, saving many precious bytes to download.",
+          "link": "https://writingjavascript.com/how-can-i-add-x-days-to-a-javascript-date-object",
+          "publishedOn": "2022-02-02T19:00:00.000Z",
+          "wordCount": 544,
+          "title": "How can I add X days to a JavaScript Date object?"
+        },
+        {
+          "id": "https://writingjavascript.com/what-are-node-js-node-protocol-imports",
+          "author": "Fredrik Söderström",
+          "description": "Gone are the days of the older require/module.exports/CommonJS import syntaxes. In recent versions of Node.js, the support for modern ECMAScript module (ESM) imports is finally on par with the browser standards, but Node.js has also added a few extra features on top of those standards.",
+          "link": "https://writingjavascript.com/what-are-node-js-node-protocol-imports",
+          "publishedOn": "2022-02-02T07:00:00.000Z",
+          "wordCount": 722,
+          "title": "What are Node.js \":node\" protocol imports?"
+        }
+      ]
     },
     {
       "title": "a11y with Lindsey",
@@ -8170,15 +8354,6 @@
           "publishedOn": "2022-01-10T18:05:38.000Z",
           "wordCount": 992,
           "title": "Connect to Life’s Radiant Beauty"
-        },
-        {
-          "id": "https://www.pickthebrain.com/blog/?p=88154",
-          "author": "SehgalNotes",
-          "description": "\"Winning\" – the word has a multitude of meanings. \n\n\nTo some, it may mean to be at the top in every sense, ahead of everyone; and to some, it may mean chasing perfection.  \n\n\nBut what happens when you reach the “pinnacle” of Success? \n\n\nHow do you stay a winner when you’re already at the top, and there’s nowhere else to go? How do you maintain that winning streak that syncs your flow through life? And most importantly how do you reap the possibilities created through ‘The Winning’?\n\n\n“You and your organization, are most vulnerable when you are most successful.” – Robin Sharma, The Greatness Guide \n\n\nA real win is when you truly feel happy from within, and not vulnerable – Which can only happen when you can ‘Stop Worrying and Start Living.’\n\n\nThe art of winning lies in knowing how to build …",
-          "link": "https://www.pickthebrain.com/blog/the-art-of-winning/",
-          "publishedOn": "2022-01-03T17:26:01.000Z",
-          "wordCount": 1347,
-          "title": "The Art of Winning – Living All Possibilities in Life"
         }
       ]
     },
@@ -8209,6 +8384,20 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/02/javascript-bundle-performance-code-splitting/",
+          "author": "hello@smashingmagazine.com (Adrian Bece)",
+          "description": "In this article, Adrian Bece shares more about the benefits and caveats of code-splitting and how page performance and load times can be improved by dynamically loading expensive, non-critical JavaScript bundles.",
+          "link": "https://smashingmagazine.com/2022/02/javascript-bundle-performance-code-splitting/",
+          "publishedOn": "2022-02-02T10:30:00.000Z",
+          "wordCount": 4506,
+          "title": "Improving JavaScript Bundle Performance With Code-Splitting",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f721011b-37a8-4c1d-a8b9-b249bf938678/javascript-bundle-performance-code-splitting.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          }
+        },
         {
           "id": "https://smashingmagazine.com/2022/02/touch-design-release/",
           "author": "hello@smashingmagazine.com (Vitaly Friedman)",
@@ -8446,20 +8635,6 @@
             "length": "0",
             "type": "image/jpg"
           }
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/composition-based-design-system-figma/",
-          "author": "hello@smashingmagazine.com (Aleksandra Nagornaia)",
-          "description": "Figma has advanced enough where it now supports some powerful concepts that can help with the flexibility and maintainability of a design system. In this article, Sasha explains why she finds the Systems Designer position so rewarding — and it’s not only because of how fast certain tools have developed to help her master challenges she faces in her work projects.",
-          "link": "https://smashingmagazine.com/2022/01/composition-based-design-system-figma/",
-          "publishedOn": "2022-01-03T13:00:00.000Z",
-          "wordCount": 2645,
-          "title": "Composition-Based Design System In Figma",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/671611c3-eaf7-427e-9e5d-1bb74fbf62f5/composition-based-design-system-figma.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
         }
       ]
     },
@@ -8615,6 +8790,24 @@
       "feedUrl": "https://world.hey.com/dhh/feed.atom",
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
+        {
+          "id": "https://world.hey.com/dhh/the-infuriating-ease-of-rogan-s-popularity-625e4cf0",
+          "author": null,
+          "description": "For Rogan's own sake, and for all of our sakes, I hope we'll soon move on from picking apart every facet of his popular podcast. But before we do, just one more thing. Really 😂\nIn this whole saga, I must admit to a guilty pleasure of chuckling at all the folks infuriated by the fact that Rogan commands such popularity from his off-the-cuff approach. Here's his own presentation of his style:\n\nThese podcasts are very strange because they’re just conversations. And oftentimes I have no idea what I’m going to talk about until I sit down and talk to people. And that’s why some of my ideas are not that prepared or fleshed out because I’m literally having them in real time, but I do my best and they’re just conversations, and I think that’s also the appeal of the show. It’s one of the things tha…",
+          "link": "https://world.hey.com/dhh/the-infuriating-ease-of-rogan-s-popularity-625e4cf0",
+          "publishedOn": "2022-02-02T10:34:43.000Z",
+          "wordCount": 394,
+          "title": "The infuriating ease of Rogan's popularity"
+        },
+        {
+          "id": "https://world.hey.com/dhh/work-unites-what-politics-divide-a43f8688",
+          "author": null,
+          "description": "Is there a more powerful, communal force than making stuff together? It pulls the shared humanity right out of people when they collaborate on making something greater than what they could make themselves. It intersects all the major sources of meaning by combining human connections, pursuits of mastery, and a shared purpose. It's quite literally a creative force.\nWhen you're focused on making, you focus on what people bring to the task, not what they believe, how they pray, or which political sect they belong to. You can avoid all these gaps simply by virtue of staying clear of them. Which in turn means that more people of more varied backgrounds are able to thrive together.\nThis is the wisdom of the Mark Twain's etiquette \"never [to] discuss politics or religion in polite company\". Specifically the point about \"polite company\". It's the politeness that oils the gears of collaboration.\nAll this used to be so much easier, because we never had to know. People's religious observance or political affinity could easily be a matter kept separate from the realms of collaboration. \nToday social media has spoiled that for millions. The cacophony of likes, follows, shares, and retweets betray many people's stances on the thorniest issues. It's often hard not to know someone's leanings or affinities if you connect on these nefarious networks.\nBut it's worth taking the effort not to know, and if you do, to forget. To avoid these traps of division, to chew on the bliss of ignorance. That's the choice of the creative force.",
+          "link": "https://world.hey.com/dhh/work-unites-what-politics-divide-a43f8688",
+          "publishedOn": "2022-02-02T08:14:47.000Z",
+          "wordCount": 293,
+          "title": "Work unites what politics divide"
+        },
         {
           "id": "https://world.hey.com/dhh/there-are-no-all-knowing-all-seeing-oracles-bc6ed1fc",
           "author": null,
@@ -8785,15 +8978,6 @@
           "publishedOn": "2022-01-04T23:57:17.000Z",
           "wordCount": 237,
           "title": "It could be worse"
-        },
-        {
-          "id": "https://world.hey.com/dhh/celebrating-the-silence-of-high-uptimes-056c4887",
-          "author": null,
-          "description": "It was a very loud year, 2021. Which makes the satisfying silence of technical incidents at Basecamp all the more of a celebration. In the year that went, every single application we offer had at least 99.99% uptime! This is through repeated AWS outages, zero-day security alerts, and the drama of the world in those twelve months.\nBut it gets better. Basecamp 3 had an uptime of 99.997%. HEY pipped it by a point with 99.998% uptime. And Basecamp 2 hit the mythical five nines with 99.999% uptime! I believe that is the best reliability record we've ever achieved for a full year in our almost twenty year history as a software company. Worth a toast!\nIt's the result of years of investments in things like active-active double data center deployments for our on-premise apps like Basecamp 2 and 3. …",
-          "link": "https://world.hey.com/dhh/celebrating-the-silence-of-high-uptimes-056c4887",
-          "publishedOn": "2022-01-03T16:23:20.000Z",
-          "wordCount": 473,
-          "title": "Celebrating the silence of high uptimes"
         }
       ]
     }
