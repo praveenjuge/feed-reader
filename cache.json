@@ -420,6 +420,24 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=362884",
+          "author": "Chris Coyier",
+          "description": "Pedro Santos suggests:\nUsing naming conventions such that you can learn them once and apply them everywhere\nUnidirectional data flows. Make it easy to follow the app flow.\nNo magic numbers. I’d add they are even worse in CSS\n…\nBuilding a newbie-friendly codebase originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
+          "link": "https://css-tricks.com/building-a-newbie-friendly-codebase/",
+          "publishedOn": "2022-02-03T22:32:58.000Z",
+          "wordCount": 396,
+          "title": "Building a newbie-friendly codebase"
+        },
+        {
+          "id": "https://css-tricks.com/?p=362578",
+          "author": "Pankaj Parashar",
+          "description": "I interviewed Thierry Koblentz, creator of Atomic CSS, to understand the history and background that led to making of the popular CSS framework. Thierry, now retired, has vast experience writing CSS at large scale and has previously worked …\nThe Making of Atomic CSS: An Interview With Thierry Koblentz originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
+          "link": "https://css-tricks.com/thierry-koblentz-atomic-css/",
+          "publishedOn": "2022-02-03T15:24:01.000Z",
+          "wordCount": 3458,
+          "title": "The Making of Atomic CSS: An Interview With Thierry Koblentz"
+        },
+        {
           "id": "https://css-tricks.com/?p=362893",
           "author": "Chris Coyier",
           "description": "Here’s a super classy demo from Michelle Barker over on Codrops that shows how to build a scrollable and draggable timeline with GSAP. It’s an interesting challenge to have two different interactions (vertical scrolling and horizontal dragging) be tied together …\nBuilding a Scrollable and Draggable Timeline with GSAP originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
@@ -904,33 +922,6 @@
           "publishedOn": "2022-01-05T15:42:59.000Z",
           "wordCount": 5455,
           "title": "How to Make a Component That Supports Multiple Frameworks in a Monorepo"
-        },
-        {
-          "id": "https://css-tricks.com/?p=359880",
-          "author": "Chris Coyier",
-          "description": "CSS overrides can change the default look of almost anything:\nYou can use CSS to override what a checkbox or radio button looks like, but if you don’t, the checkbox will look like a default checkbox on your operating system \n…\nShould CSS Override Default Browser Styles? originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/should-css-override-default-styles/",
-          "publishedOn": "2022-01-04T19:50:18.000Z",
-          "wordCount": 754,
-          "title": "Should CSS Override Default Browser Styles?"
-        },
-        {
-          "id": "https://css-tricks.com/?p=359838",
-          "author": "Šime Vidas",
-          "description": "I’ve encountered two bugs in Chrome while testing the new CSS text-decoration-thickness and text-underline-offset properties, and I want to share them with you here in this article.\nBut first, let’s acknowledge one thing:\nDefault underlines are inconsistent\nLet’s add a …\nCSS Underlines Are Too Thin and Too Low in Chrome originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/css-underlines-are-too-thin-and-too-low-in-chrome/",
-          "publishedOn": "2022-01-04T15:30:18.000Z",
-          "wordCount": 1120,
-          "title": "CSS Underlines Are Too Thin and Too Low in Chrome"
-        },
-        {
-          "id": "https://css-tricks.com/?p=360452",
-          "author": "Chris Coyier",
-          "description": "(This is a sponsored post.)\nWe use and love Jetpack around here. It’s a WordPress plugin that brings a whole suite of functionality to your site ranging from security to marketing with lots of ridiculously useful stuff in between! …\nJetpack Features We Love and Use at CSS-Tricks originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/jetpack-features-we-love-and-use-at-css-tricks/",
-          "publishedOn": "2022-01-04T15:28:03.000Z",
-          "wordCount": 937,
-          "title": "Jetpack Features We Love and Use at CSS-Tricks"
         }
       ]
     },
@@ -939,6 +930,51 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=9287",
+          "author": "Adam Marsden",
+          "description": "SVGTool",
+          "link": "https://dailydevlinks.com/dddraw-freehand-svg-drawing-tool/",
+          "publishedOn": "2022-02-03T12:50:00.000Z",
+          "wordCount": 139,
+          "title": "dddraw – freehand SVG drawing tool"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9290",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://dailydevlinks.com/california-design-system%ef%bf%bc/",
+          "publishedOn": "2022-02-03T12:17:00.000Z",
+          "wordCount": 144,
+          "title": "California Design System￼"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9284",
+          "author": "Adam Marsden",
+          "description": "Development",
+          "link": "https://dailydevlinks.com/how-to-avoid-layout-shifts-caused-by-web-fonts-2/",
+          "publishedOn": "2022-02-03T11:52:00.000Z",
+          "wordCount": 149,
+          "title": "How to avoid layout shifts caused by web fonts"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9293",
+          "author": "Adam Marsden",
+          "description": "Development",
+          "link": "https://dailydevlinks.com/ruby-regex-a-friendly-guide/",
+          "publishedOn": "2022-02-03T11:36:00.000Z",
+          "wordCount": 147,
+          "title": "Ruby regex, a friendly guide."
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9281",
+          "author": "Adam Marsden",
+          "description": "CSSDesign",
+          "link": "https://dailydevlinks.com/fluid-type-sizes-and-spacing/",
+          "publishedOn": "2022-02-03T11:32:00.000Z",
+          "wordCount": 143,
+          "title": "Fluid type sizes and spacing"
+        },
         {
           "id": "https://dailydevlinks.com/?p=9274",
           "author": "Adam Marsden",
@@ -1442,33 +1478,6 @@
           "publishedOn": "2022-01-06T08:13:00.000Z",
           "wordCount": 150,
           "title": "A Small Guide for Naming Stuff in Front-end Code"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9096",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://dailydevlinks.com/should-css-override-default-browser-styles/",
-          "publishedOn": "2022-01-05T10:17:00.000Z",
-          "wordCount": 146,
-          "title": "Should CSS Override Default Browser Styles?"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9099",
-          "author": "Adam Marsden",
-          "description": "BrowserCSS",
-          "link": "https://dailydevlinks.com/css-underlines-are-too-thin-and-too-low-in-chrome/",
-          "publishedOn": "2022-01-05T08:46:00.000Z",
-          "wordCount": 156,
-          "title": "CSS Underlines Are Too Thin and Too Low in Chrome"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9093",
-          "author": "Adam Marsden",
-          "description": "JS",
-          "link": "https://dailydevlinks.com/8-techniques-to-write-cleaner-javascript-code/",
-          "publishedOn": "2022-01-05T06:17:00.000Z",
-          "wordCount": 153,
-          "title": "8 techniques to write cleaner JavaScript code"
         }
       ]
     },
@@ -1483,6 +1492,15 @@
       "feedUrl": "https://daverupert.com/atom.xml",
       "siteUrl": "https://daverupert.com",
       "articles": [
+        {
+          "id": "https://daverupert.com/2022/02/vibe-check-13/",
+          "author": null,
+          "description": "Buckle up. This month turned out to be a big one. Writing it all out feels like an entire year went by, so I’ll start with the bad that happened at the beginning of the month and move towards the good.\nGot COVID\nWhen I posted my Vibe Check №12 and End of 2021 posts, I noticed they were a bit emo as I felt “exhausted”. Well, there was a reason for that: I had COVID. Those posts might need a giant asterisks applied to them. I still stand by that exhausted vibe because I was basically sick from December 17th to January 5th or so.\nThankfully ours was a “mild” case and it did run thru the entire family. A lot of aches and sinus issues. We’re better now and resuming life. I’m like ~8% worried I have some mild form of Long COVID, but it’s allergy and mold season here in Austin so it’s hard to tel…",
+          "link": "https://daverupert.com/2022/02/vibe-check-13/",
+          "publishedOn": "2022-02-03T00:57:00.000Z",
+          "wordCount": 1586,
+          "title": "Vibe Check №13"
+        },
         {
           "id": "https://daverupert.com/2022/01/five-hundred-shoptalks/",
           "author": null,
@@ -1612,6 +1630,15 @@
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
         {
+          "id": "https://developer.chrome.com/en/blog/deps-rems-99/",
+          "author": null,
+          "description": "Visit ChromeStatus.com for lists of current deprecations and previous removals.\nChrome 99 beta was released on February 3, 2022 and is expected to become the\nstable version in early March, 2022.\n# Remove Battery Status API on insecure origins\nBattery Status API is no longer supported on insecure origins,\nsuch as HTTP pages or HTTPS iframes embedded in HTTP pages. The Battery Status\nAPI allows web developers to access, among other things, a system's battery\ncharging level and whether it is being charged. It is a powerful feature that\nhas been around for over a decade and, as such, was originally designed with\ndifferent security constraints.\n# Remove font-family -webkit-standard\nThis version of Chrome\nremoves support for the font-family value \"-webkit-standard\".\nThis value is merely an alias…",
+          "link": "https://developer.chrome.com/en/blog/deps-rems-99/",
+          "publishedOn": "2022-02-03T00:00:00.000Z",
+          "wordCount": 727,
+          "title": "Deprecations and removals in Chrome 99"
+        },
+        {
           "id": "https://developer.chrome.com/en/blog/permissions-chip/",
           "author": null,
           "description": "# The permissions UX until now\nWhen a user visits a site that requests a permission, a bubble pops up to prompt the user to make a\ndecision. For example, below you can see the geolocation permission prompt as implemented in Chrome\nup to version 96. (You can try this and other permissions on our demo site\npermission.site.)\n# Most permission prompts are ignored or dismissed\nChrome's telemetry data proves that a lot of permission prompts are ignored. You can explore the\nnotification permission data\nin the Chrome UX report yourself. For now, consider the table below that shows\nhow Windows users reacted to the geolocation and the notification prompts on sites in an accumulated way:\nAction\nPercent of geolocation prompts\nPercent of notification prompts\n\n\n\n\nAllow\n8.09%\n6.69%\n\n\nBlock\n6.47%\n9.20%\n\n\n…",
@@ -1737,7 +1764,17 @@
       "title": "Farnam Street",
       "feedUrl": "https://fs.blog/feed/",
       "siteUrl": "https://fs.blog",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://fs.blog/?p=47139",
+          "author": "Farnam Street",
+          "description": "One of the most beneficial skills you can learn in life is how to consistently put yourself in a good position. The person who finds themselves in a strong position can take advantage of circumstances while others are forced into a series of poor choices.  Strong positions are not an accident. Weak positions aren’t bad …\nThe post The Small Steps of Giant Leaps appeared first on Farnam Street.",
+          "link": "https://fs.blog/small-steps-giant-leaps/",
+          "publishedOn": "2022-02-03T17:23:53.000Z",
+          "wordCount": 821,
+          "title": "The Small Steps of Giant Leaps"
+        }
+      ]
     },
     {
       "title": "Geoff Graham",
@@ -1963,6 +2000,15 @@
       "siteUrl": "https://gomakethings.com",
       "articles": [
         {
+          "id": "https://gomakethings.com/four-different-ways-to-inject-text-and-html-into-an-element-with-vanilla-javascript/",
+          "author": null,
+          "description": "Today, we’re going to look at four different techniques you can use to get and set text and HTML in DOM elements.\nLet’s dig in!\nThe Element.innerHTML property You can use the Element.innerHTML property to get and set the HTML content inside an element as a string.\n<div class=\"greeting\"> <p>Hello world!</p> </div>let greeting = document.querySelector('.greeting'); // Get HTML content // returns \"<p>Hello world!</p>\" let html = greeting.innerHTML; // Set HTML content // This replaces what was in there already greeting.",
+          "link": "https://gomakethings.com/four-different-ways-to-inject-text-and-html-into-an-element-with-vanilla-javascript/",
+          "publishedOn": "2022-02-03T15:30:00.000Z",
+          "wordCount": 850,
+          "title": "Four different ways to inject text and HTML into an element with vanilla JavaScript"
+        },
+        {
           "id": "https://gomakethings.com/bailey-the-lab-mix/",
           "author": null,
           "description": "Bailey\nDecember 1, 2010 - February 1, 2022   If you’ve been following me for a while, you may already be familiar Bailey, my black lab mix. Yesterday, she passed away at home after several years of liver issues.\nWhen we adopted Bailey 12 years ago, we were looking for a small dog. She was listed as a “chihuahua/rat terrier mix,” expected to be about 15 pounds. Then 20 pounds came and went.",
@@ -2150,15 +2196,6 @@
           "publishedOn": "2022-01-05T15:30:00.000Z",
           "wordCount": 334,
           "title": "Changing the default text editor on macOS"
-        },
-        {
-          "id": "https://gomakethings.com/add-a-service-worker-to-your-site-this-year/",
-          "author": null,
-          "description": "Last week, I wrote an article for CSS Tricks on the one thing I wish everyone would do to make the web better in 2022.\n One of the best things you can do for your website in 2022 is add a service worker, if you don’t have one in place already. Service workers give your website super powers. Today, I want to show you some of the amazing things that they can do, and give you a paint-by-numbers boilerplate that you can use to start using them on your site right away.",
-          "link": "https://gomakethings.com/add-a-service-worker-to-your-site-this-year/",
-          "publishedOn": "2022-01-04T15:30:00.000Z",
-          "wordCount": 235,
-          "title": "Add a service worker to your site this year"
         }
       ]
     },
@@ -2167,6 +2204,51 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=64578",
+          "author": "Travis",
+          "description": "The Design System makes it easy for state digital teams to build accessible, consistent, and performant services and products to meet Californians’ needs.",
+          "link": "https://heydesigner.com/california-design-system/",
+          "publishedOn": "2022-02-03T10:35:58.000Z",
+          "wordCount": 71,
+          "title": "California Design System"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64574",
+          "author": "Travis",
+          "description": "The plugin allows you to create beautiful shadows by simply dragging a ‘light source’ which casts a shadow on selected elements.",
+          "link": "https://heydesigner.com/figma-plugin-beautiful-shadows/",
+          "publishedOn": "2022-02-03T10:34:31.000Z",
+          "wordCount": 68,
+          "title": "Figma plugin: Beautiful Shadows"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64576",
+          "author": "Travis",
+          "description": "The systematic thinking in our industry is that settings are the result of design failure.",
+          "link": "https://heydesigner.com/settings-are-not-a-design-failure/",
+          "publishedOn": "2022-02-03T10:33:06.000Z",
+          "wordCount": 67,
+          "title": "Settings are not a design failure"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64572",
+          "author": "Travis",
+          "description": "I’ve been using a fluid type and spacing system on the most recent builds I’ve completed. Here’s why I use it, and how I approach it.",
+          "link": "https://heydesigner.com/fluid-type-sizes-and-spacing/",
+          "publishedOn": "2022-02-03T10:09:26.000Z",
+          "wordCount": 74,
+          "title": "Fluid type sizes and spacing"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64570",
+          "author": "Travis",
+          "description": "Earlier this week I learned about CSS Cascade Layers and now I’m all hyped up because I really like the concept.",
+          "link": "https://heydesigner.com/cascade-layers-first-contact/",
+          "publishedOn": "2022-02-03T10:08:27.000Z",
+          "wordCount": 70,
+          "title": "Cascade Layers: First contact"
+        },
         {
           "id": "https://heydesigner.com/?p=64564",
           "author": "Travis",
@@ -2823,51 +2905,6 @@
           "publishedOn": "2022-01-07T10:18:17.000Z",
           "wordCount": 62,
           "title": "30 frontend tips"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64372",
-          "author": "Travis",
-          "description": "OOUX claims that we shouldn’t start designing from actions, main flows, or screens.",
-          "link": "https://heydesigner.com/object-oriented-ux-2/",
-          "publishedOn": "2022-01-05T12:05:40.000Z",
-          "wordCount": 57,
-          "title": "Object-Oriented UX"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64370",
-          "author": "Travis",
-          "description": "Creative learning happens when we are not concentrated on mistakes but on patterns.",
-          "link": "https://heydesigner.com/origins-of-creative-joy/",
-          "publishedOn": "2022-01-05T12:01:12.000Z",
-          "wordCount": 60,
-          "title": "Origins of creative joy"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64366",
-          "author": "Travis",
-          "description": "An SVG generator to make fluid gradient backgrounds that feel organic and motion-like.",
-          "link": "https://heydesigner.com/ffflux-fluid-gradient-backgrounds/",
-          "publishedOn": "2022-01-05T09:57:49.000Z",
-          "wordCount": 60,
-          "title": "ffflux: Fluid gradient backgrounds"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64364",
-          "author": "Travis",
-          "description": "Naming stuff is hard, and so is changing a class name when your stylesheet is cached.",
-          "link": "https://heydesigner.com/a-small-guide-for-naming-stuff-in-front-end-code/",
-          "publishedOn": "2022-01-05T09:49:29.000Z",
-          "wordCount": 76,
-          "title": "A small guide for naming stuff in front-end code"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64362",
-          "author": "Travis",
-          "description": "A visitor should be able to scan the webpage using headings to get a good impression of its content.",
-          "link": "https://heydesigner.com/accessible-heading-structure/",
-          "publishedOn": "2022-01-05T09:47:46.000Z",
-          "wordCount": 66,
-          "title": "Accessible heading structure"
         }
       ]
     },
@@ -2876,6 +2913,24 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30191742",
+          "author": "bryanrasmussen",
+          "description": "Article URL: https://www.linuxjournal.com/content/design-and-prototypical-implementation-irc-chat-server-erlang-otp\nComments URL: https://news.ycombinator.com/item?id=30191742\nPoints: 68\n# Comments: 5",
+          "link": "https://www.linuxjournal.com/content/design-and-prototypical-implementation-irc-chat-server-erlang-otp",
+          "publishedOn": "2022-02-03T12:46:06.000Z",
+          "wordCount": 3765,
+          "title": "Design and Prototypical Implementation of an IRC Chat Server in Erlang OTP"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30187424",
+          "author": "clouddrover",
+          "description": "Article URL: https://www.thedrive.com/tech/44100/davinci-style-drone-with-600-year-old-screw-rotor-design-actually-flies\nComments URL: https://news.ycombinator.com/item?id=30187424\nPoints: 4\n# Comments: 1",
+          "link": "https://www.thedrive.com/tech/44100/davinci-style-drone-with-600-year-old-screw-rotor-design-actually-flies",
+          "publishedOn": "2022-02-03T01:57:50.000Z",
+          "wordCount": 888,
+          "title": "DaVinci-Style Drone with 600-Year-Old Screw Rotor Design Actually Flies"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30186385",
           "author": "techbrother",
@@ -4459,51 +4514,6 @@
           "publishedOn": "2022-01-05T14:25:55.000Z",
           "wordCount": 20,
           "title": "Show HN: Free toolkit to design and generate your own layered NFTs"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29807186",
-          "author": "julesmahe",
-          "description": "Article URL: https://zeroheight.com/blog/how-to-measure-your-design-system/\nComments URL: https://news.ycombinator.com/item?id=29807186\nPoints: 2\n# Comments: 0",
-          "link": "https://zeroheight.com/blog/how-to-measure-your-design-system/",
-          "publishedOn": "2022-01-05T10:04:07.000Z",
-          "wordCount": 2065,
-          "title": "How to measure your design system"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29802361",
-          "author": "bryanrasmussen",
-          "description": "Article URL: https://www.curbed.com/2021/12/topography-of-wellness-book-sara-jensen-carr.html\nComments URL: https://news.ycombinator.com/item?id=29802361\nPoints: 2\n# Comments: 0",
-          "link": "https://www.curbed.com/2021/12/topography-of-wellness-book-sara-jensen-carr.html",
-          "publishedOn": "2022-01-04T23:19:35.000Z",
-          "wordCount": 2889,
-          "title": "What Will It Take to Design (Actually) Healthy Cities?"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29798712",
-          "author": "gumby",
-          "description": "Article URL: https://www.mcsweeneys.net/articles/the-ux-on-this-small-child-is-terrible\nComments URL: https://news.ycombinator.com/item?id=29798712\nPoints: 385\n# Comments: 174",
-          "link": "https://www.mcsweeneys.net/articles/the-ux-on-this-small-child-is-terrible",
-          "publishedOn": "2022-01-04T19:10:28.000Z",
-          "wordCount": 1141,
-          "title": "The UX on this small child is terrible"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29797681",
-          "author": "amichail",
-          "description": "Comments URL: https://news.ycombinator.com/item?id=29797681\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=29797681",
-          "publishedOn": "2022-01-04T17:56:24.000Z",
-          "wordCount": 73,
-          "title": "Ask HN: How is game design different from CS research?"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29797147",
-          "author": "aspenmayer",
-          "description": "Article URL: https://www.nvidia.com/en-us/omniverse/\nComments URL: https://news.ycombinator.com/item?id=29797147\nPoints: 2\n# Comments: 0",
-          "link": "https://www.nvidia.com/en-us/omniverse/",
-          "publishedOn": "2022-01-04T17:13:57.000Z",
-          "wordCount": 5134,
-          "title": "NVIDIA Omniverse Platform Open Beta for 3D Design Collaboration and Simulation"
         }
       ]
     },
@@ -4512,6 +4522,51 @@
       "feedUrl": "https://hnrss.org/newest?q=react+OR+reactjs+OR+svelte+OR+sveltejs",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30197787",
+          "author": "noselasd",
+          "description": "Article URL: https://www.youtube.com/watch?v=0gC3HOgtumo\nComments URL: https://news.ycombinator.com/item?id=30197787\nPoints: 1\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=0gC3HOgtumo",
+          "publishedOn": "2022-02-03T19:49:02.000Z",
+          "wordCount": null,
+          "title": "FSW 2022: Desktop UIs with Rust and React"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30196585",
+          "author": "sarahdellysse",
+          "description": "Article URL: https://github.com/welldone-software/why-did-you-render\nComments URL: https://news.ycombinator.com/item?id=30196585\nPoints: 2\n# Comments: 0",
+          "link": "https://github.com/welldone-software/why-did-you-render",
+          "publishedOn": "2022-02-03T18:35:08.000Z",
+          "wordCount": 2110,
+          "title": "Library monkey-patches React to warn you about possibly unnecessary re-renders"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30196021",
+          "author": "adamsi",
+          "description": "Article URL: https://github.com/mq2thez/blog/blob/main/upgrade-react-etsy/preact-vs-react.md\nComments URL: https://news.ycombinator.com/item?id=30196021\nPoints: 3\n# Comments: 1",
+          "link": "https://github.com/mq2thez/blog/blob/main/upgrade-react-etsy/preact-vs-react.md",
+          "publishedOn": "2022-02-03T17:59:26.000Z",
+          "wordCount": 4592,
+          "title": "Etsy Moves from React to Preact"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30195506",
+          "author": "ErwinIsolated",
+          "description": "Article URL: https://old.reddit.com/r/reactjs/comments/sitc22/after_2_years_of_work_me_and_my_team_are_getting/\nComments URL: https://news.ycombinator.com/item?id=30195506\nPoints: 2\n# Comments: 0",
+          "link": "https://old.reddit.com/r/reactjs/comments/sitc22/after_2_years_of_work_me_and_my_team_are_getting/",
+          "publishedOn": "2022-02-03T17:28:55.000Z",
+          "wordCount": 2152,
+          "title": "After 2 years of work, we launch our open-source React, Next.js e-com storefront"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30193059",
+          "author": "chariotsolution",
+          "description": "Article URL: https://chariotsolutions.com/blog/post/swr-an-automatically-refreshing-datasource-for-react-and-next-js/\nComments URL: https://news.ycombinator.com/item?id=30193059\nPoints: 1\n# Comments: 0",
+          "link": "https://chariotsolutions.com/blog/post/swr-an-automatically-refreshing-datasource-for-react-and-next-js/",
+          "publishedOn": "2022-02-03T14:46:16.000Z",
+          "wordCount": 935,
+          "title": "SWR: An automatically refreshing datasource for React and Next.js"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30184973",
           "author": "avremel",
@@ -5438,15 +5493,6 @@
           "publishedOn": "2022-01-05T13:49:53.000Z",
           "wordCount": 749,
           "title": "Humans detect and react to illusory faces in the same way they do real faces"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29803597",
-          "author": "lwhsiao",
-          "description": "Article URL: https://dioxuslabs.com\nComments URL: https://news.ycombinator.com/item?id=29803597\nPoints: 13\n# Comments: 0",
-          "link": "https://dioxuslabs.com",
-          "publishedOn": "2022-01-05T01:17:38.000Z",
-          "wordCount": 2,
-          "title": "Dioxus: A React-like library for building UIs with Rust"
         }
       ]
     },
@@ -5455,6 +5501,42 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30199642",
+          "author": "feross",
+          "description": "Article URL: https://blog.chromium.org/2022/02/chrome-99-css-cascade-layers-new-picker.html\nComments URL: https://news.ycombinator.com/item?id=30199642\nPoints: 2\n# Comments: 0",
+          "link": "https://blog.chromium.org/2022/02/chrome-99-css-cascade-layers-new-picker.html",
+          "publishedOn": "2022-02-03T22:03:09.000Z",
+          "wordCount": 2346,
+          "title": "Chrome 99: CSS Cascade Layers, a New Picker for Input Elements, and More"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30195154",
+          "author": "html5web",
+          "description": "Article URL: https://codepen.io/samarkandiy/full/RwjREve\nComments URL: https://news.ycombinator.com/item?id=30195154\nPoints: 2\n# Comments: 0",
+          "link": "https://codepen.io/samarkandiy/full/RwjREve",
+          "publishedOn": "2022-02-03T17:10:04.000Z",
+          "wordCount": null,
+          "title": "Neumorphism in CSS"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30194794",
+          "author": "pankajparashar",
+          "description": "Article URL: https://css-tricks.com/thierry-koblentz-atomic-css/\nComments URL: https://news.ycombinator.com/item?id=30194794\nPoints: 3\n# Comments: 0",
+          "link": "https://css-tricks.com/thierry-koblentz-atomic-css/",
+          "publishedOn": "2022-02-03T16:47:21.000Z",
+          "wordCount": 3458,
+          "title": "Making of Atomic CSS – Interview with Thierry Koblentz"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30191729",
+          "author": "skilled",
+          "description": "Article URL: https://www.leemeichin.com/posts/yes-i-can-connect-to-a-db-in-css.html\nComments URL: https://news.ycombinator.com/item?id=30191729\nPoints: 493\n# Comments: 128",
+          "link": "https://www.leemeichin.com/posts/yes-i-can-connect-to-a-db-in-css.html",
+          "publishedOn": "2022-02-03T12:44:35.000Z",
+          "wordCount": 1813,
+          "title": "Yes, I can connect to a DB in CSS"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30174893",
           "author": "robin_reala",
@@ -5922,15 +6004,6 @@
           "publishedOn": "2022-01-05T17:00:45.000Z",
           "wordCount": 433,
           "title": "Neutralinojs: Lightweight cross-platform desktop apps with JavaScript, HTML, CSS"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29794518",
-          "author": "willemlabu",
-          "description": "Article URL: https://csstracking.dev/\nComments URL: https://news.ycombinator.com/item?id=29794518\nPoints: 44\n# Comments: 3",
-          "link": "https://csstracking.dev/",
-          "publishedOn": "2022-01-04T13:36:11.000Z",
-          "wordCount": 608,
-          "title": "Browser fingerprinting using only CSS"
         }
       ]
     },
@@ -5939,6 +6012,24 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30195048",
+          "author": "welfvonhoeren",
+          "description": "Article URL: https://nesslabs.com/potential-featured-tool\nComments URL: https://news.ycombinator.com/item?id=30195048\nPoints: 1\n# Comments: 0",
+          "link": "https://nesslabs.com/potential-featured-tool",
+          "publishedOn": "2022-02-03T17:03:13.000Z",
+          "wordCount": 2073,
+          "title": "Next-Gen Habit Tracker"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30191458",
+          "author": "CapitalistCartr",
+          "description": "Article URL: https://www.lesswrong.com/posts/yGDWpFBDh5xE8uhd3/an-experiment-in-habit-changing-5-week-retrospective\nComments URL: https://news.ycombinator.com/item?id=30191458\nPoints: 2\n# Comments: 0",
+          "link": "https://www.lesswrong.com/posts/yGDWpFBDh5xE8uhd3/an-experiment-in-habit-changing-5-week-retrospective",
+          "publishedOn": "2022-02-03T12:12:39.000Z",
+          "wordCount": 2930,
+          "title": "An Experiment in Habit Changing – 5 Week Retrospective"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30181585",
           "author": "samiur1204",
@@ -6532,6 +6623,16 @@
           "id": "https://stratechery.com/2022/gaming-the-smiling-curve/",
           "author": "Ben Thompson",
           "description": "The spate of recent acquisitions in the gaming space — Take-Two and Zynga, Microsoft and Activision, and Sony and Bungie — make sense in the context of the Smiling Curve.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9nYW1pbmctdGhlLXNtaWxpbmctY3VydmUv.bfsygrM35Dg5qogkFnFac6KuXBDlcZB60F_sb4FCzTANza2SYrP-6BzhnBKg2cD7oLYkvfQAjvJWQHTOopFYdMiAM1_rhQPx2W1jew6Hv5ZcBAy2hH4Fa_V3AuqDxNCraoSw6TFVe_a1x5_9OBNlsXVf30ShkBfiRgdE_brP24sk8Oj5jjlXstHPpp8VZDepNygPhTy61xY5fgGsJdulleUCRIiLYq6Yee6bSTRRSewY2Qj2mokx76YgXHgxzBb6ubMbLCpJVQyBgCxfjGjvLJPVpKvCRydtK9WWJDB9ZEk6XVuxQwHsWZaW2DEq7D64VwSPVtMThU1i-0LlsxSHZQ",
+          "publishedOn": "2022-02-01T12:45:53.000Z",
+          "wordCount": null,
+          "title": "Gaming the Smiling Curve",
+          "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2022/gaming-the-smiling-curve/",
+          "author": "Ben Thompson",
+          "description": "The spate of recent acquisitions in the gaming space — Take-Two and Zynga, Microsoft and Activision, and Sony and Bungie — make sense in the context of the Smiling Curve.",
           "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9nYW1pbmctdGhlLXNtaWxpbmctY3VydmUv.c4nE8rGDZ76X35f99zFysTOTpWvwX83jrDt9L_zc8sjbflG0COt_IASOhg4zp2jd4ARYW51ZGgZ4kZfkL2nwUL0CxK8Dgots0qpPNcgF8EVE3MDqBVZd0OSzW2_9k3COvMsScrmDl7KOLg7E1RFwQJkSOJYBb848-6tIhGbWt-kd9EIX1PCtgf31eAHq0r32LiaRQXXKrmndKNQ-5HxPSZX1iabZRBEGNyVuFpaGvPMB0ONjdg1rrh_Qxg0gtt6DniEPZXptCvoEsI1IxQ8f-ZoNUuX2n9ombuxmT9Rqjl7sA5wPDANEidFGa_VnR3PszTKEeW9-YpZtPisE8CfSyA",
           "publishedOn": "2022-02-01T12:45:53.000Z",
           "wordCount": null,
@@ -6546,6 +6647,16 @@
           "publishedOn": "2022-02-01T12:45:53.000Z",
           "wordCount": null,
           "title": "Gaming the Smiling Curve",
+          "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2022/the-intel-split/",
+          "author": "Ben Thompson",
+          "description": "It appears that Intel's partnership with TSMC is much larger than it first seemed; the implications for Intel as whole are massive.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi90aGUtaW50ZWwtc3BsaXQv.Q0mUM7Yj8iwNZjQly15H7W_NRJU-qkC5fO2TlJH9DU4Ci3CK-jYWRwVPEbADoqf4D2rWa4PJm88Njd7gj1vBF2coWNTvRchQChctQ4YJW3Db-v-C6hlNC7X2jz4-AdhI4F-kF5pfxiyZfrjAkrz-Zj6TczHCR0ZvCg8iJ3nmghGSLKJKPOeQRZVb2f7b9gOBi3ToFqiIv_y6i4UkAtUgjlAufR6Ypztvzmk2_tgWQ0B-MK_KeYz9VfGm8VUjsJp9Rl5OiWiNat87dm9Hy19bKOFojOGQDhd1qWgP3IBsh10wEedoCayVJsIs0ZIQyxdFI4k8jgp8R0anVinZlOuy0w",
+          "publishedOn": "2022-01-18T14:13:49.000Z",
+          "wordCount": null,
+          "title": "The Intel Split",
           "itunes": {}
         },
         {
@@ -6706,6 +6817,16 @@
           "publishedOn": "2022-01-18T14:13:49.000Z",
           "wordCount": null,
           "title": "The Intel Split",
+          "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2022/opensea-raises-money-bans-nfts-openseas-value-cryptos-aggregators/",
+          "author": "Ben Thompson",
+          "description": "OpenSea is positioned as another Aggregator, which is evidence that Web 3 is a layer on top of the Internet, not a replacement.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9vcGVuc2VhLXJhaXNlcy1tb25leS1iYW5zLW5mdHMtb3BlbnNlYXMtdmFsdWUtY3J5cHRvcy1hZ2dyZWdhdG9ycy8.AuqiDDzxizdQd14LMfaT-4BSqEdj5-6sdNnfY5ZbjXFJrcUahiC3JusVWG3Xurb38e9OI6BrcyDwcEEmLw-7X_DOnF19QzEWJ513h7MSaCUqVIZer_YJ45dxDPyQd1Y-tfISsjw_S8C72Rlhj7tTymPMkYYhwkGWpH_bz8MV2IEzFd5dFcUB245ZlCw1_bFWoZPZgP8MNcFsD1xdzcjOy2fTFajejYfjUYtK5wVVXo2TcV_yMk1enu6dnWp5y5ZJ3_LjinyhmLwGsUqYs7ZZ0MBWh0rLMu5CmLB2YqZDeXz3kQvVZrBQuzuo5fNjXM-0m6N4rO8G-0Hbse6tkAF3Nw",
+          "publishedOn": "2022-01-05T13:56:03.000Z",
+          "wordCount": null,
+          "title": "OpenSea, Web3, and Aggregation Theory",
           "itunes": {}
         },
         {
@@ -6935,6 +7056,15 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=42266",
+          "author": "Seth Godin",
+          "description": "Oh, did we just say that? Every day is the same if you let it. Of course, spiders, dogs and walruses prefer if the world doesn’t change. But humans are different. Change is fuel for growth and possibility. It’s easy to lull ourselves into a media-fueled commercial stupor, digging an ever-deeper rut. Same job, same […]",
+          "link": "https://seths.blog/2022/02/happy-groundhogs-day/",
+          "publishedOn": "2022-02-03T09:36:00.000Z",
+          "wordCount": 228,
+          "title": "Happy groundhog’s day"
+        },
         {
           "id": "https://seths.blog/?p=41325",
           "author": "Seth Godin",
@@ -7195,15 +7325,6 @@
           "publishedOn": "2022-01-06T09:46:00.000Z",
           "wordCount": 266,
           "title": "Shipping creative work"
-        },
-        {
-          "id": "https://seths.blog/?p=41203",
-          "author": "Seth Godin",
-          "description": "Laser guns don’t make noise. At least in real life. In the movies, they always do. Phasers and ray guns and light sabers all manage to make distinctive sounds. And we don’t mind. In fact, we expect them to. The foley artist works overtime to create sounds that amplify our experience and fill in the […]",
-          "link": "https://seths.blog/2022/01/laser-noise/",
-          "publishedOn": "2022-01-05T10:10:00.000Z",
-          "wordCount": 203,
-          "title": "Laser noise"
         }
       ]
     },
@@ -7212,6 +7333,51 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "wp8ARkZgXwj9W3Q9d",
+          "author": "@swyx",
+          "description": "Discussing the 2022 migration of swyx.io to SvelteKit and GitHub Issues.",
+          "link": "https://www.swyx.io/rewrite-2022/",
+          "publishedOn": "2022-02-03T05:56:24.000Z",
+          "wordCount": 546,
+          "title": "The Swyx.io 2022 Rewrite"
+        },
+        {
+          "id": "DXGfXGxTfBNXEnFLG",
+          "author": "@JudaRonen",
+          "description": "A multilingual ever-growing list of Wordles from all over the world.",
+          "link": "https://rwmpelstilzchen.gitlab.io/wordles/",
+          "publishedOn": "2022-02-03T05:54:12.000Z",
+          "wordCount": 2659,
+          "title": "Wordles of the World"
+        },
+        {
+          "id": "ygJZbYExcPeLtMdmp",
+          "author": "@ffffffuel",
+          "description": "A simple drawing tool that makes it easy to freehand draw SVGs that have a hand-drawn style.",
+          "link": "https://fffuel.co/dddraw/",
+          "publishedOn": "2022-02-03T05:52:58.000Z",
+          "wordCount": 360,
+          "title": "Freehand SVG drawing tool"
+        },
+        {
+          "id": "mRHJuRhQhbFjP8HX4",
+          "author": "@linear",
+          "description": "The systematic thinking in our industry is that settings are the result of design failure.",
+          "link": "https://linear.app/blog/settings-are-not-a-design-failure",
+          "publishedOn": "2022-02-03T05:51:15.000Z",
+          "wordCount": 854,
+          "title": "Settings are not a design failure"
+        },
+        {
+          "id": "LB2d2cMDDxTMXTdQZ",
+          "author": "@californiaodi",
+          "description": "A new design system aiming to make it easy for state digital teams to build accessible, consistent, and performant services and products.",
+          "link": "https://designsystem.webstandards.ca.gov/",
+          "publishedOn": "2022-02-03T05:40:11.000Z",
+          "wordCount": 428,
+          "title": "California Design System"
+        },
         {
           "id": "Xt7enNF9zbrPQWYSF",
           "author": "@_geekculture_",
@@ -8111,51 +8277,6 @@
           "publishedOn": "2022-01-06T00:06:14.000Z",
           "wordCount": 2808,
           "title": "How-to: Accessible heading structure"
-        },
-        {
-          "id": "YR49Ds28DbuAwmiBo",
-          "author": "@mappletons",
-          "description": "A history of our metaphorical understanding of the web.",
-          "link": "https://maggieappleton.com/metaphors-web",
-          "publishedOn": "2022-01-05T04:51:06.000Z",
-          "wordCount": 1011,
-          "title": "Metaphors We Web By"
-        },
-        {
-          "id": "DuXPwZ5smYQKkQQwT",
-          "author": "@logodesignlove",
-          "description": "Made by James is the logo book by designer James Martin. A personal guide to logo design aimed at those just getting started.",
-          "link": "https://www.logodesignlove.com/made-by-james",
-          "publishedOn": "2022-01-05T04:48:44.000Z",
-          "wordCount": 293,
-          "title": "Made by James"
-        },
-        {
-          "id": "e8jtbPSu6wibRbDvP",
-          "author": "@itsnicethat",
-          "description": "From gooey blobs in 3D art to posters and album covers drenched in intense, eye-searing colours, some trends had a big 2021.",
-          "link": "https://www.itsnicethat.com/features/forward-thinking-five-design-trends-creative-industry-040122",
-          "publishedOn": "2022-01-05T04:46:21.000Z",
-          "wordCount": 2017,
-          "title": "Five design trends set to visually shape 2022"
-        },
-        {
-          "id": "7W7Nowp6ZbZkiNzrm",
-          "author": "@thedailyheller",
-          "description": "For over 50 years, Ootje Oxenaar took pleasure in redrawing the spines of books on his shelves.",
-          "link": "https://www.printmag.com/daily-heller/the-daily-heller-spinal-tap/",
-          "publishedOn": "2022-01-05T04:27:05.000Z",
-          "wordCount": 638,
-          "title": "The Daily Heller: Spinal Tap"
-        },
-        {
-          "id": "YPC32hiMv34QN4gC7",
-          "author": "@maartenzam",
-          "description": "The year in visual stories, graphics maps and satellite images",
-          "link": "https://www.maartenlambrechts.com/2021/12/29/the-list-of-2021-visualization-lists.html",
-          "publishedOn": "2022-01-05T04:21:33.000Z",
-          "wordCount": 264,
-          "title": "The list of 2021 visualization lists"
         }
       ]
     },
@@ -8302,15 +8423,6 @@
           "publishedOn": "2022-01-12T06:38:18.000Z",
           "wordCount": 1683,
           "title": "Scroll to top: Does it need to be accessible?"
-        },
-        {
-          "id": "https://www.digitala11y.com/?p=14913",
-          "author": "sathish kumar",
-          "description": "With so many laws, accessibility guidelines, accessibility programs and accessibility driving organizations in the digital landscape, Has the state of accessibility improved? I will leave this question unanswered for now. However, the yearend report for 2021 on ADA digital accessibility published by UsableNet will throw some light on the state of digital accessibility till now...",
-          "link": "https://www.digitala11y.com/ada-digital-accessibility-lawsuits-2021-our-takeaway/",
-          "publishedOn": "2022-01-05T11:28:29.000Z",
-          "wordCount": 1719,
-          "title": "ADA Digital Accessibility Lawsuits 2021: Our takeaway"
         }
       ]
     },
@@ -8384,6 +8496,20 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/02/reducing-web-carbon-footprint-optimizing-social-media-embeds/",
+          "author": "hello@smashingmagazine.com (Michelle Barker)",
+          "description": "In this article, we’ll look specifically at what we can do to reduce the impact of social media embeds and social sharing widgets — or even some strategies to avoid them altogether. While the spotlight is on reducing the environmental impact, many of these tips will be great for performance too.",
+          "link": "https://smashingmagazine.com/2022/02/reducing-web-carbon-footprint-optimizing-social-media-embeds/",
+          "publishedOn": "2022-02-03T12:00:00.000Z",
+          "wordCount": 2558,
+          "title": "Reducing The Web’s Carbon Footprint: Optimizing Social Media Embeds",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/686a0218-bea0-4a0e-a2b9-aca40c29d412/reducing-web-carbon-footprint-optimizing-social-media-embeds.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          }
+        },
         {
           "id": "https://smashingmagazine.com/2022/02/javascript-bundle-performance-code-splitting/",
           "author": "hello@smashingmagazine.com (Adrian Bece)",
@@ -8687,6 +8813,15 @@
       "siteUrl": "https://zenhabits.net",
       "articles": [
         {
+          "id": "https://zenhabits.net/?p=21015",
+          "author": "zenhabits",
+          "description": "By Leo Babauta I’ve found that nearly all of us make things harder and more complicated, by adding a mental layer of difficulty. We make simple things complicated: Overwhelm: Doing one task at a time is pretty simple, but we get overwhelmed by all the things. We think about an entire list of things that […]\nThe post Simplifying Our Mental View appeared first on zen habits.",
+          "link": "https://zenhabits.net/layers/",
+          "publishedOn": "2022-02-03T17:13:44.000Z",
+          "wordCount": 639,
+          "title": "Simplifying Our Mental View"
+        },
+        {
           "id": "https://zenhabits.net/?p=21011",
           "author": "zenhabits",
           "description": "By Leo Babauta When we’re feeling some inner resistance to a task, we tend to put it off — check email, social media, our favorite distractions or busywork. We all do it. We often turn it into something bad: I suck for not being disciplined, I suck for not being able to focus, I’m not […]\nThe post Working with Your Inner Resistance appeared first on zen habits.",
@@ -8773,15 +8908,6 @@
           "publishedOn": "2022-01-05T21:31:17.000Z",
           "wordCount": 387,
           "title": "Faith in eventually"
-        },
-        {
-          "id": "https://world.hey.com/jason/why-the-hell-not-8d2c8fbf",
-          "author": null,
-          "description": "Whenever I dive into something new, I try to find at least one “why the hell not?” moment. And when I can, I try to leave evidence of that moment in whatever it is that I’m building.\n\nWhen we launched our company (37signals) back in 1999, we launched a black and white, text-only site without a single piece of portfolio work to be found. All the other agencies we were competing with had very flashy pages, loaded with pictures of their work. So why black and white and text only? Because why the hell not lead with ideas rather than compete on pictures? We thought it could be better that way. It worked out well for us.\n\nOne of my favorite why the hell not moments was when we were writing REWORK. One of the things that always bugs me about paper books is that you have to leaf through a dozen or…",
-          "link": "https://world.hey.com/jason/why-the-hell-not-8d2c8fbf",
-          "publishedOn": "2022-01-04T21:23:17.000Z",
-          "wordCount": 475,
-          "title": "Why the hell not?"
         }
       ]
     },
@@ -8790,6 +8916,15 @@
       "feedUrl": "https://world.hey.com/dhh/feed.atom",
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
+        {
+          "id": "https://world.hey.com/dhh/the-second-hand-stress-of-social-media-26178dd0",
+          "author": null,
+          "description": "I'd been an active combatant in the arena of social media for so long that I thought the baseline stress it produced was mainly due to the direct involvement. Over the past ten-plus years, rarely did I go a week without getting into some sort of heated argument with strangers online. But since retiring from the back-and-forth, it's clear that active involvement is not required for social media to produce a stress response. Passive exposure surely does too it.\nThis is most apparent when you take a prolonged break. Take a couple of weeks off scrolling through your feed, then return, and I'd be surprised if you aren't aghast at what it feels like. The tolerance you built up from years of exposure to these rivers of unhappy, resentful, angry exchanges wanes remarkably quickly, and when you throw yourself back in without that tolerance, it's a shock to the system.\nThat shock isn't the problem, though. It's the solution. It's your body telling you just how unhealthy soaking your mind in these flows actually is. The problem is the tolerance because it allows you to cope with the constant exposure. Meanwhile all that cortisol is flowing through veins, producing everything from ulcers to heart disease.\nI think most people already know this, but I don't think we have any idea of how bad it really is. I wouldn't be surprised if the effects of second-hand stress from social media is worse than the second-hand stress from smoking in many developed countries. That's a longitudinal study I'd love to see. (Blessed be those selected for the control group!)",
+          "link": "https://world.hey.com/dhh/the-second-hand-stress-of-social-media-26178dd0",
+          "publishedOn": "2022-02-03T10:14:05.000Z",
+          "wordCount": 306,
+          "title": "The second-hand stress of social media"
+        },
         {
           "id": "https://world.hey.com/dhh/the-infuriating-ease-of-rogan-s-popularity-625e4cf0",
           "author": null,
@@ -8969,15 +9104,6 @@
           "publishedOn": "2022-01-06T00:05:15.000Z",
           "wordCount": 693,
           "title": "It's harder hiring managers"
-        },
-        {
-          "id": "https://world.hey.com/dhh/it-could-be-worse-3833156b",
-          "author": null,
-          "description": "I grew up with persistent reminders of how any bad thing that happened could easily have been worse. Oh, you scraped your knee? It could be worse, you could have broken your leg! Oh, you broke your leg? It could be worse, you could have cracked your skull! Oh, you cracked your skull? It could be worse, you could have died!\nIt wasn't just about physical setbacks either, but the social and mental ones too. Things inside of my control, things outside of my control. The way to make those setbacks and the inevitable suffering in life bearable was to constantly remind yourself that... it could be worse!\nAny student of Stoicism will recognize this pattern of mental fortification. It's closely related to negative visualization, just with a different timing. The underlying premise is the essence of Stoicism: We suffer more in our mind than in reality. And the ultimate resilience to face the struggles of living lies in controlling our reactions to the things that happen. Our reactions are not given. They can be changed.\nI wish there was more of that today. More \"it could be worse\". Less \"this is the worst thing ever\".",
-          "link": "https://world.hey.com/dhh/it-could-be-worse-3833156b",
-          "publishedOn": "2022-01-04T23:57:17.000Z",
-          "wordCount": 237,
-          "title": "It could be worse"
         }
       ]
     }
