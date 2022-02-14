@@ -360,6 +360,16 @@
       "siteUrl": "https://css-irl.info/rss.xml/",
       "articles": [
         {
+          "id": "https://css-irl.info/i-finally-installed-an-ad-blocker/",
+          "author": null,
+          "description": "It might be unusual for a web developer, but up until recently I’d never had an ad blocker installed. I use Firefox as my main browser, which claims to protect privacy by blocking trackers. And to be honest, I don’t read a lot of articles on desktop, preferring to read the news on mobile while I’m on the go. While you might get one or two pop-ups on mobile, the area available for them is clearly a lot smaller, and I generally find the browsing experience for many of the sites I regularly visit is OK.\nMost of the sites I do visit on desktop are for my day-to-day job, or research for this blog, and are built with developers as the target audience. I haven’t noticed any/many annoying popups or slow-loading pages on these sites, probably because I know which sites can be trusted to provide qua…",
+          "link": "https://css-irl.info/i-finally-installed-an-ad-blocker/",
+          "publishedOn": "2022-02-13T00:00:00.000Z",
+          "wordCount": 664,
+          "title": "I Finally Installed an Ad Blocker",
+          "imageUrl": "https://css-irl.info/social_1200x630.png"
+        },
+        {
           "id": "https://css-irl.info/aspect-ratio-is-great/",
           "author": null,
           "description": "Maybe it’s just me, but I feel like a lot of the time learning new CSS features doesn’t involve just learning a what a single property does, more like getting to grips with a collection of properties and how they work together — even learning a whole specification. That’s certainly not a complaint from me: it makes sense to consider properties as part of an ecosystem. But I have to confess, I love it when a new CSS property lands in browsers that doesn’t have a steep learning curve and just works, with no fuss. The aspect-ratio property hits all the right spots there, neatly solving with a single line of CSS something that was, quite frankly, a bit of faff before. It’s been supported in browsers for going on a year now, but with Safari finally catching up in September 2021, we can finally …",
@@ -833,33 +843,6 @@
           "publishedOn": "2022-01-17T15:13:26.000Z",
           "wordCount": 6239,
           "title": "What Were the Hottest Front-End Tools in 2021?"
-        },
-        {
-          "id": "https://css-tricks.com/?p=360928",
-          "author": "Chris Coyier",
-          "description": "Stoyan is absolutely correct. As much as we all love CSS, it’s still an important player in how websites load and using less of it is a good thing. He has a neat new bookmarklet called CSS Me Not …\nUsing the CSS Me Not Bookmarklet to See (and Disable) CSS Files originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/css-me-not-bookmarklet/",
-          "publishedOn": "2022-01-15T00:06:56.000Z",
-          "wordCount": 911,
-          "title": "Using the CSS Me Not Bookmarklet to See (and Disable) CSS Files"
-        },
-        {
-          "id": "https://css-tricks.com/?p=360864",
-          "author": "Chris Coyier",
-          "description": "Mondrian is famous for paintings with big thick black lines forming a grid, where each cell is white, red, yellow, or blue. This aesthetic pairs well with the notoriously rectangular web, and that hasn’t gone unnoticed over the years with …\nMondrian Art in CSS From 5 Code Artists originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/mondrian-art-in-css-from-5-code-artists/",
-          "publishedOn": "2022-01-14T18:15:03.000Z",
-          "wordCount": 843,
-          "title": "Mondrian Art in CSS From 5 Code Artists"
-        },
-        {
-          "id": "https://css-tricks.com/?p=360781",
-          "author": "Austin Crim",
-          "description": "The Svelte transition API provides a first-class way to animate your components when they enter or leave the document, including custom Svelte transitions. By default, the transition directive uses CSS animations, which generally offer better performance and allow the browser’s …\nHow to Build Your First Custom Svelte Transition originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/making-your-first-custom-svelte-transition/",
-          "publishedOn": "2022-01-14T15:24:19.000Z",
-          "wordCount": 1571,
-          "title": "How to Build Your First Custom Svelte Transition"
         }
       ]
     },
@@ -1371,6 +1354,16 @@
       "siteUrl": "https://daveceddia.com",
       "articles": [
         {
+          "id": "https://daveceddia.com/svelte-store-in-rust/",
+          "author": null,
+          "description": "We’re going to build a Svelte store, written in Rust, and run it in an Electron app.\nThis spun out of a video editor which I originally built in Swift. It turns out people on Windows want to edit videos too, so now I’m rewriting it with Rust, Electron, and Svelte with an eye for performance.\nRust is a systems programming language, akin to C or C++, but safer. It’s known for being super fast.\nElectron is a framework for building cross-platform desktop apps with HTML, CSS, and JavaScript. It’s known for being kinda slow and bloaty. But there’s an ace up its sleeve: Electron apps can be extended with compiled native code, and if you do the heavy stuff in native code you can a nice speed boost.\nSvelte is a JavaScript UI framework – an alternative to React, Vue, Angular, or one of the other 750…",
+          "link": "https://daveceddia.com/svelte-store-in-rust/",
+          "publishedOn": "2022-02-13T14:58:10.000Z",
+          "wordCount": 3159,
+          "title": "Implementing A Svelte Store In Rust",
+          "imageUrl": "https://daveceddia.com/images/svelte-store-in-rust.png"
+        },
+        {
           "id": "https://daveceddia.com/interview-questions-to-ask-company/",
           "author": null,
           "description": "On Twitter, Kyle Shevlin was talking about how at the end of a software engineering interview, they’ll often offer a painfully-small amount of time to ask some of your own questions.\nThe worst part is, I often just blank in the 5 minute question time. I’ll come up with something because I’m good on my feet, but deep down it feels ineffectual. I’m not getting what I need in that time period, so let me just use the bathroom before the next interview.\n— @kyleshevlin\nI mentioned that I had a go-to list of questions that I literally printed and brought with me, and would bring out during this 5-minute lightning round. I definitely felt like a huge nerd pulling a set of printed questions out of a binder.\nBut it turned out to be really helpful, and at a couple of these interviews, my interviewer …",
@@ -1815,6 +1808,16 @@
       "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
       "articles": [
         {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.13.0",
+          "author": null,
+          "description": "New: Thumbnail image display for each article\nNew: Improved color, spacing, and typography for easier reading\nNew: Click the date to toggle all accordions on that day. Ctrl + Click to toggle all accordions on the entire site.\nChanged: All sections are expanded by default\nChanged: Switched to vitest for easier testing\nFixed: Long string (e.g. URL) caused horizontal overflow\nThank you: @naari3, @tianheg",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.13.0",
+          "publishedOn": "2022-02-13T05:05:17.000Z",
+          "wordCount": 342,
+          "title": "v1.13.0",
+          "imageUrl": "https://opengraph.githubassets.com/fc77c41c87b2cd4d8990f4c940e0ddf681667b6b6e4363b0f609861b7ae5b6d8/osmoscraft/osmosfeed/releases/tag/v1.13.0"
+        },
+        {
           "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.12.1",
           "author": null,
           "description": "Fixed: Future articles appeared in the feed\nFxied: Security vulnerability from axios\nThank you: @naari3",
@@ -2009,15 +2012,6 @@
           "publishedOn": "2022-01-17T15:30:00.000Z",
           "wordCount": 585,
           "title": "The best way to learn JavaScript in 2022"
-        },
-        {
-          "id": "https://gomakethings.com/how-i-record-my-vanilla-js-video-courses/",
-          "author": null,
-          "description": "Yesterday, one of my students asked me how I record my JavaScript video courses and workshop lessons.\nToday, I wanted to share both my technical setup and general approach to making videos. Let’s dig in!\nScreen recording I use Screenflow for screen recording.\nIt’s macOS only. If you’re feeling cheap, you can also just use QuickTime, but I found that makes my fans spin like crazy. Screenflow also has some great editing features, including easy cropping and zooming, noise isolation, and so on.",
-          "link": "https://gomakethings.com/how-i-record-my-vanilla-js-video-courses/",
-          "publishedOn": "2022-01-14T15:30:00.000Z",
-          "wordCount": 1191,
-          "title": "How I record my vanilla JS video courses"
         }
       ]
     },
@@ -2690,6 +2684,46 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30324435",
+          "author": "pierrebarre",
+          "description": "Article URL: https://barre.sh/wasteful-by-design/\nComments URL: https://news.ycombinator.com/item?id=30324435\nPoints: 11\n# Comments: 1",
+          "link": "https://barre.sh/wasteful-by-design/",
+          "publishedOn": "2022-02-13T18:55:55.000Z",
+          "wordCount": 572,
+          "title": "Wasteful by Design",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30323767",
+          "author": "_448",
+          "description": "Do you first develop design/architecture for your software and then start coding, or do you code and refactor as you go along and the design then evolves for it?\nComments URL: https://news.ycombinator.com/item?id=30323767\nPoints: 6\n# Comments: 16",
+          "link": "https://news.ycombinator.com/item?id=30323767",
+          "publishedOn": "2022-02-13T17:54:00.000Z",
+          "wordCount": 1666,
+          "title": "Ask HN: Does your software evolve out of your design, or is it the other way?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30322778",
+          "author": "mikrozone",
+          "description": "Article URL: https://circuitmaker.com:443/Projects/Details/SKRouter/A100W\nComments URL: https://news.ycombinator.com/item?id=30322778\nPoints: 3\n# Comments: 0",
+          "link": "https://circuitmaker.com:443/Projects/Details/SKRouter/A100W",
+          "publishedOn": "2022-02-13T16:20:17.000Z",
+          "wordCount": 560,
+          "title": "“Retro” PCB design using CircuitMaker? Yes! It can do it!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30319799",
+          "author": "mangala_murti",
+          "description": "Article URL: https://web.archive.org/web/20090831073107/http://www.visi.com/~snowfall/notebook.html\nComments URL: https://news.ycombinator.com/item?id=30319799\nPoints: 37\n# Comments: 7",
+          "link": "https://web.archive.org/web/20090831073107/http://www.visi.com/~snowfall/notebook.html",
+          "publishedOn": "2022-02-13T06:39:09.000Z",
+          "wordCount": 7237,
+          "title": "Design and Long-Term Use of a Personal Electronic Notebook: Reflective Analysis (1996)",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30308259",
           "author": "tomtung",
@@ -4057,24 +4091,6 @@
           "publishedOn": "2022-01-15T14:00:17.000Z",
           "wordCount": 114,
           "title": "Ask HN: What is your goto project for learning new framework, PL, or design?"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29942355",
-          "author": "tentacleuno",
-          "description": "Article URL: https://gitlab.gnome.org/Teams/Design/whiteboards/-/issues\nComments URL: https://news.ycombinator.com/item?id=29942355\nPoints: 5\n# Comments: 0",
-          "link": "https://gitlab.gnome.org/Teams/Design/whiteboards/-/issues",
-          "publishedOn": "2022-01-15T00:29:58.000Z",
-          "wordCount": 596,
-          "title": "GNOME Design Whiteboards"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29936212",
-          "author": "colinprince",
-          "description": "Article URL: https://mjtsai.com/blog/2021/12/10/abrahams-on-the-design-of-swift/\nComments URL: https://news.ycombinator.com/item?id=29936212\nPoints: 1\n# Comments: 0",
-          "link": "https://mjtsai.com/blog/2021/12/10/abrahams-on-the-design-of-swift/",
-          "publishedOn": "2022-01-14T16:10:09.000Z",
-          "wordCount": 1724,
-          "title": "Abrahams on the Design of Swift"
         }
       ]
     },
@@ -4083,6 +4099,36 @@
       "feedUrl": "https://hnrss.org/newest?q=react+OR+reactjs+OR+svelte+OR+sveltejs",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30322210",
+          "author": "panching",
+          "description": "Article URL: https://jpgparapng.com/\nComments URL: https://news.ycombinator.com/item?id=30322210\nPoints: 1\n# Comments: 0",
+          "link": "https://jpgparapng.com/",
+          "publishedOn": "2022-02-13T15:19:20.000Z",
+          "wordCount": 53,
+          "title": "Show HN: JPG to PNG Converter [ React App]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30320730",
+          "author": "asleMammad",
+          "description": "Article URL: https://github.com/Aslemammad/react-worker-components-plugin\nComments URL: https://news.ycombinator.com/item?id=30320730\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/Aslemammad/react-worker-components-plugin",
+          "publishedOn": "2022-02-13T10:21:50.000Z",
+          "wordCount": 718,
+          "title": "React-worker-components-plugin: React components in the Worker thread",
+          "imageUrl": "https://opengraph.githubassets.com/a4c7a480995dad3fac9c918bb07c8fe9cdb6243cdec4dc377573ce2d49647e1c/Aslemammad/react-worker-components-plugin"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30320549",
+          "author": "tadeaspetak",
+          "description": "Article URL: https://medium.com/@tadeaspetak/react-hooks-optimisation-8da478ded16d\nComments URL: https://news.ycombinator.com/item?id=30320549\nPoints: 3\n# Comments: 1",
+          "link": "https://medium.com/@tadeaspetak/react-hooks-optimisation-8da478ded16d",
+          "publishedOn": "2022-02-13T09:42:26.000Z",
+          "wordCount": 1614,
+          "title": "React: Hooks and Optimisation",
+          "imageUrl": "https://miro.medium.com/max/1200/1*frMpRfLabQkiWp6BFE8Kng.jpeg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30317097",
           "author": "ganderzz",
@@ -4901,69 +4947,6 @@
           "publishedOn": "2022-01-16T14:09:31.000Z",
           "wordCount": 1886,
           "title": "React Component Design Patterns You Should Know About"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29944656",
-          "author": "ammarahmed6506",
-          "description": "Article URL: https://blog.notesnook.com/scoped-storage-in-react-native/\nComments URL: https://news.ycombinator.com/item?id=29944656\nPoints: 4\n# Comments: 2",
-          "link": "https://blog.notesnook.com/scoped-storage-in-react-native/",
-          "publishedOn": "2022-01-15T08:02:56.000Z",
-          "wordCount": 1258,
-          "title": "Scoped Storage in React Native: New Android 10 API for File System Access"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29942388",
-          "author": "gardnr",
-          "description": "Article URL: https://gist.github.com/gardner/e9eef681a1871f4572e9ceeb96a8d27b\nComments URL: https://news.ycombinator.com/item?id=29942388\nPoints: 1\n# Comments: 1",
-          "link": "https://gist.github.com/gardner/e9eef681a1871f4572e9ceeb96a8d27b",
-          "publishedOn": "2022-01-15T00:34:31.000Z",
-          "wordCount": 301,
-          "title": "Show HN: Versioning a React app in a monorepo with no tags"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29940350",
-          "author": "hu3",
-          "description": "Article URL: https://joshcollinsworth.com/blog/introducing-svelte-comparing-with-react-vue\nComments URL: https://news.ycombinator.com/item?id=29940350\nPoints: 2\n# Comments: 0",
-          "link": "https://joshcollinsworth.com/blog/introducing-svelte-comparing-with-react-vue",
-          "publishedOn": "2022-01-14T20:59:50.000Z",
-          "wordCount": 5602,
-          "title": "Introducing Svelte, and Comparing Svelte with React and Vue"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29939791",
-          "author": "webNeat",
-          "description": "Article URL: https://github.com/webNeat/react-tidy\nComments URL: https://news.ycombinator.com/item?id=29939791\nPoints: 1\n# Comments: 0",
-          "link": "https://github.com/webNeat/react-tidy",
-          "publishedOn": "2022-01-14T20:17:17.000Z",
-          "wordCount": 877,
-          "title": "A collection of atomic, typed, tested and documented React custom hooks"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29938039",
-          "author": "reactbricks",
-          "description": "Scaffold a project in one minute using the CLI `npx createreactbricks-app` and choose the Remix starters. You just need a React Bricks free account.\nComments URL: https://news.ycombinator.com/item?id=29938039\nPoints: 1\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=29938039",
-          "publishedOn": "2022-01-14T18:21:16.000Z",
-          "wordCount": 159,
-          "title": "Want to create a Blog with Remix? Now you can use React Bricks"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29937390",
-          "author": "gmaster1440",
-          "description": "Article URL: https://svelte.dev/blog/accelerating-sveltes-development\nComments URL: https://news.ycombinator.com/item?id=29937390\nPoints: 3\n# Comments: 0",
-          "link": "https://svelte.dev/blog/accelerating-sveltes-development",
-          "publishedOn": "2022-01-14T17:36:25.000Z",
-          "wordCount": 993,
-          "title": "Accelerating Svelte's Development"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29934831",
-          "author": "alexellisuk",
-          "description": "Article URL: https://reactjs.org/docs/lifting-state-up.html\nComments URL: https://news.ycombinator.com/item?id=29934831\nPoints: 2\n# Comments: 0",
-          "link": "https://reactjs.org/docs/lifting-state-up.html",
-          "publishedOn": "2022-01-14T14:31:31.000Z",
-          "wordCount": 1993,
-          "title": "React: Lifting State Up"
         }
       ]
     },
@@ -4972,6 +4955,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30325601",
+          "author": "paltman",
+          "description": "Article URL: https://shades.paltman.com/\nComments URL: https://news.ycombinator.com/item?id=30325601\nPoints: 1\n# Comments: 0",
+          "link": "https://shades.paltman.com/",
+          "publishedOn": "2022-02-13T20:56:40.000Z",
+          "wordCount": 7,
+          "title": "Show HN: Shades – Generate Tailwind Shades",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30317594",
           "author": "mistermeenr",
@@ -5403,33 +5396,6 @@
           "publishedOn": "2022-01-16T01:55:40.000Z",
           "wordCount": 1696,
           "title": "Why HTML table cells won’t fit into your CSS baseline grid"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29944121",
-          "author": "thunderbong",
-          "description": "Article URL: https://watercss.kognise.dev/\nComments URL: https://news.ycombinator.com/item?id=29944121\nPoints: 1\n# Comments: 1",
-          "link": "https://watercss.kognise.dev/",
-          "publishedOn": "2022-01-15T06:29:38.000Z",
-          "wordCount": 551,
-          "title": "Water.css is a set of CSS styles to make simple websites just a little bit nicer"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29938067",
-          "author": "colewilson",
-          "description": "Article URL: https://github.com/imfunniee/htmlOS\nComments URL: https://news.ycombinator.com/item?id=29938067\nPoints: 1\n# Comments: 0",
-          "link": "https://github.com/imfunniee/htmlOS",
-          "publishedOn": "2022-01-14T18:23:24.000Z",
-          "wordCount": 352,
-          "title": "Imfunniee/htmlOS: An OS made with HTML/CSS and JavaScript"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29934546",
-          "author": "Liriel",
-          "description": "Article URL: https://thoughtbot.com/blog/an-honest-look-at-tailwind-as-an-api-for-css\nComments URL: https://news.ycombinator.com/item?id=29934546\nPoints: 1\n# Comments: 0",
-          "link": "https://thoughtbot.com/blog/an-honest-look-at-tailwind-as-an-api-for-css",
-          "publishedOn": "2022-01-14T14:09:26.000Z",
-          "wordCount": 1359,
-          "title": "An Honest Look at Tailwind as an API for CSS"
         }
       ]
     },
@@ -5438,6 +5404,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30325675",
+          "author": "hackthesystem",
+          "description": "Article URL: https://www.awelm.com/posts/eng-productivity-tools/\nComments URL: https://news.ycombinator.com/item?id=30325675\nPoints: 3\n# Comments: 0",
+          "link": "https://www.awelm.com/posts/eng-productivity-tools/",
+          "publishedOn": "2022-02-13T21:04:02.000Z",
+          "wordCount": 1092,
+          "title": "Tools That Improved My Engineering Productivity",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30306697",
           "author": "defulmere",
@@ -5833,15 +5809,6 @@
           "publishedOn": "2022-01-15T20:19:48.000Z",
           "wordCount": 824,
           "title": "What Is Underneath Productivity?"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=29934750",
-          "author": "snird",
-          "description": "This issue was raised here many times: RSS is convinient and versatile. It's mostly gone due to lack of authentication and monetization paths (ads/premium content for sign ups)\nThis lack of features led us back to email newsletters with businesses like Substack shining in it.\nYet, email is restrictive, unorganized, and its html support is cryptic at best. It also in the control of the sender (push) unlike RSS that is under the control of the receiver (pull).\nDo we have an RSS alternative that adds authentication and other features to allow for the decentralization of email, with modern features enabled by smart RSS readers?\nComments URL: https://news.ycombinator.com/item?id=29934750\nPoints: 4\n# Comments: 6",
-          "link": "https://news.ycombinator.com/item?id=29934750",
-          "publishedOn": "2022-01-14T14:25:08.000Z",
-          "wordCount": 567,
-          "title": "Ask HN: RSS with Authentication and Monetization Support?"
         }
       ]
     },
@@ -6022,6 +5989,17 @@
           "id": "https://stratechery.com/2022/digital-advertising-in-2022/",
           "author": "Ben Thompson",
           "description": "The advertising has shifted from a Google-Facebook duopoly to one where Amazon and potentially Apple are major forces.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9kaWdpdGFsLWFkdmVydGlzaW5nLWluLTIwMjIv.WiVi7SboKRRHzmwvxjGyCJpDCTBkEBmXR4o976BfbQePS10pFV_WTHLUImLamcBb1rS-TR8N24gFJbohDm6qFxXyWxX5o7YEhRILMryt8vddaoeSitW1r0tARvDaXIF9PNGZDXDZaq-fs9MS73csUOViwvJCxOaY85KNCKn3TJ3bfCHjzh_MoxLLElzqUleJWDFdTs2GSrExOkm7QL2EzA3zVRBuEXu0yQRK3S9S7G94_1HFSG4-HpGTEfC55rhv3UoY-f9qKPnNNvvnhVz3Ic_YfaghmuJ_xutx1GSS_HcpGijvrF35vvusPMTw1odR4J4X9KM47F-0hiv15T-cGw",
+          "publishedOn": "2022-02-08T14:11:41.000Z",
+          "wordCount": null,
+          "title": "Digital Advertising in 2022",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://stratechery.com/2022/digital-advertising-in-2022/",
+          "author": "Ben Thompson",
+          "description": "The advertising has shifted from a Google-Facebook duopoly to one where Amazon and potentially Apple are major forces.",
           "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9kaWdpdGFsLWFkdmVydGlzaW5nLWluLTIwMjIv.uZ5XrZgcC3I9LkBgUcDLHI0F2UB_WlbTBUAaQe_NeED0xiFlWa5uDLzn_bDrtxKwDYZaW70eax7mMTiXvoDfuXSOkYrOBOpu_OfKCMtunLEKJWyoUUq1rJzWqjT-j7ou6tcxuD3DX-vkXAC6jAM86pFXh7kG2Iv51HHc6I5H3jpyHgV70I0-JQz0jnqifrI9mRd_J2Jj6Zb4HbhQtMosuzg6P6pYLQK_Nc8NAre8E4hBRYn1IEpwpYUUDmOW4_G3Kb5b1bKzkpSNOFhVjVHoRZLN8MM6fak4f184xDlqs2IPxWUiplhHzn4NclnZZEYxAcHYueD79exjMzMV-8mrmw",
           "publishedOn": "2022-02-08T14:11:41.000Z",
           "wordCount": null,
@@ -6067,6 +6045,17 @@
           "wordCount": null,
           "title": "Digital Advertising in 2022",
           "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2022/gaming-the-smiling-curve/",
+          "author": "Ben Thompson",
+          "description": "The spate of recent acquisitions in the gaming space — Take-Two and Zynga, Microsoft and Activision, and Sony and Bungie — make sense in the context of the Smiling Curve.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9nYW1pbmctdGhlLXNtaWxpbmctY3VydmUv.EWXim6lTMfJtZ-c-mGjNSQtanpenlkoS721KI5jEUaiwufWLujMFsWezBnurj5243YG26K4_pF8zvwEJbhCCzucm80LXFHpXFF9BGiG7gXbzGDzREI26gow_tVzCCQ-gyyykMR27wa7Dezik3OXkDaz7vNAbgjSx1hBXBVDiPuybCqvds-oIX2DzWDufr7TyVkyagccjN7eJY8l-u0GWhwvdLosJhy5AShywITTj3AkEPj86qZcXCwVbcHbBfSadGQKqgJMsTGMFXkpxrJvOeYldoLAZpr56D7Xwc6wRpbz_XaAsDjtC3nCMw9XVraqlAQcRItXbUmkryZ1GVSlhfQ",
+          "publishedOn": "2022-02-01T12:45:53.000Z",
+          "wordCount": null,
+          "title": "Gaming the Smiling Curve",
+          "itunes": {},
+          "imageUrl": null
         },
         {
           "id": "https://stratechery.com/2022/gaming-the-smiling-curve/",
@@ -6177,6 +6166,17 @@
           "wordCount": null,
           "title": "Gaming the Smiling Curve",
           "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2022/the-intel-split/",
+          "author": "Ben Thompson",
+          "description": "It appears that Intel's partnership with TSMC is much larger than it first seemed; the implications for Intel as whole are massive.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi90aGUtaW50ZWwtc3BsaXQv.OUommM7c56B6IalnhM4W4UtDE5Ql67CliwlyPp2hu3pvc23c9-cpdw7C1io5jVyE6RbsvS6ssqKL_IOWs55UQm2p_152mMbvNzaq6yLqVbPxsvoU98vhhEcxg_AjNtREnnyZjCrlS0xBa8gbiSD_2q6BZWeqmr0gMPZnwMtetONjlfJEGyaHSjj65vhU3WDTHbn_89U38krKDT2yzk8F721LWRKRb_oII6XC-4FpByCaEGtUnfwQkpGG0M_Z_VF_jWrqV5kxPwrrDCWgKcmFep2GfHu89tOt3arAtOIEZ2zjvEa9oI8LLTJuxHCkRervjT_ETZR7Zo4VR-E7CZuI_w",
+          "publishedOn": "2022-01-18T14:13:49.000Z",
+          "wordCount": null,
+          "title": "The Intel Split",
+          "itunes": {},
+          "imageUrl": null
         },
         {
           "id": "https://stratechery.com/2022/the-intel-split/",
@@ -6435,6 +6435,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=42321",
+          "author": "Seth Godin",
+          "description": "It’s not the “gold.” It’s the “rush” that changes the way people behave. When consumed by a gold rush, people make decisions that they would never make on ordinary days. They trust entities, make assumptions and suspend disbelief. Not because there’s gold on the line, but because everyone else is rushing, and the fear of […]",
+          "link": "https://seths.blog/2022/02/the-thing-about-a-gold-rush/",
+          "publishedOn": "2022-02-13T09:23:00.000Z",
+          "wordCount": 232,
+          "title": "The thing about a gold rush",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=41434",
           "author": "Seth Godin",
@@ -6695,15 +6705,6 @@
           "publishedOn": "2022-01-16T09:59:00.000Z",
           "wordCount": 148,
           "title": "Who’s responsible?"
-        },
-        {
-          "id": "https://seths.blog/?p=41223",
-          "author": "Seth Godin",
-          "description": "It often comes from one of two kinds of people: People who give themselves feedback in the same heartless tone. They don’t hesitate to brutally lash out, because that’s the noise they often hear inside. And folks who honestly believe that their work is flawless. They can’t understand how anyone can else can fail to […]",
-          "link": "https://seths.blog/2022/01/harsh-feedback/",
-          "publishedOn": "2022-01-15T09:47:00.000Z",
-          "wordCount": 223,
-          "title": "Harsh feedback"
         }
       ]
     },
@@ -7728,6 +7729,16 @@
       "siteUrl": "https://writingjavascript.com",
       "articles": [
         {
+          "id": "https://writingjavascript.com/custom-element-hearts-for-valentine",
+          "author": "Fredrik Söderström",
+          "description": "Tomorrow is Valentine's Day, so what could be more fitting than making a custom valentine-hearts element for your web page?",
+          "link": "https://writingjavascript.com/custom-element-hearts-for-valentine",
+          "publishedOn": "2022-02-13T00:00:00.000Z",
+          "wordCount": 700,
+          "title": "Custom element hearts for Valentine's Day",
+          "imageUrl": "https://writingjavascript.com/custom-element-hearts-for-valentine/code-image.webp?size=open-graph"
+        },
+        {
           "id": "https://writingjavascript.com/how-do-you-create-a-custom-element",
           "author": "Fredrik Söderström",
           "description": "Custom elements are part of the Web Components standard. They allow you to extend the browser's native HTML elements or create new ones. When used well, this makes them portable and reusable in any later projects without worrying about backward compatibility or framework choices.",
@@ -8135,20 +8146,6 @@
             "length": "0",
             "type": "image/jpg"
           }
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/ten-tips-aspiring-designer-beginners-part2/",
-          "author": "hello@smashingmagazine.com (Luis Ouriach)",
-          "description": "In [Part 1](https://www.smashingmagazine.com/2022/01/ten-tips-aspiring-designer-beginners-part1/), Luis Ouriach shared advice he wished he had when starting out in his career. In this second and last part of this series, Luis continues sharing tips that helped him grow and become a better designer throughout the years.",
-          "link": "https://smashingmagazine.com/2022/01/ten-tips-aspiring-designer-beginners-part2/",
-          "publishedOn": "2022-01-14T15:00:00.000Z",
-          "wordCount": 3568,
-          "title": "Ten Tips For Aspiring Designer Beginners (Part 2)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/5b0e9621-b939-439d-a812-69a4eb7d68ff/tips-aspiring-designer-beginners-part2.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
         }
       ]
     },
@@ -8235,15 +8232,6 @@
           "publishedOn": "2022-01-28T22:11:40.000Z",
           "wordCount": 933,
           "title": "Working with Your Inner Resistance"
-        },
-        {
-          "id": "https://zenhabits.net/?p=21003",
-          "author": "zenhabits",
-          "description": "By Leo Babauta So many of us feel a scarcity of time: we feel rushed, like there’s not enough time to do everything, always behind, never feeling like we’re doing enough. This problem is called “time scarcity,” and it’s one of the most common stresses in our society. So how do we deal with this? […]\nThe post How to Make the Most of Your 24 Hours appeared first on zen habits.",
-          "link": "https://zenhabits.net/transcendent/",
-          "publishedOn": "2022-01-14T17:14:42.000Z",
-          "wordCount": 984,
-          "title": "How to Make the Most of Your 24 Hours"
         }
       ]
     },
@@ -8465,18 +8453,9 @@
           "publishedOn": "2022-01-17T09:13:42.000Z",
           "wordCount": 455,
           "title": "Case study in motivated reasoning"
-        },
-        {
-          "id": "https://world.hey.com/dhh/this-swapping-of-roles-is-making-me-dizzy-2d91d1d9",
-          "author": null,
-          "description": "Matt Taibbi wrote a great piece called The Left is Now the Right last year. It detailed how many of the tactics and thought processes anyone who came of age in the 90s would recognize as \"of the right\" are now being used by the opposite side of the political spectrum. A clip:\n\nConservatives once tried to legislate what went on in your bedroom; now it’s the left that obsesses over sexual codicils, not just for the bedroom but everywhere. Right-wingers from time to time made headlines campaigning against everything from The Last Temptation of Christ to “Fuck the Police,” though we laughed at the idea that Ice Cube made cops literally unsafe, and it was understood an artist had to do something fairly ambitious, like piss on a crucifix in public, to get conservative protesters off their couche…",
-          "link": "https://world.hey.com/dhh/this-swapping-of-roles-is-making-me-dizzy-2d91d1d9",
-          "publishedOn": "2022-01-14T13:51:31.000Z",
-          "wordCount": 700,
-          "title": "This swapping of roles is making me dizzy"
         }
       ]
     }
   ],
-  "cliVersion": "1.12.1"
+  "cliVersion": "1.13.0"
 }
