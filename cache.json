@@ -53,15 +53,6 @@
           "publishedOn": "2022-02-02T16:12:56.000Z",
           "wordCount": 1103,
           "title": "2.5.6"
-        },
-        {
-          "id": "https://adactio.com/journal/18776",
-          "author": null,
-          "description": "I wrote about how I created a page on The Session with instructions for installing the site to your home screen. When I said that I included screenshots on that page, I may have underplayed the effort involved. It was real faff.\nI’ve got an iPhone so generating screenshots (and video) from that wasn’t too bad. But I don’t have access to an Android phone. I found myself scouring the web for templates that I could use to mockup a screenshot of the address bar.\nThat got me thinking…\nWouldn’t it be cool if there were a service that generated those screenshots for you? You give it a URL, and it spits out screenshots of the site complete with overlays showing the installation flow on Android and iOS. It could even generate the img markup, complete with differently-scaled images for the srcset attribute.\nDownload the images. Copy that markup. Paste it into a page on your site. Boom! Now you’ve got somewhere to point your visitors to if you’d like them to install your progressive web app.\nThere are already some services out there for generating screenshots of mobile phones but they’re missing is the menu overlays for adding to home screen.\nThe devrels at both Google and Microsoft have been doing a great job of promoting progressive web apps. They’ve built tools to help you with tasks like generating icons or creating your web app manifest. It would be sooooo nifty if those tools also generated instructional screenshots for adding to home screen!",
-          "link": "https://adactio.com/journal/18776",
-          "publishedOn": "2022-01-20T15:22:43.000Z",
-          "wordCount": 717,
-          "title": "Screenshots"
         }
       ]
     },
@@ -338,6 +329,16 @@
       "feedUrl": "https://css-irl.info/rss.xml",
       "siteUrl": "https://css-irl.info/rss.xml/",
       "articles": [
+        {
+          "id": "https://css-irl.info/in-commission-to-no-emissions-videos-from-toronto-web-performance-meetup/",
+          "author": null,
+          "description": "Earlier this month I has the pleasure of speaking at a special green-themed edition of Toronto Web Performance Meetup (online). There were three of us speaking in all, each with a different take on how we as web developers can reduce our environmental impact.\nWeb Performance And The Planet\nFershad Irani spoke about how web performance relates to our site’s carbon emissions, and the concrete actions we can take to build our sites greener. His article analysing the COP26 website helped inspire my own article for CSS Tricks on website carbon budgets.\nWatch Fershad’s talk →\nSee the slides →\nBuilding a Greener Web\nMy own talk was about the wider context around reducing our website’s environmental impact, how we can convince stakeholders to make it a priority, and why individual action matters. I also talked about some of the things we can do beyond making our websites greener, as part of the wider community.\nWatch the talk →\nSee the slides →\nThe Carbon Footprint of Images\nJon A. Særetås talked about images on the web, and how we can reduce their environmental impact. His talk included some really interesting data, and some surprising details we don’t often consider — like the fact that many of our file live on in the cloud indefinitely, meaning they continue to consume resources.\nWatch Jon’s talk →\nSee the slides →\nYou might notice that this post avoids including YouTube embeds. I recently wrote about the environmental and performance impact of third-party embeds for Smashing Magazine. Linking to the videos instead of embedding them vastly reduced the page weight — and saves you, the user, from downloading unnecessary resources if you choose not to watch the videos!",
+          "link": "https://css-irl.info/in-commission-to-no-emissions-videos-from-toronto-web-performance-meetup/",
+          "publishedOn": "2022-02-19T00:00:00.000Z",
+          "wordCount": 349,
+          "title": "In Commission to No Emmissions: Videos from Toronto Web Performance Meetup",
+          "imageUrl": "https://css-irl.info/social_1200x630.png"
+        },
         {
           "id": "https://css-irl.info/i-finally-installed-an-ad-blocker/",
           "author": null,
@@ -806,87 +807,6 @@
           "publishedOn": "2022-01-21T14:08:05.000Z",
           "wordCount": 2104,
           "title": "Context-Aware Web Components Are Easier Than You Think"
-        },
-        {
-          "id": "https://css-tricks.com/?p=361210",
-          "author": "Josh Collinsworth",
-          "description": "(This is a sponsored post.)\nI remember vividly a period early in my coding career when I began to feel that things were changing away from what I knew, and headed towards a more complex set of tools and …\nA Complete Beginner’s Guide to npm originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/a-complete-beginners-guide-to-npm/",
-          "publishedOn": "2022-01-20T15:07:32.000Z",
-          "wordCount": 1496,
-          "title": "A Complete Beginner’s Guide to npm"
-        },
-        {
-          "id": "https://css-tricks.com/?p=361214",
-          "author": "Josh Collinsworth",
-          "description": "One of the things that makes this new, tooling-heavy era of front-end development so seemingly hard to understand at first is that, while we often call things by a singular name, they tend to be actually comprised of several different …\nWhat the Heck Does “npm” Mean? originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/a-clear-definition-of-npm-and-what-it-does/",
-          "publishedOn": "2022-01-20T15:04:15.000Z",
-          "wordCount": 1148,
-          "title": "What the Heck Does “npm” Mean?"
-        },
-        {
-          "id": "https://css-tricks.com/?p=361226",
-          "author": "Josh Collinsworth",
-          "description": "Now that we know what npm stands for and have a super general idea of what it does and how it fits into web development, we ought to spend a little bit of time looking at the command line, because …\nWhat the Heck is the Command Line? originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/a-deep-look-at-the-command-line/",
-          "publishedOn": "2022-01-20T15:04:09.000Z",
-          "wordCount": 2692,
-          "title": "What the Heck is the Command Line?"
-        },
-        {
-          "id": "https://css-tricks.com/?p=361241",
-          "author": "Josh Collinsworth",
-          "description": "(This is a sponsored post.)\nHere’s what you need to know about Node.js (or simply Node) and how it relates to npm right off the bat:\nNode is JavaScript, but as a server-side language.\nThis is possible because of \n…\nWhat the Heck is Node? originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/node-and-how-it-works-with-npm/",
-          "publishedOn": "2022-01-20T15:04:03.000Z",
-          "wordCount": 2374,
-          "title": "What the Heck is Node?"
-        },
-        {
-          "id": "https://css-tricks.com/?p=361257",
-          "author": "Josh Collinsworth",
-          "description": "If you’re keeping score, so far in this npm guide we’ve developed a general understanding of what npm is—notably, that it stands for Node Package Manager. In the process, we’ve discussed the importance of the command line and how it’s …\nWhat the Heck is a Package Manager? originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/what-the-heck-is-a-package-manager/",
-          "publishedOn": "2022-01-20T15:03:59.000Z",
-          "wordCount": 2600,
-          "title": "What the Heck is a Package Manager?"
-        },
-        {
-          "id": "https://css-tricks.com/?p=361270",
-          "author": "Josh Collinsworth",
-          "description": "Feel like you have a pretty good idea of what a package manager is? We’ve certainly covered a lot of ground getting familiar with all the terms and concepts of package managers, but I’d say it’s high time we actually …\nHow the Heck Do You Install npm? originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/how-to-install-npm-node-nvm/",
-          "publishedOn": "2022-01-20T15:03:53.000Z",
-          "wordCount": 1541,
-          "title": "How the Heck Do You Install npm?"
-        },
-        {
-          "id": "https://css-tricks.com/?p=361300",
-          "author": "Josh Collinsworth",
-          "description": "By now, you’re becoming quite knowledgeable with npm! So far, we’ve broken down the three letters in “npm” to gain a better understand of Node and package managers. In the previous chapter, we even installed Node and npm while …\nHow the Heck Do You Install npm Packages? originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/how-to-install-npm-packages/",
-          "publishedOn": "2022-01-20T15:03:49.000Z",
-          "wordCount": 2455,
-          "title": "How the Heck Do You Install npm Packages?"
-        },
-        {
-          "id": "https://css-tricks.com/?p=361320",
-          "author": "Josh Collinsworth",
-          "description": "npm is, as you now know, a package manager. But like similar, earlier tools that run tasks in the command line, such as Grunt and Gulp, npm can also run tasks—which is perfect for us because now that …\nWhat the Heck Are npm Commands? originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/what-the-heck-are-npm-commands/",
-          "publishedOn": "2022-01-20T15:03:44.000Z",
-          "wordCount": 1871,
-          "title": "What the Heck Are npm Commands?"
-        },
-        {
-          "id": "https://css-tricks.com/?p=361337",
-          "author": "Josh Collinsworth",
-          "description": "(This is a sponsored post.)\nWe’ve gotten a good overview of how npm works and how to use it to install packages and run commands at this point. Now let’s go a little further and see what it looks …\nHow the Heck Do You Install an Existing npm Project? originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/how-to-install-an-npm-project/",
-          "publishedOn": "2022-01-20T15:03:35.000Z",
-          "wordCount": 2894,
-          "title": "How the Heck Do You Install an Existing npm Project?"
         }
       ]
     },
@@ -1424,33 +1344,6 @@
           "publishedOn": "2022-01-21T12:09:00.000Z",
           "wordCount": 142,
           "title": "The Art of Storytelling for Case Studies"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9197",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/frontend-predictions-for-2022/",
-          "publishedOn": "2022-01-21T10:34:00.000Z",
-          "wordCount": 145,
-          "title": "Frontend Predictions for 2022"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9200",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/what-the-heck-is-the-command-line/",
-          "publishedOn": "2022-01-21T08:46:00.000Z",
-          "wordCount": 154,
-          "title": "What the Heck is the Command Line?"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9191",
-          "author": "Adam Marsden",
-          "description": "Browser",
-          "link": "https://dailydevlinks.com/the-breakpoints-we-tested-in-2021-and-the-ones-to-test-in-2022/",
-          "publishedOn": "2022-01-20T12:05:00.000Z",
-          "wordCount": 156,
-          "title": "The breakpoints we tested in 2021, and the ones to test in 2022"
         }
       ]
     },
@@ -1951,15 +1844,6 @@
           "publishedOn": "2022-01-21T23:00:29.000Z",
           "wordCount": 1209,
           "title": "Release Radar · December 2021 Edition"
-        },
-        {
-          "id": "https://github.blog/?p=62495",
-          "author": "Peter Cihon",
-          "description": "When digital infrastructure is overlooked by governments, it isn't just a missed opportunity: policies may inadvertently endanger open source collaboration.",
-          "link": "https://github.blog/2022-01-20-open-source-creates-value-but-how-do-you-measure-it/",
-          "publishedOn": "2022-01-20T16:58:28.000Z",
-          "wordCount": 1576,
-          "title": "Open source creates value, but how do you measure it?"
         }
       ]
     },
@@ -2227,15 +2111,6 @@
           "publishedOn": "2022-01-21T15:30:00.000Z",
           "wordCount": 474,
           "title": "The many ways to modify leading and trailing characters from strings with JavaScript"
-        },
-        {
-          "id": "https://gomakethings.com/listening-for-events-on-multiple-elements-using-javascript-event-delegation/",
-          "author": null,
-          "description": "In JavaScript, event listeners have to be attached to individual elements. You can’t attach them to an array or node list of matching elements like you might in jQuery.\nToday, we’re going to look at a technique that you can use listen for the same even on multiple elements without having to attach to each element individually: event delegation.\nLet’s dig in!\nThe EventTarget.addEventListener() method As a quick primer, you can use the EventTarget.",
-          "link": "https://gomakethings.com/listening-for-events-on-multiple-elements-using-javascript-event-delegation/",
-          "publishedOn": "2022-01-20T15:30:00.000Z",
-          "wordCount": 696,
-          "title": "Listening for events on multiple elements using JavaScript event delegation"
         }
       ]
     },
@@ -2929,42 +2804,6 @@
           "publishedOn": "2022-01-24T06:18:25.000Z",
           "wordCount": 67,
           "title": "Div divisiveness"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64485",
-          "author": "Travis",
-          "description": "Our current suite of icons has been with us since the last redesign in 2016 – and while they’ve served us well, recently, we identified a need to update them, bringing them in line with the evolution of our visual language.",
-          "link": "https://heydesigner.com/spotify-design-refreshing-our-icon-system/",
-          "publishedOn": "2022-01-21T11:44:38.000Z",
-          "wordCount": 79,
-          "title": "Spotify Design: Refreshing our icon system"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64483",
-          "author": "Travis",
-          "description": "Component libraries enable interfaces to be defined through individual building blocks that can be composed together to form a greater whole. The net result is an adaptable visual language that unlocks greater consistency, efficiency, and scalability.",
-          "link": "https://heydesigner.com/crafting-component-libraries-the-elements/",
-          "publishedOn": "2022-01-21T11:41:57.000Z",
-          "wordCount": 72,
-          "title": "Crafting component libraries: The elements"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64481",
-          "author": "Travis",
-          "description": "A foundational overview of how to build an adaptive and accessible theme switch component.",
-          "link": "https://heydesigner.com/building-a-theme-switch-component/",
-          "publishedOn": "2022-01-21T11:40:33.000Z",
-          "wordCount": 65,
-          "title": "Building a theme switch component"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64479",
-          "author": "Travis",
-          "description": "SVG isn’t only about icons and illustrations, it has lots of hidden power we developers sometimes forget about. There are lots of use-cases where using SVG makes lots of sense compared to CSS.",
-          "link": "https://heydesigner.com/building-ui-components-with-svg-and-css/",
-          "publishedOn": "2022-01-21T11:37:37.000Z",
-          "wordCount": 75,
-          "title": "Building UI components with SVG and CSS"
         }
       ]
     },
@@ -2973,6 +2812,76 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30398510",
+          "author": "marto1",
+          "description": "Was thinking yesterday that typing `yes` in most terminals produces an endless loop of y-s printed on the screen which has it's purpose, but might be very confusing to a newcomer. Do you guys think terminals have a good UX in general ? Any other examples of hilariously unintuitive behavior ?\nComments URL: https://news.ycombinator.com/item?id=30398510\nPoints: 1\n# Comments: 3",
+          "link": "https://news.ycombinator.com/item?id=30398510",
+          "publishedOn": "2022-02-19T16:58:55.000Z",
+          "wordCount": 219,
+          "title": "Ask HN: Does the Unix terminal have good UX?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30398308",
+          "author": "headalgorithm",
+          "description": "Article URL: https://spectrum.ieee.org/tron-game\nComments URL: https://news.ycombinator.com/item?id=30398308\nPoints: 1\n# Comments: 0",
+          "link": "https://spectrum.ieee.org/tron-game",
+          "publishedOn": "2022-02-19T16:31:44.000Z",
+          "wordCount": 3768,
+          "title": "Behind the Design of the TRON Videogame (1982)",
+          "imageUrl": "https://spectrum.ieee.org/media-library/screenshot-shows-a-blue-ring-with-6-pink-floating-disks-3-on-each-side-a-game-avatar-throws-a-disk-from-one-side-towards-an-avatar-in-motion-on-the-other-side.jpg?id=28785019&width=1200&coordinates=0%2C589%2C0%2C589&height=600"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30397795",
+          "author": "greenflag",
+          "description": "Article URL: https://philbeaudoin.com/2022/02/10/user-centered-design-is-killing-innovation/\nComments URL: https://news.ycombinator.com/item?id=30397795\nPoints: 3\n# Comments: 0",
+          "link": "https://philbeaudoin.com/2022/02/10/user-centered-design-is-killing-innovation/",
+          "publishedOn": "2022-02-19T15:29:38.000Z",
+          "wordCount": 791,
+          "title": "User-Centered Design Is Killing Innovation",
+          "imageUrl": "https://philbeaudoincom.files.wordpress.com/2022/02/matthew-lancaster-cmczvlzlojc-unsplash.jpg?w=1200"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30397527",
+          "author": "crcn",
+          "description": "Article URL: https://github.com/paperclip-ui/paperclip\nComments URL: https://news.ycombinator.com/item?id=30397527\nPoints: 2\n# Comments: 0",
+          "link": "https://github.com/paperclip-ui/paperclip",
+          "publishedOn": "2022-02-19T14:53:44.000Z",
+          "wordCount": 1675,
+          "title": "Paperclip, a DSL for UI Builders",
+          "imageUrl": "https://opengraph.githubassets.com/75198f4bc98091b25f5379be8611635f377a911eeb77b1ea3d6bb43b1e384951/paperclip-ui/paperclip"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30396483",
+          "author": "seinecle",
+          "description": "Article URL: https://nocodefunctions.com/blog/java-concurrency-with-http-client-asynch/\nComments URL: https://news.ycombinator.com/item?id=30396483\nPoints: 8\n# Comments: 10",
+          "link": "https://nocodefunctions.com/blog/java-concurrency-with-http-client-asynch/",
+          "publishedOn": "2022-02-19T12:04:57.000Z",
+          "wordCount": 1607,
+          "title": "Concurrency in Java – I came up with a design I feel comfortable with",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30395275",
+          "author": "pepalgarid",
+          "description": "Article URL: https://blog.kobadoo.com/2022/02/the-only-flag-of-world-that-is-shredded.html\nComments URL: https://news.ycombinator.com/item?id=30395275\nPoints: 3\n# Comments: 0",
+          "link": "https://blog.kobadoo.com/2022/02/the-only-flag-of-world-that-is-shredded.html",
+          "publishedOn": "2022-02-19T08:06:13.000Z",
+          "wordCount": 401,
+          "title": "The only flag of the world that is shredded by design",
+          "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEim-v1Xy4eJfKTfQyjvJB4KOcmwK-01Rnp3xolRA1-XJlansAOqBIscK6YdntB2tz-s6VM_e1aJQP_54TKdiJpigKQ8SSelr_g8rSludoU81kjHhc60tsPn5OTQ3PAjSI_DDSowZG-CfoNqwPknVZBSrp1oSjFbg7iulMUA4Ekt0usWNKRsqH_PTM7s=w1200-h630-p-k-no-nu"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30394360",
+          "author": "doublepg23",
+          "description": "Article URL: https://www.pouet.net/prod.php?which=91099\nComments URL: https://news.ycombinator.com/item?id=30394360\nPoints: 3\n# Comments: 0",
+          "link": "https://www.pouet.net/prod.php?which=91099",
+          "publishedOn": "2022-02-19T04:09:57.000Z",
+          "wordCount": 548,
+          "title": "Interstate 128 (2022) – A 128 byte intro for the Atari XE / XL by Marquee Design",
+          "imageUrl": "https://content.pouet.net/files/screenshots/00091/00091099.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30385742",
           "author": "sn1pr0s",
@@ -4408,60 +4317,6 @@
           "publishedOn": "2022-01-21T15:30:47.000Z",
           "wordCount": 992,
           "title": "How The Whole Earth Catalog influenced Japanese magazine design"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30022161",
-          "author": "graderjs",
-          "description": "Article URL: https://github.com/i5ik/puppetromium\nComments URL: https://news.ycombinator.com/item?id=30022161\nPoints: 4\n# Comments: 0",
-          "link": "https://github.com/i5ik/puppetromium",
-          "publishedOn": "2022-01-21T11:38:37.000Z",
-          "wordCount": 1081,
-          "title": "Show HN: An interactive UI for puppeteer sans client-side JS"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30021986",
-          "author": "shrvtv",
-          "description": "Sometimes doing a thing one way is just common sense, but most of the time there is some innovation involved, e.g. GrapheneOS malloc. The code is covered by license, but are design decisions? Especially given the fact, that they were openly discussed before the code was written?\nComments URL: https://news.ycombinator.com/item?id=30021986\nPoints: 1\n# Comments: 2",
-          "link": "https://news.ycombinator.com/item?id=30021986",
-          "publishedOn": "2022-01-21T11:14:24.000Z",
-          "wordCount": 213,
-          "title": "Ask HN: Are architecture design decisions covered by project license?"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30021811",
-          "author": "dzurico",
-          "description": "Article URL: https://capgemini.github.io/development/dcx-react-library/\nComments URL: https://news.ycombinator.com/item?id=30021811\nPoints: 2\n# Comments: 0",
-          "link": "https://capgemini.github.io/development/dcx-react-library/",
-          "publishedOn": "2022-01-21T10:49:57.000Z",
-          "wordCount": 1319,
-          "title": "UI/UX Agnostic React Library"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30019280",
-          "author": "afsec",
-          "description": "Article URL: https://github.com/afsec/remora-investigator\nComments URL: https://news.ycombinator.com/item?id=30019280\nPoints: 2\n# Comments: 0",
-          "link": "https://github.com/afsec/remora-investigator",
-          "publishedOn": "2022-01-21T04:45:44.000Z",
-          "wordCount": 668,
-          "title": "Remora Investigator – Firefox security tool powered by Rust and Elm-ui"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30016604",
-          "author": "merlinscholz",
-          "description": "Article URL: https://designsystem.digital.gov/\nComments URL: https://news.ycombinator.com/item?id=30016604\nPoints: 1\n# Comments: 0",
-          "link": "https://designsystem.digital.gov/",
-          "publishedOn": "2022-01-20T23:02:28.000Z",
-          "wordCount": 554,
-          "title": "U.S. Web Design System (Uswds)"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30008224",
-          "author": "tosh",
-          "description": "Article URL: https://www.theverge.com/2022/1/20/22892879/microsoft-windows-11-new-task-manager-design\nComments URL: https://news.ycombinator.com/item?id=30008224\nPoints: 3\n# Comments: 0",
-          "link": "https://www.theverge.com/2022/1/20/22892879/microsoft-windows-11-new-task-manager-design",
-          "publishedOn": "2022-01-20T12:49:57.000Z",
-          "wordCount": 586,
-          "title": "Windows 11 is getting a new Task Manager design"
         }
       ]
     },
@@ -4470,6 +4325,16 @@
       "feedUrl": "https://hnrss.org/newest?q=react+OR+reactjs+OR+svelte+OR+sveltejs",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30392958",
+          "author": "kiyanwang",
+          "description": "Article URL: https://medium.com/coox-tech/deep-dive-into-react-natives-new-architecture-fb67ae615ccd\nComments URL: https://news.ycombinator.com/item?id=30392958\nPoints: 3\n# Comments: 0",
+          "link": "https://medium.com/coox-tech/deep-dive-into-react-natives-new-architecture-fb67ae615ccd",
+          "publishedOn": "2022-02-19T00:08:19.000Z",
+          "wordCount": 1706,
+          "title": "Deep Dive into React Native’s New Architecture",
+          "imageUrl": "https://miro.medium.com/max/1200/1*FLDFa6irbp-lvYUoQBvWnw.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30375878",
           "author": "bpierre",
@@ -5213,42 +5078,6 @@
           "publishedOn": "2022-01-21T17:03:32.000Z",
           "wordCount": 5733,
           "title": "Show HN: Threlte – A Three.js component library for Svelte"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30021811",
-          "author": "dzurico",
-          "description": "Article URL: https://capgemini.github.io/development/dcx-react-library/\nComments URL: https://news.ycombinator.com/item?id=30021811\nPoints: 2\n# Comments: 0",
-          "link": "https://capgemini.github.io/development/dcx-react-library/",
-          "publishedOn": "2022-01-21T10:49:57.000Z",
-          "wordCount": 1319,
-          "title": "UI/UX Agnostic React Library"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30014152",
-          "author": "dyeje",
-          "description": "Article URL: https://jeremydye.fyi/2022/01/15/rails-7-and-react-install-guide/\nComments URL: https://news.ycombinator.com/item?id=30014152\nPoints: 2\n# Comments: 0",
-          "link": "https://jeremydye.fyi/2022/01/15/rails-7-and-react-install-guide/",
-          "publishedOn": "2022-01-20T20:16:58.000Z",
-          "wordCount": 285,
-          "title": "Rails 7 and React Install Guide"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30013630",
-          "author": "xyzzyrz",
-          "description": "Article URL: https://blog.plasmic.app/posts/how-react-server-components-work/\nComments URL: https://news.ycombinator.com/item?id=30013630\nPoints: 3\n# Comments: 0",
-          "link": "https://blog.plasmic.app/posts/how-react-server-components-work/",
-          "publishedOn": "2022-01-20T19:36:35.000Z",
-          "wordCount": 4393,
-          "title": "How React server components work"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30008900",
-          "author": "gajus",
-          "description": "Article URL: https://github.com/contra/yarr\nComments URL: https://news.ycombinator.com/item?id=30008900\nPoints: 6\n# Comments: 1",
-          "link": "https://github.com/contra/yarr",
-          "publishedOn": "2022-01-20T13:55:53.000Z",
-          "wordCount": 657,
-          "title": "Show HN: Yarr – React router enabling render-as-you-fetch"
         }
       ]
     },
@@ -5257,6 +5086,36 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30401284",
+          "author": "chenglou",
+          "description": "Article URL: https://github.com/chenglou/pure-css-shaders-art\nComments URL: https://news.ycombinator.com/item?id=30401284\nPoints: 4\n# Comments: 1",
+          "link": "https://github.com/chenglou/pure-css-shaders-art",
+          "publishedOn": "2022-02-19T22:51:41.000Z",
+          "wordCount": 588,
+          "title": "Show HN: Pure CSS Shaders Art",
+          "imageUrl": "https://opengraph.githubassets.com/712311b8040a453df2f894b06e92b49d48f2d9de0b49a40e06d30e73de55c80d/chenglou/pure-css-shaders-art"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30398647",
+          "author": "c-smile",
+          "description": "Article URL: https://terrainformatica.com/2022/02/19/freeconferencecall-and-sciter-js-project-development-notes/\nComments URL: https://news.ycombinator.com/item?id=30398647\nPoints: 1\n# Comments: 0",
+          "link": "https://terrainformatica.com/2022/02/19/freeconferencecall-and-sciter-js-project-development-notes/",
+          "publishedOn": "2022-02-19T17:15:06.000Z",
+          "wordCount": 1223,
+          "title": "Desktop HTML/CSS/JS application without Electron – the story",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30397336",
+          "author": "stefcoetzee",
+          "description": "Article URL: https://stefcoetzee.com/2022/02/18/rails-viewcomponent-rspec-tailwind\nComments URL: https://news.ycombinator.com/item?id=30397336\nPoints: 4\n# Comments: 1",
+          "link": "https://stefcoetzee.com/2022/02/18/rails-viewcomponent-rspec-tailwind",
+          "publishedOn": "2022-02-19T14:25:07.000Z",
+          "wordCount": 2610,
+          "title": "Simplify Rails Views Using ViewComponents with Tailwind CSS and RSpec",
+          "imageUrl": "https://i.imgur.com/OPYq5L4.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30355757",
           "author": "linkdd",
@@ -5621,24 +5480,6 @@
           "publishedOn": "2022-01-21T13:09:25.000Z",
           "wordCount": 254,
           "title": "Clay.CSS – Micro CSS util class for applying inflated fluffy 3D"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30021058",
-          "author": "ColinEberhardt",
-          "description": "Article URL: https://blog.scottlogic.com/2022/01/20/noJS-making-a-calculator-in-pure-css-html.html\nComments URL: https://news.ycombinator.com/item?id=30021058\nPoints: 125\n# Comments: 39",
-          "link": "https://blog.scottlogic.com/2022/01/20/noJS-making-a-calculator-in-pure-css-html.html",
-          "publishedOn": "2022-01-21T09:14:10.000Z",
-          "wordCount": 1629,
-          "title": "NoJS – Creating a calculator with only HTML and CSS"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30009071",
-          "author": "headalgorithm",
-          "description": "Article URL: https://www.bram.us/2022/01/20/detect-at-rule-support-with-the-at-rule-function/\nComments URL: https://news.ycombinator.com/item?id=30009071\nPoints: 2\n# Comments: 0",
-          "link": "https://www.bram.us/2022/01/20/detect-at-rule-support-with-the-at-rule-function/",
-          "publishedOn": "2022-01-20T14:08:48.000Z",
-          "wordCount": 1181,
-          "title": "The Future of CSS: Detect at-rule support with @supports at-rule(@keyword)"
         }
       ]
     },
@@ -5647,6 +5488,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30396894",
+          "author": "headalgorithm",
+          "description": "Article URL: https://mcfunley.com/google-reader-killed-rss\nComments URL: https://news.ycombinator.com/item?id=30396894\nPoints: 2\n# Comments: 0",
+          "link": "https://mcfunley.com/google-reader-killed-rss",
+          "publishedOn": "2022-02-19T13:11:09.000Z",
+          "wordCount": 826,
+          "title": "Google Reader Killed RSS (2019)",
+          "imageUrl": "https://mcfunley.com/assets/images/mountains-square.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30387879",
           "author": "ChrisHardie",
@@ -6055,42 +5906,6 @@
           "publishedOn": "2022-01-21T15:46:34.000Z",
           "wordCount": 188,
           "title": "Cerebro app – Open-source productivity booster with a brain"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30019284",
-          "author": "ile",
-          "description": "Hi there HN.\nAamu.app is an app that I've made and I hope to get some feedback.\nIt aims to have all the most important productivity tools (for companies) in one package. It will hopefully get more of those features in time, but currently there are already quite a few – tasks, docs, video meetings and so on.\nWhy did I do it? Because I thought the current ones were not that good, and I'm talking about things like Microsoft's offering now. The different parts of their software were clumsy and they were not integrated very well into the whole – i.e. different parts were not designed in collaboration in mind.\nI realize it's quite a big app for one person to do, but let's just say that I felt I needed to do and finish it. Couldn't stop after I had started it.\n---\nHere's an url you can try it without registering into it, and the usernames/passwords:\nhttps://piper.aamu.app/\nusername: richard ... password: richard1\nusername: gilfoyle ... password: gilfoyle\nusername: bighead ... password: nbighead\nusername: dinesh ... password: xxdinesh\n---\nThe main url of the site: https://aamu.app/\nHope to get some feedback, thanks!\nComments URL: https://news.ycombinator.com/item?id=30019284\nPoints: 4\n# Comments: 3",
-          "link": "https://news.ycombinator.com/item?id=30019284",
-          "publishedOn": "2022-01-21T04:46:24.000Z",
-          "wordCount": 560,
-          "title": "Show HN: Aamu.app – all-in-one productivity tool"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30018938",
-          "author": "steelstraw",
-          "description": "Article URL: https://twitter.com/naval/status/1484372592622391303\nComments URL: https://news.ycombinator.com/item?id=30018938\nPoints: 4\n# Comments: 0",
-          "link": "https://twitter.com/naval/status/1484372592622391303",
-          "publishedOn": "2022-01-21T03:55:03.000Z",
-          "wordCount": 196,
-          "title": "Most gaming companies are just digitally optimized, productivity-sucking casinos"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30014417",
-          "author": "spy888",
-          "description": "Article URL: https://www.ayrshare.com/how-to-automatically-post-to-social-media-from-rss-feed/\nComments URL: https://news.ycombinator.com/item?id=30014417\nPoints: 1\n# Comments: 0",
-          "link": "https://www.ayrshare.com/how-to-automatically-post-to-social-media-from-rss-feed/",
-          "publishedOn": "2022-01-20T20:31:29.000Z",
-          "wordCount": 1902,
-          "title": "How to Automatically Post to Social Media from Your Blog or Newsletter RSS Feed"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30008300",
-          "author": "ntide",
-          "description": "Article URL: https://jasont.co/hospitable-codebases/\nComments URL: https://news.ycombinator.com/item?id=30008300\nPoints: 1\n# Comments: 0",
-          "link": "https://jasont.co/hospitable-codebases/",
-          "publishedOn": "2022-01-20T12:57:49.000Z",
-          "wordCount": null,
-          "title": "Code Hospitality: How to multiply team productivity with effective onboarding"
         }
       ]
     },
@@ -6549,6 +6364,16 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=42353",
+          "author": "Seth Godin",
+          "description": "When Google or Facebook or Spotify decide what you’ll see next, they’re making a choice. That’s very different from an open platform like “podcasting” or “blogging” (in quotes with no capital letters, because no one is in charge.) Being in charge implies that choices are being made. And people who are in charge–even if it’s […]",
+          "link": "https://seths.blog/2022/02/who-chooses/",
+          "publishedOn": "2022-02-19T09:55:00.000Z",
+          "wordCount": 441,
+          "title": "Who chooses?",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42340",
           "author": "Seth Godin",
           "description": "It’s easy to accept the limits that are implied when someone asks us for advice and feedback. Fix the typos, sure. That’s important. But perhaps you have something bigger to add. A friend shares plans to launch a new retail website. It’s tempting to fix the small errors on the page, but perhaps it’s more […]",
@@ -6814,15 +6639,6 @@
           "publishedOn": "2022-01-22T09:20:00.000Z",
           "wordCount": 313,
           "title": "Your responsibility preference"
-        },
-        {
-          "id": "https://seths.blog/?p=41272",
-          "author": "Seth Godin",
-          "description": "Would you rather write the script, read the script, watch the movie or write the review? When someone commutes by train, they’re giving up control over the journey. On one hand, that means that they can’t actively impact how fast the train arrives. On the other hand, it means that they don’t have to be […]",
-          "link": "https://seths.blog/2022/01/your-control-preference/",
-          "publishedOn": "2022-01-21T09:12:00.000Z",
-          "wordCount": 417,
-          "title": "Your control preference"
         }
       ]
     },
@@ -7755,51 +7571,6 @@
           "publishedOn": "2022-01-24T00:30:52.000Z",
           "wordCount": 2215,
           "title": "Six things to consider before changing fonts on a website"
-        },
-        {
-          "id": "PHqE7jvdME35wyX7c",
-          "author": "@jonyablonski",
-          "description": "A step through my process for crafting the foundational elements that make up a component library based on design fundamentals.",
-          "link": "https://jonyablonski.com/articles/2022/crafting-component-libraries-the-elements/",
-          "publishedOn": "2022-01-21T06:43:02.000Z",
-          "wordCount": 1827,
-          "title": "Crafting Component Libraries: The Elements"
-        },
-        {
-          "id": "7SjSNvZWWZG4Fz6Cu",
-          "author": "@smashingmag",
-          "description": "Whenever we visit new places, we often need to quickly navigate and find the right direction.",
-          "link": "https://www.smashingmagazine.com/2022/01/freebie-wayfinding-icon-sets-exhibition-concert-museum/",
-          "publishedOn": "2022-01-21T06:41:23.000Z",
-          "wordCount": 821,
-          "title": "Freebie: Wayfinding Icon Sets"
-        },
-        {
-          "id": "kt32yeSh2TXxTjAPu",
-          "author": "@una",
-          "description": "Quick show and tell on CSS cascade layers and the @layer property, coming to browsers soon.",
-          "link": "https://www.youtube.com/watch?v=ilrPpSQJb3U",
-          "publishedOn": "2022-01-21T06:38:20.000Z",
-          "wordCount": null,
-          "title": "CSS Cascade Layers: An overview of the new @layer and layer() CSS primitives"
-        },
-        {
-          "id": "YwKR3JT82oP6sD2Qi",
-          "author": "@uxdesigncc",
-          "description": "How I found myself in a battle of ideas with Elon Musk.",
-          "link": "https://uxdesign.cc/i-made-a-prototype-elon-musk-didnt-like-it-then-the-internet-went-nuts-9cef407ec686",
-          "publishedOn": "2022-01-21T06:34:44.000Z",
-          "wordCount": 1418,
-          "title": "I made a prototype. Elon Musk didn’t like it. Then the internet went nuts."
-        },
-        {
-          "id": "zK9oafjzZ3MB2xfhj",
-          "author": "@Codrops",
-          "description": "A very special selection of the most inspiring website designs from the past couple of weeks to keep you up-to-date with the latest trends.",
-          "link": "https://tympanus.net/codrops/2022/01/20/inspirational-websites-roundup-33/",
-          "publishedOn": "2022-01-21T06:25:41.000Z",
-          "wordCount": 935,
-          "title": "Inspirational Websites Roundup #33"
         }
       ]
     },
@@ -7930,15 +7701,6 @@
           "publishedOn": "2022-01-26T22:22:08.000Z",
           "wordCount": 862,
           "title": "Release Notes for Safari Technology Preview 139"
-        },
-        {
-          "id": "https://webkit.org/?p=12176",
-          "author": null,
-          "description": "Safari Technology Preview Release 138 is now available for download for macOS Big Sur and betas of macOS Monterey.",
-          "link": "https://webkit.org/blog/12176/release-notes-for-safari-technology-preview-138/",
-          "publishedOn": "2022-01-20T23:39:15.000Z",
-          "wordCount": 551,
-          "title": "Release Notes for Safari Technology Preview 138"
         }
       ]
     },
@@ -8091,6 +7853,16 @@
       "feedUrl": "https://www.scottohara.me/feed.xml",
       "siteUrl": "https://scottohara.me//",
       "articles": [
+        {
+          "id": "https://scottohara.me//blog/2022/02/19/custom-clear-buttons.html",
+          "author": null,
+          "description": "When people add custom clear buttons to their text fields they generally do one of three things: They do not make them accessible at all. They unnecessarily add them to the keyboard focus order of the web page. They ensure the clear buttons are accessible - but not keyboard focusable. The clear button(s) do not show up when their associated fields are readonly or disabled, The button’s respect reading directionality of a web page (e.g., dir=rtl), and that keyboard focus returns to the text field once the clear button has been activated.",
+          "link": "https://scottohara.me//blog/2022/02/19/custom-clear-buttons.html",
+          "publishedOn": "2022-02-19T00:00:00.000Z",
+          "wordCount": 245,
+          "title": "Making a custom clear text field button",
+          "imageUrl": null
+        },
         {
           "id": "https://scottohara.me//blog/2022/02/05/are-we-live.html",
           "author": null,
@@ -8371,20 +8143,6 @@
             "length": "0",
             "type": "image/jpg"
           }
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/building-real-app-react-query/",
-          "author": "hello@smashingmagazine.com (Georgii Perepecho)",
-          "description": "In this article, Georgii Perepecho explains the most common React Query features that you need to be familiar with when creating a real-life application that is stable when testing.",
-          "link": "https://smashingmagazine.com/2022/01/building-real-app-react-query/",
-          "publishedOn": "2022-01-20T14:30:00.000Z",
-          "wordCount": 5250,
-          "title": "Building The Real App With React Query",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb299a88-9204-4579-bfb0-f9d8dac84014/building-real-app-react-query.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
         }
       ]
     },
@@ -8438,15 +8196,6 @@
           "publishedOn": "2022-01-24T00:00:00.000Z",
           "wordCount": 2217,
           "title": "Trailing Slashes on URLs: Contentious or Settled?"
-        },
-        {
-          "id": "https://www.zachleat.com/web/external-link-favicons/",
-          "author": null,
-          "description": "Saw a fascinating idea in a tweet from @simevidas to show favicons on external links on a site. Full credit for the original idea to Kiko Beats.\nThe implementation used an icon font to store the favicons. I think we can improve on this idea (do y’all want to maintain an icon font 😅) to save some future maintenance using IndieWeb Avatar. This will allow the images to auto-update when a site updates their favicon (per server caching rules).\nAdd this CSS to see it in action:\na[href*=\"twitter.com\"]:before {\n  content: \"\";\n  display: inline-block;\n  vertical-align: text-bottom;\n  width: 1em;\n  height: 1em;\n  margin: 0 .2em;\n  background-size: contain;\n  background-image: url(\"https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Fwww.twitter.com%2F/\");\n}\nDemo #\ntwitter.com\nwikipedia.org\ngoogle.com\nzachleat.com\nnetlify.com\n11ty.dev\nBonus #\nAdd <link href=\"https://v1.indieweb-avatar.11ty.dev\" rel=\"preconnect\" crossorigin> if these images are in your critical rendering path (tip: you should try to not do this).",
-          "link": "https://www.zachleat.com/web/external-link-favicons/",
-          "publishedOn": "2022-01-21T00:00:00.000Z",
-          "wordCount": 307,
-          "title": "CSS-only External Link Favicons"
         }
       ]
     },
@@ -8697,24 +8446,6 @@
           "publishedOn": "2022-01-25T09:31:29.000Z",
           "wordCount": 352,
           "title": "Just the cost of doing business [crimes]"
-        },
-        {
-          "id": "https://world.hey.com/dhh/the-mac-proves-apple-can-safely-open-the-iphone-cfa68a72",
-          "author": null,
-          "description": "The Mac is such an inconvenient platform for Apple. It prevents the company from making any credible claim of an impending security catastrophe, if lawmakers force the iPhone to allow installation of apps without the App Store. With the Mac, we have almost forty years of proof that computers don't need an App Store to be safe. Made by the same company that now tries to pretend to legislators that this isn't possible!\nWorse still, Apple continues to brag about this solid security record for the Mac when they try to sell you a new computer while their lobbyists argue the opposite on Capitol Hill. Here's how the company presents the Mac as a fortress when it comes to apps installed without the Mac App Store:\n\nGatekeeper on your Mac ensures that all apps from the internet have already been che…",
-          "link": "https://world.hey.com/dhh/the-mac-proves-apple-can-safely-open-the-iphone-cfa68a72",
-          "publishedOn": "2022-01-21T11:32:30.000Z",
-          "wordCount": 933,
-          "title": "The Mac proves Apple can safely open the iPhone"
-        },
-        {
-          "id": "https://world.hey.com/dhh/free-is-never-forever-b2e8f8df",
-          "author": null,
-          "description": "Google gave away free email on custom domains for years. This unsurprisingly lured lots of people into switching to Gmail. But now the party is over, and what used to be free will now easily cost $500/year or more (if you have 10 users on a custom domain). Yikes.\nUnsurprisingly, I'm not actually against Google charging for email. The long deep freeze of innovation in email came as a result of Google giving away free* service. (* It wasn't ever free FREE, of course, but the price in data and attention wasn't obvious to most before they got hooked.)\nThe problem is the switcheroo. When you give something away for free for years, and then suddenly show up with a demand for payment, people are rightfully going to feel like it's a stickup. Especially if they have over a decade's worth of data that's difficult to get out locked inside that box you gave them for \"free\".\nIt feels even more so if the vendor showing up with demands for payment is a monopolist like Google. Who controls the majority of all email that flows in the US. Then it very much feels like you got suckered. Oh, we were just the stepping stone for you to get the dominant marketshare, and now that you've captured it, you return for the loot? Gah.\nEmail wasn't ever free to offer. Especially not the unlimited kind with gigabytes of storage that gave Gmail its original splash. It's just that Google monetized it through data plunder (like reading your purchase receipts!), attention drains (promoted emails!), and now finally with a paid switcheroo for the most locked-in accounts.\nYou could of course also just pay with cash monies from the get go. And vote with those dollars for what you'd like to see more of in the world. How's that for a New Year's resolution: Paying for things with money, and skipping the ones that aren't worth it.",
-          "link": "https://world.hey.com/dhh/free-is-never-forever-b2e8f8df",
-          "publishedOn": "2022-01-20T13:21:31.000Z",
-          "wordCount": 357,
-          "title": "Free is never forever"
         }
       ]
     }
