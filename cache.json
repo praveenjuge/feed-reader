@@ -84,6 +84,16 @@
       "siteUrl": "https://adrianroselli.com",
       "articles": [
         {
+          "id": "https://adrianroselli.com/?p=13226",
+          "author": "Adrian Roselli",
+          "description": "A collection of images, videos, tweets, articles, and links referenced in my a11y NYC talk in March 2022. This may not make much sense if you did not attend the talk. Or even if you did. Intro I had the title before I had the content. I tried to shoehorn…",
+          "link": "https://adrianroselli.com/2022/03/overlays-underwhelm-a11y-nyc.html",
+          "publishedOn": "2022-03-02T00:00:41.000Z",
+          "wordCount": 2172,
+          "title": "Overlays Underwhelm: a11y NYC",
+          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2022/03/A11YNYC_SQUARE-300x300.png"
+        },
+        {
           "id": "https://adrianroselli.com/?p=13151",
           "author": "Adrian Roselli",
           "description": "The required set of radio buttons. The white whale to many a developer who is trying their darnedest to ensure they are conveyed accessibly while not also making it sound like every individual radio button must be toggled. 1961 Cadillac Wonderbar dashboard radio by Nicholas Lucien (cropped). CC BY 2.0.…",
@@ -184,17 +194,7 @@
       "title": "Bootstrap Blog",
       "feedUrl": "https://blog.getbootstrap.com/feed.xml",
       "siteUrl": "https://blog.getbootstrap.com/",
-      "articles": [
-        {
-          "id": "https://blog.getbootstrap.com/2022/01/31/bootstrap-icons-1-8-0/",
-          "author": null,
-          "description": "Bootstrap Icons v1.8.0 is here with over 140 new icons, including dozens of new heart icons ready for Valentine’s Day and dozens of filetype icons. We’re not at almost 1,700 icons and is once again our second largest release. Keep reading to see what’s new.\n140+ new icons\nPerfect for Valentine’s Day or any other time you need to show a little heart, there are dozens of icons to choose from.\nWant to visually show the extensions of your files? There are tons of new options for programming languages, audio and video, images, and more.\nElsewhere we’ve expanded a number of other categories of icons. There are some new medical icons (more are planned), lots of new clipboard icons, additional tools, and more.\nLooking for more new icons? Head to the issue tracker to check for open requests or submit a new one.\nInstall\nTo get started, install or update via npm:\nnpm i bootstrap-icons\n\n\nOr Composer:\ncomposer require twbs/bootstrap-icons\n\n\nYou can also download the release from GitHub, or download just the SVGs and fonts (without the rest of the repository files).\nFigma\nThe Figma file is now published to the Figma Community! It’s the same Bootstrap Icons Figma file you’ve seen from previous releases, just a little more accessible to those using the app.",
-          "link": "https://blog.getbootstrap.com/2022/01/31/bootstrap-icons-1-8-0/",
-          "publishedOn": "2022-01-31T00:00:00.000Z",
-          "wordCount": 301,
-          "title": "Bootstrap Icons v1.8.0"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Mozilla Accessibility",
@@ -299,6 +299,16 @@
       "siteUrl": "https://css-irl.info/rss.xml/",
       "articles": [
         {
+          "id": "https://css-irl.info/are-my-third-parties-green/",
+          "author": null,
+          "description": "Fershad Irani’s tool lets you check if your third-party scripts use green hosting.\n\nRecently I’ve been thinking quite a bit about third-party scripts and how much bloat they so often add to the average webpage — and, consequently, their impact on climate change via the additional carbon emissions generated, often for something the end user doesn’t really want or need. Third-party scripts can include ads, trackers, analytics, social media embeds, and probably some other stuff too. An analysis by Marmelab found that up to 70% of the carbon footprint of media websites could be attributed to ads and stats (source).\nOften we as developers aren’t in a position to remove these things entirely, and the conversation around web monetisation is a complex one. But we should at least load them as responsibly as possible. (I wrote about some strategies for optimising social media embeds for Smashing Magazine.)\nOne thing we might not consider, however, is whether the third parties themselves use green web hosting — that is, hosting that is powered by renewable energy. Fershad Irani has developed a useful tool that analyses the third-party scripts on your website: Are My Third Parties Green? checks whether they use a green web host (to the best of knowledge, via The Green Web Foundation’s dataset), as well as how much of your site’s overall size comes from third-party scripts, how effectively they’re cached, and their estimated carbon emissions.\nTools like this are great for shining a light on the environmental impact of our websites. Although measuring the carbon emissions of a website is far from an exact science, projects like this help raise awareness, and enable us to begin conversations and increasingly make informed choices.\nVisit the site →",
+          "link": "https://css-irl.info/are-my-third-parties-green/",
+          "publishedOn": "2022-03-01T00:00:00.000Z",
+          "wordCount": 338,
+          "title": "Are My Third Parties Green?",
+          "imageUrl": "https://css-irl.info/social_1200x630.png"
+        },
+        {
           "id": "https://css-irl.info/a-blog-post-about-blogging/",
           "author": null,
           "description": "Someone in a Slack group I’m a member of shared recently shared a link to a post by Cory Doctorow titled The Memex Method. In the post he shares his opinions on blogging as a way to order your thoughts and ideas, somewhere between a sketchbook full of notes and a fully-formed essay. He writes:\nThe very act of recording your actions and impressions is itself powerfully mnemonic, fixing the moment more durably in your memory so that it’s easier to recall in future, even if you never consult your notes.\nThat’s certainly the way it works for me. I find the best way to learn about a technical concept is by writing about it. Often I’ll refer back to a blog post I’ve written in the past, to refresh my memory. Sometimes the act of writing itself is enough to preserve it in my mind.\nI’d like to get…",
@@ -353,6 +363,26 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=363724",
+          "author": "Patrick Brosset",
+          "description": "Styling ranges of text in software is a very useful thing to be able to do. Thankfully, we have the CSS Custom Highlight API to look forward to because it represents the future of styling text ranges on the web.…\nCSS Custom Highlight API: The Future of Highlighting Text Ranges on the Web originally published on CSS-Tricks. You should get the newsletter.",
+          "link": "https://css-tricks.com/css-custom-highlight-api-early-loo/",
+          "publishedOn": "2022-03-01T17:41:13.000Z",
+          "wordCount": 2472,
+          "title": "CSS Custom Highlight API: The Future of Highlighting Text Ranges on the Web",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363724"
+        },
+        {
+          "id": "https://css-tricks.com/?p=364351",
+          "author": "Chris Coyier",
+          "description": "Ahmad Shadeed covers the CSS fit-content sizing keyword. It’s useful! It just doesn’t come up super often. I find myself using min-content a lot more, like when setting up the height of a grid-template-row.\nThe fit-content keyword is actually …\nAhmad Shadeed: Use Cases For CSS fit-content originally published on CSS-Tricks. You should get the newsletter.",
+          "link": "https://css-tricks.com/ahmad-shadeed-use-cases-for-css-fit-content/",
+          "publishedOn": "2022-03-01T15:41:16.000Z",
+          "wordCount": 454,
+          "title": "Ahmad Shadeed: Use Cases For CSS fit-content",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/364351"
+        },
         {
           "id": "https://css-tricks.com/?p=364346",
           "author": "Chris Coyier",
@@ -799,15 +829,6 @@
           "publishedOn": "2022-01-31T15:16:01.000Z",
           "wordCount": 2707,
           "title": "The Relevance of TypeScript in 2022"
-        },
-        {
-          "id": "https://css-tricks.com/?p=362890",
-          "author": "Chris Coyier",
-          "description": "Jim Nielsen’s mom couldn’t open a website. Jim worked on confirming the issue and documented how he got to the bottom of it:\n“[…] well it can’t be a browser issue. It’s not like my Mom is using Internet Explorer! \n…\nThe Optional Chaining Operator, “Modern” Browsers, and My Mom originally published on CSS-Tricks. You should get the newsletter and become a supporter.",
-          "link": "https://css-tricks.com/the-optional-chaining-operator-modern-browsers-and-my-mom/",
-          "publishedOn": "2022-01-30T21:49:15.000Z",
-          "wordCount": 633,
-          "title": "The Optional Chaining Operator, “Modern” Browsers, and My Mom"
         }
       ]
     },
@@ -816,6 +837,26 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=9449",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/introducing-comicss/",
+          "publishedOn": "2022-03-01T11:40:00.000Z",
+          "wordCount": 131,
+          "title": "Introducing comiCSS",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9452",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/css-specificity-demo/",
+          "publishedOn": "2022-03-01T10:36:00.000Z",
+          "wordCount": 137,
+          "title": "CSS Specificity Demo",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
         {
           "id": "https://dailydevlinks.com/?p=9443",
           "author": "Adam Marsden",
@@ -1375,24 +1416,6 @@
           "publishedOn": "2022-02-01T10:14:00.000Z",
           "wordCount": 140,
           "title": "Use Cases For CSS fit-content￼"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9263",
-          "author": "Adam Marsden",
-          "description": "A11Y",
-          "link": "https://dailydevlinks.com/a11y-checklist/",
-          "publishedOn": "2022-01-31T10:40:00.000Z",
-          "wordCount": 135,
-          "title": "A11Y Checklist"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9260",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/how-the-notion-api-powers-my-blog%ef%bf%bc/",
-          "publishedOn": "2022-01-31T10:31:00.000Z",
-          "wordCount": 146,
-          "title": "How the Notion API Powers My Blog￼"
         }
       ]
     },
@@ -1427,6 +1450,16 @@
       "feedUrl": "https://daverupert.com/atom.xml",
       "siteUrl": "https://daverupert.com",
       "articles": [
+        {
+          "id": "https://daverupert.com/2022/03/genbaku-o-yurusumaji/",
+          "author": null,
+          "description": "I know a bit about Japanese folk music (民謡), but Pete Seeger opened my eyes to and old song called  “Genbaku O Yurusumaji (Forgive us the atom bomb)”, an anti-nuclear Japanese dirge.\nBorn in the US in the cold war, it never seemed necessary to establish an anti-nuclear stance. It just was. A threat deterrent as much as a threat. Or so we told ourselves. Moving to Japan and witnessing Hiroshima changed that for me. The perspective the Japanese have changes your perspective.\nWith the current threat of atomic warfare, this song has been on my mind.\n\nふるさとの街やかれ\n身よりの骨うめし焼土に\n今は白い花咲く\nああ許すまじ原爆を    \n三度許すまじ原爆を    \nわれらの街に\n\nふるさとの海荒れて\n黒き雨喜びの日はなく\n今は舟に人もなし\nああ許すまじ原爆を\n三度許すまじ原爆を\nわれらの海に\n\nふるさとの空重く\n黒き雲今日も大地おおい\n今は空に陽もささず\nああ許すまじ原爆を\n三度許すまじ原爆を\nわれらの空に\n\nはらからのたえまなき\n労働にきずきあぐ富と幸\n今はすべてついえ去らん\nああ許すまじ原爆を\n三度許すまじ原爆を\n世界の上に\n\nThe city of my hometown\nWe buried the charred bones of our relatives\nWhite flowers are blooming now\nOh forgive the nuclear bomb\nForgive the nuclear bomb three times\nIn our city\n\nThe sea of my hometown is rough\nThere is no day of joy in black rain\nThere are no people in the boats now\nOh forgive the nuclear bomb\nForgive the nuclear bomb three times\nIn our sea\n\nThe sky of my hometown\nBlack clouds, the earth is covered today\nNow the sun isn't in the sky\nOh forgive the nuclear bomb\nForgive the nuclear bomb three times\nIn our sky\n\nNo praise from the belly\nWealth and happiness is labor\nI can't leave everything now\nOh forgive the nuclear bomb\nForgive the nuclear bomb three times\nOn top of the world",
+          "link": "https://daverupert.com/2022/03/genbaku-o-yurusumaji/",
+          "publishedOn": "2022-03-01T21:19:00.000Z",
+          "wordCount": 292,
+          "title": "原爆を許すまじ",
+          "imageUrl": null
+        },
         {
           "id": "https://daverupert.com/2022/02/the-accordion/",
           "author": null,
@@ -1523,15 +1556,6 @@
           "publishedOn": "2022-02-01T10:54:21.000Z",
           "wordCount": 802,
           "title": "JavaScript Class Privates"
-        },
-        {
-          "id": "https://davidwalsh.name/easy-asset-access-with-the-cloudinary-media-library-browser-extension",
-          "author": null,
-          "description": "<p>Readers of my blog will know that I&#8217;ve been banging the Cloudinary drum for years. Their awesome media capabilities allow users to optimally deliver images, video, and audio in any format and to any device. Performance, customization, flexibility, optimized delivery&#8230; Cloudinary makes media better for everyone. Another aspect of Cloudinary that I like? Their commitment [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://davidwalsh.name/easy-asset-access-with-the-cloudinary-media-library-browser-extension\">Easy Asset Access with the Cloudinary Media Library Browser Extension</a> appeared first on <a rel=\"nofollow\" href=\"https://davidwalsh.name\">David Walsh Blog</a>.</p>\n<p><a href=\"https://tkjs.us/dwb\"><img style=\"margin:0 auto\" alt=\"\" src=\"https://davidwalsh.name/demo/tjs_block-1.svg\"></a></p>",
-          "link": "https://davidwalsh.name/easy-asset-access-with-the-cloudinary-media-library-browser-extension",
-          "publishedOn": "2022-01-31T10:12:38.000Z",
-          "wordCount": 770,
-          "title": "Easy Asset Access with the Cloudinary Media Library Browser Extension"
         }
       ]
     },
@@ -1540,6 +1564,16 @@
       "feedUrl": "https://developer.chrome.com/feeds/blog.xml",
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
+        {
+          "id": "https://developer.chrome.com/en/blog/new-in-chrome-99/",
+          "author": null,
+          "description": "Here's what you need to know:\nThe count down to version 100 of Chrome and Firefox is just\nweeks away.\nCSS cascade layers gives you more control over your CSS, and\nhelps to prevent style-specificity conflicts.\nThe showPicker() method allows you to programmatically\nshow a browser picker for <input> elements like date, color, and\ndatalist.\nAnd there's plenty more.\nI'm Pete LePage. Let's dive in and\nsee what's new for developers in Chrome 99.\n# Chrome 100 and Firefox 100\nChrome 100 ships in late March (2022), and Firefox 100 ships shortly after in\nearly May. Both of these are a major version number milestone and roll over\nto three digits. But, if your code is expecting two digits, the new version\nnumber could cause issues for you.\nAny code that checks version numbers, or parses the user agent …",
+          "link": "https://developer.chrome.com/en/blog/new-in-chrome-99/",
+          "publishedOn": "2022-03-01T00:00:00.000Z",
+          "wordCount": 787,
+          "title": "New in Chrome 99",
+          "imageUrl": "https://wd.imgix.net/image/0g2WvpbGRGdVs0aAPc6ObG7gkud2/RDOgiI1WbY5WhTh6h702.png?auto=format&w=1521"
+        },
         {
           "id": "https://developer.chrome.com/en/blog/user-agent-reduction-deprecation-trial/",
           "author": null,
@@ -1980,6 +2014,16 @@
       "siteUrl": "https://gomakethings.com",
       "articles": [
         {
+          "id": "https://gomakethings.com/how-to-write-good-comments/",
+          "author": null,
+          "description": "Dr. Kate Compton shared this delightful little one-sentence gem about how to write good comments on Twitter last week…\n Programming pro tip: In your comments, write what you did and why, record your level of petulance (REALLY) and the StackOverflow link that made you realize something\n She also shared a sample comment, which I’ve converted to JSDoc style.\n/** * Copy into the local scope * NOTE: this has issues with scope for eval'ing list comprehensions, which sucks * {@link https://stackoverflow.",
+          "link": "https://gomakethings.com/how-to-write-good-comments/",
+          "publishedOn": "2022-03-01T15:30:00.000Z",
+          "wordCount": 190,
+          "title": "How to write good comments",
+          "imageUrl": "https://gomakethings.com/img/og.png"
+        },
+        {
           "id": "https://gomakethings.com/vanilla-js-projects/",
           "author": null,
           "description": "If you need a break from everything going on right now, I just released Vanilla JS Projects, a collection of free self-paced JavaScript projects.\nEach project is broken up into 3-4 smaller mini-projects that build on each other. Each part includes a few short lessons and a template to get you started.\nDepending on your comfort level, you can…\n Do It Yourself (DIY). You can try to complete the project on your own, then come back and watch me explain my approach.",
@@ -2156,6 +2200,56 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=64767",
+          "author": "Travis",
+          "description": "Carefully picked colors to match with your interfaces challenges.",
+          "link": "https://heydesigner.com/open-source-color-system/",
+          "publishedOn": "2022-03-01T18:04:19.000Z",
+          "wordCount": 60,
+          "title": "Open source color system",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64765",
+          "author": "Travis",
+          "description": "All code is an assumption until it meets its real-life context.",
+          "link": "https://heydesigner.com/build-the-smallest-simplest-thing-you-can/",
+          "publishedOn": "2022-03-01T18:04:13.000Z",
+          "wordCount": 65,
+          "title": "Build the smallest, simplest thing you can",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64763",
+          "author": "Travis",
+          "description": "If you’ve accessed the MDN website today, you probably noticed that it looks quite different. We hope it’s a good different.",
+          "link": "https://heydesigner.com/a-new-year-a-new-mdn/",
+          "publishedOn": "2022-03-01T18:04:03.000Z",
+          "wordCount": 71,
+          "title": "A new year, a new MDN",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64761",
+          "author": "Travis",
+          "description": "2022 is shaping up to be a pretty great year for CSS, with a plethora of new features on the horizon.",
+          "link": "https://heydesigner.com/new-css-features-in-2022/",
+          "publishedOn": "2022-03-01T18:03:57.000Z",
+          "wordCount": 72,
+          "title": "New CSS features in 2022",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=64759",
+          "author": "Travis",
+          "description": "Design your HTML email using the Tailwind utility classes like you normally would for the web.",
+          "link": "https://heydesigner.com/mailwind-use-tailwind-css-to-design-html-emails/",
+          "publishedOn": "2022-03-01T18:03:50.000Z",
+          "wordCount": 73,
+          "title": "Mailwind: Use Tailwind CSS to design HTML emails",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=64754",
           "author": "Travis",
@@ -2930,51 +3024,6 @@
           "publishedOn": "2022-02-01T06:22:25.000Z",
           "wordCount": 76,
           "title": "Habits vs. Goals: A look at the benefits of a systematic approach to life"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64541",
-          "author": "Travis",
-          "description": "Design is not magic. It’s a method, a rigorous process of exploration, iteration, and validation until you reach your outcome that feels like magic to end-users.",
-          "link": "https://heydesigner.com/the-alchemy-of-prototyping/",
-          "publishedOn": "2022-01-31T06:26:22.000Z",
-          "wordCount": 69,
-          "title": "The alchemy of prototyping"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64533",
-          "author": "Travis",
-          "description": "Storybook Connect links your stories to Figma components.",
-          "link": "https://heydesigner.com/figma-plugin-sneak-peek/",
-          "publishedOn": "2022-01-31T06:12:49.000Z",
-          "wordCount": 55,
-          "title": "Figma plugin sneak peek"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64535",
-          "author": "Travis",
-          "description": "Designing from cradle to grave is no longer good enough. We need to postpone that grave as long as possible.",
-          "link": "https://heydesigner.com/the-last-design-youll-ever-make/",
-          "publishedOn": "2022-01-31T06:12:43.000Z",
-          "wordCount": 72,
-          "title": "The last design you’ll ever make"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64529",
-          "author": "Travis",
-          "description": "There’s no longer any raw markdown, no content management system, and no code required to publish a post.",
-          "link": "https://heydesigner.com/how-the-notion-api-powers-my-blog/",
-          "publishedOn": "2022-01-31T06:12:32.000Z",
-          "wordCount": 72,
-          "title": "How the Notion API powers my blog"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64531",
-          "author": "Travis",
-          "description": "This checklist uses The Web Content Accessibility Guidelines (WCAG) as a reference point.",
-          "link": "https://heydesigner.com/accessibility-checklist/",
-          "publishedOn": "2022-01-31T06:12:26.000Z",
-          "wordCount": 57,
-          "title": "Accessibility checklist"
         }
       ]
     },
@@ -2983,6 +3032,86 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+ui-design",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30521631",
+          "author": "CurrentB",
+          "description": "Article URL: https://vitalik.ca/general/2022/02/28/complexity.html\nComments URL: https://news.ycombinator.com/item?id=30521631\nPoints: 1\n# Comments: 0",
+          "link": "https://vitalik.ca/general/2022/02/28/complexity.html",
+          "publishedOn": "2022-03-01T23:45:28.000Z",
+          "wordCount": 1452,
+          "title": "Encapsulated vs. systemic complexity in protocol design",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30519726",
+          "author": "lamsal",
+          "description": "Article URL: https://www.xda-developers.com/mdn-web-docs-redesign/\nComments URL: https://news.ycombinator.com/item?id=30519726\nPoints: 1\n# Comments: 0",
+          "link": "https://www.xda-developers.com/mdn-web-docs-redesign/",
+          "publishedOn": "2022-03-01T20:43:07.000Z",
+          "wordCount": 808,
+          "title": "MDN Web Docs introduces new design",
+          "imageUrl": "https://www.xda-developers.com/files/2022/03/moz_blog_header_MDN-Intro.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30516716",
+          "author": "adamnemecek",
+          "description": "Article URL: https://github.com/audulus/rui\nComments URL: https://news.ycombinator.com/item?id=30516716\nPoints: 6\n# Comments: 0",
+          "link": "https://github.com/audulus/rui",
+          "publishedOn": "2022-03-01T17:08:27.000Z",
+          "wordCount": 763,
+          "title": "RUI: Experimental reactive Rust UI library inspired by SwiftUI",
+          "imageUrl": "https://opengraph.githubassets.com/9e2c235c1916c8191dc230847e9317175c5dad43e12225c2d27106c9de1ecb3d/audulus/rui"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30515070",
+          "author": "ramdude95",
+          "description": "Article URL: https://medium.com/javarevisited/toned-down-code-complexity-using-facade-design-pattern-6f21d1e762d\nComments URL: https://news.ycombinator.com/item?id=30515070\nPoints: 1\n# Comments: 0",
+          "link": "https://medium.com/javarevisited/toned-down-code-complexity-using-facade-design-pattern-6f21d1e762d",
+          "publishedOn": "2022-03-01T15:10:40.000Z",
+          "wordCount": 666,
+          "title": "Toned-Down Code Complexity Using Facade Design Pattern",
+          "imageUrl": "https://miro.medium.com/max/1200/0*mbj7301zvEj9PEfg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30514689",
+          "author": "yonz",
+          "description": "Article URL: https://noidea.dog/#/maybe-great/\nComments URL: https://news.ycombinator.com/item?id=30514689\nPoints: 1\n# Comments: 0",
+          "link": "https://noidea.dog/#/maybe-great/",
+          "publishedOn": "2022-03-01T14:40:59.000Z",
+          "wordCount": 1168,
+          "title": "Maybe great? A post on design docs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30514552",
+          "author": "jdbiggs",
+          "description": "Comments URL: https://news.ycombinator.com/item?id=30514552\nPoints: 2\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=30514552",
+          "publishedOn": "2022-03-01T14:31:30.000Z",
+          "wordCount": 86,
+          "title": "Ask HN: What's currently the best and fastest UI framework for web apps?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30512184",
+          "author": "simonebrunozzi",
+          "description": "Article URL: https://www.archdaily.com/977131/how-to-reduce-light-pollution-with-street-light-design\nComments URL: https://news.ycombinator.com/item?id=30512184\nPoints: 1\n# Comments: 0",
+          "link": "https://www.archdaily.com/977131/how-to-reduce-light-pollution-with-street-light-design",
+          "publishedOn": "2022-03-01T10:12:11.000Z",
+          "wordCount": 1726,
+          "title": "How to Reduce Light Pollution with Street Light Design?",
+          "imageUrl": "https://images.adsttc.com/media/images/620f/e040/3e4b/3104/6c00/0009/large_jpg/fi2.jpg?1645207589"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30509913",
+          "author": "debanjan16",
+          "description": "Has anyone done the two part MOOC (now on edX) by Gregor Kiczales from the University of British Columbia that is based on the book How to Design Programs (https://htdp.org/)? \nThe MOOCs are called:\n1. How to Code: Simple Data\n2. How to Code: Complex Data\nPreviously they were called Systematic Program Design 1, 2, ..\nHow are the courses in comparison to the actual book?\nComments URL: https://news.ycombinator.com/item?id=30509913\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=30509913",
+          "publishedOn": "2022-03-01T05:12:37.000Z",
+          "wordCount": 146,
+          "title": "Ask HN: MOOC Based on How to Design Programs by UBC",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30509318",
           "author": "graderjs",
@@ -4389,42 +4518,6 @@
           "publishedOn": "2022-01-31T15:14:18.000Z",
           "wordCount": 178,
           "title": "Micron to close DRAM design operations in Shanghai, move engineers to US, India"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30145988",
-          "author": "maydemir",
-          "description": "Article URL: https://github.com/nextui-org/nextui\nComments URL: https://news.ycombinator.com/item?id=30145988\nPoints: 2\n# Comments: 0",
-          "link": "https://github.com/nextui-org/nextui",
-          "publishedOn": "2022-01-31T09:00:24.000Z",
-          "wordCount": 780,
-          "title": "NextUI – Beautiful, fast and modern React UI library"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30142235",
-          "author": "leephillips",
-          "description": "Article URL: https://harmful.cat-v.org/cat-v/unix_prog_design.pdf\nComments URL: https://news.ycombinator.com/item?id=30142235\nPoints: 2\n# Comments: 0",
-          "link": "https://harmful.cat-v.org/cat-v/unix_prog_design.pdf",
-          "publishedOn": "2022-01-30T23:10:57.000Z",
-          "wordCount": 825,
-          "title": "Program design in the Unix environment [pdf]"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30140984",
-          "author": "radley",
-          "description": "Article URL: https://jenson.org/tesla/\nComments URL: https://news.ycombinator.com/item?id=30140984\nPoints: 454\n# Comments: 270",
-          "link": "https://jenson.org/tesla/",
-          "publishedOn": "2022-01-30T20:55:21.000Z",
-          "wordCount": 1154,
-          "title": "A UX designer walks into a Tesla Bar"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30139599",
-          "author": "jrepinc",
-          "description": "Article URL: https://www.inverse.com/innovation/herman-potocnik-noordung-father-of-space-station-design\nComments URL: https://news.ycombinator.com/item?id=30139599\nPoints: 3\n# Comments: 0",
-          "link": "https://www.inverse.com/innovation/herman-potocnik-noordung-father-of-space-station-design",
-          "publishedOn": "2022-01-30T18:20:03.000Z",
-          "wordCount": 2117,
-          "title": "Herman Potočnik “Noordung” – The forgotten father of space station design"
         }
       ]
     },
@@ -4433,6 +4526,46 @@
       "feedUrl": "https://hnrss.org/newest?q=react+OR+reactjs+OR+svelte+OR+sveltejs",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30515536",
+          "author": "davidbarker",
+          "description": "Article URL: https://github.com/facebook/react/blob/main/packages/shared/ReactSharedInternals.js\nComments URL: https://news.ycombinator.com/item?id=30515536\nPoints: 29\n# Comments: 18",
+          "link": "https://github.com/facebook/react/blob/main/packages/shared/ReactSharedInternals.js",
+          "publishedOn": "2022-03-01T15:45:18.000Z",
+          "wordCount": 448,
+          "title": "React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+          "imageUrl": "https://opengraph.githubassets.com/0ad22692067872ba3dfb6e3a26da3b63b1d400b956229cb7b138cd8c09af2f3a/facebook/react"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30515190",
+          "author": "alexellisuk",
+          "description": "Article URL: https://www.openfaas.com/blog/react-app/\nComments URL: https://news.ycombinator.com/item?id=30515190\nPoints: 2\n# Comments: 1",
+          "link": "https://www.openfaas.com/blog/react-app/",
+          "publishedOn": "2022-03-01T15:19:52.000Z",
+          "wordCount": 3166,
+          "title": "Hosting a React App with OpenFaaS",
+          "imageUrl": "https://www.openfaas.com/images/2022-react-app/pen-design.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30512276",
+          "author": "kcentropy",
+          "description": "LONDON, 1st March 2022 – AG Grid, the industry-leading provider of JavaScript datagrids, rolled out version 27 (AG Grid 27) this month, which introduces major improvements in developer productivity, functionality and accessibility.\nOne of the most noteworthy new features for AG Grid 27, is that its 100% React Rendering Engine is now the default engine for AG Grid React. This means AG Grid React is no longer a thin React wrapper over a JavaScript library. The new rendering engine means AG Grid works perfectly within the React Developer Tools ecosystem for viewing component state, managing render cycles, profiling and improving performance of the app.\nThe pure React Rendering Engine for AG Grid has been in development for almost a year, and creating it required the development team to refact…",
+          "link": "https://news.ycombinator.com/item?id=30512276",
+          "publishedOn": "2022-03-01T10:22:35.000Z",
+          "wordCount": 747,
+          "title": "AG Grid rolls out major new platform version with 100% React rendering engine",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30510376",
+          "author": "atom_arranger",
+          "description": "Article URL: https://dylanvann.com/data-fetching-in-react-and-solid\nComments URL: https://news.ycombinator.com/item?id=30510376\nPoints: 2\n# Comments: 0",
+          "link": "https://dylanvann.com/data-fetching-in-react-and-solid",
+          "publishedOn": "2022-03-01T06:22:31.000Z",
+          "wordCount": 564,
+          "title": "Data Fetching in React and Solid",
+          "imageUrl": "https://dylanvann.com/api/og-image/data-fetching-in-react-and-solid.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30508524",
           "author": "jamghee",
@@ -5111,33 +5244,6 @@
           "publishedOn": "2022-02-01T02:51:01.000Z",
           "wordCount": 884,
           "title": "Building animations in React Native with accessibility in mind"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30145988",
-          "author": "maydemir",
-          "description": "Article URL: https://github.com/nextui-org/nextui\nComments URL: https://news.ycombinator.com/item?id=30145988\nPoints: 2\n# Comments: 0",
-          "link": "https://github.com/nextui-org/nextui",
-          "publishedOn": "2022-01-31T09:00:24.000Z",
-          "wordCount": 780,
-          "title": "NextUI – Beautiful, fast and modern React UI library"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30144392",
-          "author": "anais9",
-          "description": "Article URL: https://notchbegone.com\nComments URL: https://news.ycombinator.com/item?id=30144392\nPoints: 2\n# Comments: 1",
-          "link": "https://notchbegone.com",
-          "publishedOn": "2022-01-31T04:13:37.000Z",
-          "wordCount": 11,
-          "title": "My fix for the notch: open-source Mac/iPhone background generator (Python/React)"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30140507",
-          "author": "jitl",
-          "description": "Article URL: https://github.com/nomcopter/react-mosaic\nComments URL: https://news.ycombinator.com/item?id=30140507\nPoints: 2\n# Comments: 0",
-          "link": "https://github.com/nomcopter/react-mosaic",
-          "publishedOn": "2022-01-30T19:57:57.000Z",
-          "wordCount": 2244,
-          "title": "React-mosaic: A React tiling window manager"
         }
       ]
     },
@@ -5146,6 +5252,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30514582",
+          "author": "sdegutis",
+          "description": "Article URL: https://github.com/sdegutis/Novo-Cantico/issues/1\nComments URL: https://news.ycombinator.com/item?id=30514582\nPoints: 1\n# Comments: 1",
+          "link": "https://github.com/sdegutis/Novo-Cantico/issues/1",
+          "publishedOn": "2022-03-01T14:33:53.000Z",
+          "wordCount": 644,
+          "title": "Find a way to scope CSS to the current component?",
+          "imageUrl": "https://opengraph.githubassets.com/6d7cd4dfcf8ed9b1bd5403b9aed3e1bd2860a5b24f1a34e747dbd6691c4a7c4a/sdegutis/Novo-Cantico/issues/1"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30497834",
           "author": "ritabratamaiti",
@@ -5570,6 +5686,26 @@
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=30520123",
+          "author": "mrzool",
+          "description": "Article URL: https://meta.stackexchange.com/questions/151519/what-other-hidden-or-inobvious-rss-feeds-are-available-on-stack-exchange-and-its\nComments URL: https://news.ycombinator.com/item?id=30520123\nPoints: 1\n# Comments: 0",
+          "link": "https://meta.stackexchange.com/questions/151519/what-other-hidden-or-inobvious-rss-feeds-are-available-on-stack-exchange-and-its",
+          "publishedOn": "2022-03-01T21:18:22.000Z",
+          "wordCount": 2161,
+          "title": "Hidden or unobvious RSS feeds available on Stack Exchange sites",
+          "imageUrl": "https://meta.stackexchange.com/Content/Sites/stackexchangemeta/Img/apple-touch-icon@2.png?v=c34d758b103d"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30516413",
+          "author": "arthurcoudouy",
+          "description": "Article URL: https://axolo.co/blog/p/developer-productivity\nComments URL: https://news.ycombinator.com/item?id=30516413\nPoints: 88\n# Comments: 66",
+          "link": "https://axolo.co/blog/p/developer-productivity",
+          "publishedOn": "2022-03-01T16:46:12.000Z",
+          "wordCount": 1651,
+          "title": "What is developer productivity and how to measure it?",
+          "imageUrl": "https://axolo.co/blog/static/images/general/productivity.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=30505583",
           "author": "xy2_",
           "description": "Article URL: https://xy2.dev/posts/ssh-productive/\nComments URL: https://news.ycombinator.com/item?id=30505583\nPoints: 31\n# Comments: 6",
@@ -5959,24 +6095,6 @@
           "publishedOn": "2022-01-31T15:09:45.000Z",
           "wordCount": 920,
           "title": "A terminal-based RSS/Atom feed reader, reminiscent of an '80s Usenet news reader"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30144815",
-          "author": "gabea",
-          "description": "Article URL: https://jasonfeifer.bulletin.com/do-you-have-productivity-dysmorphia-here-s-the-cure/\nComments URL: https://news.ycombinator.com/item?id=30144815\nPoints: 2\n# Comments: 0",
-          "link": "https://jasonfeifer.bulletin.com/do-you-have-productivity-dysmorphia-here-s-the-cure/",
-          "publishedOn": "2022-01-31T05:21:48.000Z",
-          "wordCount": 10,
-          "title": "Do You Have “Productivity Dysmorphia”? Here’s the Cure"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30141858",
-          "author": "maddynator",
-          "description": "Article URL: https://thinkingthrough.substack.com/p/3-areas-of-work\nComments URL: https://news.ycombinator.com/item?id=30141858\nPoints: 2\n# Comments: 0",
-          "link": "https://thinkingthrough.substack.com/p/3-areas-of-work",
-          "publishedOn": "2022-01-30T22:26:30.000Z",
-          "wordCount": 889,
-          "title": "Subconscious productivity hack when WFH"
         }
       ]
     },
@@ -6050,15 +6168,6 @@
           "publishedOn": "2022-02-11T03:47:11.000Z",
           "wordCount": 2571,
           "title": "Hello, CSS Cascade Layers"
-        },
-        {
-          "id": "http://ishadeed.com/snippet/fit-content/",
-          "author": null,
-          "description": "",
-          "link": "http://ishadeed.com/snippet/fit-content/",
-          "publishedOn": "2022-01-31T03:47:11.000Z",
-          "wordCount": 484,
-          "title": "Use Cases For CSS fit-content"
         }
       ]
     },
@@ -6122,6 +6231,16 @@
       "siteUrl": "https://remysharp.com",
       "articles": [
         {
+          "id": "me-and-tinnitus-entry-5",
+          "author": null,
+          "description": "It's been a few months since I last wrote about my tinnitus and since there's been some change (sadly not positive) but also I've had a few people contact me asking for advice, and though I'm terrible on email, perhaps I can offer some here.",
+          "link": "https://remysharp.com/2022/03/01/me-and-tinnitus-entry-5",
+          "publishedOn": "2022-03-01T00:00:00.000Z",
+          "wordCount": 1185,
+          "title": "Me & Tinnitus: entry 5 [blog]",
+          "imageUrl": "https://remysharp.com/images/cards/og/9-6.jpg"
+        },
+        {
           "id": "my-hardware-adventure-with-a-gameboy-pocket",
           "author": null,
           "description": "I bought this Gameboy Pocket off eBay in the hope that I could bring it back to life...\n\nI'd seen this before and suspected that the game couldn't be loaded due to corruption during boot (on the GB side). I was wrong, but I definitely enjoyed the challenge!\n\nOpening up the Gameboy up and took a peek, and yep, found game pak loading doberry had been messed with. Bit of a duff job on whoever tried to repair it before me - and it even looks like they spotted there was a short and tried to slice through it with a knife:\n\nPins A2 and A1 were definitely connected! Some flux and solder later and it looks more like this:\n\nAnd now the Gameboy boots with a nice clean Nintendo logo. Except… it doesn't go past that point at all - and in fact the screen looks like it's doing some weird flash dance, goi…",
@@ -6137,6 +6256,17 @@
       "feedUrl": "https://rss.stratechery.passport.online/feed/rss/3Q76LS9baHCh8Gs9TFhpHb",
       "siteUrl": "https://stratechery.com",
       "articles": [
+        {
+          "id": "https://stratechery.com/2022/shopifys-evolution/",
+          "author": "Ben Thompson",
+          "description": "Shopify should build an advertising business to complement Shop Pay and the Shopify Fulfillment Network",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9zaG9waWZ5cy1ldm9sdXRpb24v.MISyfz31cvAzUa_G5ZxvYbqldXiuViCAWTxzg5d3SOUnSq7m-SUB74ccuC7k6A3gE7OFQO8ujuj4qJGQ4L5cEQ-4lrAoz3lhakR3iETGJBEQ3xMMZWy8jBx0UlyZPmoqObQa7KSWZuF6s6GEl8xYMCeDhOnYa2BAj-IkjVq6P3vfIFOPm3RvkZLqLYq5Bc7lfbfSq3d538B0Z-85fZEQCQvjX4MWek2dpVAI9WxB4qrSZOWW-MIqxlDk_gNrd7RyVAu2kwq3NpYfEV6UvEy0xT5bxTrqGl3IGst4DeyDgiffcIMl9BYcAKY3QKz1oDHVZ2Gml1LlsixUE3qwjm65Xw",
+          "publishedOn": "2022-02-22T15:58:40.000Z",
+          "wordCount": null,
+          "title": "Shopify's Evolution",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://stratechery.com/2022/shopifys-evolution/",
           "author": "Ben Thompson",
@@ -6211,6 +6341,17 @@
           "publishedOn": "2022-02-22T15:58:40.000Z",
           "wordCount": null,
           "title": "Shopify's Evolution",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://stratechery.com/2022/digital-advertising-in-2022/",
+          "author": "Ben Thompson",
+          "description": "The advertising has shifted from a Google-Facebook duopoly to one where Amazon and potentially Apple are major forces.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9kaWdpdGFsLWFkdmVydGlzaW5nLWluLTIwMjIv.Jx-bSxzvjgA1YNjfs_9ei4LSMi47vjr_BAAh1lLdWhzogKnr0jth1F8LuIRYkIgZP7WBKEGVaWKijN_RxvOsL_an-Vd2AZucMDkWaVT5hAJHhiblSCuI6Y08nH9AFHdLuOtKYk14_akXLghEyr1T9-nKtgZhT3egX14pR-Dw7sOeHqkvVXHxCa3JSf7MNYLv31j-ZmrSCqRZqZfgQ2OMts5xZ43heREh5y8UCTlBp6SfhfchX6cVtIJZQErR8HFjitMKR0Q0jk4XgSVUVGqKi-MJZC4vvv-JzmQiIehfQHSifzvYMWilYp_IUu-f9kRRug6Y1P_ujSUepEoRP6C_hQ",
+          "publishedOn": "2022-02-08T14:11:41.000Z",
+          "wordCount": null,
+          "title": "Digital Advertising in 2022",
           "itunes": {},
           "imageUrl": null
         },
@@ -6428,6 +6569,17 @@
           "wordCount": null,
           "title": "Digital Advertising in 2022",
           "itunes": {}
+        },
+        {
+          "id": "https://stratechery.com/2022/gaming-the-smiling-curve/",
+          "author": "Ben Thompson",
+          "description": "The spate of recent acquisitions in the gaming space — Take-Two and Zynga, Microsoft and Activision, and Sony and Bungie — make sense in the context of the Smiling Curve.",
+          "link": "https://stratechery.passport.online/l/a_3Q76LS9baHCh8Gs9TFhpHb.aHR0cHM6Ly9zdHJhdGVjaGVyeS5jb20vMjAyMi9nYW1pbmctdGhlLXNtaWxpbmctY3VydmUv.kKO08VLWNx_pNvsyrnwpG1q_YSiLUfYN4hyW0cPP--smMLJSnwoRMb5qgh1GH6CJd6Bj0OHjJsVPkwfR2BectHq6S8NnxVXz183HOTQFhvHTcop5Fa7M9QC-RKtGsaQRaZQGOc4Q5DwGAcHMWPWV3GnqL8_2O2xKspB-q6etk6OiwQaBG1C0R0xThzToU46n7dTVGDhUWnXj-cLLV84d3z0ZFhRDrkxs3xHRsvZrnb0N1hL9ZVa9XFjV3D3L8no95G29Hr03b4ey6ThTmQx_ng-57eS8XnYg5NsHF48A8eoTL38DlOkmi5dHy6fCDZXBrUPyU1m6zVA6Hc0XwhCL6A",
+          "publishedOn": "2022-02-01T12:45:53.000Z",
+          "wordCount": null,
+          "title": "Gaming the Smiling Curve",
+          "itunes": {},
+          "imageUrl": null
         },
         {
           "id": "https://stratechery.com/2022/gaming-the-smiling-curve/",
@@ -6712,6 +6864,16 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=41552",
+          "author": "Seth Godin",
+          "description": "Reassurance always runs out. Reassurance implies that the only reason to go forward is because it’s certain to work. Reassurance is futile. Encouragement means that someone sees us, understands us and believes in us. Even (especially) when things don’t turn out as we hoped. Encouragement lasts. Encouragement is self-fueling and self-fulfilling.",
+          "link": "https://seths.blog/2022/03/encouragement-and-reassurance/",
+          "publishedOn": "2022-03-01T08:59:00.000Z",
+          "wordCount": 183,
+          "title": "Encouragement and reassurance",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=41547",
           "author": "Seth Godin",
           "description": "When a client, a boss or an employee makes a special request, it’s okay to get a little bent out of shape. It might cost you extra time or money, it might be a hassle, it might not be deserved. And then you can say no. But if you say yes, then it pays to […]",
@@ -6978,15 +7140,6 @@
           "publishedOn": "2022-02-01T09:24:00.000Z",
           "wordCount": 341,
           "title": "In temporary residence"
-        },
-        {
-          "id": "https://seths.blog/?p=42247",
-          "author": "Seth Godin",
-          "description": "We get a huge benefit from making a simple commitment: Don’t miss deadlines. The benefit is that once we agree to the deadline, we don’t have to worry about it anymore. We don’t have to negotiate, come up with excuses or even stress about it. It won’t ship when it’s perfect. It will ship because […]",
-          "link": "https://seths.blog/2022/01/on-schedule/",
-          "publishedOn": "2022-01-31T09:39:00.000Z",
-          "wordCount": 238,
-          "title": "On schedule"
         }
       ]
     },
@@ -8053,6 +8206,16 @@
       "siteUrl": "https://svelte.dev/blog",
       "articles": [
         {
+          "id": "https://svelte.dev/blog/whats-new-in-svelte-march-2022",
+          "author": null,
+          "description": "Svelte Summit Spring is coming... and page endpoints are here!",
+          "link": "https://svelte.dev/blog/whats-new-in-svelte-march-2022",
+          "publishedOn": "2022-03-01T12:00:00.000Z",
+          "wordCount": 854,
+          "title": "What's new in Svelte: March 2022",
+          "imageUrl": null
+        },
+        {
           "id": "https://svelte.dev/blog/whats-new-in-svelte-february-2022",
           "author": null,
           "description": "Rapid-fire releases across Svelte, SvelteKit and the community",
@@ -8404,6 +8567,21 @@
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
         {
+          "id": "https://smashingmagazine.com/2022/03/new-css-features-2022/",
+          "author": "hello@smashingmagazine.com (Michelle Barker)",
+          "description": "2022 is shaping up to be a pretty great year for CSS, with a plethora of new features on the horizon. Some are already starting to land in browsers, others are likely to gain widespread browser support in 2022, while for one or two the process may be a little longer. In this article we’ll take a look at a few of them.",
+          "link": "https://smashingmagazine.com/2022/03/new-css-features-2022/",
+          "publishedOn": "2022-03-01T13:00:00.000Z",
+          "wordCount": 3515,
+          "title": "New CSS Features In 2022",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/14419af2-69ab-4150-8cf3-bca2cd2291ad/new-css-features-2022.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/14419af2-69ab-4150-8cf3-bca2cd2291ad/new-css-features-2022.jpg"
+        },
+        {
           "id": "https://smashingmagazine.com/2022/02/we-all-are-ukraine/",
           "author": "hello@smashingmagazine.com (Vitaly Friedman)",
           "description": "As a design community, we all can’t be silent in these times. We need to be united in our fight against the war, for democracy, for those dreams that children are entitled to have when they are growing up. It’s our obligation to help as much as we can. **We are donating all proceeds** from \"Interface Design Checklists\" PDF to support Ukraine.",
@@ -8691,20 +8869,6 @@
           "title": "Meet “Touch Design For Mobile Interfaces”, A New Smashing Book",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b9bd7979-279d-4547-8540-cb1e344cbf19/newsletter-header-opt.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/desktop-wallpaper-calendars-february-2022/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Do you need a little inspiration boost? Well, then our new batch of desktop wallpapers is for you. Designed by artists and designers from across the globe, they come in versions with and without a calendar for February 2022.",
-          "link": "https://smashingmagazine.com/2022/01/desktop-wallpaper-calendars-february-2022/",
-          "publishedOn": "2022-01-31T09:00:00.000Z",
-          "wordCount": 2280,
-          "title": "28 Days Of Inspiration (February 2022 Desktop Wallpapers Edition)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/04d12428-d98f-4633-ad77-fed864da6842/feb-22-magic-of-music-preview-opt.png",
             "length": "0",
             "type": "image/png"
           }
@@ -9012,15 +9176,6 @@
           "publishedOn": "2022-02-02T08:14:47.000Z",
           "wordCount": 293,
           "title": "Work unites what politics divide"
-        },
-        {
-          "id": "https://world.hey.com/dhh/there-are-no-all-knowing-all-seeing-oracles-bc6ed1fc",
-          "author": null,
-          "description": "Moderating content on the basis of \"truth\" is an impossible task at all but the dullest edges of discourse. Because the vanguard of truth is always in dispute. Out there on the edge, truth is a process, and it emerges faster when opposing inquiries are pursued simultaneously. This is the bedrock of science.\nRarely has this principle been proven more emphatically true than over the past few years. Our truth, their truth, your truth has been sent fumbling in the dark. Trying its way through the maze of reality, finding dead ends at every turn.\nThis doesn't mean all forms of content moderation are impossible. Forbidding direct threats of violence or doxxing is doable, for example. But mixing these prohibitions together with those against \"misinformation\" or \"disinformation\" is a rhetorical sl…",
-          "link": "https://world.hey.com/dhh/there-are-no-all-knowing-all-seeing-oracles-bc6ed1fc",
-          "publishedOn": "2022-01-31T09:19:58.000Z",
-          "wordCount": 741,
-          "title": "There are no all-knowing, all-seeing oracles"
         }
       ]
     }
