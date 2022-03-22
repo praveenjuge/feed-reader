@@ -2,8 +2,8 @@
   "private": "true",
   "scripts": {
     "build": "osmosfeed",
-    "dev": "NODE_ENV=development ./node_modules/tailwindcss/lib/cli.js -o ./static/index.css -w --minify",
-    "tw:build": "NODE_ENV=production ./node_modules/tailwindcss/lib/cli.js -o ./static/index.css --minify"
+    "dev": "NODE_ENV=development ./node_modules/tailwindcss/lib/cli.js -i ./static/tailwind.css -o ./static/index.css -w --minify",
+    "tw:build": "NODE_ENV=production ./node_modules/tailwindcss/lib/cli.js -i ./static/tailwind.css -o ./static/index.css --minify"
   },
   "dependencies": {
     "@osmoscraft/osmosfeed": "^1.14.4",

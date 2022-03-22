@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind utilities;
+
+body {
+  @apply space-y-5 antialiased text-stone-500 bg-black mx-auto max-w-4xl p-3 text-sm my-5 overflow-x-hidden;
+}
+
+a {
+  @apply text-stone-300 hover:text-white visited:text-stone-500 font-medium;
+}
+
+p {
+  @apply mt-0.5;
+}
+
+section {
+  @apply rounded bg-stone-900/80 p-4 space-y-5 overflow-x-hidden;
+}
+
+img {
+  @apply rounded bg-stone-900 w-24 h-16 object-cover;
+}
+
+div {
+  @apply flex space-x-4;
+}
