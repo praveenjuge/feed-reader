@@ -2,29 +2,21 @@
 @tailwind utilities;
 
 body {
-  @apply space-y-5 antialiased text-stone-500 bg-black mx-auto max-w-4xl p-3 text-sm my-5 overflow-x-hidden;
-}
-
-a {
-  @apply text-stone-300 hover:text-white visited:text-stone-500 font-medium;
-}
-
-p {
-  @apply mt-0.5;
+  @apply space-y-5 antialiased text-stone-500 bg-black mx-auto max-w-4xl p-3 text-sm my-5;
 }
 
 section {
-  @apply rounded bg-stone-900/80 p-4 space-y-5 overflow-x-hidden;
-}
-
-img {
-  @apply rounded bg-stone-900 w-24 h-16 object-cover;
+  @apply rounded bg-stone-900/75 p-4 space-y-5 overflow-x-hidden;
 }
 
 div {
-  @apply flex space-x-4;
+  @apply flow-root w-full;
 }
 
-div span {
-  @apply w-full;
+a {
+  @apply text-stone-300 hover:text-white visited:text-stone-500 font-medium block mb-0.5;
+}
+
+img {
+  @apply rounded bg-stone-900 w-24 h-16 object-cover float-right ml-4;
 }
