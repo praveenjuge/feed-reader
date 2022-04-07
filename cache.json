@@ -217,6 +217,21 @@
       "siteUrl": "https://christianheilmann.com",
       "articles": [
         {
+          "id": "https://christianheilmann.com/?p=7195",
+          "author": "Chris Heilmann",
+          "description": "Today, after a decade or so of using MacOS, I realised that preview has a zoom lens built in. You can toggle it using the backtick ` key.",
+          "link": "https://christianheilmann.com/2022/04/06/quick-macos-tip-preview-as-a-built-in-zoom-lens/",
+          "publishedOn": "2022-04-06T10:40:31.000Z",
+          "wordCount": 197,
+          "title": "Quick MacOS tip: Preview as a built-in zoom lens",
+          "enclosure": {
+            "url": "https://christianheilmann.com/wp-content/uploads/2022/04/lens-in-preview.mp4",
+            "length": "5799364",
+            "type": "video/mp4"
+          },
+          "imageUrl": null
+        },
+        {
           "id": "https://christianheilmann.com/?p=7186",
           "author": "Chris Heilmann",
           "description": "It is not that hard to create a script that shows and hides parts of the document, but often we forget about how our visitors use the products we build. Especially when it comes to navigating huge documents, people tend to use the “find in page” functionality of browsers. And when they do and we […]",
@@ -322,16 +337,6 @@
           "wordCount": 259,
           "title": "The Web Doesn’t Have Version Numbers",
           "imageUrl": "https://css-irl.info/social_1200x630.png"
-        },
-        {
-          "id": "https://css-irl.info/a-reason-to-self-host-fonts/",
-          "author": null,
-          "description": "The other day I noticed a strange thing had happened with the title font on my personal site. Where once the glyphs were clearly defined by glowing outlines, suddenly the outlines were all over the place, bisecting the glyphs in odd ways.\nAfter: Font rendering after the change\n\n\n  \n  Before: How the font should look\n\nMy immediate assumption was that it was a browser compatibility issue. After all, I was using the non-standard CSS property text-stroke.\nh1 {\n  -webkit-text-stroke: 2px var(--accent);\n  text-stroke: 2px var(--accent);\n}\nAlthough text-stroke is currently well-supported, it comes with a warning that there could be inconsistencies between browser implementations, and behaviour might change in the future. I assumed that Firefox had changed its implementation. But a subsequent chec…",
-          "link": "https://css-irl.info/a-reason-to-self-host-fonts/",
-          "publishedOn": "2022-03-08T00:00:00.000Z",
-          "wordCount": 476,
-          "title": "A Reason to Self-Host Fonts",
-          "imageUrl": "https://css-irl.info/social_1200x630.png"
         }
       ]
     },
@@ -407,6 +412,56 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=9681",
+          "author": "Adam Marsden",
+          "description": "Development",
+          "link": "https://dailydevlinks.com/command-line-for-beginners-how-to-use-the-terminal-like-a-pro/",
+          "publishedOn": "2022-04-06T11:41:00.000Z",
+          "wordCount": 161,
+          "title": "Command Line for Beginners – How to Use the Terminal Like a Pro",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9690",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/animated-grid-tracks-with-has/",
+          "publishedOn": "2022-04-06T11:38:00.000Z",
+          "wordCount": 157,
+          "title": "Animated Grid Tracks with :has()",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9684",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/the-beginners-guide-to-sass/",
+          "publishedOn": "2022-04-06T10:33:00.000Z",
+          "wordCount": 147,
+          "title": "The Beginner’s Guide to Sass",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9678",
+          "author": "Adam Marsden",
+          "description": "Tool",
+          "link": "https://dailydevlinks.com/killed-by-microsoft/",
+          "publishedOn": "2022-04-06T08:32:00.000Z",
+          "wordCount": 144,
+          "title": "Killed by Microsoft",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9687",
+          "author": "Adam Marsden",
+          "description": "CSSHTML",
+          "link": "https://dailydevlinks.com/refactoring-html-and-css/",
+          "publishedOn": "2022-04-06T06:59:00.000Z",
+          "wordCount": 144,
+          "title": "Refactoring HTML and CSS",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
         {
           "id": "https://dailydevlinks.com/?p=9674",
           "author": "Adam Marsden",
@@ -886,36 +941,6 @@
           "wordCount": 147,
           "title": "Is HTML A Programming Language?",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9494",
-          "author": "Adam Marsden",
-          "description": "BeginnersDevelopmentGit",
-          "link": "https://dailydevlinks.com/19-valuable-github-repositories-for-beginner-developers/",
-          "publishedOn": "2022-03-08T09:33:00.000Z",
-          "wordCount": 157,
-          "title": "19 Valuable GitHub Repositories for Beginner Developers",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9486",
-          "author": "Adam Marsden",
-          "description": "CSSHTML",
-          "link": "https://dailydevlinks.com/say-hello-to-selectmenu-a-fully-style-able-select-element/",
-          "publishedOn": "2022-03-08T06:26:00.000Z",
-          "wordCount": 158,
-          "title": "Say Hello to selectmenu, a Fully Style-able select Element",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9480",
-          "author": "Adam Marsden",
-          "description": "Design",
-          "link": "https://dailydevlinks.com/design-value-conference-2022/",
-          "publishedOn": "2022-03-07T12:09:00.000Z",
-          "wordCount": 143,
-          "title": "Design Value Conference 2022",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
         }
       ]
     },
@@ -980,16 +1005,6 @@
           "wordCount": 401,
           "title": "Goodbye, Big Freeda",
           "imageUrl": "http://daverupert.com/images/posts/2022/camper.jpg"
-        },
-        {
-          "id": "https://daverupert.com/2022/03/vibe-check-14/",
-          "author": null,
-          "description": "February was a month that felt like ten months; cold, hot, beautiful, windy, busy, stressful, and globally catastrophic. But beyond that last part, it’s been a month of growth, reorganizing, and learning about stress.\nSurvived the freeze\nTexas had another big winter storm this month. Thankfully the grid didn’t shut down but after talking to a lot of Austinites, I think we all have a bit of trauma from the freeze last year. A state government unable to keep the lights and heat on. HEB, the grocery store, was a better government. Although spared a catastrophe, Texas — in the form of Gov. Greg Abbot — has found out other ways to be shitty by making it illegal to be a caring parent of a trans child. The trauma continues.\nSold the pop-up\n\nOver Valentine’s weekend, we tried to go camping with ou…",
-          "link": "https://daverupert.com/2022/03/vibe-check-14/",
-          "publishedOn": "2022-03-08T01:21:00.000Z",
-          "wordCount": 1241,
-          "title": "Vibe Check №14",
-          "imageUrl": null
         }
       ]
     },
@@ -1043,16 +1058,6 @@
           "wordCount": 584,
           "title": "Flexible, Powerful DataGrad from Sencha (Sponsored)",
           "imageUrl": "https://cdn4.buysellads.net/uu/5/112316/1644938106-senchagrid1.png"
-        },
-        {
-          "id": "https://davidwalsh.name/confessions-xix",
-          "author": null,
-          "description": "<p>It&#8217;s been a while since I&#8217;ve gotten a few things off of my chest and since I&#8217;m always full of peeves and annoyances I thought it was time to unleash: Due to the immensely negative response to any tweet about crypto from my blog account, I created a second account just for crypto musings. I&#8217;ll [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://davidwalsh.name/confessions-xix\">Confessions of a Web Developer XIX</a> appeared first on <a rel=\"nofollow\" href=\"https://davidwalsh.name\">David Walsh Blog</a>.</p>\n<p><a href=\"https://tkjs.us/dwb\"><img style=\"margin:0 auto\" alt=\"\" src=\"https://davidwalsh.name/demo/tjs_block-1.svg\"></a></p>",
-          "link": "https://davidwalsh.name/confessions-xix",
-          "publishedOn": "2022-03-07T12:23:13.000Z",
-          "wordCount": 1586,
-          "title": "Confessions of a Web Developer XIX",
-          "imageUrl": "https://davidwalsh.name/wp-content/themes/punky/images/logo.png"
         }
       ]
     },
@@ -1110,16 +1115,6 @@
           "wordCount": 976,
           "title": "Cookies Having Independent Partitioned State (CHIPS) origin trial",
           "imageUrl": "https://wd.imgix.net/image/foR0vJZKULb5AGJExlazy1xYDgI2/xvNiBdV0ZwwLUE4SEdbf.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/new-in-devtools-100/",
-          "author": null,
-          "description": "Interested in helping improve DevTools? Sign up to participate in Google User Research here.\n# Chrome 100 \nHere’s to the 100th Chrome version! Chrome DevTools will continue to provide reliable tools for developers to build on the web. Take a moment to click around in the What’s New tab to celebrate the milestones.\nAs usual, you can watch the latest What’s New in DevTools video by clicking on the image.\n          \n# View and edit @supports at rules in the Styles pane\nYou can now view and edit the CSS @supports at-rules in the Styles pane. These changes make it easier to experiment with the at-rules in real time.\nOpen this demo page, inspect the <div class=”box”> element, view the @supports at-rules in the Styles pane. Click on the rule’s declaration to edit it.\nChromium issues: 1222574, 122…",
-          "link": "https://developer.chrome.com/en/blog/new-in-devtools-100/",
-          "publishedOn": "2022-03-08T00:00:00.000Z",
-          "wordCount": 2930,
-          "title": "What's New In DevTools (Chrome 100)",
-          "imageUrl": "https://wd.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/ALD58FwgzF2bS3hY7X7O.jpg?auto=format&w=1521"
         }
       ]
     },
@@ -1223,16 +1218,6 @@
           "wordCount": 1276,
           "title": "Design by the Decades: Get inspired by 80s graphic design trends",
           "imageUrl": "https://cdn.dribbble.com/users/13774/screenshots/5041932/1988_4x.png"
-        },
-        {
-          "id": "https://dribbble.com/stories/2022/03/08/designers-block",
-          "author": null,
-          "description": "How often do you feel frustrated, lack inspiration, or get stuck staring at an empty canvas? Do you ever have days where it feels impossible to start a new project?\nYou’re not alone. Even the most experienced designers go through bouts of low inspiration, otherwise known as designer’s block.\nIn this article, the design team at Readymag — the powerful no-code web creation tool— shares their own tried and true tips for overcoming creative block, staying inspired, and mastering the skills of imaginative play. The next time you hit a creative slowdown, put these tips to the test.\n✏️  Thanks to our friends at Readymag for sponsoring this blog post!\n1. — Look into design manifestos\nAlmost every designer has heard of Dieter Rams’ Ten Principles For Good Design, Bruce Mau’s Incomplete Manifesto fo…",
-          "link": "https://dribbble.com/stories/2022/03/08/designers-block",
-          "publishedOn": "2022-03-08T09:00:00.000Z",
-          "wordCount": 1377,
-          "title": "6 unexpected ways to overcome 'designer's block'",
-          "imageUrl": "https://cdn.dribbble.com/uploads/34234/original/ac699f16c8caa9d10444d8c2e64087c6.jpg?1646262628"
         }
       ]
     },
@@ -1247,6 +1232,36 @@
       "feedUrl": "https://github.blog/feed/",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/?p=64028",
+          "author": "Jakub Oleksy",
+          "description": "In March, we experienced several incidents resulting in significant impact to multiple GitHub services.",
+          "link": "https://github.blog/2022-04-06-github-availability-report-march-2022/",
+          "publishedOn": "2022-04-06T18:45:52.000Z",
+          "wordCount": 1617,
+          "title": "GitHub Availability Report: March 2022",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Engineering-Enterprise@2x-1.png?fit=2400%2C1260"
+        },
+        {
+          "id": "https://github.blog/?p=63758",
+          "author": "Courtney Claessens",
+          "description": "The new dependency review action and API prevents the introduction of known supply chain vulnerabilities into your code.",
+          "link": "https://github.blog/2022-04-06-prevent-introduction-known-vulnerabilities-into-your-code/",
+          "publishedOn": "2022-04-06T18:13:40.000Z",
+          "wordCount": 641,
+          "title": "Prevent the introduction of known vulnerabilities into your code",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Engineering-Product@2x-1.png"
+        },
+        {
+          "id": "https://github.blog/?p=63897",
+          "author": "Brittany O'Shea",
+          "description": "We want to take away the pain and effort of keeping your code secure, so check out how Dependabot empowers developers to keep to their projects secure.",
+          "link": "https://github.blog/2022-04-06-how-dependabot-empowers-you-to-keep-your-projects-secure/",
+          "publishedOn": "2022-04-06T15:55:44.000Z",
+          "wordCount": 1187,
+          "title": "How Dependabot empowers you to keep your projects secure",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Security-Product@2x-1.png"
+        },
         {
           "id": "https://github.blog/?p=63820",
           "author": "Brian Douglas",
@@ -2219,56 +2234,6 @@
           "wordCount": 64,
           "title": "The case for adding validation state to your design tokens",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64807",
-          "author": "Travis",
-          "description": "The purpose of Open UI to the web platform is to allow web developers to style and extend built-in web UI controls.",
-          "link": "https://heydesigner.com/open-ui/",
-          "publishedOn": "2022-03-08T09:17:51.000Z",
-          "wordCount": 65,
-          "title": "Open UI",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64805",
-          "author": "Travis",
-          "description": "The difference between user feedback and user insights.",
-          "link": "https://heydesigner.com/should-you-ever-not-listen-to-user-feedback/",
-          "publishedOn": "2022-03-08T09:16:29.000Z",
-          "wordCount": 64,
-          "title": "Should you ever NOT listen to user feedback?",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64803",
-          "author": "Travis",
-          "description": "Instead of designing for x number of arbitrary breakpoints, we can design a system within which elements scale proportionally and fluidly.",
-          "link": "https://heydesigner.com/utopia-an-approach-to-fluid-responsive-design/",
-          "publishedOn": "2022-03-08T09:15:02.000Z",
-          "wordCount": 78,
-          "title": "Utopia: An approach to fluid responsive design",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64801",
-          "author": "Travis",
-          "description": "The number one feature I’d like to see in Safari on iOS is web notifications.",
-          "link": "https://heydesigner.com/web-notifications-on-ios/",
-          "publishedOn": "2022-03-08T09:08:59.000Z",
-          "wordCount": 62,
-          "title": "Web notifications on iOS",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64799",
-          "author": "Travis",
-          "description": "In a world of shaders, meshes, and filters, Canvas2D might not get you excited. But it should.",
-          "link": "https://heydesigner.com/its-always-been-you-canvas2d/",
-          "publishedOn": "2022-03-08T09:07:45.000Z",
-          "wordCount": 68,
-          "title": "It’s always been you, Canvas2D",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2277,6 +2242,106 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30938315",
+          "author": "jseliger",
+          "description": "Article URL: https://www.strongtowns.org/journal/2022/4/6/ntsb-chair-after-car-crash-theres-a-problem-with-that-road-design\nComments URL: https://news.ycombinator.com/item?id=30938315\nPoints: 2\n# Comments: 0",
+          "link": "https://www.strongtowns.org/journal/2022/4/6/ntsb-chair-after-car-crash-theres-a-problem-with-that-road-design",
+          "publishedOn": "2022-04-06T22:34:51.000Z",
+          "wordCount": 1157,
+          "title": "NTSB Chair After Car Crash: “There’s a Problem with That Road Design“",
+          "imageUrl": "http://static1.squarespace.com/static/53dd6676e4b0fedfbc26ea91/54b6c509e4b062126976d942/624c9bc0a097797442678b50/1649275512395/2958708658_b2dc342683_k.jpg?format=1500w"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30938189",
+          "author": "rbanffy",
+          "description": "Article URL: https://www.infoq.com/articles/architecture-trends-2022/\nComments URL: https://news.ycombinator.com/item?id=30938189\nPoints: 1\n# Comments: 0",
+          "link": "https://www.infoq.com/articles/architecture-trends-2022/",
+          "publishedOn": "2022-04-06T22:20:28.000Z",
+          "wordCount": 4203,
+          "title": "Software Architecture and Design InfoQ Trends Report–April 2022",
+          "imageUrl": "https://res.infoq.com/articles/architecture-trends-2022/en/headerimage/generatedHeaderImage-1648721970880.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30931555",
+          "author": "MrJagil",
+          "description": "Article URL: https://www.mdpi.com/2072-666X/13/1/59/htm\nComments URL: https://news.ycombinator.com/item?id=30931555\nPoints: 2\n# Comments: 0",
+          "link": "https://www.mdpi.com/2072-666X/13/1/59/htm",
+          "publishedOn": "2022-04-06T13:09:19.000Z",
+          "wordCount": 8724,
+          "title": "A Fast-Response Design for Three-Color E-Paper Displays",
+          "imageUrl": "https://www.mdpi.com/micromachines/micromachines-13-00059/article_deploy/html/images/micromachines-13-00059-g001-550.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30930820",
+          "author": "rbanffy",
+          "description": "Article URL: https://ieeexplore.ieee.org/document/562936\nComments URL: https://news.ycombinator.com/item?id=30930820\nPoints: 2\n# Comments: 0",
+          "link": "https://ieeexplore.ieee.org/document/562936",
+          "publishedOn": "2022-04-06T11:24:06.000Z",
+          "wordCount": 121,
+          "title": "Design by Contract: The Lessons of Ariane",
+          "imageUrl": "https://ieeexplore.ieee.org/assets/img/ieee_logo_smedia_200X200.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30930166",
+          "author": "takiwatanga",
+          "description": "Article URL: https://www.abeautifulsite.net/posts/design-systems-arent-cheap\nComments URL: https://news.ycombinator.com/item?id=30930166\nPoints: 9\n# Comments: 1",
+          "link": "https://www.abeautifulsite.net/posts/design-systems-arent-cheap",
+          "publishedOn": "2022-04-06T09:36:04.000Z",
+          "wordCount": 927,
+          "title": "Design Systems Aren't Cheap",
+          "imageUrl": "http://0.gravatar.com/avatar/bf1b3b95fd5b096a3592247c29667b33?s=512"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30930040",
+          "author": "kmitov",
+          "description": "Article URL: https://kmitov.com/posts/how-a-bad-ui-message-prevented-us-from-resolving-a-5-days-feature-downtime/\nComments URL: https://news.ycombinator.com/item?id=30930040\nPoints: 2\n# Comments: 0",
+          "link": "https://kmitov.com/posts/how-a-bad-ui-message-prevented-us-from-resolving-a-5-days-feature-downtime/",
+          "publishedOn": "2022-04-06T09:12:55.000Z",
+          "wordCount": 775,
+          "title": "A bad UI message prevented us from resolving a 5 days feature downtime",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30929714",
+          "author": "grokx",
+          "description": "Article URL: https://manycore.substack.com/p/how-we-made-android-3x-faster\nComments URL: https://news.ycombinator.com/item?id=30929714\nPoints: 1\n# Comments: 0",
+          "link": "https://manycore.substack.com/p/how-we-made-android-3x-faster",
+          "publishedOn": "2022-04-06T08:14:49.000Z",
+          "wordCount": 439,
+          "title": "How We Made the Android UI 3x Faster",
+          "imageUrl": "https://cdn.substack.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb06b3764-d81e-45d9-b961-69591f1fcad5_1600x900.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30929458",
+          "author": "skilled",
+          "description": "Article URL: https://www.delldesignsystem.com/\nComments URL: https://news.ycombinator.com/item?id=30929458\nPoints: 19\n# Comments: 9",
+          "link": "https://www.delldesignsystem.com/",
+          "publishedOn": "2022-04-06T07:36:33.000Z",
+          "wordCount": null,
+          "title": "The Dell Design System",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30928671",
+          "author": "mgh2",
+          "description": "It seems that the tech community accepts certain dogma in releasing products \"MVP, agile, user-centered design, user studies, etc\".\nYet if these principles are being followed, why does the industry keep pumping low quality products, while Apple is the opposite?\nApple's secrecy does not help. The few articles on google were either outdated (Job's legacy) or blog with opinions and speculations.\nWhat are they doing right that most tech companies miss? Or is it not design, but a distinctive leadership and strategy that works?\nSome \"more verifiable\" sources:\n[1] https://ux.stackexchange.com/questions/40448/how-does-apple-manage-to-deliver-its-user-experience\n[2] https://www.youtube.com/watch?v=o3uR6IDSHSM\nWould love to hear from insiders if possible, thanks.\nComments URL: https://news.ycombinator.com/item?id=30928671\nPoints: 4\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=30928671",
+          "publishedOn": "2022-04-06T05:03:16.000Z",
+          "wordCount": 170,
+          "title": "Ask HN: How does Apple do UX research?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30928081",
+          "author": "harporoeder",
+          "description": "Article URL: https://www.gwern.net/Design\nComments URL: https://news.ycombinator.com/item?id=30928081\nPoints: 252\n# Comments: 184",
+          "link": "https://www.gwern.net/Design",
+          "publishedOn": "2022-04-06T03:15:02.000Z",
+          "wordCount": 9912,
+          "title": "Design of This Website (2021)",
+          "imageUrl": "https://www.gwern.net/images/design/2020-12-25-gwern.net-recursivepopups.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30922882",
           "author": "yllek",
@@ -2965,6 +3030,16 @@
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=30929779",
+          "author": "achrafash",
+          "description": "Article URL: https://withcurated.com\nComments URL: https://news.ycombinator.com/item?id=30929779\nPoints: 2\n# Comments: 1",
+          "link": "https://withcurated.com",
+          "publishedOn": "2022-04-06T08:27:16.000Z",
+          "wordCount": 517,
+          "title": "Show HN: Curated, a Pocket extension to save newsletters and RSS Feeds",
+          "imageUrl": "https://withcurated.com/twitter_card.png"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=30900364",
           "author": "ICodeSometimes",
           "description": "Article URL: https://writemore.io/\nComments URL: https://news.ycombinator.com/item?id=30900364\nPoints: 2\n# Comments: 1",
@@ -3423,26 +3498,6 @@
           "wordCount": 721,
           "title": "Show HN: Kaado.io – Unifying Personal Productivity",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30598591",
-          "author": "chhs",
-          "description": "Article URL: https://chhs1.github.io/blog/2022/03/08/youtube-rss-torrent.html\nComments URL: https://news.ycombinator.com/item?id=30598591\nPoints: 4\n# Comments: 0",
-          "link": "https://chhs1.github.io/blog/2022/03/08/youtube-rss-torrent.html",
-          "publishedOn": "2022-03-08T10:57:09.000Z",
-          "wordCount": 1860,
-          "title": "From YouTube channel to RSS video podcast, backed with BitTorrent",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30590887",
-          "author": "thcipriani",
-          "description": "Article URL: https://qeunit.medium.com/quality-engineering-productivity-at-spotify-bf4574a0cffb\nComments URL: https://news.ycombinator.com/item?id=30590887\nPoints: 2\n# Comments: 0",
-          "link": "https://qeunit.medium.com/quality-engineering-productivity-at-spotify-bf4574a0cffb",
-          "publishedOn": "2022-03-07T17:42:02.000Z",
-          "wordCount": 311,
-          "title": "Quality Engineering Productivity at Spotify",
-          "imageUrl": "https://miro.medium.com/max/1200/1*3QcNp6CVqD3Du0KeeZNoCg.jpeg"
         }
       ]
     },
@@ -3451,6 +3506,46 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=30935283",
+          "author": "Tomte",
+          "description": "Article URL: https://lists.w3.org/Archives/Public/www-style/2014Jun/0312.html\nComments URL: https://news.ycombinator.com/item?id=30935283\nPoints: 1\n# Comments: 0",
+          "link": "https://lists.w3.org/Archives/Public/www-style/2014Jun/0312.html",
+          "publishedOn": "2022-04-06T17:49:24.000Z",
+          "wordCount": 473,
+          "title": "Adding 'rebeccapurple' color to CSS Color Level 4 (2014)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30931586",
+          "author": "dinuovos",
+          "description": "Hi all,\nMy name is Simone Di Nuovo and i'm the creator of tilepieces, an open source project to visually editing HTML documents and Web applications.\nTilepieces is a software that allows you to create applications for editing HTML documents, using some of the popular interfaces of the browser developer tools (with which it is possible to integrate css edits).\nTilepieces also allows you to reuse your favorite code and libraries, and exposes APIs that are useful for editing multiple files at a time.\nYou can start using tilepieces with its progressive web application version at https://pwa.tilepieces.net!\nI will be happy to receive any comments from you.\nComments URL: https://news.ycombinator.com/item?id=30931586\nPoints: 99\n# Comments: 13",
+          "link": "https://tilepieces.net",
+          "publishedOn": "2022-04-06T13:14:06.000Z",
+          "wordCount": 134,
+          "title": "Show HN: Tilepieces – An open source project for visually editing HTML documents",
+          "imageUrl": "https://pwa.tilepieces.net/TilePieces_maskable_icon.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30929946",
+          "author": "tarball",
+          "description": "Article URL: https://raphaelbastide.com/cascade/\nComments URL: https://news.ycombinator.com/item?id=30929946\nPoints: 2\n# Comments: 0",
+          "link": "https://raphaelbastide.com/cascade/",
+          "publishedOn": "2022-04-06T08:56:03.000Z",
+          "wordCount": 1310,
+          "title": "Cascade: CSS to sound live coding system",
+          "imageUrl": "https://raphaelbastide.com/cascade/website/img/favicon.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=30927831",
+          "author": "dineshigdd",
+          "description": "Article URL: https://www.tecforfun.com/css/simple-responsive-image-gallery-with-css-grid/\nComments URL: https://news.ycombinator.com/item?id=30927831\nPoints: 2\n# Comments: 0",
+          "link": "https://www.tecforfun.com/css/simple-responsive-image-gallery-with-css-grid/",
+          "publishedOn": "2022-04-06T02:31:09.000Z",
+          "wordCount": 565,
+          "title": "Simple Responsive Image Gallery with CSS Grid",
+          "imageUrl": "https://i0.wp.com/www.tecforfun.com/wp-content/uploads/2021/02/cropped-cropped-logo-2.png?fit=185%2C113&ssl=1"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=30923414",
           "author": "takiwatanga",
@@ -4074,6 +4169,16 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=41748",
+          "author": "Seth Godin",
+          "description": "To feel sufficient, to be satisfied with what we have: Chisoku in Japanese. Of course, by some measures, there’s never enough. We can always come up with a reason why more is better, or better is better, or new is better or different is better. Enough becomes a choice, not a measure of science. The […]",
+          "link": "https://seths.blog/2022/04/and-maybe-its-enough/",
+          "publishedOn": "2022-04-06T09:40:00.000Z",
+          "wordCount": 240,
+          "title": "And maybe it’s enough",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=42606",
           "author": "Seth Godin",
           "description": "Hustle uses shortcuts and effort to bend the conventions of society to get more than the hustler’s fair share of attention. Hustle burns trust for awareness. Because it’s a shortcut, hustle might deliver in the short-run, but hustle is notably non-consensual. Few people want to be hustled. Marketing is the work of helping people get […]",
@@ -4352,16 +4457,6 @@
           "wordCount": 299,
           "title": "Calculating the last minute",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41569",
-          "author": "Seth Godin",
-          "description": "Technology/science Resources Information For a long time, we had no clue. We didn’t know about germs or viruses. We thought that ulcers were caused by pastrami sandwiches. We went to the barber for bloodletting and didn’t understand genes or evolution. Technology in medicine, the science of understanding and intervening, has made huge leaps. There are […]",
-          "link": "https://seths.blog/2022/03/three-problems-of-healthcare/",
-          "publishedOn": "2022-03-08T10:09:00.000Z",
-          "wordCount": 482,
-          "title": "Three problems of healthcare",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
         }
       ]
     },
@@ -4370,6 +4465,36 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "TyBwdc3E9Koh35xaL",
+          "author": "@eightshapes",
+          "description": "Test many foreground and background color combos for compliance with WCAG 2.0 minimum contrast.",
+          "link": "https://contrast-grid.eightshapes.com/",
+          "publishedOn": "2022-04-06T00:25:00.000Z",
+          "wordCount": 146,
+          "title": "Contrast Grid",
+          "imageUrl": null
+        },
+        {
+          "id": "udi7Ad2aGjjCxvmYL",
+          "author": "@siddhartharun",
+          "description": "Fewer, better things.",
+          "link": "https://goods.wtf",
+          "publishedOn": "2022-04-06T00:19:21.000Z",
+          "wordCount": 162,
+          "title": "Goods",
+          "imageUrl": null
+        },
+        {
+          "id": "WQ9F8TqLEBog3xML8",
+          "author": "@NRKno",
+          "description": "A look at how TikTok users in Russian and Ukraine have completely different experiences.",
+          "link": "https://www.nrk.no/osloogviken/xl/tiktok-doesn_t-show-the-war-in-ukraine-to-russian-users-1.15921522",
+          "publishedOn": "2022-04-06T00:10:31.000Z",
+          "wordCount": 1166,
+          "title": "Worlds apart: TikTok doesn’t show the war in Ukraine to Russian users",
+          "imageUrl": "https://gfx.nrk.no/c8BoFBlMtzNE2XqhPnuVqQJodqgqCNpT2Iqw7ubRpBSw.png"
+        },
         {
           "id": "T7sBKmoJY3X8gLJnF",
           "author": "@jimniels",
@@ -5389,56 +5514,6 @@
           "wordCount": 8804,
           "title": "The World’s Most Innovative Companies of 2022",
           "imageUrl": "https://images.fastcompany.net/image/upload/w_530,q_auto,f_auto,fl_lossy/v1646681187/fcweb/p-3-fast-company-mic-2022-list-1_konkmv.jpg"
-        },
-        {
-          "id": "L5XimBigwAQbn5rBt",
-          "author": "@uxdesigncc",
-          "description": "I’ve spent the last 10 years using Apple products and appreciating the philosophy of good design Jobs ushered in way back when.",
-          "link": "https://uxdesign.cc/apple-musics-ux-problem-e8f5fac756de",
-          "publishedOn": "2022-03-08T06:43:12.000Z",
-          "wordCount": 2399,
-          "title": "Analyzing Apple Music’s UX",
-          "imageUrl": "https://miro.medium.com/max/1200/1*UDjpfwEaVsZKfUFC0qHDAw.png"
-        },
-        {
-          "id": "CWnnoBt5s3e7Lt7u9",
-          "author": "@getqonto",
-          "description": "As humans, we change the way we look as we mature and our self-identity evolves.",
-          "link": "https://medium.com/qonto-way/forging-a-new-identity-for-the-qonto-brand-762852d3ec41",
-          "publishedOn": "2022-03-08T06:38:50.000Z",
-          "wordCount": 2308,
-          "title": "Forging a new identity for the Qonto brand",
-          "imageUrl": "https://miro.medium.com/max/1024/1*oZmUKs8dX9wxC3PCScefVQ.png"
-        },
-        {
-          "id": "cKfDsjowLq6oBoMh3",
-          "author": "@monotype",
-          "description": "Dig in to learn more about how design reflects society, key trends in typography and branding, and how the creative world is adopting technology.",
-          "link": "https://www.monotype.com/type-trends",
-          "publishedOn": "2022-03-08T06:34:33.000Z",
-          "wordCount": 797,
-          "title": "Type Trends 2022",
-          "imageUrl": null
-        },
-        {
-          "id": "6XcjY5avFrXsvarSy",
-          "author": "@adhocteam",
-          "description": "On a recent project, we had a set of focus styles built into a design system that were inconsistent and ineffective.",
-          "link": "https://adhoc.team/2022/02/08/creating-focus-style-for-themable-design-system/",
-          "publishedOn": "2022-03-08T06:33:17.000Z",
-          "wordCount": 2751,
-          "title": "Developing a focus style for a themable design system",
-          "imageUrl": "https://adhoc.team/assets/img/content/posts/share-creating-focus.png"
-        },
-        {
-          "id": "KJ8tRJQ9orRSLKMnk",
-          "author": "@khushmeensidhu",
-          "description": "100 royality free illustrations for your next project",
-          "link": "https://khushmeen.com/icons.html",
-          "publishedOn": "2022-03-08T05:49:18.000Z",
-          "wordCount": 63,
-          "title": "Doodle Icons",
-          "imageUrl": "https://www.khushmeen.com/img/OG.png"
         }
       ]
     },
@@ -5479,18 +5554,7 @@
       "title": "Utopia",
       "feedUrl": "https://utopia.fyi/feed.xml",
       "siteUrl": "https://utopia.fyi/",
-      "articles": [
-        {
-          "id": "https://utopia.fyi/blog/an-introduction-video",
-          "author": "dev@clearleft.com (James & Trys)",
-          "description": "The origins of Utopia, explained",
-          "link": "https://utopia.fyi/blog/an-introduction-video",
-          "publishedOn": "2022-03-08T00:00:00.000Z",
-          "wordCount": 141,
-          "title": "A video introduction to Utopia",
-          "imageUrl": "https://utopia.fyi/og.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Latest WDRL editions via Feed",
@@ -5552,6 +5616,236 @@
       "feedUrl": "https://www.designernews.co/?format=rss",
       "siteUrl": "/",
       "articles": [
+        {
+          "id": "https://www.designernews.co/stories/122576-buy-triple-stack-online",
+          "author": null,
+          "description": "https://www.elementsarms.com/sarms-triple-stack.html",
+          "link": "https://www.designernews.co/stories/122576-buy-triple-stack-online",
+          "publishedOn": "2022-04-06T17:04:16.000Z",
+          "wordCount": 227,
+          "title": "Buy Triple Stack Online",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122575-10-most-attractive-wordpress-themes-for-apps",
+          "author": null,
+          "description": "https://wpklik.com/wordpress-themes/wordpress-themes-for-apps/",
+          "link": "https://www.designernews.co/stories/122575-10-most-attractive-wordpress-themes-for-apps",
+          "publishedOn": "2022-04-06T15:50:36.000Z",
+          "wordCount": 175,
+          "title": "10 Most Attractive WordPress Themes for Apps",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122574-the-guide-to-remote-design-sprints",
+          "author": null,
+          "description": "https://www.uxpin.com/studio/blog/guide-remote-design-sprints/",
+          "link": "https://www.designernews.co/stories/122574-the-guide-to-remote-design-sprints",
+          "publishedOn": "2022-04-06T15:47:04.000Z",
+          "wordCount": 174,
+          "title": "The Guide to Remote Design Sprints",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122573-the-ins-and-outs-of-design-system-ops",
+          "author": null,
+          "description": "https://www.uxpin.com/studio/blog/design-system-ops/",
+          "link": "https://www.designernews.co/stories/122573-the-ins-and-outs-of-design-system-ops",
+          "publishedOn": "2022-04-06T15:46:40.000Z",
+          "wordCount": 178,
+          "title": "The Ins and Outs of Design System Ops",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122572-best-cardiologist-in-mohali-schedule",
+          "author": null,
+          "description": "http://drsankalpheartcare.com/",
+          "link": "https://www.designernews.co/stories/122572-best-cardiologist-in-mohali-schedule",
+          "publishedOn": "2022-04-06T13:22:04.000Z",
+          "wordCount": 175,
+          "title": "Best Cardiologist in Mohali, Schedule",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122571-i-interviewed-software-engineers-to-learn-what-they-need-from-user-research",
+          "author": null,
+          "description": "https://uxtools.co/blog/what-developers-need-from-ux-research/",
+          "link": "https://www.designernews.co/stories/122571-i-interviewed-software-engineers-to-learn-what-they-need-from-user-research",
+          "publishedOn": "2022-04-06T12:43:53.000Z",
+          "wordCount": 189,
+          "title": "I interviewed software engineers to learn what they need from user research",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122570-how-to-create-variants--auto-layout-button-in-figma",
+          "author": null,
+          "description": "https://uxplanet.org/how-to-create-variants-auto-layout-button-in-figma-b7fcb73f991f",
+          "link": "https://www.designernews.co/stories/122570-how-to-create-variants--auto-layout-button-in-figma",
+          "publishedOn": "2022-04-06T12:27:36.000Z",
+          "wordCount": 182,
+          "title": "How to create Variants & Auto Layout button in Figma",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122569-illustrated-visuals-for-leading-us-based-fertility-benefits-company-see-how-soft-and-powerful-they-can-be",
+          "author": null,
+          "description": "https://www.owlillustration.com/2022/03/24/progyny/",
+          "link": "https://www.designernews.co/stories/122569-illustrated-visuals-for-leading-us-based-fertility-benefits-company-see-how-soft-and-powerful-they-can-be",
+          "publishedOn": "2022-04-06T12:02:50.000Z",
+          "wordCount": 197,
+          "title": "Illustrated visuals for leading US based fertility benefits company. See how soft and powerful they can be.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122568-easy-to-connect-with-as-customer-likely-our-uber-clone-script-app-with-excellent-profitable-taxi-services",
+          "author": null,
+          "description": "Uber clone is an online taxi booking script for customers, and it will make it too easy to book them online through this software. So this software is one of the best taxi bookings business. Our Rebustar has been more unique features and more technology we have done. \r\n\r\nwebsite: https://www.abservetech.com/uber-clone/",
+          "link": "https://www.designernews.co/stories/122568-easy-to-connect-with-as-customer-likely-our-uber-clone-script-app-with-excellent-profitable-taxi-services",
+          "publishedOn": "2022-04-06T12:00:09.000Z",
+          "wordCount": 245,
+          "title": "Easy to connect with as customer likely Our Uber clone script app with excellent profitable taxi services.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122567-react-native-training-in-chandigarh",
+          "author": null,
+          "description": "https://bootesnull.com/course/react-native-training-in-chandigarh-mohali/",
+          "link": "https://www.designernews.co/stories/122567-react-native-training-in-chandigarh",
+          "publishedOn": "2022-04-06T10:51:20.000Z",
+          "wordCount": 265,
+          "title": "React Native Training in Chandigarh",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122566-exploring-and-understanding-all-the-important-facets-of-medication-tracking-software",
+          "author": null,
+          "description": "https://mobiritz.com/business/exploring-and-understanding-all-the-important-facets-of-medication-tracking-software/",
+          "link": "https://www.designernews.co/stories/122566-exploring-and-understanding-all-the-important-facets-of-medication-tracking-software",
+          "publishedOn": "2022-04-06T10:47:31.000Z",
+          "wordCount": 184,
+          "title": "Exploring And Understanding All The Important Facets Of Medication Tracking Software",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122565-kickstart-your-career-with-the-a-prominent-nft-marketplace-development-company",
+          "author": null,
+          "description": "NFT marketplace is a platform that executes operations such as buying, selling, and trading non-fungible tokens. This NFT trading platform is developed on a decentralized digital ledger called the blockchain network. Hence, NFT marketplace development is perfect for business entities.\r\nhttps://www.blockchainappfactory.com/nft-marketplace-development",
+          "link": "https://www.designernews.co/stories/122565-kickstart-your-career-with-the-a-prominent-nft-marketplace-development-company",
+          "publishedOn": "2022-04-06T10:24:54.000Z",
+          "wordCount": 225,
+          "title": "Kickstart your career with the a prominent NFT marketplace development company",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122564-private-detective-in-bangalore",
+          "author": null,
+          "description": "In Bangalore, there is a private detective agency. If you want to catch your spouse red-handed, contact us right away. We are premier detective agency in Bangalore.",
+          "link": "https://www.designernews.co/stories/122564-private-detective-in-bangalore",
+          "publishedOn": "2022-04-06T10:05:03.000Z",
+          "wordCount": 197,
+          "title": "Private Detective in Bangalore",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122563-private-detective-agency-in-delhi",
+          "author": null,
+          "description": "The Venus Private Detective Agency in Delhi's leading private investigation firm, specialising in both personal and corporate investigations. Well Recognised & Result Oriented Detective Agency. Contact Now, Free Consultation",
+          "link": "https://www.designernews.co/stories/122563-private-detective-agency-in-delhi",
+          "publishedOn": "2022-04-06T10:00:01.000Z",
+          "wordCount": 201,
+          "title": "Private Detective Agency in Delhi",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122562-case-study--two-apps-one-goal-to-match-investors-and-advisors-meaningfully--gbi",
+          "author": null,
+          "description": "https://z1.digital/blog/two-apps-one-goal-to-match-investors-and-advisors-meaningfully",
+          "link": "https://www.designernews.co/stories/122562-case-study--two-apps-one-goal-to-match-investors-and-advisors-meaningfully--gbi",
+          "publishedOn": "2022-04-06T08:34:04.000Z",
+          "wordCount": 193,
+          "title": "Case Study | Two apps, one goal: to match investors and advisors meaningfully – GBI",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122561-do-designer-need-design-asset-management-tools-",
+          "author": null,
+          "description": "https://en.eagle.cool/blog/post/why-eagle",
+          "link": "https://www.designernews.co/stories/122561-do-designer-need-design-asset-management-tools-",
+          "publishedOn": "2022-04-06T07:26:09.000Z",
+          "wordCount": 177,
+          "title": "Do Designer need Design Asset Management Tools?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122560-construction-industry-data-analytics-software",
+          "author": null,
+          "description": "https://www.advaiya.com/industries/epc-engineering-procurement-and-construction/analytics-workshop-for-construction-industry",
+          "link": "https://www.designernews.co/stories/122560-construction-industry-data-analytics-software",
+          "publishedOn": "2022-04-06T07:03:59.000Z",
+          "wordCount": 173,
+          "title": "Construction industry data analytics software",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122558-web-app-ideas-to-start-a-new-business-in-2022",
+          "author": null,
+          "description": "So, we’ve done the leg work with the research and found the 30 best web app ideas to make money that will be trending in 2022.",
+          "link": "https://www.designernews.co/stories/122558-web-app-ideas-to-start-a-new-business-in-2022",
+          "publishedOn": "2022-04-06T06:33:56.000Z",
+          "wordCount": 210,
+          "title": "Web App Ideas to Start a New Business in 2022",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122557-how-to-design-a-streaming-app-like-netflix",
+          "author": null,
+          "description": "https://www.appcluesinfotech.com/how-much-does-it-cost-to-make-an-app-like-netflix/",
+          "link": "https://www.designernews.co/stories/122557-how-to-design-a-streaming-app-like-netflix",
+          "publishedOn": "2022-04-06T05:38:04.000Z",
+          "wordCount": 179,
+          "title": "How to Design a Streaming App like Netflix?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122556-application-design--development",
+          "author": null,
+          "description": "https://appcluesinfotech.wordpress.com/",
+          "link": "https://www.designernews.co/stories/122556-application-design--development",
+          "publishedOn": "2022-04-06T05:19:57.000Z",
+          "wordCount": 175,
+          "title": "Application Design & Development",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122555-nft-development",
+          "author": null,
+          "description": "https://www.cronj.com/blockchain-finance.html",
+          "link": "https://www.designernews.co/stories/122555-nft-development",
+          "publishedOn": "2022-04-06T05:17:27.000Z",
+          "wordCount": 167,
+          "title": "nft development",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122554-learn-how-to-build-an-effective-enterprise-mobility-strategy",
+          "author": null,
+          "description": "https://www.invonto.com/insights/enterprise-mobility-strategy/",
+          "link": "https://www.designernews.co/stories/122554-learn-how-to-build-an-effective-enterprise-mobility-strategy",
+          "publishedOn": "2022-04-05T23:35:59.000Z",
+          "wordCount": 182,
+          "title": "Learn How to Build an Effective Enterprise Mobility Strategy",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.designernews.co/stories/122553-mobile-app-development-process-stepbystep-guide",
+          "author": null,
+          "description": "https://www.invonto.com/insights/mobile-app-development-process/",
+          "link": "https://www.designernews.co/stories/122553-mobile-app-development-process-stepbystep-guide",
+          "publishedOn": "2022-04-05T19:42:31.000Z",
+          "wordCount": 176,
+          "title": "Mobile App Development Process: Step-by-Step Guide",
+          "imageUrl": null
+        },
         {
           "id": "https://www.designernews.co/stories/122543-wordpress-gutenberg-tutorial--free-theme",
           "author": null,
@@ -7823,6 +8117,26 @@
       "siteUrl": "https://www.printmag.com",
       "articles": [
         {
+          "id": "https://www.printmag.com/?p=724481",
+          "author": "Monica Danielle",
+          "description": "In this essay from 'A Broad View,' Monica attempts to understand mental illness and how it has affected her.",
+          "link": "https://www.printmag.com/creative-voices/a-broad-view-the-shape-of-a-womans-face/",
+          "publishedOn": "2022-04-06T20:00:00.000Z",
+          "wordCount": 3365,
+          "title": "A Broad View: The shape of a woman’s face",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_a959d198-0ca7-4808-8eca-c18ed7edbd66_1386x1562-1.png?fit=1065%2C1200&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=726040",
+          "author": "Steven Heller",
+          "description": "The designer’s new project optimistically “serves as a reminder that the latest Tweets and cable news don’t mean we’re standing at the edge of doom.”",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-stefan-sagmeisters-slow-yet-optimistic-fashion-line/",
+          "publishedOn": "2022-04-06T10:53:00.000Z",
+          "wordCount": 1055,
+          "title": "The Daily Heller: Stefan Sagmeister’s Slow, Yet Optimistic, Fashion Line",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/LIFE-SHIRT-M_12826-1.jpg?fit=901%2C1200&ssl=1"
+        },
+        {
           "id": "https://www.printmag.com/?p=725643",
           "author": "Theresa Christine",
           "description": "Austria’s capital is easy to adore, with brilliant baroque architecture, cozy coffee shops, and a seemingly endless amount of art and culture.",
@@ -8921,6 +9235,36 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/04/designing-better-breadcrumbs/",
+          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
+          "description": "In this series of articles, we highlight design patterns and techniques to design better interfaces. You can also find more examples in [“Smart Interface Design Patterns”](https://smart-interface-design-patterns.com/), a 6h-video course with 100s of hand-picked examples, curated by Vitaly.",
+          "link": "https://smashingmagazine.com/2022/04/designing-better-breadcrumbs/",
+          "publishedOn": "2022-04-06T14:20:00.000Z",
+          "wordCount": 6901,
+          "title": "Designing Better Breadcrumbs",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/83a5c72a-37d0-4c2c-9ce8-1ebc22b913f3/designing-better-breadcrumbs-navigation.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/83a5c72a-37d0-4c2c-9ce8-1ebc22b913f3/designing-better-breadcrumbs-navigation.jpg"
+        },
+        {
+          "id": "https://smashingmagazine.com/2022/04/devs-for-ukraine/",
+          "author": "hello@smashingmagazine.com (Cosima Mielke)",
+          "description": "[Devs For Ukraine](https://www.devsforukraine.io/) is a free online charity conference organized by the lovely people at Remote. Two days filled with talks from engineering leaders around the globe, in support of Ukraine. April 25–26.",
+          "link": "https://smashingmagazine.com/2022/04/devs-for-ukraine/",
+          "publishedOn": "2022-04-06T11:00:00.000Z",
+          "wordCount": 448,
+          "title": "Devs For Ukraine, A Free Online Charity Conference 🇺🇦",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/591a294a-c48b-437b-abe5-98cf7416edad/devs-for-ukraine-large-opt.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/591a294a-c48b-437b-abe5-98cf7416edad/devs-for-ukraine-large-opt.png"
+        },
         {
           "id": "https://smashingmagazine.com/2022/04/stakeholders-overcoming-obstacles/",
           "author": "hello@smashingmagazine.com (Paul Boag)",
