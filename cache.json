@@ -112,18 +112,7 @@
       "title": "Axess Lab",
       "feedUrl": "https://axesslab.com/feed/",
       "siteUrl": "https://axesslab.com",
-      "articles": [
-        {
-          "id": "https://axesslab.com/?p=3343",
-          "author": "Hampus Sethfors",
-          "description": "Interacting with our fan base is a fulfilling part of my job. Yesterday I got a request to write an article on why the font size on this site sucks. So let’s not waste any time and get straight to it! The humble request Nice font size 143.75% on that page. Maybe next they’ll have […]",
-          "link": "https://axesslab.com/large-fonts-suck/",
-          "publishedOn": "2022-03-16T11:48:40.000Z",
-          "wordCount": 822,
-          "title": "143.75% font size sucks",
-          "imageUrl": "https://cdn.axesslab.com/wp-content/uploads/2022/03/featured-1-400x400.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "benmccormick.org",
@@ -415,16 +404,6 @@
           "wordCount": 2521,
           "title": "Optimizing SVG Patterns to Their Smallest Size",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/364090"
-        },
-        {
-          "id": "https://css-tricks.com/?p=365042",
-          "author": "Chris Coyier",
-          "description": "Hey hey!\nI’ve got a big announcement to make here. (Where’s my gong? I feel like this really needs a good gong hit.)\nCSS-Tricks, this very website you’re looking at, has been acquired by DigitalOcean!\nYou can hear …\nCSS-Tricks is joining DigitalOcean! originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/css-tricks-is-joining-digitalocean/",
-          "publishedOn": "2022-03-15T12:18:44.000Z",
-          "wordCount": 3692,
-          "title": "CSS-Tricks is joining DigitalOcean!",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/365042"
         }
       ]
     },
@@ -433,6 +412,46 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=9731",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://dailydevlinks.com/this-logo-constantly-redraws-itself/",
+          "publishedOn": "2022-04-14T12:00:00.000Z",
+          "wordCount": 143,
+          "title": "This logo constantly redraws itself",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9725",
+          "author": "Adam Marsden",
+          "description": "SVG",
+          "link": "https://dailydevlinks.com/ideal-svg-exports/",
+          "publishedOn": "2022-04-14T09:50:00.000Z",
+          "wordCount": 148,
+          "title": "Ideal SVG exports",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9728",
+          "author": "Adam Marsden",
+          "description": "Development",
+          "link": "https://dailydevlinks.com/writing-cross-platform-components-for-web-and-react-native/",
+          "publishedOn": "2022-04-14T09:13:00.000Z",
+          "wordCount": 155,
+          "title": "Writing cross-platform components for web and React Native",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9734",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/css-has-a-parent-selector-now/",
+          "publishedOn": "2022-04-14T06:44:00.000Z",
+          "wordCount": 155,
+          "title": "CSS :has( ) A Parent Selector Now",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
         {
           "id": "https://dailydevlinks.com/?p=9717",
           "author": "Adam Marsden",
@@ -942,16 +961,6 @@
           "wordCount": 153,
           "title": "A look at the dialog element’s super powers",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9531",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/update-node-dependencies-automatically-selectively-or-incrementally/",
-          "publishedOn": "2022-03-15T12:42:00.000Z",
-          "wordCount": 149,
-          "title": "Update Node Dependencies Automatically, Selectively, or Incrementally",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
         }
       ]
     },
@@ -966,6 +975,16 @@
       "feedUrl": "https://daverupert.com/atom.xml",
       "siteUrl": "https://daverupert.com",
       "articles": [
+        {
+          "id": "https://daverupert.com/2022/04/7-web-component-tricks/",
+          "author": null,
+          "description": "This week I finished my Frontend Masters Web Components Course. To market it celebrate that accomplishment, I wanted to share ~7 tips and tricks I’ve learned preparing my course or I feel aren’t super obvious about Web Components.\n1. You can manipulate props right on a Lit element\nThis may be something only I would do, but if you make an element with Lit that exposes its properties, you can edit those props externally using querySelector.\n<my-counter counter=\"3\"></my-counter>\n\n<script>\nconst myCounter = document.querySelector('my-counter')\nmyCounter.counter = 10\n</script>\n\n2. :host-context let’s you style an element based on its parent\nYou can use :host-context() to style an element based on its parent. Your HTML may look like this:\n<my-element></my-element>\n<div class=\"card\"><my-element><…",
+          "link": "https://daverupert.com/2022/04/7-web-component-tricks/",
+          "publishedOn": "2022-04-14T15:58:00.000Z",
+          "wordCount": 746,
+          "title": "7 Web Component Tricks",
+          "imageUrl": null
+        },
         {
           "id": "https://daverupert.com/2022/04/what-if-everything-got-better/",
           "author": null,
@@ -1248,6 +1267,56 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=65112",
+          "author": "Travis",
+          "description": "Carousels don’t have a good reputation, and rightfully so.",
+          "link": "https://heydesigner.com/designing-a-better-carousel-ux/",
+          "publishedOn": "2022-04-14T06:16:16.000Z",
+          "wordCount": 59,
+          "title": "Designing a better carousel UX",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=65110",
+          "author": "Travis",
+          "description": "We sometimes think about prioritization as “cutting all the unnecessary work.” But that’s not it.",
+          "link": "https://heydesigner.com/its-not-prioritization-until-it-hurts/",
+          "publishedOn": "2022-04-14T06:14:45.000Z",
+          "wordCount": 67,
+          "title": "It’s not prioritization until it hurts",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=65108",
+          "author": "Travis",
+          "description": "3 tips for overcoming complexity and going from 0 to 1.",
+          "link": "https://heydesigner.com/designing-big-complex-products-from-scratch/",
+          "publishedOn": "2022-04-14T06:13:44.000Z",
+          "wordCount": 63,
+          "title": "Designing big, complex products from scratch",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=65106",
+          "author": "Travis",
+          "description": "I was recently helping my partner and their team with implementing an accessible card component.",
+          "link": "https://heydesigner.com/accessible-cards/",
+          "publishedOn": "2022-04-14T06:12:33.000Z",
+          "wordCount": 61,
+          "title": "Accessible cards",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=65104",
+          "author": "Travis",
+          "description": "Building career capital when people isn’t your thing.",
+          "link": "https://heydesigner.com/networking-for-introverts/",
+          "publishedOn": "2022-04-14T06:10:47.000Z",
+          "wordCount": 53,
+          "title": "Networking for introverts",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=65100",
           "author": "Travis",
@@ -2097,36 +2166,6 @@
           "wordCount": 74,
           "title": "A look at the dialog element’s super powers",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64865",
-          "author": "Travis",
-          "description": "You probably need to do fewer things right now.",
-          "link": "https://heydesigner.com/how-to-do-less/",
-          "publishedOn": "2022-03-15T12:11:13.000Z",
-          "wordCount": 57,
-          "title": "How to do less",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64863",
-          "author": "Travis",
-          "description": "How any company can build a visionary product strategy, using purpose as their lens.",
-          "link": "https://heydesigner.com/what-is-the-antidote-to-a-reactive-product-strategy/",
-          "publishedOn": "2022-03-15T12:10:27.000Z",
-          "wordCount": 72,
-          "title": "What is the antidote to a reactive product strategy?",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64857",
-          "author": "Travis",
-          "description": "I was having a conversation with a co-worker recently about a new feature we wanted to release.",
-          "link": "https://heydesigner.com/design-happens-in-an-ecosystem/",
-          "publishedOn": "2022-03-15T12:05:24.000Z",
-          "wordCount": 67,
-          "title": "Design happens in an ecosystem",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2135,6 +2174,36 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=31032612",
+          "author": "PaulHoule",
+          "description": "Article URL: https://semiengineering.com/always-on-ultra-low-power-design-gains-traction/\nComments URL: https://news.ycombinator.com/item?id=31032612\nPoints: 1\n# Comments: 0",
+          "link": "https://semiengineering.com/always-on-ultra-low-power-design-gains-traction/",
+          "publishedOn": "2022-04-14T20:10:10.000Z",
+          "wordCount": 5057,
+          "title": "Always-On, Ultra-Low-Power Design Gains Traction",
+          "imageUrl": "https://semiengineering.com/wp-content/uploads/image002-1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31026788",
+          "author": "galfarragem",
+          "description": "Article URL: https://www.core77.com/posts/115358/Dystopian-Furniture-Design-The-Ultimate-Gaming-Bed\nComments URL: https://news.ycombinator.com/item?id=31026788\nPoints: 2\n# Comments: 1",
+          "link": "https://www.core77.com/posts/115358/Dystopian-Furniture-Design-The-Ultimate-Gaming-Bed",
+          "publishedOn": "2022-04-14T13:36:53.000Z",
+          "wordCount": 812,
+          "title": "Dystopian furniture design: gaming bed",
+          "imageUrl": "https://s3files.core77.com/blog/images/lead_n_spotlight/1282268_lead_400_115358_.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31022067",
+          "author": "uoaei",
+          "description": "Article URL: https://evilbydesign.info/\nComments URL: https://news.ycombinator.com/item?id=31022067\nPoints: 2\n# Comments: 0",
+          "link": "https://evilbydesign.info/",
+          "publishedOn": "2022-04-14T00:35:22.000Z",
+          "wordCount": 505,
+          "title": "Evil by Design",
+          "imageUrl": "http://evilbydesign.info/files/2013/04/Evil-By-Design-book-cover-small-150x134.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=31020953",
           "author": "blunte",
@@ -3323,6 +3392,16 @@
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=31027680",
+          "author": "durmonski",
+          "description": "Article URL: https://durmonski.com/self-improvement/habit-tracking-journal/\nComments URL: https://news.ycombinator.com/item?id=31027680\nPoints: 2\n# Comments: 0",
+          "link": "https://durmonski.com/self-improvement/habit-tracking-journal/",
+          "publishedOn": "2022-04-14T14:44:55.000Z",
+          "wordCount": 1881,
+          "title": "One Year of Using a Habit Tracking Journal - What I've Learned",
+          "imageUrl": "https://durmonski.com/wp-content/uploads/2022/04/Habit-Tracking-Journal.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=31015041",
           "author": "madpunter",
           "description": "Article URL: https://www.aprons.app/\nComments URL: https://news.ycombinator.com/item?id=31015041\nPoints: 1\n# Comments: 0",
@@ -3641,46 +3720,6 @@
           "wordCount": 943,
           "title": "Show HN: LeechBlock-like productivity tool for the desktop",
           "imageUrl": "https://opengraph.githubassets.com/ea7e8df031146f222c61a8a4312091c437092b2831dca3a8218880860b0f0157/asolidtime/NoMoreLeeches"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30696695",
-          "author": "mbokinala",
-          "description": "Article URL: https://www.amie.so/\nComments URL: https://news.ycombinator.com/item?id=30696695\nPoints: 2\n# Comments: 0",
-          "link": "https://www.amie.so/",
-          "publishedOn": "2022-03-16T09:04:50.000Z",
-          "wordCount": 1447,
-          "title": "Amie: The Joyful Productivity App",
-          "imageUrl": "https://www.amie.so/images/meta.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30691191",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://inverseatascii.info/\nComments URL: https://news.ycombinator.com/item?id=30691191\nPoints: 1\n# Comments: 0",
-          "link": "https://inverseatascii.info/",
-          "publishedOn": "2022-03-15T20:31:09.000Z",
-          "wordCount": 161,
-          "title": "Atari Productivity Podcast",
-          "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30689079",
-          "author": "ushakov",
-          "description": "Article URL: https://wikinewsfeed.org\nComments URL: https://news.ycombinator.com/item?id=30689079\nPoints: 2\n# Comments: 0",
-          "link": "https://wikinewsfeed.org",
-          "publishedOn": "2022-03-15T18:31:44.000Z",
-          "wordCount": 181,
-          "title": "Show HN: WikiNewsFeed – RSS aggregator powered by Wikipedia",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30686721",
-          "author": "minroot",
-          "description": "How much damage it does to your work or study by being single, feeling lonely and having thoughts if there were someone?\nComments URL: https://news.ycombinator.com/item?id=30686721\nPoints: 21\n# Comments: 23",
-          "link": "https://news.ycombinator.com/item?id=30686721",
-          "publishedOn": "2022-03-15T15:43:24.000Z",
-          "wordCount": 2503,
-          "title": "Ask HN: Does being single hurt your productivity?",
-          "imageUrl": null
         }
       ]
     },
@@ -3689,6 +3728,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=31024619",
+          "author": "shadeed9",
+          "description": "Article URL: https://ishadeed.com/article/css-has-parent-selector/\nComments URL: https://news.ycombinator.com/item?id=31024619\nPoints: 2\n# Comments: 0",
+          "link": "https://ishadeed.com/article/css-has-parent-selector/",
+          "publishedOn": "2022-04-14T08:48:35.000Z",
+          "wordCount": 2407,
+          "title": "CSS Parent Selector",
+          "imageUrl": "https://ishadeed.com/assets/css-has/twitter-card.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=31013103",
           "author": "TekMol",
@@ -4408,26 +4457,6 @@
           "wordCount": 545,
           "title": "Airform.io – Functional HTML Forms for Front-End Developers",
           "imageUrl": "https://repository-images.githubusercontent.com/129330207/bb063280-031a-11ea-84bc-ecf928314143"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30684594",
-          "author": "nilsandrey",
-          "description": "Article URL: https://css-tricks.com/css-tricks-is-joining-digitalocean/\nComments URL: https://news.ycombinator.com/item?id=30684594\nPoints: 823\n# Comments: 200",
-          "link": "https://css-tricks.com/css-tricks-is-joining-digitalocean/",
-          "publishedOn": "2022-03-15T12:51:04.000Z",
-          "wordCount": 5882,
-          "title": "DigitalOcean acquires CSS-tricks",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/365042"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30684462",
-          "author": "shedside",
-          "description": "Article URL: https://www.digitalocean.com/blog/css-tricks-joins-digitalocean\nComments URL: https://news.ycombinator.com/item?id=30684462\nPoints: 2\n# Comments: 0",
-          "link": "https://www.digitalocean.com/blog/css-tricks-joins-digitalocean",
-          "publishedOn": "2022-03-15T12:30:58.000Z",
-          "wordCount": 520,
-          "title": "CSS-Tricks Joins DigitalOcean",
-          "imageUrl": "https://images.prismic.io/www-static/39b35e41-9f65-4b96-8885-ae45c1075929_do+x+css+%281%29.png?auto=compress,format"
         }
       ]
     },
@@ -4486,18 +4515,7 @@
       "title": "@mdo",
       "feedUrl": "https://markdotto.com/atom.xml",
       "siteUrl": "https://markdotto.com/atom.xml",
-      "articles": [
-        {
-          "id": "https://markdotto.com/2022/03/16/dialog-element/",
-          "author": null,
-          "description": "There’s a new element in town and it’s the <dialog>. Support for it just landed in Safari with their newest update (v15.4) across all Apple’s devices. With that update, the <dialog> element is now supported in every evergreen browser. It’s a great step forward for frameworks and libraries looking to make better use of native behaviors, but it’s also not without its limits.\nDefault styles\nChrome, Safari, and Firefox all render dialogs similarly—black border, black text, white background. They’re all positioned absolutely without a predefined z-index. There’s also no default ::backdrop styling. Check out the CodePen demo.\n\n\n\nOnly minor differences in the border-width it seems.\nWhen there’s too much content, all dialogs will have an inner scroll. This makes adding a modal header a little anno…",
-          "link": "https://markdotto.com/2022/03/16/dialog-element/",
-          "publishedOn": "2022-03-16T00:00:00.000Z",
-          "wordCount": 734,
-          "title": "Fun with the dialog element",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "remy sharp's b:log",
@@ -4521,6 +4539,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=40762",
+          "author": "Seth Godin",
+          "description": "Overhead recently: To a 10-year-old on his way to a baseball game, “Come home with a win.” To a 9-year-old at the supermarket, “I don’t think you’ll like that.” It’s pretty clear what lessons are being taught.",
+          "link": "https://seths.blog/2022/04/two-things-we-say-to-kids/",
+          "publishedOn": "2022-04-14T08:40:00.000Z",
+          "wordCount": 175,
+          "title": "Two things we say to kids",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
+        },
         {
           "id": "https://seths.blog/?p=42708",
           "author": "Seth Godin",
@@ -4800,16 +4828,6 @@
           "wordCount": 214,
           "title": "How should we celebrate your day?",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42482",
-          "author": "Seth Godin",
-          "description": "My first computer game design was in 1977–I came up with a version of Star Wars. It was almost nothing like the movie, but it was a pretty good game for something running on a mainframe. The Godfather isn’t a perfect retelling of the book. But it’s a better movie as a result. A really […]",
-          "link": "https://seths.blog/2022/03/the-hobgoblin-of-fidelity/",
-          "publishedOn": "2022-03-16T10:04:00.000Z",
-          "wordCount": 411,
-          "title": "The hobgoblin of fidelity",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
         }
       ]
     },
@@ -4818,6 +4836,106 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "r6RRu8ZKCY5XyXwBA",
+          "author": "@uxdesigncc",
+          "description": "Usually, FromSoftware’s games are criticized for their difficulty. But this time, it is about their user experience.",
+          "link": "https://uxdesign.cc/why-the-ux-discussion-around-elden-ring-is-flawed-9dd4aba2cc6f",
+          "publishedOn": "2022-04-15T00:55:22.000Z",
+          "wordCount": 1038,
+          "title": "Why the UX discussion around Elden Ring is flawed",
+          "imageUrl": "https://miro.medium.com/max/1200/1*rOL7pcmnyv22GVXQtkt83g.jpeg"
+        },
+        {
+          "id": "53XDG7pxTq46M8CBn",
+          "author": null,
+          "description": "You might be forgiven for thinking that, in 2022, it’s possible to plop an emoji on a web page and have it “just work”.",
+          "link": "https://nolanlawson.com/2022/04/08/the-struggle-of-using-native-emoji-on-the-web/",
+          "publishedOn": "2022-04-15T00:48:18.000Z",
+          "wordCount": 3410,
+          "title": "The struggle of using native emoji on the web",
+          "imageUrl": "https://nolanwlawson.files.wordpress.com/2022/04/screenshot-2022-04-08-105913.png"
+        },
+        {
+          "id": "XyLRbTLJBtGc5QLim",
+          "author": "@ChromiumDev",
+          "description": "A foundational overview of how to build color-adaptive, responsive, and accessible mini and mega modals with the dialog element.",
+          "link": "https://web.dev/building-a-dialog-component/",
+          "publishedOn": "2022-04-15T00:46:44.000Z",
+          "wordCount": 4579,
+          "title": "Building a dialog component",
+          "imageUrl": "https://web-dev.imgix.net/image/vS06HQ1YTsbMKSFTIPl2iogUQP73/7l53GAQu1kmIuqOmTjRI.png?auto=format&fit=max&w=1200&fm=auto"
+        },
+        {
+          "id": "rMv6pC7t9TY9vM3FY",
+          "author": "@bjango",
+          "description": "The following article is a random collection of opinions on how design tools should export SVGs.",
+          "link": "https://bjango.com/articles/svgexports/",
+          "publishedOn": "2022-04-15T00:45:46.000Z",
+          "wordCount": 1094,
+          "title": "Ideal SVG exports",
+          "imageUrl": "https://bjango.com/images/site-icons/bjango-cover.png"
+        },
+        {
+          "id": "wLQ5KgEnAeeDTLjWj",
+          "author": "@smashingmag",
+          "description": "If you absolutely need carousels, here's how to improve them, with honest scrolling direction, labels, thumbnails and grouped prev/next-buttons.",
+          "link": "https://www.smashingmagazine.com/2022/04/designing-better-carousel-ux/",
+          "publishedOn": "2022-04-15T00:42:48.000Z",
+          "wordCount": 7262,
+          "title": "Designing A Better Carousel UX",
+          "imageUrl": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/729433dc-4cea-4eed-9128-0e9e6dbfe6db/designing-better-carousel-ux.jpg"
+        },
+        {
+          "id": "SzPJQEtH7NRxeqwHT",
+          "author": "@anildash",
+          "description": "We’re seeing an incredibly unlikely comeback: the web is thriving again.",
+          "link": "https://anildash.com/2022/04/13/a-web-renaissance/",
+          "publishedOn": "2022-04-14T05:27:46.000Z",
+          "wordCount": null,
+          "title": "A Web Renaissance",
+          "imageUrl": null
+        },
+        {
+          "id": "6Zu7AXmpyFwj9PxGr",
+          "author": "@BenDMyers",
+          "description": "Solve 30% of the web’s accessibility defects with just the help of a calculator!",
+          "link": "https://benmyers.dev/blog/fix-low-contrast-text/",
+          "publishedOn": "2022-04-14T05:21:45.000Z",
+          "wordCount": 1898,
+          "title": "How to Fix Your Low-Contrast Text",
+          "imageUrl": "https://res.cloudinary.com/bendmyers/image/upload/v1649607325/benmyers.dev/fix-low-contrast-text_n4u6vc.png"
+        },
+        {
+          "id": "7oFhToiJaK772uaAa",
+          "author": "@CloudFour",
+          "description": "These days, the arguments for a baseline font size of 16 pixels are widely accepted. But there are plenty of reasons to go even larger!",
+          "link": "https://cloudfour.com/thinks/childish-font-sizes/",
+          "publishedOn": "2022-04-14T05:20:26.000Z",
+          "wordCount": 1141,
+          "title": "Childish Font Sizes",
+          "imageUrl": "https://cloudfour.com/wp-content/uploads/2022/03/childish-font-sizes-r1.png"
+        },
+        {
+          "id": "37kgsA9BWbCXdbJHc",
+          "author": "@growthdotdesign",
+          "description": "This story shows the problem with most NPS surveys and how to increase the response rate of your surveys to get better customer insights.",
+          "link": "https://growth.design/case-studies/nps-surveys",
+          "publishedOn": "2022-04-14T05:15:00.000Z",
+          "wordCount": 8,
+          "title": "The Ugly Truth About Net Promoter Score Surveys",
+          "imageUrl": "https://s3.amazonaws.com/files.growth.design/cms/cl1lgmlq9001x0uljgrn905nu.png"
+        },
+        {
+          "id": "N4Tqt2pCzXF3gxBqB",
+          "author": "@shadeed9",
+          "description": "A deep-dive into the CSS :has parent selector with some use-cases and examples.",
+          "link": "http://ishadeed.com/article/css-has-parent-selector/",
+          "publishedOn": "2022-04-14T05:14:41.000Z",
+          "wordCount": 2407,
+          "title": "CSS Parent Selector",
+          "imageUrl": "https://ishadeed.com/assets/css-has/twitter-card.jpg"
+        },
         {
           "id": "SdiciniEyPajk2W7Y",
           "author": "@fastcompany",
@@ -5817,56 +5935,6 @@
           "wordCount": 1677,
           "title": "“Z” Is the Symbol of the New Russian Politics of Aggression",
           "imageUrl": "https://media.newyorker.com/photos/6226484724b3e0e703175b8c/16:9/w_1280,c_limit/Gessen-ZRussianAggression.jpg"
-        },
-        {
-          "id": "epkcJGFky3TKhcNDs",
-          "author": "@kottke",
-          "description": "After Russia invaded the country, Ukraine’s post office decided to hold a contest to design a stamp.",
-          "link": "https://kottke.org/22/03/ukrainian-stamp-design-contest",
-          "publishedOn": "2022-03-16T06:22:26.000Z",
-          "wordCount": 152,
-          "title": "Ukrainian Stamp Design Contest",
-          "imageUrl": "https://kottke.org/plus/misc/images/ukraine-stamp-contest-01.jpg"
-        },
-        {
-          "id": "5N2tmBZPsRqZRS85y",
-          "author": "@walterstephanie",
-          "description": "Why, what and how designers should document accessibility requirements and user interactions to make product better and more inclusive",
-          "link": "https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/",
-          "publishedOn": "2022-03-16T06:17:45.000Z",
-          "wordCount": 5281,
-          "title": "A Designer’s Guide to Documenting Accessibility & User Interactions",
-          "imageUrl": "https://stephaniewalter.design/wp-content/uploads/2022/03/accessibilit-doc-1.jpg"
-        },
-        {
-          "id": "7rXoFP9PQNRx3ibvH",
-          "author": "@georgedoescode",
-          "description": "Bring your generative work to life with three simple textures inspired by the natural world.",
-          "link": "https://georgefrancis.dev/writing/texture-generative-snacks",
-          "publishedOn": "2022-03-16T00:20:38.000Z",
-          "wordCount": 452,
-          "title": "Texture — Generative Snacks!",
-          "imageUrl": "https://georgefrancis.dev/img/snacks/texture/og-image.png"
-        },
-        {
-          "id": "wWkgNadFDcr25saEZ",
-          "author": "@joshwcomeau",
-          "description": "How should we structure components and other files in our React apps? I’ve iterated my way to a solution I’m really happy with.",
-          "link": "https://www.joshwcomeau.com/react/file-structure/",
-          "publishedOn": "2022-03-16T00:16:42.000Z",
-          "wordCount": 3049,
-          "title": "Delightful React File/Directory Structure",
-          "imageUrl": "https://www.joshwcomeau.com/images/og-file-structure.png"
-        },
-        {
-          "id": "wjYruhM695icYyRKT",
-          "author": "@CSS",
-          "description": "CSS-Tricks has been acquired by DigitalOcean.",
-          "link": "https://css-tricks.com/css-tricks-is-joining-digitalocean/",
-          "publishedOn": "2022-03-16T00:15:40.000Z",
-          "wordCount": 5555,
-          "title": "CSS-Tricks is joining DigitalOcean!",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/365042"
         }
       ]
     },
@@ -5990,6 +6058,16 @@
       "feedUrl": "https://www.nytimes.com/svc/collections/v1/publish/http://www.nytimes.com/topic/subject/design/rss.xml",
       "siteUrl": "https://www.nytimes.com/topic/subject/design",
       "articles": [
+        {
+          "id": "https://www.nytimes.com/2022/04/14/t-magazine/loro-piana-store-milan.html",
+          "author": "Laura May Todd",
+          "description": "The former was designed by Vincent Van Duysen, and both are set, fittingly, in a storied Milan building that was once the bustling center of the local silk trade.",
+          "link": "https://www.nytimes.com/2022/04/14/t-magazine/loro-piana-store-milan.html",
+          "publishedOn": "2022-04-14T18:00:53.000Z",
+          "wordCount": 1801,
+          "title": "Loro Piana Gets a New Headquarters and Store",
+          "imageUrl": "https://static01.nyt.com/images/2022/04/11/t-magazine/design/Loro-Piana-slide-FH7N/Loro-Piana-slide-FH7N-facebookJumbo.jpg"
+        },
         {
           "id": "https://www.nytimes.com/slideshow/2022/04/12/realestate/at-home-with-joel-grey-in-the-west-village.html",
           "author": null,
@@ -6257,6 +6335,56 @@
       "feedUrl": "https://www.printmag.com/feed/",
       "siteUrl": "https://www.printmag.com",
       "articles": [
+        {
+          "id": "https://www.printmag.com/?p=726276",
+          "author": "Sarah Fonder",
+          "description": "Nadja Spiegelman and Shannon Jager tell us how they made their new literary magazine transgressive, visually engaging, and internationally accessible.",
+          "link": "https://www.printmag.com/designer-interviews/the-subversive-creatives-of-astra-magazine-bring-print-back-to-life-with-pleasure/",
+          "publishedOn": "2022-04-14T19:45:00.000Z",
+          "wordCount": 4832,
+          "title": "The Subversive Creatives of ‘Astra Magazine’ Bring Print Back to Life, with Pleasure",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/Cover_ASTRA-2.png?fit=1200%2C833&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=726557",
+          "author": "Charlotte Beach",
+          "description": "When the beloved beer brand desperately needed a facelift, they looked to the pros at Robot Food to show them the way.",
+          "link": "https://www.printmag.com/design-news/brooklyn-brewery-by-robot-food/",
+          "publishedOn": "2022-04-14T17:00:00.000Z",
+          "wordCount": 897,
+          "title": "Brooklyn Brewery Presents a Fresh, Punchy New Take on Milton Glaser’s Iconic Design",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/03-Brooklyn-Cans-scaled.jpg?fit=1200%2C750&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=726472",
+          "author": "Steven Heller",
+          "description": "In an era of perpetual change, Gjoko Muratovski reflects on his new book riffing on just that in the world of design.",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-define-the-word-change/",
+          "publishedOn": "2022-04-14T11:00:00.000Z",
+          "wordCount": 2501,
+          "title": "The Daily Heller: Define the Word ‘Change,’ Then Define the Word ‘Design’",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/Covertease.jpg?fit=1037%2C601&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=726237",
+          "author": "Sarah Fonder",
+          "description": "Mexico-based Monumento Co designed the branding for wellness company OIILS.",
+          "link": "https://www.printmag.com/branding-identity-design/essential-oils-get-an-elegant-lightly-whimsical-makeover-with-oiils/",
+          "publishedOn": "2022-04-14T09:00:00.000Z",
+          "wordCount": 814,
+          "title": "Essential Oils Get an Elegant, Lightly Whimsical Makeover with Oiils",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/84cc61139145191.622a3c6feb106.png?fit=1200%2C676&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=726001",
+          "author": "Chloe Gordon",
+          "description": "Emyself Design's versatile, nostalgic font is perfect for creating charismatic designs that don't skimp on accessibility.",
+          "link": "https://www.printmag.com/typography/angiola-provides-a-modern-serif-typeface-thats-both-legible-and-elegant/",
+          "publishedOn": "2022-04-14T07:00:00.000Z",
+          "wordCount": 699,
+          "title": "Angiola Provides a Modern Serif Typeface That’s Both Legible and Elegant",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/elegant-font-lettering-Logotype-modern-serif-type-T.jpg?fit=1200%2C801&ssl=1"
+        },
         {
           "id": "https://www.printmag.com/?p=726331",
           "author": "Frank J. Martinez",
@@ -7361,46 +7489,6 @@
           "wordCount": 1117,
           "title": "Sarah Espeute’s Embroidered Housewares Honor the Beauty in Everyday Moments",
           "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/sarah-espeute.png?fit=1200%2C514&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=723988",
-          "author": "Steven Heller",
-          "description": "In 1986, Oleg Veklenko participated in the liquidation of the Chernobyl nuclear disaster consequences—and that experience triggered the launch of The 4th Block triennial.",
-          "link": "https://www.printmag.com/daily-heller/the-daily-heller-graphic-peace-in-a-war-torn-land/",
-          "publishedOn": "2022-03-16T11:00:00.000Z",
-          "wordCount": 1067,
-          "title": "The Daily Heller: Graphic Peace in a War-Torn Land",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/4TH-BLOCK-Kharkiv-Ukraine_teasePage-_07.jpg?fit=1200%2C397&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=723956",
-          "author": "Chloe Gordon",
-          "description": "Pentagram's clever 83-page glossary features over 2,800 internet acronyms, a quiz, and tongue-in-cheek typefaces.",
-          "link": "https://www.printmag.com/graphic-design/the-fbi-guide-to-internet-slang/",
-          "publishedOn": "2022-03-16T09:00:00.000Z",
-          "wordCount": 990,
-          "title": "Test Your Digital Literacy with ‘The FBI Guide to Internet Slang’",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/MB_HOLIDAY_CARD_2021_3.jpg.webp?fit=1200%2C801&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=723560",
-          "author": "Chloe Gordon",
-          "description": "Mexican real estate platform Homie features a warm, playful branding system by local agency the branding people.",
-          "link": "https://www.printmag.com/branding-identity-design/homie-by-the-branding-people/",
-          "publishedOn": "2022-03-16T07:00:00.000Z",
-          "wordCount": 784,
-          "title": "Online Platform Homie Wants to Make Buying a Home Less Intimidating",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/animation-apartment-digital-home-iconography-identity_yyt-9.jpg?fit=1200%2C800&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=723540",
-          "author": "Chloe Gordon",
-          "description": "Sebastian Skrobol's zine 'Fairytales, Dreams and Nightmares' features sixty pages of morbidly charming flash tattoo designs.",
-          "link": "https://www.printmag.com/illustration-design/fairytales-dreams-and-nightmares/",
-          "publishedOn": "2022-03-16T05:00:00.000Z",
-          "wordCount": 852,
-          "title": "Tattoo Artist Sebastian Skrobol Captures the Magic of ‘Fairytales, Dreams and Nightmares’",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/dark-dotwork-Drawing-ghost-horror-skeletons-sketch.jpg?fit=1200%2C800&ssl=1"
         }
       ]
     },
@@ -7421,6 +7509,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/04/upwork-freelancers-organization/",
+          "author": "hello@smashingmagazine.com (Paul Boag)",
+          "description": "Whether you work in-house or run a digital agency, there are occasions when you will consider hiring freelancers to supplement your team. Today, we’ll take a look into a platform known as [Upwork](https://upwork.pxf.io/c/1221738/1245573/13634) and the best ways in finding the the right freelancers as well as integrating them into your team.",
+          "link": "https://smashingmagazine.com/2022/04/upwork-freelancers-organization/",
+          "publishedOn": "2022-04-14T11:00:00.000Z",
+          "wordCount": 2445,
+          "title": "When And How To Use Freelancers In Your Organization",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/cb70d8d4-8f9b-449e-86a7-1da3045fea9f/upwork-freelancers-organization.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/cb70d8d4-8f9b-449e-86a7-1da3045fea9f/upwork-freelancers-organization.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2022/04/designing-better-carousel-ux/",
           "author": "hello@smashingmagazine.com (Vitaly Friedman)",
@@ -7705,21 +7808,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/5a9a0777-fd16-459e-b50d-20d5119f220d/drag-drop-file-uploader-vuejs-3.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/03/claymorphism-css-ui-design-trend/",
-          "author": "hello@smashingmagazine.com (Adrian Bece)",
-          "description": "This fresh new design trend has been picking up steam with the rising popularity of colorful inflated 3D graphics in web illustrations and with the latest Virtual Reality projects like “Horizon Worlds”. Let’s see if there is room for Claymorphism on the UI, and how we can create this effect with CSS.",
-          "link": "https://smashingmagazine.com/2022/03/claymorphism-css-ui-design-trend/",
-          "publishedOn": "2022-03-16T11:00:00.000Z",
-          "wordCount": 2593,
-          "title": "Claymorphism: Will It Stick Around?",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d6ceacdf-835e-497e-a1e0-be958d42ac76/claymorphism-css-ui-design-trend.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d6ceacdf-835e-497e-a1e0-be958d42ac76/claymorphism-css-ui-design-trend.jpg"
         }
       ]
     },
