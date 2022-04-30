@@ -276,16 +276,6 @@
           "wordCount": 573,
           "title": "Animated Grid Tracks with :has()",
           "imageUrl": "https://css-irl.info/social_1200x630.png"
-        },
-        {
-          "id": "https://css-irl.info/exciting-times-for-browsers-and-css/",
-          "author": null,
-          "description": "Last month I wrote about some of the exciting new CSS features you can expect to see coming to a browser near you in 2022 for Smashing Magazine. It’s certainly an exciting time to be working on the web right now, with browser support for new features moving along at lightning-fast pace! This month saw Safari drop a new release that includes support for a tonne of new stuff, including :has() (A.K.A. the “parent selector”), accent-color, and Cascade Layers (all of which are covered in my Smashing article), as well as some additional gems:\nTrigonometric functions\nI almost missed this line when skim-reading the Safari release announcement, but yep, Webkit has delivered support for CSS trigonometric functions! I’m unbelievably excited about the possibilities this will open up for creative CSS, …",
-          "link": "https://css-irl.info/exciting-times-for-browsers-and-css/",
-          "publishedOn": "2022-03-31T00:00:00.000Z",
-          "wordCount": 789,
-          "title": "Exciting Times for Browsers (and CSS)",
-          "imageUrl": "https://css-irl.info/social_1200x630.png"
         }
       ]
     },
@@ -294,6 +284,16 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=365447",
+          "author": "Jhey Tompkins",
+          "description": "Howdy y’all! Unless you’ve been living under a rock (and maybe even then), you’ve undoubtedly heard the news that CSS-Tricks, was acquired by DigitalOcean. Congratulations to everyone! 🥳\nAs a little hurrah to commemorate the occasion, I wanted to …\nCreating the DigitalOcean Logo in 3D With CSS originally published on CSS-Tricks. You should get the newsletter.",
+          "link": "https://css-tricks.com/creating-the-digitalocean-logo-in-3d-with-css/",
+          "publishedOn": "2022-04-29T14:37:10.000Z",
+          "wordCount": 2985,
+          "title": "Creating the DigitalOcean Logo in 3D With CSS",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/365447"
+        },
         {
           "id": "https://css-tricks.com/?p=365413",
           "author": "Adam Rackis",
@@ -373,16 +373,6 @@
           "wordCount": 1354,
           "title": "Adding CDN Caching to a Vite Build",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/364166"
-        },
-        {
-          "id": "https://css-tricks.com/?p=364279",
-          "author": "Temani Afif",
-          "description": "We recently covered creating fancy borders with CSS mask properties, and now we are going to cut the corners with CSS mask and clip-path! A lot of techniques exist to cut different shapes from the corners of any element. …\nTricks to Cut Corners Using CSS Mask and Clip-Path Properties originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/cut-corners-using-css-mask-and-clip-path-properties/",
-          "publishedOn": "2022-03-30T16:35:08.000Z",
-          "wordCount": 3575,
-          "title": "Tricks to Cut Corners Using CSS Mask and Clip-Path Properties",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/364279"
         }
       ]
     },
@@ -910,26 +900,6 @@
           "wordCount": 158,
           "title": "Tricks to Cut Corners Using CSS Mask and Clip-Path Properties",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9652",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://dailydevlinks.com/spruce-css-introduction/",
-          "publishedOn": "2022-03-31T08:31:00.000Z",
-          "wordCount": 141,
-          "title": "Spruce CSS Introduction",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9655",
-          "author": "Adam Marsden",
-          "description": "UI",
-          "link": "https://dailydevlinks.com/designing-a-better-infinite-scroll/",
-          "publishedOn": "2022-03-31T06:09:00.000Z",
-          "wordCount": 146,
-          "title": "Designing A Better Infinite Scroll",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
         }
       ]
     },
@@ -1193,26 +1163,6 @@
           "wordCount": 2972,
           "title": "What's New In DevTools (Chrome 101)",
           "imageUrl": "https://wd.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/mPXyPxgzu9PAoAgctnn1.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/deps-rems-101/",
-          "author": null,
-          "description": "Visit ChromeStatus.com for lists of current deprecations and previous removals.\nChrome 101 beta was released on March 31, 2022 and is expected to become the\nstable version in late April, 2022.\n# Reduce user agent string information\nChrome is reducing the amount of information the User-Agent string exposes in HTTP requests as well as in navigator.userAgent, navigator.appVersion, and navigator.platform. We're doing this to prevent the user agent string from being used for passive user fingerprinting. To join the origin trial, see its entry on Chrome Origin Trials.\n# Remove WebSQL in third-party contexts\nWebSQL in third-party contexts is now removed. The Web SQL Database standard was first proposed in April 2009 and abandoned in November 2010. Gecko never implemented this feature and WebKit d…",
-          "link": "https://developer.chrome.com/en/blog/deps-rems-101/",
-          "publishedOn": "2022-03-31T00:00:00.000Z",
-          "wordCount": 450,
-          "title": "Deprecations and removals in Chrome 101",
-          "imageUrl": "https://wd.imgix.net/image/sQ51XsLqKMgSQMCZjIN0B7hlBO02/GLywh0GpxQEByxtmCaVY.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/privacy-sandbox-unified-origin-trial/",
-          "author": null,
-          "description": "The Privacy Sandbox includes a selection\nof proposals to enable advertising use cases without the need for cross-site\ntracking. Origin trials provide the opportunity for\ndevelopers to evaluate and provide feedback on new web technologies through\nreal-world testing. In previous origin trials sites have been able to test\nagainst individual APIs. For the Topics, FLEDGE and Attribution Reporting APIs\nwe are providing a single origin trial that will allow sites to run unified\nexperiments across the APIs making up an initial version of the end-to-end ad\nlifecycle. The APIs are available for local developer testing in the\nChrome 102 Canary release now and\nwe expect to make the origin trial available as soon as possible during the\nChrome 101 Beta window. The Chrome\n101 Beta will also see updates t…",
-          "link": "https://developer.chrome.com/en/blog/privacy-sandbox-unified-origin-trial/",
-          "publishedOn": "2022-03-31T00:00:00.000Z",
-          "wordCount": 1384,
-          "title": "Testing the Privacy Sandbox ads relevance and measurement APIs",
-          "imageUrl": "https://wd.imgix.net/image/VWw0b3pM7jdugTkwI6Y81n6f5Yc2/1Eh5fSHWhurUuED3WGU1.png?auto=format&w=1521"
         }
       ]
     },
@@ -1306,16 +1256,6 @@
           "wordCount": 1532,
           "title": "10 excellent design blogs to follow for endless inspiration",
           "imageUrl": "https://cdn.dribbble.com/users/896264/screenshots/16596771/newsletter-new3_4x.jpg"
-        },
-        {
-          "id": "https://dribbble.com/stories/2022/03/31/tilda-full-review",
-          "author": null,
-          "description": "Having award-winning websites in your portfolio is a great way to gain trust among customers and recognition in the industry. In this post, we will show you how to create one-of-a-kind websites without code using Tilda. It’s a powerful and intuitive website-building platform for designers who want to make award-winning projects on their own with no code and no developer standing in the way between creative vision and creative expression.\nWebsites built on Tilda regularly win Awwwards, CSS Design Awards, CSS Winner, and other design awards. Designers choose the platform to make all kinds of projects. Whether it’s an eye-catching portfolio, landing page, business website, online store, educational platform, event promo page, the platform provides robust features and gives freedom to make top…",
-          "link": "https://dribbble.com/stories/2022/03/31/tilda-full-review",
-          "publishedOn": "2022-03-31T09:00:00.000Z",
-          "wordCount": 3344,
-          "title": "How to design award-winning websites with no code on Tilda: Full review",
-          "imageUrl": "https://cdn.dribbble.com/uploads/35224/original/210d646ede4c248f27a746c456f0ac83.png?1648598692"
         }
       ]
     },
@@ -2105,56 +2045,6 @@
           "wordCount": 67,
           "title": "Tweaking in the browser",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65007",
-          "author": "Travis",
-          "description": "A tool to create, edit, preview, export and save Tailwind CSS colors.",
-          "link": "https://heydesigner.com/ui-colors-tailwind-css-color-generator-and-editing-tool/",
-          "publishedOn": "2022-03-31T09:34:44.000Z",
-          "wordCount": 69,
-          "title": "UI Colors: Tailwind CSS color generator and editing tool",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65005",
-          "author": "Travis",
-          "description": "We’ve all been there. You might have a long-winded list of search results, products, orders or data entries.",
-          "link": "https://heydesigner.com/designing-a-better-infinite-scroll/",
-          "publishedOn": "2022-03-31T09:32:28.000Z",
-          "wordCount": 68,
-          "title": "Designing a better infinite scroll",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65003",
-          "author": "Travis",
-          "description": "It’s often hard to see one’s growth in the every day.",
-          "link": "https://heydesigner.com/growth/",
-          "publishedOn": "2022-03-31T09:30:35.000Z",
-          "wordCount": 52,
-          "title": "Growth",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65000",
-          "author": "Travis",
-          "description": "Take a stroll down memory lane and celebrate #100CoolWebMoments since Chrome’s first release.",
-          "link": "https://heydesigner.com/100-cool-web-moments/",
-          "publishedOn": "2022-03-31T09:28:03.000Z",
-          "wordCount": 60,
-          "title": "100 cool web moments",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=64998",
-          "author": "Travis",
-          "description": "I’m forcing myself to be calmer, to care less about things being “obviously wrong” and to listen more intently.",
-          "link": "https://heydesigner.com/noise-cancellation-for-development/",
-          "publishedOn": "2022-03-31T09:09:23.000Z",
-          "wordCount": 67,
-          "title": "Noise cancellation for development",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2163,6 +2053,46 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=31208795",
+          "author": "manjana",
+          "description": "Article URL: https://99designs.no/blog/tips/graphic-design-basics/\nComments URL: https://news.ycombinator.com/item?id=31208795\nPoints: 9\n# Comments: 0",
+          "link": "https://99designs.no/blog/tips/graphic-design-basics/",
+          "publishedOn": "2022-04-29T18:14:34.000Z",
+          "wordCount": 2638,
+          "title": "Design 101",
+          "imageUrl": "https://99designs-blog.imgix.net/blog/wp-content/uploads/2019/01/Graphic-design-basics2-1.jpg?auto=format&q=60&fit=max&w=930"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31208556",
+          "author": "kwinkunks",
+          "description": "Article URL: https://andrewhead.info/assets/pdf/augmented-formulas.pdf\nComments URL: https://news.ycombinator.com/item?id=31208556\nPoints: 20\n# Comments: 9",
+          "link": "https://andrewhead.info/assets/pdf/augmented-formulas.pdf",
+          "publishedOn": "2022-04-29T17:54:10.000Z",
+          "wordCount": 190052,
+          "title": "Math augmentations – 16 visual design practices to enhance formulas [pdf]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31208066",
+          "author": "mattrighetti",
+          "description": "Article URL: https://www.fastcompany.com/3046365/errol-morris-how-typography-shapes-our-perception-of-truth\nComments URL: https://news.ycombinator.com/item?id=31208066\nPoints: 2\n# Comments: 0",
+          "link": "https://www.fastcompany.com/3046365/errol-morris-how-typography-shapes-our-perception-of-truth",
+          "publishedOn": "2022-04-29T17:21:10.000Z",
+          "wordCount": 1810,
+          "title": "How typography shapes our perception of truth",
+          "imageUrl": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/w_596,c_limit,q_auto:best,f_auto/fc/3046365-inline-i-1-pentagram-papers-pentagrampaperblog123-copy.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31200650",
+          "author": "mji",
+          "description": "Article URL: https://news.airbnb.com/airbnbs-design-to-live-and-work-anywhere/\nComments URL: https://news.ycombinator.com/item?id=31200650\nPoints: 892\n# Comments: 663",
+          "link": "https://news.airbnb.com/airbnbs-design-to-live-and-work-anywhere/",
+          "publishedOn": "2022-04-29T02:20:36.000Z",
+          "wordCount": 1877,
+          "title": "Airbnb’s design to live and work anywhere",
+          "imageUrl": "https://news.airbnb.com/wp-content/uploads/sites/4/2021/06/BeloRauschGradientSocial1_200313.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=31196629",
           "author": "mooreds",
@@ -3772,66 +3702,6 @@
           "wordCount": 3361,
           "title": "Insights for Marine (and Beyond) Force Design from the Russo-Ukrainian War",
           "imageUrl": "https://warontherocks.com/wp-content/uploads/2022/03/siebens.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30866135",
-          "author": "mromanuk",
-          "description": "Article URL: https://github.com/zircleUI/zircleUI\nComments URL: https://news.ycombinator.com/item?id=30866135\nPoints: 1\n# Comments: 0",
-          "link": "https://github.com/zircleUI/zircleUI",
-          "publishedOn": "2022-03-31T11:48:36.000Z",
-          "wordCount": 1457,
-          "title": "Zircle UI: A front end library to develop zoomable user interfaces",
-          "imageUrl": "https://opengraph.githubassets.com/d8e271552f971f8891d748493c8793a299b4521d45fe695454c828cd842f9bbb/zircleUI/zircleUI"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30865606",
-          "author": "daolf",
-          "description": "Article URL: https://www.macrumors.com/2022/03/29/chrome-100-icon-update/\nComments URL: https://news.ycombinator.com/item?id=30865606\nPoints: 1\n# Comments: 0",
-          "link": "https://www.macrumors.com/2022/03/29/chrome-100-icon-update/",
-          "publishedOn": "2022-03-31T10:23:31.000Z",
-          "wordCount": 2666,
-          "title": "Google Releases Chrome 100 for iOS and Desktop with Updated Icon",
-          "imageUrl": "https://images.macrumors.com/t/vW-gB9KFJIO8d5mi3tGqHXNAYpw=/1704x/article-new/2022/03/Chrome-old-v-new-monterey-feature.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30865284",
-          "author": "desertraven",
-          "description": "why do we act in ways which harm ourselves? Why is it so hard to change ones ways?\nComments URL: https://news.ycombinator.com/item?id=30865284\nPoints: 2\n# Comments: 10",
-          "link": "https://news.ycombinator.com/item?id=30865284",
-          "publishedOn": "2022-03-31T09:17:47.000Z",
-          "wordCount": 1205,
-          "title": "Ask HN: Why is the UX of the human brain so user-hostile?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30857576",
-          "author": "xythobuz",
-          "description": "Article URL: https://survey.feldlabor.eu/index.php/714679\nComments URL: https://news.ycombinator.com/item?id=30857576\nPoints: 4\n# Comments: 0",
-          "link": "https://survey.feldlabor.eu/index.php/714679",
-          "publishedOn": "2022-03-30T16:39:20.000Z",
-          "wordCount": 508,
-          "title": "Survey: Help us design a VNA for hobbyists and professional users",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30855069",
-          "author": "Liriel",
-          "description": "Article URL: https://blog.appsignal.com/2022/03/30/5-tips-to-design-ruby-on-rails-transactions-the-right-way.html\nComments URL: https://news.ycombinator.com/item?id=30855069\nPoints: 1\n# Comments: 0",
-          "link": "https://blog.appsignal.com/2022/03/30/5-tips-to-design-ruby-on-rails-transactions-the-right-way.html",
-          "publishedOn": "2022-03-30T13:41:10.000Z",
-          "wordCount": 1652,
-          "title": "Tips to Design Ruby on Rails Transactions the Right Way",
-          "imageUrl": "https://ondemand.bannerbear.com/signedurl/vYR1M6Lyq22EAnXbgZ/image.jpg?modifications=W3sibmFtZSI6InRpdGxlIiwidGV4dCI6IjUgVGlwcyB0byBEZXNpZ24gUnVieSBvbiBSYWlscyBUcmFuc2FjdGlvbnMgdGhlIFJpZ2h0IFdheSJ9LHsibmFtZSI6ImltYWdlIiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly9hcHBzaWduYWwtbmV4dGpzLWJsb2ctM2NsazVvY2xlLWFwcHNpZ25hbC52ZXJjZWwuYXBwL2ltYWdlcy9ibG9nLzIwMjItMDMvcmFpbHMtdHJhbnNhY3Rpb25zLnBuZyJ9LHsibmFtZSI6ImNhdGVnb3J5X2xvZ28iLCJpbWFnZV91cmwiOiJodHRwczovL2FwcHNpZ25hbC1uZXh0anMtYmxvZy0zY2xrNW9jbGUtYXBwc2lnbmFsLnZlcmNlbC5hcHAvaW1hZ2VzL2xvZ29zL3J1YnktbG9nby5wbmcifV0&s=0c26b95cb9791ec145b7fbeeb52338c261f8a95f4490e1275ce16a565838e508"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30854275",
-          "author": "ogoffart",
-          "description": "Article URL: https://slint-ui.com/blog/porting-slint-to-microcontrollers.html\nComments URL: https://news.ycombinator.com/item?id=30854275\nPoints: 7\n# Comments: 0",
-          "link": "https://slint-ui.com/blog/porting-slint-to-microcontrollers.html",
-          "publishedOn": "2022-03-30T12:35:14.000Z",
-          "wordCount": 1861,
-          "title": "Porting the Slint UI Toolkit to a Microcontroller with 264K RAM",
-          "imageUrl": "https://slint-ui.com/blog/porting-slint-to-microcontrollers/printerdemo_pico.jpg"
         }
       ]
     },
@@ -4099,16 +3969,6 @@
           "wordCount": 543,
           "title": "Productivity Loss in Brainstorming Groups: A Meta-Analytic Integration",
           "imageUrl": "https://www.tandfonline.com/doi/cover-img/10.1080/hbas20.v012.i01"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=30864784",
-          "author": "cheerioty",
-          "description": "Comments URL: https://news.ycombinator.com/item?id=30864784\nPoints: 1\n# Comments: 4",
-          "link": "https://news.ycombinator.com/item?id=30864784",
-          "publishedOn": "2022-03-31T07:38:15.000Z",
-          "wordCount": 207,
-          "title": "Ask HN: What’s your favourite productivity app and why?",
-          "imageUrl": null
         }
       ]
     },
@@ -4869,6 +4729,16 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=41909",
+          "author": "Seth Godin",
+          "description": "Why would someone buy a share of stock for $945? One reason might be that they think they can sell it tomorrow for $950. A more common reason is that someone bought it an hour ago for $940. Of course, this applies to more than equities. Why buy a Birkin bag for more than $25,000? […]",
+          "link": "https://seths.blog/2022/04/the-market-has-spoken/",
+          "publishedOn": "2022-04-29T07:20:00.000Z",
+          "wordCount": 238,
+          "title": "“The market has spoken”",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=41877",
           "author": "Seth Godin",
           "description": "Most of all, we’re experts in our own narrative, our feelings, our lived experience. No one has had that but us, and while it might be unexamined or instinctive, we’re the experts. Experts in who we associate with and what we choose to believe. And many of us are experts in what we do all […]",
@@ -5147,16 +5017,6 @@
           "wordCount": 235,
           "title": "“Not a heavy lift”",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42578",
-          "author": "Seth Godin",
-          "description": "For many ailments, physical therapy shows some of the best results. We can learn a lot from this for our own projects, organizations and narratives. Physical therapy often works better than pills or surgery. Here’s why: –it’s self-produced. Even though we work with a professional, it’s done BY us, not TO us. –it’s gradual. No […]",
-          "link": "https://seths.blog/2022/03/the-physical-therapy-metaphor/",
-          "publishedOn": "2022-03-31T08:30:00.000Z",
-          "wordCount": 239,
-          "title": "The physical therapy metaphor",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         }
       ]
     },
@@ -5165,6 +5025,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "wAESQ4F5rAibLKJrX",
+          "author": "@ericwbailey",
+          "description": "User-facing state is what someone experiences when they interact with (or try to interact with) an element in some capacity.",
+          "link": "https://ericwbailey.design/writing/all-the-user-facing-states/",
+          "publishedOn": "2022-04-29T07:08:49.000Z",
+          "wordCount": 950,
+          "title": "All the user-facing states",
+          "imageUrl": "https://ericwbailey.design/img/posts/all-the-user-facing-states/share-image-facebook.png"
+        },
+        {
+          "id": "mDQdTqHKvuncPTigc",
+          "author": "@uxdesigncc",
+          "description": "Despite being a cornerstone in the community, Goodreads has continually disappointed its ample user base with bad usability.",
+          "link": "https://uxdesign.cc/goodreads-ux-indispensable-but-unsatisfying-fc250f316947",
+          "publishedOn": "2022-04-29T07:06:06.000Z",
+          "wordCount": 1190,
+          "title": "Goodreads UX: indispensable, but unsatisfying",
+          "imageUrl": "https://miro.medium.com/max/1200/1*UTR9CC6pl_OX-QtBsq1WKA.png"
+        },
+        {
+          "id": "sTPGNrwEGtsibgxce",
+          "author": null,
+          "description": "Creating software to reconstruct one-line drawings.",
+          "link": "https://schollz.com/blog/one-line/",
+          "publishedOn": "2022-04-29T06:59:34.000Z",
+          "wordCount": 1079,
+          "title": "One-line drawings",
+          "imageUrl": null
+        },
+        {
+          "id": "764dqtmsnBjX7f6zu",
+          "author": "@accudio",
+          "description": "Generative mountain ridge dividers using videogame terrain generation techniques, JavaScript and SVG.",
+          "link": "https://alistairshepherd.uk/writing/svg-generative-ridges/",
+          "publishedOn": "2022-04-29T06:56:20.000Z",
+          "wordCount": 1431,
+          "title": "SVG generative mountain ridge dividers",
+          "imageUrl": "https://www.alistairshepherd.uk/meta/cover.jpg"
+        },
+        {
+          "id": "YMcTSeKErSi5w2ouy",
+          "author": "@mirisuzanne",
+          "description": "There are many use-cases where an interaction (click/gesture) on one element toggles a ‘state’ that can be shared with other elements.",
+          "link": "https://css.oddbird.net/toggles/explainer/",
+          "publishedOn": "2022-04-29T06:54:52.000Z",
+          "wordCount": 5195,
+          "title": "CSS Toggles Explainer & Proposal",
+          "imageUrl": null
+        },
         {
           "id": "JFLjqAz7BSTuBu5if",
           "author": null,
@@ -6164,56 +6074,6 @@
           "wordCount": 163,
           "title": "CSS Gradients Editor",
           "imageUrl": "https://dc28c2r6oodom.cloudfront.net/og.png"
-        },
-        {
-          "id": "8FeeJnG3C3B4YNKcb",
-          "author": "@Medium",
-          "description": "Product designers need to make sure that any gender-related questions are asked in a thoughtful and respectful way in their product.",
-          "link": "https://medium.com/wttj-tech/a-gradual-ux-approach-to-design-gender-inclusive-forms-3071a49a45c",
-          "publishedOn": "2022-03-31T11:03:51.000Z",
-          "wordCount": 1619,
-          "title": "A gradual UX approach to design gender-inclusive forms",
-          "imageUrl": "https://miro.medium.com/max/1200/1*ip3BpIy5jWcIzQYpfmvOMg.jpeg"
-        },
-        {
-          "id": "3mCnFt7WnPwntWrRt",
-          "author": null,
-          "description": "Free icons for articles, posts, protest signs, donation campaigns and other efforts that support the Ukrainian people and help spread awareness.",
-          "link": "https://www.iconfinder.com/p/free-ukraine-icons",
-          "publishedOn": "2022-03-31T11:02:24.000Z",
-          "wordCount": 248,
-          "title": "Free Ukraine icons",
-          "imageUrl": "https://assets.website-files.com/5d9ba0eb5f6edb77992a99d0/62441d43c3e6aad48e7d74ae_Frame%201%20(41).png"
-        },
-        {
-          "id": "8TkFhNGXKBFJbT2aB",
-          "author": "@zhenpixels",
-          "description": "Mode Design’s SixtyFive is one of the best mechanical keyboards I’ve ever used. These are my thoughts after having it in the studio for a few months.",
-          "link": "https://www.arun.is/blog/mode-designs-sixty-five/",
-          "publishedOn": "2022-03-31T11:01:52.000Z",
-          "wordCount": 1332,
-          "title": "Mode Designs SixtyFive ·  a celebration of materials",
-          "imageUrl": "https://www.arun.is/static/d4b808d144a4d7c0f06774065d61cdc9/social.jpg"
-        },
-        {
-          "id": "j8XCFTTxNKTaBJtKg",
-          "author": "@expwithgoogle",
-          "description": "Build a custom Chrome tab extension with this tool that lets you design and populate content/data via Google Sheets.",
-          "link": "https://tabmaker.withgoogle.com/",
-          "publishedOn": "2022-03-31T11:00:23.000Z",
-          "wordCount": 1552,
-          "title": "Google Tab Maker",
-          "imageUrl": null
-        },
-        {
-          "id": "gG8Na5gZ5FJPEqi4N",
-          "author": "@smashingmag",
-          "description": "Techniques to improve the UX of infinite scroll with bookmarks, footer reveal and pagination + infinite scroll.",
-          "link": "https://www.smashingmagazine.com/2022/03/designing-better-infinite-scroll/",
-          "publishedOn": "2022-03-31T10:59:27.000Z",
-          "wordCount": 2926,
-          "title": "Designing A Better Infinite Scroll",
-          "imageUrl": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/41704a7b-0bd6-4144-b13e-2b092a0ea3e1/designing-better-infinite-scroll.jpg"
         }
       ]
     },
@@ -6533,6 +6393,56 @@
       "feedUrl": "https://www.printmag.com/feed/",
       "siteUrl": "https://www.printmag.com",
       "articles": [
+        {
+          "id": "https://www.printmag.com/?p=727381",
+          "author": "Chloe Gordon",
+          "description": "If you're looking to create your own font, need typographic inspiration, or just want to keep up with trends, check out some of our favorite foundries.",
+          "link": "https://www.printmag.com/typography/five-font-foundries-to-follow-on-instagram/",
+          "publishedOn": "2022-04-29T15:00:00.000Z",
+          "wordCount": 941,
+          "title": "Five Font Foundries to Follow on Instagram",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/Orange-Typography-Handwritten-Creative-Quote-Desktop-Wallpaper-1.png?fit=1200%2C675&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=726953",
+          "author": "Sponsored",
+          "description": "Why is it worth thinking about your business as a brand? What does the word “brand” really mean, anyway?",
+          "link": "https://www.printmag.com/branding-identity-design/the-basics-of-branding/",
+          "publishedOn": "2022-04-29T13:00:00.000Z",
+          "wordCount": 926,
+          "title": "The Basics of Branding",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/newupdates.png?fit=1200%2C1200&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=727408",
+          "author": "Steven Heller",
+          "description": "Can you guess who designed this beautiful evocation of spring on an unseasonably chilly day?",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-who-did-this/",
+          "publishedOn": "2022-04-29T10:12:00.000Z",
+          "wordCount": 515,
+          "title": "The Daily Heller: Who Did This? And Why?",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/Caasandre-1.jpeg?fit=1200%2C731&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=727341",
+          "author": "Sarah Fonder",
+          "description": "The innovative pea-based beverage Tiptoh features a clever system by Belgian designer Broos Stoffels.",
+          "link": "https://www.printmag.com/branding-identity-design/if-youre-considering-alternative-milk-why-not-give-peas-a-chance/",
+          "publishedOn": "2022-04-29T09:00:00.000Z",
+          "wordCount": 528,
+          "title": "If You’re Considering Alternative Milk, Why Not Give Peas a Chance?",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/Tiptoh_BroosStoffels_Packshots_1-1.jpg?fit=1200%2C800&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=727460",
+          "author": "sarahfonderprint",
+          "description": "Fall in love with Lee's charming, chaotic paintings in this collection of works from a solo exhibition at Jeffrey Deitch.",
+          "link": "https://www.printmag.com/fine-art/austin-lee-brings-the-wild-creativity-of-childhood-back-to-fine-art-in-like-it-is/",
+          "publishedOn": "2022-04-29T07:00:00.000Z",
+          "wordCount": 674,
+          "title": "Austin Lee Brings the Wild Creativity of Childhood Back to Fine Art in ‘Like It Is’",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/Austin_Lee_Website_Image_Cover_1_a1b17f9c-9a62-4318-bf9c-b59f7e4e02f9_1512x-1.jpg?fit=1200%2C922&ssl=1"
+        },
         {
           "id": "https://www.printmag.com/?p=727369",
           "author": "Charlotte Beach",
@@ -7392,76 +7302,6 @@
           "wordCount": 1158,
           "title": "Domi of ‘Paperback Paradise’ Takes Us Behind the Scenes of His Absurd Retro Book Covers",
           "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/paperbackparadise-1.png?fit=1200%2C514&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=725484",
-          "author": "Steven Heller",
-          "description": "To celebrate Odgers’ generation-defining work, Steven Heller revisits three interviews he conducted with the designer and artist.",
-          "link": "https://www.printmag.com/daily-heller/the-daily-heller-jayme-odgers-new-wave-design-pioneer-and-experimental-artist-dies/",
-          "publishedOn": "2022-03-31T10:50:00.000Z",
-          "wordCount": 873,
-          "title": "The Daily Heller: Jayme Odgers, New Wave Design Pioneer and Experimental Artist, Dies",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/02.-1980_Douglas-W.-Schmidt-poster-2.webp?fit=1028%2C1200&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=725539",
-          "author": "PRINT Magazine",
-          "description": "On this week’s episode, we are learning about an organization that is designing a new marketplace for artists.",
-          "link": "https://www.printmag.com/printcast/design-is-everywhere-creating-a-space-and-opportunity-for-artists/",
-          "publishedOn": "2022-03-31T10:00:00.000Z",
-          "wordCount": 462,
-          "title": "Design is Everywhere: Creating a Space and Opportunity for Artists",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/POD_90_Graphic_220329.png?fit=1200%2C800&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=725437",
-          "author": "Chloe Gordon",
-          "description": "Southern activists respond to the Florida Governor's \"Don't Say Gay\" bill with a clear, attention-grabbing message.",
-          "link": "https://www.printmag.com/culturally-related-design/southern-progress-billboards-inspire-floridians-to-say-gay-with-pride/",
-          "publishedOn": "2022-03-31T09:00:00.000Z",
-          "wordCount": 544,
-          "title": "Southern Progress’ Billboards Inspire Floridians To “Say Gay” with Pride",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/623a5a94d2f08a00196610ef.webp?fit=1000%2C500&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=725215",
-          "author": "Chloe Gordon",
-          "description": "The arts organization presents a freeform, calligraphic new wordmark in a thrilling 3D animation.",
-          "link": "https://www.printmag.com/branding-identity-design/the-mellon-foundation-by-pentagram/",
-          "publishedOn": "2022-03-31T07:00:00.000Z",
-          "wordCount": 1693,
-          "title": "The Mellon Foundation Presents a Bold Alternative to Philanthropic Branding",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/materials-13.jpg.webp?fit=1200%2C800&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=723480",
-          "author": "Chloe Gordon",
-          "description": "Estúdio Drama makes a great case for buying a calendar late with this poppy depiction of 2022's moon phases.",
-          "link": "https://www.printmag.com/culturally-related-design/this-gorgeous-neon-calendar-raises-money-for-food-insecurity-in-brazil/",
-          "publishedOn": "2022-03-31T05:00:00.000Z",
-          "wordCount": 752,
-          "title": "This Gorgeous Neon Calendar Raises Money for Food Insecurity in Brazil",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/calendar-calendario-colors-fruits-frutas-poster-Poster_yyt-3.png?fit=1200%2C714&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=725436",
-          "author": "Marian Bantjes",
-          "description": "In this essay from 'Marian Bantjes is Writing Again,' the designer examines the alluring trap of modern-day fame.",
-          "link": "https://www.printmag.com/creative-voices/designer-marian-bantjes-on-will-smith-and-the-trap-of-modern-day-fame/",
-          "publishedOn": "2022-03-30T18:00:00.000Z",
-          "wordCount": 1540,
-          "title": "Two Stories About Will Smith",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/christ-scaled.jpeg?fit=1200%2C818&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=724460",
-          "author": "Monica Danielle",
-          "description": "In this essay from 'A Broad View,' Monica examines the weird feeling that accompanies going back to school at age 44.",
-          "link": "https://www.printmag.com/creative-voices/a-broad-view-your-mountain-is-waiting/",
-          "publishedOn": "2022-03-30T15:00:00.000Z",
-          "wordCount": 1943,
-          "title": "A Broad View: Your mountain is waiting",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/03/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_56c39ea5-b40e-4774-adf8-d939c1b84d2c_2414x1850-1.png?fit=1200%2C920&ssl=1"
         }
       ]
     },
@@ -7482,6 +7322,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/04/partytown-eliminates-website-bloat-third-party-apps/",
+          "author": "hello@smashingmagazine.com (Steve Sewell)",
+          "description": "Introducing Partytown, a lightweight open-source solution that reduces execution delays due to third-party JavaScript by offloading third-party scripts to web workers, which run in background threads.",
+          "link": "https://smashingmagazine.com/2022/04/partytown-eliminates-website-bloat-third-party-apps/",
+          "publishedOn": "2022-04-29T10:30:00.000Z",
+          "wordCount": 2017,
+          "title": "How Partytown Eliminates Website Bloat From Third-Party Scripts",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/3bb74cff-2774-45a7-8961-e255d6305d2a/partytown-eliminates-website-bloat-third-party-apps.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/3bb74cff-2774-45a7-8961-e255d6305d2a/partytown-eliminates-website-bloat-third-party-apps.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2022/04/cta-modal-build-web-component/",
           "author": "hello@smashingmagazine.com (Nathan Smith)",
@@ -7776,36 +7631,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b614fa99-6432-4f8f-bb7a-234b9e0c082e/next-js-middleware-feature.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/03/desktop-wallpaper-calendars-april-2022/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Let’s welcome the new month with some new wallpapers. Designed with love by artists and designers from across the globe, they are available in versions with and without a calendar for April 2022.",
-          "link": "https://smashingmagazine.com/2022/03/desktop-wallpaper-calendars-april-2022/",
-          "publishedOn": "2022-03-31T08:00:00.000Z",
-          "wordCount": 1972,
-          "title": "A Time For Reflection (April 2022 Desktop Wallpapers Edition)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c5a643aa-d809-46c8-a329-689e866dc160/apr-22-blue-and-yellow-preview-opt.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c5a643aa-d809-46c8-a329-689e866dc160/apr-22-blue-and-yellow-preview-opt.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/03/designing-better-infinite-scroll/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "In this series of articles, we highlight design patterns and techniques to design better interfaces. You can also find more examples in [“Smart Interface Design Patterns”](https://smart-interface-design-patterns.com/), a 6h-video course with 100s of hand-picked examples, curated by Vitaly.",
-          "link": "https://smashingmagazine.com/2022/03/designing-better-infinite-scroll/",
-          "publishedOn": "2022-03-30T13:30:00.000Z",
-          "wordCount": 2926,
-          "title": "Designing A Better Infinite Scroll",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/41704a7b-0bd6-4144-b13e-2b092a0ea3e1/designing-better-infinite-scroll.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/41704a7b-0bd6-4144-b13e-2b092a0ea3e1/designing-better-infinite-scroll.jpg"
         }
       ]
     },
