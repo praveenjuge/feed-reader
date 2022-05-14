@@ -127,7 +127,28 @@
       "title": "Bootstrap Blog",
       "feedUrl": "https://blog.getbootstrap.com/feed.xml",
       "siteUrl": "https://blog.getbootstrap.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.getbootstrap.com/2022/05/13/bootstrap-icons-1-8-2/",
+          "author": null,
+          "description": "Bootstrap Icons v1.8.2 has arrvied with some bug fixes and a refreshed docs design to match our main project.\nHere’s a quick rundown on the icon fixes:\nFix cutoff bank icon\nFix house-heart and house-heart-fill fill-rules\nFix corners of pentagon icons to match other shapes\nFix fill-rule for x-lg\nFix cutoff tool icon\nOn the CSS side, we’ve also added font-display: block to help address our icon font affecting Google Lighthouse scores.\nLooking for more new icons? Head to the issue tracker to check for open requests or submit a new one.\nInstall\nTo get started, install or update via npm:\nnpm i bootstrap-icons\n\n\nOr Composer:\ncomposer require twbs/bootstrap-icons\n\n\nYou can also download the release from GitHub, or download just the SVGs and fonts (without the rest of the repository files).\nFigma\nThe Figma file is now published to the Figma Community! It’s the same Bootstrap Icons Figma file you’ve seen from previous releases, just a little more accessible to those using the app.",
+          "link": "https://blog.getbootstrap.com/2022/05/13/bootstrap-icons-1-8-2/",
+          "publishedOn": "2022-05-13T00:01:00.000Z",
+          "wordCount": 271,
+          "title": "Bootstrap Icons v1.8.2",
+          "imageUrl": "https://blog.getbootstrap.com/assets/img/bootstrap-social.png"
+        },
+        {
+          "id": "https://blog.getbootstrap.com/2022/05/13/bootstrap-5-2-0-beta/",
+          "author": null,
+          "description": "It’s the biggest release since v5 itself—Bootstrap v5.2.0-beta1 is here! This release features redesigned docs, CSS variables for all our components, responsive offcanvas, new helpers and utilities, refined buttons and inputs, and lots of improvements under the hood.\nGiven the size of the update and time since our last release, we’re doing something different and shipping it as a beta first. Keep reading for details.\nWhy so long?\nI want to start by acknowledging the time it’s taken to ship a new release. As an open source maintainer, I’m constantly worried about not doing or being good enough of a developer for my projects. Pair that with a distributed team all working through this pandemic and me having a heart attack, we’ve all needed some down time. I managed to put together a Bootstrap…",
+          "link": "https://blog.getbootstrap.com/2022/05/13/bootstrap-5-2-0-beta/",
+          "publishedOn": "2022-05-13T00:00:00.000Z",
+          "wordCount": 1524,
+          "title": "Bootstrap 5.2.0 beta",
+          "imageUrl": "https://blog.getbootstrap.com/assets/img/bootstrap-social.png"
+        }
+      ]
     },
     {
       "title": "Mozilla Accessibility",
@@ -251,6 +272,16 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=365738",
+          "author": "Temani Afif",
+          "description": "In my last article we saw how CSS background properties allow us to create cool hover effects. This time, we will focus on the CSS text-shadow property to explore even more interesting hovers. You are probably wondering how adding shadow …\nCool Hover Effects That Use CSS Text Shadow originally published on CSS-Tricks. You should get the newsletter.",
+          "link": "https://css-tricks.com/cool-hover-effects-that-use-css-text-shadow/",
+          "publishedOn": "2022-05-13T14:43:17.000Z",
+          "wordCount": 2214,
+          "title": "Cool Hover Effects That Use CSS Text Shadow",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/365738"
+        },
         {
           "id": "https://css-tricks.com/?p=365706",
           "author": "Jhey Tompkins",
@@ -408,6 +439,36 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=9896",
+          "author": "Adam Marsden",
+          "description": "Tool",
+          "link": "https://dailydevlinks.com/markdoc-markdown-based-authoring-framework/",
+          "publishedOn": "2022-05-13T08:59:00.000Z",
+          "wordCount": 144,
+          "title": "Markdoc – Markdown-based authoring framework.",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9899",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/state-of-css-2022/",
+          "publishedOn": "2022-05-13T08:06:00.000Z",
+          "wordCount": 157,
+          "title": "State of CSS 2022",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=9893",
+          "author": "Adam Marsden",
+          "description": "UX",
+          "link": "https://dailydevlinks.com/how-even-small-ux-changes-can-result-in-an-increase-in-conversion-a-case-study/",
+          "publishedOn": "2022-05-13T07:45:00.000Z",
+          "wordCount": 168,
+          "title": "How Even Small UX Changes Can Result In An Increase In Conversion (A Case Study)",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
         {
           "id": "https://dailydevlinks.com/?p=9887",
           "author": "Adam Marsden",
@@ -897,46 +958,6 @@
           "wordCount": 144,
           "title": "Accessible Cards",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9731",
-          "author": "Adam Marsden",
-          "description": "Design",
-          "link": "https://dailydevlinks.com/this-logo-constantly-redraws-itself/",
-          "publishedOn": "2022-04-14T12:00:00.000Z",
-          "wordCount": 143,
-          "title": "This logo constantly redraws itself",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9725",
-          "author": "Adam Marsden",
-          "description": "SVG",
-          "link": "https://dailydevlinks.com/ideal-svg-exports/",
-          "publishedOn": "2022-04-14T09:50:00.000Z",
-          "wordCount": 148,
-          "title": "Ideal SVG exports",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9728",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/writing-cross-platform-components-for-web-and-react-native/",
-          "publishedOn": "2022-04-14T09:13:00.000Z",
-          "wordCount": 155,
-          "title": "Writing cross-platform components for web and React Native",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=9734",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://dailydevlinks.com/css-has-a-parent-selector-now/",
-          "publishedOn": "2022-04-14T06:44:00.000Z",
-          "wordCount": 155,
-          "title": "CSS :has( ) A Parent Selector Now",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
         }
       ]
     },
@@ -951,6 +972,16 @@
       "feedUrl": "https://daverupert.com/atom.xml",
       "siteUrl": "https://daverupert.com",
       "articles": [
+        {
+          "id": "https://daverupert.com/2022/05/doge-d-a-bullet/",
+          "author": null,
+          "description": "It’s a secret to everyone! This post is for RSS subscribers only.\nRead more about RSS Club.\n\nTwo years ago, Easter of 2020, I was chatting with some friends about crypto and one friend was starting to set aside some money and invest. Seemed harmless to do with “fun money”. We were in a pandemic after all, so no one was doing anything anyways. This was the height of the Gamestop and $DOGE meme stock market drama. I dismissed crypto at the time, but I used my Stocks app to follow the prices of $BTC, $ETH, $SOL, $DOGE, $SHIB, $LUNA, $XRP, $XTZ, and a some others that crossed my periphery field of view.\nYou see, it’s not hard to sell me on crypto. “Big banks, payday loans, and fees are problematic” = yes. “We can decentralize identity and web logins” = yes, cool. “We can decentralize payment” …",
+          "link": "https://daverupert.com/2022/05/doge-d-a-bullet/",
+          "publishedOn": "2022-05-13T15:06:00.000Z",
+          "wordCount": 863,
+          "title": "Doge'd a bullet",
+          "imageUrl": null
+        },
         {
           "id": "https://daverupert.com/2022/05/spectrums/",
           "author": null,
@@ -1303,16 +1334,6 @@
           "wordCount": 1536,
           "title": "5 practical tips to pivot from graphic designer to web designer",
           "imageUrl": "https://cdn.dribbble.com/uploads/35686/original/4d0ed456e829793d9b7113c67d2daed5.jpg?1649803619"
-        },
-        {
-          "id": "https://dribbble.com/stories/2022/04/13/polygon-web3",
-          "author": null,
-          "description": "The surprisingly rapid pace of innovation in the blockchain space has become quite obvious to even the staunchest of crypto critics. The successful deployment of Ethereum scalability solutions, such as Polygon, has substantially accelerated the adoption curve for blockchain and Web3 apps. Gaming, FinTech, digital identity, social media and publishing will very likely become Web3-enabled within the next 5 to 10 years. DeFi(decentralized finance) apps and platforms are already there, offering a solution to several problems in traditional finance.\nThere's an ever-increasing demand for experienced UI/UX designers among forward-looking Web3 startups. \nBut for a new technology to succeed and achieve mass adoption, it doesn’t only need to improve upon the existing status quo — it also has to avoi…",
-          "link": "https://dribbble.com/stories/2022/04/13/polygon-web3",
-          "publishedOn": "2022-04-13T16:30:29.000Z",
-          "wordCount": 1913,
-          "title": "3 reasons why UI/UX is the final step to unlocking Web3 mass adoption",
-          "imageUrl": "https://cdn.dribbble.com/uploads/35587/original/4add4a754eae8532c4c1d2fbf8d25a99.png?1649697417"
         }
       ]
     },
@@ -2103,56 +2124,6 @@
           "wordCount": 66,
           "title": "CSS parent selector",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65112",
-          "author": "Travis",
-          "description": "Carousels don’t have a good reputation, and rightfully so.",
-          "link": "https://heydesigner.com/designing-a-better-carousel-ux/",
-          "publishedOn": "2022-04-14T06:16:16.000Z",
-          "wordCount": 59,
-          "title": "Designing a better carousel UX",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65110",
-          "author": "Travis",
-          "description": "We sometimes think about prioritization as “cutting all the unnecessary work.” But that’s not it.",
-          "link": "https://heydesigner.com/its-not-prioritization-until-it-hurts/",
-          "publishedOn": "2022-04-14T06:14:45.000Z",
-          "wordCount": 67,
-          "title": "It’s not prioritization until it hurts",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65108",
-          "author": "Travis",
-          "description": "3 tips for overcoming complexity and going from 0 to 1.",
-          "link": "https://heydesigner.com/designing-big-complex-products-from-scratch/",
-          "publishedOn": "2022-04-14T06:13:44.000Z",
-          "wordCount": 63,
-          "title": "Designing big, complex products from scratch",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65106",
-          "author": "Travis",
-          "description": "I was recently helping my partner and their team with implementing an accessible card component.",
-          "link": "https://heydesigner.com/accessible-cards/",
-          "publishedOn": "2022-04-14T06:12:33.000Z",
-          "wordCount": 61,
-          "title": "Accessible cards",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65104",
-          "author": "Travis",
-          "description": "Building career capital when people isn’t your thing.",
-          "link": "https://heydesigner.com/networking-for-introverts/",
-          "publishedOn": "2022-04-14T06:10:47.000Z",
-          "wordCount": 53,
-          "title": "Networking for introverts",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2161,6 +2132,76 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=31373807",
+          "author": "jger15",
+          "description": "Article URL: https://www.notion.so/blog/andy-matuschak\nComments URL: https://news.ycombinator.com/item?id=31373807\nPoints: 1\n# Comments: 0",
+          "link": "https://www.notion.so/blog/andy-matuschak",
+          "publishedOn": "2022-05-14T00:01:54.000Z",
+          "wordCount": 11303,
+          "title": "Andy Matuschak on physically-informed digital interface design",
+          "imageUrl": "https://images.ctfassets.net/spoqsaf9291f/5gYqp6MWR3nkCOcyEfgxPm/b199dfccc89e701f375c0515a3f1f1ba/Frame_12.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31369803",
+          "author": "devstein",
+          "description": "Article URL: https://heap.io\nComments URL: https://news.ycombinator.com/item?id=31369803\nPoints: 2\n# Comments: 0",
+          "link": "https://heap.io",
+          "publishedOn": "2022-05-13T16:42:02.000Z",
+          "wordCount": 23,
+          "title": "Heap Analytics Design Rebrand",
+          "imageUrl": "https://images.ctfassets.net/jicu8fwm4fvs/57SlD3uXZskS7cHKEOwGEm/86b064a3a12bb579078bbd23c1efe292/heap-logo-social-1200-2.png?w=1200&h=1200&fit=fill&q=60&fm=jpg&fl=progressive"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31369003",
+          "author": "blueatlas",
+          "description": "Article URL: https://www.saferack.com/road-tanker-safety-design-equipment-human-factor/\nComments URL: https://news.ycombinator.com/item?id=31369003\nPoints: 1\n# Comments: 0",
+          "link": "https://www.saferack.com/road-tanker-safety-design-equipment-human-factor/",
+          "publishedOn": "2022-05-13T15:37:42.000Z",
+          "wordCount": null,
+          "title": "Road Tanker Safety: Design, Equipment, and the Human Factor",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31367798",
+          "author": "whitphx",
+          "description": "Article URL: https://whitphx.github.io/react-ymd-date-select/\nComments URL: https://news.ycombinator.com/item?id=31367798\nPoints: 1\n# Comments: 0",
+          "link": "https://whitphx.github.io/react-ymd-date-select/",
+          "publishedOn": "2022-05-13T14:06:41.000Z",
+          "wordCount": 3,
+          "title": "Show HN: React library for Y-M-D date dropdown UI",
+          "imageUrl": "https://whitphx.github.io/react-ymd-date-select/img/demo_screenshot.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31364970",
+          "author": "tymerry",
+          "description": "I realized that I have more respect for the development profession then I do for designers and I am trying to figure out why. Businesses seem to respect both enough to pay large amounts of money for the work, and people out side of the tech space don't seem to care either way. I have alternated between the two fields for ~10 years and have ran into UX and Devs who phone it in, and who act like professionals, but the professional craft seems more common in development.\nComments URL: https://news.ycombinator.com/item?id=31364970\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=31364970",
+          "publishedOn": "2022-05-13T08:58:51.000Z",
+          "wordCount": 165,
+          "title": "Ask HN: Do you have more respect for UX designers or developers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31363184",
+          "author": "mmastrac",
+          "description": "Article URL: https://katehazen.myportfolio.com/system76-packaging\nComments URL: https://news.ycombinator.com/item?id=31363184\nPoints: 2\n# Comments: 0",
+          "link": "https://katehazen.myportfolio.com/system76-packaging",
+          "publishedOn": "2022-05-13T04:04:15.000Z",
+          "wordCount": 556,
+          "title": "The design process behind System76's packaging",
+          "imageUrl": "https://pro2-bar-s3-cdn-cf4.myportfolio.com/faa91d3b1974da1f677b33ab1f2d9b9f/fea52d46728213.5864b2da3991c_rwc_0x645x1603x1256x1603.jpg?h=040c038abaa6ad8aeb0cd14522f79923"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31361942",
+          "author": "ArtWomb",
+          "description": "Article URL: https://www.nngroup.com/articles/design-systems-101/\nComments URL: https://news.ycombinator.com/item?id=31361942\nPoints: 2\n# Comments: 1",
+          "link": "https://www.nngroup.com/articles/design-systems-101/",
+          "publishedOn": "2022-05-13T00:55:28.000Z",
+          "wordCount": 2938,
+          "title": "Design Systems 101",
+          "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/Design-Systems-101_Social-Medial-Posts_2021-92.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=31358762",
           "author": "jdlshore",
@@ -3840,36 +3881,6 @@
           "wordCount": 812,
           "title": "Dystopian furniture design: gaming bed",
           "imageUrl": "https://s3files.core77.com/blog/images/lead_n_spotlight/1282268_lead_400_115358_.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31022067",
-          "author": "uoaei",
-          "description": "Article URL: https://evilbydesign.info/\nComments URL: https://news.ycombinator.com/item?id=31022067\nPoints: 2\n# Comments: 0",
-          "link": "https://evilbydesign.info/",
-          "publishedOn": "2022-04-14T00:35:22.000Z",
-          "wordCount": 505,
-          "title": "Evil by Design",
-          "imageUrl": "http://evilbydesign.info/files/2013/04/Evil-By-Design-book-cover-small-150x134.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31020953",
-          "author": "blunte",
-          "description": "Tempest: Atari 1981\nSimple mechanics, novel design, increasing complexity\nhttps://en.wikipedia.org/wiki/Tempest_(video_game)\nhttps://www.youtube.com/watch?v=AiTgA3ZOoSo\nBecause of the CRT screen and the vector graphics, the in-person experience was unique and difficult to replicate.  Likewise, the very simple button and rotating knob interface combination was approachable but presented unique challenges in the gameplay.\nComments URL: https://news.ycombinator.com/item?id=31020953\nPoints: 2\n# Comments: 2",
-          "link": "https://news.ycombinator.com/item?id=31020953",
-          "publishedOn": "2022-04-13T22:13:07.000Z",
-          "wordCount": 179,
-          "title": "A lesson in game design – Tempest",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31020484",
-          "author": "retskrad",
-          "description": "Article URL: https://twitter.com/VadimYuryev/status/1514295682777059329\nComments URL: https://news.ycombinator.com/item?id=31020484\nPoints: 35\n# Comments: 8",
-          "link": "https://twitter.com/VadimYuryev/status/1514295682777059329",
-          "publishedOn": "2022-04-13T21:24:41.000Z",
-          "wordCount": 196,
-          "title": "Apple's M1 Ultra comes with a design limitation that was overlooked by Apple",
-          "imageUrl": null
         }
       ]
     },
@@ -3878,6 +3889,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=31369354",
+          "author": "charsi",
+          "description": "Article URL: https://briefcake.com/\nComments URL: https://news.ycombinator.com/item?id=31369354\nPoints: 1\n# Comments: 0",
+          "link": "https://briefcake.com/",
+          "publishedOn": "2022-05-13T16:07:00.000Z",
+          "wordCount": 182,
+          "title": "Follow instagram, blogs and RSS feeds in one daily email",
+          "imageUrl": "https://briefcake.com/assets/images/social-image.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=31327346",
           "author": "georgecmu",
@@ -4267,16 +4288,6 @@
           "wordCount": 1881,
           "title": "One Year of Using a Habit Tracking Journal - What I've Learned",
           "imageUrl": "https://durmonski.com/wp-content/uploads/2022/04/Habit-Tracking-Journal.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31015041",
-          "author": "madpunter",
-          "description": "Article URL: https://www.aprons.app/\nComments URL: https://news.ycombinator.com/item?id=31015041\nPoints: 1\n# Comments: 0",
-          "link": "https://www.aprons.app/",
-          "publishedOn": "2022-04-13T14:28:07.000Z",
-          "wordCount": 434,
-          "title": "Make Cooking a Habit",
-          "imageUrl": null
         }
       ]
     },
@@ -4285,6 +4296,46 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=31372467",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://bjhess.com/blog/2022/HTML-only/\nComments URL: https://news.ycombinator.com/item?id=31372467\nPoints: 3\n# Comments: 0",
+          "link": "https://bjhess.com/blog/2022/HTML-only/",
+          "publishedOn": "2022-05-13T20:58:10.000Z",
+          "wordCount": 525,
+          "title": "HTML Only: Barry Hess: Bjhess.com",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31369683",
+          "author": "sysadm1n",
+          "description": "Article URL: https://dequeuniversity.com/validator\nComments URL: https://news.ycombinator.com/item?id=31369683\nPoints: 1\n# Comments: 0",
+          "link": "https://dequeuniversity.com/validator",
+          "publishedOn": "2022-05-13T16:33:12.000Z",
+          "wordCount": 692,
+          "title": "HTML Validator",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31368753",
+          "author": "bryanbraun",
+          "description": "Article URL: https://sliderland.blinry.org/\nComments URL: https://news.ycombinator.com/item?id=31368753\nPoints: 152\n# Comments: 31",
+          "link": "https://sliderland.blinry.org/",
+          "publishedOn": "2022-05-13T15:19:06.000Z",
+          "wordCount": 22,
+          "title": "Sliderland – Creative coding with 64 HTML sliders",
+          "imageUrl": "https://sliderland.blinry.org/twitter-card.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31368568",
+          "author": "DerekBickerton",
+          "description": "Article URL: https://sprucecss.com/blog/writing-better-css/\nComments URL: https://news.ycombinator.com/item?id=31368568\nPoints: 2\n# Comments: 1",
+          "link": "https://sprucecss.com/blog/writing-better-css/",
+          "publishedOn": "2022-05-13T15:03:14.000Z",
+          "wordCount": 1230,
+          "title": "Writing Better CSS",
+          "imageUrl": "https://sprucecss.com/static/cec3af322ca4666cee32c239f476e7a5/bb8ee/writing-better-css.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=31359022",
           "author": "bartkappenburg",
@@ -4874,16 +4925,6 @@
           "wordCount": 865,
           "title": "Browser in the Dark: flashlights with CSS and canvas",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31024619",
-          "author": "shadeed9",
-          "description": "Article URL: https://ishadeed.com/article/css-has-parent-selector/\nComments URL: https://news.ycombinator.com/item?id=31024619\nPoints: 2\n# Comments: 0",
-          "link": "https://ishadeed.com/article/css-has-parent-selector/",
-          "publishedOn": "2022-04-14T08:48:35.000Z",
-          "wordCount": 2407,
-          "title": "CSS Parent Selector",
-          "imageUrl": "https://ishadeed.com/assets/css-has/twitter-card.jpg"
         }
       ]
     },
@@ -4956,6 +4997,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=42921",
+          "author": "Seth Godin",
+          "description": "When we’re close to an answer, there are two easy paths–name it, right now, and move on. Or avoid the answer and the responsibility that comes with it and stall. The best path is the third one. Wait for five beats. Kneejerk is not an admirable trait. A few breaths before we rip into someone. […]",
+          "link": "https://seths.blog/2022/05/five-beats/",
+          "publishedOn": "2022-05-13T08:03:00.000Z",
+          "wordCount": 229,
+          "title": "Five beats",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=42000",
           "author": "Seth Godin",
@@ -5235,16 +5286,6 @@
           "wordCount": 363,
           "title": "Things to feel bad about",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=40762",
-          "author": "Seth Godin",
-          "description": "Overhead recently: To a 10-year-old on his way to a baseball game, “Come home with a win.” To a 9-year-old at the supermarket, “I don’t think you’ll like that.” It’s pretty clear what lessons are being taught.",
-          "link": "https://seths.blog/2022/04/two-things-we-say-to-kids/",
-          "publishedOn": "2022-04-14T08:40:00.000Z",
-          "wordCount": 175,
-          "title": "Two things we say to kids",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
         }
       ]
     },
@@ -5253,6 +5294,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "yC4BfygTtZCrHHngq",
+          "author": "@joeyabanks",
+          "description": "The opening keynote for Figma’s Config 2022 just wrapped up and so many of the latest announcements have me feeling excited!",
+          "link": "https://joeyabanks.substack.com/p/baseline-7-everything-new-in-figma",
+          "publishedOn": "2022-05-13T08:23:27.000Z",
+          "wordCount": 1324,
+          "title": "Everything New in Figma",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7f01bb07-6562-4b89-a4a3-82f839e4788e_1952x1108.png"
+        },
+        {
+          "id": "3PjkWfhAnfHaKpqp6",
+          "author": "@CSS",
+          "description": "You know Slinkys, right? That classic toy you knock down the stairs and it travels with its own momentum. Let’s make one with pure CSS!",
+          "link": "https://css-tricks.com/a-css-slinky-in-3d/",
+          "publishedOn": "2022-05-13T08:17:39.000Z",
+          "wordCount": 3711,
+          "title": "A CSS Slinky in 3D? Challenge Accepted!",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/365706"
+        },
+        {
+          "id": "wR6iFXyLZn2NYstWS",
+          "author": "@stripe",
+          "description": "From personal blogs to massive documentation sites, Markdoc is a content authoring system that grows with you.",
+          "link": "https://markdoc.io/",
+          "publishedOn": "2022-05-13T08:17:05.000Z",
+          "wordCount": 344,
+          "title": "A powerful, flexible, Markdown-based authoring framework",
+          "imageUrl": "https://markdoc.io/images/share.png"
+        },
+        {
+          "id": "zPZp4KfG4KLfa4qZj",
+          "author": "@conedevelopment",
+          "description": "Writing better and more manageable CSS is something to strive for as a front-end developer. But what is better CSS?",
+          "link": "https://sprucecss.com/blog/writing-better-css",
+          "publishedOn": "2022-05-13T08:15:58.000Z",
+          "wordCount": 1230,
+          "title": "Writing Better CSS",
+          "imageUrl": "https://sprucecss.com/static/cec3af322ca4666cee32c239f476e7a5/bb8ee/writing-better-css.png"
+        },
+        {
+          "id": "Xajqzd7sd2TP4T6ZC",
+          "author": "@webflow",
+          "description": "From paper cups to pop culture — the surprisingly dramatic story of the 90s jazz design.",
+          "link": "https://webflow.com/blog/90s-jazz-design",
+          "publishedOn": "2022-05-13T08:13:51.000Z",
+          "wordCount": 1442,
+          "title": "90s jazz design: cups, controversy, and nostalgia",
+          "imageUrl": "https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/627d2949fce5891b82d4ba02_90s_jazz_design_R2.jpg"
+        },
         {
           "id": "b92SctJw3Qr7Db3af",
           "author": "@airbnb",
@@ -6252,56 +6343,6 @@
           "wordCount": 7262,
           "title": "Designing A Better Carousel UX",
           "imageUrl": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/729433dc-4cea-4eed-9128-0e9e6dbfe6db/designing-better-carousel-ux.jpg"
-        },
-        {
-          "id": "SzPJQEtH7NRxeqwHT",
-          "author": "@anildash",
-          "description": "We’re seeing an incredibly unlikely comeback: the web is thriving again.",
-          "link": "https://anildash.com/2022/04/13/a-web-renaissance/",
-          "publishedOn": "2022-04-14T05:27:46.000Z",
-          "wordCount": null,
-          "title": "A Web Renaissance",
-          "imageUrl": null
-        },
-        {
-          "id": "6Zu7AXmpyFwj9PxGr",
-          "author": "@BenDMyers",
-          "description": "Solve 30% of the web’s accessibility defects with just the help of a calculator!",
-          "link": "https://benmyers.dev/blog/fix-low-contrast-text/",
-          "publishedOn": "2022-04-14T05:21:45.000Z",
-          "wordCount": 1898,
-          "title": "How to Fix Your Low-Contrast Text",
-          "imageUrl": "https://res.cloudinary.com/bendmyers/image/upload/v1649607325/benmyers.dev/fix-low-contrast-text_n4u6vc.png"
-        },
-        {
-          "id": "7oFhToiJaK772uaAa",
-          "author": "@CloudFour",
-          "description": "These days, the arguments for a baseline font size of 16 pixels are widely accepted. But there are plenty of reasons to go even larger!",
-          "link": "https://cloudfour.com/thinks/childish-font-sizes/",
-          "publishedOn": "2022-04-14T05:20:26.000Z",
-          "wordCount": 1141,
-          "title": "Childish Font Sizes",
-          "imageUrl": "https://cloudfour.com/wp-content/uploads/2022/03/childish-font-sizes-r1.png"
-        },
-        {
-          "id": "37kgsA9BWbCXdbJHc",
-          "author": "@growthdotdesign",
-          "description": "This story shows the problem with most NPS surveys and how to increase the response rate of your surveys to get better customer insights.",
-          "link": "https://growth.design/case-studies/nps-surveys",
-          "publishedOn": "2022-04-14T05:15:00.000Z",
-          "wordCount": 8,
-          "title": "The Ugly Truth About Net Promoter Score Surveys",
-          "imageUrl": "https://s3.amazonaws.com/files.growth.design/cms/cl1lgmlq9001x0uljgrn905nu.png"
-        },
-        {
-          "id": "N4Tqt2pCzXF3gxBqB",
-          "author": "@shadeed9",
-          "description": "A deep-dive into the CSS :has parent selector with some use-cases and examples.",
-          "link": "http://ishadeed.com/article/css-has-parent-selector/",
-          "publishedOn": "2022-04-14T05:14:41.000Z",
-          "wordCount": 2407,
-          "title": "CSS Parent Selector",
-          "imageUrl": "https://ishadeed.com/assets/css-has/twitter-card.jpg"
         }
       ]
     },
@@ -6394,6 +6435,26 @@
       "feedUrl": "https://www.nytimes.com/svc/collections/v1/publish/http://www.nytimes.com/topic/subject/design/rss.xml",
       "siteUrl": "https://www.nytimes.com/topic/subject/design",
       "articles": [
+        {
+          "id": "https://www.nytimes.com/2022/05/13/obituaries/junichi-arai-overlooked.html",
+          "author": "Elaine Louie",
+          "description": "His experimentations with different materials and technology earned him widespread recognition as well as patents and awards.",
+          "link": "https://www.nytimes.com/2022/05/13/obituaries/junichi-arai-overlooked.html",
+          "publishedOn": "2022-05-13T20:36:10.000Z",
+          "wordCount": 1168,
+          "title": "Overlooked No More: Junichi Arai, Innovative Textile Designer",
+          "imageUrl": "https://static01.nyt.com/images/2022/05/16/obituaries/16overlooked-arai-image2/13overlooked-arai-image2-facebookJumbo.jpg"
+        },
+        {
+          "id": "https://www.nytimes.com/2022/05/13/realestate/hamptons-modernist-houses.html",
+          "author": "Tim McKeough",
+          "description": "Timothy Godbold, an interior designer based in Southampton, became a Hamptons preservationist after learning that so many modernist houses have been torn down.",
+          "link": "https://www.nytimes.com/2022/05/13/realestate/hamptons-modernist-houses.html",
+          "publishedOn": "2022-05-13T09:00:35.000Z",
+          "wordCount": 1684,
+          "title": "Saving Modernism in the Hamptons",
+          "imageUrl": "https://static01.nyt.com/images/2022/05/15/realestate/13hamptons-preservation-07/13hamptons-preservation-07-facebookJumbo.jpg"
+        },
         {
           "id": "https://www.nytimes.com/2022/05/11/t-magazine/food/trematon-castle-cornwall-england.html",
           "author": "Aimee Farrell",
@@ -6621,6 +6682,46 @@
       "feedUrl": "https://www.printmag.com/feed/",
       "siteUrl": "https://www.printmag.com",
       "articles": [
+        {
+          "id": "https://www.printmag.com/?p=726963",
+          "author": "Sponsored",
+          "description": "An expert shares 7 tips to create an engaging website and digital presence.",
+          "link": "https://www.printmag.com/branding-identity-design/how-to-develop-a-strong-digital-brand-for-your-business/",
+          "publishedOn": "2022-05-13T17:00:00.000Z",
+          "wordCount": 961,
+          "title": "How to Develop a Strong Digital Brand for Your Business",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/Mailchimp-7-brand-items.png?fit=975%2C608&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=728151",
+          "author": "Chloe Gordon",
+          "description": "This week, we're sharing artists who are influenced by the shape and color of buildings, seemingly ordinary snacks, and the woven textures of thread.",
+          "link": "https://www.printmag.com/design-inspiration/get-inspired-with-our-top-five-instagram-accounts-of-the-week/",
+          "publishedOn": "2022-05-13T16:00:00.000Z",
+          "wordCount": 1060,
+          "title": "Get Inspired with Our Top Five Instagram Accounts of the Week",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/05/Orange-Typography-Handwritten-Creative-Quote-Desktop-Wallpaper.jpg?fit=1200%2C675&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=728148",
+          "author": "Steven Heller",
+          "description": "The illustrator and the filmmaker discuss a rare collaboration of art documenting art.",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-movie-illustrator/",
+          "publishedOn": "2022-05-13T10:30:00.000Z",
+          "wordCount": 2356,
+          "title": "The Daily Heller: Yann Kebbi Sketches a Mike Mills Movie",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/05/cmoncmondrawingsfromtheset_Page_51.jpg?fit=1200%2C833&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=728314",
+          "author": "Sarah Fonder",
+          "description": "Bold design choices add a sense of action, pathos, and revolutionary history to this experimental novel by Joana Bértholo.",
+          "link": "https://www.printmag.com/book-covers/luisa-zardo-adds-passion-and-color-to-the-dystopian-science-fiction-novel/",
+          "publishedOn": "2022-05-13T07:00:00.000Z",
+          "wordCount": 618,
+          "title": "Luísa Zardo Adds Passion and Color to the Dystopian Science Fiction Novel",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/05/046287143182767.62756cdda5d0a.jpg?fit=1200%2C782&ssl=1"
+        },
         {
           "id": "https://www.printmag.com/?p=728324",
           "author": "Charlotte Beach",
@@ -7460,46 +7561,6 @@
           "wordCount": 897,
           "title": "Brooklyn Brewery Presents a Fresh, Punchy New Take on Milton Glaser’s Iconic Design",
           "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/03-Brooklyn-Cans-scaled.jpg?fit=1200%2C750&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=726472",
-          "author": "Steven Heller",
-          "description": "In an era of perpetual change, Gjoko Muratovski reflects on his new book riffing on just that in the world of design.",
-          "link": "https://www.printmag.com/daily-heller/the-daily-heller-define-the-word-change/",
-          "publishedOn": "2022-04-14T11:00:00.000Z",
-          "wordCount": 2501,
-          "title": "The Daily Heller: Define the Word ‘Change,’ Then Define the Word ‘Design’",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/Covertease.jpg?fit=1037%2C601&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=726237",
-          "author": "Sarah Fonder",
-          "description": "Mexico-based Monumento Co designed the branding for wellness company OIILS.",
-          "link": "https://www.printmag.com/branding-identity-design/essential-oils-get-an-elegant-lightly-whimsical-makeover-with-oiils/",
-          "publishedOn": "2022-04-14T09:00:00.000Z",
-          "wordCount": 814,
-          "title": "Essential Oils Get an Elegant, Lightly Whimsical Makeover with Oiils",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/84cc61139145191.622a3c6feb106.png?fit=1200%2C676&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=726001",
-          "author": "Chloe Gordon",
-          "description": "Emyself Design's versatile, nostalgic font is perfect for creating charismatic designs that don't skimp on accessibility.",
-          "link": "https://www.printmag.com/typography/angiola-provides-a-modern-serif-typeface-thats-both-legible-and-elegant/",
-          "publishedOn": "2022-04-14T07:00:00.000Z",
-          "wordCount": 699,
-          "title": "Angiola Provides a Modern Serif Typeface That’s Both Legible and Elegant",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/elegant-font-lettering-Logotype-modern-serif-type-T.jpg?fit=1200%2C801&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=726331",
-          "author": "Frank J. Martinez",
-          "description": "While AI can aid the creative process, it also inevitably complicates it. Can designers interact with this software without compromising their vision?",
-          "link": "https://www.printmag.com/information-design/is-ai-a-wedge-between-designers-and-creativity/",
-          "publishedOn": "2022-04-13T16:00:00.000Z",
-          "wordCount": 1947,
-          "title": "Is AI a Wedge Between Designers and Creativity?",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/master-pnp-ppmsca-46500-46534u.jpg?fit=1200%2C857&ssl=1"
         }
       ]
     },
@@ -7520,6 +7581,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/05/top-tasks-focus-what-matters-must-defocus-what-doesnt/",
+          "author": "hello@smashingmagazine.com (Gerry McGovern)",
+          "description": "We waste so much today. One way of focusing on what truly matters is by identifying Top Tasks for yourself. Learn how to make tough decisions by focusing on the real, quantifiable evidence that will help create a better experience for your users.",
+          "link": "https://smashingmagazine.com/2022/05/top-tasks-focus-what-matters-must-defocus-what-doesnt/",
+          "publishedOn": "2022-05-13T11:30:00.000Z",
+          "wordCount": 3239,
+          "title": "Top Tasks: To Focus On What Matters You Must De-Focus On What Doesn’t",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e92d1278-297a-41d9-8ba2-e5100063610e/top-tasks-focus-what-matters-must-defocus-what-doesnt.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e92d1278-297a-41d9-8ba2-e5100063610e/top-tasks-focus-what-matters-must-defocus-what-doesnt.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2022/05/google-crux-analysis-comparison-performance-javascript-frameworks/",
           "author": "hello@smashingmagazine.com (Dan Shappir)",
@@ -7814,21 +7890,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fedf0602-27ae-4516-bcd0-df371fd0048b/use-storytelling-ux.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/04/upwork-freelancers-organization/",
-          "author": "hello@smashingmagazine.com (Paul Boag)",
-          "description": "Whether you work in-house or run a digital agency, there are occasions when you will consider hiring freelancers to supplement your team. Today, we’ll take a look into a platform known as [Upwork](https://upwork.pxf.io/c/1221738/1245573/13634) and the best ways in finding the the right freelancers as well as integrating them into your team.",
-          "link": "https://smashingmagazine.com/2022/04/upwork-freelancers-organization/",
-          "publishedOn": "2022-04-14T11:00:00.000Z",
-          "wordCount": 2445,
-          "title": "When And How To Use Freelancers In Your Organization",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/cb70d8d4-8f9b-449e-86a7-1da3045fea9f/upwork-freelancers-organization.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/cb70d8d4-8f9b-449e-86a7-1da3045fea9f/upwork-freelancers-organization.jpg"
         }
       ]
     },
