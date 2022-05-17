@@ -30,6 +30,16 @@
       "siteUrl": "https://adrianroselli.com",
       "articles": [
         {
+          "id": "https://adrianroselli.com/?p=14279",
+          "author": "Adrian Roselli",
+          "description": "The proposed WCAG version 2.2 has gone through a bunch of revisions since I covered the first draft in 2020. One new success criterion that persisted is 2.5.8 Target Size (Minimum) at Level AA (its name changed from “Pointer Target Spacing”). For background, WCAG 2.1 introduced 2.5.5 Target Size, mandating…",
+          "link": "https://adrianroselli.com/2022/05/24x24-pixel-cursor-bookmarklet.html",
+          "publishedOn": "2022-05-16T21:52:05.000Z",
+          "wordCount": 770,
+          "title": "24×24 Pixel Cursor Bookmarklet",
+          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2022/05/24-24-cursor_thumb-300x300.jpg"
+        },
+        {
           "id": "https://adrianroselli.com/?p=14568",
           "author": "Adrian Roselli",
           "description": "I made some pointless things again. The First One See the Pen Best viewed in… by Adrian Roselli (@aardrian) on CodePen. A spinning box for each word is not exactly a compelling interface element, I admit, but I based it off this old tweet that was sitting around in a…",
@@ -128,6 +138,16 @@
       "feedUrl": "https://blog.getbootstrap.com/feed.xml",
       "siteUrl": "https://blog.getbootstrap.com/",
       "articles": [
+        {
+          "id": "https://blog.getbootstrap.com/2022/05/16/using-bootstrap-css-vars/",
+          "author": null,
+          "description": "Bootstrap v5.2.0-beta1 added a slew of CSS custom properties, or CSS variables, across the :root level and all our core components. Here’s a quick look at how you can utilize them in your projects.\nWith CSS variables, you can now customize Bootstrap easier than ever, and without the need for a CSS preprocessor. All the power of Sass is still there behind the scenes, but CSS variables adds a ton of power for the future. Use and compose new values, updates styles globally without recompiling, set fallback values, setup new color modes, and more.\nLet’s dig in.\nCSS variables?\nTheir official name is custom properties, but they’re often referred to as CSS variables thanks to their most immediate use case for setting specific values. Consider reading the MDN CSS custom properties article or the C…",
+          "link": "https://blog.getbootstrap.com/2022/05/16/using-bootstrap-css-vars/",
+          "publishedOn": "2022-05-16T00:00:00.000Z",
+          "wordCount": 1198,
+          "title": "Using CSS variables in Bootstrap",
+          "imageUrl": "https://blog.getbootstrap.com/assets/img/bootstrap-social.png"
+        },
         {
           "id": "https://blog.getbootstrap.com/2022/05/13/bootstrap-icons-1-8-2/",
           "author": null,
@@ -256,6 +276,16 @@
       "siteUrl": "https://css-irl.info/rss.xml/",
       "articles": [
         {
+          "id": "https://css-irl.info/quick-tip-you-might-not-need-calc/",
+          "author": null,
+          "description": "Did you know, if you use CSS math functions like min(), max() and clamp() and you’re calculating any one of the arguments, you don’t need calc()? I think it was Ahmad Shadeed who mentioned this on Twitter the other day, but I could be wrong.\nSo if you want to use clamp() for some fluid typography, say, with a calc() function for the middle value, instead of doing this:\nh1 {\n  font-size: clamp(1.5rem, calc(1rem + 3vw), 4rem);\n}\nYou can do this:\nh1 {\n  font-size: clamp(1.5rem, 1rem + 3vw, 4rem);\n}\nIt totally makes sense, because min(), max() and clamp() already are math functions. But nonetheless, it’s something I wasn’t aware of before!\nIt works with custom properties too — check out this demo.\nIncidentally, if you want to know more about fluid typography in CSS (including accessibility concerns), this comprehensive guide by Adrian Bece has you covered.",
+          "link": "https://css-irl.info/quick-tip-you-might-not-need-calc/",
+          "publishedOn": "2022-05-16T00:00:00.000Z",
+          "wordCount": 200,
+          "title": "Quick Tip: You Might Not Need Calc()",
+          "imageUrl": "https://css-irl.info/social_1200x630.png"
+        },
+        {
           "id": "https://css-irl.info/my-browser-support-strategy/",
           "author": null,
           "description": "As I’ve written about recently, it’s super exciting to see a bunch of new CSS features landing in browsers, and who can blame us for wanting to get started using them straight away?! It’s great to see browsers working to support new CSS features quicker than ever before, and that pace should persist with Interop, an initiative where browser vendors work together to implement features interoperably. And with so-called “evergreen” browsers, most users should see those new features right away, as their browsers update seamlessly.\nBut, as Jim Neilsen pointed out, that doesn’t mean every user has the latest and greatest browser version. Many older devices can’t update to the latest version. The OS doesn’t support it. This means that:\nYou need to test your website on older devices, and\nIf you’re…",
@@ -272,6 +302,16 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=365377",
+          "author": "Ganesh Dahal",
+          "description": "Global styles, a feature of the block themes, is one of my favorite parts of creating block themes. The concept of global style variations in WordPress were introduced in Gutenberg 12.5 which would allow theme authors to create alternate …\nCreating Style Variations in WordPress Block Themes originally published on CSS-Tricks. You should get the newsletter.",
+          "link": "https://css-tricks.com/creating-style-variations-in-wordpress-block-themes/",
+          "publishedOn": "2022-05-16T14:38:29.000Z",
+          "wordCount": 3201,
+          "title": "Creating Style Variations in WordPress Block Themes",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/365377"
+        },
         {
           "id": "https://css-tricks.com/?p=365738",
           "author": "Temani Afif",
@@ -1236,6 +1276,16 @@
       "siteUrl": "https://dribbble.com/stories",
       "articles": [
         {
+          "id": "https://dribbble.com/stories/2022/05/16/10-steps-to-freelance-design",
+          "author": null,
+          "description": "There’s nothing quite like the thrill of starting your own freelance graphic design business. You get to be your own boss, set your own schedule, and work on all kinds of exciting creative projects. It’s a great way to get your creative juices flowing and make some extra money on the side.\nWith WFH on the rise, many individuals can choose to start a side gig to become freelance designers. Plus, the ability to travel and work from anywhere is a great motivator for starting a freelance graphic design business.\nHowever, working as an independent designer can be scary since so many unknown factors are at play. \nTo help you take a leap of faith, we’ve compiled a proven 10-step guide to becoming a freelance designer in 2022.\nLet’s get straight into it!\n✏️ Thanks to our friends at Clientjoy for w…",
+          "link": "https://dribbble.com/stories/2022/05/16/10-steps-to-freelance-design",
+          "publishedOn": "2022-05-16T15:48:35.000Z",
+          "wordCount": 2752,
+          "title": "10 Step Guide To Become A Freelance Designer [Free Resources]",
+          "imageUrl": "https://cdn.dribbble.com/uploads/36620/original/d1a97029ef7d41ac1da38e0324e407eb.png?1651710805"
+        },
+        {
           "id": "https://dribbble.com/stories/2022/05/05/career-stories-iker-fernandez",
           "author": null,
           "description": "Welcome to Design Career Stories—a new series where we explore why and how both new and seasoned designers like you found their way into design. Get perspective, advice, and guidance through their stories!\nToday, meet Iker Fernandez, Lead Product Designer at Payfit and Design Mentor in Dribbble’s 12-Week Product Design Course. Get inspired by Iker’s career story as he shares the pivotal steps in his career and offers advice to new product designers entering the industry.\nIker Fernandez\n      Product Designer @Payfit\n\nWhy did you decide to become a product designer?\nFor starters, my love for technology, widgets, software, and digital environments, combined with my passion for design made me want to explore this amazing path and become a product designer.\nI’m an early adopter which means I’m…",
@@ -1335,6 +1385,56 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=65340",
+          "author": "Travis",
+          "description": "Writing methods that articulate design problems.",
+          "link": "https://heydesigner.com/designing-with-metaphors-and-allegories/",
+          "publishedOn": "2022-05-16T04:41:36.000Z",
+          "wordCount": 56,
+          "title": "Designing with metaphors and allegories",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=65338",
+          "author": "Travis",
+          "description": "Oh… are we still talking about this?",
+          "link": "https://heydesigner.com/on-design-thinking-2/",
+          "publishedOn": "2022-05-16T04:40:51.000Z",
+          "wordCount": 53,
+          "title": "On design thinking",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=65336",
+          "author": "Travis",
+          "description": "A meditation on corporate frustration and autonomy.",
+          "link": "https://heydesigner.com/reflecting-on-things-i-failed-to-get-done-at-google/",
+          "publishedOn": "2022-05-16T04:40:44.000Z",
+          "wordCount": 66,
+          "title": "Reflecting on things I failed to get done at Google",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=65334",
+          "author": "Travis",
+          "description": "Smart SVG techniques, from generative SVG grids to SVG paths with masks, grainy SVG gradients, cut-out effects and fractional SVG stars.",
+          "link": "https://heydesigner.com/magical-svg-techniques/",
+          "publishedOn": "2022-05-16T04:40:38.000Z",
+          "wordCount": 66,
+          "title": "Magical SVG techniques",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=65332",
+          "author": "Travis",
+          "description": "Color is a powerful, yet potentially troublesome component in most generative art and design.",
+          "link": "https://heydesigner.com/balanced-color-palettes/",
+          "publishedOn": "2022-05-16T04:40:31.000Z",
+          "wordCount": 61,
+          "title": "Balanced color palettes",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=65325",
           "author": "Travis",
@@ -2042,6 +2142,96 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=31403791",
+          "author": "neonnoodle",
+          "description": "I’ve been making art and putting it on the internet for 20 years or so. I’ve used:\n- forums\n- Blogger/Wordpress\n- personal portfolio sites\n- YouTube for tutorial videos\n- FB/Twitter/Instagram/Tumblr\n- Gumroad for digital products\nNone of these outlets feels like a good “home” to me. Forums were great for WIP feedback but the good ones all died and got hacked. Blogs and my personal sites have always been good, but discoverability isn’t there. Social media platforms gave me a little more visibility, but lock-in and platform culture are extremely toxic. Instagram, for example, is touted as THE social media platform for artists, but the way they process image uploads is awful. The promotion or burying of posts is opaque.\nI want to create my work and put it where people might have a chance of seeing it, without algorithmic shenanigans or dark patterns.\nWhy is this so difficult? How would you approach solving this?\nComments URL: https://news.ycombinator.com/item?id=31403791\nPoints: 3\n# Comments: 3",
+          "link": "https://news.ycombinator.com/item?id=31403791",
+          "publishedOn": "2022-05-16T22:17:51.000Z",
+          "wordCount": 428,
+          "title": "Ask HN: How to design a better internet for artists?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31402751",
+          "author": "Sevan777",
+          "description": "Article URL: https://www.geeklan.co.uk/?p=2887\nComments URL: https://news.ycombinator.com/item?id=31402751\nPoints: 3\n# Comments: 0",
+          "link": "https://www.geeklan.co.uk/?p=2887",
+          "publishedOn": "2022-05-16T20:24:50.000Z",
+          "wordCount": 2173,
+          "title": "Book Review: Practical File System Design with the Be File System",
+          "imageUrl": "http://img.youtube.com/vi/ULR7Tr6un4k/0.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31401377",
+          "author": "fredyandrei1",
+          "description": "Article URL: https://blog.simmmple.com/how-to-create-modern-cards-with-chakra-ui-react/\nComments URL: https://news.ycombinator.com/item?id=31401377\nPoints: 1\n# Comments: 0",
+          "link": "https://blog.simmmple.com/how-to-create-modern-cards-with-chakra-ui-react/",
+          "publishedOn": "2022-05-16T18:20:19.000Z",
+          "wordCount": 1897,
+          "title": "How to Create Modern Cards in Chakra UI and React (Free React Cards)",
+          "imageUrl": "https://blog.simmmple.com/content/images/2022/05/how-to-create-modern-cards-in-chakra-ui-react-js.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31398031",
+          "author": "hagap",
+          "description": "Article URL: https://happychasing.substack.com/p/ux-in-life\nComments URL: https://news.ycombinator.com/item?id=31398031\nPoints: 1\n# Comments: 0",
+          "link": "https://happychasing.substack.com/p/ux-in-life",
+          "publishedOn": "2022-05-16T14:39:04.000Z",
+          "wordCount": 457,
+          "title": "UX in Life",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F208361db-4df5-4428-9d26-ca74cb754cce_834x390.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31394966",
+          "author": "Geekette",
+          "description": "Article URL: https://www.economist.com/1843/2019/12/12/a-design-for-death-meeting-the-bad-boy-of-the-euthanasia-movement\nComments URL: https://news.ycombinator.com/item?id=31394966\nPoints: 2\n# Comments: 0",
+          "link": "https://www.economist.com/1843/2019/12/12/a-design-for-death-meeting-the-bad-boy-of-the-euthanasia-movement",
+          "publishedOn": "2022-05-16T09:22:18.000Z",
+          "wordCount": 3121,
+          "title": "A design for death: meeting the bad boy of the euthanasia movement",
+          "imageUrl": "https://www.economist.com/img/b/3401/1913/90/1843magazine.com/sites/default/files/styles/il_manual_crop_16_9/public/Philip_1843_3-HEADER-V3.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31394861",
+          "author": "minimit",
+          "description": "Article URL: https://xtendui.com/\nComments URL: https://news.ycombinator.com/item?id=31394861\nPoints: 2\n# Comments: 0",
+          "link": "https://xtendui.com/",
+          "publishedOn": "2022-05-16T09:03:01.000Z",
+          "wordCount": 363,
+          "title": "Show HN: Xtend UI tailwindcss and vanilla JavaScript components",
+          "imageUrl": "/social.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31394486",
+          "author": "abhimskywalker",
+          "description": "Comments URL: https://news.ycombinator.com/item?id=31394486\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=31394486",
+          "publishedOn": "2022-05-16T07:45:58.000Z",
+          "wordCount": 73,
+          "title": "Ask HN: Any tool for system design and then simulation/testing?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31393429",
+          "author": "luu",
+          "description": "Article URL: https://errorstatistics.com/2022/01/09/the-asa-controversy-on-p-values-as-an-illustration-of-the-difficulty-of-statistics/\nComments URL: https://news.ycombinator.com/item?id=31393429\nPoints: 2\n# Comments: 0",
+          "link": "https://errorstatistics.com/2022/01/09/the-asa-controversy-on-p-values-as-an-illustration-of-the-difficulty-of-statistics/",
+          "publishedOn": "2022-05-16T03:31:25.000Z",
+          "wordCount": 3775,
+          "title": "The ASA controversy on P-values as illustration of difficulty of statistics",
+          "imageUrl": "https://philstatwars.files.wordpress.com/2020/11/foto-e1612735273615.png?w=96&h=131&crop=1"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31392524",
+          "author": "atultw",
+          "description": "Article URL: https://www.wired.com/2015/04/apple-watch-design/\nComments URL: https://news.ycombinator.com/item?id=31392524\nPoints: 1\n# Comments: 0",
+          "link": "https://www.wired.com/2015/04/apple-watch-design/",
+          "publishedOn": "2022-05-16T00:20:08.000Z",
+          "wordCount": 1546,
+          "title": "The Invisible Design Behind the Apple Watch's Many Faces",
+          "imageUrl": "https://media.wired.com/photos/593266a252d99d6b984de1ff/191:100/w_1280,c_limit/unknown_apple2.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=31388741",
           "author": "fcambus",
@@ -3801,16 +3991,6 @@
           "wordCount": 220,
           "title": "Deceptive Design",
           "imageUrl": "https://uploads-ssl.webflow.com/60e451ab1f8182d8e488186d/623dabb43c58e0716c52e2a9_OpenGraph-DD.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31057931",
-          "author": "ruph123",
-          "description": "Article URL: https://amanusk.github.io/s-tui/\nComments URL: https://news.ycombinator.com/item?id=31057931\nPoints: 2\n# Comments: 0",
-          "link": "https://amanusk.github.io/s-tui/",
-          "publishedOn": "2022-04-17T02:28:44.000Z",
-          "wordCount": 1115,
-          "title": "The Stress Terminal UI: s-TUI",
-          "imageUrl": null
         }
       ]
     },
@@ -3819,6 +3999,26 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=31399312",
+          "author": "aard",
+          "description": "Article URL: https://leaddev.com/reporting-metrics/flawed-five-engineering-productivity-metrics\nComments URL: https://news.ycombinator.com/item?id=31399312\nPoints: 68\n# Comments: 101",
+          "link": "https://leaddev.com/reporting-metrics/flawed-five-engineering-productivity-metrics",
+          "publishedOn": "2022-05-16T15:56:56.000Z",
+          "wordCount": 2076,
+          "title": "The ‘flawed five’ engineering productivity metrics",
+          "imageUrl": "https://leaddev.com/sites/default/files/styles/linkedin_card/public/2021-03/The%20%27flawed%20five%27%20engineering%20productivity%20metrics.png?itok=yY2snBTZ"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31394547",
+          "author": "Hard_Space",
+          "description": "Article URL: https://arxiv.org/abs/2205.06537\nComments URL: https://news.ycombinator.com/item?id=31394547\nPoints: 1\n# Comments: 0",
+          "link": "https://arxiv.org/abs/2205.06537",
+          "publishedOn": "2022-05-16T07:58:12.000Z",
+          "wordCount": 566,
+          "title": "Productivity Assessment of Neural Code Completion [pdf]",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=31392105",
           "author": "dario-fino",
@@ -4208,36 +4408,6 @@
           "wordCount": 17,
           "title": "Show HN: RSS Feed Discovery Engine",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31059846",
-          "author": "tomerbd",
-          "description": "I see some people like to have multiple windows resized to much less than screen size, do you like it?\nComments URL: https://news.ycombinator.com/item?id=31059846\nPoints: 2\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=31059846",
-          "publishedOn": "2022-04-17T10:25:04.000Z",
-          "wordCount": 168,
-          "title": "Ask HN: How do you organize the browser windows for better productivity?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31059004",
-          "author": "takiwatanga",
-          "description": "Article URL: https://janderogee.com/projects/rss_feed_printer/rss_feed_printer.htm\nComments URL: https://news.ycombinator.com/item?id=31059004\nPoints: 1\n# Comments: 0",
-          "link": "https://janderogee.com/projects/rss_feed_printer/rss_feed_printer.htm",
-          "publishedOn": "2022-04-17T06:41:18.000Z",
-          "wordCount": 1945,
-          "title": "RSS feed printer: Using an old printer to print the latest news",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31057817",
-          "author": "philliphaydon",
-          "description": "Article URL: https://www.inc.com/jeff-steen/microsofts-satya-nadella-warns-this-1-remote-work-habit-is-destroying-our-wellbeing.html\nComments URL: https://news.ycombinator.com/item?id=31057817\nPoints: 2\n# Comments: 1",
-          "link": "https://www.inc.com/jeff-steen/microsofts-satya-nadella-warns-this-1-remote-work-habit-is-destroying-our-wellbeing.html",
-          "publishedOn": "2022-04-17T02:07:30.000Z",
-          "wordCount": 623,
-          "title": "Satya Nadella Warns This 1 Remote-Work Habit Is Destroying Our Well-Being",
-          "imageUrl": "https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/Satya-Nadella_499755_oxj0ya.jpg"
         }
       ]
     },
@@ -4246,6 +4416,26 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=31395517",
+          "author": "mkocansey2",
+          "description": "Article URL: https://bladewindui.com\nComments URL: https://news.ycombinator.com/item?id=31395517\nPoints: 6\n# Comments: 4",
+          "link": "https://bladewindui.com",
+          "publishedOn": "2022-05-16T11:04:33.000Z",
+          "wordCount": 459,
+          "title": "Show HN: Bladewind, Laravel Components with Tailwind and Vanilla JavaScript",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31394861",
+          "author": "minimit",
+          "description": "Article URL: https://xtendui.com/\nComments URL: https://news.ycombinator.com/item?id=31394861\nPoints: 2\n# Comments: 0",
+          "link": "https://xtendui.com/",
+          "publishedOn": "2022-05-16T09:03:01.000Z",
+          "wordCount": 363,
+          "title": "Show HN: Xtend UI tailwindcss and vanilla JavaScript components",
+          "imageUrl": "/social.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=31392281",
           "author": "jonifico",
@@ -4885,16 +5075,6 @@
           "wordCount": 180,
           "title": "Tailwind Elements",
           "imageUrl": "https://tailwind-elements.com/img/components.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31057122",
-          "author": "colejohnson66",
-          "description": "Article URL: http://www.the-pope.com/lostHTML.htm\nComments URL: https://news.ycombinator.com/item?id=31057122\nPoints: 1\n# Comments: 0",
-          "link": "http://www.the-pope.com/lostHTML.htm",
-          "publishedOn": "2022-04-16T23:48:12.000Z",
-          "wordCount": 15678,
-          "title": "The Lost Tags of HTML",
-          "imageUrl": null
         }
       ]
     },
@@ -4967,6 +5147,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=42020",
+          "author": "Seth Godin",
+          "description": "The paradox of most tightly-knit communities is that they have an internal culture. And that culture often makes it difficult for a new person to join. It’s hard to have insiders if you don’t have outsiders. This is true for guilds of copy editors, fans of anime or branches of science. The key transition point […]",
+          "link": "https://seths.blog/2022/05/newbies-welcome/",
+          "publishedOn": "2022-05-16T08:28:00.000Z",
+          "wordCount": 228,
+          "title": "Newbies welcome",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=42013",
           "author": "Seth Godin",
@@ -5246,16 +5436,6 @@
           "wordCount": 149,
           "title": "Coiling ropes",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41855",
-          "author": "Seth Godin",
-          "description": "High Noon is a cornerstone of American cinema, a sobering and memorable look at heroism and community. In the movie, the sheriff is facing near-certain death at the hands of a killer freed from prison. He has about an hour to gather a posse of deputies, because together they’ll be able to repel the avenging […]",
-          "link": "https://seths.blog/2022/04/asking-and-daring/",
-          "publishedOn": "2022-04-17T08:44:00.000Z",
-          "wordCount": 372,
-          "title": "Asking and daring",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
         }
       ]
     },
@@ -5264,6 +5444,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "Kqfpp2u86WTbuztC8",
+          "author": "@cododesign",
+          "description": "Welcome to the 2022 beer industry State of the Union. Let’s explore some emergent beverage opportunities and package design trends.",
+          "link": "https://cododesign.com/2022-beer-branding-trends/",
+          "publishedOn": "2022-05-16T01:00:02.000Z",
+          "wordCount": 17711,
+          "title": "2022 Craft Beer Branding and Package Design Trends",
+          "imageUrl": null
+        },
+        {
+          "id": "tS83M6hXb3WbxKNaK",
+          "author": "@Equal_Entry",
+          "description": "Virtual reality is a very visual medium. It might surprise you to learn there are people who are blind or have low vision who enjoy virtual reality.",
+          "link": "https://equalentry.com/how-can-a-blind-person-use-virtual-reality/",
+          "publishedOn": "2022-05-16T00:55:12.000Z",
+          "wordCount": 3079,
+          "title": "How Can a Blind Person Use Virtual Reality?",
+          "imageUrl": "https://equalentry.com/wp-content/uploads/2022/04/2022-05-ee-accessibility-activist-Jesse-Anderson.png"
+        },
+        {
+          "id": "95YeEwcuPxRTaYauk",
+          "author": "@flarup",
+          "description": "A book celebrating the art of app icon design featuring icons from designers around the world. Now backed & shipping.",
+          "link": "https://www.appiconbook.com/",
+          "publishedOn": "2022-05-16T00:53:32.000Z",
+          "wordCount": 654,
+          "title": "The iOS App Icon Book",
+          "imageUrl": "http://static1.squarespace.com/static/5ab26f4ef2e6b166c6b17a79/t/6182a75603f65b7783e7f5dd/1635952470982/cover3.png?format=1500w"
+        },
+        {
+          "id": "R8L97ckhP9L7mHA2n",
+          "author": "@getbootstrap",
+          "description": "This release features redesigned docs, CSS variables for all our components, responsive offcanvas, new helpers and utilities, and more.",
+          "link": "https://blog.getbootstrap.com/2022/05/13/bootstrap-5-2-0-beta/",
+          "publishedOn": "2022-05-16T00:53:19.000Z",
+          "wordCount": 1524,
+          "title": "Bootstrap 5.2.0 beta",
+          "imageUrl": "https://blog.getbootstrap.com/assets/img/bootstrap-social.png"
+        },
+        {
+          "id": "GHLPBAJRYdvXrnA9c",
+          "author": "@CSS",
+          "description": "With new CSS features for controlling the color fonts and the COLR, it’s a great time to experiment with with what modern web typography can do.",
+          "link": "https://css-tricks.com/colrv1-and-css-font-palette-web-typography/",
+          "publishedOn": "2022-05-16T00:43:57.000Z",
+          "wordCount": 2569,
+          "title": "COLRv1 and CSS font-palette: Web Typography Gets Colorful",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/365677"
+        },
         {
           "id": "yC4BfygTtZCrHHngq",
           "author": "@joeyabanks",
@@ -6307,6 +6537,16 @@
       "siteUrl": "https://webkit.org",
       "articles": [
         {
+          "id": "https://webkit.org/?p=12669",
+          "author": null,
+          "description": "After the feature-packed release of Safari 15.4 two months ago, WebKit’s work for this version of Safari focused predominately on polishing existing features and fixing bugs.",
+          "link": "https://webkit.org/blog/12669/new-webkit-features-in-safari-15-5/",
+          "publishedOn": "2022-05-16T17:30:06.000Z",
+          "wordCount": 1163,
+          "title": "New WebKit Features in Safari 15.5",
+          "imageUrl": null
+        },
+        {
           "id": "https://webkit.org/?p=12629",
           "author": null,
           "description": "Safari Technology Preview Release 145 is now available for download for macOS Big Sur and of macOS Monterey.",
@@ -6355,6 +6595,16 @@
       "feedUrl": "https://www.nytimes.com/svc/collections/v1/publish/http://www.nytimes.com/topic/subject/design/rss.xml",
       "siteUrl": "https://www.nytimes.com/topic/subject/design",
       "articles": [
+        {
+          "id": "https://www.nytimes.com/2022/05/16/realestate/shopping-for-adirondack-chairs.html",
+          "author": "Tim McKeough",
+          "description": "Nothing says summer like a pair of these classic outdoor lounge chairs.",
+          "link": "https://www.nytimes.com/2022/05/16/realestate/shopping-for-adirondack-chairs.html",
+          "publishedOn": "2022-05-16T14:02:38.000Z",
+          "wordCount": 498,
+          "title": "Shopping for Adirondack Chairs",
+          "imageUrl": "https://static01.nyt.com/images/2022/05/12/realestate/16shopping01/oakImage-1652373969124-facebookJumbo.jpg"
+        },
         {
           "id": "https://www.nytimes.com/2022/05/13/obituaries/junichi-arai-overlooked.html",
           "author": "Elaine Louie",
@@ -6592,6 +6842,26 @@
       "feedUrl": "https://www.printmag.com/feed/",
       "siteUrl": "https://www.printmag.com",
       "articles": [
+        {
+          "id": "https://www.printmag.com/?p=728447",
+          "author": "Theresa Christine",
+          "description": "This high-tech new museum in the UAE immediately announces itself with an eye-catching, avant garde design by Shaun Killa.",
+          "link": "https://www.printmag.com/architecture/how-dubais-new-museum-of-the-future-combines-creativity-and-technology/",
+          "publishedOn": "2022-05-16T20:00:00.000Z",
+          "wordCount": 1397,
+          "title": "How Dubai’s New Museum of the Future Combines Creativity and Technology",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/05/MOTF-Exterior-1-1-scaled.jpg?fit=1200%2C800&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=728299",
+          "author": "Steven Heller",
+          "description": "Publisher Denis Kitchen began his career as an artist and long hoped to return to that focus—and now that day has come.",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-denis-kitchen-in-the-weeds/",
+          "publishedOn": "2022-05-16T11:00:00.000Z",
+          "wordCount": 1026,
+          "title": "The Daily Heller: Denis Kitchen Afloat With Comics",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/05/DK.Chipboarad.2017.08.01.Royal_.Family-1.jpg?fit=1000%2C759&ssl=1"
+        },
         {
           "id": "https://www.printmag.com/?p=726963",
           "author": "Sponsored",
@@ -7431,6 +7701,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/05/rethinking-server-timing-monitoring-tool/",
+          "author": "hello@smashingmagazine.com (Sean Roberts)",
+          "description": "What makes the underused `Server-Timing` header uniquely powerful among all other response headers? We’ll rethink the expectation for using it exclusively for timing and see fast solutions for hard-to-solve monitoring challenges.",
+          "link": "https://smashingmagazine.com/2022/05/rethinking-server-timing-monitoring-tool/",
+          "publishedOn": "2022-05-16T10:00:00.000Z",
+          "wordCount": 5123,
+          "title": "Rethinking Server-Timing As A Critical Monitoring Tool",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4f69c3e0-764f-4cfb-b8f8-7a4420d0e2f6/rethinking-server-timing-monitoring-tool.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4f69c3e0-764f-4cfb-b8f8-7a4420d0e2f6/rethinking-server-timing-monitoring-tool.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2022/05/top-tasks-focus-what-matters-must-defocus-what-doesnt/",
           "author": "hello@smashingmagazine.com (Gerry McGovern)",
