@@ -572,16 +572,6 @@
           "wordCount": 2985,
           "title": "Creating the DigitalOcean Logo in 3D With CSS",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/365447"
-        },
-        {
-          "id": "https://css-tricks.com/?p=365413",
-          "author": "Adam Rackis",
-          "description": "In my last article, we went over how to set up a web app that serves chunks and bundles of CSS and JavaScript from CloudFront. We integrated it into Vite so that when the app runs in a browser, …\nSetting Up CloudFront to Host Your Web App originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/setting-up-cloudfront-to-host-your-web-app/",
-          "publishedOn": "2022-04-28T14:42:48.000Z",
-          "wordCount": 2861,
-          "title": "Setting Up CloudFront to Host Your Web App",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/365413"
         }
       ]
     },
@@ -1191,16 +1181,6 @@
           "publishedOn": "2022-05-03T15:23:00.000Z",
           "wordCount": 1838,
           "title": "Vibe Check  №16",
-          "imageUrl": null
-        },
-        {
-          "id": "https://daverupert.com/2022/04/server-side-vs-client-side-analytics/",
-          "author": null,
-          "description": ".gradient-start stop { stop-color: var(--accent, #2451f5);}\n    .gradient-start stop[offset=\"0\"] { stop-opacity: 0.35; }\n    .gradient-start stop[offset=\"1\"] { stop-opacity: 0; }\n  \n  \n\n\n\nFor the last 3 years, I’ve been running both client-side analytics and server-side analytics on my site and I’ve noticed some alarming discrepancies. I thought I was alone until Jim Nielsen posted his comparison Comparing Data in Google and Netlify Analytics. My data story and Jim’s data story end up similar (we’re both popular in Germany?); a situation where the more data you have, the less the data seems true.\nThe data\nHere’s my data from Mar 25th, 2022 ~ April 25th, 2022. The data collection methods differ like so:\nFathom is a client-side script served from a self-hosted, first-party subdomain (stats.d…",
-          "link": "https://daverupert.com/2022/04/server-side-vs-client-side-analytics/",
-          "publishedOn": "2022-04-28T13:41:00.000Z",
-          "wordCount": 1273,
-          "title": "Server-side vs Client-side Analytics",
           "imageUrl": null
         }
       ]
@@ -2273,6 +2253,66 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=31543610",
+          "author": "rwieruch",
+          "description": "Article URL: https://www.robinwieruch.de/react-tree-list/\nComments URL: https://news.ycombinator.com/item?id=31543610\nPoints: 2\n# Comments: 0",
+          "link": "https://www.robinwieruch.de/react-tree-list/",
+          "publishedOn": "2022-05-28T20:40:46.000Z",
+          "wordCount": 4936,
+          "title": "API Design for paginated nested data fetching",
+          "imageUrl": "https://www.robinwieruch.de/static/2dff2796f080f8ebf86e6ada12297ad2/9842e/banner.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31542411",
+          "author": "LifeQuestioner",
+          "description": "Article URL: http://openexploration.co.uk/index.php/2022/05/13/inclusive-co-design-how-to-bridge-understanding-with-neurodivergent-people/\nComments URL: https://news.ycombinator.com/item?id=31542411\nPoints: 1\n# Comments: 1",
+          "link": "http://openexploration.co.uk/index.php/2022/05/13/inclusive-co-design-how-to-bridge-understanding-with-neurodivergent-people/",
+          "publishedOn": "2022-05-28T18:08:12.000Z",
+          "wordCount": 1099,
+          "title": "Show HN: Inclusive Design: an activity to bridge empathy with Neurodiverse ppl",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31540398",
+          "author": "JaggerJo",
+          "description": "Article URL: https://github.com/fsprojects/Avalonia.FuncUI\nComments URL: https://news.ycombinator.com/item?id=31540398\nPoints: 3\n# Comments: 0",
+          "link": "https://github.com/fsprojects/Avalonia.FuncUI",
+          "publishedOn": "2022-05-28T14:01:20.000Z",
+          "wordCount": 807,
+          "title": "A declarative desktop (and mobile) UI framework for F#",
+          "imageUrl": "https://opengraph.githubassets.com/dc737ae3e9f8528e8377af6bc2fbe54e70359ea196da41cbcb42462b947d1c0f/fsprojects/Avalonia.FuncUI"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31538800",
+          "author": "tempodox",
+          "description": "Article URL: https://github.com/bodil/vgtk\nComments URL: https://news.ycombinator.com/item?id=31538800\nPoints: 109\n# Comments: 59",
+          "link": "https://github.com/bodil/vgtk",
+          "publishedOn": "2022-05-28T09:06:09.000Z",
+          "wordCount": 937,
+          "title": "A declarative desktop UI framework for Rust built on GTK and GTK-rs",
+          "imageUrl": "https://opengraph.githubassets.com/9c7f5ed011b1203317bbcdda11780545cbf7c5232d76b28a4f032db7a1909724/bodil/vgtk"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31538143",
+          "author": "thrdbndndn",
+          "description": "Mine: overlay on video (especially when they're not full screened).\nThey're often too obstructive for no reason (often has a too large dark gradient that blocks bottom or top of the video), takes forever to disappear, and hard to operate (very easy to accidentally pause the video). For example, CC button for YouTube: it totally could be below the video element.\nThis is especially annoying on mobile since there is not keyboard shortcuts.\nComments URL: https://news.ycombinator.com/item?id=31538143\nPoints: 3\n# Comments: 6",
+          "link": "https://news.ycombinator.com/item?id=31538143",
+          "publishedOn": "2022-05-28T06:45:46.000Z",
+          "wordCount": 530,
+          "title": "Ask HN: What's your pet peeve of common UX/UI?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31537222",
+          "author": "behnamoh",
+          "description": "Article URL: https://github.com/dwarvesf/VimMotionApp\nComments URL: https://news.ycombinator.com/item?id=31537222\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/dwarvesf/VimMotionApp",
+          "publishedOn": "2022-05-28T02:58:29.000Z",
+          "wordCount": 695,
+          "title": "VimMotionApp: Access macOS UI elements with your fingers stay on keyboard",
+          "imageUrl": "https://opengraph.githubassets.com/0bcb9698ae3c9cbb100db08ac0c418caaca2ac281837420e3f7614b98db9498c/dwarvesf/VimMotionApp"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=31533792",
           "author": "tlandeka",
@@ -4252,86 +4292,6 @@
           "wordCount": 1810,
           "title": "How typography shapes our perception of truth",
           "imageUrl": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/w_596,c_limit,q_auto:best,f_auto/fc/3046365-inline-i-1-pentagram-papers-pentagrampaperblog123-copy.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31200650",
-          "author": "mji",
-          "description": "Article URL: https://news.airbnb.com/airbnbs-design-to-live-and-work-anywhere/\nComments URL: https://news.ycombinator.com/item?id=31200650\nPoints: 892\n# Comments: 663",
-          "link": "https://news.airbnb.com/airbnbs-design-to-live-and-work-anywhere/",
-          "publishedOn": "2022-04-29T02:20:36.000Z",
-          "wordCount": 1877,
-          "title": "Airbnb’s design to live and work anywhere",
-          "imageUrl": "https://news.airbnb.com/wp-content/uploads/sites/4/2021/06/BeloRauschGradientSocial1_200313.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31196629",
-          "author": "mooreds",
-          "description": "Article URL: https://aws.amazon.com/blogs/compute/creating-a-single-table-design-with-amazon-dynamodb/\nComments URL: https://news.ycombinator.com/item?id=31196629\nPoints: 3\n# Comments: 0",
-          "link": "https://aws.amazon.com/blogs/compute/creating-a-single-table-design-with-amazon-dynamodb/",
-          "publishedOn": "2022-04-28T18:50:35.000Z",
-          "wordCount": 2438,
-          "title": "Creating a single-table design with Amazon DynamoDB",
-          "imageUrl": "https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2021/07/21/single-table-2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31195236",
-          "author": "fwouts",
-          "description": "Article URL: https://fwouts.com/articles/previewjs-detecting-components\nComments URL: https://news.ycombinator.com/item?id=31195236\nPoints: 1\n# Comments: 0",
-          "link": "https://fwouts.com/articles/previewjs-detecting-components",
-          "publishedOn": "2022-04-28T17:18:03.000Z",
-          "wordCount": 1301,
-          "title": "Detecting UI Components with TypeScript Compiler API",
-          "imageUrl": "https://fwouts.com/articles/previewjs-detecting-components/example.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31194907",
-          "author": "mhitza",
-          "description": "Article URL: https://www.youtube.com/watch?v=agw-wlHGi0E\nComments URL: https://news.ycombinator.com/item?id=31194907\nPoints: 2\n# Comments: 0",
-          "link": "https://www.youtube.com/watch?v=agw-wlHGi0E",
-          "publishedOn": "2022-04-28T16:53:32.000Z",
-          "wordCount": null,
-          "title": "Dynamic Languages Wizards Series – Panel on Language Design (2012)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31194816",
-          "author": "tosh",
-          "description": "Article URL: https://daringfireball.net/linked/2022/04/27/cheeseman-ui-browser\nComments URL: https://news.ycombinator.com/item?id=31194816\nPoints: 1\n# Comments: 0",
-          "link": "https://daringfireball.net/linked/2022/04/27/cheeseman-ui-browser",
-          "publishedOn": "2022-04-28T16:46:26.000Z",
-          "wordCount": 482,
-          "title": "UI Browser Will Be End-of-Lifed in October",
-          "imageUrl": "https://daringfireball.net/graphics/df-square-1024.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31194364",
-          "author": "tosh",
-          "description": "Article URL: https://mastodon.social/@FiLiS/108209486806904623\nComments URL: https://news.ycombinator.com/item?id=31194364\nPoints: 1\n# Comments: 0",
-          "link": "https://mastodon.social/@FiLiS/108209486806904623",
-          "publishedOn": "2022-04-28T16:14:18.000Z",
-          "wordCount": 663,
-          "title": "DigitalOcean: To retire FreeBSD versions through the UI starting June 2022",
-          "imageUrl": "https://files.mastodon.social/accounts/avatars/000/031/208/original/2646d89557beeac0.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31193841",
-          "author": "lavrton",
-          "description": "Article URL: https://studio.polotno.com/\nComments URL: https://news.ycombinator.com/item?id=31193841\nPoints: 2\n# Comments: 0",
-          "link": "https://studio.polotno.com/",
-          "publishedOn": "2022-04-28T15:38:02.000Z",
-          "wordCount": 14,
-          "title": "Show HN: Polotno Studio – free Canva-like design editor, without signups or ads",
-          "imageUrl": "https://studio.polotno.dev/studio-polotno-preview.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31193504",
-          "author": "tusslewake",
-          "description": "Article URL: https://www.cnn.com/2022/04/27/europe/russia-tanks-blown-turrets-intl-hnk-ml/index.html\nComments URL: https://news.ycombinator.com/item?id=31193504\nPoints: 12\n# Comments: 4",
-          "link": "https://www.cnn.com/2022/04/27/europe/russia-tanks-blown-turrets-intl-hnk-ml/index.html",
-          "publishedOn": "2022-04-28T15:15:32.000Z",
-          "wordCount": 1540,
-          "title": "Russia's tanks in Ukraine have a 'jack-in-the-box' design flaw",
-          "imageUrl": "https://cdn.cnn.com/cnnnext/dam/assets/220420210714-04-destroyed-russian-tank-file-restricted-041522-super-tease.jpg"
         }
       ]
     },
@@ -4340,6 +4300,26 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=31542362",
+          "author": "ejahijagic",
+          "description": "Article URL: https://be-ja.medium.com/no-bullshit-habits-that-will-get-your-productivity-through-the-roof-d54906062533\nComments URL: https://news.ycombinator.com/item?id=31542362\nPoints: 4\n# Comments: 0",
+          "link": "https://be-ja.medium.com/no-bullshit-habits-that-will-get-your-productivity-through-the-roof-d54906062533",
+          "publishedOn": "2022-05-28T18:01:00.000Z",
+          "wordCount": 1826,
+          "title": "No Bullshit Habits That Will Get Your Productivity Through the Roof",
+          "imageUrl": "https://miro.medium.com/max/674/1*lCG9nuII6mmwJ9bA-T2ubg.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31540249",
+          "author": "rntn",
+          "description": "Article URL: https://onlinelibrary.wiley.com/doi/full/10.3982/ECTA16598\nComments URL: https://news.ycombinator.com/item?id=31540249\nPoints: 1\n# Comments: 0",
+          "link": "https://onlinelibrary.wiley.com/doi/full/10.3982/ECTA16598",
+          "publishedOn": "2022-05-28T13:40:01.000Z",
+          "wordCount": null,
+          "title": "Misallocation, Selection, and Productivity: A Quantitative Analysis from China",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=31516653",
           "author": "thunderbong",
@@ -4817,6 +4797,36 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=31544271",
+          "author": "minimaxir",
+          "description": "Article URL: https://old.reddit.com/r/itsaunixsystem/comments/uz6rvy/stranger_things_season_4_yes_html_and_flexbox_in/\nComments URL: https://news.ycombinator.com/item?id=31544271\nPoints: 2\n# Comments: 0",
+          "link": "https://old.reddit.com/r/itsaunixsystem/comments/uz6rvy/stranger_things_season_4_yes_html_and_flexbox_in/",
+          "publishedOn": "2022-05-28T22:04:01.000Z",
+          "wordCount": 1940,
+          "title": "Stranger Things S4, Set in 1985, Includes HTML and CSS Flexbox",
+          "imageUrl": "https://preview.redd.it/45zdjcf5t2291.png?overlay-align=bottom,left&crop=1200:628.272251309,smart&overlay-height=15p&overlay=%2Fwatermark%2Ft5_2xxaq.png%3Fs%3D6da7acd0481bde42b06aaa5a55edb03890a511f5&width=1200&height=628.272251309&auto=webp&s=911558dede524b23930786e5a2b6b84948b02648"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31540349",
+          "author": "longrod",
+          "description": "Article URL: https://github.com/cztomsik/graffiti\nComments URL: https://news.ycombinator.com/item?id=31540349\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/cztomsik/graffiti",
+          "publishedOn": "2022-05-28T13:55:05.000Z",
+          "wordCount": 610,
+          "title": "Graffiti – HTML/CSS Engine for Node.js and Deno Written in Rust",
+          "imageUrl": "https://opengraph.githubassets.com/1d2f621c6a01794bbd8f4e437661a5f50addad793d9fdb7060d7966617505a83/cztomsik/graffiti"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=31540197",
+          "author": "alufers",
+          "description": "Article URL: https://twitter.com/devanshj__/status/1447711420523634693\nComments URL: https://news.ycombinator.com/item?id=31540197\nPoints: 2\n# Comments: 0",
+          "link": "https://twitter.com/devanshj__/status/1447711420523634693",
+          "publishedOn": "2022-05-28T13:31:34.000Z",
+          "wordCount": 196,
+          "title": "Validating CSS colors using TypeScript's type system",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=31534110",
           "author": "WallyFunk",
@@ -5546,36 +5556,6 @@
           "wordCount": 887,
           "title": "Beginner-friendly guide to use Tailwind CSS with Jekyll",
           "imageUrl": "https://mzrn.sh/assets/uploads/jekyll-tailwindcss.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31195381",
-          "author": "edward1",
-          "description": "Hi all, Our company is building a developer tool that generates production quality front end code from designs via computer vision. We're looking for front end developers to demo our product to and give us feedback. Please reach out if interested edward@purecodesoftware.com or leave your email in the comments\nComments URL: https://news.ycombinator.com/item?id=31195381\nPoints: 5\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=31195381",
-          "publishedOn": "2022-04-28T17:26:46.000Z",
-          "wordCount": 207,
-          "title": "Upload an image, instantly get HTML,CSS, ReactJS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31194393",
-          "author": "maciekmm",
-          "description": "Article URL: https://mionskowski.pl/posts/iframe-code-preview/\nComments URL: https://news.ycombinator.com/item?id=31194393\nPoints: 1\n# Comments: 0",
-          "link": "https://mionskowski.pl/posts/iframe-code-preview/",
-          "publishedOn": "2022-04-28T16:16:12.000Z",
-          "wordCount": 2270,
-          "title": "Building HTML, CSS, and JavaScript code preview using iframe's srcdoc attribute",
-          "imageUrl": "https://mionskowski.pl/cover.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31194336",
-          "author": "leakbang",
-          "description": "Article URL: https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/\nComments URL: https://news.ycombinator.com/item?id=31194336\nPoints: 1\n# Comments: 0",
-          "link": "https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/",
-          "publishedOn": "2022-04-28T16:12:22.000Z",
-          "wordCount": 4424,
-          "title": "A super fast CSS engine: Quantum CSS (a.k.a. Stylo)",
-          "imageUrl": "https://hacks.mozilla.org/wp-content/themes/Hax/img/hacks-meta-image.jpg"
         }
       ]
     },
@@ -5658,6 +5638,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=41114",
+          "author": "Seth Godin",
+          "description": "As soon as we mechanize, measure and perfect something, it becomes far less interesting. There’s not a lot of discussion about which factory made your can of Coke, because they’re all the same. Implicit in the desire to have something handmade is that while it might be better than what you’re used to, it might […]",
+          "link": "https://seths.blog/2022/05/craft-and-imperfection/",
+          "publishedOn": "2022-05-28T09:56:00.000Z",
+          "wordCount": 208,
+          "title": "Craft and imperfection",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
+        },
         {
           "id": "https://seths.blog/?p=43035",
           "author": "Seth Godin",
@@ -5947,16 +5937,6 @@
           "wordCount": 256,
           "title": "Making our decisions",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41909",
-          "author": "Seth Godin",
-          "description": "Why would someone buy a share of stock for $945? One reason might be that they think they can sell it tomorrow for $950. A more common reason is that someone bought it an hour ago for $940. Of course, this applies to more than equities. Why buy a Birkin bag for more than $25,000? […]",
-          "link": "https://seths.blog/2022/04/the-market-has-spoken/",
-          "publishedOn": "2022-04-29T07:20:00.000Z",
-          "wordCount": 238,
-          "title": "“The market has spoken”",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
         }
       ]
     },
@@ -6964,56 +6944,6 @@
           "wordCount": 1705,
           "title": "A font designed by a tree",
           "imageUrl": ""
-        },
-        {
-          "id": "wAESQ4F5rAibLKJrX",
-          "author": "@ericwbailey",
-          "description": "User-facing state is what someone experiences when they interact with (or try to interact with) an element in some capacity.",
-          "link": "https://ericwbailey.design/writing/all-the-user-facing-states/",
-          "publishedOn": "2022-04-29T07:08:49.000Z",
-          "wordCount": 950,
-          "title": "All the user-facing states",
-          "imageUrl": "https://ericwbailey.design/img/posts/all-the-user-facing-states/share-image-facebook.png"
-        },
-        {
-          "id": "mDQdTqHKvuncPTigc",
-          "author": "@uxdesigncc",
-          "description": "Despite being a cornerstone in the community, Goodreads has continually disappointed its ample user base with bad usability.",
-          "link": "https://uxdesign.cc/goodreads-ux-indispensable-but-unsatisfying-fc250f316947",
-          "publishedOn": "2022-04-29T07:06:06.000Z",
-          "wordCount": 1190,
-          "title": "Goodreads UX: indispensable, but unsatisfying",
-          "imageUrl": "https://miro.medium.com/max/1200/1*UTR9CC6pl_OX-QtBsq1WKA.png"
-        },
-        {
-          "id": "sTPGNrwEGtsibgxce",
-          "author": null,
-          "description": "Creating software to reconstruct one-line drawings.",
-          "link": "https://schollz.com/blog/one-line/",
-          "publishedOn": "2022-04-29T06:59:34.000Z",
-          "wordCount": 1079,
-          "title": "One-line drawings",
-          "imageUrl": null
-        },
-        {
-          "id": "764dqtmsnBjX7f6zu",
-          "author": "@accudio",
-          "description": "Generative mountain ridge dividers using videogame terrain generation techniques, JavaScript and SVG.",
-          "link": "https://alistairshepherd.uk/writing/svg-generative-ridges/",
-          "publishedOn": "2022-04-29T06:56:20.000Z",
-          "wordCount": 1431,
-          "title": "SVG generative mountain ridge dividers",
-          "imageUrl": "https://www.alistairshepherd.uk/meta/cover.jpg"
-        },
-        {
-          "id": "YMcTSeKErSi5w2ouy",
-          "author": "@mirisuzanne",
-          "description": "There are many use-cases where an interaction (click/gesture) on one element toggles a ‘state’ that can be shared with other elements.",
-          "link": "https://css.oddbird.net/toggles/explainer/",
-          "publishedOn": "2022-04-29T06:54:52.000Z",
-          "wordCount": 5195,
-          "title": "CSS Toggles Explainer & Proposal",
-          "imageUrl": null
         }
       ]
     },
@@ -8112,46 +8042,6 @@
           "wordCount": 926,
           "title": "The Basics of Branding",
           "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/newupdates.png?fit=1200%2C1200&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=727408",
-          "author": "Steven Heller",
-          "description": "Can you guess who designed this beautiful evocation of spring on an unseasonably chilly day?",
-          "link": "https://www.printmag.com/daily-heller/the-daily-heller-who-did-this/",
-          "publishedOn": "2022-04-29T10:12:00.000Z",
-          "wordCount": 515,
-          "title": "The Daily Heller: Who Did This? And Why?",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/Caasandre-1.jpeg?fit=1200%2C731&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=727341",
-          "author": "Sarah Fonder",
-          "description": "The innovative pea-based beverage Tiptoh features a clever system by Belgian designer Broos Stoffels.",
-          "link": "https://www.printmag.com/branding-identity-design/if-youre-considering-alternative-milk-why-not-give-peas-a-chance/",
-          "publishedOn": "2022-04-29T09:00:00.000Z",
-          "wordCount": 528,
-          "title": "If You’re Considering Alternative Milk, Why Not Give Peas a Chance?",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/Tiptoh_BroosStoffels_Packshots_1-1.jpg?fit=1200%2C800&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=727460",
-          "author": "sarahfonderprint",
-          "description": "Fall in love with Lee's charming, chaotic paintings in this collection of works from a solo exhibition at Jeffrey Deitch.",
-          "link": "https://www.printmag.com/fine-art/austin-lee-brings-the-wild-creativity-of-childhood-back-to-fine-art-in-like-it-is/",
-          "publishedOn": "2022-04-29T07:00:00.000Z",
-          "wordCount": 674,
-          "title": "Austin Lee Brings the Wild Creativity of Childhood Back to Fine Art in ‘Like It Is’",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/Austin_Lee_Website_Image_Cover_1_a1b17f9c-9a62-4318-bf9c-b59f7e4e02f9_1512x-1.jpg?fit=1200%2C922&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=727369",
-          "author": "Charlotte Beach",
-          "description": "B&W Tile Co. and Instagram account @vintagebathroomlove are key players in the mission to keep old-world tiles alive.",
-          "link": "https://www.printmag.com/design-culture/vintage-tiles/",
-          "publishedOn": "2022-04-28T16:00:00.000Z",
-          "wordCount": 1414,
-          "title": "The Enduring Artistry of Vintage Tiles",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/04/purple-bath-los-feliz-scaled.jpg?fit=1200%2C800&ssl=1"
         }
       ]
     },
@@ -8471,21 +8361,6 @@
             "type": "image/png"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4d3692b2-3bab-4645-95a2-a488c22eae5f/may-22-kira-preview-opt.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/04/partytown-eliminates-website-bloat-third-party-apps/",
-          "author": "hello@smashingmagazine.com (Steve Sewell)",
-          "description": "Introducing Partytown, a lightweight open-source solution that reduces execution delays due to third-party JavaScript by offloading third-party scripts to web workers, which run in background threads.",
-          "link": "https://smashingmagazine.com/2022/04/partytown-eliminates-website-bloat-third-party-apps/",
-          "publishedOn": "2022-04-29T10:30:00.000Z",
-          "wordCount": 2017,
-          "title": "How Partytown Eliminates Website Bloat From Third-Party Scripts",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/3bb74cff-2774-45a7-8961-e255d6305d2a/partytown-eliminates-website-bloat-third-party-apps.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/3bb74cff-2774-45a7-8961-e255d6305d2a/partytown-eliminates-website-bloat-third-party-apps.jpg"
         }
       ]
     },
