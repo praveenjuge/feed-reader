@@ -255,6 +255,16 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=366993",
+          "author": "Geoff Graham",
+          "description": "Say you have a line in SVG:\n<svg<line x1=\"0\" y1=\"30\" x2=\"500\" y2=\"30\" stroke-color=\"#f8a100\" /</svg\nYou can use the stroke-dasharray property in CSS to make dashes:\nline {\n  stroke-dasharray: 5;\n}\nThat 5 value is a relative unit based …\nHow stroke-dasharray Patterns Work originally published on CSS-Tricks. You should get the newsletter.",
+          "link": "https://css-tricks.com/how-stroke-dasharray-patterns-work/",
+          "publishedOn": "2022-07-15T19:43:40.000Z",
+          "wordCount": 1020,
+          "title": "How stroke-dasharray Patterns Work",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/366993"
+        },
+        {
           "id": "https://css-tricks.com/?p=366905",
           "author": "Geoff Graham",
           "description": "I think it’s super timely that Jim Nielson wrote about his office space the other day. My family recently re-rooted in Colorado and I was up late last night setting up my desk and everything around it. So late, in …\nOffice Spaces originally published on CSS-Tricks. You should get the newsletter.",
@@ -403,16 +413,6 @@
           "wordCount": 1803,
           "title": "Single Element Loaders: The Dots",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/366342"
-        },
-        {
-          "id": "https://css-tricks.com/?p=366252",
-          "author": "Preethi",
-          "description": "Calendars, shopping carts, galleries, file explorers, and online libraries are some situations where selectable items are shown in grids (i.e. square lattices). You know, even those security checks that ask you to select all images with crosswalks or whatever.\n🧐…\nConditionally Styling Selected Elements in a Grid Container originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/conditionally-styling-selected-elements-in-a-grid-container/",
-          "publishedOn": "2022-06-15T14:15:50.000Z",
-          "wordCount": 1821,
-          "title": "Conditionally Styling Selected Elements in a Grid Container",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/366252"
         }
       ]
     },
@@ -920,26 +920,6 @@
           "wordCount": 179,
           "title": "CSS Shadow Gradients",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10116",
-          "author": "Adam Marsden",
-          "description": "DesignDevelopmentTool",
-          "link": "https://dailydevlinks.com/accelerating-github-theme-creation-with-color-tooling/",
-          "publishedOn": "2022-06-16T08:38:00.000Z",
-          "wordCount": 183,
-          "title": "Accelerating GitHub theme creation with color tooling",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10113",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://dailydevlinks.com/conditionally-styling-selected-elements-in-a-grid-container/",
-          "publishedOn": "2022-06-16T07:13:00.000Z",
-          "wordCount": 190,
-          "title": "Conditionally Styling Selected Elements in a Grid Container",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
         }
       ]
     },
@@ -1144,16 +1124,6 @@
           "wordCount": 1416,
           "title": "New in Chrome 103",
           "imageUrl": "https://wd.imgix.net/image/0g2WvpbGRGdVs0aAPc6ObG7gkud2/VmtySPL3SpEcse1ttSGr.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/media-query-range-syntax/",
-          "author": null,
-          "description": "Media Queries enabled responsive design, and the range features that enable testing the minimum and maximum size of the viewport are used by around 80% of sites that use media queries. The Media Queries Level 4 specification includes a new syntax for these range queries.\nThe new syntax has been available in Firefox since Firefox 63, and will be available in Chrome from 104. Let’s take a look at how it can streamline your queries.\nA typical media query testing for a minimum viewport width, would be written as follows:\n@media (min-width: 400px) {\n  // Styles for viewports with a width of 400 pixels or greater.\n}\nThe new syntax allows for the use of a comparison operator:\n@media (width >= 400px) {\n  // Styles for viewports with a width of 400 pixels or greater.\n}\nTesting for a maximum width:\n…",
-          "link": "https://developer.chrome.com/en/blog/media-query-range-syntax/",
-          "publishedOn": "2022-06-16T00:00:00.000Z",
-          "wordCount": 463,
-          "title": "New syntax for range media queries in Chrome 104",
-          "imageUrl": "https://wd.imgix.net/image/kheDArv5csY6rvQUJDbWRscckLr1/iEJSP53ORdmspFCpJBIJ.jpg?auto=format&w=1521"
         }
       ]
     },
@@ -2091,56 +2061,6 @@
           "publishedOn": "2022-06-17T10:01:02.000Z",
           "wordCount": 67,
           "title": "Complex vs compound selectors",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65601",
-          "author": "Travis",
-          "description": "Everything you need to know about what makes a button great.",
-          "link": "https://heydesigner.com/designing-the-perfect-button/",
-          "publishedOn": "2022-06-16T07:27:40.000Z",
-          "wordCount": 59,
-          "title": "Designing the perfect button",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65599",
-          "author": "Travis",
-          "description": "How and why did neumorphism’s subtle blend of light, shadows, and curves come in and out of fashion so quickly?",
-          "link": "https://heydesigner.com/the-rise-and-fall-of-neumorphism/",
-          "publishedOn": "2022-06-16T07:26:49.000Z",
-          "wordCount": 72,
-          "title": "The rise and fall of neumorphism",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65597",
-          "author": "Travis",
-          "description": "Learn why the GitHub Design Infrastructure team built a dedicated color tool and how they use it to create new color palettes for GitHub.",
-          "link": "https://heydesigner.com/accelerating-github-theme-creation-with-color-tooling/",
-          "publishedOn": "2022-06-16T07:24:44.000Z",
-          "wordCount": 76,
-          "title": "Accelerating GitHub theme creation with color tooling",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65595",
-          "author": "Travis",
-          "description": "The words and phrases you choose for your app matter.",
-          "link": "https://heydesigner.com/writing-for-interfaces/",
-          "publishedOn": "2022-06-16T07:16:17.000Z",
-          "wordCount": 56,
-          "title": "Writing for interfaces",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65593",
-          "author": "Travis",
-          "description": "Generate gradients for your shadows with pure CSS.",
-          "link": "https://heydesigner.com/css-shadow-gradients/",
-          "publishedOn": "2022-06-16T07:12:47.000Z",
-          "wordCount": 55,
-          "title": "CSS shadow gradients",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
@@ -3739,76 +3659,6 @@
           "wordCount": 896,
           "title": "Sciter – Multiplatform HTML/CSS/JavaScript UI Engine for Applications",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31764724",
-          "author": "vitabenes",
-          "description": "Article URL: https://www.youtube.com/watch?v=4oDZyOf6CW4\nComments URL: https://news.ycombinator.com/item?id=31764724\nPoints: 2\n# Comments: 0",
-          "link": "https://www.youtube.com/watch?v=4oDZyOf6CW4",
-          "publishedOn": "2022-06-16T11:24:25.000Z",
-          "wordCount": null,
-          "title": "Tony Fadell: iPhone, iPod, Nest, Steve Jobs, Design, and Engineering [video]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31764576",
-          "author": "jorangreef",
-          "description": "Article URL: https://www.youtube.com/watch?v=rNmZZLant9o\nComments URL: https://news.ycombinator.com/item?id=31764576\nPoints: 1\n# Comments: 0",
-          "link": "https://www.youtube.com/watch?v=rNmZZLant9o",
-          "publishedOn": "2022-06-16T10:57:34.000Z",
-          "wordCount": null,
-          "title": "Let's Remix Distributed Database Design — TigerBeetle, Recurse Center [video]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31760790",
-          "author": "Kinrany",
-          "description": "Article URL: https://www.tedinski.com/2018/01/23/data-objects-and-being-railroaded-into-misdesign.html\nComments URL: https://news.ycombinator.com/item?id=31760790\nPoints: 1\n# Comments: 1",
-          "link": "https://www.tedinski.com/2018/01/23/data-objects-and-being-railroaded-into-misdesign.html",
-          "publishedOn": "2022-06-15T23:34:35.000Z",
-          "wordCount": 2691,
-          "title": "Data, objects, and how we're railroaded into poor design",
-          "imageUrl": "http://www.tedinski.com/assets/share-image.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31760326",
-          "author": "PKop",
-          "description": "Article URL: https://www.fastcompany.com/90741719/inside-the-dissolution-of-apples-legacy-design-team\nComments URL: https://news.ycombinator.com/item?id=31760326\nPoints: 3\n# Comments: 1",
-          "link": "https://www.fastcompany.com/90741719/inside-the-dissolution-of-apples-legacy-design-team",
-          "publishedOn": "2022-06-15T22:38:54.000Z",
-          "wordCount": 1420,
-          "title": "Inside the dissolution of Apple’s legacy design team",
-          "imageUrl": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2022/06/p-1-apple-design.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31752901",
-          "author": "robg",
-          "description": "Article URL: https://www.fastcompany.com/90741719/inside-the-dissolution-of-apples-elite-design-team\nComments URL: https://news.ycombinator.com/item?id=31752901\nPoints: 11\n# Comments: 0",
-          "link": "https://www.fastcompany.com/90741719/inside-the-dissolution-of-apples-elite-design-team",
-          "publishedOn": "2022-06-15T13:53:58.000Z",
-          "wordCount": 1420,
-          "title": "The dissolution of Apple’s elite design team",
-          "imageUrl": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2022/06/p-1-apple-design.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31751791",
-          "author": "jasim",
-          "description": "Article URL: https://ryanfleury.substack.com/p/ui-part-6-rendering\nComments URL: https://news.ycombinator.com/item?id=31751791\nPoints: 1\n# Comments: 0",
-          "link": "https://ryanfleury.substack.com/p/ui-part-6-rendering",
-          "publishedOn": "2022-06-15T12:11:52.000Z",
-          "wordCount": 3994,
-          "title": "Building a renderer that supports basic features for a fancy UI",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9717fa04-ec8d-4439-bc5d-3df1822f49dc_959x442.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31751790",
-          "author": "Collent",
-          "description": "Article URL: https://martinfowler.com/articles/evodb.html\nComments URL: https://news.ycombinator.com/item?id=31751790\nPoints: 2\n# Comments: 0",
-          "link": "https://martinfowler.com/articles/evodb.html",
-          "publishedOn": "2022-06-15T12:11:47.000Z",
-          "wordCount": 9226,
-          "title": "Evolutionary Data Design",
-          "imageUrl": "https://martinfowler.com/articles/evodb/card.png"
         }
       ]
     },
@@ -3817,6 +3667,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32111841",
+          "author": "thcipriani",
+          "description": "Article URL: https://tylercipriani.com/blog/2022/07/13/hacking-a-half-marathon/\nComments URL: https://news.ycombinator.com/item?id=32111841\nPoints: 2\n# Comments: 0",
+          "link": "https://tylercipriani.com/blog/2022/07/13/hacking-a-half-marathon/",
+          "publishedOn": "2022-07-15T19:24:58.000Z",
+          "wordCount": 1170,
+          "title": "How I Built a Running Habit",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32097851",
           "author": "todsacerdoti",
@@ -4236,26 +4096,6 @@
           "wordCount": 1083,
           "title": "How I Made My Productivity App Open Faster by Adding It to the System Tray",
           "imageUrl": "https://miro.medium.com/max/1200/1*o8iZ8PM7ub9CtwJD485w6Q.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31762116",
-          "author": "Schwolop",
-          "description": "Article URL: https://psyche.co/ideas/dont-be-stoic-roman-stoicisms-origins-show-its-perniciousness\nComments URL: https://news.ycombinator.com/item?id=31762116\nPoints: 29\n# Comments: 27",
-          "link": "https://psyche.co/ideas/dont-be-stoic-roman-stoicisms-origins-show-its-perniciousness",
-          "publishedOn": "2022-06-16T03:07:00.000Z",
-          "wordCount": 1724,
-          "title": "Don't Be Stoic: Roman Stoicism’s origins show its perniciousness",
-          "imageUrl": "https://omicron.aeon.co/images/9e900ae3-e033-4e0b-a4f2-ea18356aff2a/2700x1530.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31758110",
-          "author": "jseliger",
-          "description": "Article URL: https://conversationswithtyler.com/episodes/marc-andreessen/\nComments URL: https://news.ycombinator.com/item?id=31758110\nPoints: 64\n# Comments: 37",
-          "link": "https://conversationswithtyler.com/episodes/marc-andreessen/",
-          "publishedOn": "2022-06-15T19:25:56.000Z",
-          "wordCount": 12373,
-          "title": "Interview with Marc Andreessen on Learning to Love the Humanities, and RSS",
-          "imageUrl": "https://conversationswithtyler.com/wp-content/uploads/2022/05/CWT-156-MarcAndreessen-hero.png"
         }
       ]
     },
@@ -4264,6 +4104,26 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32107270",
+          "author": "noqta",
+          "description": "Article URL: https://github.com/nooqta/pdf-kodyfire\nComments URL: https://news.ycombinator.com/item?id=32107270\nPoints: 2\n# Comments: 1",
+          "link": "https://github.com/nooqta/pdf-kodyfire",
+          "publishedOn": "2022-07-15T12:11:35.000Z",
+          "wordCount": 514,
+          "title": "Show HN: Generate PDF docs from HTML templates using kodyfire-CLI",
+          "imageUrl": "https://opengraph.githubassets.com/2b0608f56f88ef053c5b4e8f43b0deca90d3569750877f0fdd740f0178b4e500/nooqta/pdf-kodyfire"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32106726",
+          "author": "luciantartea",
+          "description": "Article URL: https://devreso.com/how-sell-html-website-templates/\nComments URL: https://news.ycombinator.com/item?id=32106726\nPoints: 1\n# Comments: 0",
+          "link": "https://devreso.com/how-sell-html-website-templates/",
+          "publishedOn": "2022-07-15T10:39:21.000Z",
+          "wordCount": 1428,
+          "title": "How to sell HTML website templates for recurrent revenue and more benefits",
+          "imageUrl": "https://devreso.com/wp-content/uploads/2022/07/how-sell-html-website-templates-2.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32101106",
           "author": "plondon514",
@@ -5083,36 +4943,6 @@
           "wordCount": 333,
           "title": "Show HN: Tailwind DX – A DevTools Extension for Tailwind CSS Developers",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31760385",
-          "author": "Simorgh",
-          "description": "Article URL: https://winterdelta.medium.com/dials-upgrading-html-css-card-components-with-time-dials-using-js-2a28f2a05fe5\nComments URL: https://news.ycombinator.com/item?id=31760385\nPoints: 1\n# Comments: 0",
-          "link": "https://winterdelta.medium.com/dials-upgrading-html-css-card-components-with-time-dials-using-js-2a28f2a05fe5",
-          "publishedOn": "2022-06-15T22:46:29.000Z",
-          "wordCount": 492,
-          "title": "Upgrading HTML / CSS Card Components with Time",
-          "imageUrl": "https://miro.medium.com/max/574/1*jPb729E66DyUT0SwB2yFpw.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31758181",
-          "author": "Machy8",
-          "description": "Article URL: https://blog.logrocket.com/stylify-vs-master-styles-comparing-css-utility-libraries/\nComments URL: https://news.ycombinator.com/item?id=31758181\nPoints: 2\n# Comments: 0",
-          "link": "https://blog.logrocket.com/stylify-vs-master-styles-comparing-css-utility-libraries/",
-          "publishedOn": "2022-06-15T19:31:06.000Z",
-          "wordCount": 2054,
-          "title": "Stylify vs. Master Styles: Comparing Tailwind-Like CSS Utility Libraries",
-          "imageUrl": "https://blog.logrocket.com/wp-content/uploads/2022/06/stylify-vs-master-styles-comparing-tailwind-like-css-utility-libraries.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31755378",
-          "author": "hgezim",
-          "description": "Article URL: https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454\nComments URL: https://news.ycombinator.com/item?id=31755378\nPoints: 1\n# Comments: 0",
-          "link": "https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454",
-          "publishedOn": "2022-06-15T16:26:26.000Z",
-          "wordCount": 9771,
-          "title": "Parsting HTML with RegEx",
-          "imageUrl": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
         }
       ]
     },
@@ -5201,6 +5031,16 @@
       "siteUrl": "https://remysharp.com",
       "articles": [
         {
+          "id": "kesimpta",
+          "author": null,
+          "description": "As much as this sounds like a new webapp (and indeed over a decade ago I owned the domain Kajinka - can't remember what it was though), no, this is the start of my multiple sclerosis (MS) drug treatment which, I guess lasts as long as I do.",
+          "link": "https://remysharp.com/2022/07/15/kesimpta",
+          "publishedOn": "2022-07-15T00:00:00.000Z",
+          "wordCount": 1536,
+          "title": "Kesimpta [blog]",
+          "imageUrl": "https://remysharp.com/images/cards/og/9-7.jpg"
+        },
+        {
           "id": "why-did-safari-go-batman",
           "author": null,
           "description": "This week I released the first round of tickets for ffconf 2022 an in a last minute change (literally 20 minutes before the tickets went live), I decided to add a live countdown which would switch out and then show the \"Buy Now\" button at 10am.\nExcept, of course, Safari didn't work.",
@@ -5227,6 +5067,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=40859",
+          "author": "Seth Godin",
+          "description": "There might be a 100% correlation between what you do and what you get and what you want (if you’re trying to train for the hundred-meter dash.) Anything that makes you go faster is correlated with the goal, which is winning the race. On the other hand, being funny isn’t always correlated with being a […]",
+          "link": "https://seths.blog/2022/07/the-correlation/",
+          "publishedOn": "2022-07-15T09:35:00.000Z",
+          "wordCount": 1220,
+          "title": "The correlation",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
+        },
         {
           "id": "https://seths.blog/?p=43365",
           "author": "Seth Godin",
@@ -5506,16 +5356,6 @@
           "wordCount": 195,
           "title": "Carrying benefits",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42197",
-          "author": "Seth Godin",
-          "description": "How much does a puppy cost? At the shelter, maybe you need to put up a hundred dollar fee or donation. But that’s tiny compared to food, vet bills, time spent walking, chew toys, yak bones, bully sticks, groomers and those ridiculous dog costumes… perhaps $20,000 if you add it all up. Yet we tend […]",
-          "link": "https://seths.blog/2022/06/carrying-costs/",
-          "publishedOn": "2022-06-16T08:57:00.000Z",
-          "wordCount": 251,
-          "title": "Carrying costs",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
         }
       ]
     },
@@ -5524,6 +5364,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "qdeeTRPwiX34F6upa",
+          "author": "@a11yMel",
+          "description": "We did not have collective nouns for web terms. Now we do. Ever wonder what too many domains owned by one person is called?",
+          "link": "https://collective-nouns.dev/",
+          "publishedOn": "2022-07-15T11:43:13.000Z",
+          "wordCount": 212,
+          "title": "Collective Nouns for the Web",
+          "imageUrl": "https://collective-nouns.dev/assets/social.png"
+        },
+        {
+          "id": "iSZXLAyoW4v5vqfwi",
+          "author": "@Medium",
+          "description": "You’ve heard of dot-voting. That’s the thing where everyone in a workshop gets a bunch of dots and they vote on different ideas.",
+          "link": "https://medium.com/@brownorama/designing-design-workshops-beyond-dot-voting-9511eed32a3f",
+          "publishedOn": "2022-07-15T11:40:39.000Z",
+          "wordCount": 4383,
+          "title": "Designing Design Workshops: Beyond Dot-Voting",
+          "imageUrl": "https://miro.medium.com/max/1200/1*zEKoDuIpdrx3wlo7QPyWRQ.png"
+        },
+        {
+          "id": "cHkySud93SeE8Y8BK",
+          "author": "@Medium",
+          "description": "Years ago, I did a concept redesign of Roblox Studio’s interface.",
+          "link": "https://elttob.medium.com/vanilla-is-ripe-433195c2bbd7",
+          "publishedOn": "2022-07-15T11:29:23.000Z",
+          "wordCount": 5869,
+          "title": "Vanilla is Ripe",
+          "imageUrl": "https://miro.medium.com/max/1200/1*hjtCjFrlw1CY_QlyKRowzg.png"
+        },
+        {
+          "id": "sf98DbtuCNpBEoD9R",
+          "author": "@macrumors",
+          "description": "Since former Jony Ive left Apple in 2019, he has continued to work for the company as a consultant through his LoveFrom design firm.",
+          "link": "https://www.macrumors.com/2022/07/12/apple-ends-jony-ive-partnership/",
+          "publishedOn": "2022-07-15T11:10:36.000Z",
+          "wordCount": 3160,
+          "title": "Apple Ends Partnership With Former Design Chief Jony Ive",
+          "imageUrl": "https://images.macrumors.com/t/yG7hRo2xmf84qebcyukPl_iHpY4=/1600x/article-new/2021/05/jony-ive-2021-imac-feature-2.5.jpg"
+        },
+        {
+          "id": "Djq39u5C3B7oXYrey",
+          "author": "@ChangeTheRef",
+          "description": "Since 2020, firearms have overtaken car accidents to become the leading cause of death in U.S. children, taking over 4368 lives.",
+          "link": "https://www.nrachildrensmuseum.com/",
+          "publishedOn": "2022-07-15T11:08:01.000Z",
+          "wordCount": 8780,
+          "title": "The NRA Children’s Museum",
+          "imageUrl": "http://static1.squarespace.com/static/62cc89a7604061648c0cfaa9/t/62cef70659ed3f137002bf77/1657730822703/yellow+school+bus.jpeg?format=1500w"
+        },
         {
           "id": "tKtkkgCXCR9BMuis3",
           "author": "@uxdesigncc",
@@ -6573,56 +6463,6 @@
           "wordCount": 580,
           "title": "CSS Generator For Shadow Gradients",
           "imageUrl": null
-        },
-        {
-          "id": "k6iPJyYBNWoxrYhSa",
-          "author": "@wix",
-          "description": "Everything you need to know about what makes a button great.",
-          "link": "https://wix-ux.com/designing-the-perfect-button-e77ec1f32ee5",
-          "publishedOn": "2022-06-16T06:05:09.000Z",
-          "wordCount": 1557,
-          "title": "Designing the perfect button",
-          "imageUrl": "https://miro.medium.com/max/813/1*Jb5JszpcYpCmuwO3Z9Z2kg.png"
-        },
-        {
-          "id": "KuWLchQcmoHGS46yS",
-          "author": "@aardrian",
-          "description": "Today Microsoft will stop providing tech support and security updates for Internet Explorer 11 in some contexts.",
-          "link": "https://adrianroselli.com/2022/06/internet-explorer-still-does-not-go-away-today.html",
-          "publishedOn": "2022-06-16T05:57:51.000Z",
-          "wordCount": 701,
-          "title": "Internet Explorer Still Does Not Go Away Today",
-          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2022/06/IE11-on-Fire_NeuralBlender-02-300x300.png"
-        },
-        {
-          "id": "pB5DtgDF6GeCrDzwj",
-          "author": "@fastcompany",
-          "description": "Apple’s design team is legendary. But following the death of Steve Jobs, dysfunction ran rampant.",
-          "link": "https://www.fastcompany.com/90741719/inside-the-dissolution-of-apples-legacy-design-team",
-          "publishedOn": "2022-06-16T05:45:45.000Z",
-          "wordCount": 1403,
-          "title": "Inside the dissolution of Apple’s legacy design team",
-          "imageUrl": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2022/06/p-1-apple-design.jpg"
-        },
-        {
-          "id": "jEMhCoTx97pXS2X4Y",
-          "author": "@verge",
-          "description": "Adobe is developing a freemium tier of Photoshop for web and is already testing the service in Canada.",
-          "link": "https://www.theverge.com/2022/6/14/23162580/photoshop-web-free-freemium-version-adobe",
-          "publishedOn": "2022-06-16T05:40:41.000Z",
-          "wordCount": 890,
-          "title": "Adobe plans to make Photoshop on the web free to everyone",
-          "imageUrl": "https://cdn.vox-cdn.com/thumbor/a0UxhE7KyHhUlM7bEpGMuxLy38A=/0x215:3000x1786/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23624164/acastro_STK124_02.jpg"
-        },
-        {
-          "id": "j6HpT7QR6zKbLAC2Y",
-          "author": "@uxdesigncc",
-          "description": "The unintended consequences of our designs also have the same effect on the world as the intended consequences.",
-          "link": "https://www.doc.cc/articles/the-designers-gaze",
-          "publishedOn": "2022-06-16T05:32:14.000Z",
-          "wordCount": 1129,
-          "title": "The designer’s gaze",
-          "imageUrl": null
         }
       ]
     },
@@ -6667,6 +6507,16 @@
       "feedUrl": "https://webkit.org/blog/feed/",
       "siteUrl": "https://webkit.org",
       "articles": [
+        {
+          "id": "https://webkit.org/?p=12998",
+          "author": null,
+          "description": "NOTE: Safari Technology Preview release 149 for macOS Ventura was removed to address an issue.",
+          "link": "https://webkit.org/blog/12998/release-notes-for-safari-technology-preview-149/",
+          "publishedOn": "2022-07-14T20:30:07.000Z",
+          "wordCount": 754,
+          "title": "Release Notes for Safari Technology Preview 149",
+          "imageUrl": null
+        },
         {
           "id": "https://webkit.org/?p=12992",
           "author": null,
@@ -6717,6 +6567,26 @@
       "feedUrl": "https://www.nytimes.com/svc/collections/v1/publish/http://www.nytimes.com/topic/subject/design/rss.xml",
       "siteUrl": "https://www.nytimes.com/topic/subject/design",
       "articles": [
+        {
+          "id": "https://www.nytimes.com/2022/07/15/t-magazine/wanderlust-somerset-england.html",
+          "author": "Kate Maxwell",
+          "description": "Somerset has re-emerged as an English weekend idyll, with inspired restaurants, stately homes turned hotels and contemporary art institutions.",
+          "link": "https://www.nytimes.com/2022/07/15/t-magazine/wanderlust-somerset-england.html",
+          "publishedOn": "2022-07-15T21:03:22.000Z",
+          "wordCount": 5930,
+          "title": "A Country Refuge for London Creatives",
+          "imageUrl": "https://static01.nyt.com/images/2022/07/15/t-magazine/15tmag-wanderlust-slide-318A-copy/15tmag-wanderlust-slide-318A-copy-facebookJumbo-v2.jpg"
+        },
+        {
+          "id": "https://www.nytimes.com/2022/07/15/realestate/sex-room-home-renovation.html",
+          "author": "Ronda Kaysen",
+          "description": "The new Netflix series “How to Build a Sex Room” doesn’t just indulge fantasies. It helps people rediscover some intimacy in their homes.",
+          "link": "https://www.nytimes.com/2022/07/15/realestate/sex-room-home-renovation.html",
+          "publishedOn": "2022-07-15T14:41:28.000Z",
+          "wordCount": 5395,
+          "title": "This Home-Renovation Show Wants to Get You Into Bed",
+          "imageUrl": "https://static01.nyt.com/images/2022/07/17/realestate/15rightathome1/15rightathome1-facebookJumbo.jpg"
+        },
         {
           "id": "https://www.nytimes.com/2022/07/14/arts/design/barbara-kruger-artist-moma-zwirner-feminist.html",
           "author": "Roberta Smith",
@@ -6906,26 +6776,6 @@
           "wordCount": 1655,
           "title": "13 Standouts From Salone Del Mobile",
           "imageUrl": "https://static01.nyt.com/images/2022/06/17/t-magazine/00tmag-salone-roundup-slide-92LM/00tmag-salone-roundup-slide-92LM-facebookJumbo.jpg"
-        },
-        {
-          "id": "https://www.nytimes.com/2022/06/15/style/givenchy-christies-auction.html",
-          "author": "Dana Thomas",
-          "description": "The house of Hubert de Givenchy is going up for auction. This week. Christie’s will auction more than 1,200 lots of furniture, sculpture and art that belonged to the designer. His inner circle tells the stories behind the stuff.",
-          "link": "https://www.nytimes.com/2022/06/15/style/givenchy-christies-auction.html",
-          "publishedOn": "2022-06-15T23:04:28.000Z",
-          "wordCount": 1525,
-          "title": "If Those Chairs Could Talk",
-          "imageUrl": "https://static01.nyt.com/images/2022/06/16/fashion/16GIVENCHY-SALE1/16GIVENCHY-SALE1-facebookJumbo.jpg"
-        },
-        {
-          "id": "https://www.nytimes.com/2022/06/15/style/billy-cotton-interior-designer.html",
-          "author": "Ruth La Ferla",
-          "description": "How the once-struggling decorator became a favorite of Cindy Sherman and other artists.",
-          "link": "https://www.nytimes.com/2022/06/15/style/billy-cotton-interior-designer.html",
-          "publishedOn": "2022-06-15T14:09:36.000Z",
-          "wordCount": 1563,
-          "title": "Billy Cotton, an Interior Designer for Blue-Chip Artists",
-          "imageUrl": "https://static01.nyt.com/images/2022/06/16/fashion/14BILLYCOTTON1/14BILLYCOTTON1-facebookJumbo.jpg"
         }
       ]
     },
@@ -6934,6 +6784,46 @@
       "feedUrl": "https://www.printmag.com/feed/",
       "siteUrl": "https://www.printmag.com",
       "articles": [
+        {
+          "id": "https://www.printmag.com/?p=732080",
+          "author": "Chloe Gordon",
+          "description": "If you're looking for exciting, modern takes on this centuries-old art form, look no further than our weekly roundup of Instagram creatives.",
+          "link": "https://www.printmag.com/follow-friday/five-stained-glass-artists-to-follow-on-instagram/",
+          "publishedOn": "2022-07-15T16:00:00.000Z",
+          "wordCount": 1821,
+          "title": "Five Stained Glass Artists to Follow on Instagram",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/The-Top-10-3.png?fit=1200%2C675&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=732297",
+          "author": "Debbie Millman",
+          "description": "Debbie Millman reflects on the pangs of material loss in her foreword to the non-fiction anthology 'Lost Objects: 50 Stories About the Things We Miss and Why They Matter.'",
+          "link": "https://www.printmag.com/creative-voices/why-do-we-get-attached-to-objects-and-why-does-it-hurt-when-we-lose-them/",
+          "publishedOn": "2022-07-15T14:00:00.000Z",
+          "wordCount": 2780,
+          "title": "Why Do We Get Attached to Objects, and Why Does it Hurt When We Lose Them?",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/Necco-Wafer-cropped-1.jpg?fit=959%2C406&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=732001",
+          "author": "PRINT Magazine",
+          "description": "The brand strategist critiques 100 modern happenings, including brands on social media, doomscrolling, toxic positivity, and more.",
+          "link": "https://www.printmag.com/sva-branding-100-days-2/erin-cunningham-is-making-an-online-burn-book-of-cultural-trends-she-hates/",
+          "publishedOn": "2022-07-15T13:00:00.000Z",
+          "wordCount": 4514,
+          "title": "Erin Cunningham is Making an Online ‘Burn Book’ of Cultural Trends She Hates",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/Post-6-1.png?fit=1080%2C1080&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=732178",
+          "author": "Steven Heller",
+          "description": "Galerie Stihl Waiblingen in Germany is presenting \"Cover Art\" (Plattencover) to showcase the role of record sleeves.",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-die-plattencover/",
+          "publishedOn": "2022-07-15T10:33:00.000Z",
+          "wordCount": 1866,
+          "title": "The Daily Heller: Die Plattencover Unsleeved",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/Galerie_Plattencover_tease1-scaled.jpg?fit=1200%2C351&ssl=1"
+        },
         {
           "id": "https://www.printmag.com/?p=732246",
           "author": "Jessica Deseo",
@@ -7573,36 +7463,6 @@
           "wordCount": 1971,
           "title": "Top Gun Too",
           "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/06/topgun-scaled.jpeg?fit=1200%2C795&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=730640",
-          "author": "Steven Heller",
-          "description": "Cresting like a famous Hokusai woodblock, the new Legendary Pushpin T-shirt collection (featuring classic images by Seymour Chwast) is currently on display at the International Design Center in Nagoya, Japan.",
-          "link": "https://www.printmag.com/daily-heller/the-daily-heller-this-is-push-pin-to-a-tee/",
-          "publishedOn": "2022-06-16T10:57:00.000Z",
-          "wordCount": 785,
-          "title": "The Daily Heller: This Fits Pushpin to a Tee",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/06/写真-2022-06-09-18-14-11.jpg?fit=1200%2C800&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=730639",
-          "author": "Sarah Fonder",
-          "description": "While critics have noted the design's similarity to a couple of well-known logos, its most uncanny similarity yet comes from an independent letterer.",
-          "link": "https://www.printmag.com/branding-identity-design/were-pretty-sure-weve-seen-this-russian-mcdonalds-logo-before/",
-          "publishedOn": "2022-06-15T19:00:00.000Z",
-          "wordCount": 523,
-          "title": "We’re Pretty Sure We’ve Seen This Russian McDonald’s Logo Before…",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/06/Russian-McDonalds.png?fit=1200%2C533&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=730547",
-          "author": "Charlotte Beach",
-          "description": "The designer and queen tells us about her journey into drag, her passionate DIY ethos, and the process behind an iconic lip sync look for Drag Race.",
-          "link": "https://www.printmag.com/designer-interviews/loren-j/",
-          "publishedOn": "2022-06-15T16:00:00.000Z",
-          "wordCount": 2627,
-          "title": "‘Drag Race’ Designer JForPay on the Limitless Creative Expression of Drag",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/06/jforpay.png?fit=1200%2C514&ssl=1"
         }
       ]
     },
@@ -7623,6 +7483,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/07/resolving-conflicts-designers-engineers/",
+          "author": "hello@smashingmagazine.com (Scott Himmer)",
+          "description": "In this article, Scott Himmer will go over some areas where you might find the design and engineering conflicts manifesting, what some of the contributing factors are, and strategies to work through the challenges.",
+          "link": "https://smashingmagazine.com/2022/07/resolving-conflicts-designers-engineers/",
+          "publishedOn": "2022-07-15T09:30:00.000Z",
+          "wordCount": 5300,
+          "title": "Resolving Conflicts Between Designers And Engineers",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b2c9eaa7-c2ad-49bf-a3bf-4dbbed425b97/resolving-conflicts-designers-engineers.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b2c9eaa7-c2ad-49bf-a3bf-4dbbed425b97/resolving-conflicts-designers-engineers.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2022/07/using-nothing-but-docker-projects/",
           "author": "hello@smashingmagazine.com (Raphael Amoedo)",
@@ -7887,21 +7762,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/47932465-87b0-41aa-97c3-4a2690860dd8/easy-build-support-tables-figma.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/06/web-design-done-well-delightful-data-visualization-examples/",
-          "author": "hello@smashingmagazine.com (Frederick O’Brien)",
-          "description": "All the data in the world won’t do anyone any good if we can’t make sense of it. Or better yet, make it sing. Here are some stunning examples of data visualization in the wild, and some pointers on how to start making your own.",
-          "link": "https://smashingmagazine.com/2022/06/web-design-done-well-delightful-data-visualization-examples/",
-          "publishedOn": "2022-06-16T09:00:00.000Z",
-          "wordCount": 2167,
-          "title": "Web Design Done Well: Delightful Data Visualization Examples",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6b1a5a7a-d478-4c0c-b4c8-782bf7fa7f42/web-design-done-well-delightful-data-visualization-examples.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6b1a5a7a-d478-4c0c-b4c8-782bf7fa7f42/web-design-done-well-delightful-data-visualization-examples.jpg"
         }
       ]
     },
