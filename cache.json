@@ -311,16 +311,6 @@
           "wordCount": 315,
           "title": "Logical Properties for Useful Shorthands",
           "imageUrl": "https://css-irl.info/social_1200x630.png"
-        },
-        {
-          "id": "https://css-irl.info/masonry-in-css/",
-          "author": null,
-          "description": "I spoke about CSS layout at CSS Day conference recently, and in the Q&A session afterwards I was asked about masonry layout in CSS. Masonry layout, in case you’re not aware, is where different height items are laid out in columns but, rather than being aligned on the row axis, the items below effectively move up to plug any gaps, kind of like a bricklayer — hence the name. Pinterest’s grid design is a commonly-cited example whenever the masonry conversation comes up.\nThe current state of masonry in CSS\nCurrently we can build a kind of faux-masonry (or “fakesonry”, if you will) layout in CSS by using columns.\n.list {\n  columns: 20rem;\n  column-gap: 1rem;\n}\nSee the Pen \n  Masonry grid (Firefox with flag enabled) by Michelle Barker (@michellebarker)\n  on CodePen.\n\n\nThis will create a layout t…",
-          "link": "https://css-irl.info/masonry-in-css/",
-          "publishedOn": "2022-07-05T00:00:00.000Z",
-          "wordCount": 885,
-          "title": "Masonry? In CSS?!",
-          "imageUrl": "https://css-irl.info/social_1200x630.png"
         }
       ]
     },
@@ -456,6 +446,26 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=10359",
+          "author": "Adam Marsden",
+          "description": "UIUX",
+          "link": "https://dailydevlinks.com/ux-ui-tips-a-guide-to-search-inputs/",
+          "publishedOn": "2022-08-03T08:58:00.000Z",
+          "wordCount": 2758,
+          "title": "UX/ UI tips: A guide to search inputs",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=10356",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/scroll-shadows-pure-css-parallax-game-back-on/",
+          "publishedOn": "2022-08-03T07:49:00.000Z",
+          "wordCount": 2762,
+          "title": "Scroll Shadows? Pure CSS Parallax? Game Back On.",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
         {
           "id": "https://dailydevlinks.com/?p=10347",
           "author": "Adam Marsden",
@@ -999,16 +1009,6 @@
           "wordCount": 1015,
           "title": "Where I'm at on climate change",
           "imageUrl": null
-        },
-        {
-          "id": "https://daverupert.com/2022/07/vibe-check-18/",
-          "author": null,
-          "description": "As Q2 FY22 wraps up, it’s a good time to reflect on all that’s happened.\nThe Dude Ranch and a horse named Tank\nJune kicked off with a rare family trip. My brother and his family came down from South Dakota and we all drove out to meet my mom and her husband in Bandera, TX for two days at Mayan Dude Ranch. Because we live all over the US, we haven’t done a trip with my mom and all the grandkids, and I’m glad we pulled it together.\nOne of the main attractions of the dude ranch is the cowboy’ing. Lasso classes, hatchet throwing, and trail rides everyday. You can even ride a horse to a chuck wagon breakfast. This was my kids’ first horse ride experience and they both did great. Each horse had a fun name like “Whiskey” or “Pepsi” which kids love to talk about ad nauseum. Of course, being a cool…",
-          "link": "https://daverupert.com/2022/07/vibe-check-18/",
-          "publishedOn": "2022-07-05T01:21:00.000Z",
-          "wordCount": 1245,
-          "title": "Vibe Check №18",
-          "imageUrl": "http://daverupert.com/images/opengraph/gundam.jpg"
         }
       ]
     },
@@ -1070,6 +1070,36 @@
       "feedUrl": "https://developer.chrome.com/feeds/blog.xml",
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
+        {
+          "id": "https://developer.chrome.com/en/blog/navigateevent-intercept/",
+          "author": null,
+          "description": "Chrome 105 introduces two new methods on the NavigateEvent of the Navigation API (introduced in 102) to improve on methods that have proved problematic in practice. intercept(), which let's developers control the state following the navigation, replaces transitionWhile(), which proved difficult to use. The scroll() method, which scrolls to an anchor specified in the URL, replaces restoreScroll() which does not work for all types of navigation.\nIn this article, I'll explain the problems with both and how the new methods fix those problems.\n# NavigateEvent.transitionWhile()\nThe NavigateEvent.trasitionWhile() method, introduced with the Navigation API in Chrome 102, intercepts navigation for client-side transitions in single page apps. Its first argument is a promise that signals to the brows…",
+          "link": "https://developer.chrome.com/en/blog/navigateevent-intercept/",
+          "publishedOn": "2022-08-03T00:00:00.000Z",
+          "wordCount": 1073,
+          "title": "Changes to NavigateEvent in Chrome 105",
+          "imageUrl": "https://wd.imgix.net/image/sQ51XsLqKMgSQMCZjIN0B7hlBO02/CdDfdtqJPPTeVCd3QqRR.jpeg?auto=format&w=1521"
+        },
+        {
+          "id": "https://developer.chrome.com/en/blog/has-with-cq-m105/",
+          "author": null,
+          "description": "Container queries and :has() are a match made in responsive heaven. Luckily, both of these features are landing together in Chromium 105. This is a huge release with two highly-requested features for responsive interfaces!\n# Container Queries: a quick summary\nContainer queries enable developers to query a parent selector for its size and styling information, making it possible for a child element to own its responsive styling logic, no matter where it lives on a web page.\nInstead of relying on the viewport for styling input such as available space, developers now have the ability to query the size of in-page elements too. This capability means that a component owns its responsive styling logic. This makes the component much more resilient, as the styling logic is attached to it, no matter …",
+          "link": "https://developer.chrome.com/en/blog/has-with-cq-m105/",
+          "publishedOn": "2022-08-03T00:00:00.000Z",
+          "wordCount": 1233,
+          "title": "@container and :has(): two powerful new responsive APIs landing in Chromium 105",
+          "imageUrl": "https://wd.imgix.net/image/HodOHWjMnbNw56hvNASHWSgZyAf2/KBYS0gF3R7mdhjVBwvbn.jpg?auto=format&w=1521"
+        },
+        {
+          "id": "https://developer.chrome.com/en/blog/has-m105/",
+          "author": null,
+          "description": "Since time began (In CSS terms), we've worked with a cascade in various senses. Our styles compose a \"Cascading Style Sheet\". And our selectors cascade too. They can go sideways. In most cases they go downwards. But never upwards. For years, we've fantasized about a \"Parent selector\". And now it's finally coming! In the shape of a :has() pseudo selector.\nThe :has() CSS pseudo-class represents an element if any of the selectors passed as parameters match at least one element.\nBut, it's more than a \"parent\" selector. That's a nice way to market it. The not so appealing way might be the \"conditional environment\" selector. But that doesn't have quite the same ring to it. How about the \"family\" selector?\n# Browser Support\nBefore we go any further, it's worth mentioning browser support. It's not…",
+          "link": "https://developer.chrome.com/en/blog/has-m105/",
+          "publishedOn": "2022-08-03T00:00:00.000Z",
+          "wordCount": 2314,
+          "title": ":has(): the family selector",
+          "imageUrl": "https://wd.imgix.net/image/Dyx9FwYgMyNqy1kMGx8Orz6q0qC3/SLbZGkpDT3AG1E11MMFy.jpg?auto=format&w=1521"
+        },
         {
           "id": "https://developer.chrome.com/en/blog/new-in-chrome-104/",
           "author": null,
@@ -1208,6 +1238,16 @@
       "siteUrl": "https://dribbble.com/stories",
       "articles": [
         {
+          "id": "https://dribbble.com/stories/2022/08/03/user-research-product-designers",
+          "author": null,
+          "description": "Research and testing make designs better. You might have seen this play out first hand, by running your own tests before iterating on concepts or working with user researchers to design a new feature.\nYou may have relied on user research to improve ease of use, reduce friction, and identify changes to include in your next design sprint. And that’s because user research leads to more efficient, informed design initiatives.\nBut we have a secret. Sometimes…research isn’t always necessary.\nThat doesn’t mean you should start going into every UX design project blindly, but there are times when you don’t need to dot every “i” and cross every “t”.\nAs always, prioritization is critical. You know you don’t have endless time to test your designs. You need to assess what needs to be tested right now, …",
+          "link": "https://dribbble.com/stories/2022/08/03/user-research-product-designers",
+          "publishedOn": "2022-08-03T10:00:00.000Z",
+          "wordCount": 2183,
+          "title": "When to go with your assumptions vs. when to test (7 questions designers should ask)",
+          "imageUrl": "https://cdn.dribbble.com/uploads/29647/original/7445c313362d57c6ce027b23afd42c61.png?1635438335"
+        },
+        {
           "id": "https://dribbble.com/stories/2022/07/31/student-stories-tiffany-yeh",
           "author": null,
           "description": "With a background in marketing and graphic design, Tiffany Yeh is eager to grow her new career in Product Design. Having just graduated from Dribbble’s Certified Product Design Course, Tiffany joins us today to share her experience and offer advice to budding product designers.\nTiffany Yeh\n      UX/UI Designer, Sr. Associate @ Capital One\nPortfolio: https://tiffanyayeh.com/\nLinkedIn: https://www.linkedin.com/in/tiffanyayeh/\n\nTell us about your background. Do you have any previous design experience?\nMy design experience is all self-taught, starting off in the early days of basic HTML/CSS to customize my MySpace profile to learning graphic design through Youtube for a marketing internship.\nOver time, I’ve taken on challenges like redesigning websites and apps, but learning informally has unf…",
@@ -1304,6 +1344,16 @@
       "feedUrl": "https://fs.blog/feed/",
       "siteUrl": "https://fs.blog/",
       "articles": [
+        {
+          "id": "https://fs.blog/?p=48008",
+          "author": "Farnam Street",
+          "description": "We are drowning in information. Most of that information is irrelevant. If only we could sort what matters from what doesn’t? The good news is, you can train your brain to quickly evaluate the quality of informaiton. Not only can you quickly determine if someone knows what they are talking about but you can sort …\nThe post Evaluating Information: Find the Signal in the Noise appeared first on Farnam Street.",
+          "link": "https://fs.blog/evaluating-information/",
+          "publishedOn": "2022-08-03T21:16:16.000Z",
+          "wordCount": 4034,
+          "title": "Evaluating Information: Find the Signal in the Noise",
+          "imageUrl": "https://149664534.v2.pressablecdn.com/wp-content/uploads/2022/08/Evaluating-Information.png"
+        },
         {
           "id": "https://fs.blog/?p=40528",
           "author": "Farnam Street",
@@ -2116,56 +2166,6 @@
           "wordCount": 203,
           "title": "Mind your language",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65736",
-          "author": "Travis",
-          "description": "In software, design can be one of the most important levers of growth.",
-          "link": "https://heydesigner.com/understanding-airbnbs-redesign/",
-          "publishedOn": "2022-07-05T06:23:56.000Z",
-          "wordCount": 194,
-          "title": "Understanding Airbnb’s redesign",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65734",
-          "author": "Travis",
-          "description": "How Netflix creates immersive UX design and what we can learn from them.",
-          "link": "https://heydesigner.com/netflix-ux/",
-          "publishedOn": "2022-07-05T06:22:50.000Z",
-          "wordCount": 191,
-          "title": "Netflix UX",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65732",
-          "author": "Travis",
-          "description": "and Engineers, PMs, other product-building people.",
-          "link": "https://heydesigner.com/finance-for-designers/",
-          "publishedOn": "2022-07-05T06:18:46.000Z",
-          "wordCount": 187,
-          "title": "Finance for designers",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65730",
-          "author": "Travis",
-          "description": "Creativity is the most powerful part of business. AUFI asked some of the world’s most creative minds to define what creativity is.",
-          "link": "https://heydesigner.com/the-creative-study/",
-          "publishedOn": "2022-07-05T06:15:20.000Z",
-          "wordCount": 200,
-          "title": "The creative study",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65728",
-          "author": "Travis",
-          "description": "Is Sass still relevant? It seems like we need to have this conversation every few months.",
-          "link": "https://heydesigner.com/the-case-for-using-sass-in-2022/",
-          "publishedOn": "2022-07-05T06:12:51.000Z",
-          "wordCount": 204,
-          "title": "The case for using Sass in 2022",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2174,6 +2174,56 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32337299",
+          "author": "sheepybloke",
+          "description": "Hello! I'm looking to take a course in UX/UI design. I've seen Google's UX certificate course going around [0], and was wondering if people had any experience with it or any other similar course teaching people UX design. Any recommendations for course to take, or what might be helpful for getting into this area?\n[0]: https://grow.google/certificates/ux-design\nComments URL: https://news.ycombinator.com/item?id=32337299\nPoints: 2\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=32337299",
+          "publishedOn": "2022-08-03T22:31:00.000Z",
+          "wordCount": 153,
+          "title": "Ask HN: Best UX Design Course?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32333164",
+          "author": "atg_abhishek",
+          "description": "Article URL: https://eng.uber.com/ml-education-at-uber-program-design-and-outcomes/\nComments URL: https://news.ycombinator.com/item?id=32333164\nPoints: 1\n# Comments: 0",
+          "link": "https://eng.uber.com/ml-education-at-uber-program-design-and-outcomes/",
+          "publishedOn": "2022-08-03T15:36:50.000Z",
+          "wordCount": 7781,
+          "title": "ML Education at Uber: Program Design and Outcomes",
+          "imageUrl": "https://eng.uber.com/wp-content/uploads/2022/08/Blog-2-cover-photo.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32331825",
+          "author": "greggyb",
+          "description": "Who do you talk to when you have architectural questions? Where do you get feedback on design options? When you want to discuss tradeoffs of those options who do you talk that over with?\nI am one of two technical cofounders for a small software company. We have really good discussions about the design of our product. I am pretty good at searching. We are comfortable weighing alternatives and making a decision and living with the consequences. All that said, sometimes I want to discuss with other people some of the design challenges we face, or seek input on how people have approached the problem.\nAre there fora that you enjoy for such discussion? It seems that it does not fit with the theme of most Q&A sites. Most IRC channels I know of are pretty focused on their own specific topic.\nComments URL: https://news.ycombinator.com/item?id=32331825\nPoints: 148\n# Comments: 101",
+          "link": "https://news.ycombinator.com/item?id=32331825",
+          "publishedOn": "2022-08-03T14:05:24.000Z",
+          "wordCount": 8305,
+          "title": "Ask HN: Who do you talk to about system architecture and design?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32330215",
+          "author": "Gaishan",
+          "description": "Article URL: https://breakingdefense.com/2022/08/l3harris-sky-warden-attack-plane-wins-socoms-armed-overwatch-program/\nComments URL: https://news.ycombinator.com/item?id=32330215\nPoints: 2\n# Comments: 0",
+          "link": "https://breakingdefense.com/2022/08/l3harris-sky-warden-attack-plane-wins-socoms-armed-overwatch-program/",
+          "publishedOn": "2022-08-03T11:22:49.000Z",
+          "wordCount": 2842,
+          "title": "Modified cropduster design wins SOCOM “Armed Overwatch” contract",
+          "imageUrl": "https://sites.breakingmedia.com/uploads/sites/3/2022/08/ims-as-gallery-sky-warden-4-e1659464420384.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32326004",
+          "author": "noplsbecivil",
+          "description": "Article URL: https://bigthink.com/the-past/da-vinci-helicopter/\nComments URL: https://news.ycombinator.com/item?id=32326004\nPoints: 2\n# Comments: 2",
+          "link": "https://bigthink.com/the-past/da-vinci-helicopter/",
+          "publishedOn": "2022-08-03T00:09:46.000Z",
+          "wordCount": 2479,
+          "title": "da Vinci’s famous helicopter design finally takes flight",
+          "imageUrl": "https://bigthink.com/wp-content/uploads/2022/02/AdobeStock_124566630.jpeg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32325405",
           "author": "adnanaga",
@@ -3863,36 +3913,6 @@
           "wordCount": 314,
           "title": "Show HN: Preline UI – Open-Source Tailwind CSS Components",
           "imageUrl": "https://preline.co/preline-logo.svg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31986600",
-          "author": "espadrine",
-          "description": "Article URL: https://www.nature.com/articles/s41562-022-01383-x\nComments URL: https://news.ycombinator.com/item?id=31986600\nPoints: 3\n# Comments: 0",
-          "link": "https://www.nature.com/articles/s41562-022-01383-x",
-          "publishedOn": "2022-07-05T10:45:05.000Z",
-          "wordCount": 11415,
-          "title": "DeepMind’s Human-centred mechanism design with Democratic AI",
-          "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41562-022-01383-x/MediaObjects/41562_2022_1383_Fig1_HTML.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31984119",
-          "author": "jleahey",
-          "description": "Article URL: https://techcrunch.com/2022/06/29/modsy-shuts-down-design-services-cutting-roles-and-disrupting-orders/\nComments URL: https://news.ycombinator.com/item?id=31984119\nPoints: 1\n# Comments: 0",
-          "link": "https://techcrunch.com/2022/06/29/modsy-shuts-down-design-services-cutting-roles-and-disrupting-orders/",
-          "publishedOn": "2022-07-05T03:51:23.000Z",
-          "wordCount": 9285,
-          "title": "Modsy shuts down design services, cutting roles and disrupting orders",
-          "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/06/modsy-empty-chair.jpg?w=711"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31976791",
-          "author": "wjiuhe",
-          "description": "Article URL: https://pinferencia.underneathall.app\nComments URL: https://news.ycombinator.com/item?id=31976791\nPoints: 1\n# Comments: 0",
-          "link": "https://pinferencia.underneathall.app/",
-          "publishedOn": "2022-07-04T13:27:46.000Z",
-          "wordCount": 14,
-          "title": "Show HN: Pinferencia, Deploy Your AI Models with Pretty UI and REST API",
-          "imageUrl": null
         }
       ]
     },
@@ -3901,6 +3921,36 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32335165",
+          "author": "triplechill",
+          "description": "Article URL: https://calebschoepp.com/blog/2022/productivity-porn/\nComments URL: https://news.ycombinator.com/item?id=32335165\nPoints: 307\n# Comments: 191",
+          "link": "https://calebschoepp.com/blog/2022/productivity-porn/",
+          "publishedOn": "2022-08-03T18:21:36.000Z",
+          "wordCount": 2874,
+          "title": "Productivity porn",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32331384",
+          "author": "0x54MUR41",
+          "description": "Article URL: https://www.rework.fm/interruption-is-the-enemy-of-productivity/\nComments URL: https://news.ycombinator.com/item?id=32331384\nPoints: 4\n# Comments: 0",
+          "link": "https://www.rework.fm/interruption-is-the-enemy-of-productivity/",
+          "publishedOn": "2022-08-03T13:25:56.000Z",
+          "wordCount": 5224,
+          "title": "Interruption is the enemy of productivity [audio]",
+          "imageUrl": "https://www.rework.fm/assets/head/social-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32329235",
+          "author": "memorable",
+          "description": "Article URL: https://www.raycast.com/\nComments URL: https://news.ycombinator.com/item?id=32329235\nPoints: 2\n# Comments: 0",
+          "link": "https://www.raycast.com/",
+          "publishedOn": "2022-08-03T08:51:08.000Z",
+          "wordCount": 1425,
+          "title": "Raycast: Supercharged Productivity",
+          "imageUrl": "https://raycast-frontend-fndh8wg6h-raycastapp.vercel.app/_next/static/media/og-image.881e005e.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32322131",
           "author": "i0exception",
@@ -4450,16 +4500,6 @@
           "wordCount": 2514,
           "title": "How to Deal with Insults and Put-Downs, the Stoic Way",
           "imageUrl": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_teaser_image/2022-07/bookbrushimage-2022-7-2-17-116.png.jpg?itok=tB2PD2Qh"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31980476",
-          "author": "nqureshi",
-          "description": "Article URL: https://nabeelqu.co/advice\nComments URL: https://news.ycombinator.com/item?id=31980476\nPoints: 3\n# Comments: 0",
-          "link": "https://nabeelqu.co/advice",
-          "publishedOn": "2022-07-04T18:44:35.000Z",
-          "wordCount": 10318,
-          "title": "Tips for Productivity, Thinking, and Doing",
-          "imageUrl": "https://cortex.persona.co/i/f0f34f2c760294ea2223197b8a1d88cbef2df852a8bd8baa700c8349e5c504f4/Screen-Shot-2020-05-24-at-4.46.52-PM.png"
         }
       ]
     },
@@ -4468,6 +4508,46 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32335295",
+          "author": "thunderbong",
+          "description": "Article URL: https://github.com/asg017/sqlite-html\nComments URL: https://news.ycombinator.com/item?id=32335295\nPoints: 64\n# Comments: 6",
+          "link": "https://github.com/asg017/sqlite-html",
+          "publishedOn": "2022-08-03T18:36:42.000Z",
+          "wordCount": 1042,
+          "title": "SQLite-HTML: A SQLite extension for querying, manipulating, and creating HTML",
+          "imageUrl": "https://opengraph.githubassets.com/3438fbed5566dd9246dc0f7c151bcb9dd8510fe3d1ea236dc34c1082757e84c4/asg017/sqlite-html"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32331515",
+          "author": "thunderbong",
+          "description": "Article URL: https://watercss.kognise.dev/\nComments URL: https://news.ycombinator.com/item?id=32331515\nPoints: 1\n# Comments: 0",
+          "link": "https://watercss.kognise.dev/",
+          "publishedOn": "2022-08-03T13:38:54.000Z",
+          "wordCount": 587,
+          "title": "Water.css",
+          "imageUrl": "https://raw.githubusercontent.com/kognise/water.css/master/assets/logo.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32329756",
+          "author": "guivr",
+          "description": "Article URL: https://getcssscan.com/css-shapes\nComments URL: https://news.ycombinator.com/item?id=32329756\nPoints: 2\n# Comments: 0",
+          "link": "https://getcssscan.com/css-shapes",
+          "publishedOn": "2022-08-03T10:10:07.000Z",
+          "wordCount": 4366,
+          "title": "Show HN: 57 CSS Shapes Examples, click to copy. Triangles, arrows, yin yang, etc",
+          "imageUrl": "https://getcssscan.com/css-shapes/og-image.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32328574",
+          "author": "devarshishimpi",
+          "description": "Links\nhttps://stonecss.com/\nhttps://github.com/devarshishimpi/Stone-CSS-Website\nhttps://github.com/devarshishimpi/Stone-CSS-Framework\nComments URL: https://news.ycombinator.com/item?id=32328574\nPoints: 1\n# Comments: 2",
+          "link": "https://news.ycombinator.com/item?id=32328574",
+          "publishedOn": "2022-08-03T07:12:45.000Z",
+          "wordCount": 103,
+          "title": "A Revolutionary, Unbreakable CSS Framework. – Stone CSS",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32322277",
           "author": "rmason",
@@ -5207,16 +5287,6 @@
           "wordCount": 1324,
           "title": "Writing HTML sucks less with Impulse",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=31983404",
-          "author": "asthasharma1",
-          "description": "Article URL: https://apispreadsheets.com/tutorials/save-web-form-data.html\nComments URL: https://news.ycombinator.com/item?id=31983404\nPoints: 1\n# Comments: 1",
-          "link": "https://apispreadsheets.com/tutorials/save-web-form-data.html",
-          "publishedOn": "2022-07-05T01:37:21.000Z",
-          "wordCount": 1794,
-          "title": "Save your HTML web form data in a spreadsheet",
-          "imageUrl": null
         }
       ]
     },
@@ -5311,6 +5381,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=43493",
+          "author": "Seth Godin",
+          "description": "Sooner or later, they’re all finite. And the way we allocate our time and emotional energy determines what gets done. If we audited your day in six-minute increments, what would we find? By the clock, how did you actually spend the time given to you (we each get the same 24 hours). How much was […]",
+          "link": "https://seths.blog/2022/08/time-and-focus-and-energy/",
+          "publishedOn": "2022-08-03T08:15:00.000Z",
+          "wordCount": 1202,
+          "title": "Time and focus and energy",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=42430",
           "author": "Seth Godin",
@@ -5610,16 +5690,6 @@
           "wordCount": 1319,
           "title": "“Do you have a plan?”",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42308",
-          "author": "Seth Godin",
-          "description": "If your plan, your idea or your art doesn’t involve any significant hurdles in moving forward, it’s probably not worth that much. If it were easy, everyone would do it. The tactic is to seek a path where you see and understand the significant hurdles that kept others away. And then dance with them. They’re […]",
-          "link": "https://seths.blog/2022/07/significant-hurdles/",
-          "publishedOn": "2022-07-05T08:24:00.000Z",
-          "wordCount": 1099,
-          "title": "Significant hurdles",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
         }
       ]
     },
@@ -5628,6 +5698,76 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "FcxH8gXP9QuEX4Ldx",
+          "author": "@ChromiumDev",
+          "description": "Looking at several ways to animate a border in CSS.",
+          "link": "https://web.dev/css-border-animations/",
+          "publishedOn": "2022-08-03T19:38:25.000Z",
+          "wordCount": 1024,
+          "title": "CSS border animations",
+          "imageUrl": "https://web-dev.imgix.net/image/AeNB0cHNDkYPUYzDuv8gInYA9rY2/kVAIT4nxP83ePx2QhEgW.png?auto=format&fit=max&w=1200&fm=auto"
+        },
+        {
+          "id": "33bxcZyve69pKrv27",
+          "author": "@uxdesigncc",
+          "description": "Translating theory into real experiences and embracing other types of design are clear signs of your evolution as a designer.",
+          "link": "https://uxdesign.cc/levels-of-knowledge-and-levels-of-designs-the-growth-path-of-a-designer-aa912b303258",
+          "publishedOn": "2022-08-03T19:37:41.000Z",
+          "wordCount": 5460,
+          "title": "Levels of knowledge and levels of designs, the growth path of a designer",
+          "imageUrl": "https://miro.medium.com/max/1200/1*rZpYJ0oR97HuuC3KFr24Xg.jpeg"
+        },
+        {
+          "id": "WTLTMd3jEkewXWPzT",
+          "author": "@aws",
+          "description": "Cloudscape offers user interface guidelines, front-end components, design resources, and more.",
+          "link": "https://cloudscape.design/",
+          "publishedOn": "2022-08-03T19:36:04.000Z",
+          "wordCount": 7781,
+          "title": "Cloudscape Design System",
+          "imageUrl": "https://cloudscape.design/Open-graph-image.png"
+        },
+        {
+          "id": "dZ7QBwdvLM45diYH3",
+          "author": "@webflow",
+          "description": "Audio logos are more than just catchy riffs. Learn more about what they are, why they’re so effective, and how you can get your own unique tune.",
+          "link": "https://webflow.com/blog/audio-logos",
+          "publishedOn": "2022-08-03T19:33:05.000Z",
+          "wordCount": 3307,
+          "title": "Audio logos: what they are, why they work, and how to use them",
+          "imageUrl": "https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/62e7da3d602a63cb7c38d62c_Audio%20Logo.png"
+        },
+        {
+          "id": "koiZzdDowQHoEQWFn",
+          "author": "@CSS",
+          "description": "When working with CSS Grid, the first thing to do is to set display: grid on the element that we want to be become a grid container. Then we explicitly define",
+          "link": "https://css-tricks.com/exploring-css-grids-implicit-grid-and-auto-placement-powers/",
+          "publishedOn": "2022-08-02T20:52:53.000Z",
+          "wordCount": 5409,
+          "title": "Exploring CSS Grid’s Implicit Grid and Auto-Placement Powers",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/367178"
+        },
+        {
+          "id": "zWn5fEaH5c7HSczTA",
+          "author": "@webflow",
+          "description": "Generational marketing research and trends tell us that there just might be a shade for every age.",
+          "link": "https://webflow.com/blog/generational-marketing-colors",
+          "publishedOn": "2022-08-02T20:48:55.000Z",
+          "wordCount": 3349,
+          "title": "How color plays into generational marketing",
+          "imageUrl": "https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/62d714dc3a6641af2551273f_How-colors-play-into-generational-marketing-green.jpg"
+        },
+        {
+          "id": "afZPyjS86epnySAz2",
+          "author": "@uxdesigncc",
+          "description": "The real learning begins in your first years, and it is up to design leaders to set new designers up for success.",
+          "link": "https://uxdesign.cc/junior-designers-need-your-help-265b39914491",
+          "publishedOn": "2022-08-02T20:47:51.000Z",
+          "wordCount": 5261,
+          "title": "Junior designers need your help",
+          "imageUrl": "https://miro.medium.com/max/1200/1*Ia8n3xVptN0JU7qZz6MaYg.jpeg"
+        },
         {
           "id": "sQocs6kQ7zyafyzMY",
           "author": "@smashingmag",
@@ -6647,56 +6787,6 @@
           "wordCount": 1847,
           "title": "What background color should your data vis have?",
           "imageUrl": "https://blog.datawrapper.de/wp-content/uploads/2022/06/yayayay2-1.png"
-        },
-        {
-          "id": "STGGYhLQxSZbMpfjJ",
-          "author": "@mrcndrw",
-          "description": "In this article I’ve compiled a list of helpful tips when using Figma Component Properties in your workflow.",
-          "link": "https://www.marcandrew.me/6-super-helpful-tips-when-working-with-figma-component-properties/",
-          "publishedOn": "2022-07-05T05:28:53.000Z",
-          "wordCount": 2090,
-          "title": "6 Tips when working with Figma Component Properties",
-          "imageUrl": "https://images.unsplash.com/photo-1655720406770-12ea329b5b61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDR8fDNkfGVufDB8fHx8MTY1Njk0MTg3Mw&ixlib=rb-1.2.1&q=80&w=2000"
-        },
-        {
-          "id": "ugfj8nWtoBivrW2vj",
-          "author": "@askusforideas",
-          "description": "Creativity is the most powerful part of business. AUFI asked some of the world’s most creative minds to define what creativity is.",
-          "link": "https://creativestudy.aufi.com/",
-          "publishedOn": "2022-07-05T05:21:47.000Z",
-          "wordCount": 1465,
-          "title": "The Creative Study",
-          "imageUrl": "https://creativestudy.aufi.com/img/open-graph/CS-Open-Graph-Home.png"
-        },
-        {
-          "id": "MeB7Xb8AsPcy83jq2",
-          "author": "@observablehq",
-          "description": "Visualizing a dataset of research in visualization sounded a bit meta, but intriguing…",
-          "link": "https://observablehq.com/@observablehq/vispubdata",
-          "publishedOn": "2022-07-05T05:19:43.000Z",
-          "wordCount": 2385,
-          "title": "Visualization Publication Dataset",
-          "imageUrl": "https://static.observableusercontent.com/thumbnail/5d3dbfa1f19560203f9d204c4675e761a36548c698622b9488e481bacc664206.jpg"
-        },
-        {
-          "id": "XnhG42qFDs7PYwRYM",
-          "author": "@CSS",
-          "description": "The whole reason text-overflow exists is to specify the behavior of text once it flows over the container.",
-          "link": "https://yatil.net/blog/text-overflow-ellipsis-harmful",
-          "publishedOn": "2022-07-05T05:16:17.000Z",
-          "wordCount": 766,
-          "title": "Text-overflow: ellipsis considered harmful",
-          "imageUrl": "https://yatil.net/blog/text-overflow-ellipsis-harmful/og-image.png"
-        },
-        {
-          "id": "C3LHboq5JzXQnB3vS",
-          "author": "@fastcompany",
-          "description": "Every year, the AIGA recognizes the best designed book covers. This year’s winners highlight the vibrancy and diversity of the moment.",
-          "link": "https://www.fastcompany.com/90765566/see-the-50-most-striking-book-covers-of-the-year",
-          "publishedOn": "2022-07-05T01:26:35.000Z",
-          "wordCount": 28539,
-          "title": "See the 50 most striking book covers of the year",
-          "imageUrl": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2022/06/p-1-90765566-AIGA-covers.jpg"
         }
       ]
     },
@@ -7076,6 +7166,26 @@
       "feedUrl": "https://www.printmag.com/feed/",
       "siteUrl": "https://www.printmag.com",
       "articles": [
+        {
+          "id": "https://www.printmag.com/?p=733467",
+          "author": "Ken Carbone",
+          "description": "The designer and self-described flâneur reveals his sketches and insights from 20 years of adventures, both abroad and in the States.",
+          "link": "https://www.printmag.com/creative-voices/ken-carbones-wonderlust-have-sketchbook-will-travel/",
+          "publishedOn": "2022-08-03T16:00:00.000Z",
+          "wordCount": 2240,
+          "title": "Ken Carbone’s Wonderlust: Have Sketchbook, Will Travel",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/AUG-banner.jpg?fit=1200%2C445&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=733146",
+          "author": "Steven Heller",
+          "description": "Randy Hunt enlisted the help of a defunct AI to create his “Lonely Bankers.”",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-nft-as-art/",
+          "publishedOn": "2022-08-03T11:00:00.000Z",
+          "wordCount": 2169,
+          "title": "The Daily Heller: NFT ART for Sale",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/Screen-Shot-2022-07-27-at-5.46.53-PM.png?fit=439%2C446&ssl=1"
+        },
         {
           "id": "https://www.printmag.com/?p=733155",
           "author": "Chloe Gordon",
@@ -7805,16 +7915,6 @@
           "wordCount": 1595,
           "title": "Taylor Yoon Examines the Secret Histories of the Color Yellow",
           "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/428-1.png?fit=1080%2C1080&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=731495",
-          "author": "Steven Heller",
-          "description": "“Letras Que Flutuam” documents the art of boat decoration found flourishing throughout the Brazilian state of Pará, along the Amazon River.",
-          "link": "https://www.printmag.com/daily-heller/the-daily-heller-seagoing-painted-letters/",
-          "publishedOn": "2022-07-05T11:00:00.000Z",
-          "wordCount": 1939,
-          "title": "The Daily Heller: Amazonian Painted Letters Rolling on the River",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/06/Flutuam0004-1.jpg?fit=1200%2C864&ssl=1"
         }
       ]
     },
@@ -7835,6 +7935,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/08/migration-jquery-next-js-guide/",
+          "author": "hello@smashingmagazine.com (Sam Robbins)",
+          "description": "We’re going to walk through how to migrate your site from jQuery to [React](/category/React) with [Next.js](/category/next.js). This will help with performance and the maintainability of your code.",
+          "link": "https://smashingmagazine.com/2022/08/migration-jquery-next-js-guide/",
+          "publishedOn": "2022-08-03T12:00:00.000Z",
+          "wordCount": 4541,
+          "title": "Migration From jQuery to Next.js: A Guide",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6cee417f-9daf-47d5-957c-0299c43b292d/rewriting-a-jquery-site-to-nextjs-card.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6cee417f-9daf-47d5-957c-0299c43b292d/rewriting-a-jquery-site-to-nextjs-card.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2022/08/fluid-sizing-multiple-media-queries/",
           "author": "hello@smashingmagazine.com (Ruslan Yevych)",
@@ -8074,36 +8189,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/37c160fe-99a6-4e3f-b754-dda006ff84fa/designing-better-pricing-page-sharing-card.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/07/build-localized-website-hugo-strapi/",
-          "author": "hello@smashingmagazine.com (Zara Cooper)",
-          "description": "In this tutorial, Zara Cooper explains how to use Strapi’s Internationalization feature to create content in multiple languages. You’ll also learn how to create a Hugo site that consumes localized content from Strapi.",
-          "link": "https://smashingmagazine.com/2022/07/build-localized-website-hugo-strapi/",
-          "publishedOn": "2022-07-05T09:00:00.000Z",
-          "wordCount": 7229,
-          "title": "How To Build A Localized Website With Hugo And Strapi",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/497caaf3-63f0-4dde-9a46-07486cec03a9/build-localized-website-hugo-strapi.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/497caaf3-63f0-4dde-9a46-07486cec03a9/build-localized-website-hugo-strapi.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/07/accelerating-ux-maturity-breakthrough-project/",
-          "author": "hello@smashingmagazine.com (John Scott Bowie)",
-          "description": "In this article, John Scott Bowie shares the story of 40 years of attempts to advance corporate UX maturity that — after numerous initiatives with marginal results — culminated in a breakthrough project that accelerated a company’s UX maturity from “Emergent” to “User-Driven” in less than a year.",
-          "link": "https://smashingmagazine.com/2022/07/accelerating-ux-maturity-breakthrough-project/",
-          "publishedOn": "2022-07-04T14:00:00.000Z",
-          "wordCount": 5578,
-          "title": "Accelerating UX Maturity With A Breakthrough Project",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/266042e4-990d-4e79-bdf2-ad217d6577c1/accelerating-ux-maturity-breakthrough-project.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/266042e4-990d-4e79-bdf2-ad217d6577c1/accelerating-ux-maturity-breakthrough-project.jpg"
         }
       ]
     },
