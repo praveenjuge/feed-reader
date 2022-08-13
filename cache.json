@@ -30,6 +30,16 @@
       "siteUrl": "https://adrianroselli.com",
       "articles": [
         {
+          "id": "https://adrianroselli.com/?p=17065",
+          "author": "Adrian Roselli",
+          "description": "The U.S. Federal Trade Commission on August 11, 2022 announced it is exploring rules cracking down on commercial surveillance and lax data security practices. The sub-heading of that press release plainly states it is seeking public comment on harms from the business of collecting, analyzing, and monetizing information about people.…",
+          "link": "https://adrianroselli.com/2022/08/ftc-commercial-surveillance-and-overlays.html",
+          "publishedOn": "2022-08-12T19:31:08.000Z",
+          "wordCount": 2330,
+          "title": "FTC, Commercial Surveillance, and Overlays",
+          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2022/08/FTC-seal-300x300.png"
+        },
+        {
           "id": "https://adrianroselli.com/?p=16971",
           "author": "Adrian Roselli",
           "description": "If you build calendars on the web and abbreviate the days in the column headings (you do use column headings, yeah?), this is how it sounds to a JAWS user. Sorry, your browser doesn’t support embedded videos, but don’t worry, you can download it. The caption file is also available…",
@@ -499,16 +509,6 @@
           "wordCount": 1854,
           "title": "Office Spaces",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/366905"
-        },
-        {
-          "id": "https://css-tricks.com/?p=366770",
-          "author": "Blessing Ene Anyebe",
-          "description": "Hooks are reusable functions. They allow you to use state and other features (e.g. lifecycle methods and so on) without writing a class. Hook functions let us “hook into” the React state lifecycle using functional components, allowing us to manipulate …\nReact Hooks: The Deep Cuts originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/react-hooks-the-deep-cuts/",
-          "publishedOn": "2022-07-13T13:34:08.000Z",
-          "wordCount": 2553,
-          "title": "React Hooks: The Deep Cuts",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/366770"
         }
       ]
     },
@@ -976,36 +976,6 @@
           "wordCount": 2746,
           "title": "Using Grids in Interface Designs",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10270",
-          "author": "Adam Marsden",
-          "description": "Design",
-          "link": "https://dailydevlinks.com/65-striking-examples-of-css-range-slider-designs/",
-          "publishedOn": "2022-07-14T07:35:00.000Z",
-          "wordCount": 2755,
-          "title": "65 Striking Examples of CSS Range Slider Designs",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10267",
-          "author": "Adam Marsden",
-          "description": "HTML",
-          "link": "https://dailydevlinks.com/level-up-your-headings-game/",
-          "publishedOn": "2022-07-14T06:06:00.000Z",
-          "wordCount": 2749,
-          "title": "Level Up Your Headings Game",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10273",
-          "author": "Adam Marsden",
-          "description": "UI",
-          "link": "https://dailydevlinks.com/the-cost-of-consistency-in-ui-frameworks/",
-          "publishedOn": "2022-07-14T06:00:00.000Z",
-          "wordCount": 2756,
-          "title": "The Cost of Consistency in UI Frameworks",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
         }
       ]
     },
@@ -1023,16 +993,6 @@
           "wordCount": 931,
           "title": "Delete Git Branches That Have Been Merged",
           "imageUrl": "https://daveceddia.com/images/clean-up-merged-git-branches.png"
-        },
-        {
-          "id": "https://daveceddia.com/sketchup-make-2017-on-m1-mac-monterey/",
-          "author": null,
-          "description": "I tried to run the old standalone version of SketchUp Make 2017 on my modern M1 Mac running macOS Monterey 12.4 recently. At first it went pretty badly, crashing on startup with the error “SketchUp quit unexpectedly.”\n\nBut I got it working!\nHere’s how to get it running by removing the code signature.\nThe main clue came when I tried running it from the Terminal, to see if it\nwould show a more useful error. I got the same popup error, but also this:\nrosetta error: /var/db/blahblah/SketchUp.aot: attachment of code signature supplement failed: 1\nzsh: trace trap  /Applications/SketchUp\\ 2017/SketchUp.app/Contents/MacOS/SketchUp\n\n“attachment of code signature supplement failed”, eh?\nWe’ll just remove that code signature, then… from absolutely everything inside the app.\nTo do this, launch the Ter…",
-          "link": "https://daveceddia.com/sketchup-make-2017-on-m1-mac-monterey/",
-          "publishedOn": "2022-07-14T00:22:58.000Z",
-          "wordCount": 704,
-          "title": "How to Run SketchUp Make 2017 on an M1 Mac with macOS Monterey",
-          "imageUrl": null
         }
       ]
     },
@@ -1182,6 +1142,16 @@
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
         {
+          "id": "https://developer.chrome.com/en/blog/new-in-devtools-105/",
+          "author": null,
+          "description": "Interested in helping improve DevTools? Sign up to participate in Google User Research here.\n# Step-by-step replay in the Recorder\nYou can now set a breakpoint and replay a user flow step by step in the Recorder panel.\nTo set a breakpoint, click on the blue dot next to a step. Replay your user flow, the replay will pause before executing the step. From here, you can continue the replay, execute a step, or cancel the replay.\nWith this feature, you can fully visualize and debug your user flow with ease.\nSee Recorder features reference for more information.\nChromium issue: 1257499\n# Support mouse over event in the Recorder panel\nThe Recorder now supports adding a mouse over (hover) step manually in a recording.\nThis demo shows a pop up menu on hover. Try to record a user flow and click a menu…",
+          "link": "https://developer.chrome.com/en/blog/new-in-devtools-105/",
+          "publishedOn": "2022-08-12T00:00:00.000Z",
+          "wordCount": 4192,
+          "title": "What's New In DevTools (Chrome 105)",
+          "imageUrl": "https://wd.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/CV693oOk6vAi1SodRYBK.jpg?auto=format&w=1521"
+        },
+        {
           "id": "https://developer.chrome.com/en/blog/devtools-tips-12/",
           "author": null,
           "description": "The Chrome DevTools Animations tab is a powerful tool that helps you slow down, replay, adjust CSS animation timings, and see the results right away.\n\n\nThe Animations tab, while open, records animations automatically, conveniently groups them, and lets you:\nReplay and slow down animations to better inspect them.\nAdjust durations, timings, and delays by dragging points in a timeline instead of guessing and setting CSS values manually.\nAdditionally, you can edit the easing timings and set custom cubic-bezier curve values with the Easing Editor in the Elements > Styles pane. To learn more, see Edit animation and transition timings with the Easing Editor.\nFor a more hands-on learning experience, follow the Inspect and modify CSS animation effects guide.",
@@ -1320,16 +1290,6 @@
           "wordCount": 992,
           "title": "An Update On Chrome’s Web Framework Funding for 2022",
           "imageUrl": "https://wd.imgix.net/image/1L2RBhCLSnXjCnSlevaDjy3vba73/xHPqj5xUmOnkYzSIusQe.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/devtools-tips-10/",
-          "author": null,
-          "description": "User preference media features give you the ability to style web experiences that align with the user's own specific preferences and needs. In other words, preference media features allow you to adapt your user experiences to your user's expectations.\n\n\nYou can enhance the user experience of your website by taking the following three steps:\nDiscover the possibilities. Learn all the user preference media features.\nStyle your web experiences. Implement, for example, color, layout, and element size changes based on the preferences.\nTest the UI. In DevTools, emulate the preferences and test how your website behaves.\nDevTools supports a variety of emulation options. To help you avoid searching for and adjusting system and browser settings, all the emulation options reside in one place—under the Rendering tab in DevTools.\nThe emulation options of the user's preferences include but are not limited to:\nprefers-color scheme—light or dark color scheme\nprefers-contrast—lower or higher contrast\nprefers-reduced-motion—minimize motion or not\nprefers-reduced-data—consume less traffic or not\nFor a comprehensive list of all emulation options, see Emulate CSS media features.\nTo discover more effects you can apply using the Rendering tab, see the Rendering tab overview.\nAdditionally, with DevTools, your testing capabilities aren't limited to the single device you're working on. You can Simulate mobile devices with Device Mode.",
-          "link": "https://developer.chrome.com/en/blog/devtools-tips-10/",
-          "publishedOn": "2022-07-14T00:00:00.000Z",
-          "wordCount": 753,
-          "title": "DevTools Tips: How to emulate CSS user preference media features with DevTools",
-          "imageUrl": "https://wd.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/mwoHOwiWz8gtuJ40hR7x.png?auto=format&w=1521"
         }
       ]
     },
@@ -1436,6 +1396,26 @@
       "siteUrl": "https://fs.blog/",
       "articles": [
         {
+          "id": "https://fs.blog/?p=48157",
+          "author": "Farnam Street",
+          "description": "Tit for tat is a strategy which, according to game theory, is the most effective choice for iterated games based on mutual cooperation or defection. Both players benefit if they cooperate, but one benefits and the other loses out if only they defect, and both lose out to a lesser extent if they simultaneously defect. …\nThe post Tit For Tat appeared first on Farnam Street.",
+          "link": "https://fs.blog/tit-for-tat/",
+          "publishedOn": "2022-08-12T15:13:33.000Z",
+          "wordCount": 959,
+          "title": "Tit For Tat",
+          "imageUrl": "https://149664534.v2.pressablecdn.com/wp-content/uploads/2022/08/tit-for-tat.png"
+        },
+        {
+          "id": "https://fs.blog/?p=48148",
+          "author": "Farnam Street",
+          "description": "This article is an excerpt from the bestselling book The Great Mental Models Volume 2: Physics, Chemistry and Biology Reciprocity teaches us why win-win relationships are the way to go, why waiters leave candies with the bill, why it’s a good idea to use the least force possible to secure an outcome, and why a …\nThe post Reciprocity: Getting What You Give appeared first on Farnam Street.",
+          "link": "https://fs.blog/reciprocity/",
+          "publishedOn": "2022-08-12T15:05:04.000Z",
+          "wordCount": 3588,
+          "title": "Reciprocity: Getting What You Give",
+          "imageUrl": "https://149664534.v2.pressablecdn.com/wp-content/uploads/2022/08/Reciprocity.png"
+        },
+        {
           "id": "https://fs.blog/?p=48008",
           "author": "Farnam Street",
           "description": "We are drowning in information. Most of that information is irrelevant. If only we could sort what matters from what doesn’t? The good news is, you can train your brain to quickly evaluate the quality of informaiton. Not only can you quickly determine if someone knows what they are talking about but you can sort …\nThe post Evaluating Information: Find the Signal in the Noise appeared first on Farnam Street.",
@@ -1478,6 +1458,56 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=66018",
+          "author": "Travis",
+          "description": "Developers don’t want to own the UI design because they’d rather focus on programming but designers can’t own the design implementation because it’s too tightly coupled to complex front-end logic.",
+          "link": "https://heydesigner.com/the-design-execution-gap/",
+          "publishedOn": "2022-08-12T08:22:35.000Z",
+          "wordCount": 204,
+          "title": "The design execution gap",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66016",
+          "author": "Travis",
+          "description": "A four-step process for overcoming a failed design experiment.",
+          "link": "https://heydesigner.com/growth-design-and-the-art-of-failing-successfully/",
+          "publishedOn": "2022-08-12T08:18:53.000Z",
+          "wordCount": 199,
+          "title": "Growth design and the art of failing successfully",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66014",
+          "author": "Travis",
+          "description": "Over my career, I’ve had to work hard on giving people tough feedback.",
+          "link": "https://heydesigner.com/2-quick-tricks-to-make-giving-feedback-easier/",
+          "publishedOn": "2022-08-12T08:17:52.000Z",
+          "wordCount": 203,
+          "title": "2 quick tricks to make giving feedback easier",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66012",
+          "author": "Travis",
+          "description": "A design system for building retro Apple inspired interfaces.",
+          "link": "https://heydesigner.com/system-css/",
+          "publishedOn": "2022-08-12T08:16:30.000Z",
+          "wordCount": 186,
+          "title": "System.css",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66010",
+          "author": "Travis",
+          "description": "It’s a relatively new value for the overflow property.",
+          "link": "https://heydesigner.com/do-you-know-about-overflow-clip/",
+          "publishedOn": "2022-08-12T08:14:43.000Z",
+          "wordCount": 196,
+          "title": "Do you know about overflow: clip?",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=66007",
           "author": "Travis",
@@ -2177,56 +2207,6 @@
           "wordCount": 202,
           "title": "Healthier communication patterns",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65812",
-          "author": "Travis",
-          "description": "A user interface is the space where interactions between humans and machines occur.",
-          "link": "https://heydesigner.com/the-history-of-user-interfaces/",
-          "publishedOn": "2022-07-14T10:41:41.000Z",
-          "wordCount": 197,
-          "title": "The history of user interfaces",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65810",
-          "author": "Travis",
-          "description": "How to make the perfect portfolio and four other cheat codes.",
-          "link": "https://heydesigner.com/perfect-portfolio/",
-          "publishedOn": "2022-07-14T10:40:21.000Z",
-          "wordCount": 188,
-          "title": "Perfect portfolio",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65808",
-          "author": "Travis",
-          "description": "Atomize your components with the Marie Kondo style, and speed up the growth of your Design System.",
-          "link": "https://heydesigner.com/design-a-scalable-design-system/",
-          "publishedOn": "2022-07-14T10:36:51.000Z",
-          "wordCount": 201,
-          "title": "Design a scalable design system",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65806",
-          "author": "Travis",
-          "description": "My career grew dramatically every time I got a new manager, because I learn something new from them.",
-          "link": "https://heydesigner.com/layering-a-team/",
-          "publishedOn": "2022-07-14T10:36:10.000Z",
-          "wordCount": 198,
-          "title": "Layering a team",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65804",
-          "author": "Travis",
-          "description": "In web development, we frequently need to style elements to visually indicate some state they’re in.",
-          "link": "https://heydesigner.com/style-with-stateful-semantic-selectors/",
-          "publishedOn": "2022-07-14T10:33:56.000Z",
-          "wordCount": 201,
-          "title": "Style with stateful, semantic selectors",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2235,6 +2215,106 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32445384",
+          "author": "eternalban",
+          "description": "Article URL: https://cobe.dk/place/kroyers-plads\nComments URL: https://news.ycombinator.com/item?id=32445384\nPoints: 1\n# Comments: 0",
+          "link": "https://cobe.dk/place/kroyers-plads",
+          "publishedOn": "2022-08-12T23:56:19.000Z",
+          "wordCount": 1725,
+          "title": "Dialogue as design parameter – Krøyers Plads, Copenhagen",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32442496",
+          "author": "PaulHoule",
+          "description": "I'm at the point where I am starting to write shaders to do custom effects in WebGL,  such as combining a left and a right image to make an anaglyph image.\nWhat I'm thinking about next is about how to make \"game like\" UIs on the web for desktop and mobile.  Some things that I am inspired by are:\n(1) The Playstation 3 interface https://en.wikipedia.org/wiki/XrossMediaBar\n(2) Interfaces in video games for viewing a database or documentation about the game world.  I'd like to make something similar but for some part of the real world.\nThe Pokédex from Pokémon is a familiar example but it's not such a good one because Pokémon games mostly run on low-spec handhelds,  so I am thinking more about what you'd see on a PC or TV console games...  But instead of using a game controller you'd be using the touchscreen,  mouse or keyboard.\n(3) However I very much like how games for the Nintendo DS/3DS use the touchscreen such as peeling stickers in Paper Mario Sticker Star and how you can make Luigi fight in the boss battles in Mario and Luigi Dream Team.  So some advanced capability for touch gestures is wanted.\nI'd prefer programming in Javascript,  could accept Typescript but it would be a hard sell if it (say) compiled something else to WebAssembly unless that came with awesome capabilities.\nComments URL: https://news.ycombinator.com/item?id=32442496\nPoints: 2\n# Comments: 2",
+          "link": "https://news.ycombinator.com/item?id=32442496",
+          "publishedOn": "2022-08-12T18:50:37.000Z",
+          "wordCount": 430,
+          "title": "Ask HN: Frameworks for game-style UI with WebGL?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32440171",
+          "author": "oldstrangers",
+          "description": "Howdy HN! Been working on a side project of mine for about a year called Gloutir. It's essentially an 'agency of one' design and development service using a subscription or retainer model for billing (Stripe + Memberstack).\nI primarily focus on WordPress and Webflow design and development as I realized long ago that there's a huge demand for these services  in the design / marketing agency space.\nI've had a lot of success the past year with this work, and surprisingly (or unsurprisingly) every single client of mine has been a larger agency needing additional help. That kind of makes sense because an agency can immediately see the value in what I offer without really having to be convinced.\nRecently I've introduced a weekly option for clients looking to launch fast and spend less ($1,000 a week, maybe not sustainable but we’ll see). I'd love to get more involved with startups needing landing page work / design services.\nThere are a number of people doing stuff like this, but I do want to clarify that this is never going to be an \"unlimited design\" style subscription service. I've intentionally set a hard cap on the number of clients because it's simply impossible to accommodate more than a certain number of clients while keeping the quality of work where it needs to be.\nAnywho, curious what you all think and if you have any suggestions on how to improve.\nhttps://gloutir.com/\nAbout me: full time designer and developer at an agency. Can see more of my work at https://zchry.org.\nComments URL: https://news.ycombinator.com/item?id=32440171\nPoints: 2\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=32440171",
+          "publishedOn": "2022-08-12T15:39:17.000Z",
+          "wordCount": 353,
+          "title": "Show HN: Agency quality design and development for a very un-agency like price",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32439855",
+          "author": "KentBeck",
+          "description": "Article URL: https://tidyfirst.substack.com/p/reversible-structure-changes\nComments URL: https://news.ycombinator.com/item?id=32439855\nPoints: 2\n# Comments: 1",
+          "link": "https://tidyfirst.substack.com/p/reversible-structure-changes",
+          "publishedOn": "2022-08-12T15:17:15.000Z",
+          "wordCount": 1282,
+          "title": "Software design decisions are (mostly) reversible",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32438843",
+          "author": "Gabriel_h",
+          "description": "Article URL: https://meticulous.ai/blog/javascript-ui-testing-best-practices/\nComments URL: https://news.ycombinator.com/item?id=32438843\nPoints: 2\n# Comments: 0",
+          "link": "https://meticulous.ai/blog/javascript-ui-testing-best-practices/",
+          "publishedOn": "2022-08-12T14:05:14.000Z",
+          "wordCount": 2254,
+          "title": "JavaScript UI testing best practices",
+          "imageUrl": "https://ucarecdn.com/50b249bc-a84f-476b-b7bf-dea3a0b79757/image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32437188",
+          "author": "unsafecast",
+          "description": "Article URL: https://skarnet.org/software/execline/grammar.html\nComments URL: https://news.ycombinator.com/item?id=32437188\nPoints: 2\n# Comments: 0",
+          "link": "https://skarnet.org/software/execline/grammar.html",
+          "publishedOn": "2022-08-12T12:02:51.000Z",
+          "wordCount": 761,
+          "title": "The execline language design and grammar",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32437170",
+          "author": "dennis-tra",
+          "description": "Article URL: https://arxiv.org/abs/2208.05877\nComments URL: https://news.ycombinator.com/item?id=32437170\nPoints: 1\n# Comments: 0",
+          "link": "https://arxiv.org/abs/2208.05877",
+          "publishedOn": "2022-08-12T12:01:00.000Z",
+          "wordCount": 765,
+          "title": "Design and Evaluation of IPFS: A Storage Layer for the Decentralized Web",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32436667",
+          "author": "jcfrei",
+          "description": "Article URL: https://www.adweek.com/commerce/heinz-taps-ai-design-next-ad-campaign/\nComments URL: https://news.ycombinator.com/item?id=32436667\nPoints: 1\n# Comments: 0",
+          "link": "https://www.adweek.com/commerce/heinz-taps-ai-design-next-ad-campaign/",
+          "publishedOn": "2022-08-12T10:49:33.000Z",
+          "wordCount": 3089,
+          "title": "Heinz Taps State-of-the-Art AI to Design Its Next Ad Campaign",
+          "imageUrl": "https://static-prod.adweek.com/wp-content/uploads/2022/08/heinz-ai-ketchup-design-2022-600x315.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32436527",
+          "author": "Akcium",
+          "description": "Article URL: http://static.lukew.com/webforms_lukew.pdf\nComments URL: https://news.ycombinator.com/item?id=32436527\nPoints: 1\n# Comments: 0",
+          "link": "http://static.lukew.com/webforms_lukew.pdf",
+          "publishedOn": "2022-08-12T10:25:09.000Z",
+          "wordCount": 96501,
+          "title": "Best Practices for Form Design [pdf]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32435609",
+          "author": "dotbrand",
+          "description": "Article URL: https://www.dotbrand.design\nComments URL: https://news.ycombinator.com/item?id=32435609\nPoints: 1\n# Comments: 1",
+          "link": "https://www.dotbrand.design/",
+          "publishedOn": "2022-08-12T07:42:23.000Z",
+          "wordCount": 6082,
+          "title": "DotBRAND-Design Workflow Platform for Designers",
+          "imageUrl": "https://static.wixstatic.com/media/b409c3_bd33d0c2a6984744af33488927f0b874~mv2.jpg/v1/fill/w_1920,h_1080,al_c/b409c3_bd33d0c2a6984744af33488927f0b874~mv2.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32432399",
           "author": "aaossa",
@@ -3964,56 +4044,6 @@
           "wordCount": null,
           "title": "Show HN: An accessible, responsive web-based graphic design GUI experiment",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32093879",
-          "author": "maheshs",
-          "description": "I have build many small size web apps.\nI lack experience in designing medium to large application. I tried to read system design content but not able to gain confidence.\nHow can I do the hands-on practice of system design concepts. Please your tips, resources, plan etc.\nComments URL: https://news.ycombinator.com/item?id=32093879\nPoints: 4\n# Comments: 2",
-          "link": "https://news.ycombinator.com/item?id=32093879",
-          "publishedOn": "2022-07-14T09:39:22.000Z",
-          "wordCount": 223,
-          "title": "Ask HN: What is best way to do hands-on practice for system design?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32088787",
-          "author": "uptownfunk",
-          "description": "Comments URL: https://news.ycombinator.com/item?id=32088787\nPoints: 1\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=32088787",
-          "publishedOn": "2022-07-13T21:08:47.000Z",
-          "wordCount": 122,
-          "title": "Ask HN: Good resources to learn about programming language design?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32087293",
-          "author": "WoodenChair",
-          "description": "Article URL: https://www.macrumors.com/2022/07/12/apple-ends-jony-ive-partnership/\nComments URL: https://news.ycombinator.com/item?id=32087293\nPoints: 16\n# Comments: 9",
-          "link": "https://www.macrumors.com/2022/07/12/apple-ends-jony-ive-partnership/",
-          "publishedOn": "2022-07-13T19:00:53.000Z",
-          "wordCount": 3268,
-          "title": "Apple Ends Partnership with Former Design Chief Jony Ive",
-          "imageUrl": "https://images.macrumors.com/t/yG7hRo2xmf84qebcyukPl_iHpY4=/1600x/article-new/2021/05/jony-ive-2021-imac-feature-2.5.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32086164",
-          "author": "etienne_devtool",
-          "description": "Article URL: https://dev-tools.ai/docs/cypressio-basic-test-case\nComments URL: https://news.ycombinator.com/item?id=32086164\nPoints: 2\n# Comments: 0",
-          "link": "https://dev-tools.ai/docs/cypressio-basic-test-case",
-          "publishedOn": "2022-07-13T17:43:42.000Z",
-          "wordCount": 335,
-          "title": "Cypress.io SDK to auto-heal broken UI selectors by Dev Tools (YC S22)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32082996",
-          "author": "marzipanina",
-          "description": "Article URL: https://open.spotify.com/episode/1blALFuRllGMu64tDMQDZE\nComments URL: https://news.ycombinator.com/item?id=32082996\nPoints: 1\n# Comments: 0",
-          "link": "https://open.spotify.com/episode/1blALFuRllGMu64tDMQDZE",
-          "publishedOn": "2022-07-13T14:11:39.000Z",
-          "wordCount": 479,
-          "title": "A second part of our UX Research in Africa Podcast series is out",
-          "imageUrl": "https://i.scdn.co/image/ab6765630000ba8a362027cbdf37777d05e48791"
         }
       ]
     },
@@ -4022,6 +4052,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32441215",
+          "author": "alihm",
+          "description": "Article URL: https://www.piie.com/blogs/realtime-economic-issues-watch/record-us-productivity-slump-first-half-2022-risks-higher\nComments URL: https://news.ycombinator.com/item?id=32441215\nPoints: 29\n# Comments: 5",
+          "link": "https://www.piie.com/blogs/realtime-economic-issues-watch/record-us-productivity-slump-first-half-2022-risks-higher",
+          "publishedOn": "2022-08-12T16:59:23.000Z",
+          "wordCount": 3477,
+          "title": "Record US productivity slump in first half of 2022 risks higher inflation",
+          "imageUrl": "https://www.piie.com/sites/default/files/header-images/rc23lt9ecxzf-wo.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32426827",
           "author": "handheldmouse",
@@ -4639,6 +4679,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32435635",
+          "author": "memorable",
+          "description": "Article URL: https://github.com/codedgar/Puppertino\nComments URL: https://news.ycombinator.com/item?id=32435635\nPoints: 2\n# Comments: 0",
+          "link": "https://github.com/codedgar/Puppertino",
+          "publishedOn": "2022-08-12T07:46:06.000Z",
+          "wordCount": 998,
+          "title": "Puppertino: A CSS framework based on Human Guidelines from Apple",
+          "imageUrl": "https://repository-images.githubusercontent.com/222181584/c4b7cc80-c3b8-11ea-94d2-d2e91cd20845"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32429848",
           "author": "surrTurr",
@@ -5368,36 +5418,6 @@
           "wordCount": 6158,
           "title": "Show HN: Visually edit any tailwind CSS website/template by simply importing it",
           "imageUrl": "https://res.cloudinary.com/speedwares/image/upload/v1643030535/awindframe-tailwind_np56sa.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32088532",
-          "author": "gcollard-",
-          "description": "Article URL: https://github.com/unocss/unocss\nComments URL: https://news.ycombinator.com/item?id=32088532\nPoints: 1\n# Comments: 0",
-          "link": "https://github.com/unocss/unocss",
-          "publishedOn": "2022-07-13T20:46:02.000Z",
-          "wordCount": 2861,
-          "title": "Unocss: Instant on-demand atomic CSS engine",
-          "imageUrl": "https://repository-images.githubusercontent.com/412152628/30d80147-4535-4ff1-9837-b9015eecbb07"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32084506",
-          "author": "tusslewake",
-          "description": "Article URL: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn\nComments URL: https://news.ycombinator.com/item?id=32084506\nPoints: 1\n# Comments: 0",
-          "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn",
-          "publishedOn": "2022-07-13T15:58:20.000Z",
-          "wordCount": 3044,
-          "title": "The Definition HTML Element",
-          "imageUrl": "https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32084030",
-          "author": "PJijin",
-          "description": "Article URL: https://github.com/Devzstudio/tailwind_to_css\nComments URL: https://news.ycombinator.com/item?id=32084030\nPoints: 1\n# Comments: 0",
-          "link": "https://github.com/Devzstudio/tailwind_to_css",
-          "publishedOn": "2022-07-13T15:27:53.000Z",
-          "wordCount": 539,
-          "title": "Show HN: An app for converting tailwind classes to CSS",
-          "imageUrl": "https://opengraph.githubassets.com/5471808eae2dcaee46430235935348aaf3e3c89ea15b7d41ed02a08fc5671160/Devzstudio/tailwind_to_css"
         }
       ]
     },
@@ -5459,6 +5479,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=43538",
+          "author": "Seth Godin",
+          "description": "Oppositional energy is easy to create and spread. Once you pick a ‘they’, then it’s simply a matter of doing the opposite of whatever ‘they’ recommend. It’s a lazy shortcut, one that divides, demonizes and causes us to suspend our instincts toward better. It works great in marketing a sports team, but it stops being […]",
+          "link": "https://seths.blog/2022/08/naysayers-and-the-grifters/",
+          "publishedOn": "2022-08-12T08:54:00.000Z",
+          "wordCount": 1186,
+          "title": "Naysayers (and the grifters)",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
+        },
         {
           "id": "https://seths.blog/?p=43534",
           "author": "Seth Godin",
@@ -5758,16 +5788,6 @@
           "wordCount": 1220,
           "title": "The correlation",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43365",
-          "author": "Seth Godin",
-          "description": "Books used to be a solitary endeavor. Ironically, it took the network effect and noise of the web to flip that idea upside down. Now, a book is a totem, a chance to share, an item to be discussed, a physical instantiation of an idea that can be drawn on, exchanged or simply sit on […]",
-          "link": "https://seths.blog/2022/07/who-will-you-share-it-with/",
-          "publishedOn": "2022-07-14T07:15:00.000Z",
-          "wordCount": 1363,
-          "title": "Who will you share it with?",
-          "imageUrl": null
         }
       ]
     },
@@ -5776,6 +5796,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "vQn4fJC6QxBh9cEMq",
+          "author": "@presentcorrect",
+          "description": "An exceptional type foundry book from Gujarat, India. 1940.",
+          "link": "http://blog.presentandcorrect.com/gujarati-type-foundry",
+          "publishedOn": "2022-08-12T06:28:16.000Z",
+          "wordCount": 495,
+          "title": "Gujarati Type Foundry",
+          "imageUrl": null
+        },
+        {
+          "id": "GDtsdbDsc8oihhtKf",
+          "author": "@sakofchit",
+          "description": "A CSS library that allows you to implement a classic MacOS interface. Based on the monochrome stylings of Apple's System OS that ran from 1984-1991",
+          "link": "https://sakofchit.github.io/system.css/",
+          "publishedOn": "2022-08-12T06:23:05.000Z",
+          "wordCount": 1551,
+          "title": "system.css - a design system for building retro Apple interfaces",
+          "imageUrl": null
+        },
+        {
+          "id": "bqMLKt7vQgZh8ifyE",
+          "author": "@oddbird",
+          "description": "And every ‘best practice’ comes with caveats.",
+          "link": "https://www.oddbird.net/2022/08/04/zero-units/",
+          "publishedOn": "2022-08-12T06:22:51.000Z",
+          "wordCount": 1800,
+          "title": "Not All Zeros are Equal",
+          "imageUrl": "https://www.oddbird.net/assets/images/blog/2022/slip-hazard-1600w.jpeg"
+        },
+        {
+          "id": "FdEZRZX5pCEuSCu5L",
+          "author": "@zazow",
+          "description": "Create your own artwork by using computer generated algorithms. Learn about generative or algorithmic art.",
+          "link": "https://www.zazow.com/",
+          "publishedOn": "2022-08-12T06:21:27.000Z",
+          "wordCount": 352,
+          "title": "Zazow: Algorithmic Generative Art",
+          "imageUrl": "https://www.zazow.com/img/social.jpg"
+        },
+        {
+          "id": "NB3iHbSHe828Gvepp",
+          "author": "@MicrosoftDesign",
+          "description": "Microsoft is making its Fluent Emoji available on Figma and GitHub.",
+          "link": "https://medium.com/microsoft-design/designing-in-the-open-source-5c62be73a599",
+          "publishedOn": "2022-08-12T06:17:58.000Z",
+          "wordCount": 3425,
+          "title": "Microsoft open sourcing Fluent Emoji",
+          "imageUrl": "https://miro.medium.com/max/1200/1*bV11ShwZYOvvvQCfxC6tDA.png"
+        },
         {
           "id": "Tyxex5RhjxbRnmaQH",
           "author": "@AIGAdesign",
@@ -6948,6 +7018,16 @@
       "siteUrl": "https://www.nytimes.com/topic/subject/design",
       "articles": [
         {
+          "id": "https://www.nytimes.com/2022/08/12/t-magazine/wanderlust-shelter-island-new-york.html",
+          "author": "Devorah Lev-Tov",
+          "description": "The once sleepy isle gets updated hotels, a bagelry and a pop-up Marni shop.",
+          "link": "https://www.nytimes.com/2022/08/12/t-magazine/wanderlust-shelter-island-new-york.html",
+          "publishedOn": "2022-08-12T19:00:10.000Z",
+          "wordCount": 6410,
+          "title": "What’s Old Is New Again on Shelter Island",
+          "imageUrl": "https://static01.nyt.com/images/2022/08/12/t-magazine/12tmag-wanderlust-slide-35M8-copy/12tmag-wanderlust-slide-35M8-facebookJumbo.jpg"
+        },
+        {
           "id": "https://www.nytimes.com/2022/08/11/t-magazine/luca-guadagnino-fireplace.html",
           "author": "Nancy Hass",
           "description": "The filmmaker’s pastel hearth, the latest release from his design studio, is another chapter in his longstanding fascination with interiors.",
@@ -7264,6 +7344,26 @@
       "feedUrl": "https://www.printmag.com/feed/",
       "siteUrl": "https://www.printmag.com",
       "articles": [
+        {
+          "id": "https://www.printmag.com/?p=733768",
+          "author": "Chloe Gordon",
+          "description": "This week, we searched Instagram for art that reminds us of romantic, late 20th century airbrush advertisements.",
+          "link": "https://www.printmag.com/color-design/this-airbrush-inspired-art-will-turn-your-instagram-feed-into-a-psychedelic-dream/",
+          "publishedOn": "2022-08-12T14:00:00.000Z",
+          "wordCount": 1933,
+          "title": "This Airbrush-Inspired Art Will Turn Your Instagram Feed into a Psychedelic Dream",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/292201181_595976212153531_8005996647803731055_n.jpg?fit=961%2C1200&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=732747",
+          "author": "Steven Heller",
+          "description": "Steven Heller gives a preview of the third and final edition of SVA’s Glaser Gazette, which comes out in September.",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-sneak-peek-at-glaser-gazette/",
+          "publishedOn": "2022-08-12T11:07:00.000Z",
+          "wordCount": 1542,
+          "title": "The Daily Heller: Sneak Peek at SVA’s Glaser Gazette No. 3",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/teaser-scaled.jpg?fit=1200%2C653&ssl=1"
+        },
         {
           "id": "https://www.printmag.com/?p=733843",
           "author": "Charlotte Beach",
@@ -7983,36 +8083,6 @@
           "wordCount": 2077,
           "title": "Reema Mehta’s Charming Collages Examine Romantic Traditions Around the World",
           "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/10_Love-Languages-1.jpg?fit=1200%2C1200&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=732101",
-          "author": "Steven Heller",
-          "description": "Virginia Woolf’s covers are unabashedly recognizable by virtue of the fact that they were all designed by her sister, Vanessa Bell.",
-          "link": "https://www.printmag.com/daily-heller/the-daily-heller-virginia-woolfs-book-jackets-were-a-family-affair/",
-          "publishedOn": "2022-07-14T11:00:00.000Z",
-          "wordCount": 1835,
-          "title": "The Daily Heller: Virginia Woolf’s Book Jackets Were a Family Affair",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/dallowaycommonlighthouse-1.jpg?fit=1087%2C330&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=732061",
-          "author": "Charlotte Beach",
-          "description": "The new book by loyalkaspar co-founder Beat Kaspar Baudenbacher dives into the deep end of branding to analyze its impact on our society.",
-          "link": "https://www.printmag.com/designer-interviews/somewhere-yes-beat-baudenbacher/",
-          "publishedOn": "2022-07-13T18:30:00.000Z",
-          "wordCount": 2962,
-          "title": "‘Somewhere Yes’ Explores What Pervasive Branding Has Done to Our Brains",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/CoverShot.jpg?fit=1200%2C675&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=731997",
-          "author": "PRINT Magazine",
-          "description": "The student and rap devotee visually explores how lyrics, sampling, and production communicate both shifting and long-held cultural beliefs.",
-          "link": "https://www.printmag.com/sva-branding-100-days-2/madhavi-itti-menon-is-making-colorful-pixelated-hip-hop-linguistics-lessons/",
-          "publishedOn": "2022-07-13T13:00:00.000Z",
-          "wordCount": 2254,
-          "title": "Madhavi Itti Menon is Making Colorful, Pixelated Hip-Hop Linguistics Lessons",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/Screenshot-2022-06-28-at-7.09.12-AM.png?fit=392%2C392&ssl=1"
         }
       ]
     },
@@ -8033,6 +8103,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/08/skeleton-svelte-tailwind-reactive-uis/",
+          "author": "hello@smashingmagazine.com (Chris Simmons)",
+          "description": "The power of framework-specific UI libraries, such as Skeleton, can lead to more productivity using the combined ability of Svelte and Tailwind to build modern web-based apps.",
+          "link": "https://smashingmagazine.com/2022/08/skeleton-svelte-tailwind-reactive-uis/",
+          "publishedOn": "2022-08-12T08:00:00.000Z",
+          "wordCount": 4589,
+          "title": "Meet Skeleton: Svelte + Tailwind For Reactive UIs",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/beaede58-125c-47db-8c29-7af80ea35534/skeleton-svelte-tailwind-reactive-uis.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/beaede58-125c-47db-8c29-7af80ea35534/skeleton-svelte-tailwind-reactive-uis.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2022/08/databases-frontend-developers-rise-serverless-databases/",
           "author": "hello@smashingmagazine.com (Atila Fassina)",
@@ -8257,21 +8342,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b2c9eaa7-c2ad-49bf-a3bf-4dbbed425b97/resolving-conflicts-designers-engineers.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/07/using-nothing-but-docker-projects/",
-          "author": "hello@smashingmagazine.com (Raphael Amoedo)",
-          "description": "Using only Docker to build and run applications and commands removes the need for previous knowledge in some tool or programming language. Also, it avoids the necessity to install new modules and dependencies directly to the system, which makes development machine-independent.",
-          "link": "https://smashingmagazine.com/2022/07/using-nothing-but-docker-projects/",
-          "publishedOn": "2022-07-14T07:30:00.000Z",
-          "wordCount": 3665,
-          "title": "Using Nothing But Docker For Projects",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c9ceed27-0128-4001-b8b7-91aee374a9d5/using-nothing-but-docker-projects.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c9ceed27-0128-4001-b8b7-91aee374a9d5/using-nothing-but-docker-projects.jpg"
         }
       ]
     },
