@@ -187,28 +187,7 @@
       "title": "Bootstrap Blog",
       "feedUrl": "https://blog.getbootstrap.com/feed.xml",
       "siteUrl": "https://blog.getbootstrap.com/",
-      "articles": [
-        {
-          "id": "https://blog.getbootstrap.com/2022/07/19/bootstrap-5-2-0/",
-          "author": null,
-          "description": "Bootstrap v5.2.0 is finally stable! We’ve ironed out more bugs, improved more documentation, written new guides and built out new functional environment examples, and so much more!\nKeep reading for highlights from both beta and stable releases.\nDocs redesign\nAs previewed in our beta release, the docs have been redesigned! It starts with our new homepage  where we have a more complete representation of Bootstrap’s features and an updated design.\n\n\nThe docs sidebar navigation has been overhauled to have always expanded groups for easier browsing, a brand new DocSearch experience with search history, and new responsive offcanvas drawers for both sidebar and navbar on mobile.\n\n\n\n\nWe even updated our version picker in the navbar to cross-link between minor releases!\n\n\nUpdated buttons and inputs…",
-          "link": "https://blog.getbootstrap.com/2022/07/19/bootstrap-5-2-0/",
-          "publishedOn": "2022-07-19T16:00:00.000Z",
-          "wordCount": 1208,
-          "title": "Bootstrap 5.2.0",
-          "imageUrl": "https://blog.getbootstrap.com/assets/img/bootstrap-social.png"
-        },
-        {
-          "id": "https://blog.getbootstrap.com/2022/07/19/bootstrap-4-6-2/",
-          "author": null,
-          "description": "After several months, we’ve finally shipped Bootstrap v4.6.2, one of our last releases for the v4. It’s a bit of a maintenance patch featuring bug fixes, dependency updates, and some docs updates.\nRead on for the highlights or head to the v4.6.x docs to see the latest in action.\nWhat’s changed\nThere are two big highlights in v4.6.2:\nFirst, we’ve added an example to our Collapse plugin docs to show how to use horizontal collapsing. This has long been possible via our JS, but we never had an official class to utilize it.\nSecond, we’ve replaced the deprecated color-adjust with print-color-adjust in our Sass files as part of the Autoprefixer v10.4.6 issues. This should quiet the issues folks have seen from that dependency change. If you’re using our distribution CSS files, like bootstrap.min.css, you may still see the warning.\nBeyond that, we’ve addressed a few other things:\nTweaked the size of small and .small to compute to a whole pixel value (was 12.8px and now is 14px).\nImproved accessibility around our dropdowns, color contrast, and role attributes.\nFixed some broken links to supporting documentation.\nUpdated dependencies across the board.\nReview the GitHub v4.6.2 release changelog for more details.\nFrom here, we don’t expect to ship any meaningful updates to v4.6.x other than major security or dependency updates. Everything will focus on v5 and beyond after this release, starting with the stable release of v5.2.0. Bootstrap 4 will officially end of life January 1, 2023, though you’re obviously welcome to continue using it longer than that. Follow our release repo to stay in the loop on release maintenance status.\nSupport the team\nVisit our Open Collective page or our team members’ GitHub profiles to help support the maintainers contributing to Bootstrap.",
-          "link": "https://blog.getbootstrap.com/2022/07/19/bootstrap-4-6-2/",
-          "publishedOn": "2022-07-19T15:30:00.000Z",
-          "wordCount": 468,
-          "title": "Bootstrap v4.6.2",
-          "imageUrl": "https://blog.getbootstrap.com/assets/img/bootstrap-social.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Mozilla Accessibility",
@@ -245,6 +224,16 @@
       "siteUrl": "https://blog.webpagetest.org/feed.xml",
       "articles": [
         {
+          "id": "https://blog.webpagetest.org/posts/removing-unused-preloads-on-festival-foods/",
+          "author": null,
+          "description": "Last month, at Lazy Load, Paul Calvano gave a presentation where he dove deep into HTTP Archive to uncover some common performance mistakes. One of the issues he explored were sites that preloaded resources that never actually end up being used by the page.\nThe preload hint is a way of indicating to the browser that a particular resource will be needed for that page, and that the browser should request it now, when the preload hint is encountered, rather than waiting for later discovery. When used selectively and sparingly it can be a great way to help resources that the browser won’t discover in the HTML itself—a background image referenced in CSS, a JavaScript file injected by a script loader, etc—arrive much earlier.\nUnfortunately, like anything, it can also be misused and the consequen…",
+          "link": "https://blog.webpagetest.org/posts/removing-unused-preloads-on-festival-foods/",
+          "publishedOn": "2022-08-18T14:12:09.000Z",
+          "wordCount": 1151,
+          "title": "Improving Paint Metrics by Removing Unused Preloads",
+          "imageUrl": "/cloudinary/webpagetest/image/upload/f_auto,q_auto,c_limit,w_1200,h_630/blog-hero-unused-preloads_p8yq6a.png"
+        },
+        {
           "id": "https://blog.webpagetest.org/posts/introducing-the-new-webpagetest-recorder-chrome-extension/",
           "author": null,
           "description": "WebPageTest’s custom scripting functionality unlocks some very powerful testing capabilities, including being able to test multi-step user journeys and flows through your site and application. Writing those scripts, however, can sometimes be challenging.\nToday, that’s getting a whole lot easier thanks to the new WebPageTest Recorder extension that let’s you export flows from Chrome’s built-in recorder directly as WebPageTest Custom scripts. The extension is available today and works in Chrome versions 104 and up.\nThe Chrome Recorder & Multi-Step Tests\nChrome now ships with a new Recorder panel built into their developer tools. When you start a recording, Chrome will start to record each action you take on the page—clicks, scrolling, navigation, and more. That script can then be replayed in…",
@@ -277,6 +266,16 @@
       "feedUrl": "https://christianheilmann.com/feed/",
       "siteUrl": "https://christianheilmann.com",
       "articles": [
+        {
+          "id": "https://christianheilmann.com/?p=7300",
+          "author": "Chris Heilmann",
+          "description": "It is possible to accidentally open the developer tools in browsers. Either by pressing F12, selecting the “Inspect” option of the context menu or hitting one of the many keyboard shortcuts that open different tools. These tools can look intimidating and as if someone is hacking your computer. Especially when you see the Console tool […]",
+          "link": "https://christianheilmann.com/2022/08/18/you-havent-been-hacked-these-arent-devices-spying-on-you-and-these-errors-arent-your-fault/",
+          "publishedOn": "2022-08-18T08:46:43.000Z",
+          "wordCount": 1441,
+          "title": "You haven’t been hacked, these aren’t devices spying on you and these errors aren’t your fault",
+          "imageUrl": null
+        },
         {
           "id": "https://christianheilmann.com/?p=7295",
           "author": "Chris Heilmann",
@@ -341,6 +340,16 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=372539",
+          "author": "Geoff Graham",
+          "description": "That ain’t rhetorical: I’m really interested in finding great use cases for CSS multi-column layouts.\nThe answer seems straightforward. Use columns when you want to split any content into columns, right? Here is generally the sort of example you’ll find …\nWhen Do You Use CSS Columns? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/when-do-you-use-css-columns/",
+          "publishedOn": "2022-08-18T13:24:48.000Z",
+          "wordCount": 1272,
+          "title": "When Do You Use CSS Columns?",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/372539"
+        },
         {
           "id": "https://css-tricks.com/?p=367045",
           "author": "Preethi",
@@ -508,6 +517,16 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=10458",
+          "author": "Adam Marsden",
+          "description": "Performance",
+          "link": "https://dailydevlinks.com/web-performance-tips/",
+          "publishedOn": "2022-08-18T05:03:00.000Z",
+          "wordCount": 2730,
+          "title": "Web Performance Tips",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
         {
           "id": "https://dailydevlinks.com/?p=10455",
           "author": "Adam Marsden",
@@ -1017,26 +1036,6 @@
           "wordCount": 2738,
           "title": "My war on animation",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10293",
-          "author": "Adam Marsden",
-          "description": "UI",
-          "link": "https://dailydevlinks.com/the-history-of-user-interfaces/",
-          "publishedOn": "2022-07-20T07:04:00.000Z",
-          "wordCount": 2740,
-          "title": "The History of User Interfaces",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10296",
-          "author": "Adam Marsden",
-          "description": "HTML",
-          "link": "https://dailydevlinks.com/style-with-stateful-semantic-selectors/",
-          "publishedOn": "2022-07-20T05:10:00.000Z",
-          "wordCount": 2743,
-          "title": "Style with Stateful, Semantic Selectors",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
         }
       ]
     },
@@ -1213,6 +1212,36 @@
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
         {
+          "id": "https://developer.chrome.com/en/blog/removing-push/",
+          "author": null,
+          "description": "Following on from the previous announcement, support of HTTP/2 Server Push will be disabled by default in Chrome 106 and other Chromium-based browsers in their next releases.\n# Why is this being removed?\nHTTP/2 Server Push allowed websites to proactively send resources needed by the page instead of waiting for them to be requested. However, it was problematic as Jake Archibald wrote about previously, and the performance benefits were often difficult to realize. As a result, it was not used much with only 1.25% of HTTP/2 sites making use of this feature.\nAnalysis of the use of HTTP/2 Server Push has mixed results (Chrome, Akamai), without a clear net performance gain and in many cases performance regressions.\nPush was not implemented in many HTTP/3 servers and clients—even though it was inc…",
+          "link": "https://developer.chrome.com/en/blog/removing-push/",
+          "publishedOn": "2022-08-18T00:00:00.000Z",
+          "wordCount": 964,
+          "title": "Removing HTTP/2 Server Push from Chrome",
+          "imageUrl": "https://wd.imgix.net/image/W3z1f5ZkBJSgL1V1IfloTIctbIF3/1h03ZSAhmvQcyWzs1LGC.jpg?auto=format&w=1521"
+        },
+        {
+          "id": "https://developer.chrome.com/en/blog/devtools-tips-7/",
+          "author": null,
+          "description": "Chrome DevTools makes debugging CSS grid layouts intuitive with a variety of visualization options.\n\n\nWatch the video to learn how to toggle the grid overlay in the Elements panel and use it to:\nVisualize and inspect grid layouts.\nSee row and column numbers to refer to when placing grid items.\nUse line and area names and see them on the overlay if you have a lot of grid items and the numbers are confusing.\nCheck track sizes.\nAdditionally, with the Grid Editor in the Elements > Styles pane, you can align items and their content in a grid layout with a click of a button instead of typing CSS rules.\nFor a more hands-on learning experience, follow the Inspect CSS Grid tutorial.",
+          "link": "https://developer.chrome.com/en/blog/devtools-tips-7/",
+          "publishedOn": "2022-08-18T00:00:00.000Z",
+          "wordCount": 628,
+          "title": "DevTools Tips: How to inspect CSS grid",
+          "imageUrl": "https://wd.imgix.net/image/NJdAV9UgKuN8AhoaPBquL7giZQo1/jNBfye8r6ptj0agIHneP.png?auto=format&w=1521"
+        },
+        {
+          "id": "https://developer.chrome.com/en/blog/third-party-scripts/",
+          "author": null,
+          "description": "Third-party resources (such as embeds and scripts) are heavily used across the web today. They provide out-of-the-box solutions for embedding social media, videos, analytics, live chat, advertising, A/B testing, personalization, and others. Third-party embeds are a necessary part of modern websites that allow site owners to focus on their core competencies, while offloading standard but critical functions to external providers.\nWhen both first party and third parties on a web page work in harmony, it is possible for a page to deliver a great user-experience. However, this requires significant effort from both engineering and business teams and is often overlooked, resulting in less than performant web pages and a negative impact to user-centric metrics such as the Core Web Vitals. This is …",
+          "link": "https://developer.chrome.com/en/blog/third-party-scripts/",
+          "publishedOn": "2022-08-17T00:00:00.000Z",
+          "wordCount": 3225,
+          "title": "Can browsers optimize the loading of third-party resources?",
+          "imageUrl": "https://wd.imgix.net/image/1L2RBhCLSnXjCnSlevaDjy3vba73/kng4NSnIkUQ9BU4RLT3p.jpeg?auto=format&w=1521"
+        },
+        {
           "id": "https://developer.chrome.com/en/blog/new-in-devtools-105/",
           "author": null,
           "description": "Interested in helping improve DevTools? Sign up to participate in Google User Research here.\n# Step-by-step replay in the Recorder\nYou can now set a breakpoint and replay a user flow step by step in the Recorder panel.\nTo set a breakpoint, click on the blue dot next to a step. Replay your user flow, the replay will pause before executing the step. From here, you can continue the replay, execute a step, or cancel the replay.\nWith this feature, you can fully visualize and debug your user flow with ease.\nSee Recorder features reference for more information.\nChromium issue: 1257499\n# Support mouse over event in the Recorder panel\nThe Recorder now supports adding a mouse over (hover) step manually in a recording.\nThis demo shows a pop up menu on hover. Try to record a user flow and click a menu…",
@@ -1359,6 +1388,16 @@
       "feedUrl": "https://dribbble.com/stories.rss",
       "siteUrl": "https://dribbble.com/stories",
       "articles": [
+        {
+          "id": "https://dribbble.com/stories/2022/08/18/ux-ideation-tips-raw-studio",
+          "author": null,
+          "description": "This article was written by Jasmine Bilham, freelance content writer and product designer who writes for Raw.Studio, UX Design Agency. Header illustration by ls.graphics.\nEvery brilliant design starts with an amazing idea, as well as hundreds of not-so-amazing ones. To the user’s eye, these rejected concepts aren’t at all visible, however, their experience would be nowhere near as delightful if mistakes, iterations, and learnings didn’t happen during the design process.\nIn the Double Diamond, a familiar framework and close friend to the design community, the third stage is where the brainstorming and ideating really kick off.\n\n\n\n\n\n\n\n\n  \n“Ideation is the mode of the design process in which you concentrate on idea generation. Mentally, it represents a process of “going wide” in terms of conc…",
+          "link": "https://dribbble.com/stories/2022/08/18/ux-ideation-tips-raw-studio",
+          "publishedOn": "2022-08-18T08:00:00.000Z",
+          "wordCount": 3303,
+          "title": "UX Ideation 101: Tips & tools for laying the right design foundations",
+          "imageUrl": "https://cdn.dribbble.com/uploads/40240/original/085b056fe5ee92b3cafb440dcf4b89ae.png?1660588492"
+        },
         {
           "id": "https://dribbble.com/stories/2022/08/15/student-stories-antonio-vidakovic",
           "author": null,
@@ -1519,6 +1558,46 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=66055",
+          "author": "Travis",
+          "description": "Effective designs optimize for constraints. This applies to any form of design: architecture, engineering, software, product design, and so on.",
+          "link": "https://heydesigner.com/an-introduction-to-constraint-based-design-systems/",
+          "publishedOn": "2022-08-18T05:17:42.000Z",
+          "wordCount": 208,
+          "title": "An introduction to constraint based design systems",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66053",
+          "author": "Travis",
+          "description": "A long-form article is less about designing an interface than it is designing text in a way that creates a relaxed and comfortable reading experience.",
+          "link": "https://heydesigner.com/designing-for-long-form-articles/",
+          "publishedOn": "2022-08-18T05:14:01.000Z",
+          "wordCount": 203,
+          "title": "Designing for long-form articles",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66051",
+          "author": "Travis",
+          "description": "How to design a better back button UX and where to put those “Back” buttons in our interfaces.",
+          "link": "https://heydesigner.com/designing-a-better-back-button-ux/",
+          "publishedOn": "2022-08-18T05:11:55.000Z",
+          "wordCount": 204,
+          "title": "Designing a better back button UX",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66049",
+          "author": "Travis",
+          "description": "Rules of thumb for producing learnable designs.",
+          "link": "https://heydesigner.com/8-mental-model-design-heuristics/",
+          "publishedOn": "2022-08-18T05:10:40.000Z",
+          "wordCount": 191,
+          "title": "8 mental model design heuristics",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=66045",
           "author": "Travis",
@@ -2218,66 +2297,6 @@
           "wordCount": 211,
           "title": "The unlocked possibilities of the :has() selector",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65854",
-          "author": "Travis",
-          "description": "I chatted with user experience interaction designer Elvin Hu and visual designer Thomas Messenger to go behind the scenes and learn more about how the Chrome icon was designed.",
-          "link": "https://heydesigner.com/how-we-redesigned-the-chrome-icon/",
-          "publishedOn": "2022-07-20T08:36:28.000Z",
-          "wordCount": 208,
-          "title": "How we redesigned the Chrome icon",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65852",
-          "author": "Travis",
-          "description": "To celebrate our 2022 Apple Design Award-winning apps and games, we’ve put together a series of interviews with their creators.",
-          "link": "https://heydesigner.com/behind-the-design-wwdc22/",
-          "publishedOn": "2022-07-20T08:30:07.000Z",
-          "wordCount": 201,
-          "title": "Behind the Design WWDC22",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65850",
-          "author": "Travis",
-          "description": "Corporations now view design as a critical component to express their brands and their values.",
-          "link": "https://heydesigner.com/how-ibm-revolutionized-corporate-america-with-design/",
-          "publishedOn": "2022-07-20T08:29:12.000Z",
-          "wordCount": 203,
-          "title": "How IBM revolutionized corporate America with design",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65848",
-          "author": "Travis",
-          "description": "I understand the layout challenges can be frustrating, but swapping to an ARIA group role will result in a more inaccessible experience.",
-          "link": "https://heydesigner.com/use-legend-and-fieldset/",
-          "publishedOn": "2022-07-20T08:26:58.000Z",
-          "wordCount": 205,
-          "title": "Use legend and fieldset",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65845",
-          "author": "Travis",
-          "description": "I wanted to share a few tips and shortcuts that I’ve come to rely on as I work within Figma.",
-          "link": "https://heydesigner.com/my-favorite-figma-tips/",
-          "publishedOn": "2022-07-19T15:34:28.000Z",
-          "wordCount": 201,
-          "title": "My favorite Figma tips",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65841",
-          "author": "Travis",
-          "description": "This handbook helps tech startup founders improve their product, growth, recruiting, and fundraising.",
-          "link": "https://heydesigner.com/startup-handbook/",
-          "publishedOn": "2022-07-19T14:52:38.000Z",
-          "wordCount": 191,
-          "title": "Startup Handbook",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2286,6 +2305,46 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32515229",
+          "author": "krm01",
+          "description": "While running a UI/UX design team for B2B startups, I do enjoy coaching developers from time to time. Helping them become better at recognizing why something feels ugly or off and how to find solutions quickly.\nI wonder if people would be interested in a weekly UI/UX design challenge over email. And where I pick one or two submitted designs to provide deeper analysis and tips on how to make it better and why.\nComments URL: https://news.ycombinator.com/item?id=32515229\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=32515229",
+          "publishedOn": "2022-08-18T21:41:02.000Z",
+          "wordCount": 147,
+          "title": "Ask HN: Weekly Design Challenges for Developers?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32511711",
+          "author": "PaulHoule",
+          "description": "Article URL: https://www.realworldtech.com/intel-4/\nComments URL: https://news.ycombinator.com/item?id=32511711\nPoints: 2\n# Comments: 0",
+          "link": "https://www.realworldtech.com/intel-4/",
+          "publishedOn": "2022-08-18T16:26:14.000Z",
+          "wordCount": 1120,
+          "title": "Intel 4 Process Scales Logic with Design, Materials, and EUV",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32511626",
+          "author": "saeranv",
+          "description": "Article URL: https://littlegreenviper.com/miscellany/evolutionary-design-specification/\nComments URL: https://news.ycombinator.com/item?id=32511626\nPoints: 2\n# Comments: 0",
+          "link": "https://littlegreenviper.com/miscellany/evolutionary-design-specification/",
+          "publishedOn": "2022-08-18T16:18:10.000Z",
+          "wordCount": 4234,
+          "title": "Evolutionary Design Specification",
+          "imageUrl": "https://littlegreenviper.com/wp-content/uploads/2019/08/SocialPreview.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32510555",
+          "author": "janetacarr",
+          "description": "Article URL: https://blog.janetacarr.com/software-design-patterns-in-clojure/\nComments URL: https://news.ycombinator.com/item?id=32510555\nPoints: 2\n# Comments: 1",
+          "link": "https://blog.janetacarr.com/software-design-patterns-in-clojure/",
+          "publishedOn": "2022-08-18T14:56:37.000Z",
+          "wordCount": 3126,
+          "title": "Fix your Clojure code: Clojure comes with design patterns (Part 1)",
+          "imageUrl": "https://images.unsplash.com/photo-1573166364266-356ef04ae798?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDh8fHNvZnR3YXJlJTIwZGVzaWdufGVufDB8fHx8MTY2MDQ4NDU4Mg&ixlib=rb-1.2.1&q=80&w=2000"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32500360",
           "author": "todsacerdoti",
@@ -4085,56 +4144,6 @@
           "wordCount": null,
           "title": "System Design Interviews Are a Scam",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32160465",
-          "author": "leviglenn",
-          "description": "Article URL: https://www.bezier.design/\nComments URL: https://news.ycombinator.com/item?id=32160465\nPoints: 2\n# Comments: 1",
-          "link": "https://www.bezier.design/",
-          "publishedOn": "2022-07-20T02:03:16.000Z",
-          "wordCount": 915,
-          "title": "I just created a weekly newsletter to share the best in the world of design",
-          "imageUrl": "https://www.bezier.design/content/images/2022/07/Screenshot-2022-07-14-115448.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32155290",
-          "author": "bzooka",
-          "description": "Article URL: https://cloudscape.design/\nComments URL: https://news.ycombinator.com/item?id=32155290\nPoints: 6\n# Comments: 0",
-          "link": "https://cloudscape.design/",
-          "publishedOn": "2022-07-19T17:43:20.000Z",
-          "wordCount": 7741,
-          "title": "Cloudscape Design System",
-          "imageUrl": "https://cloudscape.design/Open-graph-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32154425",
-          "author": "mikece",
-          "description": "Article URL: https://blog.google/products/chrome/how-we-redesigned-the-chrome-icon/\nComments URL: https://news.ycombinator.com/item?id=32154425\nPoints: 3\n# Comments: 0",
-          "link": "https://blog.google/products/chrome/how-we-redesigned-the-chrome-icon/",
-          "publishedOn": "2022-07-19T16:46:36.000Z",
-          "wordCount": 1794,
-          "title": "We Redesigned the Chrome Icon",
-          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/1_-_Cover.max-1200x1200.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32153792",
-          "author": "triplux",
-          "description": "Article URL: https://twitter.com/triplux/status/1549422372301709315\nComments URL: https://news.ycombinator.com/item?id=32153792\nPoints: 1\n# Comments: 0",
-          "link": "https://twitter.com/triplux/status/1549422372301709315",
-          "publishedOn": "2022-07-19T16:10:13.000Z",
-          "wordCount": 352,
-          "title": "A look at DALL·E 2 industrial design – toasters in the style of sci-fi films",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32153737",
-          "author": "guiambros",
-          "description": "Article URL: https://www.fastcompany.com/90758588/why-this-startup-is-on-a-mission-to-design-the-perfect-sneaker\nComments URL: https://news.ycombinator.com/item?id=32153737\nPoints: 1\n# Comments: 0",
-          "link": "https://www.fastcompany.com/90758588/why-this-startup-is-on-a-mission-to-design-the-perfect-sneaker",
-          "publishedOn": "2022-07-19T16:07:04.000Z",
-          "wordCount": 29702,
-          "title": "Why this startup is on a mission to design the perfect sneaker",
-          "imageUrl": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2022/06/02-90758588-step-aside-nike-start-up-sneaker.jpg"
         }
       ]
     },
@@ -4143,6 +4152,26 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32515458",
+          "author": "metadat",
+          "description": "Article URL: https://www.inc.com/nick-hobson/googles-productivity-problem-has-stumped-managers-for-113-years-will-sundar-pichai-be-first-to-solve-it.html\nComments URL: https://news.ycombinator.com/item?id=32515458\nPoints: 1\n# Comments: 2",
+          "link": "https://www.inc.com/nick-hobson/googles-productivity-problem-has-stumped-managers-for-113-years-will-sundar-pichai-be-first-to-solve-it.html",
+          "publishedOn": "2022-08-18T22:07:47.000Z",
+          "wordCount": 3600,
+          "title": "Google Has a Productivity Problem, Can Sundar Pichai Solve It?",
+          "imageUrl": "https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/Sundar-Pichai_510755_rv7m0x.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32514268",
+          "author": "headalgorithm",
+          "description": "Article URL: https://blog.thunderbird.net/2022/05/thunderbird-rss-feeds-guide-favorite-content-to-the-inbox/\nComments URL: https://news.ycombinator.com/item?id=32514268\nPoints: 1\n# Comments: 0",
+          "link": "https://blog.thunderbird.net/2022/05/thunderbird-rss-feeds-guide-favorite-content-to-the-inbox/",
+          "publishedOn": "2022-08-18T20:08:52.000Z",
+          "wordCount": 2282,
+          "title": "Thunderbird and RSS: How to Bring Your Favorite Content to the Inbox",
+          "imageUrl": "https://blog.thunderbird.net/files/2022/05/Untitled-design-5.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32493834",
           "author": "tokai",
@@ -4812,26 +4841,6 @@
           "wordCount": 978,
           "title": "Show HN: I built a productivity app for Mac powered by GPT-3",
           "imageUrl": "https://public-files.gumroad.com/q4keizkwmftoavnpkl5dyzk8vpro"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32154039",
-          "author": "revorad",
-          "description": "Article URL: http://www.lisperati.com/#!A_Productivity_System_For_Creators\nComments URL: https://news.ycombinator.com/item?id=32154039\nPoints: 1\n# Comments: 0",
-          "link": "http://www.lisperati.com/#!A_Productivity_System_For_Creators",
-          "publishedOn": "2022-07-19T16:24:33.000Z",
-          "wordCount": 21257,
-          "title": "A Productivity System for Creators",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32153809",
-          "author": "zubzib",
-          "description": "Article URL: https://chrome.google.com/webstore/detail/mediareader/mmhmonelddhafoimmcombiidcfaphkgb\nComments URL: https://news.ycombinator.com/item?id=32153809\nPoints: 2\n# Comments: 1",
-          "link": "https://chrome.google.com/webstore/detail/mediareader/mmhmonelddhafoimmcombiidcfaphkgb",
-          "publishedOn": "2022-07-19T16:11:08.000Z",
-          "wordCount": 1412,
-          "title": "I Made a Minimal RSS Feed Reader for Chrome",
-          "imageUrl": "https://lh3.googleusercontent.com/FP-SN3ZCOz2Art-ke_NxzQSVVT2zmkUlzki86KYJb6My6ZqlRyshIghPVDT8XL3_yvuVZSpHKWzZ9AqUkEYrn4-Hog=w128-h128-e365-rj-sc0x00ffffff"
         }
       ]
     },
@@ -4840,6 +4849,36 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32512042",
+          "author": "feross",
+          "description": "Article URL: https://webkit.org/blog/13096/css-has-pseudo-class/\nComments URL: https://news.ycombinator.com/item?id=32512042\nPoints: 5\n# Comments: 0",
+          "link": "https://webkit.org/blog/13096/css-has-pseudo-class/",
+          "publishedOn": "2022-08-18T16:49:14.000Z",
+          "wordCount": 3234,
+          "title": "Using: Has() as a CSS Parent Selector and much more",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32511448",
+          "author": "feross",
+          "description": "Comments URL: https://news.ycombinator.com/item?id=32511448\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=32511448",
+          "publishedOn": "2022-08-18T16:03:39.000Z",
+          "wordCount": 74,
+          "title": "DevTools Tips: How to inspect CSS grid",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32508785",
+          "author": "pomber",
+          "description": "Article URL: https://www.youtube.com/watch?v=sPDvKlmUkC4\nComments URL: https://news.ycombinator.com/item?id=32508785\nPoints: 1\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=sPDvKlmUkC4",
+          "publishedOn": "2022-08-18T12:41:20.000Z",
+          "wordCount": null,
+          "title": "A clone of Tailwind's home page using Code Hike [video]",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32481477",
           "author": "skilled",
@@ -5449,56 +5488,6 @@
           "wordCount": null,
           "title": "HTML Table Scraping with Google Sheets",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32158838",
-          "author": "ent101",
-          "description": "Article URL: https://stories.algolia.com/a-search-engine-in-css-b5ec4e902e97?gi=29041927050b\nComments URL: https://news.ycombinator.com/item?id=32158838\nPoints: 2\n# Comments: 0",
-          "link": "https://stories.algolia.com/a-search-engine-in-css-b5ec4e902e97?gi=29041927050b",
-          "publishedOn": "2022-07-19T22:30:37.000Z",
-          "wordCount": 5787,
-          "title": "A Search Engine in CSS",
-          "imageUrl": "https://miro.medium.com/max/1200/1*XdcI4m1l6LLHJ3ms3bQvFg.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32154395",
-          "author": "isneu",
-          "description": "Article URL: https://isneuu.com/css-blog-library.html\nComments URL: https://news.ycombinator.com/item?id=32154395\nPoints: 3\n# Comments: 1",
-          "link": "https://isneuu.com/css-blog-library.html",
-          "publishedOn": "2022-07-19T16:44:42.000Z",
-          "wordCount": 1005,
-          "title": "Small CSS library for writing your blogs",
-          "imageUrl": "https://inseuu.com/img/intro.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32153868",
-          "author": "hoosieree",
-          "description": "From the perspective of static site generation, is there a tool to compile HTML+CSS in order to minimize download size?\nI'm imagining something which takes the following HTML+CSS:\n    \n    h1{color:red;}\n    h2{color:blue;}\n    .custom{display:none;}\n    .custom2{display:inline;}\n    \n    ...\n    \nHello\nlorem ipsum\ndolor sit amet\n\nAnd transforms it into this:\n    \nHello\nlorem ipsum\ndolor sit amet\n\nHowever, it should not always inline the css styles, because sometimes that would cause the result to be larger than the original, like this:\n    \n    h1{color:red;}\n    h2{color:blue;}\n    .custom{display:none;}\n    .custom2{display:inline;background-color:yellow;}\n    \n    ...\n    \nHello\nlorem ipsum\ndolor sit amet\n\nHere, \n is shorter than \n, so it should remain unchanged.\nI'm not talking about tools like https://htmlcompressor.com/compressor/ which only remove whitespace, or gzip compression. What I want is something that understands the semantics of HTML+CSS and can intelligently inline iff that reduces the size of the resulting HTML file.\nComments URL: https://news.ycombinator.com/item?id=32153868\nPoints: 4\n# Comments: 3",
-          "link": "https://news.ycombinator.com/item?id=32153868",
-          "publishedOn": "2022-07-19T16:14:44.000Z",
-          "wordCount": 536,
-          "title": "Ask HN: How to “compile” HTML+CSS for minimal page size?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32152523",
-          "author": "marrouchi",
-          "description": "Article URL: https://github.com/anis-marrouchi/social-gif-kodyfire\nComments URL: https://news.ycombinator.com/item?id=32152523\nPoints: 1\n# Comments: 0",
-          "link": "https://github.com/anis-marrouchi/social-gif-kodyfire",
-          "publishedOn": "2022-07-19T15:05:37.000Z",
-          "wordCount": 756,
-          "title": "Show HN: Generate GIF images based on HTML templates using Kodyfire",
-          "imageUrl": "https://opengraph.githubassets.com/65d239d33ace0bec8062017a2585df48a4f0665b64e2e064d9456958b8ad1ab3/anis-marrouchi/social-gif-kodyfire"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32152046",
-          "author": "bobblywobbles",
-          "description": "Article URL: https://www.debugandrelease.com/how-to-use-tailwindcss-with-electron/\nComments URL: https://news.ycombinator.com/item?id=32152046\nPoints: 2\n# Comments: 0",
-          "link": "https://www.debugandrelease.com/how-to-use-tailwindcss-with-electron/",
-          "publishedOn": "2022-07-19T14:29:58.000Z",
-          "wordCount": 1500,
-          "title": "How to Use TailwindCSS with Electron",
-          "imageUrl": "https://www.debugandrelease.com/content/images/2022/07/css-with-tailwind.png"
         }
       ]
     },
@@ -5549,6 +5538,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=43062",
+          "author": "Seth Godin",
+          "description": "People tend to do one of two things: not talk talk Both are a problem. If we’re facing an important issue at work, at school or in our community, our instinct is to let others who are better informed speak up. Which prevents people from voting on a school budget or even volunteering to speak […]",
+          "link": "https://seths.blog/2022/08/when-they-dont-know-what-theyre-talking-about/",
+          "publishedOn": "2022-08-18T09:39:00.000Z",
+          "wordCount": 1240,
+          "title": "When they don’t know what they’re talking about…",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=43563",
           "author": "Seth Godin",
@@ -5848,16 +5847,6 @@
           "wordCount": 1224,
           "title": "The likable brand (or person)",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41536",
-          "author": "Seth Godin",
-          "description": "Working professionals develop emotional detachment. It’s the only way to thrive in the work. Emotional detachment helps us remember that we are not our work, and that feedback is useful, not an attack. Commitment permits us to keep going (especially when we’re asked to provide more effort than we planned). It’s easy to confuse the […]",
-          "link": "https://seths.blog/2022/07/detachment-and-commitment/",
-          "publishedOn": "2022-07-20T08:20:00.000Z",
-          "wordCount": 1156,
-          "title": "Detachment and commitment",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
         }
       ]
     },
@@ -6959,6 +6948,16 @@
       "siteUrl": "https://webkit.org",
       "articles": [
         {
+          "id": "https://webkit.org/?p=13096",
+          "author": null,
+          "description": "It’s been a long-standing dream of front-end developers to have a way to apply CSS to an element based on what’s happening inside that element.",
+          "link": "https://webkit.org/blog/13096/css-has-pseudo-class/",
+          "publishedOn": "2022-08-18T15:30:51.000Z",
+          "wordCount": 3234,
+          "title": "Using :has() as a CSS Parent Selector and much more",
+          "imageUrl": null
+        },
+        {
           "id": "https://webkit.org/?p=13093",
           "author": null,
           "description": "Safari Technology Preview Release 151 is now available for download for macOS Monterey 12.3 or later and macOS Ventura beta.",
@@ -7346,26 +7345,6 @@
           "wordCount": 7004,
           "title": "How to Make Floral Arrangements That Last and Last",
           "imageUrl": "https://static01.nyt.com/images/2022/07/20/t-magazine/design/Lufti-Janania-slide-B7HZ-copy/Lufti-Janania-slide-B7HZ-copy-facebookJumbo.jpg"
-        },
-        {
-          "id": "https://www.nytimes.com/2022/07/19/world/europe/britain-homes-heat-wave.html",
-          "author": "Daniel Victor",
-          "description": "Keeping homes cool in the country’s typically mild summers was never a priority.",
-          "link": "https://www.nytimes.com/2022/07/19/world/europe/britain-homes-heat-wave.html",
-          "publishedOn": "2022-07-19T17:32:34.000Z",
-          "wordCount": 2794,
-          "title": "British Homes Were Built to Retain Heat. That’s Becoming a Problem.",
-          "imageUrl": "https://static01.nyt.com/images/2022/07/19/world/19europe-heatwave-buildings-overheating/19europe-heatwave-buildings-overheating-facebookJumbo.jpg"
-        },
-        {
-          "id": "https://www.nytimes.com/2022/07/19/realestate/coffee-table-decor.html",
-          "author": "Tim McKeough",
-          "description": "Designers and home stagers make it look so easy. Here’s how they do it.",
-          "link": "https://www.nytimes.com/2022/07/19/realestate/coffee-table-decor.html",
-          "publishedOn": "2022-07-19T14:34:25.000Z",
-          "wordCount": 6151,
-          "title": "The Effortless Way to Style a Coffee Table",
-          "imageUrl": "https://static01.nyt.com/images/2022/07/18/realestate/19fix01/oakImage-1658155151436-facebookJumbo.jpg"
         }
       ]
     },
@@ -7374,6 +7353,46 @@
       "feedUrl": "https://www.printmag.com/feed/",
       "siteUrl": "https://www.printmag.com",
       "articles": [
+        {
+          "id": "https://www.printmag.com/?p=734124",
+          "author": "Tom Guarriello",
+          "description": "Tom Guarriello investigates what pulls us toward our favorite objects.",
+          "link": "https://www.printmag.com/creative-voices/my-favorite-things-what-is-a-favorite/",
+          "publishedOn": "2022-08-18T19:00:00.000Z",
+          "wordCount": 2288,
+          "title": "My Favorite Things: What is a “Favorite”?",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/17198142241_69778eeaff_b.jpeg?fit=1024%2C590&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=734100",
+          "author": "PRINT Magazine",
+          "description": "The entrepreneur explains how his various businesses help drive change, challenges within the CPG space, and the hard lessons he has learned from 28 years of entrepreneurship.",
+          "link": "https://www.printmag.com/printcast/evolve-cpg-follow-your-passion-with-fred-haberman-of-freak-flag-organics/",
+          "publishedOn": "2022-08-18T11:00:00.000Z",
+          "wordCount": 1613,
+          "title": "Evolve CPG: Follow Your Passion with Fred Haberman of Freak Flag Organics",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/EvolveCPG-FredHaberman-Square-SM.jpg?fit=800%2C800&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=733905",
+          "author": "Steven Heller",
+          "description": "József Pécsi was among a tenacious and growing breed of modern designers infusing photography into advertising.",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-dont-shoot-until-you-see-the-glint-in-their-eyes/",
+          "publishedOn": "2022-08-18T11:00:00.000Z",
+          "wordCount": 1975,
+          "title": "The Daily Heller: Don’t Shoot Until You See the Glint in Their Eyes",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/teaser-peci-3.jpg?fit=1200%2C733&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=733178",
+          "author": "Sponsored",
+          "description": "Writer and designer Paul Jarvis talks to business beginners and veterans about the how-tos of starting a new endeavor, sustaining it for the long haul, and doing it with integrity.",
+          "link": "https://www.printmag.com/design-education/the-podcast-call-paul-will-help-you-start-a-business/",
+          "publishedOn": "2022-08-18T10:00:00.000Z",
+          "wordCount": 1545,
+          "title": "The Podcast ‘Call Paul’ Will Help You Start a Business",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/MCP_Call-Paul_Final-1080x1080-1.jpg?fit=1080%2C1080&ssl=1"
+        },
         {
           "id": "https://www.printmag.com/?p=734031",
           "author": "Charlotte Beach",
@@ -8053,46 +8072,6 @@
           "wordCount": 2998,
           "title": "Robin Scheines Searches for Meaning in the Wild World of Online Reviews",
           "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/Screen-Shot-2022-07-19-at-12.11.12-PM.png?fit=1200%2C596&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=732490",
-          "author": "Steven Heller",
-          "description": "Out of all his experiences as a New York Times art director, Steven Heller’s meeting with Claes Oldenburg at his studio was his most memorable.",
-          "link": "https://www.printmag.com/daily-heller/the-daily-heller-remembering-claes-oldenburgs-apartment-sized-elevator/",
-          "publishedOn": "2022-07-20T11:00:00.000Z",
-          "wordCount": 1952,
-          "title": "The Daily Heller: Remembering Claes Oldenburg’s Apartment-sized Elevator",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/8140386676_23e5f9423c_b.jpg?fit=1024%2C768&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=732083",
-          "author": "Sarah Fonder",
-          "description": "Executive Creative Director Juan Carlos Pagan tells us why creative independence goes hand-in-hand with exciting, memorable work.",
-          "link": "https://www.printmag.com/print-awards/print-agency-of-the-year-sunday-afternoon-laughs-in-the-face-of-a-challenge/",
-          "publishedOn": "2022-07-19T16:00:00.000Z",
-          "wordCount": 4123,
-          "title": "PRINT Agency of the Year Sunday Afternoon Laughs in the Face of a Challenge",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/Image-3-2-scaled.jpg?fit=1200%2C675&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=732426",
-          "author": "Debbie Millman",
-          "description": "The 'Savage Love from A to Z' illustrator on escaping the productivity mindset, giving himself grace, and seeking comfort in tacos.",
-          "link": "https://www.printmag.com/what-matters/what-matters-to-joe-newton/",
-          "publishedOn": "2022-07-19T14:00:00.000Z",
-          "wordCount": 1910,
-          "title": "What Matters to Joe Newton",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/Joe_Newton-scaled.jpg?fit=967%2C1200&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=732433",
-          "author": "PRINT Magazine",
-          "description": "The SVA graduate not only shines a light on workplace discrimination, but provides helpful tips on how to get through it.",
-          "link": "https://www.printmag.com/sva-branding-100-days-2/amelia-nash-illustrates-advice-for-frustrated-femmes-in-the-workplace/",
-          "publishedOn": "2022-07-19T13:00:00.000Z",
-          "wordCount": 3349,
-          "title": "Amelia Nash Illustrates Advice for Frustrated Femmes in the Workplace",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/Post-6_1-illustration-1.jpg?fit=1080%2C1080&ssl=1"
         }
       ]
     },
@@ -8113,6 +8092,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/08/react-context-propagation-javascript/",
+          "author": "hello@smashingmagazine.com (Evyatar Alush)",
+          "description": "React popularized context-propagation within applications with the context API. Evyatar Alush brings a brief intro to context propagation in JavaScript and how you can build React Context yourself.",
+          "link": "https://smashingmagazine.com/2022/08/react-context-propagation-javascript/",
+          "publishedOn": "2022-08-18T09:00:00.000Z",
+          "wordCount": 4628,
+          "title": "An Introduction To Context Propagation In JavaScript",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d0e43048-1771-47ed-bb3b-be007358d056/react-context-propagation-javascript.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d0e43048-1771-47ed-bb3b-be007358d056/react-context-propagation-javascript.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2022/08/back-button-ux-design/",
           "author": "hello@smashingmagazine.com (Vitaly Friedman)",
@@ -8337,21 +8331,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ee20fcf1-d266-4c91-ad36-643075321d40/20-smashingconf-sf-2022.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/07/powerful-image-optimization-tools/",
-          "author": "hello@smashingmagazine.com (Louis Lazaris)",
-          "description": "Optimizing the size of images can have a bigger impact on performance than all other areas combined. In this article, Louis Lazaris covers different tools available for reducing the size of images.",
-          "link": "https://smashingmagazine.com/2022/07/powerful-image-optimization-tools/",
-          "publishedOn": "2022-07-20T10:00:00.000Z",
-          "wordCount": 3969,
-          "title": "Powerful Image Optimization Tools",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fcdc773d-5824-490f-9e90-3aa4d18153a0/powerful-image-optimization-tools.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fcdc773d-5824-490f-9e90-3aa4d18153a0/powerful-image-optimization-tools.jpg"
         }
       ]
     },
