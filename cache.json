@@ -248,6 +248,16 @@
       "siteUrl": "https://christianheilmann.com",
       "articles": [
         {
+          "id": "https://christianheilmann.com/?p=7315",
+          "author": "Chris Heilmann",
+          "description": "Last week my mother died. After we put her urn into the ground next to my father’s we went back to their flat to talk about next steps and dividing up their belongings amongst us three children. One thing I immediately called dibs on were my father’s two books. Both were printed in 1955 and […]",
+          "link": "https://christianheilmann.com/2022/08/29/the-sum-of-all-knowledge/",
+          "publishedOn": "2022-08-29T12:41:08.000Z",
+          "wordCount": 1320,
+          "title": "The sum of all knowledge",
+          "imageUrl": null
+        },
+        {
           "id": "https://christianheilmann.com/?p=7300",
           "author": "Chris Heilmann",
           "description": "It is possible to accidentally open the developer tools in browsers. Either by pressing F12, selecting the “Inspect” option of the context menu or hitting one of the many keyboard shortcuts that open different tools. These tools can look intimidating and as if someone is hacking your computer. Especially when you see the Console tool […]",
@@ -478,6 +488,46 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=10521",
+          "author": "Adam Marsden",
+          "description": "CSSTool",
+          "link": "https://dailydevlinks.com/what-was-that-media-query-code-again/",
+          "publishedOn": "2022-08-29T10:37:00.000Z",
+          "wordCount": 2750,
+          "title": "What was that media query code again?",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=10518",
+          "author": "Adam Marsden",
+          "description": "UIUX",
+          "link": "https://dailydevlinks.com/ui-ux-micro-tips-best-of-2022/",
+          "publishedOn": "2022-08-29T08:58:00.000Z",
+          "wordCount": 2752,
+          "title": "UI & UX Micro-Tips: Best of 2022",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=10524",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/creative-list-styling/",
+          "publishedOn": "2022-08-29T06:16:00.000Z",
+          "wordCount": 2734,
+          "title": "Creative list styling",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=10515",
+          "author": "Adam Marsden",
+          "description": "UX",
+          "link": "https://dailydevlinks.com/designing-better-error-messages-ux/",
+          "publishedOn": "2022-08-29T05:03:00.000Z",
+          "wordCount": 2747,
+          "title": "Designing Better Error Messages UX",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
+        },
         {
           "id": "https://dailydevlinks.com/?p=10508",
           "author": "Adam Marsden",
@@ -1116,6 +1166,16 @@
       "siteUrl": "https://davidwalsh.name",
       "articles": [
         {
+          "id": "https://davidwalsh.name/monitorevents",
+          "author": null,
+          "description": "<p>Despite having worked on the very complex Firefox for a number of years, I&#8217;ll always love plain old console.log debugging. Logging can provide an audit trail as events happen and text you can share with others. Did you know that chrome provides monitorEvents and monitor so that you can get a log each time an [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://davidwalsh.name/monitorevents\">Monitor Events and Function Calls via Console</a> appeared first on <a rel=\"nofollow\" href=\"https://davidwalsh.name\">David Walsh Blog</a>.</p>\n<p><a href=\"https://tkjs.us/dwb\"><img style=\"margin:0 auto\" alt=\"\" src=\"https://davidwalsh.name/demo/tjs_block-1.svg\"></a></p>",
+          "link": "https://davidwalsh.name/monitorevents",
+          "publishedOn": "2022-08-29T16:08:40.000Z",
+          "wordCount": 1807,
+          "title": "Monitor Events and Function Calls via Console",
+          "imageUrl": "https://davidwalsh.name/wp-content/themes/punky/images/logo.png"
+        },
+        {
           "id": "https://davidwalsh.name/css-out-of-range",
           "author": null,
           "description": "<p>One aspect of web development I&#8217;ve always loathed was working with forms. Form elements have been traditionally difficult to style due to OS and browser differences, and validation can be a nightmare. Luckily the native HTML APIs added methods for improving the form validation situation. With input[type=number] elements, you can add min and max attributes. [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://davidwalsh.name/css-out-of-range\">CSS :out-of-range</a> appeared first on <a rel=\"nofollow\" href=\"https://davidwalsh.name\">David Walsh Blog</a>.</p>\n<p><a href=\"https://tkjs.us/dwb\"><img style=\"margin:0 auto\" alt=\"\" src=\"https://davidwalsh.name/demo/tjs_block-1.svg\"></a></p>",
@@ -1172,6 +1232,16 @@
       "feedUrl": "https://developer.chrome.com/feeds/blog.xml",
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
+        {
+          "id": "https://developer.chrome.com/en/blog/compression-streams-api/",
+          "author": null,
+          "description": "The Compression Streams API\nis for compressing and decompressing streams of data using the gzip or\ndeflate (or deflate-raw) formats.\nWith built in compression JavaScript applications do not need to include a compression\nlibrary, making the download size of the application smaller. Stable Chrome and Safari Technology Preview now\nsupport this useful API. Compressing data is shown below.\nconst readableStream = await fetch('lorem.txt').then(\n  (response) => response.body\n);\nconst compressedReadableStream = readableStream.pipeThrough(\n  new CompressionStream('gzip')\n);\nTo decompress, pipe a compressed stream through the decompression stream.\nconst decompressedReadableStream = compressedReadableStream.pipeThrough(\n  new DecompressionStream('gzip')\n);\n# Demo\n \n\n# Browser support\nThe Compression Streams API is supported from Chromium 80 and Safari Technology Preview 152.\nFor other browsers, check CanIUse.\n# Acknowledgements\nHero image by Matt Artz on\nUnsplash.",
+          "link": "https://developer.chrome.com/en/blog/compression-streams-api/",
+          "publishedOn": "2022-08-29T00:00:00.000Z",
+          "wordCount": 651,
+          "title": "Compression and decompression in the browser with the Compression Streams API",
+          "imageUrl": "https://wd.imgix.net/image/8WbTDNrhLsU0El80frMBGE4eMCD3/koW7cNlWa6BUlJsQR4wI.jpg?auto=format&w=1521"
+        },
         {
           "id": "https://developer.chrome.com/en/blog/angular-image-directive/",
           "author": null,
@@ -1360,6 +1430,16 @@
       "siteUrl": "https://dribbble.com/stories",
       "articles": [
         {
+          "id": "https://dribbble.com/stories/2022/08/29/sudent-stories-brittney-singleton",
+          "author": null,
+          "description": "After taking a step back from her art direction career for a few years, Brittney Singleton is eager to jump back in and grow her new career in product design. Having just graduated from Dribbble’s Certified Product Design Course, Brittney joins us today to share her story and offer advice to budding product designers.\nBrittney Singleton\n      Visual Designer\n\n\nTell us about your background. Do you have any previous design experience?\nHi, I’m Britt, and I’m a multidisciplinary designer specializing in visual, UI/UX, and brand design. I started out as a web and graphic designer back in 2010. My career took off, eventually landing me an Art Director position at a large bank. But then, life happened. I got sick. Extremely sick, leaving me bed bound for a few years after I was diagnosed with Ly…",
+          "link": "https://dribbble.com/stories/2022/08/29/sudent-stories-brittney-singleton",
+          "publishedOn": "2022-08-29T06:00:00.000Z",
+          "wordCount": 1897,
+          "title": "Meet Brittney Singleton, Dribbble Graduate and Visual Designer at Able",
+          "imageUrl": "https://cdn.dribbble.com/uploads/40307/original/0182b6201dc7a9751a9b2301610812a3.jpg?1660925755"
+        },
+        {
           "id": "https://dribbble.com/stories/2022/08/18/ux-ideation-tips-raw-studio",
           "author": null,
           "description": "This article was written by Jasmine Bilham, freelance content writer and product designer who writes for Raw.Studio, UX Design Agency. Header illustration by ls.graphics.\nEvery brilliant design starts with an amazing idea, as well as hundreds of not-so-amazing ones. To the user’s eye, these rejected concepts aren’t at all visible, however, their experience would be nowhere near as delightful if mistakes, iterations, and learnings didn’t happen during the design process.\nIn the Double Diamond, a familiar framework and close friend to the design community, the third stage is where the brainstorming and ideating really kick off.\n\n\n\n\n\n\n\n\n  \n“Ideation is the mode of the design process in which you concentrate on idea generation. Mentally, it represents a process of “going wide” in terms of conc…",
@@ -1427,6 +1507,16 @@
       "siteUrl": "https://fs.blog/",
       "articles": [
         {
+          "id": "https://fs.blog/?p=48245",
+          "author": "Farnam Street",
+          "description": "Anyone can say no to bad ideas, but only a focused person can say no to good ideas. When talking about one of the biggest lessons he learned from Steve Jobs, Jonny Ive said: This sounds really simplistic, but it still shocks me how few people actually practice this, and it’s a struggle to practice, …\nThe post Focus to Win appeared first on Farnam Street.",
+          "link": "https://fs.blog/focus-to-win/",
+          "publishedOn": "2022-08-29T15:48:45.000Z",
+          "wordCount": 1123,
+          "title": "Focus to Win",
+          "imageUrl": "https://149664534.v2.pressablecdn.com/wp-content/uploads/2022/08/focus-to-win.png"
+        },
+        {
           "id": "https://fs.blog/?p=48157",
           "author": "Farnam Street",
           "description": "Tit for tat is a strategy which, according to game theory, is the most effective choice for iterated games based on mutual cooperation or defection. Both players benefit if they cooperate, but one benefits and the other loses out if only they defect, and both lose out to a lesser extent if they simultaneously defect. …\nThe post Tit For Tat appeared first on Farnam Street.",
@@ -1465,16 +1555,6 @@
           "wordCount": 4034,
           "title": "Evaluating Information: Find the Signal in the Noise",
           "imageUrl": "https://149664534.v2.pressablecdn.com/wp-content/uploads/2022/08/Evaluating-Information.png"
-        },
-        {
-          "id": "https://fs.blog/?p=40528",
-          "author": "Farnam Street",
-          "description": "In a digital world that clamors for clicks, news is sensationalized and “facts” change all the time. Here’s how to discern what is trustworthy and what is hogwash. *** Unless you’ve studied it, most of us are never taught how to evaluate science or how to parse the good from the bad. Yet it is …\nThe post How To Spot Bad Science appeared first on Farnam Street.",
-          "link": "https://fs.blog/spot-bad-science/",
-          "publishedOn": "2022-07-31T11:00:00.000Z",
-          "wordCount": 4785,
-          "title": "How To Spot Bad Science",
-          "imageUrl": "https://149664534.v2.pressablecdn.com/wp-content/uploads/2020/01/science.png"
         }
       ]
     },
@@ -1489,6 +1569,16 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=48916",
+          "author": "Travis",
+          "description": "Designers make spatial decisions every day from the height of a button to the space around an icon.",
+          "link": "https://heydesigner.com/space-grids-and-layouts/",
+          "publishedOn": "2022-08-29T09:45:44.000Z",
+          "wordCount": 200,
+          "title": "Space, grids, and layouts",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=66130",
           "author": "Travis",
@@ -2286,6 +2376,66 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32644311",
+          "author": "hwers",
+          "description": "Article URL: https://github.com/culsonal/stable-diffusion-ui\nComments URL: https://news.ycombinator.com/item?id=32644311\nPoints: 2\n# Comments: 0",
+          "link": "https://github.com/culsonal/stable-diffusion-ui",
+          "publishedOn": "2022-08-29T22:20:47.000Z",
+          "wordCount": 644,
+          "title": "Stable Diffusion UI for Rapid Prototyping",
+          "imageUrl": "https://opengraph.githubassets.com/7f03e4f954aa0b8b8f5b1619c73ecb3f31770bffb37d54f57539f651b2264cb3/culsonal/stable-diffusion-ui"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32640306",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://calebhearth.com/fan-out-vs-fan-in\nComments URL: https://news.ycombinator.com/item?id=32640306\nPoints: 2\n# Comments: 0",
+          "link": "https://calebhearth.com/fan-out-vs-fan-in",
+          "publishedOn": "2022-08-29T16:40:35.000Z",
+          "wordCount": 1128,
+          "title": "Design Your Codebase with Low Fan-Out, High Fan-In Classes",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32640000",
+          "author": "slyrus",
+          "description": "Article URL: https://www.cell.com/cell/fulltext/S0092-8674(22)00922-9\nComments URL: https://news.ycombinator.com/item?id=32640000\nPoints: 2\n# Comments: 0",
+          "link": "https://www.cell.com/cell/fulltext/S0092-8674(22)00922-9",
+          "publishedOn": "2022-08-29T16:18:43.000Z",
+          "wordCount": 28663,
+          "title": "De novo design of orally bioavailable macrocycles",
+          "imageUrl": "https://www.cell.com/cms/asset/3a0652af-c806-4234-a787-ad1bac862595/fx1.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32636740",
+          "author": "makaimc",
+          "description": "Article URL: https://automation.baldacchino.net/cost-optimising-your-architecture-on-azure-practical-design-steps-for-builders-to-cost-optimise-your-tech-stack/\nComments URL: https://news.ycombinator.com/item?id=32636740\nPoints: 1\n# Comments: 0",
+          "link": "https://automation.baldacchino.net/cost-optimising-your-architecture-on-azure-practical-design-steps-for-builders-to-cost-optimise-your-tech-stack/",
+          "publishedOn": "2022-08-29T11:10:06.000Z",
+          "wordCount": 3339,
+          "title": "Cost Optimisation in the Cloud – Practical Design Steps for Architects and Devs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32636675",
+          "author": "FireInsight",
+          "description": "Article URL: https://github.com/treeform/fidget\nComments URL: https://news.ycombinator.com/item?id=32636675\nPoints: 2\n# Comments: 0",
+          "link": "https://github.com/treeform/fidget",
+          "publishedOn": "2022-08-29T10:59:37.000Z",
+          "wordCount": 1327,
+          "title": "Fidget – A UI library for Nim based on minimal primitives found in Figma",
+          "imageUrl": "https://opengraph.githubassets.com/1494b9d2ee7d43ce0b043a16c1457206b423d7eadc4105bba32fb679afe6698e/treeform/fidget"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32634142",
+          "author": "rdubs333",
+          "description": "MTREES: Modular Transnational Robust Extreme Environment System. Free first in series eBook and top \"Design System\" book on Apple Books. Best viewed on iPad with meticulously hand drawn illustrations. Documentation Docs is the beta, the Big Book 3.3 (currently 2.8) is nearly complete. Be gentle, its a beta!\nComments URL: https://news.ycombinator.com/item?id=32634142\nPoints: 1\n# Comments: 0",
+          "link": "https://books.apple.com/us/book/mtrees-2-4-documentation-docs-design-system/id1568336630",
+          "publishedOn": "2022-08-29T02:15:02.000Z",
+          "wordCount": 3061,
+          "title": "Show HN: Mtrees Design System, the vision we all share",
+          "imageUrl": "https://is3-ssl.mzstatic.com/image/thumb/Publication125/v4/d3/22/92/d322927c-07b1-e1ff-faa4-bb723286b3c9/BOOK-DOCS-COVER-apple-01.png/1200x630wz.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32632787",
           "author": "todsacerdoti",
@@ -4105,76 +4255,6 @@
           "wordCount": 2099,
           "title": "Star Trek icon Nichelle Nichols dead at 89",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2015/09/Uhura-640x215.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32291519",
-          "author": "jamestimmins",
-          "description": "Article URL: https://jamestimmins.com/2022/07/30/request-for-creators-design-for-developers/\nComments URL: https://news.ycombinator.com/item?id=32291519\nPoints: 1\n# Comments: 0",
-          "link": "https://jamestimmins.com/2022/07/30/request-for-creators-design-for-developers/",
-          "publishedOn": "2022-07-30T23:44:52.000Z",
-          "wordCount": 2778,
-          "title": "Request for Creators: Design for Developers",
-          "imageUrl": "https://jamestimmins.files.wordpress.com/2020/11/cropped-download.png?w=200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32291292",
-          "author": "behnamoh",
-          "description": "Article URL: https://medium.com/@parttimeben/less-is-more-is-less-46f64aab2188\nComments URL: https://news.ycombinator.com/item?id=32291292\nPoints: 3\n# Comments: 0",
-          "link": "https://medium.com/@parttimeben/less-is-more-is-less-46f64aab2188",
-          "publishedOn": "2022-07-30T23:08:54.000Z",
-          "wordCount": 1267,
-          "title": "Less is More is Less: It’s time to go back to design basics",
-          "imageUrl": "https://miro.medium.com/max/640/0*F33bBdH_OLPb8YkA"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32291093",
-          "author": "rbanffy",
-          "description": "Article URL: https://spacenews.com/esa-scaling-back-design-of-x-ray-astronomy-mission/?preview_id=129982\nComments URL: https://news.ycombinator.com/item?id=32291093\nPoints: 2\n# Comments: 0",
-          "link": "https://spacenews.com/esa-scaling-back-design-of-x-ray-astronomy-mission/?preview_id=129982",
-          "publishedOn": "2022-07-30T22:40:28.000Z",
-          "wordCount": 2171,
-          "title": "ESA scaling back design of X-ray astronomy mission – SpaceNews",
-          "imageUrl": "https://spacenews.com/wp-content/uploads/2022/07/athena.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32290662",
-          "author": "behnamoh",
-          "description": "Article URL: https://creativemarket.com/blog/minimalist-design-trend\nComments URL: https://news.ycombinator.com/item?id=32290662\nPoints: 1\n# Comments: 0",
-          "link": "https://creativemarket.com/blog/minimalist-design-trend",
-          "publishedOn": "2022-07-30T21:45:03.000Z",
-          "wordCount": null,
-          "title": "The Minimalist Design Trend: Why Less Is More",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32289352",
-          "author": "samsolomon",
-          "description": "Article URL: https://solomon.io/improving-accessibility-with-design-tokens/\nComments URL: https://news.ycombinator.com/item?id=32289352\nPoints: 1\n# Comments: 0",
-          "link": "https://solomon.io/improving-accessibility-with-design-tokens/",
-          "publishedOn": "2022-07-30T19:00:26.000Z",
-          "wordCount": 4748,
-          "title": "Improving Accessibility with Design Tokens",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32289181",
-          "author": "vasanti",
-          "description": "Article URL: https://blog.logicwind.com/mongodb-schema-design/\nComments URL: https://news.ycombinator.com/item?id=32289181\nPoints: 2\n# Comments: 0",
-          "link": "https://blog.logicwind.com/mongodb-schema-design/",
-          "publishedOn": "2022-07-30T18:36:49.000Z",
-          "wordCount": 2554,
-          "title": "MongoDB schema design best practices",
-          "imageUrl": "http://blog.logicwind.com/content/images/2022/07/mongodb-schema-design-1.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32287084",
-          "author": "tomerbd",
-          "description": "Hi I can find easily courses books with technicalities of spark and technologies .\nWhat I cannot find are good courses for designing meaning for choosing partition keys, folder structure, pipeline stages (do you want a cleanup phase and when not etc).\nHere is a good random post I found https://www.google.com/amp/s/hub.packtpub.com/common-big-data-design-patterns/amp/\nhttps://www.researchgate.net/figure/Typical-four-layered-big-data-architecture-ingestion-processing-storage-and_fig1_329368513\nIs there something better than such random posts like books courses? All I find is courses that are either too low level with technicalities or top high levels.\nYeah I know there is the data intensive applications I read it and it's not dealing with these specific design decisions its more of 40 k feel look.\nComments URL: https://news.ycombinator.com/item?id=32287084\nPoints: 2\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=32287084",
-          "publishedOn": "2022-07-30T14:33:04.000Z",
-          "wordCount": 179,
-          "title": "Ask HN: Recommended courses/books on how to *design* big data pipelines?",
-          "imageUrl": null
         }
       ]
     },
@@ -4183,6 +4263,56 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32640676",
+          "author": "sizzle",
+          "description": "Article URL: https://www.reuters.com/technology/north-american-companies-send-robots-even-productivity-slumps-2022-08-29/\nComments URL: https://news.ycombinator.com/item?id=32640676\nPoints: 1\n# Comments: 0",
+          "link": "https://www.reuters.com/technology/north-american-companies-send-robots-even-productivity-slumps-2022-08-29/",
+          "publishedOn": "2022-08-29T17:07:56.000Z",
+          "wordCount": 4267,
+          "title": "North American companies send in the robots, even as productivity slumps",
+          "imageUrl": "https://www.reuters.com/resizer/Fqg840XQaXG2H6XIEOSqZ7eAtDo=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/36RNZNHMFJMYTOFCQROIR3XKSA.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32638975",
+          "author": "memorable",
+          "description": "Article URL: https://twitter.com/DangHoangTuan20/status/1563450239822221312\nComments URL: https://news.ycombinator.com/item?id=32638975\nPoints: 1\n# Comments: 0",
+          "link": "https://twitter.com/DangHoangTuan20/status/1563450239822221312",
+          "publishedOn": "2022-08-29T14:49:40.000Z",
+          "wordCount": 390,
+          "title": "Practice the Capture Habit",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32635141",
+          "author": "yasenn",
+          "description": "Article URL: https://github.com/batram/once\nComments URL: https://news.ycombinator.com/item?id=32635141\nPoints: 2\n# Comments: 0",
+          "link": "https://github.com/batram/once",
+          "publishedOn": "2022-08-29T05:50:25.000Z",
+          "wordCount": 555,
+          "title": "Once: Deduplicate Stories (RSS, Hacker News, Lobsters or Reddit)",
+          "imageUrl": "https://opengraph.githubassets.com/db2149a69990e9afe370782dfd35cbf40b51472aa33cd9ae42a4aa559487c20d/batram/once"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32634882",
+          "author": "emrys",
+          "description": "Article URL: https://algeboard.com/\nComments URL: https://news.ycombinator.com/item?id=32634882\nPoints: 2\n# Comments: 3",
+          "link": "https://algeboard.com/",
+          "publishedOn": "2022-08-29T04:46:18.000Z",
+          "wordCount": 2037,
+          "title": "A wireless split mechanical keyboard designed for productivity and ergonomics",
+          "imageUrl": "http://cdn.shopify.com/s/files/1/0653/1452/1342/files/shopify-share.png?v=1659116394"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32634748",
+          "author": "jandeboevrie",
+          "description": "Article URL: https://leancrew.com/all-this/2022/08/filtering-my-rss-reading/\nComments URL: https://news.ycombinator.com/item?id=32634748\nPoints: 1\n# Comments: 0",
+          "link": "https://leancrew.com/all-this/2022/08/filtering-my-rss-reading/",
+          "publishedOn": "2022-08-29T04:16:00.000Z",
+          "wordCount": 1548,
+          "title": "Filtering My RSS Reading",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32631660",
           "author": "iamcomedy",
@@ -4842,16 +4972,6 @@
           "wordCount": 14420,
           "title": "Google CEO tells employees productivity and focus must improve",
           "imageUrl": "https://image.cnbcfm.com/api/v1/image/105193557-RTS1QG9R.jpg?v=1583444245&w=1920&h=1080"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32288186",
-          "author": "urban_winter",
-          "description": "Article URL: https://www.bloomberg.com/news/articles/2022-07-14/wall-street-texting-habit-sticks-banks-with-rare-1-billion-bill\nComments URL: https://news.ycombinator.com/item?id=32288186\nPoints: 1\n# Comments: 0",
-          "link": "https://www.bloomberg.com/news/articles/2022-07-14/wall-street-texting-habit-sticks-banks-with-rare-1-billion-bill",
-          "publishedOn": "2022-07-30T16:46:47.000Z",
-          "wordCount": 549,
-          "title": "Wall Street Texting Habit Sticks Banks with Rare $1B Bill",
-          "imageUrl": null
         }
       ]
     },
@@ -4860,6 +4980,66 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32641007",
+          "author": "liberia",
+          "description": "Article URL: https://blog.logrocket.com/new-css-style-queries/\nComments URL: https://news.ycombinator.com/item?id=32641007\nPoints: 3\n# Comments: 2",
+          "link": "https://blog.logrocket.com/new-css-style-queries/",
+          "publishedOn": "2022-08-29T17:33:31.000Z",
+          "wordCount": 11137,
+          "title": "Understanding and using the new CSS style queries",
+          "imageUrl": "https://blog.logrocket.com/wp-content/uploads/2022/08/new-css-style-queries.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32638992",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://www.matuzo.at/blog/2022/counting-children/\nComments URL: https://news.ycombinator.com/item?id=32638992\nPoints: 1\n# Comments: 0",
+          "link": "https://www.matuzo.at/blog/2022/counting-children/",
+          "publishedOn": "2022-08-29T14:50:29.000Z",
+          "wordCount": 660,
+          "title": "Parents Counting Children in CSS",
+          "imageUrl": "https://res.cloudinary.com/dp3mem7or/image/upload/w_1200/articles/sm_parenthas.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32638625",
+          "author": "cavneb",
+          "description": "Article URL: https://www.vanillabreeze.dev/\nComments URL: https://news.ycombinator.com/item?id=32638625\nPoints: 2\n# Comments: 0",
+          "link": "https://www.vanillabreeze.dev/",
+          "publishedOn": "2022-08-29T14:21:29.000Z",
+          "wordCount": 47,
+          "title": "Vanilla Breeze: Convert Tailwind CSS to Semantic CSS",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32637689",
+          "author": "tonerow",
+          "description": "Article URL: https://tone-row.com/blog/graph-syntax-css-selectors\nComments URL: https://news.ycombinator.com/item?id=32637689\nPoints: 121\n# Comments: 46",
+          "link": "https://tone-row.com/blog/graph-syntax-css-selectors",
+          "publishedOn": "2022-08-29T13:05:06.000Z",
+          "wordCount": 3068,
+          "title": "A CSS-Inspired Syntax for Flowcharts",
+          "imageUrl": "https://res.cloudinary.com/tone-row/image/upload/f_auto,q_auto,dpr_2.0,w_1000,h_500,c_fit/v1621548408/tone-row-2021/riui4h8zos4ukkdls3ui.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32637553",
+          "author": "Keithamus",
+          "description": "Article URL: https://www.keithcirkel.co.uk/css-classes-considered-harmful/\nComments URL: https://news.ycombinator.com/item?id=32637553\nPoints: 10\n# Comments: 19",
+          "link": "https://www.keithcirkel.co.uk/css-classes-considered-harmful/",
+          "publishedOn": "2022-08-29T12:52:16.000Z",
+          "wordCount": 3149,
+          "title": "CSS Classes Considered Harmful",
+          "imageUrl": "/img/preview/css-classes-considered-harmful.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32633878",
+          "author": "davidbarker",
+          "description": "Article URL: https://twitter.com/jh3yy/status/1562556839807504390\nComments URL: https://news.ycombinator.com/item?id=32633878\nPoints: 1\n# Comments: 0",
+          "link": "https://twitter.com/jh3yy/status/1562556839807504390",
+          "publishedOn": "2022-08-29T01:24:10.000Z",
+          "wordCount": 390,
+          "title": "CSS-only macOS-style dock interaction using the new :has() selector",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32626632",
           "author": "Tomte",
@@ -5429,16 +5609,6 @@
           "wordCount": 1024,
           "title": "CSS Border Animations",
           "imageUrl": "https://web-dev.imgix.net/image/AeNB0cHNDkYPUYzDuv8gInYA9rY2/kVAIT4nxP83ePx2QhEgW.png?auto=format&fit=max&w=1200&fm=auto"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32287544",
-          "author": "longrod",
-          "description": "Article URL: https://github.com/lexbor/lexbor\nComments URL: https://news.ycombinator.com/item?id=32287544\nPoints: 2\n# Comments: 1",
-          "link": "https://github.com/lexbor/lexbor",
-          "publishedOn": "2022-07-30T15:28:28.000Z",
-          "wordCount": 1040,
-          "title": "Lexbor: Fast HTML Renderer library in C",
-          "imageUrl": "https://opengraph.githubassets.com/9e2c1a55e6846e33f1fdc06a54203e72aed25779c869ea936aa85a3db2446ee3/lexbor/lexbor"
         }
       ]
     },
@@ -5489,6 +5659,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=40863",
+          "author": "Seth Godin",
+          "description": "It’s a simple question that can open doors. But it also creates tension. The person you’re seeking to connect with might not want to believe that help is possible. There’s a solace that comes from being really and truly stuck, and hope might not be on their agenda. Or there might be resistance to thinking […]",
+          "link": "https://seths.blog/2022/08/how-can-i-help/",
+          "publishedOn": "2022-08-29T09:08:00.000Z",
+          "wordCount": 1132,
+          "title": "“How can I help?”",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=43632",
           "author": "Seth Godin",
@@ -5768,16 +5948,6 @@
           "wordCount": 1163,
           "title": "How long will this take?",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42409",
-          "author": "Seth Godin",
-          "description": "If you hand a good spec to three providers, you’ll get three variations back in return. The way you know your spec is worthwhile is that you can live with the differences between them. If it’s worth caring about, it’s worth writing down.",
-          "link": "https://seths.blog/2022/07/a-good-spec/",
-          "publishedOn": "2022-07-31T08:26:00.000Z",
-          "wordCount": 1083,
-          "title": "A good spec",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
         }
       ]
     },
@@ -5786,6 +5956,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "QRorSpTYmgFKNW7o8",
+          "author": "@ngrokHQ",
+          "description": "Learn the most popular approaches for building, securing, and operating webhooks, with recommendations for webhook providers and consumers.",
+          "link": "https://webhooks.fyi/",
+          "publishedOn": "2022-08-29T10:49:01.000Z",
+          "wordCount": 800,
+          "title": "Webhooks.fyi",
+          "imageUrl": "/banner.png"
+        },
+        {
+          "id": "owLHAHsroGrrcyTtJ",
+          "author": "@SmithsonianMag",
+          "description": "Cooper Hewitt’s new show taps into the collective consciousness of activists, app developers, artists and architects to envision a way forward.",
+          "link": "https://www.smithsonianmag.com/smithsonian-institution/designers-and-creators-build-a-provocative-road-map-for-world-peace-180980514/",
+          "publishedOn": "2022-08-29T10:42:01.000Z",
+          "wordCount": 2650,
+          "title": "Designers Build a Provocative Road Map for World Peace",
+          "imageUrl": "https://th-thumbnailer.cdn-si-edu.com/kVO6HtZr68mdfKw4Y2fDiD3hNLc=/fit-in/1600x0/filters:focal(1200x1200:1201x1201)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/7d/e9/7de97ba5-1216-408a-94a0-d6e6158636de/art_the_arms_fair.jpg"
+        },
+        {
+          "id": "45u7qqqpvCH7fHkPh",
+          "author": "@Medium",
+          "description": "I finally was able to try it. And I can assure you it’s impossible to create professional and useful images from a text description.",
+          "link": "https://emmanuel6.medium.com/why-dall-e-will-not-steal-my-job-6a1e2943cb82",
+          "publishedOn": "2022-08-29T06:54:18.000Z",
+          "wordCount": 4824,
+          "title": "Why Dall-E will not steal my job",
+          "imageUrl": "https://miro.medium.com/max/1200/1*syf2qY1PXnJYeSA4vmSb0w.png"
+        },
+        {
+          "id": "f6MycaSbzMF8tiLtF",
+          "author": "@uxdesigncc",
+          "description": "A guide to choosing a strategy for paying off Design Debt.",
+          "link": "https://uxdesign.cc/facelift-refresh-redesign-strategies-for-paying-off-design-debt-5cadb10799ed",
+          "publishedOn": "2022-08-29T06:49:10.000Z",
+          "wordCount": 4534,
+          "title": "Facelift, Refresh, Redesign",
+          "imageUrl": "https://miro.medium.com/max/1200/1*iSNZzQYWA5V9hphRCYWGSw.jpeg"
+        },
+        {
+          "id": "yYM8gxjPMynwRnMKL",
+          "author": "@smashingmag",
+          "description": "When error messages should live above input fields and why toast error messages are usually not a very good idea.",
+          "link": "https://www.smashingmagazine.com/2022/08/error-messages-ux-design/",
+          "publishedOn": "2022-08-29T06:48:14.000Z",
+          "wordCount": 5906,
+          "title": "Designing Better Error Messages UX",
+          "imageUrl": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/93af7c7e-6484-4f47-9e79-fcf6aa24b3ce/better-error-messages-ux.jpg"
+        },
         {
           "id": "SZK2WM98xu3XZNFQz",
           "author": "@fastcompany",
@@ -7124,6 +7344,16 @@
       "siteUrl": "https://www.printmag.com",
       "articles": [
         {
+          "id": "https://www.printmag.com/?p=734531",
+          "author": "Steven Heller",
+          "description": "For inquiring minds, here is a short synopsis of the design of Trump’s “Sea to Lake.”",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-youve-heard-about-mar-a-lago-but-do-you-know-mar-a-lago/",
+          "publishedOn": "2022-08-29T11:00:00.000Z",
+          "wordCount": 1939,
+          "title": "The Daily Heller: You’ve Heard About Mar-a-Lago, But Do You Know Who Designed Mar-a-Lago?",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/getImage-6.jpg?fit=1200%2C800&ssl=1"
+        },
+        {
           "id": "https://www.printmag.com/?p=734584",
           "author": "Virginia Postrel",
           "description": "Virginia Postrel on how getting old doesn't mean you suddenly love spending hours chatting with strangers.",
@@ -7202,6 +7432,16 @@
           "wordCount": 1827,
           "title": "The Daily Heller: Recalling Afghan Truck Art Before the Taliban",
           "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/afghan-trks-8.jpeg?fit=1147%2C769&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=734316",
+          "author": "Debbie Millman",
+          "description": "The photographer and jewelry designer opens up on the magic of art, crying with customers, and why she's inspired by fish.",
+          "link": "https://www.printmag.com/what-matters/what-matters-to-monica-rich-kosann/",
+          "publishedOn": "2022-08-23T14:00:00.000Z",
+          "wordCount": 1914,
+          "title": "What Matters to Monica Rich Kosann",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/Monica_Rich_Kosann-scaled.jpg?fit=972%2C1200&ssl=1"
         },
         {
           "id": "https://www.printmag.com/?p=734316",
@@ -7763,6 +8003,21 @@
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
         {
+          "id": "https://smashingmagazine.com/2022/08/toggle-button-case-study-part-2/",
+          "author": "hello@smashingmagazine.com (Eduard Kuric)",
+          "description": "The problem of how to design an effective toggle button that shows the selected option clearly is a long-term open question among UI/UX designers. In this second part, Eduard Kuric explains a complex list of visual cues used by toggle buttons to communicate which of their options is active.",
+          "link": "https://smashingmagazine.com/2022/08/toggle-button-case-study-part-2/",
+          "publishedOn": "2022-08-29T14:00:00.000Z",
+          "wordCount": 6046,
+          "title": "What Makes A Great Toggle Button? (Case Study, Part 2)",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/3d25c3a9-5cbd-44e2-9c8c-742d35c261ee/toggle-button-case-study.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/3d25c3a9-5cbd-44e2-9c8c-742d35c261ee/toggle-button-case-study.png"
+        },
+        {
           "id": "https://smashingmagazine.com/2022/08/error-messages-ux-design/",
           "author": "hello@smashingmagazine.com (Vitaly Friedman)",
           "description": "Error messages need to be easy to spot, but they also need to be helpful. Let’s explore when error messages should live above input fields and why toast error messages are usually not a very good idea.",
@@ -8001,21 +8256,6 @@
             "type": "image/png"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8325e378-54a4-435f-8867-8eedcbebbd04/1-fluid-typography-say-no-media-queries.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/07/desktop-wallpaper-calendars-august-2022/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Do you need a little inspiration boost? Well, then our new batch of desktop wallpapers is for you. Designed by artists and designers from across the globe, they come in versions with and without a calendar for August 2022.",
-          "link": "https://smashingmagazine.com/2022/07/desktop-wallpaper-calendars-august-2022/",
-          "publishedOn": "2022-07-31T08:00:00.000Z",
-          "wordCount": 4526,
-          "title": "Memories Of August (2022 Desktop Wallpapers Edition)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ec313af0-1806-4c89-b9dd-fd287cd5a3ff/aug-22-swimming-in-the-summer-preview-opt.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ec313af0-1806-4c89-b9dd-fd287cd5a3ff/aug-22-swimming-in-the-summer-preview-opt.png"
         }
       ]
     },
