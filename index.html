@@ -5,6 +5,388 @@
 <link rel="shortcut icon" href="https://praveenjuge.com/favicon.ico" />
 <style>body{margin:0 auto;max-width:50rem;padding:2rem;font-size:.85rem;line-height:1.6;color:#666;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,sans-serif}body>*,section>*{margin:1.5rem 0}section{overflow-x:hidden;border-radius:.25rem;background-color:#000;padding:1rem}div{display:flow-root;width:100%}p{margin:0}a{text-decoration:none;font-weight:500;color:#ccc}a:visited{color:#666}a:hover{color:#fff}img{float:right;margin-left:1rem;border-radius:.25rem;height:auto}</style>
 
+  <p>2022-08-31</p>
+    <section>
+      <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;icon&quot; &quot;typography&quot; &quot;wireframe&quot; &quot;illustration&quot;&quot;</p>
+        <div>
+          <a href=https://news.ycombinator.com/item?id&#x3D;32669344 target="_blank">Ask HN: How to design database schema for usage based billing?</a>
+          <p>The service I am building is usage-based, i.e.
+  * I am charging per second the service was used, e.g. USD 0.01/second
+  * I would like to give credits upon sign-up.
+  * There is no monthly minimum.
+
+  * &#x60;billing_account (id, billing_rate_id, running_balance)&#x60;
+  * &#x60;billing_rate (id, rate)&#x60;
+  * &#x60;account_credit (id, billing_account_id, timestamp, amount, function_execution_id)&#x60;
+  * &#x60;account_debit (id, billing_account_id, timestamp, amount, source [platform_credit or stripe])&#x60;
+
+Then whenever they run a function that costs them, I create &#x60;account_credit&#x60; account with an entry equal to the amount they spent and update &#x60;billing_account&#x60; &#x60;running_balance&#x60; value.
+When they top-up their account, I would just add entry to &#x60;account_debit&#x60; and update the balance again.
+This appears to cover all my use cases, but I wanted to check with anyone who&#x27;s designed such database schemas before.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32669344
+Points: 16
+# Comments: 8</p>
+        </div>
+        <div>
+            <img src="https://miro.medium.com/max/1200/1*JSVeLpUkaklYgzJ_13Ne7Q.png" width="96" loading="lazy" />
+          <a href=https://lisa-angela.medium.com/toxicity-in-digital-design-a-status-report-6a63fa5f22cc target="_blank">Toxicity in Digital Design</a>
+          <p>Article URL: https://lisa-angela.medium.com/toxicity-in-digital-design-a-status-report-6a63fa5f22cc
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32668004
+Points: 1
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://lh3.googleusercontent.com/nS5mLGA3MxbGAanvAzScd9WmL6bqEOEQvwx6ThcJxEoCXa_FSq8-qEhV99pEJCqAK9NbVw&#x3D;w16383" width="96" loading="lazy" />
+          <a href=https://www.forth2020.org/about-forth target="_blank">The Forth Language and Language Design</a>
+          <p>Article URL: https://www.forth2020.org/about-forth
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32667727
+Points: 4
+# Comments: 0</p>
+        </div>
+        <div>
+          <a href=https://thecleverest.com/using-dall-e-2-for-interior-design/ target="_blank">Using DALL-E 2 Inpainting for Interior Design</a>
+          <p>Article URL: https://thecleverest.com/using-dall-e-2-for-interior-design/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32665064
+Points: 1
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://miro.medium.com/max/1200/1*e4Mc9JjENgJiwud4bbQK8w.png" width="96" loading="lazy" />
+          <a href=https://blog.mobile.dev/introducing-maestro-painless-mobile-ui-automation-bee4992d13c1 target="_blank">Maestro – Painless Mobile UI Automation</a>
+          <p>Article URL: https://blog.mobile.dev/introducing-maestro-painless-mobile-ui-automation-bee4992d13c1
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32664686
+Points: 4
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://dobrean.files.wordpress.com/2022/08/frame-6.jpg" width="96" loading="lazy" />
+          <a href=https://dobrean.ro/2022/08/31/ux-ui-is-the-obstacle-in-finding-product-market-fit/ target="_blank">UX/UI the obstacle in finding product-market fit</a>
+          <p>Article URL: https://dobrean.ro/2022/08/31/ux-ui-is-the-obstacle-in-finding-product-market-fit/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32662949
+Points: 1
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://www.prodpad.com/wp-content/uploads/2016/06/Magically-Extending-Trial-Social.png" width="96" loading="lazy" />
+          <a href=https://www.prodpad.com/blog/our-new-user-onboarding-process-ux/ target="_blank">The UX Behind ProdPad&#x27;s Magically Extending Free Trial (2016)</a>
+          <p>Article URL: https://www.prodpad.com/blog/our-new-user-onboarding-process-ux/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32661938
+Points: 1
+# Comments: 0</p>
+        </div>
+        <div>
+          <a href=https://news.ycombinator.com/item?id&#x3D;32661398 target="_blank">Ask HN: Hardware product design, where do I start?</a>
+          <p>I want to design/build/manufacture a very stripped down version of Dakboard [1]. Using Photo Frame like the ones available in Amazon for a display[2]. It needs to pull calendar data or images from an API and render it so that customers always sees a latest monthly calendar.
+I once thought of contacting one of those manufacturer of the Photo Frames and ask them if they can do the necessary tweaks. But I&#x27;m not sure what details to give them.
+What is the prep work necessary for this? I&#x27;ve absolutely no idea where to start but it&#x27;s one of the project ideas that I come back to again and again and want to get it done no matter what.
+Where do I even start at this? Any pointers would help tremendously.
+Thanks HN.
+[1] https://dakboard.com/site
+[2] https://www.amazon.com/Digital-Picture-Storage-Auto-Rotate-Remotely/dp/B09GF3HYM8
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32661398
+Points: 7
+# Comments: 2</p>
+        </div>
+        <div>
+          <a href=https://blog.willgrant.org/2022/08/30/on-artificial-intelligence-in-user-experience-design.html target="_blank">On Artificial Intelligence in User Experience Design</a>
+          <p>Article URL: https://blog.willgrant.org/2022/08/30/on-artificial-intelligence-in-user-experience-design.html
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32659826
+Points: 1
+# Comments: 0</p>
+        </div>
+        <div>
+          <a href=https://www.youtube.com/watch?v&#x3D;bu2xwx-6JGk target="_blank">How to Install Stable Diffusion Web UI on Your Computer for Free</a>
+          <p>Article URL: https://www.youtube.com/watch?v&#x3D;bu2xwx-6JGk
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32657008
+Points: 2
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://valkyrie.cdn.ifixit.com/media/2021/10/29095051/MBP_M1_2021_39.jpg" width="96" loading="lazy" />
+          <a href=https://www.ifixit.com/News/64212/apple-accused-of-repair-washing-repair-roundup-week-of-august-21 target="_blank">Apple, Tesla, and the Terrible Trend of Unrepairable Design: Repair Roundup 8/21</a>
+          <p>Article URL: https://www.ifixit.com/News/64212/apple-accused-of-repair-washing-repair-roundup-week-of-august-21
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32656763
+Points: 3
+# Comments: 0</p>
+        </div>
+    </section>
+    <section>
+      <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot; &quot;html&quot;&quot;</p>
+        <div>
+          <a href=https://www.guess-css.app/ target="_blank">Guess CSS! - a HTML and CSS puzzler game</a>
+          <p>Article URL: https://www.guess-css.app/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32669276
+Points: 2
+# Comments: 0</p>
+        </div>
+        <div>
+          <a href=https://enhance.dev/docs/ target="_blank">Enhance – a web standards-based HTML framework</a>
+          <p>Article URL: https://enhance.dev/docs/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32668717
+Points: 1
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://lh3.googleusercontent.com/-_Q-MP7kKQ_WCY5wlkg9sD7Q53QJESfNyfo4HQAT2CNsO3uGEiQXLcgmfcTpEEbxHOv38dIXuDsvetyKFsF6GWkQZg&#x3D;w128-h128-e365-rj-sc0x00ffffff" width="96" loading="lazy" />
+          <a href=https://chrome.google.com/webstore/detail/html-+-css-extract/bkahkocegdkgicmmfpkoeipjmjaeohfn target="_blank">Show HN: Chrome extension that extracts HTML+CSS from an element to inline style</a>
+          <p>Hi there. I spent the last couple months building this chrome extension to scratch my own itch. It allows you to extract a snippet of HTML along with its styles and export to inline styles or JSX. It’s not perfect and doesn’t work on every site. There is class support but I am still working on it along with some other cool features. Feedback is appreciated.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32661169
+Points: 6
+# Comments: 2</p>
+        </div>
+        <div>
+          <a href=https://philipwalton.com/articles/css-architecture/ target="_blank">CSS Architecture (2012)</a>
+          <p>Article URL: https://philipwalton.com/articles/css-architecture/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32660277
+Points: 1
+# Comments: 0</p>
+        </div>
+        <div>
+          <a href=http://www.the-pope.com/lostHTML.htm target="_blank">The Lost Tags of HTML</a>
+          <p>Article URL: http://www.the-pope.com/lostHTML.htm
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32658849
+Points: 2
+# Comments: 0</p>
+        </div>
+        <div>
+          <a href=https://www.fourmilab.ch/webtools/unum/ target="_blank">UNUM: Interconvert numbers, Unicode, and HTML/XHTML entities</a>
+          <p>Article URL: https://www.fourmilab.ch/webtools/unum/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32658420
+Points: 2
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://ishadeed.com/assets/cq/twitter-card-1.jpg" width="96" loading="lazy" />
+          <a href=https://ishadeed.com/article/container-queries-are-finally-here/ target="_blank">CSS container queries are finally here</a>
+          <p>Article URL: https://ishadeed.com/article/container-queries-are-finally-here/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32657681
+Points: 1
+# Comments: 1</p>
+        </div>
+    </section>
+    <section>
+      <p>NYT &gt; Design</p>
+        <div>
+            <img src="https://static01.nyt.com/images/2022/08/31/multimedia/31RF-ZeroWaste--10/31RF-ZeroWaste--10-facebookJumbo.jpg" width="96" loading="lazy" />
+          <a href=https://www.nytimes.com/2022/08/31/style/world-class-lessons-on-zero-waste.html target="_blank">Designers From Around the World Use</a>
+          <p>Designers from around the world find inspiration in traditional garment making in their quest to eliminate fabric waste.</p>
+        </div>
+        <div>
+            <img src="https://static01.nyt.com/images/2022/08/30/obituaries/30Kime1/30Kime1-facebookJumbo.jpg" width="96" loading="lazy" />
+          <a href=https://www.nytimes.com/2022/08/31/arts/design/robert-kime-dead.html target="_blank">Robert Kime, Decorator for Nobility and Other Notables, Dies at 76</a>
+          <p>A celebrated antiques lover with an understated, old-guard approach, his clients included Prince Charles and Andrew Lloyd Webber.</p>
+        </div>
+    </section>
+    <section>
+      <p>Hacker News - Newest: &quot;&quot;habit&quot; &quot;productivity&quot; &quot;stoic&quot; &quot;rss&quot;&quot;</p>
+        <div>
+            <img src="https://substackcdn.com/image/fetch/w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F545f92de-ceb5-4430-843a-2b6450efa8f5_384x384.png" width="96" loading="lazy" />
+          <a href=https://thesumup.substack.com/p/the-most-important-productivity-tool target="_blank">The Most Important Productivity Tool Is Yourself</a>
+          <p>Article URL: https://thesumup.substack.com/p/the-most-important-productivity-tool
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32668646
+Points: 2
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://html.com/wp-content/uploads/Code.jpg" width="96" loading="lazy" />
+          <a href=https://html.com/blog/25-ways-rss-can-make-your-life-easier/ target="_blank">Non Obvious Ways RSS Feeds Can Make Life Easier</a>
+          <p>Article URL: https://html.com/blog/25-ways-rss-can-make-your-life-easier/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32667669
+Points: 1
+# Comments: 0</p>
+        </div>
+        <div>
+          <a href=https://skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/ target="_blank">Bash/Terminal Shortcuts for Maximum Productivity</a>
+          <p>Article URL: https://skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;32664473
+Points: 2
+# Comments: 1</p>
+        </div>
+    </section>
+    <section>
+      <p>Blog – WebKit</p>
+        <div>
+            <img src="https://webkit.org/wp-content/uploads/webkit_on_github.png" width="96" loading="lazy" />
+          <a href=https://webkit.org/blog/13140/webkit-on-github/ target="_blank">WebKit on GitHub!</a>
+          <p>On June 23rd, the WebKit project froze its Subversion tree and transitioned management and interaction with our source code to git on GitHub.</p>
+        </div>
+    </section>
+    <section>
+      <p>Latest WDRL editions via Feed</p>
+        <div>
+            <img src="https://wdrl.info/media/pages/archive/302/2365a8613d-1661925594/wdrl-302-2-1200x630-crop-1-q80.png" width="96" loading="lazy" />
+          <a href=https://wdrl.info/archive/302 target="_blank">WDRL — Edition 302: Digital accessibility, learning modern CSS, UI tricks, serving images the right way, and proper waiting in JavaScript.</a>
+          <p>Hey,
+Let&#x27;s build websites for every one of us: »At the end of 2021, approximately 7.8 million severely disabled people were living in Germany. […] The percentage of severely disabled people in the total population in Germany stood at 9.4%.« – Statistisches Bundesamt
+When I first stumbled upon these numbers, I could not believe them. It is one more reason to learn about digital accessibility now. We are all individuals with different strengths, weaknesses, backgrounds, needs, and possibilities. I think every human being should be able to interact with the websites we are building. If you only have time for one topic this week, please check out The A11Y Project.
+This time Malte wrote the intro.
+News
+Firefox 103 is out and brings backdrop-filter in CSS, :modal, and scroll-snap-stop.
+Finally D…</p>
+        </div>
+    </section>
+    <section>
+      <p>HeyDesigner</p>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/product-intuition-calibration/ target="_blank">Product intuition calibration</a>
+          <p>You notice how some people you work with have a very astute and mostly correct intuition about a variety of user scenarios, behaviours and product performance?</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/motionity/ target="_blank">Motionity</a>
+          <p>A web-based, open source motion graphics editor for everyone.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/design-to-win/ target="_blank">Design to win</a>
+          <p>How I use the power of comparison to unlock better design.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/a-handy-use-for-cascade-layers/ target="_blank">A handy use for cascade layers</a>
+          <p>I was just preparing a demo for an upcoming talk and it suddenly occurred to me that cascade layers would be a perfect solution to a problem I was having.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/css-container-queries-are-finally-here/ target="_blank">CSS container queries are finally here</a>
+          <p>I can’t contain my excitement while writing the first few words for this article.</p>
+        </div>
+    </section>
+    <section>
+      <p>dailydevlinks</p>
+        <div>
+            <img src="https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png" width="96" loading="lazy" />
+          <a href=https://dailydevlinks.com/improving-accessibility-with-design-tokens/ target="_blank">Improving Accessibility with Design Tokens</a>
+          <p>Design</p>
+        </div>
+        <div>
+            <img src="https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png" width="96" loading="lazy" />
+          <a href=https://dailydevlinks.com/how-to-improve-and-measure-your-progress-learning-web-design/ target="_blank">How To Improve And Measure Your Progress Learning Web Design</a>
+          <p>Design</p>
+        </div>
+    </section>
+    <section>
+      <p>PRINT Magazine</p>
+        <div>
+            <img src="https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/afghan-trks-7-2.jpeg?fit&#x3D;1200%2C696&amp;ssl&#x3D;1" width="96" loading="lazy" />
+          <a href=https://www.printmag.com/daily-heller/the-daily-heller-designing-fossil-fuels/ target="_blank">The Daily Heller: Designing Fossil Fuels</a>
+          <p>Gasoline ephemera is among the finest graphic and industrial design artifacts that once were.</p>
+        </div>
+    </section>
+    <section>
+      <p>The Big Hack</p>
+        <div>
+            <img src="https://bighack.org/wp-content/uploads/2022/08/4.jpg" width="96" loading="lazy" />
+          <a href=https://bighack.org/the-reality-of-booking-concert-tickets-online-as-a-disabled-person/ target="_blank">The reality of booking concert tickets online as a disabled person</a>
+          <p>The post The reality of booking concert tickets online as a disabled person appeared first on The Big Hack.</p>
+        </div>
+    </section>
+    <section>
+      <p>Seth&#x27;s Blog</p>
+        <div>
+            <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg" width="96" loading="lazy" />
+          <a href=https://seths.blog/2022/08/the-advice-gap/ target="_blank">The advice gap</a>
+          <p>Wisdom and good advice are everywhere, now more than ever. And yet, despite the abundance that’s available, people often make errors in job searches, product launches, or even planning a party. There might be three reasons: The advice might not be good, or it doesn’t appear to be valid. It’s hard to tell good advice […]</p>
+        </div>
+    </section>
+    <section>
+      <p>Articles on Smashing Magazine — For Web Designers And Developers</p>
+        <div>
+            <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6859d441-1ee0-47f9-a3c7-73a1dbc29472/sep-22-cultivating-community-preview-opt.png" width="96" loading="lazy" />
+          <a href=https://smashingmagazine.com/2022/08/desktop-wallpaper-calendars-september-2022/ target="_blank">Finding The Balance (September 2022 Desktop Wallpapers Edition)</a>
+          <p>Let’s welcome September with some fresh desktop wallpapers. Designed by artists and designers from across the globe, they come in versions with and without a calendar for the month. Enjoy!</p>
+        </div>
+    </section>
+    <section>
+      <p>Sidebar</p>
+        <div>
+          <a href=https://solomon.io/improving-accessibility-with-design-tokens target="_blank">Improving Accessibility with Design Tokens</a>
+          <p>How to improve accessibility with design tokens. By using tokens to enable theming, we can begin to build themes for our colorblind customers.</p>
+        </div>
+        <div>
+            <img src="https://i0.wp.com/nightingaledvs.com/wp-content/uploads/2022/07/Data-Viz-Design-Process-1.png?fit&#x3D;1921%2C395&amp;ssl&#x3D;1" width="96" loading="lazy" />
+          <a href=https://nightingaledvs.com/a-design-process-for-dataviz/ target="_blank">A Design Process for Dataviz</a>
+          <p>Design is a plan to create something that will be beneficial to people.</p>
+        </div>
+        <div>
+            <img src="https://www.joshwcomeau.com/images/og-usememo-and-usecallback.png" width="96" loading="lazy" />
+          <a href=https://www.joshwcomeau.com/react/usememo-and-usecallback/ target="_blank">Understanding useMemo and useCallback</a>
+          <p>What’s the deal with these two hooks?! Lots of devs find them confusing, for a whole host of reasons.</p>
+        </div>
+        <div>
+            <img src="https://theturnsignalblog.com/static/1ba6f268c47cae69346327ff5f323003/f3583/thumbnail.png" width="96" loading="lazy" />
+          <a href=https://www.theturnsignalblog.com/blog/voice-interaction/ target="_blank">Is Voice Interaction a Solution to Driver Distraction?</a>
+          <p>Voice interaction sounds great because drivers don&#x27;t have to take their eyes off the road. But is it really a valid way to mitigate distraction?</p>
+        </div>
+        <div>
+            <img src="https://ishadeed.com/assets/cq/twitter-card-1.jpg" width="96" loading="lazy" />
+          <a href=http://ishadeed.com/article/container-queries-are-finally-here/ target="_blank">CSS container queries are finally here</a>
+          <p>They’re currently supported in Google Chrome (105) and soon in Safari 16. This is a huge milestone for web development.</p>
+        </div>
+    </section>
+    <section>
+      <p>CSS In Real Life</p>
+        <div>
+            <img src="https://css-irl.info/social_1200x630.png" width="96" loading="lazy" />
+          <a href=https://css-irl.info/creative-css-layout-and-the-flexible-web/ target="_blank">Creative CSS Layout (and the Flexible Web)</a>
+          <p>Hi friends! Way back in June (which already feels like such a long time ago in CSS land!) I had the pleasure of speaking about CSS layout at CSS Day conference. I’m pleased to say the video has now been published! Take a look to learn about a whole bunch of modern CSS layout techniques, with a few little tricks thrown in.
+https://www.youtube.com/embed/tueTFd2TQUA
+I attempted to pack a lot into this talk, but what I tried to emphasise is that many of the new CSS features we have at our disposal help (and even encourage) us to embrace the flexible web of the present day. One where we can’t possibly predict what kind of devices our user is browsing our website on, but where we can ensure our layouts are robust across all devices, by eschewing pixel-perfection in favour of something more intri…</p>
+        </div>
+    </section>
+    <section>
+      <p>Chrome Developers - Blog</p>
+        <div>
+            <img src="https://wd.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/p5rc94lS6rpR6xBwzT8k.jpg?auto&#x3D;format&amp;w&#x3D;1521" width="96" loading="lazy" />
+          <a href=https://developer.chrome.com/en/blog/devtools-modern-web-debugging/ target="_blank">Modern web debugging in Chrome DevTools</a>
+          <p># Introduction
+Today, authors can use many abstractions to build their Web applications. Instead of directly interfacing with the lower-level APIs that the Web Platform provides, many authors leverage frameworks, build tools and compilers to write their applications from a higher-level perspective.
+For example, components built on top of the Angular framework are authored in TypeScript with HTML templates. Underneath the hood, the Angular CLI and webpack compile everything to JavaScript and into a so-called bundle, which is then shipped to the browser.
+When debugging or profiling Web applications in DevTools, you currently get to see and debug this compiled version of your code instead of the code you actually wrote. As an author, this is not want you want, though:
+You don’t want to debug …</p>
+        </div>
+        <div>
+            <img src="https://wd.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/Egfwsk7s0uM7XCLC4nEv.jpg?auto&#x3D;format&amp;w&#x3D;1521" width="96" loading="lazy" />
+          <a href=https://developer.chrome.com/en/blog/devtools-better-angular-debugging/ target="_blank">Case Study: Better Angular Debugging with DevTools</a>
+          <p># An improved debugging experience
+Over the past few months the Chrome DevTools team collaborated with the Angular team to launch improvements to the debugging experience in Chrome DevTools. People from both teams worked together and took steps towards enabling developers to debug and profile web applications from the authoring perspective: in terms of their source language and project structure, with access to information that is familiar and relevant to them.
+This post takes a look under the hood to see which changes in Angular and Chrome DevTools were required to achieve this. Even though some of these changes are demonstrated through Angular, they can be applied to other frameworks as well. The Chrome DevTools team encourages other frameworks to adopt the new console APIs and source ma…</p>
+        </div>
+        <div>
+            <img src="https://wd.imgix.net/image/8WbTDNrhLsU0El80frMBGE4eMCD3/yUp8lfaCt4EmxmVei3lj.jpg?auto&#x3D;format&amp;w&#x3D;1521" width="96" loading="lazy" />
+          <a href=https://developer.chrome.com/en/blog/deprecating-web-sql/ target="_blank">Deprecating and removing Web SQL</a>
+          <p>This is a living post that will be updated as the deprecation steps outlined below
+happen. 
+
+
+The Web SQL Database API, which allows you to store data in a
+structured manner on the user&#x27;s computer (internally based on the SQLite database engine), was
+introduced in April 2009 and
+abandoned in November 2010. While it
+was implemented in WebKit (which powers Safari and early versions of Chrome) and remained active in
+the Blink engine (that powers Chrome after the switch from WebKit), Gecko (which powers Firefox)
+never implemented this feature and
+WebKit removed it in 2019.
+The World Wide Web Consortium (W3C)
+encourages
+those needing web databases to adopt
+Web Storage API technologies like
+localStorage and
+sessionStorage, or
+IndexedDB. These
+technologies show their strengths when it comes to ke…</p>
+        </div>
+    </section>
+    <section>
+      <p>remy sharp&#x27;s b:log</p>
+        <div>
+            <img src="https://remysharp.com/images/cards/og/9-0.jpg" width="96" loading="lazy" />
+          <a href=https://remysharp.com/2022/08/31/twelve target="_blank">Twelve [blog]</a>
+          <p>Tia&#x27;s 12th … birthday. Not a birthday, but 12 years after she was born, or came into our lives. She died too. Our first. The oldest that we don&#x27;t have at home.
+I don&#x27;t know if I have a meaningful blog post in me this year, though I&#x27;ve written words about Tia for a number of years now on, or near this specific date: 31‍-‍August.</p>
+        </div>
+    </section>
   <p>2022-08-30</p>
     <section>
       <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;icon&quot; &quot;typography&quot; &quot;wireframe&quot; &quot;illustration&quot;&quot;</p>
@@ -2254,6 +2636,13 @@ Points: 1
           <p>Growing our impact or profit usually involves maximizing something that’s valuable. And things that are valuable are often scarce. Finding the one thing that is at the heart of your value/scarcity matrix makes it much easier to focus your energy on strategic decisions. If you own a single store, you need to maximize the profit […]</p>
         </div>
     </section>
+    <section>
+      <p>remy sharp&#x27;s b:log</p>
+        <div>
+          <a href=https://remysharp.com/books/2022/hope-to-die-di-adam-fawley-6 target="_blank">Hope to Die (DI Adam Fawley #6) [book]</a>
+          <p>Hope to Die (DI Adam Fawley #6)</p>
+        </div>
+    </section>
   <p>2022-08-19</p>
     <section>
       <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;icon&quot; &quot;typography&quot; &quot;wireframe&quot; &quot;illustration&quot;&quot;</p>
@@ -3455,6 +3844,17 @@ Why learn product design? Funny story. Two years ago, I made a bet with my girlf
             <img src="https://wp.technologyreview.com/wp-content/uploads/2022/07/dalle2-composite.jpeg?resize&#x3D;1200,600" width="96" loading="lazy" />
           <a href=https://www.technologyreview.com/2022/07/20/1056238/openai-product-launch-dall-e-million-customers-ai-bias target="_blank">OpenAI is ready to sell DALL-E to its first million customers</a>
           <p>But the company has had to rush out fixes to the image-making model’s worst flaws to do so.</p>
+        </div>
+    </section>
+    <section>
+      <p>remy sharp&#x27;s b:log</p>
+        <div>
+          <a href=https://remysharp.com/books/2022/redwall target="_blank">Redwall [book]</a>
+          <p>Redwall</p>
+        </div>
+        <div>
+          <a href=https://remysharp.com/books/2022/the-frangipani-tree-mystery-crown-colony-1 target="_blank">The Frangipani Tree Mystery (Crown Colony #1) [book]</a>
+          <p>The Frangipani Tree Mystery (Crown Colony #1)</p>
         </div>
     </section>
   <p>2022-08-14</p>
@@ -5842,26 +6242,6 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;32317596
 Points: 4
 # Comments: 0</p>
         </div>
-        <div>
-          <a href=https://blog.willgrant.org/2022/08/01/how-to-get-your-first-job-in-ux.html target="_blank">How to get your first job in UX: A Guide</a>
-          <p>Article URL: https://blog.willgrant.org/2022/08/01/how-to-get-your-first-job-in-ux.html
-Comments URL: https://news.ycombinator.com/item?id&#x3D;32316973
-Points: 1
-# Comments: 0</p>
-        </div>
-        <div>
-          <a href=https://news.ycombinator.com/item?id&#x3D;32316832 target="_blank">Ask HN: Courses/pages to design and architect complex system</a>
-          <p>Comments URL: https://news.ycombinator.com/item?id&#x3D;32316832
-Points: 1
-# Comments: 0</p>
-        </div>
-        <div>
-          <a href=https://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/ target="_blank">From design patterns to category theory (2017)</a>
-          <p>Article URL: https://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;32316128
-Points: 1
-# Comments: 0</p>
-        </div>
     </section>
     <section>
       <p>Sidebar</p>
@@ -5885,10 +6265,6 @@ Points: 1
           <a href=https://www.smashingmagazine.com/2022/08/fluid-sizing-multiple-media-queries/ target="_blank">Fluid Sizing Instead Of Multiple Media Queries?</a>
           <p>If you like math and CSS, you’ll love this one. Fluid Sizing Instead Of Multiple Media Queries? Yep, we can make it work, with a bit of math.</p>
         </div>
-        <div>
-          <a href=https://www.wordnote.app/blog/why-i-built-dictionary-app target="_blank">Why I built a dictionary app</a>
-          <p>Even with more than 300 apps available at AppStore, none of the available apps satisfied what I expected from a dictionary.</p>
-        </div>
     </section>
     <section>
       <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot; &quot;html&quot;&quot;</p>
@@ -5907,23 +6283,6 @@ Points: 2
 Comments URL: https://news.ycombinator.com/item?id&#x3D;32321526
 Points: 2
 # Comments: 0</p>
-        </div>
-        <div>
-            <img src="https://web-dev.imgix.net/image/AeNB0cHNDkYPUYzDuv8gInYA9rY2/4KSYYba8wDbfZsycAV23.svg?auto&#x3D;format&amp;fit&#x3D;max&amp;w&#x3D;1200&amp;fm&#x3D;auto" width="96" loading="lazy" />
-          <a href=https://web.dev/css-individual-transform-properties/ target="_blank">Finer grained control over CSS transforms with individual transform properties</a>
-          <p>Article URL: https://web.dev/css-individual-transform-properties/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;32315909
-Points: 2
-# Comments: 0</p>
-        </div>
-        <div>
-          <a href=https://news.ycombinator.com/item?id&#x3D;32315035 target="_blank">Ask HN: Is there a tool / product that enables commenting on HTML elements?</a>
-          <p>I&#x27;m searching for a commercial product that enables commenting on HTML elements on a product so it can be shared with an org. Think google comments connected to Inspect Element in chrome that can be shared with an organization.
-I want to get away from creating tickets or sending emails highlighting UX concerns. This is cumbersome and not very transparent or collaborative.
-Does a tool like this already exist?
-Comments URL: https://news.ycombinator.com/item?id&#x3D;32315035
-Points: 82
-# Comments: 56</p>
         </div>
     </section>
     <section>
@@ -5960,28 +6319,6 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;32319127
 Points: 2
 # Comments: 0</p>
         </div>
-        <div>
-          <a href=https://news.ycombinator.com/item?id&#x3D;32314864 target="_blank">Ask HN: Please share your productivity and focus tips, hacks, mindsets, etc.</a>
-          <p>I am looking for anything you do that helps you get stuff done, even stuff you are not passionate about. Although I&#x27;ve come across many useful tips here on HN, listed later, I still struggle. Some days I just can&#x27;t code at all. probably got sleep apnea.
-Some stuff that has helped me on good days
-- light cardio first thing or in noon
-- good sleep
-- not being stuck at some code
-- deadlines not created by me (but leads to burn out)
-- working closely with other people (PM, fellow dev)
-- being in flow, hitting trifecta of skills match + interest match + support match
-- air circulation and quiet environment, coldish temperature, multiple places to sit/lay
-- informal culture and small team
-- no ambiguity
-- no bad blood between me and mgmt/boss/company/teammates
-- create 3 todo item list daily
-What else? what&#x27;s your morning routine?
-I don&#x27;t think it&#x27;s even about passion, I had all intentions and passion when I was working on my own project, but I worked 10 hours a day for a week and then never could work on it again, ended up selling it for few grand mostly to not see it rot.
-TLDR: Extremely low stamina/energy and procrastination
-Comments URL: https://news.ycombinator.com/item?id&#x3D;32314864
-Points: 1
-# Comments: 1</p>
-        </div>
     </section>
     <section>
       <p>NYT &gt; Design</p>
@@ -5995,11 +6332,6 @@ Points: 1
           <a href=https://www.nytimes.com/2022/08/02/realestate/michael-r-jackson-washington-heights.html target="_blank">Michael R. Jackson, in a Place All His Own in Washington Heights</a>
           <p>The Tony- and Pulitzer-winning author of ‘A Strange Loop’ finally has an apartment to himself in Manhattan.</p>
         </div>
-        <div>
-            <img src="https://static01.nyt.com/images/2022/08/07/realestate/02ATHOMEWITH-JACKSON/02ATHOMEWITH-JACKSON-facebookJumbo.jpg" width="96" loading="lazy" />
-          <a href=https://www.nytimes.com/slideshow/2022/08/02/realestate/michael-r-jacksons-peaceful-space.html target="_blank">Michael R. Jackson’s ‘Peaceful Space’</a>
-          <p>The Tony- and Pulitzer-winning author of “A Strange Loop” has a new apartment in Manhattan — and “I don’t have to share it with anyone.”</p>
-        </div>
     </section>
     <section>
       <p>HeyDesigner</p>
@@ -6007,16 +6339,6 @@ Points: 1
             <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
           <a href=https://heydesigner.com/dont-call-them-users/ target="_blank">Don’t call them users</a>
           <p>The people you design for are human beings, not just data points on a graph.</p>
-        </div>
-        <div>
-            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
-          <a href=https://heydesigner.com/levels-of-knowledge/ target="_blank">Levels of knowledge</a>
-          <p>Translating theory into real experiences and embracing other types of design are clear signs of your evolution as a designer.</p>
-        </div>
-        <div>
-            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
-          <a href=https://heydesigner.com/css-border-animations/ target="_blank">CSS border animations</a>
-          <p>Looking at several ways to animate a border in CSS.</p>
         </div>
     </section>
     <section>
@@ -6043,16 +6365,6 @@ Points: 1
           <a href=https://www.printmag.com/sva-branding-100-days-2/gab-porras-carta-searches-for-the-real-meaning-of-the-labels-we-give-ourselves/ target="_blank">Gab Porras Carta Searches for the Real Meaning of the Labels We Give Ourselves</a>
           <p>The Australian creative attempts to understand the deeper motivations of the labels we use to describe ourselves and each other.</p>
         </div>
-        <div>
-            <img src="https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/IFC_previewbackground02_220615.png?fit&#x3D;1080%2C1080&amp;ssl&#x3D;1" width="96" loading="lazy" />
-          <a href=https://www.printmag.com/printcast/inside-front-cover-episode-2-discovery/ target="_blank">Inside Front Cover, Episode 2: Discovery</a>
-          <p>Sam Aquillano continues to explore book jacket design through a conversation with Proportion Co-Founders Blake Goodwin and Paul Reiss.</p>
-        </div>
-        <div>
-            <img src="https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/07/Artboard-3-copy.png?fit&#x3D;1200%2C601&amp;ssl&#x3D;1" width="96" loading="lazy" />
-          <a href=https://www.printmag.com/daily-heller/the-daily-heller-a-personal-vision-for-branding-nonprofits/ target="_blank">The Daily Heller: A Vision for Branding Nonprofits</a>
-          <p>Deroy Peraza of Hyperakt riffs on the studio’s vision, and the key differences in developing brands for commercial enterprises and nonprofits.</p>
-        </div>
     </section>
     <section>
       <p>David Walsh Blog</p>
@@ -6071,154 +6383,5 @@ The post How Plugins Enhance The WYSIWYG Editing Experience (Sponsored) appeared
           <p>Dave Rupert with some modern CSS magic that tackles one of those classic conundrums: what happens when the CSS for component is unable to handle the content we throw at it?
 The specific situation is when a layout grid expects …
 Implicit Grids, Repeatable Layout Patterns, and Danglers originally published on CSS-Tricks. You should get the newsletter.</p>
-        </div>
-    </section>
-    <section>
-      <p>dailydevlinks</p>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/recreating-mdns-truncated-text-effect/ target="_blank">Recreating MDN’s Truncated Text Effect</a>
-          <p>CSS</p>
-        </div>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/vs-how-to-choose-the-right-one/ target="_blank">vs. : How To Choose The Right One</a>
-          <p>HTML</p>
-        </div>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/the-ultimate-list-of-css-code-generators-for-web-development/ target="_blank">The Ultimate List of CSS Code Generators For Web Development</a>
-          <p>CSS</p>
-        </div>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/help-pick-a-syntax-for-css-nesting/ target="_blank">Help pick a syntax for CSS nesting</a>
-          <p>CSS</p>
-        </div>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/detecting-css-selector-support-with-javascript/ target="_blank">Detecting CSS Selector Support with JavaScript</a>
-          <p>CSSJS</p>
-        </div>
-    </section>
-    <section>
-      <p>Seth&#x27;s Blog</p>
-        <div>
-            <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg" width="96" loading="lazy" />
-          <a href=https://seths.blog/2022/08/unavailable-options/ target="_blank">Unavailable options</a>
-          <p>“What other colors do you have that are not currently in stock?” There are always more options. If exploring them is the goal, please explore. And sometimes, the unavailable can lead to a breakthrough. But if the job is to simply get the work done, it might be worth pretending that the unexplored options don’t […]</p>
-        </div>
-    </section>
-    <section>
-      <p>Chrome Developers - Blog</p>
-        <div>
-            <img src="https://wd.imgix.net/image/0g2WvpbGRGdVs0aAPc6ObG7gkud2/2lpDeA6BU9K7FdETYCrV.png?auto&#x3D;format&amp;w&#x3D;1521" width="96" loading="lazy" />
-          <a href=https://developer.chrome.com/en/blog/new-in-chrome-104/ target="_blank">New in Chrome 104</a>
-          <p>Here&#x27;s what you need to know:
-You can now specify a crop area using region capture
-when using getDisplayMedia() to capture the current tab.
-Media query syntax can be written using
-mathematical comparison operators.
-Shared Element Transitions starts an
-origin trial.
-And there&#x27;s plenty more.
-I&#x27;m Pete LePage. Let&#x27;s dive in and
-see what&#x27;s new for developers in Chrome 104.
-# Specify a crop area with region capture
-getDisplayMedia() makes it possible to create a video stream from the current
-tab. But, there are times when you don’t want the entire tab, only a small
-portion of it. Until now, the only way to do that was to manually crop each
-video frame.
-With Region Capture, a web app can define the specific area of the screen it
-wants to share. For example, Google Slides could allow you to stay i…</p>
-        </div>
-    </section>
-  <p>2022-08-01</p>
-    <section>
-      <p>Hacker News - Newest: &quot;&quot;habit&quot; &quot;productivity&quot; &quot;stoic&quot; &quot;rss&quot;&quot;</p>
-        <div>
-            <img src="https://emery.to/sharing.png" width="96" loading="lazy" />
-          <a href=https://emery.to/ target="_blank">Show HN: Emery – Personal productivity workspace</a>
-          <p>We&#x27;re building an app that helps people manage their schedule, tasks and notes all in one place.
-The goal is to create a workspace, where people can manage their various priorities, both personal and professional, see a single schedule combined of all their calendars and manage their days without switching between multiple apps.
-At the moment we&#x27;ve implemented Google calendar synchronisation, basic tasks and notes. Also Emery has some things we really wanted to see in other apps – private notes for meetings, categories that can be used to group tasks/notes/meetings together, weekly productivity reports.
-Happy to hear any feedback and answer any questions!
-Comments URL: https://news.ycombinator.com/item?id&#x3D;32312413
-Points: 77
-# Comments: 57</p>
-        </div>
-    </section>
-    <section>
-      <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot; &quot;html&quot;&quot;</p>
-        <div>
-          <a href=https://codepen.io/coolwanglu/full/VwXyavg target="_blank">Show HN: CSS-Only Wolfenstein</a>
-          <p>A little experiment for learning CSS 3D transformation &amp; animation.
-Comments URL: https://news.ycombinator.com/item?id&#x3D;32312322
-Points: 4
-# Comments: 0</p>
-        </div>
-        <div>
-            <img src="https://web-dev.imgix.net/image/AeNB0cHNDkYPUYzDuv8gInYA9rY2/kVAIT4nxP83ePx2QhEgW.png?auto&#x3D;format&amp;fit&#x3D;max&amp;w&#x3D;1200&amp;fm&#x3D;auto" width="96" loading="lazy" />
-          <a href=https://web.dev/css-border-animations/ target="_blank">CSS Border Animations</a>
-          <p>Article URL: https://web.dev/css-border-animations/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;32308049
-Points: 1
-# Comments: 0</p>
-        </div>
-    </section>
-    <section>
-      <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;icon&quot; &quot;typography&quot; &quot;wireframe&quot; &quot;illustration&quot;&quot;</p>
-        <div>
-          <a href=https://pytorch.org/docs/master/community/design.html target="_blank">PyTorch Design Philosophy</a>
-          <p>Article URL: https://pytorch.org/docs/master/community/design.html
-Comments URL: https://news.ycombinator.com/item?id&#x3D;32312158
-Points: 2
-# Comments: 1</p>
-        </div>
-        <div>
-            <img src="https://www.sazak.io/content/images/2022/07/mr-cup-fabien-barral-o6GEPQXnqMY-unsplash.jpg" width="96" loading="lazy" />
-          <a href=https://www.sazak.io/gls-file-manager-on-terminal-with-go/ target="_blank">File Manager with Terminal UI with Go</a>
-          <p>Article URL: https://www.sazak.io/gls-file-manager-on-terminal-with-go/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;32309239
-Points: 2
-# Comments: 0</p>
-        </div>
-        <div>
-            <img src="https://media.nngroup.com/media/articles/opengraph_images/FittsLaw-Application_89.png" width="96" loading="lazy" />
-          <a href=https://www.nngroup.com/articles/fitts-law/ target="_blank">Fitts&#x27;s Law and Its Applications in UX</a>
-          <p>Article URL: https://www.nngroup.com/articles/fitts-law/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;32306859
-Points: 2
-# Comments: 0</p>
-        </div>
-    </section>
-    <section>
-      <p>PRINT Magazine</p>
-        <div>
-            <img src="https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/d833f183-7a41-482f-9b27-c3ea8c66f0a1_1024x765.jpeg?fit&#x3D;1024%2C765&amp;ssl&#x3D;1" width="96" loading="lazy" />
-          <a href=https://www.printmag.com/creative-voices/poor-mans-feast-on-old-dogs-slowing-down/ target="_blank">Poor Man’s Feast: On Old Dogs Slowing Down</a>
-          <p>Elissa Altman remembers her dog, Addie.</p>
-        </div>
-        <div>
-            <img src="https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/DPA17-1.png?fit&#x3D;1200%2C1200&amp;ssl&#x3D;1" width="96" loading="lazy" />
-          <a href=https://www.printmag.com/sva-branding-100-days-2/jaehyun-kim-reimagines-his-everyday-life-in-new-york-city-as-a-manga/ target="_blank">Jaehyun Kim Reimagines His Everyday Life in New York City as a Manga</a>
-          <p>The aspiring cartoonist turns quotidian frustrations into larger-than-life action.</p>
-        </div>
-    </section>
-    <section>
-      <p>HeyDesigner</p>
-        <div>
-            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
-          <a href=https://heydesigner.com/cloudscape-an-open-source-design-system-for-the-cloud/ target="_blank">Cloudscape: An open source design system from AWS</a>
-          <p>Cloudscape was built for and is used by Amazon Web Services (AWS) products and services.</p>
-        </div>
-    </section>
-    <section>
-      <p>CSS-Tricks</p>
-        <div>
-            <img src="https://css-tricks.com/wp-json/social-image-generator/v1/image/367178" width="96" loading="lazy" />
-          <a href=https://css-tricks.com/exploring-css-grids-implicit-grid-and-auto-placement-powers/ target="_blank">Exploring CSS Grid’s Implicit Grid and Auto-Placement Powers</a>
-          <p>When working with CSS Grid, the first thing to do is to set display: grid on the element that we want to be become a grid container. Then we explicitly define the grid using a combination of grid-template-columns, grid-template-rows…
-Exploring CSS Grid’s Implicit Grid and Auto-Placement Powers originally published on CSS-Tricks. You should get the newsletter.</p>
         </div>
     </section>

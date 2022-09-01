@@ -2,10 +2,585 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2022-08-31T00:05:32.916Z</updated>
+    <updated>2022-09-01T00:05:50.100Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: How to design database schema for usage based billing?]]></title>
+        <id>https://news.ycombinator.com/item?id=32669344</id>
+        <link href="https://news.ycombinator.com/item?id=32669344"/>
+        <updated>2022-08-31T22:48:16.000Z</updated>
+        <summary type="html"><![CDATA[The service I am building is usage-based, i.e.
+  * I am charging per second the service was used, e.g. USD 0.01/second
+  * I would like to give credits upon sign-up.
+  * There is no monthly minimum.
+
+  * `billing_account (id, billing_rate_id, running_balance)`
+  * `billing_rate (id, rate)`
+  * `account_credit (id, billing_account_id, timestamp, amount, function_execution_id)`
+  * `account_debit (id, billing_account_id, timestamp, amount, source [platform_credit or stripe])`
+
+Then whenever they run a function that costs them, I create `account_credit` account with an entry equal to the amount they spent and update `billing_account` `running_balance` value.
+When they top-up their account, I would just add entry to `account_debit` and update the balance again.
+This appears to cover all my use cases, but I wanted to check with anyone who's designed such database schemas before.
+Comments URL: https://news.ycombinator.com/item?id=32669344
+Points: 16
+# Comments: 8]]></summary>
+        <author>
+            <name>punkpeye</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Guess CSS! - a HTML and CSS puzzler game]]></title>
+        <id>https://news.ycombinator.com/item?id=32669276</id>
+        <link href="https://www.guess-css.app/"/>
+        <updated>2022-08-31T22:41:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.guess-css.app/
+Comments URL: https://news.ycombinator.com/item?id=32669276
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>tuukkah</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designers From Around the World Use]]></title>
+        <id>https://www.nytimes.com/2022/08/31/style/world-class-lessons-on-zero-waste.html</id>
+        <link href="https://www.nytimes.com/2022/08/31/style/world-class-lessons-on-zero-waste.html"/>
+        <updated>2022-08-31T22:03:16.000Z</updated>
+        <summary type="html"><![CDATA[Designers from around the world find inspiration in traditional garment making in their quest to eliminate fabric waste.]]></summary>
+        <author>
+            <name>Hahna Yoon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enhance – a web standards-based HTML framework]]></title>
+        <id>https://news.ycombinator.com/item?id=32668717</id>
+        <link href="https://enhance.dev/docs/"/>
+        <updated>2022-08-31T21:39:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://enhance.dev/docs/
+Comments URL: https://news.ycombinator.com/item?id=32668717
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>jacobr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Most Important Productivity Tool Is Yourself]]></title>
+        <id>https://news.ycombinator.com/item?id=32668646</id>
+        <link href="https://thesumup.substack.com/p/the-most-important-productivity-tool"/>
+        <updated>2022-08-31T21:33:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://thesumup.substack.com/p/the-most-important-productivity-tool
+Comments URL: https://news.ycombinator.com/item?id=32668646
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>jrberendt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Toxicity in Digital Design]]></title>
+        <id>https://news.ycombinator.com/item?id=32668004</id>
+        <link href="https://lisa-angela.medium.com/toxicity-in-digital-design-a-status-report-6a63fa5f22cc"/>
+        <updated>2022-08-31T20:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://lisa-angela.medium.com/toxicity-in-digital-design-a-status-report-6a63fa5f22cc
+Comments URL: https://news.ycombinator.com/item?id=32668004
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>Akcium</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Robert Kime, Decorator for Nobility and Other Notables, Dies at 76]]></title>
+        <id>https://www.nytimes.com/2022/08/31/arts/design/robert-kime-dead.html</id>
+        <link href="https://www.nytimes.com/2022/08/31/arts/design/robert-kime-dead.html"/>
+        <updated>2022-08-31T20:14:50.000Z</updated>
+        <summary type="html"><![CDATA[A celebrated antiques lover with an understated, old-guard approach, his clients included Prince Charles and Andrew Lloyd Webber.]]></summary>
+        <author>
+            <name>Alex Williams</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Forth Language and Language Design]]></title>
+        <id>https://news.ycombinator.com/item?id=32667727</id>
+        <link href="https://www.forth2020.org/about-forth"/>
+        <updated>2022-08-31T20:13:09.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.forth2020.org/about-forth
+Comments URL: https://news.ycombinator.com/item?id=32667727
+Points: 4
+# Comments: 0]]></summary>
+        <author>
+            <name>susam</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Non Obvious Ways RSS Feeds Can Make Life Easier]]></title>
+        <id>https://news.ycombinator.com/item?id=32667669</id>
+        <link href="https://html.com/blog/25-ways-rss-can-make-your-life-easier/"/>
+        <updated>2022-08-31T20:07:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://html.com/blog/25-ways-rss-can-make-your-life-easier/
+Comments URL: https://news.ycombinator.com/item?id=32667669
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>izik</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebKit on GitHub!]]></title>
+        <id>https://webkit.org/?p=13140</id>
+        <link href="https://webkit.org/blog/13140/webkit-on-github/"/>
+        <updated>2022-08-31T19:15:06.000Z</updated>
+        <summary type="html"><![CDATA[On June 23rd, the WebKit project froze its Subversion tree and transitioned management and interaction with our source code to git on GitHub.]]></summary>
+        <author>
+            <name>Blog – WebKit</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using DALL-E 2 Inpainting for Interior Design]]></title>
+        <id>https://news.ycombinator.com/item?id=32665064</id>
+        <link href="https://thecleverest.com/using-dall-e-2-for-interior-design/"/>
+        <updated>2022-08-31T16:59:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://thecleverest.com/using-dall-e-2-for-interior-design/
+Comments URL: https://news.ycombinator.com/item?id=32665064
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>solomania9</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maestro – Painless Mobile UI Automation]]></title>
+        <id>https://news.ycombinator.com/item?id=32664686</id>
+        <link href="https://blog.mobile.dev/introducing-maestro-painless-mobile-ui-automation-bee4992d13c1"/>
+        <updated>2022-08-31T16:34:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.mobile.dev/introducing-maestro-painless-mobile-ui-automation-bee4992d13c1
+Comments URL: https://news.ycombinator.com/item?id=32664686
+Points: 4
+# Comments: 0]]></summary>
+        <author>
+            <name>leland-takamine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bash/Terminal Shortcuts for Maximum Productivity]]></title>
+        <id>https://news.ycombinator.com/item?id=32664473</id>
+        <link href="https://skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/"/>
+        <updated>2022-08-31T16:23:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/
+Comments URL: https://news.ycombinator.com/item?id=32664473
+Points: 2
+# Comments: 1]]></summary>
+        <author>
+            <name>warpech</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WDRL — Edition 302: Digital accessibility, learning modern CSS, UI tricks, serving images the right way, and proper waiting in JavaScript.]]></title>
+        <id>https://wdrl.info/archive/302</id>
+        <link href="https://wdrl.info/archive/302"/>
+        <updated>2022-08-31T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey,
+Let's build websites for every one of us: »At the end of 2021, approximately 7.8 million severely disabled people were living in Germany. […] The percentage of severely disabled people in the total population in Germany stood at 9.4%.« – Statistisches Bundesamt
+When I first stumbled upon these numbers, I could not believe them. It is one more reason to learn about digital accessibility now. We are all individuals with different strengths, weaknesses, backgrounds, needs, and possibilities. I think every human being should be able to interact with the websites we are building. If you only have time for one topic this week, please check out The A11Y Project.
+This time Malte wrote the intro.
+News
+Firefox 103 is out and brings backdrop-filter in CSS, :modal, and scroll-snap-stop.
+Finally D…]]></summary>
+        <author>
+            <name>Latest WDRL editions via Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UX/UI the obstacle in finding product-market fit]]></title>
+        <id>https://news.ycombinator.com/item?id=32662949</id>
+        <link href="https://dobrean.ro/2022/08/31/ux-ui-is-the-obstacle-in-finding-product-market-fit/"/>
+        <updated>2022-08-31T15:02:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dobrean.ro/2022/08/31/ux-ui-is-the-obstacle-in-finding-product-market-fit/
+Comments URL: https://news.ycombinator.com/item?id=32662949
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>dobreandl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The UX Behind ProdPad's Magically Extending Free Trial (2016)]]></title>
+        <id>https://news.ycombinator.com/item?id=32661938</id>
+        <link href="https://www.prodpad.com/blog/our-new-user-onboarding-process-ux/"/>
+        <updated>2022-08-31T13:42:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.prodpad.com/blog/our-new-user-onboarding-process-ux/
+Comments URL: https://news.ycombinator.com/item?id=32661938
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>oakesm9</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Product intuition calibration]]></title>
+        <id>https://heydesigner.com/?p=66160</id>
+        <link href="https://heydesigner.com/product-intuition-calibration/"/>
+        <updated>2022-08-31T13:12:39.000Z</updated>
+        <summary type="html"><![CDATA[You notice how some people you work with have a very astute and mostly correct intuition about a variety of user scenarios, behaviours and product performance?]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Motionity]]></title>
+        <id>https://heydesigner.com/?p=66158</id>
+        <link href="https://heydesigner.com/motionity/"/>
+        <updated>2022-08-31T13:11:32.000Z</updated>
+        <summary type="html"><![CDATA[A web-based, open source motion graphics editor for everyone.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design to win]]></title>
+        <id>https://heydesigner.com/?p=66156</id>
+        <link href="https://heydesigner.com/design-to-win/"/>
+        <updated>2022-08-31T13:10:26.000Z</updated>
+        <summary type="html"><![CDATA[How I use the power of comparison to unlock better design.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A handy use for cascade layers]]></title>
+        <id>https://heydesigner.com/?p=66154</id>
+        <link href="https://heydesigner.com/a-handy-use-for-cascade-layers/"/>
+        <updated>2022-08-31T13:09:33.000Z</updated>
+        <summary type="html"><![CDATA[I was just preparing a demo for an upcoming talk and it suddenly occurred to me that cascade layers would be a perfect solution to a problem I was having.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS container queries are finally here]]></title>
+        <id>https://heydesigner.com/?p=66152</id>
+        <link href="https://heydesigner.com/css-container-queries-are-finally-here/"/>
+        <updated>2022-08-31T13:07:37.000Z</updated>
+        <summary type="html"><![CDATA[I can’t contain my excitement while writing the first few words for this article.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Hardware product design, where do I start?]]></title>
+        <id>https://news.ycombinator.com/item?id=32661398</id>
+        <link href="https://news.ycombinator.com/item?id=32661398"/>
+        <updated>2022-08-31T12:49:14.000Z</updated>
+        <summary type="html"><![CDATA[I want to design/build/manufacture a very stripped down version of Dakboard [1]. Using Photo Frame like the ones available in Amazon for a display[2]. It needs to pull calendar data or images from an API and render it so that customers always sees a latest monthly calendar.
+I once thought of contacting one of those manufacturer of the Photo Frames and ask them if they can do the necessary tweaks. But I'm not sure what details to give them.
+What is the prep work necessary for this? I've absolutely no idea where to start but it's one of the project ideas that I come back to again and again and want to get it done no matter what.
+Where do I even start at this? Any pointers would help tremendously.
+Thanks HN.
+[1] https://dakboard.com/site
+[2] https://www.amazon.com/Digital-Picture-Storage-Auto-Rotate-Remotely/dp/B09GF3HYM8
+Comments URL: https://news.ycombinator.com/item?id=32661398
+Points: 7
+# Comments: 2]]></summary>
+        <author>
+            <name>bhu1st</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Chrome extension that extracts HTML+CSS from an element to inline style]]></title>
+        <id>https://news.ycombinator.com/item?id=32661169</id>
+        <link href="https://chrome.google.com/webstore/detail/html-+-css-extract/bkahkocegdkgicmmfpkoeipjmjaeohfn"/>
+        <updated>2022-08-31T12:20:01.000Z</updated>
+        <summary type="html"><![CDATA[Hi there. I spent the last couple months building this chrome extension to scratch my own itch. It allows you to extract a snippet of HTML along with its styles and export to inline styles or JSX. It’s not perfect and doesn’t work on every site. There is class support but I am still working on it along with some other cool features. Feedback is appreciated.
+Comments URL: https://news.ycombinator.com/item?id=32661169
+Points: 6
+# Comments: 2]]></summary>
+        <author>
+            <name>develast</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving Accessibility with Design Tokens]]></title>
+        <id>https://dailydevlinks.com/?p=10545</id>
+        <link href="https://dailydevlinks.com/improving-accessibility-with-design-tokens/"/>
+        <updated>2022-08-31T11:38:00.000Z</updated>
+        <summary type="html"><![CDATA[Design]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Daily Heller: Designing Fossil Fuels]]></title>
+        <id>https://www.printmag.com/?p=734600</id>
+        <link href="https://www.printmag.com/daily-heller/the-daily-heller-designing-fossil-fuels/"/>
+        <updated>2022-08-31T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Gasoline ephemera is among the finest graphic and industrial design artifacts that once were.]]></summary>
+        <author>
+            <name>Steven Heller</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Architecture (2012)]]></title>
+        <id>https://news.ycombinator.com/item?id=32660277</id>
+        <link href="https://philipwalton.com/articles/css-architecture/"/>
+        <updated>2022-08-31T10:02:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://philipwalton.com/articles/css-architecture/
+Comments URL: https://news.ycombinator.com/item?id=32660277
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>SenHeng</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The reality of booking concert tickets online as a disabled person]]></title>
+        <id>https://bighack.org/?p=4121</id>
+        <link href="https://bighack.org/the-reality-of-booking-concert-tickets-online-as-a-disabled-person/"/>
+        <updated>2022-08-31T09:57:32.000Z</updated>
+        <summary type="html"><![CDATA[The post The reality of booking concert tickets online as a disabled person appeared first on The Big Hack.]]></summary>
+        <author>
+            <name>James Barber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The advice gap]]></title>
+        <id>https://seths.blog/?p=43637</id>
+        <link href="https://seths.blog/2022/08/the-advice-gap/"/>
+        <updated>2022-08-31T08:53:00.000Z</updated>
+        <summary type="html"><![CDATA[Wisdom and good advice are everywhere, now more than ever. And yet, despite the abundance that’s available, people often make errors in job searches, product launches, or even planning a party. There might be three reasons: The advice might not be good, or it doesn’t appear to be valid. It’s hard to tell good advice […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Finding The Balance (September 2022 Desktop Wallpapers Edition)]]></title>
+        <id>https://smashingmagazine.com/2022/08/desktop-wallpaper-calendars-september-2022/</id>
+        <link href="https://smashingmagazine.com/2022/08/desktop-wallpaper-calendars-september-2022/"/>
+        <updated>2022-08-31T08:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Let’s welcome September with some fresh desktop wallpapers. Designed by artists and designers from across the globe, they come in versions with and without a calendar for the month. Enjoy!]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On Artificial Intelligence in User Experience Design]]></title>
+        <id>https://news.ycombinator.com/item?id=32659826</id>
+        <link href="https://blog.willgrant.org/2022/08/30/on-artificial-intelligence-in-user-experience-design.html"/>
+        <updated>2022-08-31T08:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.willgrant.org/2022/08/30/on-artificial-intelligence-in-user-experience-design.html
+Comments URL: https://news.ycombinator.com/item?id=32659826
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>wgx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Lost Tags of HTML]]></title>
+        <id>https://news.ycombinator.com/item?id=32658849</id>
+        <link href="http://www.the-pope.com/lostHTML.htm"/>
+        <updated>2022-08-31T05:52:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: http://www.the-pope.com/lostHTML.htm
+Comments URL: https://news.ycombinator.com/item?id=32658849
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>thunderbong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Improve And Measure Your Progress Learning Web Design]]></title>
+        <id>https://dailydevlinks.com/?p=10542</id>
+        <link href="https://dailydevlinks.com/how-to-improve-and-measure-your-progress-learning-web-design/"/>
+        <updated>2022-08-31T05:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Design]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UNUM: Interconvert numbers, Unicode, and HTML/XHTML entities]]></title>
+        <id>https://news.ycombinator.com/item?id=32658420</id>
+        <link href="https://www.fourmilab.ch/webtools/unum/"/>
+        <updated>2022-08-31T04:36:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.fourmilab.ch/webtools/unum/
+Comments URL: https://news.ycombinator.com/item?id=32658420
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>phantom_of_cato</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving Accessibility with Design Tokens]]></title>
+        <id>RonmHNLkNvJqTHDw6</id>
+        <link href="https://solomon.io/improving-accessibility-with-design-tokens"/>
+        <updated>2022-08-31T02:55:58.000Z</updated>
+        <summary type="html"><![CDATA[How to improve accessibility with design tokens. By using tokens to enable theming, we can begin to build themes for our colorblind customers.]]></summary>
+        <author>
+            <name>@samuelrsolomon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Design Process for Dataviz]]></title>
+        <id>Av2eBvLeKXzzEGwTh</id>
+        <link href="https://nightingaledvs.com/a-design-process-for-dataviz/"/>
+        <updated>2022-08-31T02:52:32.000Z</updated>
+        <summary type="html"><![CDATA[Design is a plan to create something that will be beneficial to people.]]></summary>
+        <author>
+            <name>@DataVizSociety</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding useMemo and useCallback]]></title>
+        <id>whvy2m2nQJ8Fj9jgo</id>
+        <link href="https://www.joshwcomeau.com/react/usememo-and-usecallback/"/>
+        <updated>2022-08-31T02:46:42.000Z</updated>
+        <summary type="html"><![CDATA[What’s the deal with these two hooks?! Lots of devs find them confusing, for a whole host of reasons.]]></summary>
+        <author>
+            <name>@joshwcomeau</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is Voice Interaction a Solution to Driver Distraction?]]></title>
+        <id>26NKjxEB7M8zRyv6p</id>
+        <link href="https://www.theturnsignalblog.com/blog/voice-interaction/"/>
+        <updated>2022-08-31T02:39:34.000Z</updated>
+        <summary type="html"><![CDATA[Voice interaction sounds great because drivers don't have to take their eyes off the road. But is it really a valid way to mitigate distraction?]]></summary>
+        <author>
+            <name>@CasperKessels</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS container queries are finally here]]></title>
+        <id>w2sW8LcvQLYonKB59</id>
+        <link href="http://ishadeed.com/article/container-queries-are-finally-here/"/>
+        <updated>2022-08-31T02:38:26.000Z</updated>
+        <summary type="html"><![CDATA[They’re currently supported in Google Chrome (105) and soon in Safari 16. This is a huge milestone for web development.]]></summary>
+        <author>
+            <name>@shadeed9</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS container queries are finally here]]></title>
+        <id>https://news.ycombinator.com/item?id=32657681</id>
+        <link href="https://ishadeed.com/article/container-queries-are-finally-here/"/>
+        <updated>2022-08-31T02:32:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ishadeed.com/article/container-queries-are-finally-here/
+Comments URL: https://news.ycombinator.com/item?id=32657681
+Points: 1
+# Comments: 1]]></summary>
+        <author>
+            <name>soheilpro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Install Stable Diffusion Web UI on Your Computer for Free]]></title>
+        <id>https://news.ycombinator.com/item?id=32657008</id>
+        <link href="https://www.youtube.com/watch?v=bu2xwx-6JGk"/>
+        <updated>2022-08-31T00:44:40.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=bu2xwx-6JGk
+Comments URL: https://news.ycombinator.com/item?id=32657008
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>avocado2</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple, Tesla, and the Terrible Trend of Unrepairable Design: Repair Roundup 8/21]]></title>
+        <id>https://news.ycombinator.com/item?id=32656763</id>
+        <link href="https://www.ifixit.com/News/64212/apple-accused-of-repair-washing-repair-roundup-week-of-august-21"/>
+        <updated>2022-08-31T00:06:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.ifixit.com/News/64212/apple-accused-of-repair-washing-repair-roundup-week-of-august-21
+Comments URL: https://news.ycombinator.com/item?id=32656763
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>rc00</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creative CSS Layout (and the Flexible Web)]]></title>
+        <id>https://css-irl.info/creative-css-layout-and-the-flexible-web/</id>
+        <link href="https://css-irl.info/creative-css-layout-and-the-flexible-web/"/>
+        <updated>2022-08-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi friends! Way back in June (which already feels like such a long time ago in CSS land!) I had the pleasure of speaking about CSS layout at CSS Day conference. I’m pleased to say the video has now been published! Take a look to learn about a whole bunch of modern CSS layout techniques, with a few little tricks thrown in.
+https://www.youtube.com/embed/tueTFd2TQUA
+I attempted to pack a lot into this talk, but what I tried to emphasise is that many of the new CSS features we have at our disposal help (and even encourage) us to embrace the flexible web of the present day. One where we can’t possibly predict what kind of devices our user is browsing our website on, but where we can ensure our layouts are robust across all devices, by eschewing pixel-perfection in favour of something more intri…]]></summary>
+        <author>
+            <name>CSS In Real Life</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Modern web debugging in Chrome DevTools]]></title>
+        <id>https://developer.chrome.com/en/blog/devtools-modern-web-debugging/</id>
+        <link href="https://developer.chrome.com/en/blog/devtools-modern-web-debugging/"/>
+        <updated>2022-08-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[# Introduction
+Today, authors can use many abstractions to build their Web applications. Instead of directly interfacing with the lower-level APIs that the Web Platform provides, many authors leverage frameworks, build tools and compilers to write their applications from a higher-level perspective.
+For example, components built on top of the Angular framework are authored in TypeScript with HTML templates. Underneath the hood, the Angular CLI and webpack compile everything to JavaScript and into a so-called bundle, which is then shipped to the browser.
+When debugging or profiling Web applications in DevTools, you currently get to see and debug this compiled version of your code instead of the code you actually wrote. As an author, this is not want you want, though:
+You don’t want to debug …]]></summary>
+        <author>
+            <name>Chrome Developers - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Case Study: Better Angular Debugging with DevTools]]></title>
+        <id>https://developer.chrome.com/en/blog/devtools-better-angular-debugging/</id>
+        <link href="https://developer.chrome.com/en/blog/devtools-better-angular-debugging/"/>
+        <updated>2022-08-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[# An improved debugging experience
+Over the past few months the Chrome DevTools team collaborated with the Angular team to launch improvements to the debugging experience in Chrome DevTools. People from both teams worked together and took steps towards enabling developers to debug and profile web applications from the authoring perspective: in terms of their source language and project structure, with access to information that is familiar and relevant to them.
+This post takes a look under the hood to see which changes in Angular and Chrome DevTools were required to achieve this. Even though some of these changes are demonstrated through Angular, they can be applied to other frameworks as well. The Chrome DevTools team encourages other frameworks to adopt the new console APIs and source ma…]]></summary>
+        <author>
+            <name>Chrome Developers - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deprecating and removing Web SQL]]></title>
+        <id>https://developer.chrome.com/en/blog/deprecating-web-sql/</id>
+        <link href="https://developer.chrome.com/en/blog/deprecating-web-sql/"/>
+        <updated>2022-08-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a living post that will be updated as the deprecation steps outlined below
+happen. 
+
+
+The Web SQL Database API, which allows you to store data in a
+structured manner on the user's computer (internally based on the SQLite database engine), was
+introduced in April 2009 and
+abandoned in November 2010. While it
+was implemented in WebKit (which powers Safari and early versions of Chrome) and remained active in
+the Blink engine (that powers Chrome after the switch from WebKit), Gecko (which powers Firefox)
+never implemented this feature and
+WebKit removed it in 2019.
+The World Wide Web Consortium (W3C)
+encourages
+those needing web databases to adopt
+Web Storage API technologies like
+localStorage and
+sessionStorage, or
+IndexedDB. These
+technologies show their strengths when it comes to ke…]]></summary>
+        <author>
+            <name>Chrome Developers - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twelve [blog]]]></title>
+        <id>twelve</id>
+        <link href="https://remysharp.com/2022/08/31/twelve"/>
+        <updated>2022-08-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Tia's 12th … birthday. Not a birthday, but 12 years after she was born, or came into our lives. She died too. Our first. The oldest that we don't have at home.
+I don't know if I have a meaningful blog post in me this year, though I've written words about Tia for a number of years now on, or near this specific date: 31‍-‍August.]]></summary>
+        <author>
+            <name>remy sharp's b:log</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Prosser: Fourth-Generation iPhone SE to Adopt Same Design as iPhone XR]]></title>
         <id>https://news.ycombinator.com/item?id=32656687</id>
@@ -3427,6 +4002,16 @@ Points: 12
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Hope to Die (DI Adam Fawley #6) [book]]]></title>
+        <id>hope-to-die-di-adam-fawley-6</id>
+        <link href="https://remysharp.com/books/2022/hope-to-die-di-adam-fawley-6"/>
+        <updated>2022-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hope to Die (DI Adam Fawley #6)]]></summary>
+        <author>
+            <name>remy sharp's b:log</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[I created a community for Complex UI/UX design]]></title>
         <id>https://news.ycombinator.com/item?id=32525275</id>
         <link href="https://old.reddit.com/r/complexux/"/>
@@ -5287,6 +5872,26 @@ Points: 2
         <summary type="html"><![CDATA[But the company has had to rush out fixes to the image-making model’s worst flaws to do so.]]></summary>
         <author>
             <name>@techreview</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Redwall [book]]]></title>
+        <id>redwall</id>
+        <link href="https://remysharp.com/books/2022/redwall"/>
+        <updated>2022-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Redwall]]></summary>
+        <author>
+            <name>remy sharp's b:log</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Frangipani Tree Mystery (Crown Colony #1) [book]]]></title>
+        <id>the-frangipani-tree-mystery-crown-colony-1</id>
+        <link href="https://remysharp.com/books/2022/the-frangipani-tree-mystery-crown-colony-1"/>
+        <updated>2022-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Frangipani Tree Mystery (Crown Colony #1)]]></summary>
+        <author>
+            <name>remy sharp's b:log</name>
         </author>
     </entry>
     <entry>
@@ -9100,368 +9705,6 @@ Points: 4
 # Comments: 0]]></summary>
         <author>
             <name>lessio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Recreating MDN’s Truncated Text Effect]]></title>
-        <id>https://dailydevlinks.com/?p=10347</id>
-        <link href="https://dailydevlinks.com/recreating-mdns-truncated-text-effect/"/>
-        <updated>2022-08-02T11:19:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inside Front Cover, Episode 2: Discovery]]></title>
-        <id>https://www.printmag.com/?p=733397</id>
-        <link href="https://www.printmag.com/printcast/inside-front-cover-episode-2-discovery/"/>
-        <updated>2022-08-02T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Sam Aquillano continues to explore book jacket design through a conversation with Proportion Co-Founders Blake Goodwin and Paul Reiss.]]></summary>
-        <author>
-            <name>PRINT Magazine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Daily Heller: A Vision for Branding Nonprofits]]></title>
-        <id>https://www.printmag.com/?p=733243</id>
-        <link href="https://www.printmag.com/daily-heller/the-daily-heller-a-personal-vision-for-branding-nonprofits/"/>
-        <updated>2022-08-02T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Deroy Peraza of Hyperakt riffs on the studio’s vision, and the key differences in developing brands for commercial enterprises and nonprofits.]]></summary>
-        <author>
-            <name>Steven Heller</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Levels of knowledge]]></title>
-        <id>https://heydesigner.com/?p=65941</id>
-        <link href="https://heydesigner.com/levels-of-knowledge/"/>
-        <updated>2022-08-02T10:53:08.000Z</updated>
-        <summary type="html"><![CDATA[Translating theory into real experiences and embracing other types of design are clear signs of your evolution as a designer.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS border animations]]></title>
-        <id>https://heydesigner.com/?p=65939</id>
-        <link href="https://heydesigner.com/css-border-animations/"/>
-        <updated>2022-08-02T10:50:09.000Z</updated>
-        <summary type="html"><![CDATA[Looking at several ways to animate a border in CSS.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to get your first job in UX: A Guide]]></title>
-        <id>https://news.ycombinator.com/item?id=32316973</id>
-        <link href="https://blog.willgrant.org/2022/08/01/how-to-get-your-first-job-in-ux.html"/>
-        <updated>2022-08-02T10:20:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.willgrant.org/2022/08/01/how-to-get-your-first-job-in-ux.html
-Comments URL: https://news.ycombinator.com/item?id=32316973
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>wgx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Courses/pages to design and architect complex system]]></title>
-        <id>https://news.ycombinator.com/item?id=32316832</id>
-        <link href="https://news.ycombinator.com/item?id=32316832"/>
-        <updated>2022-08-02T09:55:05.000Z</updated>
-        <summary type="html"><![CDATA[Comments URL: https://news.ycombinator.com/item?id=32316832
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>epimetheus3</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Michael R. Jackson’s ‘Peaceful Space’]]></title>
-        <id>https://www.nytimes.com/slideshow/2022/08/02/realestate/michael-r-jacksons-peaceful-space.html</id>
-        <link href="https://www.nytimes.com/slideshow/2022/08/02/realestate/michael-r-jacksons-peaceful-space.html"/>
-        <updated>2022-08-02T09:03:06.000Z</updated>
-        <summary type="html"><![CDATA[The Tony- and Pulitzer-winning author of “A Strange Loop” has a new apartment in Manhattan — and “I don’t have to share it with anyone.”]]></summary>
-        <author>
-            <name>NYT &gt; Design</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unavailable options]]></title>
-        <id>https://seths.blog/?p=42430</id>
-        <link href="https://seths.blog/2022/08/unavailable-options/"/>
-        <updated>2022-08-02T08:23:00.000Z</updated>
-        <summary type="html"><![CDATA[“What other colors do you have that are not currently in stock?” There are always more options. If exploring them is the goal, please explore. And sometimes, the unavailable can lead to a breakthrough. But if the job is to simply get the work done, it might be worth pretending that the unexplored options don’t […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[vs. : How To Choose The Right One]]></title>
-        <id>https://dailydevlinks.com/?p=10350</id>
-        <link href="https://dailydevlinks.com/vs-how-to-choose-the-right-one/"/>
-        <updated>2022-08-02T08:22:00.000Z</updated>
-        <summary type="html"><![CDATA[HTML]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From design patterns to category theory (2017)]]></title>
-        <id>https://news.ycombinator.com/item?id=32316128</id>
-        <link href="https://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/"/>
-        <updated>2022-08-02T07:49:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/
-Comments URL: https://news.ycombinator.com/item?id=32316128
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>541</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Ultimate List of CSS Code Generators For Web Development]]></title>
-        <id>https://dailydevlinks.com/?p=10353</id>
-        <link href="https://dailydevlinks.com/the-ultimate-list-of-css-code-generators-for-web-development/"/>
-        <updated>2022-08-02T07:47:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Finer grained control over CSS transforms with individual transform properties]]></title>
-        <id>https://news.ycombinator.com/item?id=32315909</id>
-        <link href="https://web.dev/css-individual-transform-properties/"/>
-        <updated>2022-08-02T07:04:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://web.dev/css-individual-transform-properties/
-Comments URL: https://news.ycombinator.com/item?id=32315909
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>feross</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Help pick a syntax for CSS nesting]]></title>
-        <id>https://dailydevlinks.com/?p=10344</id>
-        <link href="https://dailydevlinks.com/help-pick-a-syntax-for-css-nesting/"/>
-        <updated>2022-08-02T06:58:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why I built a dictionary app]]></title>
-        <id>dBxTdXd7dsKosNYjR</id>
-        <link href="https://www.wordnote.app/blog/why-i-built-dictionary-app"/>
-        <updated>2022-08-02T06:35:14.000Z</updated>
-        <summary type="html"><![CDATA[Even with more than 300 apps available at AppStore, none of the available apps satisfied what I expected from a dictionary.]]></summary>
-        <author>
-            <name>@zehf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detecting CSS Selector Support with JavaScript]]></title>
-        <id>https://dailydevlinks.com/?p=10341</id>
-        <link href="https://dailydevlinks.com/detecting-css-selector-support-with-javascript/"/>
-        <updated>2022-08-02T05:45:00.000Z</updated>
-        <summary type="html"><![CDATA[CSSJS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Is there a tool / product that enables commenting on HTML elements?]]></title>
-        <id>https://news.ycombinator.com/item?id=32315035</id>
-        <link href="https://news.ycombinator.com/item?id=32315035"/>
-        <updated>2022-08-02T04:18:26.000Z</updated>
-        <summary type="html"><![CDATA[I'm searching for a commercial product that enables commenting on HTML elements on a product so it can be shared with an org. Think google comments connected to Inspect Element in chrome that can be shared with an organization.
-I want to get away from creating tickets or sending emails highlighting UX concerns. This is cumbersome and not very transparent or collaborative.
-Does a tool like this already exist?
-Comments URL: https://news.ycombinator.com/item?id=32315035
-Points: 82
-# Comments: 56]]></summary>
-        <author>
-            <name>bshoemaker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Please share your productivity and focus tips, hacks, mindsets, etc.]]></title>
-        <id>https://news.ycombinator.com/item?id=32314864</id>
-        <link href="https://news.ycombinator.com/item?id=32314864"/>
-        <updated>2022-08-02T03:41:53.000Z</updated>
-        <summary type="html"><![CDATA[I am looking for anything you do that helps you get stuff done, even stuff you are not passionate about. Although I've come across many useful tips here on HN, listed later, I still struggle. Some days I just can't code at all. probably got sleep apnea.
-Some stuff that has helped me on good days
-- light cardio first thing or in noon
-- good sleep
-- not being stuck at some code
-- deadlines not created by me (but leads to burn out)
-- working closely with other people (PM, fellow dev)
-- being in flow, hitting trifecta of skills match + interest match + support match
-- air circulation and quiet environment, coldish temperature, multiple places to sit/lay
-- informal culture and small team
-- no ambiguity
-- no bad blood between me and mgmt/boss/company/teammates
-- create 3 todo item list daily
-What else? what's your morning routine?
-I don't think it's even about passion, I had all intentions and passion when I was working on my own project, but I worked 10 hours a day for a week and then never could work on it again, ended up selling it for few grand mostly to not see it rot.
-TLDR: Extremely low stamina/energy and procrastination
-Comments URL: https://news.ycombinator.com/item?id=32314864
-Points: 1
-# Comments: 1]]></summary>
-        <author>
-            <name>techsin101</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New in Chrome 104]]></title>
-        <id>https://developer.chrome.com/en/blog/new-in-chrome-104/</id>
-        <link href="https://developer.chrome.com/en/blog/new-in-chrome-104/"/>
-        <updated>2022-08-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Here's what you need to know:
-You can now specify a crop area using region capture
-when using getDisplayMedia() to capture the current tab.
-Media query syntax can be written using
-mathematical comparison operators.
-Shared Element Transitions starts an
-origin trial.
-And there's plenty more.
-I'm Pete LePage. Let's dive in and
-see what's new for developers in Chrome 104.
-# Specify a crop area with region capture
-getDisplayMedia() makes it possible to create a video stream from the current
-tab. But, there are times when you don’t want the entire tab, only a small
-portion of it. Until now, the only way to do that was to manually crop each
-video frame.
-With Region Capture, a web app can define the specific area of the screen it
-wants to share. For example, Google Slides could allow you to stay i…]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Emery – Personal productivity workspace]]></title>
-        <id>https://news.ycombinator.com/item?id=32312413</id>
-        <link href="https://emery.to/"/>
-        <updated>2022-08-01T21:42:53.000Z</updated>
-        <summary type="html"><![CDATA[We're building an app that helps people manage their schedule, tasks and notes all in one place.
-The goal is to create a workspace, where people can manage their various priorities, both personal and professional, see a single schedule combined of all their calendars and manage their days without switching between multiple apps.
-At the moment we've implemented Google calendar synchronisation, basic tasks and notes. Also Emery has some things we really wanted to see in other apps – private notes for meetings, categories that can be used to group tasks/notes/meetings together, weekly productivity reports.
-Happy to hear any feedback and answer any questions!
-Comments URL: https://news.ycombinator.com/item?id=32312413
-Points: 77
-# Comments: 57]]></summary>
-        <author>
-            <name>chernobai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: CSS-Only Wolfenstein]]></title>
-        <id>https://news.ycombinator.com/item?id=32312322</id>
-        <link href="https://codepen.io/coolwanglu/full/VwXyavg"/>
-        <updated>2022-08-01T21:34:02.000Z</updated>
-        <summary type="html"><![CDATA[A little experiment for learning CSS 3D transformation & animation.
-Comments URL: https://news.ycombinator.com/item?id=32312322
-Points: 4
-# Comments: 0]]></summary>
-        <author>
-            <name>coolwanglu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PyTorch Design Philosophy]]></title>
-        <id>https://news.ycombinator.com/item?id=32312158</id>
-        <link href="https://pytorch.org/docs/master/community/design.html"/>
-        <updated>2022-08-01T21:18:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pytorch.org/docs/master/community/design.html
-Comments URL: https://news.ycombinator.com/item?id=32312158
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>ZainRiz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Poor Man’s Feast: On Old Dogs Slowing Down]]></title>
-        <id>https://www.printmag.com/?p=733380</id>
-        <link href="https://www.printmag.com/creative-voices/poor-mans-feast-on-old-dogs-slowing-down/"/>
-        <updated>2022-08-01T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Elissa Altman remembers her dog, Addie.]]></summary>
-        <author>
-            <name>Elissa Altman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[File Manager with Terminal UI with Go]]></title>
-        <id>https://news.ycombinator.com/item?id=32309239</id>
-        <link href="https://www.sazak.io/gls-file-manager-on-terminal-with-go/"/>
-        <updated>2022-08-01T17:20:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.sazak.io/gls-file-manager-on-terminal-with-go/
-Comments URL: https://news.ycombinator.com/item?id=32309239
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>sazak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jaehyun Kim Reimagines His Everyday Life in New York City as a Manga]]></title>
-        <id>https://www.printmag.com/?p=733283</id>
-        <link href="https://www.printmag.com/sva-branding-100-days-2/jaehyun-kim-reimagines-his-everyday-life-in-new-york-city-as-a-manga/"/>
-        <updated>2022-08-01T16:06:12.000Z</updated>
-        <summary type="html"><![CDATA[The aspiring cartoonist turns quotidian frustrations into larger-than-life action.]]></summary>
-        <author>
-            <name>PRINT Magazine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS Border Animations]]></title>
-        <id>https://news.ycombinator.com/item?id=32308049</id>
-        <link href="https://web.dev/css-border-animations/"/>
-        <updated>2022-08-01T16:03:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://web.dev/css-border-animations/
-Comments URL: https://news.ycombinator.com/item?id=32308049
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>feross</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloudscape: An open source design system from AWS]]></title>
-        <id>https://heydesigner.com/?p=65937</id>
-        <link href="https://heydesigner.com/cloudscape-an-open-source-design-system-for-the-cloud/"/>
-        <updated>2022-08-01T15:08:16.000Z</updated>
-        <summary type="html"><![CDATA[Cloudscape was built for and is used by Amazon Web Services (AWS) products and services.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fitts's Law and Its Applications in UX]]></title>
-        <id>https://news.ycombinator.com/item?id=32306859</id>
-        <link href="https://www.nngroup.com/articles/fitts-law/"/>
-        <updated>2022-08-01T14:57:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nngroup.com/articles/fitts-law/
-Comments URL: https://news.ycombinator.com/item?id=32306859
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>munch117</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploring CSS Grid’s Implicit Grid and Auto-Placement Powers]]></title>
-        <id>https://css-tricks.com/?p=367178</id>
-        <link href="https://css-tricks.com/exploring-css-grids-implicit-grid-and-auto-placement-powers/"/>
-        <updated>2022-08-01T13:44:13.000Z</updated>
-        <summary type="html"><![CDATA[When working with CSS Grid, the first thing to do is to set display: grid on the element that we want to be become a grid container. Then we explicitly define the grid using a combination of grid-template-columns, grid-template-rows…
-Exploring CSS Grid’s Implicit Grid and Auto-Placement Powers originally published on CSS-Tricks. You should get the newsletter.]]></summary>
-        <author>
-            <name>Temani Afif</name>
         </author>
     </entry>
 </feed>
