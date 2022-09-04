@@ -490,26 +490,6 @@
           "wordCount": 2931,
           "title": "How I Added Scroll Snapping To My Twitter Timeline",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/367283"
-        },
-        {
-          "id": "https://css-tricks.com/?p=367361",
-          "author": "Geoff Graham",
-          "description": "Apple unveiled an expanded version of its San Francisco system font at WWDC 2022. Then, last month, Jim Nielsen zeroed in on the font’s variations, explaining how the font provides a spectrum of variations based on the width and weight…\nActually, the San Francisco Typeface Does Ship as a Variable Font originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/actually-the-san-francisco-typeface-does-ship-as-a-variable-font/",
-          "publishedOn": "2022-08-04T20:20:28.000Z",
-          "wordCount": 1088,
-          "title": "Actually, the San Francisco Typeface Does Ship as a Variable Font",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/367361"
-        },
-        {
-          "id": "https://css-tricks.com/?p=367238",
-          "author": "Onuorah Bonaventure Chukwudi",
-          "description": "With speech interfaces becoming more of a thing, it’s worth exploring some of the things we can do with speech interactions. Like, what if we could say something and have that transcribed and pumped out as a downloadable PDF?\nWell, …\nConverting Speech to PDF with NextJS and ExpressJS originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/converting-speech-to-pdf-with-nextjs-and-expressjs/",
-          "publishedOn": "2022-08-04T12:55:39.000Z",
-          "wordCount": 3218,
-          "title": "Converting Speech to PDF with NextJS and ExpressJS",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/367238"
         }
       ]
     },
@@ -1057,56 +1037,6 @@
           "wordCount": 2747,
           "title": "The Ballad of Text Overflow",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10384",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://dailydevlinks.com/finer-grained-control-over-css-transforms-with-individual-transform-properties/",
-          "publishedOn": "2022-08-05T09:08:00.000Z",
-          "wordCount": 2766,
-          "title": "Finer grained control over CSS transforms with individual transform properties",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10375",
-          "author": "Adam Marsden",
-          "description": "UX",
-          "link": "https://dailydevlinks.com/one-billion-signatures-ux-analysis-of-docusign/",
-          "publishedOn": "2022-08-05T08:49:00.000Z",
-          "wordCount": 2761,
-          "title": "One billion signatures — UX analysis of DocuSign",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10381",
-          "author": "Adam Marsden",
-          "description": "BrowserCSS",
-          "link": "https://dailydevlinks.com/has-the-family-selector/",
-          "publishedOn": "2022-08-05T08:37:00.000Z",
-          "wordCount": 2741,
-          "title": ":has(): the family selector",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10372",
-          "author": "Adam Marsden",
-          "description": "UX",
-          "link": "https://dailydevlinks.com/agency-product-designers-have-ux-superpowers/",
-          "publishedOn": "2022-08-05T06:50:00.000Z",
-          "wordCount": 2744,
-          "title": "Agency Product Designers Have UX Superpowers",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10378",
-          "author": "Adam Marsden",
-          "description": "UX",
-          "link": "https://dailydevlinks.com/rethinking-authentication-ux/",
-          "publishedOn": "2022-08-05T06:28:00.000Z",
-          "wordCount": 2735,
-          "title": "Rethinking Authentication UX",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2021/01/Social-Website.png"
         }
       ]
     },
@@ -1114,18 +1044,7 @@
       "title": "Dave Ceddia",
       "feedUrl": "https://daveceddia.com/feed.xml",
       "siteUrl": "https://daveceddia.com",
-      "articles": [
-        {
-          "id": "https://daveceddia.com/clean-up-merged-git-branches/",
-          "author": null,
-          "description": "Got a lot of old git branches hanging around? Here’s a little script\nthat will delete the branches that have been marged.\nIt’ll print out the branches to be deleted, and then prompt for whether\nyou want to delete them.\nIf your top-level branch isn’t called “main”, customize the MAIN\nvariable to match.\nScript: Delete old git branches\n#!/bin/bash\n\n# Change this to match the name of your top level branch\nMAIN=main\n\necho \"These branches have been merged into $MAIN and will be deleted:\"\necho\ngit branch --merged $MAIN | grep -v \"^\\* $MAIN\"\necho\n\nread -p \"Continue? [y/N] \" -n 1 -r\necho\nif [[ ! $REPLY =~ ^[Yy]$ ]]\nthen\n  exit 1\nfi\n\ngit branch --merged $MAIN | grep -v \"^\\* $MAIN\" | xargs -n 1 -r git branch -d\nCopy/paste this into a file in your repo or elsewhere (like\ngit-cleanup.sh) and make it executable with chmod +x git-cleanup.sh\nBonus: if you want this file to be ignored, but you don’t want to\nclutter up the shared .gitignore file with your own local scripts, you\ncan edit .git/info/exclude and list this file there. That file works\nas a local gitignore.\nDelete Git Branches That Have Been Merged was originally published by Dave Ceddia at Dave Ceddia on August 04, 2022.\nCodeProject",
-          "link": "https://daveceddia.com/clean-up-merged-git-branches/",
-          "publishedOn": "2022-08-04T15:05:07.000Z",
-          "wordCount": 931,
-          "title": "Delete Git Branches That Have Been Merged",
-          "imageUrl": "https://daveceddia.com/images/clean-up-merged-git-branches.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "daverupert.com",
@@ -1161,16 +1080,6 @@
           "wordCount": 1594,
           "title": "Thoughts on Copilot",
           "imageUrl": "https://cdn.daverupert.com/opengraph/copilot.png"
-        },
-        {
-          "id": "https://daverupert.com/2022/08/vibe-check-19/",
-          "author": null,
-          "description": "July 2022 was a bit of a country music song. A friend’s brother passed away while she was visiting, nearly everyone we know got COVID, took my broken guitar to get fixed by the guy that fixes Willie’s guitar, got a flat tire on the family car, the oil change on my pickup truck turned into thousands of dollars worth of repairs, and I lost my AirPods. Somehow, despite all that, July was a good month.\nEscape to California\n\nIn mid-July we escaped the Texas heat and headed to gloomy sunny San Diego, California for my wife’s birthday. My wife grew up going to Mission Beach every summer, so upon marriage I inherited a family vacation to San Diego. We went every year until our son was three and then we were juggling small babies and the entire extended family couldn’t fit under one roof, so it fel…",
-          "link": "https://daverupert.com/2022/08/vibe-check-19/",
-          "publishedOn": "2022-08-04T20:34:00.000Z",
-          "wordCount": 1349,
-          "title": "Vibe Check №19",
-          "imageUrl": null
         }
       ]
     },
@@ -2348,36 +2257,6 @@
           "wordCount": 201,
           "title": "The family selector",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65964",
-          "author": "Travis",
-          "description": "Powerful interface innovation happens when we discover new useful metaphors and reify them in new software materials.",
-          "link": "https://heydesigner.com/design-with-materials-not-features/",
-          "publishedOn": "2022-08-05T09:08:44.000Z",
-          "wordCount": 200,
-          "title": "Design with materials, not features",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65962",
-          "author": "Travis",
-          "description": "This project is a creative journey to prove to myself I can create meaningful and inspiring art.",
-          "link": "https://heydesigner.com/minimal-3d-wallpapers/",
-          "publishedOn": "2022-08-05T09:04:15.000Z",
-          "wordCount": 196,
-          "title": "Minimal 3D wallpapers",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=65960",
-          "author": "Travis",
-          "description": "Which interpolation you choose for your color scale has a massive impact on how the data is perceived, how well your statement is communicated, and how intuitively the reader understands the data.",
-          "link": "https://heydesigner.com/how-to-choose-an-interpolation-for-your-color-scale/",
-          "publishedOn": "2022-08-05T09:00:41.000Z",
-          "wordCount": 215,
-          "title": "How to choose an interpolation for your color scale",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2386,6 +2265,16 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32699972",
+          "author": "zccm",
+          "description": "Article URL: https://twitter.com/zihanch/status/1565983457691717634\nComments URL: https://news.ycombinator.com/item?id=32699972\nPoints: 3\n# Comments: 0",
+          "link": "https://twitter.com/zihanch/status/1565983457691717634",
+          "publishedOn": "2022-09-03T08:43:20.000Z",
+          "wordCount": 390,
+          "title": "Rich text editor Lexical does not have a UI",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32695066",
           "author": "cglong",
@@ -4385,56 +4274,6 @@
           "wordCount": 209,
           "title": "Show HN: Genie Builder, no-code UI plugin for building data apps",
           "imageUrl": "https://genieframework.com/assets/img/genieframework-logo.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32353046",
-          "author": "striker_axel",
-          "description": "So, recently i started giving out interviews. I have 7+ years of experience so one or two design rounds are expected. \nKeeping that in mind i revised my concepts on distributed system and read few famous papers on distributed system. it was fun visiting those concepts again.\nAlso, as advised i watched few scaling videos on youtube (i.e Design Uber etc.)\nI have experience building system from scratch and depending upon the requirement i have scaled few services in my organization.\nSo, my expectations from the design round was to have open-ended discussion with interviewer on certain component and discussing drill-down component architecture, scaling issues, drawbacks etc.\nBut For me at least, reality is quite different. I was asked to design BookMyShow ( Movie booking system ) in full. I mean the interviewers expectation was to just draw the components, write the api and design schema. He will understand my work by looking into it.\nI have given 5+ interviews as of now ( got offer from some of them). But i feel like design round wasn't justified.\nComments URL: https://news.ycombinator.com/item?id=32353046\nPoints: 2\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=32353046",
-          "publishedOn": "2022-08-05T07:58:11.000Z",
-          "wordCount": 318,
-          "title": "Ask HN: Why system design interviews are focused on services then components?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32348514",
-          "author": "uptown",
-          "description": "Article URL: https://techcrunch.com/2022/08/04/rill-wants-to-rethink-bi-dashboards-with-embedded-database-and-instant-ux/\nComments URL: https://news.ycombinator.com/item?id=32348514\nPoints: 2\n# Comments: 0",
-          "link": "https://techcrunch.com/2022/08/04/rill-wants-to-rethink-bi-dashboards-with-embedded-database-and-instant-ux/",
-          "publishedOn": "2022-08-04T21:27:46.000Z",
-          "wordCount": 7743,
-          "title": "Rill wants to rethink BI dashboards with embedded database and instant UX",
-          "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1158912779.jpg?w=533"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32345890",
-          "author": "chuckrincon",
-          "description": "Article URL: https://konstaui.com\nComments URL: https://news.ycombinator.com/item?id=32345890\nPoints: 1\n# Comments: 0",
-          "link": "https://konstaui.com/",
-          "publishedOn": "2022-08-04T17:38:23.000Z",
-          "wordCount": 260,
-          "title": "Konsta UI – Mobile UI Components Built with Tailwind CSS",
-          "imageUrl": "https://konstaui.com/images/share-banner.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32342610",
-          "author": "unripe_syntax",
-          "description": "Article URL: https://www.smashingmagazine.com/2022/08/authentication-ux-design-guidelines/\nComments URL: https://news.ycombinator.com/item?id=32342610\nPoints: 2\n# Comments: 1",
-          "link": "https://www.smashingmagazine.com/2022/08/authentication-ux-design-guidelines/",
-          "publishedOn": "2022-08-04T13:29:18.000Z",
-          "wordCount": 4333,
-          "title": "Rethinking Authentication UX",
-          "imageUrl": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb887d40-c454-4b48-be73-44e903492deb/magic-links-authentication.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32341944",
-          "author": "ksec",
-          "description": "Article URL: https://www.protocol.com/enterprise/chip-design-software-export-restrictions\nComments URL: https://news.ycombinator.com/item?id=32341944\nPoints: 2\n# Comments: 0",
-          "link": "https://www.protocol.com/enterprise/chip-design-software-export-restrictions",
-          "publishedOn": "2022-08-04T12:29:22.000Z",
-          "wordCount": 17032,
-          "title": "The US is ready to block China’s access to advanced chip design software",
-          "imageUrl": "https://www.protocol.com/media-library/herbert-c-hoover-building-u-s-department-of-commerce-washington-d-c.jpg?id=30447599&width=1200&coordinates=0%2C284%2C0%2C284&height=600"
         }
       ]
     },
@@ -4443,6 +4282,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32699417",
+          "author": "marban",
+          "description": "Article URL: https://every.to/superorganizers/when-productivity-tools-make-the-problem-worse\nComments URL: https://news.ycombinator.com/item?id=32699417\nPoints: 2\n# Comments: 0",
+          "link": "https://every.to/superorganizers/when-productivity-tools-make-the-problem-worse",
+          "publishedOn": "2022-09-03T06:52:24.000Z",
+          "wordCount": 1744,
+          "title": "When Productivity Tools Make the Problem Worse",
+          "imageUrl": "https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2288/1599080339_a_man_checking_off_a_todo_item_in_a_notebook__cartoon.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32692784",
           "author": "HannahCr",
@@ -5102,26 +4951,6 @@
           "wordCount": 802,
           "title": "Harnessing Boredom into Productivity or Something Like That",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32352253",
-          "author": "hubraumhugo",
-          "description": "Comments URL: https://news.ycombinator.com/item?id=32352253\nPoints: 10\n# Comments: 9",
-          "link": "https://news.ycombinator.com/item?id=32352253",
-          "publishedOn": "2022-08-05T05:52:19.000Z",
-          "wordCount": 513,
-          "title": "Ask HN: Did you notice a big productivity drop after having kids?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32346878",
-          "author": "Abishek_Muthian",
-          "description": "Productivity timers needed to be triggered manually before each task, Making it a chore by itself, Often leading to us not using them after a while and They don't take health into consideration.\nHealth timers are intrusive, Even then they are not always accurate and They don't take productivity into consideration.\nButt Mover addresses those problems by using a butt trigger for automatically starting the productivity timer when we sit on the chair before our workstation and a break timer which reminds us to take a walk automatically when we get up.\nButt Mover also incentivizes its usage through a Game. When the health(tasks/breaks) reaches zero its game over.\nI've been iterating different forms of Butt Mover over past two years and released the web application earlier this year(After feedback from several HN users). Today I'm making the core application open-source as I've committed myself to make the Health & Education applications I build open-source.\nI hope you'd use Butt Mover for yourself and build Butt Trigger for others to improve productivity and health. Feedback and contributions to improve the project is appreciated.\nComments URL: https://news.ycombinator.com/item?id=32346878\nPoints: 2\n# Comments: 0",
-          "link": "https://github.com/abishekmuthian/buttmoverWebApp",
-          "publishedOn": "2022-08-04T18:55:45.000Z",
-          "wordCount": 1245,
-          "title": "Show HN: Butt Mover - A butt triggered productivity and health improvement game",
-          "imageUrl": "https://opengraph.githubassets.com/481307d97faa1e5031c40f9688629af258c279be771223561f9d7f13e3051289/abishekmuthian/buttmoverWebApp"
         }
       ]
     },
@@ -5739,26 +5568,6 @@
           "wordCount": 4245,
           "title": "HTML, the Hero of the Web",
           "imageUrl": "https://cdn.sanity.io/images/2ejqxsnu/production/02655a7be5ae2f792dd945dea7d0283f580c915c-1600x1066.jpg?w=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32346991",
-          "author": "agho",
-          "description": "Article URL: https://vimeo.com/736606662\nComments URL: https://news.ycombinator.com/item?id=32346991\nPoints: 3\n# Comments: 0",
-          "link": "https://vimeo.com/736606662",
-          "publishedOn": "2022-08-04T19:05:45.000Z",
-          "wordCount": 3974,
-          "title": "PDF Generator API – HTML to PDF Platform [video]",
-          "imageUrl": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1482126372-6aef4812a790a6ecc2dbfa848c761694eb9b7eed04b065c2440d403aba05735d-d_1280x720&src1=https%3A%2F%2Ff.vimeocdn.com%2Fimages_v6%2Fshare%2Fplay_icon_overlay.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32345890",
-          "author": "chuckrincon",
-          "description": "Article URL: https://konstaui.com\nComments URL: https://news.ycombinator.com/item?id=32345890\nPoints: 1\n# Comments: 0",
-          "link": "https://konstaui.com/",
-          "publishedOn": "2022-08-04T17:38:23.000Z",
-          "wordCount": 260,
-          "title": "Konsta UI – Mobile UI Components Built with Tailwind CSS",
-          "imageUrl": "https://konstaui.com/images/share-banner.png"
         }
       ]
     },
@@ -5861,6 +5670,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=43675",
+          "author": "Seth Godin",
+          "description": "For decades, marketers (and politicians) have been working to amplify cultural distress, a hack on our emotions. Not the tragic emotional distress of being unable to care for your kids, find a place to live or deal with trauma, but the invented cultural distress of modern industrialized societies. This is the easily created shame of […]",
+          "link": "https://seths.blog/2022/09/emotional-distress-and-consumerism/",
+          "publishedOn": "2022-09-03T08:58:00.000Z",
+          "wordCount": 1357,
+          "title": "Cultural distress (and consumerism)",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
+        },
         {
           "id": "https://seths.blog/?p=42639",
           "author": "Seth Godin",
@@ -6140,16 +5959,6 @@
           "wordCount": 1217,
           "title": "Crickets",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41583",
-          "author": "Seth Godin",
-          "description": "So many choices. So many sorts of metrics, critics and measures. Perhaps it makes sense to count things where the counting tells us how to do better next time. And to count things that let us know how much risk we can take next time. Or to calibrate our judgment about the market. But it […]",
-          "link": "https://seths.blog/2022/08/what-to-count/",
-          "publishedOn": "2022-08-05T09:54:00.000Z",
-          "wordCount": 1272,
-          "title": "What to count",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
         }
       ]
     },
@@ -7207,56 +7016,6 @@
           "wordCount": 1158,
           "title": "Actually, the San Francisco Typeface Does Ship as a Variable Font",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/367361"
-        },
-        {
-          "id": "dzee5AMxFQ788Fpog",
-          "author": "@tjukanov",
-          "description": "This map is showing birthplaces of the most \"notable people\" around the world.",
-          "link": "https://tjukanovt.github.io/notable-people",
-          "publishedOn": "2022-08-04T14:56:53.000Z",
-          "wordCount": 1300,
-          "title": "Notable People Map",
-          "imageUrl": null
-        },
-        {
-          "id": "W3gXreYYCDPLGikhG",
-          "author": "@Builtformars",
-          "description": "With an average rating of 4.9 stars, after 500,000 reviews, their IOS app must be doing something right—but what? Read this original UX analysis.",
-          "link": "https://builtformars.com/case-studies/docusign",
-          "publishedOn": "2022-08-04T14:54:03.000Z",
-          "wordCount": 2207,
-          "title": "One billion signatures — UX analysis of DocuSign ✏️",
-          "imageUrl": "https://builtformars.com/uploads/images/_1200x630_crop_center-center_82_none/Docusign-featured-image.jpg?mtime=1659423637"
-        },
-        {
-          "id": "omjNhJYgwLgGjoA9L",
-          "author": "@ChromiumDev",
-          "description": "With :has() landing in Chromium 105, let’s take a look at some of the awesome opportunities it brings to our CSS!",
-          "link": "https://developer.chrome.com/blog/has-m105/",
-          "publishedOn": "2022-08-04T14:52:48.000Z",
-          "wordCount": 2323,
-          "title": ":has(): the family selector",
-          "imageUrl": "https://wd.imgix.net/image/Dyx9FwYgMyNqy1kMGx8Orz6q0qC3/SLbZGkpDT3AG1E11MMFy.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "yRmLuNmeEsHrt3e2g",
-          "author": "@smashingmag",
-          "description": "How to improve authentication UX, with magic links, 2FA, better password recovery and relaxed rules for secure, accessible and usable passwords.",
-          "link": "https://www.smashingmagazine.com/2022/08/authentication-ux-design-guidelines/",
-          "publishedOn": "2022-08-04T14:43:58.000Z",
-          "wordCount": 4333,
-          "title": "Rethinking Authentication UX",
-          "imageUrl": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb887d40-c454-4b48-be73-44e903492deb/magic-links-authentication.jpg"
-        },
-        {
-          "id": "A6EBXX46pz35FXEr7",
-          "author": "@smashingmag",
-          "description": "In this article, we will explore how an accessibility-first approach can lead you down the path of creating a better visual design for charts.",
-          "link": "https://www.smashingmagazine.com/2022/07/accessibility-first-approach-chart-visual-design/",
-          "publishedOn": "2022-08-04T14:43:43.000Z",
-          "wordCount": 4844,
-          "title": "An Accessibility-First Approach To Chart Visual Design",
-          "imageUrl": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/cd18ef2b-760e-4a64-8c24-89d871b6b1f3/accessibility-first-approach-chart-visual-design.jpg"
         }
       ]
     },
@@ -7359,6 +7118,46 @@
       "feedUrl": "https://www.nytimes.com/svc/collections/v1/publish/http://www.nytimes.com/topic/subject/design/rss.xml",
       "siteUrl": "https://www.nytimes.com/topic/subject/design",
       "articles": [
+        {
+          "id": "https://www.nytimes.com/2022/09/03/arts/design/paris-design-week-london-design-festival.html",
+          "author": null,
+          "description": "A look at the international creative talent showcased at Paris Design Week and the London Design Festival.",
+          "link": "https://www.nytimes.com/2022/09/03/arts/design/paris-design-week-london-design-festival.html",
+          "publishedOn": "2022-09-03T09:00:27.000Z",
+          "wordCount": 5144,
+          "title": "European Design Festivals Highlight International Creative Talent",
+          "imageUrl": "https://static01.nyt.com/images/2022/09/05/multimedia/05sp-design-preview-glass-inyt-2/05sp-design-preview-glass-inyt-2-facebookJumbo.jpg"
+        },
+        {
+          "id": "https://www.nytimes.com/2022/09/03/nyregion/asad-syrkett-elle-decor.html",
+          "author": "Paige Darrah",
+          "description": "Asad Syrkett stays close to his Brooklyn home, doing Pilates, seeing friends, burning incense and reading fiction.",
+          "link": "https://www.nytimes.com/2022/09/03/nyregion/asad-syrkett-elle-decor.html",
+          "publishedOn": "2022-09-03T09:00:17.000Z",
+          "wordCount": 4391,
+          "title": "How the Editor in Chief of Elle Decor Spends His Sundays",
+          "imageUrl": "https://static01.nyt.com/images/2022/09/04/nyregion/04routine/03routine-facebookJumbo.jpg"
+        },
+        {
+          "id": "https://www.nytimes.com/slideshow/2022/09/03/realestate/new-york-apartment-decor-design.html",
+          "author": null,
+          "description": "When an interior designer decided to make a big move during the worst months of the pandemic, she planned her new rental around several key pieces.",
+          "link": "https://www.nytimes.com/slideshow/2022/09/03/realestate/new-york-apartment-decor-design.html",
+          "publishedOn": "2022-09-03T07:02:01.000Z",
+          "wordCount": 3984,
+          "title": "Decorating an Apartment, Sight Unseen",
+          "imageUrl": "https://static01.nyt.com/images/2022/09/04/realestate/03sheltering-terrell-01/03sheltering-terrell-01-facebookJumbo.jpg"
+        },
+        {
+          "id": "https://www.nytimes.com/2022/09/03/realestate/new-york-apartment-decor-design.html",
+          "author": "Penelope Green",
+          "description": "When an interior designer decided to make a big move during the worst months of the pandemic, she planned her new rental around several key pieces.",
+          "link": "https://www.nytimes.com/2022/09/03/realestate/new-york-apartment-decor-design.html",
+          "publishedOn": "2022-09-03T07:00:17.000Z",
+          "wordCount": 7323,
+          "title": "How to Decorate Your New York Apartment Before You Move There",
+          "imageUrl": "https://static01.nyt.com/images/2022/09/04/realestate/03sheltering-terrell-01/03sheltering-terrell-01-facebookJumbo.jpg"
+        },
         {
           "id": "https://www.nytimes.com/2022/09/01/style/caralarga-mexico-design-firm.html",
           "author": "Ray Mark Rinaldi",
@@ -7688,16 +7487,6 @@
           "wordCount": 8767,
           "title": "Jim Steinman’s Gothic Rock Cottage Is For Sale With Most of His Belongings",
           "imageUrl": "https://static01.nyt.com/images/2022/08/07/realestate/05EXCLUSIVE-STEINMAN-HOUSE-03/05EXCLUSIVE-STEINMAN-HOUSE-03-facebookJumbo.jpg"
-        },
-        {
-          "id": "https://www.nytimes.com/2022/08/04/style/terry-castro-dead.html",
-          "author": "Alex Williams",
-          "description": "A self-taught designer, he started out selling necklaces on the streets of New York and battled stereotypes, racial and otherwise, throughout his career.",
-          "link": "https://www.nytimes.com/2022/08/04/style/terry-castro-dead.html",
-          "publishedOn": "2022-08-04T19:56:42.000Z",
-          "wordCount": 4974,
-          "title": "Terry Castro, a Proud Outsider in the Jewelry World, Dies at 50",
-          "imageUrl": "https://static01.nyt.com/images/2022/09/02/obituaries/02CastroNYC/02CastroNYC-facebookJumbo.jpg"
         }
       ]
     },
@@ -8305,36 +8094,6 @@
           "wordCount": 1926,
           "title": "These Fun, Nostalgic Instagrams Will Make Your Feed Feel Like the Back of a Cereal Box",
           "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/The-Top-10.jpg?fit=1200%2C675&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=733349",
-          "author": "Steven Heller",
-          "description": "Sanja Čežek is the founder of Martha's Chicken, a revolutionary app that makes the brand's brightly illustrated wallpaper come to life through augmented reality.",
-          "link": "https://www.printmag.com/daily-heller/the-daily-heller-the-wallpaper-is-alive/",
-          "publishedOn": "2022-08-05T11:00:00.000Z",
-          "wordCount": 2705,
-          "title": "The Daily Heller: The Wallpaper is ALIVE!",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/Wild-at-heart_green-1.jpg?fit=1200%2C675&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=733594",
-          "author": "Tom Guarriello",
-          "description": "Tom Guarriello on the meaning of the objects we collect.",
-          "link": "https://www.printmag.com/creative-voices/taking-things-seriously/",
-          "publishedOn": "2022-08-04T19:00:00.000Z",
-          "wordCount": 1906,
-          "title": "Taking Things Seriously",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/93807897_f6c61bb634_b.jpeg?fit=1023%2C683&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=733492",
-          "author": "Charlotte Beach",
-          "description": "Phoebe Cornog and Roxy Prima-Johnson have two central missions: to paint a mural in every state, and to help female creatives build their own businesses.",
-          "link": "https://www.printmag.com/designer-interviews/pandr-design-co/",
-          "publishedOn": "2022-08-04T16:00:00.000Z",
-          "wordCount": 3387,
-          "title": "Pandr Design Co. is Empowering Women Artists, One Mural at a Time",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/08/pandrdesignco-1.png?fit=1200%2C514&ssl=1"
         }
       ]
     },
@@ -8639,21 +8398,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c0fa2259-6850-4139-8e31-43832f2d1d9e/organization-improved-web-accessibility-case-study.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/08/authentication-ux-design-guidelines/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "How to improve authentication UX, with magic links, 2FA, better password recovery and relaxed rules for secure, accessible and usable passwords.",
-          "link": "https://smashingmagazine.com/2022/08/authentication-ux-design-guidelines/",
-          "publishedOn": "2022-08-04T13:30:00.000Z",
-          "wordCount": 4333,
-          "title": "Rethinking Authentication UX",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb887d40-c454-4b48-be73-44e903492deb/magic-links-authentication.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb887d40-c454-4b48-be73-44e903492deb/magic-links-authentication.jpg"
         }
       ]
     },
