@@ -275,6 +275,16 @@
       "siteUrl": "https://css-irl.info/rss.xml/",
       "articles": [
         {
+          "id": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+          "author": null,
+          "description": "Last week I had the privilege of participating in Smashing Conference in Freiburg. One of the standout sessions was from Asim Hussain, of the Green Software Foundation, who talked about what a Net-Zero strategy means for organisations building websites. It was interesting to hear about the challenges of measuring the carbon emissions of a website, and the many different aspects that must be considered while doing so.\nAsim pointed out that offsets are not an effective way of getting to Net-Zero, which might seem controversial to some, given that many companies that claim to be carbon neutral are at least partly counting carbon offsetting towards that goal. I’m inclined to agree with Asim here. Offsetting feels (to me) a lot like creative accounting: in the best case simply moving carbon aro…",
+          "link": "https://css-irl.info/web-sustainability-and-the-ethical-dilemma/",
+          "publishedOn": "2022-09-19T00:00:00.000Z",
+          "wordCount": 835,
+          "title": "Web Sustainability and the Ethical Dilemma",
+          "imageUrl": "https://css-irl.info/social_1200x630.png"
+        },
+        {
           "id": "https://css-irl.info/detecting-css-selector-support/",
           "author": null,
           "description": "You might already be aware of how we can use feature detection in CSS to check whether a particular property and value combination is supported. This is a pretty smart way to go about writing robust CSS that caters for users with a whole range of browsers and devices with different capabilities, and is infinitely preferable to user agent sniffing. We can check whether a browser supports aspect-ratio, say, and provide a fallback in cases where lack of support would hamper the user experience.\n.some-element {\n  max-height: 200px;\n}\n@supports (aspect-ratio: 1) {\n  .some-element {\n    aspect-ratio: 1;\n    max-height: none;\n  }\n}\nThis particular block of code sets a max-height on an element, except when aspect-ratio is supported, when we’ll use that instead.\nWe could make this a bit more concis…",
@@ -321,6 +331,16 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=373184",
+          "author": "Brecht De Ruyte",
+          "description": "Gradients have been a part of the CSS spectrum for quite some time now. We see a lot of radial and linear gradients in a lot of projects, but there is one type of gradient that seems to be a …\nMaking a Real-Time Clock With a Conic Gradient Face originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/making-a-real-time-clock-with-a-conic-gradient-face/",
+          "publishedOn": "2022-09-19T12:58:09.000Z",
+          "wordCount": 1949,
+          "title": "Making a Real-Time Clock With a Conic Gradient Face",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/373184"
+        },
         {
           "id": "https://css-tricks.com/?p=373372",
           "author": "Geoff Graham",
@@ -518,6 +538,56 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com/",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=10698",
+          "author": "Adam Marsden",
+          "description": "LibraryTool",
+          "link": "https://dailydevlinks.com/powerful-motion-design-in-the-browser/",
+          "publishedOn": "2022-09-19T11:30:00.000Z",
+          "wordCount": 2888,
+          "title": "Powerful motion design in the browser",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=10692",
+          "author": "Adam Marsden",
+          "description": "React",
+          "link": "https://dailydevlinks.com/deconstructing-toasts/",
+          "publishedOn": "2022-09-19T11:30:00.000Z",
+          "wordCount": 2868,
+          "title": "Deconstructing toasts",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=10695",
+          "author": "Adam Marsden",
+          "description": "Career",
+          "link": "https://dailydevlinks.com/leadership-hack-feed-my-own-feedback-loop/",
+          "publishedOn": "2022-09-19T11:30:00.000Z",
+          "wordCount": 2893,
+          "title": "Leadership hack: Feed my own feedback loop",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=10689",
+          "author": "Adam Marsden",
+          "description": "A11YCSS",
+          "link": "https://dailydevlinks.com/button-minimum-width/",
+          "publishedOn": "2022-09-19T11:30:00.000Z",
+          "wordCount": 2873,
+          "title": "Button minimum width",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=10686",
+          "author": "Adam Marsden",
+          "description": "A11Y",
+          "link": "https://dailydevlinks.com/accessibility-in-times-of-headless/",
+          "publishedOn": "2022-09-19T11:30:00.000Z",
+          "wordCount": 2883,
+          "title": "Accessibility In Times Of Headless",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
+        },
         {
           "id": "https://dailydevlinks.com/?p=10682",
           "author": "Adam Marsden",
@@ -1192,6 +1262,26 @@
       "siteUrl": "https://daverupert.com",
       "articles": [
         {
+          "id": "https://daverupert.com/2022/09/30-minute-study-model/",
+          "author": null,
+          "description": "The algorithm surfaced me a video of an architect explaining why they make scale models and 💥BAM💥 just like that I’m back on my prototyping bullshit. This time we’re learning about the how and why an architect might make a scale model of a project.\nThe idea of model making for me is to take advantage of this haptic connection between your hands, what you’re making, all the materials, and really create something that you couldn’t have predicted in a sketch.\nA prototype exists to make a haptic connection between you and the materials, a 3D sketch. A tactile feel with actual atoms that the sketch could not reproduce. Although these materials are far from the final product, you get a sense of volumes, spaces, and their relationships to each other.\nI’m going to try and render these as open sp…",
+          "link": "https://daverupert.com/2022/09/30-minute-study-model/",
+          "publishedOn": "2022-09-19T17:35:00.000Z",
+          "wordCount": 798,
+          "title": "30 Minute Study Model",
+          "imageUrl": null
+        },
+        {
+          "id": "https://daverupert.com/2022/09/solara/",
+          "author": null,
+          "description": "A healthy but aging bearded man in a light vest walks the streets of the capitol city, weaving in and out of streets and light traffic, making his way to the local farmer’s market. It’s a typical sunny morning but the desert air is still cool from the previous night. The desert grasses along the road are a greener shade of brown thanks to the recent unseasonal rains, more flowers bloom than usual.\nHuman activity peppers the streets between the multistoried buildings. The citizens of the capitol walk through the downtown from shop to shop in unrestrained murmurations with  last-mile deliveries and priority access cabs as the only vehicles allowed on the roads. By afternoon most residents will retreat to their habitats to seek refuge from the heat.\nStrolling through the farmers market, the m…",
+          "link": "https://daverupert.com/2022/09/solara/",
+          "publishedOn": "2022-09-19T00:15:00.000Z",
+          "wordCount": 1237,
+          "title": "Solara",
+          "imageUrl": null
+        },
+        {
           "id": "https://daverupert.com/2022/09/vibe-check-20/",
           "author": null,
           "description": "August brought about some pretty sweeping changes. Kids are going back to school and I’ve found myself stepping back from some commitments.\nRunning out of spoons\nThis month I ran out of spoons. Neck-deep into starting a company and feeling that ambient stress, I realized I’m running out of available bandwidth. This manifests in tiredness, grumpiness, back pain, etc. I made the tough decision to step back from some extracurricular activities: a podcast, Open UI, my DnD group, and a handful of other obligations.\nA lot of it comes down to something I mentioned in my post about PARA, the idea that projects have an end date. Almost everything I do ends up being an open-ended project. I need to reset a bit to hedge against that tendency.\nTwitter overhaul\nIn the interest of protecting the spoons …",
@@ -1516,6 +1606,16 @@
       "siteUrl": "https://fs.blog/",
       "articles": [
         {
+          "id": "https://www.farnamstreetblog.com/?p=31223",
+          "author": "Farnam Street",
+          "description": "It’s a classic complaint in relationships, especially romantic ones: “She said she was okay with me forgetting her birthday! Then why is she throwing dishes in the kitchen? Are the two things related? I wish I had a translator for my spouse. What is going on?” The answer: Extreme was right, communication is more than …\nThe post Language: Why We Hear More Than Words appeared first on Farnam Street.",
+          "link": "https://fs.blog/language-not-just-code/",
+          "publishedOn": "2022-09-19T11:00:00.000Z",
+          "wordCount": 1498,
+          "title": "Language: Why We Hear More Than Words",
+          "imageUrl": "https://149664534.v2.pressablecdn.com/wp-content/uploads/2017/03/Language-Why-We-Hear-More-Than-Words.png"
+        },
+        {
           "id": "https://fs.blog/?p=43004",
           "author": "Rosie",
           "description": "Play is an essential way of learning about the world. Doing things we enjoy without a goal in mind leads us to find new information, better understand our own capabilities, and find unexpected beauty around us. Arithmetic is one example of an area we can explore through play. Every parent knows that children need space …\nThe post Learning Through Play appeared first on Farnam Street.",
@@ -1558,6 +1658,56 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=66295",
+          "author": "Travis",
+          "description": "A collection of Design systems for Figma from all over the globe.",
+          "link": "https://heydesigner.com/design-systems-for-figma/",
+          "publishedOn": "2022-09-19T07:34:23.000Z",
+          "wordCount": 194,
+          "title": "Design systems for Figma",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66292",
+          "author": "Travis",
+          "description": "Reactions to Adobe acquiring Figma and why it’ll be okay.",
+          "link": "https://heydesigner.com/design-softwares-circle-of-life/",
+          "publishedOn": "2022-09-19T04:33:24.000Z",
+          "wordCount": 193,
+          "title": "Design software’s circle of life",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66290",
+          "author": "Travis",
+          "description": "Overlays often need to be dismissed in a manner that goes against users’ expectations.",
+          "link": "https://heydesigner.com/accidental-dismissal-of-overlays-a-common-mobile-usability-problem/",
+          "publishedOn": "2022-09-19T04:32:38.000Z",
+          "wordCount": 211,
+          "title": "Accidental dismissal of overlays: A common mobile usability problem",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66288",
+          "author": "Travis",
+          "description": "You design on the web for a living, and want to put accessibility first. Let’s do this.",
+          "link": "https://heydesigner.com/designing-for-web-accessibility-in-60-seconds/",
+          "publishedOn": "2022-09-19T04:31:40.000Z",
+          "wordCount": 205,
+          "title": "Designing for web accessibility in 60 seconds",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66286",
+          "author": "Travis",
+          "description": "CSS has given us some pretty cool selectors recently in the form of pseudo-elements and pseudo-classes.",
+          "link": "https://heydesigner.com/detecting-css-selector-support/",
+          "publishedOn": "2022-09-19T04:30:45.000Z",
+          "wordCount": 199,
+          "title": "Detecting CSS selector support",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=66279",
           "author": "Travis",
@@ -2355,6 +2505,66 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32901169",
+          "author": "hknmtt",
+          "description": "I am working on a marketplace project(Patreon-like) and I am wondering about good designs/architecture to handle and track the money. I have came up with various solutions but I would like to hear from someone who has some real experience with this very niche type of project, if possible.\nMostly the issue is real money vs virtual money in the system. Chargebacks, returns, currencies, multiple bank accounts, multiple payment processors, fees for bank or payment processors transfers that can make real money mismatch the virtual money and so on.\nIt's not a simple question I could ask and get a straight answer so I guess it will be more like a discussion.\nTanks.\nComments URL: https://news.ycombinator.com/item?id=32901169\nPoints: 2\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=32901169",
+          "publishedOn": "2022-09-19T17:19:30.000Z",
+          "wordCount": 188,
+          "title": "Ask HN: Design Handling of Money in a Marketplace",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32900730",
+          "author": "LVB",
+          "description": "I have a number of simple projects that I'm happy to do the UI development for but feel their appearance or UX could use some critique from a more skillful designer. I'm not looking to hire someone to do designs for these small personal projects, but am wanting to pay for a 30-60 minute consultation to get general feedback and suggestions for improvement.\nAny recommendations for finding folks interested in this sort of one-off design review work?\nComments URL: https://news.ycombinator.com/item?id=32900730\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=32900730",
+          "publishedOn": "2022-09-19T16:46:23.000Z",
+          "wordCount": 156,
+          "title": "Ask HN: Experience contracting designers for a brief UX review?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32898055",
+          "author": "jasonjamerson",
+          "description": "Article URL: https://thetheatretimes.com/imagine-artificial-intelligence-comes-to-theatrical-design/\nComments URL: https://news.ycombinator.com/item?id=32898055\nPoints: 2\n# Comments: 0",
+          "link": "https://thetheatretimes.com/imagine-artificial-intelligence-comes-to-theatrical-design/",
+          "publishedOn": "2022-09-19T13:31:35.000Z",
+          "wordCount": 10338,
+          "title": "/Imagine: Artificial Intelligence Comes to Theatre Design",
+          "imageUrl": "https://thetheatretimes.com/wp-content/uploads/2022/09/richardheader2-scaled.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32896060",
+          "author": "eligg",
+          "description": "Article URL: https://oku.club/\nComments URL: https://news.ycombinator.com/item?id=32896060\nPoints: 3\n# Comments: 1",
+          "link": "https://oku.club/",
+          "publishedOn": "2022-09-19T09:17:26.000Z",
+          "wordCount": 51,
+          "title": "Amazon-free Goodreads alternative with great UI",
+          "imageUrl": "https://static.oku.club/oku-og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32894825",
+          "author": "imartin2k",
+          "description": "Article URL: https://www.designsystemsforfigma.com/\nComments URL: https://news.ycombinator.com/item?id=32894825\nPoints: 1\n# Comments: 0",
+          "link": "https://www.designsystemsforfigma.com/",
+          "publishedOn": "2022-09-19T06:11:23.000Z",
+          "wordCount": 248,
+          "title": "Collection of Design Systems for Figma",
+          "imageUrl": "https://assets.website-files.com/5f08a6a4b22d4a7ca3b0b630/5f18a5844db54c3e79853bca_OG-image-main.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32894344",
+          "author": "behnamoh",
+          "description": "Article URL: https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/\nComments URL: https://news.ycombinator.com/item?id=32894344\nPoints: 170\n# Comments: 121",
+          "link": "https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/",
+          "publishedOn": "2022-09-19T04:40:50.000Z",
+          "wordCount": 1559,
+          "title": "MacOS 10.15: Slow by Design (2020)",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32885726",
           "author": "KasianFranks",
@@ -4424,26 +4634,6 @@
           "wordCount": 409,
           "title": "Ask HN: Suggest rigorous ways to learn design of data structures and algorithms",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32534008",
-          "author": "flerovium",
-          "description": "- Type in a number\n- Press \"Call\"\n- They receive a request\n- If accepted, a voice channel is opened\n- Either party can press \"end\"\nComments URL: https://news.ycombinator.com/item?id=32534008\nPoints: 2\n# Comments: 3",
-          "link": "https://news.ycombinator.com/item?id=32534008",
-          "publishedOn": "2022-08-20T18:09:25.000Z",
-          "wordCount": 268,
-          "title": "Ask HN: Do telephone calls have the best UX?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32533300",
-          "author": "Tomte",
-          "description": "Article URL: http://printingcode.runemadsen.com/\nComments URL: https://news.ycombinator.com/item?id=32533300\nPoints: 1\n# Comments: 0",
-          "link": "http://printingcode.runemadsen.com/",
-          "publishedOn": "2022-08-20T16:37:53.000Z",
-          "wordCount": 2919,
-          "title": "Programming Design Systems",
-          "imageUrl": null
         }
       ]
     },
@@ -4452,6 +4642,36 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32898963",
+          "author": "devstein",
+          "description": "Article URL: https://www.keybr.com/\nComments URL: https://news.ycombinator.com/item?id=32898963\nPoints: 2\n# Comments: 0",
+          "link": "https://www.keybr.com/",
+          "publishedOn": "2022-09-19T14:40:33.000Z",
+          "wordCount": 58,
+          "title": "A Simple and Unexpected Way to Improve Work Productivity",
+          "imageUrl": "https://www.keybr.com/cover.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32898947",
+          "author": "ksapp",
+          "description": "Article URL: https://aembit.io/blog/developer-productivity-part-1-docker-compose-to-eks-in-5-minutes\nComments URL: https://news.ycombinator.com/item?id=32898947\nPoints: 1\n# Comments: 0",
+          "link": "https://aembit.io/blog/developer-productivity-part-1-docker-compose-to-eks-in-5-minutes",
+          "publishedOn": "2022-09-19T14:39:20.000Z",
+          "wordCount": 2443,
+          "title": "Developer Productivity Part 1: Docker Compose to EKS In",
+          "imageUrl": "https://aembit.io/hubfs/DevProd1@2x-1.png#keepProtocol"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32894913",
+          "author": "imartin2k",
+          "description": "Article URL: http://reallysimple.org/twentyYearsAgo.opml\nComments URL: https://news.ycombinator.com/item?id=32894913\nPoints: 2\n# Comments: 0",
+          "link": "http://reallysimple.org/twentyYearsAgo.opml",
+          "publishedOn": "2022-09-19T06:22:32.000Z",
+          "wordCount": 859,
+          "title": "RSS 2.0 was created 20 years ago",
+          "imageUrl": ""
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32890832",
           "author": "mooreds",
@@ -4971,26 +5191,6 @@
           "wordCount": 839,
           "title": "Leadership and Productivity: A Study of U.S. Automobile Assembly Plants",
           "imageUrl": "/action/showCoverImage?journalCode=journal.code&showLarge=true"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32533908",
-          "author": "dshipper",
-          "description": "Article URL: https://every.to/superorganizers/why-you-keeping-doing-productivity-systems-that-don-t-work\nComments URL: https://news.ycombinator.com/item?id=32533908\nPoints: 4\n# Comments: 1",
-          "link": "https://every.to/superorganizers/why-you-keeping-doing-productivity-systems-that-don-t-work",
-          "publishedOn": "2022-08-20T17:56:50.000Z",
-          "wordCount": 2271,
-          "title": "Why You Keep Doing Productivity Systems That Don't Work",
-          "imageUrl": "https://d24ovhgu8s7341.cloudfront.net/uploads/publication/logo/4/EVERY_SUPERORGANIZERS.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32533278",
-          "author": "isomorph",
-          "description": "Article URL: https://bioedge.org/bioethics-d75/human-dignity/indian-doctors-are-removing-the-wombs-of-cane-cutters-to-increase-their-productivity/\nComments URL: https://news.ycombinator.com/item?id=32533278\nPoints: 4\n# Comments: 0",
-          "link": "https://bioedge.org/bioethics-d75/human-dignity/indian-doctors-are-removing-the-wombs-of-cane-cutters-to-increase-their-productivity/",
-          "publishedOn": "2022-08-20T16:35:41.000Z",
-          "wordCount": 1893,
-          "title": "Indian doctors are removing the wombs of cane-cutters to increase productivity",
-          "imageUrl": "https://bioedge.org/wp-content/uploads/2022/08/bigstock-Chikkavoddaragudi-Karnataka-252201490-1024x683.jpeg"
         }
       ]
     },
@@ -5738,26 +5938,6 @@
           "wordCount": 3587,
           "title": "The Dark Side of Polyfilling CSS",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32537032",
-          "author": "ravish0007",
-          "description": "I couldn't find sicp, html version, I need it to scrape its text for a project. HTML version is dead?\nComments URL: https://news.ycombinator.com/item?id=32537032\nPoints: 21\n# Comments: 16",
-          "link": "https://news.ycombinator.com/item?id=32537032",
-          "publishedOn": "2022-08-21T02:59:20.000Z",
-          "wordCount": 723,
-          "title": "Ask HN: Where to find HTML version of SICP?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32532675",
-          "author": "lelandfe",
-          "description": "Article URL: https://alistapart.com/article/slidingdoors/\nComments URL: https://news.ycombinator.com/item?id=32532675\nPoints: 1\n# Comments: 0",
-          "link": "https://alistapart.com/article/slidingdoors/",
-          "publishedOn": "2022-08-20T15:22:13.000Z",
-          "wordCount": 13564,
-          "title": "Sliding Doors of CSS (2003)",
-          "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2019/03/cropped-icon_navigation-laurel-512.jpg?fit=512%2C512&ssl=1"
         }
       ]
     },
@@ -5840,6 +6020,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=43807",
+          "author": "Seth Godin",
+          "description": "The law is simple to describe, fair and useful: It should be as easy to unsubscribe from an online service as it is to sign up. Other than powerful brand bullies, who is against this? It took me five minutes to sign up for a data connection for my car a few years ago. Yesterday, […]",
+          "link": "https://seths.blog/2022/09/easy-in-easy-out/",
+          "publishedOn": "2022-09-19T08:11:00.000Z",
+          "wordCount": 1223,
+          "title": "Easy in/Easy out",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=41964",
           "author": "Seth Godin",
@@ -6119,16 +6309,6 @@
           "wordCount": 1162,
           "title": "Five true statements we don’t hear very often",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42562",
-          "author": "Seth Godin",
-          "description": "It used to be well lit. Apply to a famous institution, get picked. Get the agent of an agent or A&R person. Get picked. Get good grades… get picked. Now, many of the “pickers” have little influence or power. Instead of the reassurance that comes from someone else telling us what to do and then […]",
-          "link": "https://seths.blog/2022/08/opportunity-is-now-disorganized/",
-          "publishedOn": "2022-08-21T08:36:00.000Z",
-          "wordCount": 1134,
-          "title": "Opportunity is now disorganized",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
         }
       ]
     },
@@ -6137,6 +6317,66 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "7LGvoXTLLxTG98Hn3",
+          "author": "@uxpin",
+          "description": "Copy & paste Figma designs to UXPin. Add advanced interactions and reach a new interactivity level. Try the UXPin-Figma plugin and explore UXPin tool.",
+          "link": "https://www.uxpin.com/?utm_source=sidebar&utm_medium=partner&utm_campaign=sidebar-newsletter-19-09",
+          "publishedOn": "2022-09-19T12:00:00.000Z",
+          "wordCount": 921,
+          "title": "🎨 Figma–UXPin combination that will WOW you",
+          "imageUrl": "https://cdn.buttercms.com/SCicARrwSa2KoSEz2tJZ"
+        },
+        {
+          "id": "Ke8YEiH3kuacYwXPR",
+          "author": "@divamgupta",
+          "description": "DiffusionBee is the easiest way to run Stable Diffusion locally on your M1 Mac.",
+          "link": "https://diffusionbee.com/",
+          "publishedOn": "2022-09-19T02:31:45.000Z",
+          "wordCount": 537,
+          "title": "DiffusionBee: Stable Diffusion GUI App",
+          "imageUrl": null
+        },
+        {
+          "id": "qjMKS7xT85ppqa33h",
+          "author": "@ianthehenry",
+          "description": "Welcome to Bauble! This document is an interactive tutorial that will teach you everything you need to know to make art with lisp and math.",
+          "link": "https://bauble.studio/",
+          "publishedOn": "2022-09-19T02:30:50.000Z",
+          "wordCount": 4,
+          "title": "Bauble",
+          "imageUrl": null
+        },
+        {
+          "id": "Cmu9ySepqRt2kJZ27",
+          "author": "@DefensiveCSS",
+          "description": "Practical CSS and design tips that helps in building future-proof user interfaces.",
+          "link": "https://defensivecss.dev/tip/button-min-width/",
+          "publishedOn": "2022-09-19T02:25:04.000Z",
+          "wordCount": 373,
+          "title": "Defensive CSS - Button minimum width",
+          "imageUrl": "https://defensivecss.dev/img/social/button-min-width.png"
+        },
+        {
+          "id": "7oY4BYPNDJ4unjNyG",
+          "author": "@penpotapp",
+          "description": "The open-source solution for design and prototyping",
+          "link": "https://penpot.app/",
+          "publishedOn": "2022-09-19T02:23:58.000Z",
+          "wordCount": 537,
+          "title": "Penpot: Design Freedom for Teams",
+          "imageUrl": "https://penpot.app/images/workspace-ui.jpg"
+        },
+        {
+          "id": "qLMYkdQNFLciqEPBn",
+          "author": "@uxdesigncc",
+          "description": "Figma took on a giant, now it’s part of their team.",
+          "link": "https://uxdesign.cc/why-figmas-acquisition-is-bad-for-designers-91fff7c7abad",
+          "publishedOn": "2022-09-19T02:22:55.000Z",
+          "wordCount": 3484,
+          "title": "Why Figma’s acquisition is bad for designers",
+          "imageUrl": "https://miro.medium.com/max/1189/1*l5SBvVRQODR69dqGQZETVw.png"
+        },
         {
           "id": "X3TEZpoFf6ABtt9iM",
           "author": "@uxdesigncc",
@@ -7264,6 +7504,16 @@
       "siteUrl": "https://www.nytimes.com/topic/subject/design",
       "articles": [
         {
+          "id": "https://www.nytimes.com/2022/09/19/realestate/shopping-brooms.html",
+          "author": "Tim McKeough",
+          "description": "Why do you need a well-designed broom? Because you’re more likely to use it.",
+          "link": "https://www.nytimes.com/2022/09/19/realestate/shopping-brooms.html",
+          "publishedOn": "2022-09-19T13:00:15.000Z",
+          "wordCount": null,
+          "title": "Shopping for Brooms",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nytimes.com/es/2022/09/18/espanol/diseno-cara-larga.html",
           "author": "Ray Mark Rinaldi",
           "description": "El éxito de Caralarga, una empresa en Querétaro, ha hecho que pase de ser una operación de dos personas a convertirse en una compañía con 60 empleados que fabrica y envía productos a todo el mundo.",
@@ -7560,6 +7810,46 @@
       "feedUrl": "https://www.printmag.com/feed/",
       "siteUrl": "https://www.printmag.com",
       "articles": [
+        {
+          "id": "https://www.printmag.com/?p=735573",
+          "author": "Jessica Deseo",
+          "description": "Washington, DC shows off its style with colorful new advertising from Design Army.",
+          "link": "https://www.printmag.com/branding-identity-design/design-army-redefines-luxury/",
+          "publishedOn": "2022-09-19T14:30:00.000Z",
+          "wordCount": 2625,
+          "title": "Design Army Redefines Luxury in Their New Campaign for CityCenterDC",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/09/DesignArmy_CityCenterDC_WILD_POSTING-1-scaled.jpg?fit=1200%2C789&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=735505",
+          "author": "Charlotte Beach",
+          "description": "This title from experimental publishing house Tara Books comes with an embroidered plastic cover and a tote bag for readers to embroider themselves.",
+          "link": "https://www.printmag.com/design-books/a-stitch-out-of-time/",
+          "publishedOn": "2022-09-19T13:00:00.000Z",
+          "wordCount": 1882,
+          "title": "‘A Stitch Out of Time’ is a Handcrafted Love Letter to the Environment",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/09/01_A-Stitch-Out-of-Time_4556_LR.jpeg?fit=1200%2C872&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=735483",
+          "author": "Vicki Strull, Sponsored",
+          "description": "Vicki Strull from MarketWise on how understanding business terminology will help designers better communicate their skillset to clients.",
+          "link": "https://www.printmag.com/design-resources/how-to-design-for-business/",
+          "publishedOn": "2022-09-19T11:00:00.000Z",
+          "wordCount": 2438,
+          "title": "How to Design for Business",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/09/Header-for-PRINT-1.jpg?fit=1000%2C601&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=735443",
+          "author": "Steven Heller",
+          "description": "Patrick Mitchell teamed up with Milton Academy to produce “Milton” magazine—and it just won Magazine of the Year.",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-this-is-not-the-milton-that-you-think-it-is/",
+          "publishedOn": "2022-09-19T11:00:00.000Z",
+          "wordCount": 1930,
+          "title": "The Daily Heller: This is Not That Milton",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/09/MLT02-FOB-COVER3.jpg?fit=982%2C1200&ssl=1"
+        },
         {
           "id": "https://www.printmag.com/?p=735322",
           "author": "Chloe Gordon",
@@ -8180,6 +8470,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/09/building-retro-draggable-web-component-using-lit/",
+          "author": "hello@smashingmagazine.com (Andrico Karoulla)",
+          "description": "In today’s article, Andrico Karoulla explains how to create a cool draggable effect by listening to the drag events and writing some custom logic inside the handlers.",
+          "link": "https://smashingmagazine.com/2022/09/building-retro-draggable-web-component-using-lit/",
+          "publishedOn": "2022-09-19T18:00:00.000Z",
+          "wordCount": 7012,
+          "title": "Building A Retro Draggable Web Component With Lit",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c1d9b905-3c76-4125-a9b1-91c8db791a06/building-retro-draggable-web-component-using-lit.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c1d9b905-3c76-4125-a9b1-91c8db791a06/building-retro-draggable-web-component-using-lit.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2022/09/rethinking-star-ratings-readers/",
           "author": "hello@smashingmagazine.com (Matt Athanasiou)",
