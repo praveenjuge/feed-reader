@@ -2,10 +2,138 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2022-09-25T00:06:29.140Z</updated>
+    <updated>2022-09-26T00:06:59.076Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Nancy Hiller, Who Broke a Glass Ceiling in Woodworking, Dies at 63]]></title>
+        <id>https://www.nytimes.com/2022/09/25/obituaries/nancy-hiller-dead.html</id>
+        <link href="https://www.nytimes.com/2022/09/25/obituaries/nancy-hiller-dead.html"/>
+        <updated>2022-09-25T22:07:46.000Z</updated>
+        <summary type="html"><![CDATA[One of the few women in her profession, she steadily built a quiet but forceful reputation as one of the best cabinetmakers in the country.]]></summary>
+        <author>
+            <name>Clay Risen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Grupetto: An alternative workout UI for Peloton bikes]]></title>
+        <id>https://news.ycombinator.com/item?id=32975668</id>
+        <link href="https://github.com/SelaliAdobor/Grupetto"/>
+        <updated>2022-09-25T20:19:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/SelaliAdobor/Grupetto
+Comments URL: https://news.ycombinator.com/item?id=32975668
+Points: 2
+# Comments: 1]]></summary>
+        <author>
+            <name>selpop</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Curious Design of Skateboard Trucks]]></title>
+        <id>https://news.ycombinator.com/item?id=32975312</id>
+        <link href="https://www.bedelstein.com/post/the-curious-design-of-skateboard-trucks"/>
+        <updated>2022-09-25T19:50:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.bedelstein.com/post/the-curious-design-of-skateboard-trucks
+Comments URL: https://news.ycombinator.com/item?id=32975312
+Points: 62
+# Comments: 23]]></summary>
+        <author>
+            <name>bze12</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building the Level Design of a procedurally generated Metroidvania (2017)]]></title>
+        <id>https://news.ycombinator.com/item?id=32975151</id>
+        <link href="https://www.gamedeveloper.com/design/building-the-level-design-of-a-procedurally-generated-metroidvania-a-hybrid-approach-"/>
+        <updated>2022-09-25T19:36:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.gamedeveloper.com/design/building-the-level-design-of-a-procedurally-generated-metroidvania-a-hybrid-approach-
+Comments URL: https://news.ycombinator.com/item?id=32975151
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>indigodaddy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web Design in 4 Minutes]]></title>
+        <id>https://news.ycombinator.com/item?id=32974126</id>
+        <link href="https://jgthms.com/web-design-in-4-minutes/"/>
+        <updated>2022-09-25T18:07:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://jgthms.com/web-design-in-4-minutes/
+Comments URL: https://news.ycombinator.com/item?id=32974126
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>thunderbong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[58 bytes of CSS to look great nearly everywhere]]></title>
+        <id>https://news.ycombinator.com/item?id=32972004</id>
+        <link href="https://gist.github.com/JoeyBurzynski/617fb6201335779f8424ad9528b72c41"/>
+        <updated>2022-09-25T15:04:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://gist.github.com/JoeyBurzynski/617fb6201335779f8424ad9528b72c41
+Comments URL: https://news.ycombinator.com/item?id=32972004
+Points: 474
+# Comments: 173]]></summary>
+        <author>
+            <name>thunderbong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Why aren't modern mobile apps design to fail stable?]]></title>
+        <id>https://news.ycombinator.com/item?id=32970485</id>
+        <link href="https://news.ycombinator.com/item?id=32970485"/>
+        <updated>2022-09-25T11:44:19.000Z</updated>
+        <summary type="html"><![CDATA[I haven't built mobile apps in years.  These days I carry an Android phone and am generally unhappy with how poorly these applications require a network connection to do anything. Many apps don't fail stable in the sense that if there is a server error they don't present the last known good view of data.  What this means in practice is if there is low network availability (on a train, at a concert or festival, a sporting event) many of these apps completely break.
+Back years ago I would design apps to sync to a local database (which was relatively easy to do on IOS). Apps would maintain consistent state on the device and leverage local storage.  I haven't looked under the hood but many apps appear to be using HTMLish front ends that are stateless, except for some cached login information.  As a user - what I see is that the app repeatedly tries to login and fetch all information every time you load it.  Which if you have perfect LTE/5G/WIFI is sort of ok, but in other situations sucks.  if the app can't talk to the network it really doesn't work at all.
+Example apps that generally fail stable: gmail, text messaging
+Sort of fail stable: slack, although if you get a push message slack requires talking to the network to get the message even though it came through the push message.  In practice this means significant latency between seeing the message on the phone and then going to the conversation view (which can take forever to load under poor networking).  Back when I built apps we stuck the contents of the push message in the local DB so it was visible for users 
+Apps that don't fail stable: Hyundai blue link, Electrify America
+Comments URL: https://news.ycombinator.com/item?id=32970485
+Points: 27
+# Comments: 14]]></summary>
+        <author>
+            <name>harshaw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Newsboat RSS reader: fight the algorithm from the terminal]]></title>
+        <id>https://news.ycombinator.com/item?id=32970171</id>
+        <link href="https://tilvids.com/videos/watch/d0b8acff-0d80-4c1e-b806-36e6193b5c60"/>
+        <updated>2022-09-25T10:20:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tilvids.com/videos/watch/d0b8acff-0d80-4c1e-b806-36e6193b5c60
+Comments URL: https://news.ycombinator.com/item?id=32970171
+Points: 3
+# Comments: 1]]></summary>
+        <author>
+            <name>ZacnyLos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The parts between]]></title>
+        <id>https://seths.blog/?p=42842</id>
+        <link href="https://seths.blog/2022/09/the-parts-between/"/>
+        <updated>2022-09-25T09:08:00.000Z</updated>
+        <summary type="html"><![CDATA[Listen to one musician’s track in isolation on any record (like this one) and you might be amazed at how trivial they sound. Paul McCartney, one of the great bass players, in one the great groups of all time–it sounds a bit like a school music recital. But we don’t listen to the tracks in […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This page is a truly naked, brutalist HTML quine (2019)]]></title>
+        <id>https://news.ycombinator.com/item?id=32968597</id>
+        <link href="https://secretgeek.github.io/html_wysiwyg/html.html"/>
+        <updated>2022-09-25T03:07:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://secretgeek.github.io/html_wysiwyg/html.html
+Comments URL: https://news.ycombinator.com/item?id=32968597
+Points: 296
+# Comments: 42]]></summary>
+        <author>
+            <name>thunderbong</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fixed-Point HTML]]></title>
         <id>https://news.ycombinator.com/item?id=32965885</id>
@@ -9433,226 +9561,6 @@ Points: 1
 # Comments: 0]]></summary>
         <author>
             <name>Tomte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TinyTapeout: Get your design on an actual ASIC]]></title>
-        <id>https://news.ycombinator.com/item?id=32617620</id>
-        <link href="https://mailchi.mp/574276e3c9d7/tinytapeout"/>
-        <updated>2022-08-27T10:40:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mailchi.mp/574276e3c9d7/tinytapeout
-Comments URL: https://news.ycombinator.com/item?id=32617620
-Points: 101
-# Comments: 14]]></summary>
-        <author>
-            <name>bajsejohannes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Newer Take on Productivity]]></title>
-        <id>https://news.ycombinator.com/item?id=32617500</id>
-        <link href="https://twitter.com/PottiVarun/status/1561711195262193664"/>
-        <updated>2022-08-27T10:11:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/PottiVarun/status/1561711195262193664
-Comments URL: https://news.ycombinator.com/item?id=32617500
-Points: 4
-# Comments: 0]]></summary>
-        <author>
-            <name>VarunPotti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Practice the Capture Habit]]></title>
-        <id>https://news.ycombinator.com/item?id=32617120</id>
-        <link href="https://tsk.bearblog.dev/practice-the-capture-habit/"/>
-        <updated>2022-08-27T08:55:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tsk.bearblog.dev/practice-the-capture-habit/
-Comments URL: https://news.ycombinator.com/item?id=32617120
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>memorable</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Revisionism]]></title>
-        <id>https://seths.blog/?p=40856</id>
-        <link href="https://seths.blog/2022/08/revisionism/"/>
-        <updated>2022-08-27T08:28:00.000Z</updated>
-        <summary type="html"><![CDATA[There are two marketing problems when it comes to creating interventions for the public good. The first marketing problem is that when it works we take the intervention for granted. The world doesn’t fall apart, and we don’t notice, because our expectation was that the world (whatever world matters to you) should stay on course. […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design of OS/2 – Kogan and Deitel [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=32615612</id>
-        <link href="https://ia800305.us.archive.org/11/items/DesignOfOS2/Design%20of%20OS2.pdf"/>
-        <updated>2022-08-27T04:15:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ia800305.us.archive.org/11/items/DesignOfOS2/Design%20of%20OS2.pdf
-Comments URL: https://news.ycombinator.com/item?id=32615612
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>mindcrime</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to design great keyboard shortcuts]]></title>
-        <id>https://news.ycombinator.com/item?id=32613881</id>
-        <link href="https://knock.app/blog/how-to-design-great-keyboard-shortcuts"/>
-        <updated>2022-08-26T23:20:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://knock.app/blog/how-to-design-great-keyboard-shortcuts
-Comments URL: https://news.ycombinator.com/item?id=32613881
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>behnamoh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding Accessibility – Part 1: Empathy – FelipeRM Design]]></title>
-        <id>https://news.ycombinator.com/item?id=32613514</id>
-        <link href="https://feliperm.design.blog/2022/08/26/understanding-accessibility-a-brief-guide-for-beginners-part-1-empathy/"/>
-        <updated>2022-08-26T22:34:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://feliperm.design.blog/2022/08/26/understanding-accessibility-a-brief-guide-for-beginners-part-1-empathy/
-Comments URL: https://news.ycombinator.com/item?id=32613514
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>FelipeRM</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stable Diffusion web UI, run locally or with a shareable link]]></title>
-        <id>https://news.ycombinator.com/item?id=32612826</id>
-        <link href="https://github.com/hlky/stable-diffusion-webui"/>
-        <updated>2022-08-26T21:13:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/hlky/stable-diffusion-webui
-Comments URL: https://news.ycombinator.com/item?id=32612826
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>avocado2</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The pointer dev blog – short reads for devs on animation/design]]></title>
-        <id>https://news.ycombinator.com/item?id=32612704</id>
-        <link href="https://blog.pointer.gg/"/>
-        <updated>2022-08-26T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.pointer.gg
-Comments URL: https://news.ycombinator.com/item?id=32612704
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>malerba118</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Add Personalization to Static HTML with Netlify Edge Functions]]></title>
-        <id>https://news.ycombinator.com/item?id=32612340</id>
-        <link href="https://www.netlify.com/blog/add-personalization-to-static-html-with-edge-functions-no-browser-javascript/"/>
-        <updated>2022-08-26T20:24:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.netlify.com/blog/add-personalization-to-static-html-with-edge-functions-no-browser-javascript/
-Comments URL: https://news.ycombinator.com/item?id=32612340
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>kiyanwang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wikipedia tests a new UI design]]></title>
-        <id>https://news.ycombinator.com/item?id=32611952</id>
-        <link href="https://en.wikipedia.org/wiki/Evolution"/>
-        <updated>2022-08-26T19:49:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/Evolution
-Comments URL: https://news.ycombinator.com/item?id=32611952
-Points: 8
-# Comments: 3]]></summary>
-        <author>
-            <name>dschuessler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cache the World Opt In Preview]]></title>
-        <id>https://blog.mozilla.org/accessibility/?p=22</id>
-        <link href="https://blog.mozilla.org/accessibility/cache-the-world-opt-in-preview/"/>
-        <updated>2022-08-26T19:03:34.000Z</updated>
-        <summary type="html"><![CDATA[Early last year, the Firefox accessibility team began work on a major project to re-design the browser’s accessibility engine. The accessibility engine is responsible for providing assistive technologies like screen … Read more
-The post Cache the World Opt In Preview appeared first on Mozilla Accessibility.]]></summary>
-        <author>
-            <name>Asa Dotzler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Display HTML with Python Tkinter. Webview for Tkinter]]></title>
-        <id>https://news.ycombinator.com/item?id=32610162</id>
-        <link href="https://github.com/bauripalash/tkhtmlview"/>
-        <updated>2022-08-26T17:10:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/bauripalash/tkhtmlview
-Comments URL: https://news.ycombinator.com/item?id=32610162
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>xenr1k</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Who Would Want a Robot Caregiver?]]></title>
-        <id>https://www.printmag.com/?p=734584</id>
-        <link href="https://www.printmag.com/creative-voices/who-would-want-a-robot-caregiver/"/>
-        <updated>2022-08-26T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Virginia Postrel on how getting old doesn't mean you suddenly love spending hours chatting with strangers.]]></summary>
-        <author>
-            <name>Virginia Postrel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Collected: Web Design Inspiration]]></title>
-        <id>https://news.ycombinator.com/item?id=32608716</id>
-        <link href="https://collected.jonaspelzer.com/"/>
-        <updated>2022-08-26T15:24:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://collected.jonaspelzer.com/
-Comments URL: https://news.ycombinator.com/item?id=32608716
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>jonaspelzer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Modern alternatives to BEM]]></title>
-        <id>https://daverupert.com/2022/08/modern-alternatives-to-bem/</id>
-        <link href="https://daverupert.com/2022/08/modern-alternatives-to-bem/"/>
-        <updated>2022-08-26T14:53:00.000Z</updated>
-        <summary type="html"><![CDATA[When I first heard Nicole Sullivan talk about OOCSS, I thought “Oooh, smart.” When I read Jonathan Snook’s riff on that idea in SMACSS I thought “Oooh, smart.” When I heard Harry Roberts say “never use IDs in your CSS files” I said “Oooh, smart.”
-But when BEM and roboclasses came around… I didn’t have the same reaction. I never felt attracted to these tools even though thousands of developers had success with them. I’m not sure why I never jumped in, but I’m sure verbosity and/or tooling fatigue played a part. Ultimately, I ended up settling on my own SMACSS/BEM hybrid that’s more of a .block--variant .generic {}  pattern with some global utilities mixed in.
-I’m not anti-BEM nor anti-roboclasses, but as we enter a new era for CSS I think we have an opportunity to rethink best practices aro…]]></summary>
-        <author>
-            <name>daverupert.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[These Five Creators Will Add a Summer Music Festival Feel to Your Instagram Feed]]></title>
-        <id>https://www.printmag.com/?p=734403</id>
-        <link href="https://www.printmag.com/follow-friday/these-five-creators-will-add-a-summer-music-festival-feel-to-your-instagram-feed/"/>
-        <updated>2022-08-26T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Soak up the end of summer with colorful, trippy, '70s-inspired design.]]></summary>
-        <author>
-            <name>Chloe Gordon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using Grid Named Areas to Visualize (and Reference) Your Layout]]></title>
-        <id>https://css-tricks.com/?p=372634</id>
-        <link href="https://css-tricks.com/using-grid-named-areas-to-visualize-and-reference-your-layout/"/>
-        <updated>2022-08-26T13:44:49.000Z</updated>
-        <summary type="html"><![CDATA[Whenever we build simple or complex layouts using CSS Grid, we’re usually positioning items with line numbers. Grid layouts contain grid lines that are automatically indexed with positive and negative line numbers (that is unless we explicitly name them). …
-Using Grid Named Areas to Visualize (and Reference) Your Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
-        <author>
-            <name>Preethi Selvam</name>
         </author>
     </entry>
 </feed>
