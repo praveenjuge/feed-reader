@@ -58,16 +58,6 @@
           "wordCount": 4196,
           "title": "‘Accessibility at the Edge’ W3C CG Is an Overlay Smoke Screen",
           "imageUrl": "https://adrianroselli.com/wp-content/uploads/2022/08/overlay-cg-300x300.jpg"
-        },
-        {
-          "id": "https://adrianroselli.com/?p=17310",
-          "author": "Adrian Roselli",
-          "description": "I need your help. Legal documents are common on the web. Each site that has a Terms of Service written in impenetrable and indecipherable legalese, like this sentence, delights in that complexity to dissuade users from reading it and realizing just what they are giving up. “Am”, “add”, and “it”…",
-          "link": "https://adrianroselli.com/2022/08/conveying-all-caps-legal-text.html",
-          "publishedOn": "2022-08-27T17:44:59.000Z",
-          "wordCount": 2510,
-          "title": "Conveying All-Caps Legal Text",
-          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2022/08/all-caps-legalese-02_thumb-300x300.jpg"
         }
       ]
     },
@@ -193,6 +183,16 @@
       "siteUrl": "https://blog.webpagetest.org/feed.xml",
       "articles": [
         {
+          "id": "https://blog.webpagetest.org/posts/test-your-spa/",
+          "author": null,
+          "description": "A complaint I sometimes hear about web performance metrics is that they focus too much on initial page load, unfairly skewering web apps that are actually fast but in different ways than traditional websites. The reasoning goes that many web applications are intentionally built more like native apps than like websites, prioritizing efficiency during lengthy browsing sessions after the web app is already open rather than optimizing for a first visit.\nWhile I would argue that site delivery optimizations should not need to conflict with post-load optimizations (...and wonder if users carry their low performance expectations of native app startup time over to the web anyway), it is true that these represent different moments in user experience and need to be measured differently. Also, there a…",
+          "link": "https://blog.webpagetest.org/posts/test-your-spa/",
+          "publishedOn": "2022-09-26T01:53:29.000Z",
+          "wordCount": 1264,
+          "title": "How Fast Is Your Web App? How to Test Page Transition Performance",
+          "imageUrl": "https://blog.webpagetest.org/cloudinary/webpagetest/image/upload/f_auto,q_auto,c_fill,g_xy_center,h_630,w_1200,x_0/SPA_post_cover_fkiray.png"
+        },
+        {
           "id": "https://blog.webpagetest.org/posts/will-html-content-make-site-faster/",
           "author": null,
           "description": "TLDR: if your site is Twitter, AirBnB, Apple, Reddit, CNN, FedEx, or so many others then probably yes!\nMany of the most common performance problems in websites and applications today are caused by how they load and rely upon JavaScript, and the difficulty involved in solving those problems often depends on the degree of that reliance. When JS reliance is minimal, fixing poor delivery performance can be as simple as instructing the browser to load certain scripts at a lower priority and allow HTML content to render sooner. But when a site is dependent on JavaScript for generating its HTML content in the first place, those sorts of optimizations can’t help, and in those cases fixing the problem may require deep and time-consuming architectural changes.\nWhile it has been around longer, the pa…",
@@ -246,6 +246,16 @@
       "feedUrl": "https://christianheilmann.com/feed/",
       "siteUrl": "https://christianheilmann.com",
       "articles": [
+        {
+          "id": "https://christianheilmann.com/?p=7343",
+          "author": "Chris Heilmann",
+          "description": "When I wrote the developer advocacy handbook and advertised my new role as “Developer Evangelist” to my company one of the main points I made was how developers are an incredibly important audience for any company to covet. Not only do they build your own products, they are also influencers for other people. Developers are […]",
+          "link": "https://christianheilmann.com/2022/09/26/developers-as-an-audience-is-a-hard-sell-part-one-developers-are-influencers/",
+          "publishedOn": "2022-09-26T14:58:23.000Z",
+          "wordCount": 1259,
+          "title": "Developers as an audience is a hard sell – part one “developers are influencers”",
+          "imageUrl": null
+        },
         {
           "id": "https://christianheilmann.com/?p=7341",
           "author": "Chris Heilmann",
@@ -350,6 +360,16 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=373403",
+          "author": "Temani Afif",
+          "description": "The wave is probably one of the most difficult shapes to make in CSS. We always try to approximate it with properties like border-radius and lots of magic numbers until we get something that feels kinda close. And that’s before …\nHow to Create Wavy Shapes & Patterns in CSS originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/how-to-create-wavy-shapes-patterns-in-css/",
+          "publishedOn": "2022-09-26T13:13:30.000Z",
+          "wordCount": 4304,
+          "title": "How to Create Wavy Shapes & Patterns in CSS",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/373403"
+        },
         {
           "id": "https://css-tricks.com/?p=373057",
           "author": "Ganesh Dahal",
@@ -557,6 +577,36 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com/",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=10742",
+          "author": "Adam Marsden",
+          "description": "Development",
+          "link": "https://dailydevlinks.com/free-awesome-notion-templates-for-developers/",
+          "publishedOn": "2022-09-26T11:30:00.000Z",
+          "wordCount": 2903,
+          "title": "Free Awesome Notion Templates for Developers",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=10745",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/how-i-made-an-icon-system-out-of-css-custom-properties/",
+          "publishedOn": "2022-09-26T11:30:00.000Z",
+          "wordCount": 2928,
+          "title": "How I Made an Icon System Out of CSS Custom Properties",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=10748",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/randomness-in-css/",
+          "publishedOn": "2022-09-26T11:30:00.000Z",
+          "wordCount": 2888,
+          "title": "Randomness in CSS",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
+        },
         {
           "id": "https://dailydevlinks.com/?p=10735",
           "author": "Adam Marsden",
@@ -1354,6 +1404,16 @@
       "siteUrl": "https://davidwalsh.name",
       "articles": [
         {
+          "id": "https://davidwalsh.name/brave-default-browser",
+          "author": null,
+          "description": "<p>I&#8217;ve been a huge fan of the Brave web browser for years. They&#8217;re crypto-friendly, provide native ad-blocking features, and even provide Tor integration. Whenever I set up new systems, I automate Brave as the default browser. You can use the following shell command to set Brave as the default browser: open -a \"Brave Browser\" --args [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://davidwalsh.name/brave-default-browser\">Set Brave as Default Browser from Command Line</a> appeared first on <a rel=\"nofollow\" href=\"https://davidwalsh.name\">David Walsh Blog</a>.</p>\n<p><a href=\"https://tkjs.us/dwb\"><img style=\"margin:0 auto\" alt=\"\" src=\"https://davidwalsh.name/demo/tjs_block-1.svg\"></a></p>",
+          "link": "https://davidwalsh.name/brave-default-browser",
+          "publishedOn": "2022-09-26T10:52:04.000Z",
+          "wordCount": 1653,
+          "title": "Set Brave as Default Browser from Command Line",
+          "imageUrl": "https://davidwalsh.name/wp-content/themes/punky/images/logo.png"
+        },
+        {
           "id": "https://davidwalsh.name/css-autofill",
           "author": null,
           "description": "<p>Autofilling HTML input elements is a frequent user action that can drastically improve user experience. Hell, we all autofill for our passwords and address information. But what control do we have when input elements have been autofilled? To add custom CSS styles to inputs whose contents have been autofilled by the browser, you can use [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://davidwalsh.name/css-autofill\">CSS :autofill</a> appeared first on <a rel=\"nofollow\" href=\"https://davidwalsh.name\">David Walsh Blog</a>.</p>\n<p><a href=\"https://tkjs.us/dwb\"><img style=\"margin:0 auto\" alt=\"\" src=\"https://davidwalsh.name/demo/tjs_block-1.svg\"></a></p>",
@@ -1380,6 +1440,16 @@
       "feedUrl": "https://developer.chrome.com/feeds/blog.xml",
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
+        {
+          "id": "https://developer.chrome.com/en/blog/chrome-updates/",
+          "author": null,
+          "description": "Every month, we release a new version of Chrome to make sure our billions of global users and businesses get the freshest features, security updates and performance upgrades. And now, we're able to make improvements and fix issues quicker than ever before with a faster release cycle—meaning you'll get the latest updates even more often.\nWe chatted with Technical Program Managers Ben Henry, Krishna Govind, Harry Souders, Srinivas Sista, and Brandon Heenan on the Chrome release team for an inside look at how they coordinate with Google teams across the world to ensure each release goes smoothly.\nQ. How does your team prepare for each Chrome release?\nBen: First off, our team consists of seven people working full time across two major geographies. We think preparing for a release is like a tra…",
+          "link": "https://developer.chrome.com/en/blog/chrome-updates/",
+          "publishedOn": "2022-09-26T00:00:00.000Z",
+          "wordCount": 1440,
+          "title": "How Chrome prepares updates for billions of users",
+          "imageUrl": "https://wd.imgix.net/image/kheDArv5csY6rvQUJDbWRscckLr1/hlWZ6vcwjIBjagdnkVUS.jpeg?auto=format&w=1521"
+        },
         {
           "id": "https://developer.chrome.com/en/blog/new-in-devtools-107/",
           "author": null,
@@ -1657,6 +1727,106 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=66364",
+          "author": "Travis",
+          "description": "A sleek, useful, friendly, german, modern typeface that expands the communication of the new Braun and became a valuable corporate asset.",
+          "link": "https://heydesigner.com/braun-linear-a-new-typeface-for-braun/",
+          "publishedOn": "2022-09-26T16:30:09.000Z",
+          "wordCount": 207,
+          "title": "Braun Linear: A new typeface for Braun",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66362",
+          "author": "Travis",
+          "description": "In an ideal world, all software would be intelligently designed in a way that creates a better experience for the people using it, but that doesn’t always happen.",
+          "link": "https://heydesigner.com/pillars-of-digital-product-design-2/",
+          "publishedOn": "2022-09-26T16:16:55.000Z",
+          "wordCount": 206,
+          "title": "Pillars of digital product design",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66360",
+          "author": "Travis",
+          "description": "The origin story of Sony Walkman, Mini Cooper, and the iPhone.",
+          "link": "https://heydesigner.com/research-vs-vision/",
+          "publishedOn": "2022-09-26T16:15:22.000Z",
+          "wordCount": 191,
+          "title": "Research vs Vision",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66358",
+          "author": "Travis",
+          "description": "In practice I see design sytems focusing on the opposite of systems thinking: analytical thinking.",
+          "link": "https://heydesigner.com/design-systems-thinking/",
+          "publishedOn": "2022-09-26T16:13:56.000Z",
+          "wordCount": 195,
+          "title": "Design systems thinking",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66356",
+          "author": "Travis",
+          "description": "I like this new syntax mainly because it has less visual noise compared to the original SVG.",
+          "link": "https://heydesigner.com/experimenting-a-new-syntax-to-write-svg/",
+          "publishedOn": "2022-09-26T16:12:14.000Z",
+          "wordCount": 204,
+          "title": "Experimenting a new syntax to write SVG",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66351",
+          "author": "Travis",
+          "description": "Handover implies responsibility is passed on. Handshake implies responsibility is shared.",
+          "link": "https://heydesigner.com/design-for-handshakes-not-handovers/",
+          "publishedOn": "2022-09-25T18:52:14.000Z",
+          "wordCount": 195,
+          "title": "Design for handshakes not handovers",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66349",
+          "author": "Travis",
+          "description": "Understanding the two modes of work and how they complement.",
+          "link": "https://heydesigner.com/individual-point-of-view-and-collaboration/",
+          "publishedOn": "2022-09-25T18:49:23.000Z",
+          "wordCount": 195,
+          "title": "Individual point of view and collaboration",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66347",
+          "author": "Travis",
+          "description": "Today’s web is a very interactive experience, yet we often fail to provide the same experience to everyone.",
+          "link": "https://heydesigner.com/how-to-not-make-a-button/",
+          "publishedOn": "2022-09-25T18:48:47.000Z",
+          "wordCount": 205,
+          "title": "How to (not) make a button",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66345",
+          "author": "Travis",
+          "description": "It might be time to take a look at how you’re approaching some of the building blocks of your website because evolutions in browser technology and tooling have made many things easier and better.",
+          "link": "https://heydesigner.com/the-web-is-good-now/",
+          "publishedOn": "2022-09-25T18:47:31.000Z",
+          "wordCount": 207,
+          "title": "The web is good now",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66343",
+          "author": "Travis",
+          "description": "An overview of three tools and techniques for testing and verifying accessible color contrast of your design.",
+          "link": "https://heydesigner.com/testing-web-design-color-contrast/",
+          "publishedOn": "2022-09-25T18:46:09.000Z",
+          "wordCount": 202,
+          "title": "Testing web design color contrast",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=66338",
           "author": "Travis",
@@ -2424,6 +2594,86 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32990016",
+          "author": "zeepthee",
+          "description": "Article URL: https://jappie.me/zurich-hack-2022-denotational-design.html\nComments URL: https://news.ycombinator.com/item?id=32990016\nPoints: 1\n# Comments: 0",
+          "link": "https://jappie.me/zurich-hack-2022-denotational-design.html",
+          "publishedOn": "2022-09-26T23:34:24.000Z",
+          "wordCount": 3136,
+          "title": "Zurich hack 2022 Denotational Design",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32986853",
+          "author": "ingve",
+          "description": "Article URL: https://developer.apple.com/design/human-interface-guidelines/components/system-experiences/live-activities/\nComments URL: https://news.ycombinator.com/item?id=32986853\nPoints: 2\n# Comments: 0",
+          "link": "https://developer.apple.com/design/human-interface-guidelines/components/system-experiences/live-activities/",
+          "publishedOn": "2022-09-26T18:56:29.000Z",
+          "wordCount": 2826,
+          "title": "Design Guidelines for Live Activities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32986788",
+          "author": "clairity",
+          "description": "Article URL: https://css-tricks.com/how-i-made-an-icon-system-out-of-css-custom-properties/\nComments URL: https://news.ycombinator.com/item?id=32986788\nPoints: 1\n# Comments: 0",
+          "link": "https://css-tricks.com/how-i-made-an-icon-system-out-of-css-custom-properties/",
+          "publishedOn": "2022-09-26T18:52:01.000Z",
+          "wordCount": 2184,
+          "title": "An SVG Icon System Using CSS Custom Properties",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/373111"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32982788",
+          "author": "contingencies",
+          "description": "Article URL: https://github.com/zecruel/CadZinho\nComments URL: https://news.ycombinator.com/item?id=32982788\nPoints: 2\n# Comments: 0",
+          "link": "https://github.com/zecruel/CadZinho",
+          "publishedOn": "2022-09-26T13:23:41.000Z",
+          "wordCount": 564,
+          "title": "CadZinho: Minimalist computer aided design (CAD) software",
+          "imageUrl": "https://opengraph.githubassets.com/3175f791d7b4338969b952f470a20baa02dc3e5a149c4ba9955e2ba39b6a9741/zecruel/CadZinho"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32982510",
+          "author": "SongofEarth",
+          "description": "Article URL: https://phoode.com/blog/norman-rockwell-golden-age-food-illustration/\nComments URL: https://news.ycombinator.com/item?id=32982510\nPoints: 2\n# Comments: 0",
+          "link": "https://phoode.com/blog/norman-rockwell-golden-age-food-illustration/",
+          "publishedOn": "2022-09-26T12:55:16.000Z",
+          "wordCount": 5349,
+          "title": "Norman Rockwell and the Golden Age of Classic Food Illustration",
+          "imageUrl": "https://phoode.com/blog/wp-content/uploads/2019/01/Norman-Rockwell-Niblets-corn-advertisement-1944.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32980496",
+          "author": "teleforce",
+          "description": "Article URL: https://www.wiley.com/en-us/Typographic+Web+Design:+How+to+Think+Like+a+Typographer+in+HTML+and+CSS-p-9781119976875\nComments URL: https://news.ycombinator.com/item?id=32980496\nPoints: 4\n# Comments: 3",
+          "link": "https://www.wiley.com/en-us/Typographic+Web+Design:+How+to+Think+Like+a+Typographer+in+HTML+and+CSS-p-9781119976875",
+          "publishedOn": "2022-09-26T07:42:27.000Z",
+          "wordCount": null,
+          "title": "Typographic Web Design: How to Think Like a Typographer in HTML and CSS (2011)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32980096",
+          "author": "helsinkiandrew",
+          "description": "Article URL: https://globetrender.com/2022/09/23/austrian-national-railway-unveils-design-for-nightjet-trains/\nComments URL: https://news.ycombinator.com/item?id=32980096\nPoints: 1\n# Comments: 0",
+          "link": "https://globetrender.com/2022/09/23/austrian-national-railway-unveils-design-for-nightjet-trains/",
+          "publishedOn": "2022-09-26T06:29:57.000Z",
+          "wordCount": 5574,
+          "title": "Austrian national railway unveils design for NightJet trains",
+          "imageUrl": "https://globetrender.com/wp-content/uploads/2022/09/IM2022096550MO-scaled.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32979071",
+          "author": "mlerner",
+          "description": "Article URL: https://arxiv.org/abs/2208.05877\nComments URL: https://news.ycombinator.com/item?id=32979071\nPoints: 1\n# Comments: 0",
+          "link": "https://arxiv.org/abs/2208.05877",
+          "publishedOn": "2022-09-26T03:29:55.000Z",
+          "wordCount": 765,
+          "title": "Design and Evaluation of IPFS: A Storage Layer for the Decentralized Web",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32975668",
           "author": "selpop",
@@ -4413,46 +4663,6 @@
           "wordCount": 4776,
           "title": "System Design for Recommendations and Search",
           "imageUrl": "https://eugeneyan.com/assets/og_image/discovery-2x2-v2.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32627310",
-          "author": "rntn",
-          "description": "Article URL: https://www.bbc.com/travel/article/20220825-kath-kuni-the-himalayas-ancient-earthquake-defying-design\nComments URL: https://news.ycombinator.com/item?id=32627310\nPoints: 3\n# Comments: 0",
-          "link": "https://www.bbc.com/travel/article/20220825-kath-kuni-the-himalayas-ancient-earthquake-defying-design",
-          "publishedOn": "2022-08-28T10:47:25.000Z",
-          "wordCount": 37396,
-          "title": "The Himalayas' ancient earthquake-defying design",
-          "imageUrl": "https://ychef.files.bbci.co.uk/live/624x351/p0cvqj1x.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32626841",
-          "author": "kiyanwang",
-          "description": "Article URL: https://automation.baldacchino.net/?p=1429\nComments URL: https://news.ycombinator.com/item?id=32626841\nPoints: 2\n# Comments: 0",
-          "link": "https://automation.baldacchino.net/?p=1429",
-          "publishedOn": "2022-08-28T08:54:29.000Z",
-          "wordCount": 3339,
-          "title": "Cost Optimisation in the Cloud:Practical Design Steps for Architects/Developers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32626290",
-          "author": "hunglee2",
-          "description": "Article URL: https://www.griffith.edu.au/__data/assets/pdf_file/0020/1605431/DesignFoundations_SystemsCapital.pdf\nComments URL: https://news.ycombinator.com/item?id=32626290\nPoints: 2\n# Comments: 0",
-          "link": "https://www.griffith.edu.au/__data/assets/pdf_file/0020/1605431/DesignFoundations_SystemsCapital.pdf",
-          "publishedOn": "2022-08-28T06:34:31.000Z",
-          "wordCount": 89438,
-          "title": "Design Foundations for Systems Capital [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32626152",
-          "author": "doener",
-          "description": "Article URL: https://twitter.com/_akhaliq/status/1563582621757898752\nComments URL: https://news.ycombinator.com/item?id=32626152\nPoints: 4\n# Comments: 0",
-          "link": "https://twitter.com/_akhaliq/status/1563582621757898752",
-          "publishedOn": "2022-08-28T06:00:49.000Z",
-          "wordCount": 390,
-          "title": "Stable diffusion img2img web UI and workflow video",
-          "imageUrl": null
         }
       ]
     },
@@ -4461,6 +4671,36 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32986711",
+          "author": "mikece",
+          "description": "Article URL: https://www.theverge.com/2022/9/26/23372911/substack-reader-web-desktop-rss-client-google-reader\nComments URL: https://news.ycombinator.com/item?id=32986711\nPoints: 2\n# Comments: 0",
+          "link": "https://www.theverge.com/2022/9/26/23372911/substack-reader-web-desktop-rss-client-google-reader",
+          "publishedOn": "2022-09-26T18:46:42.000Z",
+          "wordCount": 12361,
+          "title": "If you still miss Google Reader, Substack has a new web-based RSS client",
+          "imageUrl": "https://cdn.vox-cdn.com/thumbor/ms1N0W5FESVF2a3s5YLBLZ7ZuEo=/0x0:4524x3512/1200x628/filters:focal(2262x1756:2263x1757)/cdn.vox-cdn.com/uploads/chorus_asset/file/24055888/substackwebreader.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32981112",
+          "author": "type0",
+          "description": "Article URL: https://www.trustedreviews.com/explainer/what-is-freeform-apple-4266157\nComments URL: https://news.ycombinator.com/item?id=32981112\nPoints: 1\n# Comments: 0",
+          "link": "https://www.trustedreviews.com/explainer/what-is-freeform-apple-4266157",
+          "publishedOn": "2022-09-26T09:42:03.000Z",
+          "wordCount": 9156,
+          "title": "What is Freeform? Apple’s iOS 16 productivity app explained",
+          "imageUrl": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2022/09/Apple-WWDC22-iPadOS-16-Freeform.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32980306",
+          "author": "rashik98",
+          "description": "Article URL: https://www.chameleon.io/blog/habit-forming-user-onboarding\nComments URL: https://news.ycombinator.com/item?id=32980306\nPoints: 2\n# Comments: 0",
+          "link": "https://www.chameleon.io/blog/habit-forming-user-onboarding",
+          "publishedOn": "2022-09-26T07:08:44.000Z",
+          "wordCount": 3076,
+          "title": "How to build a habit-forming product",
+          "imageUrl": "https://www.chameleon.io/img/containers/assets/blog/How_apply_the_Hooked_Model_for_User_Onboarding.jpg/b52e92e469629b868bc8d1f0f236f200.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32970171",
           "author": "ZacnyLos",
@@ -4950,26 +5190,6 @@
           "wordCount": 675,
           "title": "Is a consistent writing habit gonna improve my life?",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1008,h_528,c_fill,f_jpg,q_auto:best,fl_progressive:steep/https%3A%2F%2Famineaouragh.substack.com%2Ftwitter%2Fsubscribe-card.svg%3Fv%3Dc6042938033fe3309d5520226346e186%26version%3D7"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32623951",
-          "author": "RafelMri",
-          "description": "Article URL: https://www.wired.com/story/best-rss-feed-readers/\nComments URL: https://news.ycombinator.com/item?id=32623951\nPoints: 2\n# Comments: 0",
-          "link": "https://www.wired.com/story/best-rss-feed-readers/",
-          "publishedOn": "2022-08-27T22:37:05.000Z",
-          "wordCount": 21668,
-          "title": "RSS Feed Readers for Streamlining the Internet",
-          "imageUrl": "https://media.wired.com/photos/61607d297d0472ab3174cb45/191:100/w_1280,c_limit/Gear-Guide-to-RSS-Readers-1282125008.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32622866",
-          "author": "Sorasful",
-          "description": "Hello HN !\nI'm the founder of https://symfoz.com which is basically a RSS aggregator that allows people to partition the content they want to see in dedicated spaces called \"Playlists\", thus reducing the time needed to find the information they need.\nWhy Symfoz instead of other RSS aggregators ?\n- Create playlists of content, avoid mixing too many feeds in the same place. You know where everything is.\n- Follow people or playlists, people can create some playlists with AWESOME content, you may benefit from it.\n- We handle classic RSS feeds, but also Youtube channels, Twitter feeds, Spotify Podcasts, sub-reddits.\n- An easy UI interface (This is still WIP, UI is very hard haha)\n- Promote retention of information by allowing people to take notes (not highlighting but really take notes), instead of just consuming content and forget it. You'll be able to find your notes easily.\nA bit more about the project (you can skip this!), this is a side project that I've been working on for almost a year.\nI'm a back-end developer and the stack runs in Python. If you'd like more details, please feel free to ask, I'll be glad to answer !\nThanks for taking the time to read this, feel free to give any feedback, I would be really grateful :) !\nComments URL: https://news.ycombinator.com/item?id=32622866\nPoints: 1\n# Comments: 0",
-          "link": "https://symfoz.com/",
-          "publishedOn": "2022-08-27T20:28:30.000Z",
-          "wordCount": 9,
-          "title": "Show HN: An RSS aggregator with productivity and retention in mind",
-          "imageUrl": null
         }
       ]
     },
@@ -4978,6 +5198,36 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=32986788",
+          "author": "clairity",
+          "description": "Article URL: https://css-tricks.com/how-i-made-an-icon-system-out-of-css-custom-properties/\nComments URL: https://news.ycombinator.com/item?id=32986788\nPoints: 1\n# Comments: 0",
+          "link": "https://css-tricks.com/how-i-made-an-icon-system-out-of-css-custom-properties/",
+          "publishedOn": "2022-09-26T18:52:01.000Z",
+          "wordCount": 2184,
+          "title": "An SVG Icon System Using CSS Custom Properties",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/373111"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32982482",
+          "author": "sixhobbits",
+          "description": "Article URL: https://www.bryntum.com/blog/getting-started-with-css-container-queries/\nComments URL: https://news.ycombinator.com/item?id=32982482\nPoints: 1\n# Comments: 0",
+          "link": "https://www.bryntum.com/blog/getting-started-with-css-container-queries/",
+          "publishedOn": "2022-09-26T12:52:00.000Z",
+          "wordCount": 1918,
+          "title": "Getting started with CSS container queries",
+          "imageUrl": "https://mlposwajeygw.i.optimole.com/C3ZG6aY.IQWs~1e938/w:auto/h:auto/q:94/https://www.bryntum.com/wp-content/uploads/2022/09/LxFx1Ur.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=32980496",
+          "author": "teleforce",
+          "description": "Article URL: https://www.wiley.com/en-us/Typographic+Web+Design:+How+to+Think+Like+a+Typographer+in+HTML+and+CSS-p-9781119976875\nComments URL: https://news.ycombinator.com/item?id=32980496\nPoints: 4\n# Comments: 3",
+          "link": "https://www.wiley.com/en-us/Typographic+Web+Design:+How+to+Think+Like+a+Typographer+in+HTML+and+CSS-p-9781119976875",
+          "publishedOn": "2022-09-26T07:42:27.000Z",
+          "wordCount": null,
+          "title": "Typographic Web Design: How to Think Like a Typographer in HTML and CSS (2011)",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=32972004",
           "author": "thunderbong",
@@ -5697,26 +5947,6 @@
           "wordCount": 390,
           "title": "CSS-only macOS-style dock interaction using the new :has() selector",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32626632",
-          "author": "Tomte",
-          "description": "Article URL: https://rubenerd.com/handwritten-html-sites/\nComments URL: https://news.ycombinator.com/item?id=32626632\nPoints: 3\n# Comments: 0",
-          "link": "https://rubenerd.com/handwritten-html-sites/",
-          "publishedOn": "2022-08-28T08:04:41.000Z",
-          "wordCount": 321,
-          "title": "Handwritten HTML Sites",
-          "imageUrl": "https://rubenerd.com/logo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32619875",
-          "author": "Tomte",
-          "description": "Article URL: https://technology.reclamation.institute/pages/cured-html\nComments URL: https://news.ycombinator.com/item?id=32619875\nPoints: 1\n# Comments: 0",
-          "link": "https://technology.reclamation.institute/pages/cured-html",
-          "publishedOn": "2022-08-27T15:11:09.000Z",
-          "wordCount": 486,
-          "title": "Cured HTML",
-          "imageUrl": null
         }
       ]
     },
@@ -5809,6 +6039,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=42855",
+          "author": "Seth Godin",
+          "description": "It’s normal to feel it. It changes our careers, our dress and even the way we live our lives. The question is: is it caused by external or internal forces? More often than not, it’s simply something we invent. The people we imagine are busy watching and judging us might not even know we exist. […]",
+          "link": "https://seths.blog/2022/09/social-pressure/",
+          "publishedOn": "2022-09-26T08:42:00.000Z",
+          "wordCount": 1051,
+          "title": "Social pressure",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
+        },
         {
           "id": "https://seths.blog/?p=42842",
           "author": "Seth Godin",
@@ -6088,16 +6328,6 @@
           "wordCount": 1132,
           "title": "“How can I help?”",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43632",
-          "author": "Seth Godin",
-          "description": "Technological leaps always take us by surprise. What happens when every visual image ever created can be remixed and expanded? Van Gogh, Superman, or Moses. These link to an open search engine, so your mileage may vary. New software allows anyone to create images simply by typing in a dozen or so words. And software […]",
-          "link": "https://seths.blog/2022/08/unprepared-as-always/",
-          "publishedOn": "2022-08-28T08:14:00.000Z",
-          "wordCount": 1219,
-          "title": "Unprepared, as always",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
         }
       ]
     },
@@ -6106,6 +6336,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "S7ZNw7EYaqu9qnC3N",
+          "author": "@picturepan2",
+          "description": "Modern devices crafted in pure CSS.",
+          "link": "https://devicescss.xyz/",
+          "publishedOn": "2022-09-26T08:34:44.000Z",
+          "wordCount": 126,
+          "title": "Devices.css",
+          "imageUrl": "https://devicescss.xyz/assets/social-image.jpg"
+        },
+        {
+          "id": "3LestTTGfSsihgJAg",
+          "author": "@CloudFour",
+          "description": "I knew CSS blend modes could create some cool effects, but even so, a CodePen I saw recently left me shocked at what they’re capable of.",
+          "link": "https://cloudfour.com/thinks/the-power-of-css-blend-modes/",
+          "publishedOn": "2022-09-26T08:31:31.000Z",
+          "wordCount": 1685,
+          "title": "The Power of CSS Blend Modes",
+          "imageUrl": "https://cloudfour.com/wp-content/uploads/2022/08/css-filters-layers-rainbow@2x-1200x0-c-default.jpg"
+        },
+        {
+          "id": "u3uHafZvEniAcfYuM",
+          "author": "@uxdesigncc",
+          "description": "iPhone 14’s new stand-out feature, Dynamic Island, may change the world of UX as we know it.",
+          "link": "https://uxdesign.cc/is-the-iphone-14s-new-dynamic-island-plain-stupid-or-the-next-revolutionary-ux-pattern-e86f96880698",
+          "publishedOn": "2022-09-26T08:30:21.000Z",
+          "wordCount": 4898,
+          "title": "Is the Dynamic Island plain stupid or the next revolutionary UX pattern?",
+          "imageUrl": "https://miro.medium.com/max/1200/0*HJAqhAHoivBggjry"
+        },
+        {
+          "id": "S6HXaMfCvyWaFQgMv",
+          "author": "@ChromiumDev",
+          "description": "An overview of three tools and techniques for testing and verifying accessible color contrast of your design.",
+          "link": "https://web.dev/testing-web-design-color-contrast/",
+          "publishedOn": "2022-09-26T08:27:14.000Z",
+          "wordCount": 2113,
+          "title": "Testing Web Design Color Contrast",
+          "imageUrl": "https://web-dev.imgix.net/image/vS06HQ1YTsbMKSFTIPl2iogUQP73/93UiiPbes6SjeGjB8w1N.png?auto=format&fit=max&w=1200&fm=auto"
+        },
+        {
+          "id": "dfyyZSckrJJpLKFKa",
+          "author": "@CSS",
+          "description": "The video of Chris Coyier’s talk at CascadiaJS 2022 is now available.",
+          "link": "https://2022.cascadiajs.com/speakers/chris-coyier",
+          "publishedOn": "2022-09-26T08:22:31.000Z",
+          "wordCount": 682,
+          "title": "The Web is Good Now",
+          "imageUrl": "https://2022.cascadiajs.com/social?path=/speakers/chris-coyier"
+        },
         {
           "id": "dNd63xPeZwnjZG9Ga",
           "author": "@InktrapDesign",
@@ -7233,6 +7513,26 @@
       "siteUrl": "https://www.nytimes.com/topic/subject/design",
       "articles": [
         {
+          "id": "https://www.nytimes.com/2022/09/26/t-magazine/robert-downey-jr-malibu-home-binishell.html",
+          "author": "Nick Haramis and Joyce Kim",
+          "description": "The actor’s thin-shell home is at once an aerodynamic oddity and, perhaps, a harbinger of environmentally conscious architecture.",
+          "link": "https://www.nytimes.com/2022/09/26/t-magazine/robert-downey-jr-malibu-home-binishell.html",
+          "publishedOn": "2022-09-26T14:33:21.000Z",
+          "wordCount": null,
+          "title": "In Malibu, an Inflatable Bungalow for Robert Downey Jr.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nytimes.com/2022/09/26/t-magazine/haslegrave-sadigianis-home-studios-oracle.html",
+          "author": "Kate Guadagnino and Yiorgos Kordakis",
+          "description": "A furniture designer and an olive oil purveyor discover a slower pace — and new inspiration.",
+          "link": "https://www.nytimes.com/2022/09/26/t-magazine/haslegrave-sadigianis-home-studios-oracle.html",
+          "publishedOn": "2022-09-26T12:00:05.000Z",
+          "wordCount": null,
+          "title": "On a Greek Island, a Couple Find Fresh Creative Possibilities",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nytimes.com/2022/09/25/obituaries/nancy-hiller-dead.html",
           "author": "Clay Risen",
           "description": "One of the few women in her profession, she steadily built a quiet but forceful reputation as one of the best cabinetmakers in the country.",
@@ -7609,6 +7909,26 @@
       "feedUrl": "https://www.printmag.com/feed/",
       "siteUrl": "https://www.printmag.com",
       "articles": [
+        {
+          "id": "https://www.printmag.com/?p=736205",
+          "author": "Elissa Altman",
+          "description": "Elissa Altman on women's rights and the passage of time.",
+          "link": "https://www.printmag.com/creative-voices/poor-mans-feast-how-wide-the-crack-in-heaven/",
+          "publishedOn": "2022-09-26T16:25:16.000Z",
+          "wordCount": 2155,
+          "title": "Poor Man’s Feast: How Wide the Crack in Heaven",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/09/sebastian-molina-fotografia-TyL4MDmxLck-unsplash-scaled.jpg?fit=1200%2C799&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=736057",
+          "author": "Steven Heller",
+          "description": "For Andrea A. Trabucco-Campos and Martín Azambuja, “Artificial Typography” is born out of curiosity about the AI space.",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-there-is-nothing-artificial-about-ai-type/",
+          "publishedOn": "2022-09-26T11:00:00.000Z",
+          "wordCount": 3100,
+          "title": "The Daily Heller: There is Nothing Artificial About AI Type Design",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/09/Screen-Shot-2022-09-26-at-7.15.58-AM.png?fit=726%2C329&ssl=1"
+        },
         {
           "id": "https://www.printmag.com/?p=735925",
           "author": "Virginia Postrel",
@@ -8239,6 +8559,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/09/meet-smashingconf-new-york/",
+          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
+          "description": "SmashingConf NYC is back! A friendly, inclusive conference for designers and front-end engineers who can’t wait to learn and be inspired. October 10–13, 2022. Get your ticket!",
+          "link": "https://smashingmagazine.com/2022/09/meet-smashingconf-new-york/",
+          "publishedOn": "2022-09-26T10:30:00.000Z",
+          "wordCount": 3158,
+          "title": "Meet SmashingConf New York 🇺🇸 (Oct 10&ndash;13)",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6b0218f4-6266-412a-ace8-ea05b1ad688d/smashingconf-ny-banner.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6b0218f4-6266-412a-ace8-ea05b1ad688d/smashingconf-ny-banner.png"
+        },
         {
           "id": "https://smashingmagazine.com/2022/09/lessons-learned-designer-founder/",
           "author": "hello@smashingmagazine.com (Dave Feldman)",
