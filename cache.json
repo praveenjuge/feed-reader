@@ -16,7 +16,18 @@
       "title": "Adam Silver",
       "feedUrl": "https://adamsilver.io/atom.xml",
       "siteUrl": "https://adamsilver.io/atom.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://adamsilver.io/blog/designing-a-time-input/",
+          "author": null,
+          "description": "Entering a time is challenging because:\na time is made up of hours, minutes and a period (AM or PM)\nthere are many different formats for the same time like ‘12am’ ‘24:00’, 12.00am’, ‘12a.m.’ and ‘00’\nHere I’ll explain why I recommend using a single text input for time.\nBut first, I’ll explain how to avoid the complexity of entering time in the first place.\n# How to avoid making users enter a time\nWhen it comes to forms, whenever we can help users avoid having to fill them out in the first place, we should.\nWhen it comes to time there are certain ways to do that.\nFor example, I’m working on a service that has a closing time field for a job advert.\nWe could avoid making users enter a time by automatically setting the closing time to 11:59pm.\nBut as our users need greater control we provide 4…",
+          "link": "https://adamsilver.io/blog/designing-a-time-input/",
+          "publishedOn": "2022-10-17T00:00:00.000Z",
+          "wordCount": 1110,
+          "title": "Designing a time input",
+          "imageUrl": "https://adamsilver.io/assets/images/card.png"
+        }
+      ]
     },
     {
       "title": "AddyOsmani.com",
@@ -291,6 +302,16 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=373600",
+          "author": "Lu Wang",
+          "description": "Are you a Bezier curve lover like I am?\nCodePen Embed Fallback\nBesides being elegant, Bezier curves have nice mathematical properties due to their definition and construction. No wonder they are widely used in so many areas:\nAs a \n…\nPure CSS Bezier Curve Motion Paths originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/pure-css-bezier-curve-motion-paths/",
+          "publishedOn": "2022-10-17T15:30:05.000Z",
+          "wordCount": 2406,
+          "title": "Pure CSS Bezier Curve Motion Paths",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/373600"
+        },
+        {
           "id": "https://css-tricks.com/?p=374393",
           "author": "Haley Mills",
           "description": "Well, hey, welcome back to Behind the CSScenes! These posts are like little check-ins we’re doing each month to give you a peek behind what we’re doing here at CSS-Tricks, as well as a chance for us to pause …\nBehind the CSScenes, October 2022 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -507,6 +528,26 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com/",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=10905",
+          "author": "Adam Marsden",
+          "description": "A11Y",
+          "link": "https://dailydevlinks.com/style-with-stateful-semantic-selectors-2/",
+          "publishedOn": "2022-10-17T11:30:00.000Z",
+          "wordCount": 2891,
+          "title": "Style with Stateful, Semantic Selectors",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=10908",
+          "author": "Adam Marsden",
+          "description": "Performance",
+          "link": "https://dailydevlinks.com/5-ultra-actionable-tips-to-improve-your-web-performances/",
+          "publishedOn": "2022-10-17T11:30:00.000Z",
+          "wordCount": 2911,
+          "title": "5 ultra actionable tips to improve your Web performances",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
+        },
         {
           "id": "https://dailydevlinks.com/?p=10899",
           "author": "Adam Marsden",
@@ -1598,6 +1639,56 @@
       "siteUrl": "https://heydesigner.com",
       "articles": [
         {
+          "id": "https://heydesigner.com/?p=66513",
+          "author": "Travis",
+          "description": "Your management needs to know about complexity, limitations, and time before you start.",
+          "link": "https://heydesigner.com/challenges-of-multi-brand-design-systems/",
+          "publishedOn": "2022-10-17T04:37:10.000Z",
+          "wordCount": 197,
+          "title": "Challenges of multi-brand design systems",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66511",
+          "author": "Travis",
+          "description": "Keeping the ideas flowing in spite of the 40-hour week and hustle culture grind.",
+          "link": "https://heydesigner.com/how-i-find-balance-with-creative-work/",
+          "publishedOn": "2022-10-17T04:37:03.000Z",
+          "wordCount": 201,
+          "title": "How I find balance with creative work",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66509",
+          "author": "Travis",
+          "description": "The major issue with getting sucked into a black-hole of “featurism” is there is no single person to blame.",
+          "link": "https://heydesigner.com/avoiding-featurism/",
+          "publishedOn": "2022-10-17T04:36:15.000Z",
+          "wordCount": 197,
+          "title": "Avoiding featurism",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66506",
+          "author": "Travis",
+          "description": "Has design become boring?",
+          "link": "https://heydesigner.com/beauty-in-the-machine-post-industrial-design/",
+          "publishedOn": "2022-10-17T04:35:58.000Z",
+          "wordCount": 190,
+          "title": "Beauty in the machine: Post-industrial design",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66503",
+          "author": "Travis",
+          "description": "You don’t have to like your work for it to work. Liking or not liking it isn’t the essential part of making something.",
+          "link": "https://heydesigner.com/none-of-your-business/",
+          "publishedOn": "2022-10-17T04:35:49.000Z",
+          "wordCount": 203,
+          "title": "None of your business",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
           "id": "https://heydesigner.com/?p=66496",
           "author": "Travis",
           "description": "Low-fidelity Figma template that allows designers and non-designers to feel empowered to generate product concepts.",
@@ -2404,6 +2495,66 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=33240364",
+          "author": "amichail",
+          "description": "Wouldn't students want to learn more programming/CS/math so they can make their original games better?\nComments URL: https://news.ycombinator.com/item?id=33240364\nPoints: 1\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=33240364",
+          "publishedOn": "2022-10-17T22:32:52.000Z",
+          "wordCount": 143,
+          "title": "Ask HN: Why not use game design to motivate programming/CS/math in schools?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33235813",
+          "author": "jbergstroem",
+          "description": "Article URL: https://maestro.mobile.dev\nComments URL: https://news.ycombinator.com/item?id=33235813\nPoints: 2\n# Comments: 0",
+          "link": "https://maestro.mobile.dev/",
+          "publishedOn": "2022-10-17T16:23:20.000Z",
+          "wordCount": 1675,
+          "title": "Maestro: The easiest way to automate UI testing for your mobile app",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33234668",
+          "author": "CoffeeOnWrite",
+          "description": "Article URL: https://99percentinvisible.org/episode/icon-for-access/\nComments URL: https://news.ycombinator.com/item?id=33234668\nPoints: 1\n# Comments: 0",
+          "link": "https://99percentinvisible.org/episode/icon-for-access/",
+          "publishedOn": "2022-10-17T15:16:38.000Z",
+          "wordCount": 6181,
+          "title": "Icon for Access (2014)",
+          "imageUrl": "https://99percentinvisible.org/app/uploads/2014/02/AccessibleIconCrop-728x530.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33231989",
+          "author": "adeptima",
+          "description": "Microsoft Fluent UI reminds me Ant Design and Ant Vision ecosystem \nhttps://ant.design/\nhttps://antv.vision/en\nFluent UI React Roadmap\nhttps://github.com/microsoft/fluentui/wiki/Fluent-UI-React-Roadmap\nHooks, Charts, etc everything \nhttps://github.com/microsoft/fluentui/tree/master/packages/\nSeems Microsoft is trying to unify dev experience around React \nhttps://github.com/microsoft/fluentui/wiki/FAQ---Fabric-and-Stardust-to-Fluent-UI\n\"Our end goal is to unify these things. One styling solution, one theming solution, one set of utilities, one set of component authoring patterns, one set of components, one documentation site.\"\nIs it mature? Worth to invest time and follow in coming years?\nComments URL: https://news.ycombinator.com/item?id=33231989\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=33231989",
+          "publishedOn": "2022-10-17T11:11:10.000Z",
+          "wordCount": 158,
+          "title": "Ask HN: What's the status of Microsoft Fluent UI? Soon ready to use?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33231967",
+          "author": "denysvitali",
+          "description": "Article URL: https://www.material-toys.com/\nComments URL: https://news.ycombinator.com/item?id=33231967\nPoints: 1\n# Comments: 0",
+          "link": "https://www.material-toys.com/",
+          "publishedOn": "2022-10-17T11:09:02.000Z",
+          "wordCount": 25,
+          "title": "Material Toys: A Material Design 3 components library for React",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33229581",
+          "author": "thunderbong",
+          "description": "Article URL: https://iconsear.ch/search.html\nComments URL: https://news.ycombinator.com/item?id=33229581\nPoints: 1\n# Comments: 0",
+          "link": "https://iconsear.ch/search.html",
+          "publishedOn": "2022-10-17T03:31:38.000Z",
+          "wordCount": 409,
+          "title": "IconSearch: Instant icon search for SVG icons",
+          "imageUrl": "https://iconsear.ch/images/hero.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=33227890",
           "author": "FinalDestiny",
@@ -4343,56 +4494,6 @@
           "wordCount": 1559,
           "title": "MacOS 10.15: Slow by Design (2020)",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32885726",
-          "author": "KasianFranks",
-          "description": "Article URL: https://www.technologyreview.com/2022/09/15/1059550/an-ai-that-can-design-new-proteins-could-help-unlock-new-cures-and-materials/\nComments URL: https://news.ycombinator.com/item?id=32885726\nPoints: 2\n# Comments: 0",
-          "link": "https://www.technologyreview.com/2022/09/15/1059550/an-ai-that-can-design-new-proteins-could-help-unlock-new-cures-and-materials/",
-          "publishedOn": "2022-09-18T08:53:53.000Z",
-          "wordCount": 5582,
-          "title": "An AI that can design new proteins could help unlock new cures and materials",
-          "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2022/09/ProteinMPNN_double.jpeg?resize=1200,600"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32879366",
-          "author": "petranb2",
-          "description": "Article URL: https://petran.substack.com/p/design-an-application-with-3-layer\nComments URL: https://news.ycombinator.com/item?id=32879366\nPoints: 1\n# Comments: 2",
-          "link": "https://petran.substack.com/p/design-an-application-with-3-layer",
-          "publishedOn": "2022-09-17T17:30:16.000Z",
-          "wordCount": 2159,
-          "title": "Design an Application with 3 Layer Architecture",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F624be6e4-81b0-4fee-aa96-ea81b3fbc17c_593x391.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32878855",
-          "author": "mooreds",
-          "description": "Article URL: https://github.com/UXPin/adele\nComments URL: https://news.ycombinator.com/item?id=32878855\nPoints: 13\n# Comments: 2",
-          "link": "https://github.com/UXPin/adele",
-          "publishedOn": "2022-09-17T16:39:25.000Z",
-          "wordCount": 2309,
-          "title": "Adele is an open source repository of design systems and pattern libraries",
-          "imageUrl": "https://opengraph.githubassets.com/45eb4ebc6d7698aa32f90a1bcb40079547b9ce17a07f4f35dd9bfb08b76580e3/UXPin/adele"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32878814",
-          "author": "typingcyclist",
-          "description": "Article URL: https://gist.github.com/busypeoples/921bf703bdd1d972c2016afcb9401030\nComments URL: https://news.ycombinator.com/item?id=32878814\nPoints: 1\n# Comments: 0",
-          "link": "https://gist.github.com/busypeoples/921bf703bdd1d972c2016afcb9401030",
-          "publishedOn": "2022-09-17T16:33:25.000Z",
-          "wordCount": 924,
-          "title": "Notes on Modern UI Development: Iterating over the Other 80%",
-          "imageUrl": "https://github.githubassets.com/images/modules/gists/gist-og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32878155",
-          "author": "merlinscholz",
-          "description": "Article URL: https://severance.wiki/typography\nComments URL: https://news.ycombinator.com/item?id=32878155\nPoints: 2\n# Comments: 0",
-          "link": "https://severance.wiki/typography",
-          "publishedOn": "2022-09-17T15:12:52.000Z",
-          "wordCount": 712,
-          "title": "Typography in Severance",
-          "imageUrl": null
         }
       ]
     },
@@ -4790,16 +4891,6 @@
           "wordCount": 58,
           "title": "Search for RSS Feeds",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=32886288",
-          "author": "nunodonato",
-          "description": "Article URL: https://www.nunodonato.com/my-productivity-system-in-2022/\nComments URL: https://news.ycombinator.com/item?id=32886288\nPoints: 152\n# Comments: 118",
-          "link": "https://www.nunodonato.com/my-productivity-system-in-2022/",
-          "publishedOn": "2022-09-18T10:37:26.000Z",
-          "wordCount": 2602,
-          "title": "My productivity system",
-          "imageUrl": "http://img.youtube.com/vi/3-MOxvedJXM/0.jpg"
         }
       ]
     },
@@ -4808,6 +4899,46 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=33239067",
+          "author": "ilyazub",
+          "description": "Article URL: https://odysee.com/@ilyazub:8/css-vs-xpath-serpapipodcast:b\nComments URL: https://news.ycombinator.com/item?id=33239067\nPoints: 2\n# Comments: 3",
+          "link": "https://odysee.com/@ilyazub:8/css-vs-xpath-serpapipodcast:b",
+          "publishedOn": "2022-10-17T20:24:39.000Z",
+          "wordCount": 186,
+          "title": "CSS vs. XPath for web scraping – SerpApiPodcast",
+          "imageUrl": "https://thumbnails.odycdn.com/card/s:1280:720/quality:85/plain/https://thumbs.odycdn.com/16ee1caed2fa1adbdea34bf4b202c332.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33234017",
+          "author": "NKosmatos",
+          "description": "Article URL: https://deck-24abcd.netlify.app/\nComments URL: https://news.ycombinator.com/item?id=33234017\nPoints: 3\n# Comments: 1",
+          "link": "https://deck-24abcd.netlify.app/",
+          "publishedOn": "2022-10-17T14:32:41.000Z",
+          "wordCount": 812,
+          "title": "Pokemon Deckz – realistic looking CSS effects for Pokemon cards",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33232244",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://elisehe.in/2022/10/16/attribute-selectors\nComments URL: https://news.ycombinator.com/item?id=33232244\nPoints: 29\n# Comments: 2",
+          "link": "https://elisehe.in/2022/10/16/attribute-selectors",
+          "publishedOn": "2022-10-17T11:43:28.000Z",
+          "wordCount": 1737,
+          "title": "The wasted potential of CSS attribute selectors",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33229595",
+          "author": "thunderbong",
+          "description": "Article URL: https://heroicons.com/\nComments URL: https://news.ycombinator.com/item?id=33229595\nPoints: 1\n# Comments: 0",
+          "link": "https://heroicons.com/",
+          "publishedOn": "2022-10-17T03:34:34.000Z",
+          "wordCount": 351,
+          "title": "Heroicons: Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS",
+          "imageUrl": "https://heroicons.com/_next/static/media/social-card.fefc68e0.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=33226688",
           "author": "srmagura",
@@ -5582,6 +5713,16 @@
       "siteUrl": "https://seths.blog",
       "articles": [
         {
+          "id": "https://seths.blog/?p=44008",
+          "author": "Seth Godin",
+          "description": "Cars aren’t like companies. Most cars on the road will be sold, again and again, until they end up as parts. Companies usually start and end with their founders. Sometimes, a small, stable company is sold to an individual operator, usually for a multiple of the expected annual profit. It’s an investment in future cash […]",
+          "link": "https://seths.blog/2022/10/selling-a-company/",
+          "publishedOn": "2022-10-17T08:22:00.000Z",
+          "wordCount": 1412,
+          "title": "Selling a company",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
+        },
+        {
           "id": "https://seths.blog/?p=39746",
           "author": "Seth Godin",
           "description": "Someone said that to me the other day and it was heartbreaking. The number of tasks in our culture that require someone who was born with off-the-charts talent is small indeed. Just about everything else we need people to do is the result of effort, practice and care. It’s true that variations of that work […]",
@@ -5860,16 +6001,6 @@
           "wordCount": 1223,
           "title": "Easy in/Easy out",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41964",
-          "author": "Seth Godin",
-          "description": "If you apply for something with a 99% rejection rate (which is more common than it sounds–job openings, sales pitches, fellowships, journals, etc.) that’s pretty close to 100%. Something with a 99% certainty is generally considered a sure thing. Hence this Journal, which promises to reject every single person who submits an article. The absurdity […]",
-          "link": "https://seths.blog/2022/09/the-last-1/",
-          "publishedOn": "2022-09-18T09:42:00.000Z",
-          "wordCount": 1094,
-          "title": "The last 1%",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
         }
       ]
     },
@@ -5878,6 +6009,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "s3bnbbzgG9L7KxSts",
+          "author": "@CSSInRealLife",
+          "description": "A little while ago, Ana Tudor created an impressive collection of halftone patterns using only CSS.",
+          "link": "https://css-irl.info/css-halftone-patterns/",
+          "publishedOn": "2022-10-17T05:55:35.000Z",
+          "wordCount": 1543,
+          "title": "CSS Halftone Patterns",
+          "imageUrl": "https://css-irl.info/social_1200x630.png"
+        },
+        {
+          "id": "M8ghkQxtmBkeTydtp",
+          "author": "@BenDMyers",
+          "description": "See how building with accessible semantics from the get-go can give you expressive, meaningful style hooks for free.",
+          "link": "https://benmyers.dev/blog/semantic-selectors/",
+          "publishedOn": "2022-10-17T05:51:04.000Z",
+          "wordCount": 2215,
+          "title": "Style with Stateful, Semantic Selectors",
+          "imageUrl": "https://res.cloudinary.com/bendmyers/image/upload/v1656961915/benmyers.dev/semantic-selectors.png"
+        },
+        {
+          "id": "nDnH7QJka6GKjsgSr",
+          "author": "@m_ott",
+          "description": "You’ve created something and after you’re more or less done, you pause and you look at it. And you don’t like it.",
+          "link": "https://matthiasott.com/notes/none-of-your-business",
+          "publishedOn": "2022-10-17T05:49:53.000Z",
+          "wordCount": 1347,
+          "title": "None of Your Business",
+          "imageUrl": null
+        },
+        {
+          "id": "wLCnXxy4Mv4BpErvF",
+          "author": "@ilikescience",
+          "description": "Has design become boring? Or is it just harder to notice?",
+          "link": "https://matthewstrom.com/writing/post-industrial-design/",
+          "publishedOn": "2022-10-17T05:47:24.000Z",
+          "wordCount": 2684,
+          "title": "Beauty in the machine: post-industrial design",
+          "imageUrl": "https://matthewstrom.com/images/postindustrial-0.jpg?v=1"
+        },
+        {
+          "id": "DJJ5ZvAL3HQMZ89tm",
+          "author": "@HugoDuprez",
+          "description": "Rename all your layers in one click thanks to AI. Open Source.",
+          "link": "https://www.autoname.org/",
+          "publishedOn": "2022-10-17T05:39:38.000Z",
+          "wordCount": 149,
+          "title": "Autoname: Name your Figma layers in one click",
+          "imageUrl": "https://drive.google.com/uc?id=1IDq7Zd07kZovpGwlJ13uj2ZlO6ejIy99"
+        },
         {
           "id": "2AAiAf8dCiWbr7Crq",
           "author": "@CSS",
@@ -6949,6 +7130,16 @@
       "siteUrl": "https://www.nytimes.com/topic/subject/design",
       "articles": [
         {
+          "id": "https://www.nytimes.com/2022/10/17/style/bubu-ogisi-iamsigo.html",
+          "author": "Ugonna-Ora Owoh",
+          "description": "Bubu Ogisi travels around Africa, resurrecting artisanal skills that have been in existence for years to explore sustainability and identity.",
+          "link": "https://www.nytimes.com/2022/10/17/style/bubu-ogisi-iamsigo.html",
+          "publishedOn": "2022-10-17T13:00:14.000Z",
+          "wordCount": null,
+          "title": "The Designer Exploring African Stories Through Traditional Fabrics",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nytimes.com/2022/10/14/realestate/marijuana-dispensary-interior-design.html",
           "author": "Anna P. Kambhampaty",
           "description": "As cannabis legalization has become more widespread, retailers are getting increasingly serious about the design and branding of their shops.",
@@ -7267,16 +7458,6 @@
           "wordCount": null,
           "title": "Shopping for Brooms",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nytimes.com/es/2022/09/18/espanol/diseno-cara-larga.html",
-          "author": "Ray Mark Rinaldi",
-          "description": "El éxito de Caralarga, una empresa en Querétaro, ha hecho que pase de ser una operación de dos personas a convertirse en una compañía con 60 empleados que fabrica y envía productos a todo el mundo.",
-          "link": "https://www.nytimes.com/es/2022/09/18/espanol/diseno-cara-larga.html",
-          "publishedOn": "2022-09-18T09:00:24.000Z",
-          "wordCount": null,
-          "title": "Caralarga, una empresa mexicana que hila su éxito con excedentes",
-          "imageUrl": null
         }
       ]
     },
@@ -7285,6 +7466,36 @@
       "feedUrl": "https://www.printmag.com/feed/",
       "siteUrl": "https://www.printmag.com",
       "articles": [
+        {
+          "id": "https://www.printmag.com/?p=737074",
+          "author": "PRINT Magazine",
+          "description": "Judges and design fans sorted through over 5,000 entries to select the most exciting design in a wide variety of categories.",
+          "link": "https://www.printmag.com/design-news/arts-thread-gucci-announce-the-winners-for-global-graduate-design-show-2022/",
+          "publishedOn": "2022-10-17T20:00:00.000Z",
+          "wordCount": 2406,
+          "title": "Arts Thread & Gucci Announce the Winners for Global Graduate Design Show 2022",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/10/14c152a6f3a479ee8e6d89e61b223e79.jpg?fit=1200%2C696&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=737164",
+          "author": "Clint Disharoon, Kelsy Postlethwait",
+          "description": "Kelsy and Clint from SYPartners on the life-changing power of tuning into creative signals.",
+          "link": "https://www.printmag.com/design-inspiration/the-mess-the-magic-of-leaving-your-comfort-zone/",
+          "publishedOn": "2022-10-17T13:00:00.000Z",
+          "wordCount": 2157,
+          "title": "The Mess + The Magic of Leaving Your Comfort Zone",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/10/comfort_01-1.png?fit=1200%2C675&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=737172",
+          "author": "Steven Heller",
+          "description": "Realizing the cachet of cigarettes was coming to an end, in 1970 Harris Lewine wrote, art directed and produced “Good-Bye to All That,” a paean to tobacco's golden age.",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-smoke-gets-in-your-lungs/",
+          "publishedOn": "2022-10-17T11:00:00.000Z",
+          "wordCount": 1958,
+          "title": "The Daily Heller: You Must Realize, Smoke Gets in Your Eyes",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/10/democracy-17.jpeg?fit=730%2C296&ssl=1"
+        },
         {
           "id": "https://www.printmag.com/?p=736892",
           "author": "Chloe Gordon",
@@ -7884,6 +8095,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2022/10/wordpress-full-site-editing/",
+          "author": "hello@smashingmagazine.com (Nick Schäferhoff)",
+          "description": "In this article, Nick Schäferhoff will take a deep dive into WordPress Full-Site Editing, examine the tools it provides for theme development, and provide a tutorial on how to use it to make changes to your site.",
+          "link": "https://smashingmagazine.com/2022/10/wordpress-full-site-editing/",
+          "publishedOn": "2022-10-17T12:00:00.000Z",
+          "wordCount": 8470,
+          "title": "WordPress Full-Site Editing: A Deep Dive Into The New Feature",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e92a7c2c-7748-4eb9-8ab8-6a534ad201e0/wordpress-full-site-editing.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e92a7c2c-7748-4eb9-8ab8-6a534ad201e0/wordpress-full-site-editing.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2022/10/effective-communication-everyday-meetings/",
           "author": "hello@smashingmagazine.com (Andrii Zhdan)",
