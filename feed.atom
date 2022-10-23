@@ -2,10 +2,231 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2022-10-22T01:05:28.354Z</updated>
+    <updated>2022-10-23T01:01:46.947Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[8 Ways I Use HomeBrew on macOS to Increase Productivity]]></title>
+        <id>https://news.ycombinator.com/item?id=33303213</id>
+        <link href="https://medium.com/@aplaceofmind/i-install-all-macos-apps-using-homebrew-to-increase-productivity-7fc2d511bcc3"/>
+        <updated>2022-10-22T23:36:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://medium.com/@aplaceofmind/i-install-all-macos-apps-using-homebrew-to-increase-productivity-7fc2d511bcc3
+Comments URL: https://news.ycombinator.com/item?id=33303213
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>behnamoh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beauty in the machine: Post-industrial design]]></title>
+        <id>https://news.ycombinator.com/item?id=33302636</id>
+        <link href="https://matthewstrom.com/writing/post-industrial-design/"/>
+        <updated>2022-10-22T22:05:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://matthewstrom.com/writing/post-industrial-design/
+Comments URL: https://news.ycombinator.com/item?id=33302636
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>clairity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From productivity porn to mindful productivity]]></title>
+        <id>https://news.ycombinator.com/item?id=33301404</id>
+        <link href="https://nesslabs.com/productivity-porn"/>
+        <updated>2022-10-22T19:37:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nesslabs.com/productivity-porn
+Comments URL: https://news.ycombinator.com/item?id=33301404
+Points: 4
+# Comments: 0]]></summary>
+        <author>
+            <name>ivanvas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Functional styling (like tailwind) for react-native]]></title>
+        <id>https://news.ycombinator.com/item?id=33300974</id>
+        <link href="https://github.com/tachyons-css/react-native-style-tachyons"/>
+        <updated>2022-10-22T18:49:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/tachyons-css/react-native-style-tachyons
+Comments URL: https://news.ycombinator.com/item?id=33300974
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>fn1</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BackstopJS: Catch CSS Curve Balls]]></title>
+        <id>https://news.ycombinator.com/item?id=33300157</id>
+        <link href="https://github.com/garris/BackstopJS"/>
+        <updated>2022-10-22T17:19:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/garris/BackstopJS
+Comments URL: https://news.ycombinator.com/item?id=33300157
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>tambourine_man</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Dig]]></title>
+        <id>https://news.ycombinator.com/item?id=33299571</id>
+        <link href="https://www.cssdig.com/"/>
+        <updated>2022-10-22T16:16:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.cssdig.com/
+Comments URL: https://news.ycombinator.com/item?id=33299571
+Points: 80
+# Comments: 6]]></summary>
+        <author>
+            <name>mhb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Background-position: 50% 50% confusions in CSS?]]></title>
+        <id>https://news.ycombinator.com/item?id=33299225</id>
+        <link href="https://news.ycombinator.com/item?id=33299225"/>
+        <updated>2022-10-22T15:44:00.000Z</updated>
+        <summary type="html"><![CDATA[This is my background image.
+I set:
+    background-position:50% 50%;
+I get this as my output:
+But I don’t understand the output.
+So, I read little bit about background-position again.
+>A value such as 20% 65% specifies that the point 20% across and 65% down the image be placed at the point 20% across and 65% down the element.
+https://www.htmlhelp.com/reference/css/color-background/background-position.html
+>With a value pair of '14% 84%', the point 14% across and 84% down the image is to be placed at the point 14% across and 84% down the padding area.
+https://wiki.cdot.senecacollege.ca/wiki/CSS_GUIDE_BACKGROUND_POSITION
+>A horizontal value of 25% positions the point 25% from the left edge of the image at a point that is 25% from the left edge of the background positioning area.
+“Learning web design” by Jenniver Nierdest Robbins
+If I wanted to put the background image at the center using the “percentage percentage”, how’d I do it? (50% 0% doesn’t work).
+Sadly, I still don’t get it.
+My HTML Code:
+    
+    
+Document
+        
+
+My CSS code:
+    body{
+        background-color:yellowgreen;
+        background-repeat: no-repeat;
+        background-image: url(../images/circle.png);
+        background-position:50% 0%;
+       
+    }
+
+
+Comments URL: https://news.ycombinator.com/item?id=33299225
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>Hippoly</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tailwind CSS v3.2: revisiting my “feature creep” warning]]></title>
+        <id>https://news.ycombinator.com/item?id=33298806</id>
+        <link href="https://www.brycewray.com/posts/2022/10/tailwind-css-v3-2-revisiting-feature-creep-warning/"/>
+        <updated>2022-10-22T14:55:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.brycewray.com/posts/2022/10/tailwind-css-v3-2-revisiting-feature-creep-warning/
+Comments URL: https://news.ycombinator.com/item?id=33298806
+Points: 76
+# Comments: 82]]></summary>
+        <author>
+            <name>brycewray</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elm-UI – A user interface library and framework for Elm]]></title>
+        <id>https://news.ycombinator.com/item?id=33298066</id>
+        <link href="https://elm-ui.netlify.app/"/>
+        <updated>2022-10-22T13:15:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://elm-ui.netlify.app/
+Comments URL: https://news.ycombinator.com/item?id=33298066
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>thunderbong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This week in KDE: UI improvements abound]]></title>
+        <id>https://news.ycombinator.com/item?id=33296471</id>
+        <link href="https://pointieststick.com/2022/10/21/this-week-in-kde-ui-improvements-abound-2/"/>
+        <updated>2022-10-22T08:19:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://pointieststick.com/2022/10/21/this-week-in-kde-ui-improvements-abound-2/
+Comments URL: https://news.ycombinator.com/item?id=33296471
+Points: 8
+# Comments: 0]]></summary>
+        <author>
+            <name>TangerineDream</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resale value]]></title>
+        <id>https://seths.blog/?p=43029</id>
+        <link href="https://seths.blog/2022/10/resale-value/"/>
+        <updated>2022-10-22T07:44:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s hopeful to believe that the NFT, baseball card or even car that we next purchase is going to go up in value. It probably won’t. The secret is to only acquire things where the resale value doesn’t matter to your overall satisfaction. That’s one reason there’s a huge difference between investing in stocks and […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pay. Productivity. Commuting. The War to Define What Work Looks Like]]></title>
+        <id>https://news.ycombinator.com/item?id=33295650</id>
+        <link href="https://www.wsj.com/articles/the-war-to-define-what-work-looks-like-11666411221"/>
+        <updated>2022-10-22T04:22:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/articles/the-war-to-define-what-work-looks-like-11666411221
+Comments URL: https://news.ycombinator.com/item?id=33295650
+Points: 2
+# Comments: 1]]></summary>
+        <author>
+            <name>e15ctr0n</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PDVL – Transaction Oriented Programming, Design and Verification Language (2018)]]></title>
+        <id>https://news.ycombinator.com/item?id=33295535</id>
+        <link href="http://www.ciscv.com/pdvl.html"/>
+        <updated>2022-10-22T03:50:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: http://www.ciscv.com/pdvl.html
+Comments URL: https://news.ycombinator.com/item?id=33295535
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>peter_d_sherman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Behavioural Design 101: Psychology mechanisms in persuasive design]]></title>
+        <id>https://news.ycombinator.com/item?id=33294926</id>
+        <link href="https://prototypr.io/post/behavioural-design-101-psychology-mechanisms-persuasive-design"/>
+        <updated>2022-10-22T01:49:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://prototypr.io/post/behavioural-design-101-psychology-mechanisms-persuasive-design
+Comments URL: https://news.ycombinator.com/item?id=33294926
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>marban</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The New Responsive – Web Design in a Component-Driven World]]></title>
+        <id>https://news.ycombinator.com/item?id=33294646</id>
+        <link href="https://web.dev/new-responsive/"/>
+        <updated>2022-10-22T01:04:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://web.dev/new-responsive/
+Comments URL: https://news.ycombinator.com/item?id=33294646
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>pcthrowaway</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ask HN: Help finding good embedded DSP design resources?]]></title>
         <id>https://news.ycombinator.com/item?id=33294641</id>
@@ -9131,467 +9352,6 @@ Points: 1
 # Comments: 0]]></summary>
         <author>
             <name>gmays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Australian Floral Designs That, at Long Last, Embrace Australian Flora]]></title>
-        <id>https://www.nytimes.com/2022/09/23/t-magazine/australian-florists.html</id>
-        <link href="https://www.nytimes.com/2022/09/23/t-magazine/australian-florists.html"/>
-        <updated>2022-09-23T12:00:07.000Z</updated>
-        <summary type="html"><![CDATA[In a land where unique species thrive, local florists are developing a gloriously twisted aesthetic all their own.]]></summary>
-        <author>
-            <name>Besha Rodell and Victoria Zschommler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS Rules vs. CSS Rulesets]]></title>
-        <id>https://dailydevlinks.com/?p=10735</id>
-        <link href="https://dailydevlinks.com/css-rules-vs-css-rulesets/"/>
-        <updated>2022-09-23T11:33:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Designing Better Inline Validation UX]]></title>
-        <id>https://dailydevlinks.com/?p=10738</id>
-        <link href="https://dailydevlinks.com/designing-better-inline-validation-ux/"/>
-        <updated>2022-09-23T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[UX]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lessons Learned As A Designer-Founder]]></title>
-        <id>https://smashingmagazine.com/2022/09/lessons-learned-designer-founder/</id>
-        <link href="https://smashingmagazine.com/2022/09/lessons-learned-designer-founder/"/>
-        <updated>2022-09-23T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, Dave Feldman shares his lessons learned and the experiments has done as a multidisciplinary designer-founder-CEO at an early-stage startup. Let’s take a look at what it is that makes a great design process for teams of any size.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Dave Feldman)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Sprawling Connecticut Estate Embraces the Wild]]></title>
-        <id>https://www.nytimes.com/2022/09/23/t-magazine/dan-pearson-connecticut-garden-estate.html</id>
-        <link href="https://www.nytimes.com/2022/09/23/t-magazine/dan-pearson-connecticut-garden-estate.html"/>
-        <updated>2022-09-23T11:00:13.000Z</updated>
-        <summary type="html"><![CDATA[The British landscape designer Dan Pearson has created a uniquely connected ecosystem that dances between cultivation and wilderness.]]></summary>
-        <author>
-            <name>Nancy Hass and Ngoc Minh Ngo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Keys to Success with John Foraker of Once Upon a Farm]]></title>
-        <id>https://www.printmag.com/?p=735947</id>
-        <link href="https://www.printmag.com/printcast/the-keys-to-success-with-john-foraker-of-once-upon-a-farm/"/>
-        <updated>2022-09-23T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Co-Founder and CEO of the kids' food company on scaling Annie's Homegrown, partnering with Jennifer Garner, and weaving impact into his brands.]]></summary>
-        <author>
-            <name>PRINT Magazine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Daily Heller: Illustrating an Entire Startup From Head to Toe]]></title>
-        <id>https://www.printmag.com/?p=735533</id>
-        <link href="https://www.printmag.com/daily-heller/the-daily-heller-illustrating-an-entire-design-studio/"/>
-        <updated>2022-09-23T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Francesco Zorzi on all things isendu.]]></summary>
-        <author>
-            <name>Steven Heller</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The chief hype officer]]></title>
-        <id>https://seths.blog/?p=43838</id>
-        <link href="https://seths.blog/2022/09/the-chief-hype-officer/"/>
-        <updated>2022-09-23T08:39:00.000Z</updated>
-        <summary type="html"><![CDATA[The chief marketing officer at a big company has an impossible job. The typical duration of a CMO is 18 months because once the CEO realizes that hype for money can’t solve their problems, they get restless. The problem lies in what people think “marketing” is. Marketing isn’t paying for ads, changing the logo or […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Julia Snowling: My life as a BSL Interpreter]]></title>
-        <id>https://bighack.org/?p=4181</id>
-        <link href="https://bighack.org/julia-snowling-my-life-as-a-bsl-interpreter/"/>
-        <updated>2022-09-23T08:35:08.000Z</updated>
-        <summary type="html"><![CDATA[The post Julia Snowling: My life as a BSL Interpreter appeared first on The Big Hack.]]></summary>
-        <author>
-            <name>James Barber</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making digital products more sustainable]]></title>
-        <id>dNd63xPeZwnjZG9Ga</id>
-        <link href="https://www.inktrap.co.uk/blog/making-digital-products-more-sustainable"/>
-        <updated>2022-09-23T02:54:16.000Z</updated>
-        <summary type="html"><![CDATA[This blog addresses how the internet is a  major contributor to the climate crisis and offers some ideas for making digital products sustainable.]]></summary>
-        <author>
-            <name>@InktrapDesign</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Research vs Vision: the origin story of the Walkman, Mini Cooper, and the iPhone]]></title>
-        <id>P3vnAgJ5BKiMm9otx</id>
-        <link href="https://medium.com/user-experience-design-1/research-vs-vision-the-origin-story-of-sony-walkman-mini-cooper-and-the-iphone-e5c8623968bc"/>
-        <updated>2022-09-23T02:51:53.000Z</updated>
-        <summary type="html"><![CDATA[It’s always interesting to watch how companies approach the building of their new products.]]></summary>
-        <author>
-            <name>@TarasSavytskyi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to (not) make a button]]></title>
-        <id>5nQyNhxrXBskxZKEF</id>
-        <link href="https://pustelto.com/blog/how-to-make-a-button/"/>
-        <updated>2022-09-23T02:47:04.000Z</updated>
-        <summary type="html"><![CDATA[How to properly turn a div into a button, so the result will be accessible and useable by everyone.]]></summary>
-        <author>
-            <name>@pustelto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Randomness in CSS]]></title>
-        <id>egnPmEMca2kXvEwjS</id>
-        <link href="https://medium.com/hypersphere-codes/randomness-in-css-b55a0845c8dd"/>
-        <updated>2022-09-23T02:42:34.000Z</updated>
-        <summary type="html"><![CDATA[Check out how to generate random numbers using just CSS and make some generative art.]]></summary>
-        <author>
-            <name>@Medium</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Batch of Color Fonts Arrives on Google Fonts]]></title>
-        <id>teHfyqs3K3TCLCRcB</id>
-        <link href="https://material.io/blog/color-fonts-are-here"/>
-        <updated>2022-09-23T02:07:42.000Z</updated>
-        <summary type="html"><![CDATA[Customize color palettes, add gradients, and more with COLRv1.]]></summary>
-        <author>
-            <name>@google</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fitts's Law and Its Applications in UX]]></title>
-        <id>https://news.ycombinator.com/item?id=32945363</id>
-        <link href="https://www.nngroup.com/articles/fitts-law/"/>
-        <updated>2022-09-22T22:18:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nngroup.com/articles/fitts-law/
-Comments URL: https://news.ycombinator.com/item?id=32945363
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>Twixes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Web is Good Now]]></title>
-        <id>https://css-tricks.com/?p=373652</id>
-        <link href="https://css-tricks.com/the-web-is-good-now/"/>
-        <updated>2022-09-22T22:07:22.000Z</updated>
-        <summary type="html"><![CDATA[The video of Chris Coyier’s talk at CascadiaJS 2022 is now available. It’s his first in-person talk in more than two years, so it’s great to see our good friend back on stage slinging gems on what makes the web …
-The Web is Good Now originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
-        <author>
-            <name>Geoff Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quick reminder: HTML5 required and pattern are not a security feature]]></title>
-        <id>https://christianheilmann.com/?p=7341</id>
-        <link href="https://christianheilmann.com/2022/09/22/quick-reminder-html5-required-and-pattern-are-not-a-security-feature/"/>
-        <updated>2022-09-22T20:13:55.000Z</updated>
-        <summary type="html"><![CDATA[Using the required and/or pattern attribute on HTML input elements stops users from submitting forms with invalid values, but you can work around that using the Console tool. In HTML5, you can provide a `required` attribute to ensure a certain field has been filled out before a form can be sent off. I have read […]]]></summary>
-        <author>
-            <name>Chris Heilmann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4-Day Workweek Brings No Loss of Productivity, Companies in Experiment Say]]></title>
-        <id>https://news.ycombinator.com/item?id=32943326</id>
-        <link href="https://www.nytimes.com/2022/09/22/business/four-day-work-week-uk.html"/>
-        <updated>2022-09-22T19:11:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2022/09/22/business/four-day-work-week-uk.html
-Comments URL: https://news.ycombinator.com/item?id=32943326
-Points: 8
-# Comments: 6]]></summary>
-        <author>
-            <name>daureg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Controversial Urban Design Opinion: Train Station Benches Should Be Near Trains]]></title>
-        <id>https://news.ycombinator.com/item?id=32943146</id>
-        <link href="https://hellgatenyc.com/train-stations-should-have-benches"/>
-        <updated>2022-09-22T18:57:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hellgatenyc.com/train-stations-should-have-benches
-Comments URL: https://news.ycombinator.com/item?id=32943146
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>raybb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Find Product Market Fit – Free Book Behavioral Sci and Product Design (Code: YC)]]></title>
-        <id>https://news.ycombinator.com/item?id=32943144</id>
-        <link href="https://www.effectualventures.co/decoding-the-why-book-download"/>
-        <updated>2022-09-22T18:57:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.effectualventures.co/decoding-the-why-book-download
-Comments URL: https://news.ycombinator.com/item?id=32943144
-Points: 2
-# Comments: 2]]></summary>
-        <author>
-            <name>nandorsky</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Token CSS]]></title>
-        <id>https://news.ycombinator.com/item?id=32943108</id>
-        <link href="https://tokencss.com/"/>
-        <updated>2022-09-22T18:55:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tokencss.com/
-Comments URL: https://news.ycombinator.com/item?id=32943108
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>1xdevloper</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Co-op Series Part I: Our decision to pursue worker-ownership]]></title>
-        <id>https://bocoup.com/?p=8744</id>
-        <link href="https://bocoup.com/blog/co-op-series-part-i-our-decision-to-pursue-worker-ownership"/>
-        <updated>2022-09-22T18:50:46.000Z</updated>
-        <summary type="html"><![CDATA[Bocoup is incorporated in the United States – a country with no worker safety net. The damning scarcity of federally protected labor rights means that employers are often the ones determining whether workers get quality health care, a fair wage, or time off after having a child. Companies in most states are protected by anti-worker […]]]></summary>
-        <author>
-            <name>Sheila Moussavi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making Dart a Better Language for UI]]></title>
-        <id>https://news.ycombinator.com/item?id=32942979</id>
-        <link href="https://gist.github.com/munificent/ddc4e79ace90718643c60837270c409a"/>
-        <updated>2022-09-22T18:44:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gist.github.com/munificent/ddc4e79ace90718643c60837270c409a
-Comments URL: https://news.ycombinator.com/item?id=32942979
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>svieira</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My Favorite Things: Solving the Paradox]]></title>
-        <id>https://www.printmag.com/?p=735978</id>
-        <link href="https://www.printmag.com/creative-voices/my-favorite-things-solving-the-paradox/"/>
-        <updated>2022-09-22T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Tom Guarriello on how our favorite things help us live in an increasingly complex world.]]></summary>
-        <author>
-            <name>Tom Guarriello</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Anybody hiring UX/UI designers?]]></title>
-        <id>https://news.ycombinator.com/item?id=32942078</id>
-        <link href="https://news.ycombinator.com/item?id=32942078"/>
-        <updated>2022-09-22T17:32:24.000Z</updated>
-        <summary type="html"><![CDATA[My wife is looking for a UX/UI Designer job since the beginning August 2022. She has already tried applying for job on LinkedIn, Dice, CareerBuilder, Zip Recruiter and other platforms but without any luck. Let me know if you are hiring
-Comments URL: https://news.ycombinator.com/item?id=32942078
-Points: 3
-# Comments: 1]]></summary>
-        <author>
-            <name>already</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Review and Collaborate on Your UI]]></title>
-        <id>https://news.ycombinator.com/item?id=32941892</id>
-        <link href="https://vercel.com/blog/introducing-commenting-on-preview-deployments"/>
-        <updated>2022-09-22T17:19:22.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://vercel.com/blog/introducing-commenting-on-preview-deployments
-Comments URL: https://news.ycombinator.com/item?id=32941892
-Points: 9
-# Comments: 0]]></summary>
-        <author>
-            <name>leerob</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scientists at US’s top nuclear lab recruited by China to design missiles, drones]]></title>
-        <id>https://news.ycombinator.com/item?id=32941734</id>
-        <link href="https://www.nbcnews.com/news/world/scientists-americas-top-nuclear-lab-recruited-china-design-missiles-dr-rcna48834"/>
-        <updated>2022-09-22T17:08:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nbcnews.com/news/world/scientists-americas-top-nuclear-lab-recruited-china-design-missiles-dr-rcna48834
-Comments URL: https://news.ycombinator.com/item?id=32941734
-Points: 7
-# Comments: 1]]></summary>
-        <author>
-            <name>Vaslo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Remix Icon]]></title>
-        <id>https://heydesigner.com/?p=66338</id>
-        <link href="https://heydesigner.com/remix-icon/"/>
-        <updated>2022-09-22T16:50:48.000Z</updated>
-        <summary type="html"><![CDATA[A set of open-source neutral-style system symbols elaborately crafted for designers and developers.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Palette: Colorize pictures]]></title>
-        <id>https://heydesigner.com/?p=66335</id>
-        <link href="https://heydesigner.com/palette-colorize-pictures/"/>
-        <updated>2022-09-22T16:47:33.000Z</updated>
-        <summary type="html"><![CDATA[A vibrant AI colorizer app. Think instagram filters, but more intelligent.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Designing better inline validation UX]]></title>
-        <id>https://heydesigner.com/?p=66330</id>
-        <link href="https://heydesigner.com/designing-better-inline-validation-ux/"/>
-        <updated>2022-09-22T16:37:41.000Z</updated>
-        <summary type="html"><![CDATA[Inline validation in web forms is useful when it works, but frustrating when it fails.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Moving with prototypes]]></title>
-        <id>https://heydesigner.com/?p=66328</id>
-        <link href="https://heydesigner.com/moving-with-prototypes/"/>
-        <updated>2022-09-22T16:33:41.000Z</updated>
-        <summary type="html"><![CDATA[Prototyping is moving. It’s the meeting, the considering, and the conceptualizing, but with iterative progress in a concrete artifact.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Testing Web Design Color Contrast]]></title>
-        <id>https://news.ycombinator.com/item?id=32941267</id>
-        <link href="https://web.dev/testing-web-design-color-contrast/"/>
-        <updated>2022-09-22T16:32:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://web.dev/testing-web-design-color-contrast/
-Comments URL: https://news.ycombinator.com/item?id=32941267
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>feross</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building new habits]]></title>
-        <id>https://heydesigner.com/?p=66326</id>
-        <link href="https://heydesigner.com/building-new-habits/"/>
-        <updated>2022-09-22T16:30:36.000Z</updated>
-        <summary type="html"><![CDATA[How to do what you keep putting off.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I continue to see improperly redacted images because of the iOS Markup UX]]></title>
-        <id>https://news.ycombinator.com/item?id=32941035</id>
-        <link href="https://news.ycombinator.com/item?id=32941035"/>
-        <updated>2022-09-22T16:16:49.000Z</updated>
-        <summary type="html"><![CDATA[I am a regular on a web forum where users quite often share screenshots from their iPhone, and in an attempt to redact identifying information in these screenshots, often do I find PII swabbed with the highlighting tool.
-Even with the Opacity set to 100% and the color to Black, it leaves the sensitive information underneath visible (yes I understand this is a highlighter, move on this note below).
-Before you tell me the proper way to do it, which is to ...
-(once in Markup)
-1. Tap the Plus button on the far bottom right
-2. Select the Rectangle or Circle shape
-3. Tap the Shape Options button in the bottom left (the icon used doesn't even make it obvious as to what this button is for)
-4. Select Solid Fill for the shape
-5. Position solid shape over the sensitive information
-...
-My argument is that while it is possible to properly redact sensitive information, it's much too easy for people to improperly redact because it is difficult to tell that a 100% opacity black highlighter does not work. On a phone screen, it can look completely opaque. Only once you see it on a better display do you realize just how visible the info is.
-Also, while the pencil/pen tool (far left) does properly redact, its max size is much too small. People who use this one and just haphazardly try to scribble over all of the info, which sometimes works and sometimes doesn't.
-Solutions:
-1. Create a tool specific for redacting
-2. Make it so that 100% opacity highlighting is opaque (or at least warn the user if they set the opacity to 100%). Yes, this is not what "highlighting" is, but make the default opacity value like 30-50% and have people change it as needed. If it looks opaque on a phone screen, IT SHOULD BE.
-3. Allow the user to set the max width of the pen/pencil tool much larger. Make it a sliding scale instead of 5 discrete sizes.
-Comments URL: https://news.ycombinator.com/item?id=32941035
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>bt1a</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[In Memory of Mahsa Amini]]></title>
-        <id>https://www.printmag.com/?p=736040</id>
-        <link href="https://www.printmag.com/creative-voices/in-memory-of-mahsa-amini/"/>
-        <updated>2022-09-22T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Roxane Gay on the widespread policing of women's bodies, hope for systemic change, and the importance of paying attention to unrest.]]></summary>
-        <author>
-            <name>Roxane Gay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I Made an Icon System Out of CSS Custom Properties]]></title>
-        <id>https://css-tricks.com/?p=373111</id>
-        <link href="https://css-tricks.com/how-i-made-an-icon-system-out-of-css-custom-properties/"/>
-        <updated>2022-09-22T15:17:21.000Z</updated>
-        <summary type="html"><![CDATA[SVG is the best format for icons on a website, there is no doubt about that. It allows you to have sharp icons no matter the screen pixel density, you can change the styles of the SVG on hover …
-How I Made an Icon System Out of CSS Custom Properties originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
-        <author>
-            <name>Louis Hoebregts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[26 Things from “101 Things I Learned in Architecture School”]]></title>
-        <id>https://daverupert.com/2022/09/26-things-from-101-things/</id>
-        <link href="https://daverupert.com/2022/09/26-things-from-101-things/"/>
-        <updated>2022-09-22T13:57:00.000Z</updated>
-        <summary type="html"><![CDATA[Last year I read the book 101 Things I learned in Architecture School. It’s a good book. Good enough, I thought I’d share 26 Things I learned from “101 Things I Learned in Architecture School”. Meta. A lot of this will, of course, be applied to web design.
-6. We move through negative spaces and dwell in positive spaces.
-This is probably the best argument I’ve heard for “why to use whitespace” I’ve ever heard. Negative/unused space makes the spaces with structure and/or content more impactful because we’ll dwell and feel more comfortable in the positive/filled-in areas.
-This also explains why everyone ends up in my kitchen when friends come over.
-8. “Architecture is the thoughtful making of space.” — Louis Kahn
-A simple quote, but a wonderful sentiment. I wonder if you could come up with a …]]></summary>
-        <author>
-            <name>daverupert.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What a 52-year-old watch can teach us about UX and Digital Product Design]]></title>
-        <id>https://news.ycombinator.com/item?id=32938616</id>
-        <link href="https://uxdesign.cc/what-a-52-year-old-watch-can-teach-us-about-ux-and-digital-product-design-7c5243e6e136"/>
-        <updated>2022-09-22T13:41:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://uxdesign.cc/what-a-52-year-old-watch-can-teach-us-about-ux-and-digital-product-design-7c5243e6e136
-Comments URL: https://news.ycombinator.com/item?id=32938616
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>marban</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The People’s Graphic Design Archive is Standing Guard for Overlooked Design History]]></title>
-        <id>https://www.printmag.com/?p=735981</id>
-        <link href="https://www.printmag.com/design-resources/the-peoples-graphic-design-archive/"/>
-        <updated>2022-09-22T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[We chat with project co-director Louise Sandhaus about the importance of this newly released, crowd-sourced virtual archive.]]></summary>
-        <author>
-            <name>Charlotte Beach</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pixelmator Pro 3.0 with more than 200 design templates and mockups]]></title>
-        <id>https://news.ycombinator.com/item?id=32938316</id>
-        <link href="https://www.pixelmator.com/blog/2022/09/22/pixelmator-team-unveils-pixelmator-pro-3-0-with-more-than-200-stunning-design-templates-and-mockups/"/>
-        <updated>2022-09-22T13:11:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.pixelmator.com/blog/2022/09/22/pixelmator-team-unveils-pixelmator-pro-3-0-with-more-than-200-stunning-design-templates-and-mockups/
-Comments URL: https://news.ycombinator.com/item?id=32938316
-Points: 30
-# Comments: 0]]></summary>
-        <author>
-            <name>seaghost</name>
         </author>
     </entry>
 </feed>
