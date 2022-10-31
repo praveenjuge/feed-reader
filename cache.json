@@ -459,16 +459,6 @@
           "wordCount": 2755,
           "title": "Introducing Shoelace, a Framework-Independent Component-Based UX Library",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/373703"
-        },
-        {
-          "id": "https://css-tricks.com/?p=373732",
-          "author": "Arjun Singh",
-          "description": "Let’s acknowledge that developing for WordPress is weird right now. Whether you’re new to WordPress or have worked with it for eons, the introduction of “Full-Site Editing” (FSE) features, including the Block Editor (WordPress 5.0) and the Site Editor (WordPress …\nGetting Started With WordPress Block Development originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/getting-started-with-wordpress-block-development/",
-          "publishedOn": "2022-09-30T13:04:56.000Z",
-          "wordCount": 5402,
-          "title": "Getting Started With WordPress Block Development",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/373732"
         }
       ]
     },
@@ -2354,6 +2344,26 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=33398309",
+          "author": "kikokikokiko",
+          "description": "Article URL: https://idlewords.com/talks/web_design_first_100_years.htm\nComments URL: https://news.ycombinator.com/item?id=33398309\nPoints: 2\n# Comments: 2",
+          "link": "https://idlewords.com/talks/web_design_first_100_years.htm",
+          "publishedOn": "2022-10-30T20:28:10.000Z",
+          "wordCount": 6445,
+          "title": "Web Design: The First 100 Years",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33390423",
+          "author": "b20000",
+          "description": "I'm looking for books or online resources showing best practices in use of atomics, barriers and locks in the design of multithreaded realtime applications in C++. I am specifically looking for actual implementation examples and architecture examples and not just covering the basic theory or use.\nBackground/context:\nI am working on an application where I need to share various datastructures between threads. I've been using atomics but as the complexity grows it becomes hard to review code for \"correctness\". My goal is to avoid holding locks for long periods of time. Since this is a realtime application I also want to avoid waiting. So lock-free, wait-free is preferred.\nComments URL: https://news.ycombinator.com/item?id=33390423\nPoints: 2\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=33390423",
+          "publishedOn": "2022-10-30T02:29:53.000Z",
+          "wordCount": 190,
+          "title": "Ask HN: Books covering best practices in advanced multithreaded design in C++",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=33388160",
           "author": "jdcampolargo",
@@ -4343,96 +4353,6 @@
           "wordCount": 1242,
           "title": "Machine Learning Systems Design – Winter 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33046164",
-          "author": "rntn",
-          "description": "Article URL: https://pangrampangram.com/blogs/journal/japanese-typography\nComments URL: https://news.ycombinator.com/item?id=33046164\nPoints: 1\n# Comments: 0",
-          "link": "https://pangrampangram.com/blogs/journal/japanese-typography",
-          "publishedOn": "2022-10-01T12:40:12.000Z",
-          "wordCount": 4066,
-          "title": "Japanese Typography: Wood to Metal to Light to Vectors",
-          "imageUrl": "https://cdn.shopify.com/s/files/1/2642/6578/articles/Em_Rigaud_japan_Cover2.jpg?v=1646163974"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33045870",
-          "author": "machekb",
-          "description": "Article URL: https://vanschneider.com/blog/ux-writing/ux-copy-sells/\nComments URL: https://news.ycombinator.com/item?id=33045870\nPoints: 2\n# Comments: 1",
-          "link": "https://vanschneider.com/blog/ux-writing/ux-copy-sells/",
-          "publishedOn": "2022-10-01T11:46:02.000Z",
-          "wordCount": 6231,
-          "title": "UX Copy Sells",
-          "imageUrl": "https://vanschneider.com/blog/content/images/2021/01/ux-writing-sells-cover-1200x630.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33045691",
-          "author": "ZacnyLos",
-          "description": "Article URL: https://nextcloud.com/blog/announcing-nextcloud-hub-3-brand-new-design-and-photos-2-0-with-editor-and-ai/\nComments URL: https://news.ycombinator.com/item?id=33045691\nPoints: 3\n# Comments: 1",
-          "link": "https://nextcloud.com/blog/announcing-nextcloud-hub-3-brand-new-design-and-photos-2-0-with-editor-and-ai/",
-          "publishedOn": "2022-10-01T11:12:37.000Z",
-          "wordCount": 3211,
-          "title": "Nextcloud Hub 3 – Brand New Design and Photos 2.0 with Editor and AI",
-          "imageUrl": "https://nextcloud.com/wp-content/uploads/2022/10/25-release-graphic-landscape.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33045680",
-          "author": "m33k44",
-          "description": "Say, I have following relation:\n    (node A.uuid) -- [relation AB.uuid] --> (node B.uuid)\n\n    (node A.uuid) -- [has:{datetime,session}] --> (node A.history)\n    (node A.history) -- [contains:{datetime, session, relation AB.x.uuid, to:node B.y.uuid}] --> (node A.n.uuid)\n    :\n    :\n    (node A.history) -- [contains:{datetime, session, relation AB.p.uuid, to:node B.q.uuid}] --> (node A.0.uuid)\n\nAlso, how do I store the history of the relation/edge `relation AB`? Is it same as the node?\nComments URL: https://news.ycombinator.com/item?id=33045680\nPoints: 5\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=33045680",
-          "publishedOn": "2022-10-01T11:10:15.000Z",
-          "wordCount": 190,
-          "title": "Ask HN: Is this a good design to store history of a graph in graph databases?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33043746",
-          "author": "cwan",
-          "description": "Article URL: https://www.popsci.com/technology/ai-robotics-battery-design-discovery/\nComments URL: https://news.ycombinator.com/item?id=33043746\nPoints: 1\n# Comments: 0",
-          "link": "https://www.popsci.com/technology/ai-robotics-battery-design-discovery/",
-          "publishedOn": "2022-10-01T03:57:42.000Z",
-          "wordCount": 3846,
-          "title": "An AI called Dragonfly is helping design faster-charging batteries",
-          "imageUrl": "https://www.popsci.com/uploads/2022/09/29/Depositphotos_266751410_L.jpg?auto=webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33040531",
-          "author": "grzm",
-          "description": "Article URL: https://luisthiamnye.substack.com/p/adventures-in-dynamic-software-visualisations\nComments URL: https://news.ycombinator.com/item?id=33040531\nPoints: 1\n# Comments: 0",
-          "link": "https://luisthiamnye.substack.com/p/adventures-in-dynamic-software-visualisations",
-          "publishedOn": "2022-09-30T20:42:37.000Z",
-          "wordCount": 17756,
-          "title": "Adventures in Dynamic Software, Visualisations, Creating a JVM Language, UI, &C",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fed914c1a-456e-44eb-98d9-6e5a3d732644_1289x1166.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33039960",
-          "author": "kaelig",
-          "description": "Article URL: https://story.to.design/\nComments URL: https://news.ycombinator.com/item?id=33039960\nPoints: 1\n# Comments: 0",
-          "link": "https://story.to.design/",
-          "publishedOn": "2022-09-30T19:56:07.000Z",
-          "wordCount": 574,
-          "title": "A Figma plugin that imports and syncs UI components from code",
-          "imageUrl": "https://story.to.design/img/meta/s2d-banner.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33038544",
-          "author": "timmb",
-          "description": "Article URL: https://timmb.com/\nComments URL: https://news.ycombinator.com/item?id=33038544\nPoints: 1\n# Comments: 0",
-          "link": "https://timmb.com/",
-          "publishedOn": "2022-09-30T18:17:34.000Z",
-          "wordCount": 728,
-          "title": "Against Interaction Design",
-          "imageUrl": "/static/3ea27d00e1913a8d7fd2f85782783fdd/Post-Truth and Beauty - Tim Murray-Browne - Aphra Shemza - Installing the work at Old Truman Brewery - Photo- Suzi Corker.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33036815",
-          "author": "vmoore",
-          "description": "Article URL: https://spline.design/\nComments URL: https://news.ycombinator.com/item?id=33036815\nPoints: 1\n# Comments: 0",
-          "link": "https://spline.design/",
-          "publishedOn": "2022-09-30T16:13:32.000Z",
-          "wordCount": 316,
-          "title": "Spline – Design tool for 3D web browser experiences",
-          "imageUrl": "https://spline.design/_next/static/chunks/images/spline_image_banner-28a4c49c34a943e2cf79d9160f72585c.png"
         }
       ]
     },
@@ -4441,6 +4361,36 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=33397515",
+          "author": "sberens",
+          "description": "Article URL: https://simonberens.me/blog/elastic-productivity-tools\nComments URL: https://news.ycombinator.com/item?id=33397515\nPoints: 2\n# Comments: 0",
+          "link": "https://simonberens.me/blog/elastic-productivity-tools",
+          "publishedOn": "2022-10-30T19:05:45.000Z",
+          "wordCount": 8752,
+          "title": "Elastic Productivity Tools",
+          "imageUrl": "http://static1.squarespace.com/static/613427e870437e71843598fa/t/635dd5fa2c677e36ee9221b6/1667094015812/DALL%C2%B7E+2022-10-29+18.39.57+-+elastic+productivity+tool%2C+4k%2C+top+art.png?format=1500w"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33394730",
+          "author": "Arisaka1",
+          "description": "I'm fairly new to the field and relatively late to the party (because I'm old), but a recurring theme that I'm noticing in my current company (which is a small startup) is how the faster you deliver the better you look to the CEO and even CTO's eyes.\nIn hour fairly infrequent meetings other engineers have raised the point that we should start valuing code quality and proper testing to our codebase, only to be met with arguments such as \"the customer doesn't pay for good code\".\nFurthermore, most likely an anecdotal bias and nothing else but I want to mention it: Online elitism revolves around shipping speed too. Comments like \"I can build X in Y hours\", \"I can skim the docs and build what I want with Z library in less than a day\", and so on.\nHow does everyone feel about it? Maybe it's just me but it feels weird. It's kinda like everyone I mentioned feels like there are no trade-offs to be concerned in regards to speed over quality or people decided that there's no reason to bother ourselves with contemplating what we're trading off speed with. Also, I feel that because quality is subjective and perfect is the enemy of done, people rely on objective metrics like \"time taken\".\nIs there truth and merit to this observation?\nComments URL: https://news.ycombinator.com/item?id=33394730\nPoints: 2\n# Comments: 2",
+          "link": "https://news.ycombinator.com/item?id=33394730",
+          "publishedOn": "2022-10-30T14:23:41.000Z",
+          "wordCount": 573,
+          "title": "Ask HN: Is speed of delivery the most important metric in productivity?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33392212",
+          "author": "brenzenitho",
+          "description": "I'm an undergrad at cal who's trying to get better at React and building apps. I'd love any feedback on the general UI and user experience, new to coding products!\nIf you don't want to download it, but still want to give me feedback, app demo vid & pictures in official launch https://tinyurl.com/reactlaunch\nPlease let me know your thoughts, critical or supportive! Looking to learn\nComments URL: https://news.ycombinator.com/item?id=33392212\nPoints: 24\n# Comments: 13",
+          "link": "https://chrome.google.com/webstore/detail/ihabit/ngbhaiedpgcjihgkkanmacofdekipmnd",
+          "publishedOn": "2022-10-30T07:57:24.000Z",
+          "wordCount": 1388,
+          "title": "Show HN: Hyper minimalist habit tracker for Chrome",
+          "imageUrl": "https://lh3.googleusercontent.com/VtEVV-a-IZN962oVW5F4kbUAXwPeHKv4jJDs8ZL02Nynubc6gDFDnsN-G2JTRNDCtVW-63IU7a63eScQzcVLZoTI2C8=w128-h128-e365-rj-sc0x00ffffff"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=33385166",
           "author": "Akronymus",
@@ -4918,6 +4868,26 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=33397054",
+          "author": "jfhr",
+          "description": "Article URL: https://jfhr.me/optimizing-images-with-the-html-picture-tag/\nComments URL: https://news.ycombinator.com/item?id=33397054\nPoints: 55\n# Comments: 35",
+          "link": "https://jfhr.me/optimizing-images-with-the-html-picture-tag/",
+          "publishedOn": "2022-10-30T18:14:51.000Z",
+          "wordCount": 1483,
+          "title": "Optimizing images with the HTML <picture> tag",
+          "imageUrl": "https://jfhr.me/assets/apple-icon-180.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33392379",
+          "author": "homarp",
+          "description": "Article URL: http://chartscss.org/\nComments URL: https://news.ycombinator.com/item?id=33392379\nPoints: 279\n# Comments: 71",
+          "link": "http://chartscss.org/",
+          "publishedOn": "2022-10-30T08:26:23.000Z",
+          "wordCount": 186,
+          "title": "Charts.css: CSS data visualization framework",
+          "imageUrl": "https://chartscss.org/assets/img/logo.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=33384524",
           "author": "Tomte",
@@ -5737,26 +5707,6 @@
           "wordCount": null,
           "title": "“58 bytes of CSS to look great nearly everywhere” mkws theme",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33046003",
-          "author": "Leftium",
-          "description": "Article URL: https://hyper-nav.acmion.com/\nComments URL: https://news.ycombinator.com/item?id=33046003\nPoints: 2\n# Comments: 0",
-          "link": "https://hyper-nav.acmion.com/",
-          "publishedOn": "2022-10-01T12:09:57.000Z",
-          "wordCount": 177,
-          "title": "HyperNav: Responsive, interactive HTML/CSS navigation menu without JavaScript",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33043611",
-          "author": "joseferben",
-          "description": "Article URL: https://www.joseferben.com/posts/django-4-form-tailwind-without-node-crispy/\nComments URL: https://news.ycombinator.com/item?id=33043611\nPoints: 1\n# Comments: 0",
-          "link": "https://www.joseferben.com/posts/django-4-form-tailwind-without-node-crispy/",
-          "publishedOn": "2022-10-01T03:32:39.000Z",
-          "wordCount": 802,
-          "title": "Django 4 form rendering using Tailwind without Node or crispy",
-          "imageUrl": null
         }
       ]
     },
@@ -5828,6 +5778,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=43121",
+          "author": "Seth Godin",
+          "description": "History is filled with examples of people who made errors in judgment. The executives at Decca that turned down the Beatles, the CEO at Digital who said that no one would ever need to have a computer in their home, and the reviewers that didn’t like the movie 2001. And of course, the creators that […]",
+          "link": "https://seths.blog/2022/10/the-opportunity-to-be-wrong/",
+          "publishedOn": "2022-10-30T08:42:00.000Z",
+          "wordCount": 1138,
+          "title": "The opportunity to be wrong",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=43100",
           "author": "Seth Godin",
@@ -6117,16 +6077,6 @@
           "wordCount": 1118,
           "title": "For the good of the community",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41942",
-          "author": "Seth Godin",
-          "description": "Some people say, “we’re not changing it, because this is the way it’s done.” And some people say, “the way it’s done isn’t good enough, let’s make it better.” In a given situation, you might encounter one or the other type of response. In fact, each of us might adopt one posture or the other. […]",
-          "link": "https://seths.blog/2022/10/the-way-its-done/",
-          "publishedOn": "2022-10-01T09:37:00.000Z",
-          "wordCount": 1090,
-          "title": "The way it’s done",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
         }
       ]
     },
@@ -7454,16 +7404,6 @@
           "wordCount": null,
           "title": "In Montauk, N.Y., an Indoor-Outdoor House Emerges From the Landscape",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nytimes.com/2022/09/30/t-magazine/italian-design-interiors-architecture.html",
-          "author": "Hanya Yanagihara",
-          "description": "How has Italy remained, for centuries, one of the most innovative places for interiors and architecture?",
-          "link": "https://www.nytimes.com/2022/09/30/t-magazine/italian-design-interiors-architecture.html",
-          "publishedOn": "2022-09-30T14:00:06.000Z",
-          "wordCount": null,
-          "title": "When It Comes to Design, Nobody Does It Like the Italians",
-          "imageUrl": null
         }
       ]
     },
@@ -8031,26 +7971,6 @@
           "wordCount": 1904,
           "title": "The Daily Heller: Saving Democracy Redux",
           "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/10/teasserdemocracy.jpg?fit=1200%2C808&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=736446",
-          "author": "PRINT Magazine",
-          "description": "This milestone combines a celebration of the past with a forward-thinking, youthful spirit meant to inspire the next 50 years of creative excellence.",
-          "link": "https://www.printmag.com/branding-identity-design/the-one-show-celebrates-50-years-with-whats-your-one-by-design-army/",
-          "publishedOn": "2022-09-30T18:09:56.000Z",
-          "wordCount": 2038,
-          "title": "The One Show Celebrates 50 Years With “What’s Your One?” by Design Army",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/09/OneShow50_1250x475_Eblast_Header_Rd1.gif?fit=1200%2C456&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=736219",
-          "author": "Chloe Gordon",
-          "description": "We pay tribute to the expanding art of beer package design with a selection of eye-catching creators from this year's BOPP Conference.",
-          "link": "https://www.printmag.com/packaging-design/five-beer-centric-designers-to-follow-on-instagram/",
-          "publishedOn": "2022-09-30T14:00:00.000Z",
-          "wordCount": 1886,
-          "title": "Five Beer-Centric Designers to Follow on Instagram",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/09/sigmund-vH08sEcKH7I-unsplash-scaled.jpg?fit=1200%2C800&ssl=1"
         }
       ]
     },
@@ -8280,21 +8200,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/aa71c04f-6c9e-4717-8767-a6f31f3c20c9/ui-animations-shared-element-transitions-api-part1.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/09/desktop-wallpaper-calendars-october-2022/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "How about a little inspiration boost? Well, we might have something for you: desktop wallpapers created with love by artists and designers from across the globe. They are available in versions with and without a calendar for October and can be downloaded for free. Enjoy!",
-          "link": "https://smashingmagazine.com/2022/09/desktop-wallpaper-calendars-october-2022/",
-          "publishedOn": "2022-09-30T13:30:00.000Z",
-          "wordCount": 5020,
-          "title": "October Vibes For Your Desktop (2022 Wallpapers Edition)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/5e6453cd-7ad1-45e4-b88c-afe922049104/oct-22-dreamy-autumn-girl-preview-opt.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/5e6453cd-7ad1-45e4-b88c-afe922049104/oct-22-dreamy-autumn-girl-preview-opt.png"
         }
       ]
     },
