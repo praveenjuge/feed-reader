@@ -449,26 +449,6 @@
           "wordCount": 3232,
           "title": "Fancy Image Decorations: Single Element Magic",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/373965"
-        },
-        {
-          "id": "https://css-tricks.com/?p=374401",
-          "author": "Geoff Graham",
-          "description": "An Event Apart 2022 Denver wrapped up yesterday. And while I was unable to make it to all three days this time, I did catch yesterday’s action — and it was awesome. I’m not very social or outgoing, but …\nSome Things I Took Away From An Event Apart 2022 in Denver originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/some-things-i-took-away-from-an-event-apart-2022-in-denver/",
-          "publishedOn": "2022-10-13T20:01:00.000Z",
-          "wordCount": 1872,
-          "title": "Some Things I Took Away From An Event Apart 2022 in Denver",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/374401"
-        },
-        {
-          "id": "https://css-tricks.com/?p=373508",
-          "author": "Krzysztof Gonciarz",
-          "description": "Oftentimes in the past, I needed to figure out how to add styles to all elements inside the container but not the hovered one.\nDemo of the expected “fade-out” effect on siblings to let users “focus” on a particular element.…\nA Pure CSS Gallery Focus Effect with :not originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/a-pure-css-gallery-focus-effect-with-not/",
-          "publishedOn": "2022-10-13T15:10:15.000Z",
-          "wordCount": 1454,
-          "title": "A Pure CSS Gallery Focus Effect with :not",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/373508"
         }
       ]
     },
@@ -1045,26 +1025,6 @@
           "publishedOn": "2022-10-17T11:30:00.000Z",
           "wordCount": 2911,
           "title": "5 ultra actionable tips to improve your Web performances",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10899",
-          "author": "Adam Marsden",
-          "description": "A11YTool",
-          "link": "https://dailydevlinks.com/randoma11y-accessible-color-combinations/",
-          "publishedOn": "2022-10-14T07:33:00.000Z",
-          "wordCount": 2903,
-          "title": "Randoma11y – Accessible color combinations",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=10902",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://dailydevlinks.com/using-the-font-display-css-property-to-optimize-custom-fonts-loading/",
-          "publishedOn": "2022-10-14T07:30:00.000Z",
-          "wordCount": 2928,
-          "title": "Using the font-display CSS property to optimize custom fonts loading",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
         }
       ]
@@ -2284,6 +2244,56 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=33575990",
+          "author": "ComputerGuru",
+          "description": "Article URL: https://neosmart.net/blog/2017/tahoma-vs-verdana/\nComments URL: https://news.ycombinator.com/item?id=33575990\nPoints: 3\n# Comments: 1",
+          "link": "https://neosmart.net/blog/2017/tahoma-vs-verdana/",
+          "publishedOn": "2022-11-12T19:05:13.000Z",
+          "wordCount": 3207,
+          "title": "Exploring the typography and the history of Microsoft's Tahoma and Verdana",
+          "imageUrl": "http://neosmart.net/blog/wp-content/uploads/tahoma-stroke-loupe.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33574590",
+          "author": "xigoi",
+          "description": "Article URL: https://soc.me/languages/familiarity.html\nComments URL: https://news.ycombinator.com/item?id=33574590\nPoints: 1\n# Comments: 0",
+          "link": "https://soc.me/languages/familiarity.html",
+          "publishedOn": "2022-11-12T16:31:40.000Z",
+          "wordCount": 369,
+          "title": "Language Design: Familiarity",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33573873",
+          "author": "lovelearning",
+          "description": "The scenario is an app that uses a tech giant's API to post messages.\n+ The app's only feature is posting. No reading, searching, user profiles, or any other feature.\n+ Users too just want it to post. We can assume many users don't want any apps - including this one - to routinely examine their user profiles, followers, or protected memberships on the platform.\n+ However - and here's the problem IMO - the API's /post endpoint forces the app to have \"read readuser post\" scopes just to call this post-only API. (\"Scopes\" are OAuth terminology for broad permissions).\nWhy I think this is bad design:\n+ The API fails to differentiate between external access and internal  access. If the API's code needs to read profile data before posting, it's purely an internal implementation detail. There's no …",
+          "link": "https://news.ycombinator.com/item?id=33573873",
+          "publishedOn": "2022-11-12T15:21:22.000Z",
+          "wordCount": 435,
+          "title": "Ask HN: Do you think this API authorization design is bad?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33569980",
+          "author": "theeohsees",
+          "description": "Hello all. I am a newly graduated UX designer (Cog Sci major) that is basically leading the design team at a startup. We've recently hired a new development team, and I'd like to learn more technical skills in order to really understand the development side of the product, as well as to communicate ideas better and to understand our design constraints. I have a little bit of coding experience from school and am using some online tools to learn CSS/HTML/Javascript. I'm also using some online resources to learn about software architecture. Is this the best way to go about this? What would be some good resources for me to learn this skills? Appreciate it.\nComments URL: https://news.ycombinator.com/item?id=33569980\nPoints: 8\n# Comments: 5",
+          "link": "https://news.ycombinator.com/item?id=33569980",
+          "publishedOn": "2022-11-12T04:35:00.000Z",
+          "wordCount": 1310,
+          "title": "As a UX designer, what should I learn in order to talk to developers?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33569890",
+          "author": "astdb",
+          "description": "Article URL: https://www.abc.net.au/news/2022-11-12/how-supermarket-design-influences-what-you-buy-and-your-health/101612758\nComments URL: https://news.ycombinator.com/item?id=33569890\nPoints: 2\n# Comments: 0",
+          "link": "https://www.abc.net.au/news/2022-11-12/how-supermarket-design-influences-what-you-buy-and-your-health/101612758",
+          "publishedOn": "2022-11-12T04:16:35.000Z",
+          "wordCount": 5781,
+          "title": "How supermarket design influences what you put in your trolley",
+          "imageUrl": "https://live-production.wcms.abc-cdn.net.au/4685b7c928170966c5877ffc56bb69c1?impolicy=wcms_crop_resize&cropH=394&cropW=701&xPos=0&yPos=0&width=862&height=485"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=33567794",
           "author": "tosh",
@@ -4033,86 +4043,6 @@
           "wordCount": 1692,
           "title": "Is Bluespec the Rust of Hardware Design?",
           "imageUrl": ""
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33202450",
-          "author": "westportjack",
-          "description": "Comments URL: https://news.ycombinator.com/item?id=33202450\nPoints: 6\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=33202450",
-          "publishedOn": "2022-10-14T12:10:09.000Z",
-          "wordCount": 80,
-          "title": "Ask HN: What are good network design books in 2022?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33201606",
-          "author": "frabia",
-          "description": "Which companies hire for hybrid Developer/Designer roles? \nI feel that sometimes that's a really fulfilling role for some people (like me) and wondering where I could be paid for that (most jobs are either or one of the two positions).\nFurthermore: has anybody worked in a similar role in a tech company and can share their experience?\nCompanies I'm aware already:\n- Basecamp (designers owning the styling part of the FE)\n- Ashby (recently saw some open positions about it but not exactly sure how it works there)\nThanks\nComments URL: https://news.ycombinator.com/item?id=33201606\nPoints: 2\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=33201606",
-          "publishedOn": "2022-10-14T10:14:30.000Z",
-          "wordCount": 191,
-          "title": "Companies that hire “Engineers who can design” or “Designers who can code”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33198873",
-          "author": "evolve2k",
-          "description": "Article URL: https://eyeondesign.aiga.org/ontological-design-is-popular-in-design-academia-but-what-is-it/\nComments URL: https://news.ycombinator.com/item?id=33198873\nPoints: 1\n# Comments: 1",
-          "link": "https://eyeondesign.aiga.org/ontological-design-is-popular-in-design-academia-but-what-is-it/",
-          "publishedOn": "2022-10-14T02:13:11.000Z",
-          "wordCount": null,
-          "title": "Ontological Design Has Become Influential in Design Academia – But What Is It?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33197429",
-          "author": "av2297",
-          "description": "The LTE digital baseband market was famously dominated by Qualcomm, which maintained a 60+% market share for nearly a decade (2009-2019).  MediaTek also successfully entered the market, but not for high end phones for high-income markets (U.S., Europe, etc.). Famously, both Intel and Broadcom (two semiconductor firms known for their ability to design successful chips in other markets, e.g., MPUs, cable modem chips, WiFi chips, Bluetooth chips, etc.) attempted to enter the market and failed. Broadcom exited the market and wound down their LTE business unit. Intel sold its group to Apple, which now has gone on to fail to develop a 5g digital baseband solution (Apple continues to use Qualcomm for its 5g digital baseband solution).\nWhy (from an engineering perspective) is it so difficult to develop an advanced  LTE (or 5G) digital baseband chip such that even semiconductor powerhouses like Intel and Broadcom have struggled to develop solutions which compare to Qualcomm's offerings?\nNote - answers from semiconductor design engineers appreciated :)\nComments URL: https://news.ycombinator.com/item?id=33197429\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=33197429",
-          "publishedOn": "2022-10-13T22:42:21.000Z",
-          "wordCount": 246,
-          "title": "Why is it so difficult to design digital baseband (e.g., LTE) chips?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33196976",
-          "author": "tosh",
-          "description": "Article URL: https://apenwarr.ca/log/20201227\nComments URL: https://news.ycombinator.com/item?id=33196976\nPoints: 2\n# Comments: 0",
-          "link": "https://apenwarr.ca/log/20201227",
-          "publishedOn": "2022-10-13T21:56:53.000Z",
-          "wordCount": 4589,
-          "title": "Systems design explains the world (2020)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33196600",
-          "author": "feross",
-          "description": "Article URL: https://www.smashingmagazine.com/2022/08/authentication-ux-design-guidelines/\nComments URL: https://news.ycombinator.com/item?id=33196600\nPoints: 1\n# Comments: 0",
-          "link": "https://www.smashingmagazine.com/2022/08/authentication-ux-design-guidelines/",
-          "publishedOn": "2022-10-13T21:17:04.000Z",
-          "wordCount": 4713,
-          "title": "Rethinking Authentication UX",
-          "imageUrl": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb887d40-c454-4b48-be73-44e903492deb/magic-links-authentication.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33193597",
-          "author": "dundercoder",
-          "description": "After years of using Slack and Discord for company chat, I _really_ struggle with Zoom’s chat interface.\nI’ve looked at pidgin and Adium, so far I don’t see a zoom connector. Does anyone know of an alternative client?\nComments URL: https://news.ycombinator.com/item?id=33193597\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=33193597",
-          "publishedOn": "2022-10-13T16:54:40.000Z",
-          "wordCount": 111,
-          "title": "Ask HN: Alternative UI for Zoom Chat?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33190345",
-          "author": "mooreds",
-          "description": "Article URL: https://indeed.design/article/what-i-learned-switching-careers-from-taxonomy-to-content-design/\nComments URL: https://news.ycombinator.com/item?id=33190345\nPoints: 2\n# Comments: 0",
-          "link": "https://indeed.design/article/what-i-learned-switching-careers-from-taxonomy-to-content-design/",
-          "publishedOn": "2022-10-13T12:57:13.000Z",
-          "wordCount": 3347,
-          "title": "What I Learned Switching Careers from Taxonomy to Content Design",
-          "imageUrl": "https://indeed.design//static/480e7b7ea4252776b1b8963b5036a271/0eab3/Let-your-passions-guide-your-to-a-fulfilling-career.jpg"
         }
       ]
     },
@@ -4660,16 +4590,6 @@
           "wordCount": 2359,
           "title": "Build Yourself a Drivel Filter with RSS",
           "imageUrl": "https://spin.atomicobject.com/wp-content/uploads/rss-subscribe.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33200977",
-          "author": "pocketrss",
-          "description": "Article URL: https://github.com/pocketrss/pocketrss-dashboard/releases\nComments URL: https://news.ycombinator.com/item?id=33200977\nPoints: 1\n# Comments: 1",
-          "link": "https://github.com/pocketrss/pocketrss-dashboard/releases",
-          "publishedOn": "2022-10-14T08:25:18.000Z",
-          "wordCount": 313,
-          "title": "A powerful RSS aggregate server in 1 file",
-          "imageUrl": "https://opengraph.githubassets.com/898165ccd55e00196b5d3c54554924ce46565592ebe4f98f977f39d18794640f/pocketrss/pocketrss-dashboard"
         }
       ]
     },
@@ -4678,6 +4598,46 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=33578092",
+          "author": "saranshk",
+          "description": "Article URL: https://www.wisdomgeek.com/development/web-development/css-has-a-parent-selector-now/\nComments URL: https://news.ycombinator.com/item?id=33578092\nPoints: 24\n# Comments: 5",
+          "link": "https://www.wisdomgeek.com/development/web-development/css-has-a-parent-selector-now/",
+          "publishedOn": "2022-11-12T23:04:53.000Z",
+          "wordCount": 11435,
+          "title": "CSS: Has a Parent Selector Now",
+          "imageUrl": "https://www.wisdomgeek.com/wp-content/uploads/2022/11/css-has-pseudo.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33573528",
+          "author": "shrthnd",
+          "description": "Article URL: https://www.shakespeare-navigators.com/macbeth/Macbeth_Note_3_1_54.html\nComments URL: https://news.ycombinator.com/item?id=33573528\nPoints: 1\n# Comments: 0",
+          "link": "https://www.shakespeare-navigators.com/macbeth/Macbeth_Note_3_1_54.html",
+          "publishedOn": "2022-11-12T14:45:49.000Z",
+          "wordCount": 167,
+          "title": "Macbeth Note 3 1 54.html",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33573157",
+          "author": "sibprogrammer",
+          "description": "Article URL: https://github.com/sibprogrammer/xq\nComments URL: https://news.ycombinator.com/item?id=33573157\nPoints: 64\n# Comments: 25",
+          "link": "https://github.com/sibprogrammer/xq",
+          "publishedOn": "2022-11-12T14:07:49.000Z",
+          "wordCount": 876,
+          "title": "Show HN: Xq – command-line XML and HTML beautifier and content extractor",
+          "imageUrl": "https://opengraph.githubassets.com/54c9ffb19073c62b3f5264d5efae36fef62b822d7f4c47a1b3634aa7378da615/sibprogrammer/xq"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33572264",
+          "author": "remrem",
+          "description": "Article URL: https://frontendmastery.com/posts/the-evolution-of-scalable-css/\nComments URL: https://news.ycombinator.com/item?id=33572264\nPoints: 95\n# Comments: 47",
+          "link": "https://frontendmastery.com/posts/the-evolution-of-scalable-css/",
+          "publishedOn": "2022-11-12T11:57:40.000Z",
+          "wordCount": 3478,
+          "title": "The Evolution of Scalable CSS",
+          "imageUrl": "undefined/og.png?v=1"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=33567630",
           "author": "pzrsa",
@@ -5657,26 +5617,6 @@
           "wordCount": 3069,
           "title": "Wikipedia's playable “fox, chicken, and corn problem,” made only with SVG/CSS",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33202137",
-          "author": "robin_reala",
-          "description": "Article URL: https://lists.w3.org/Archives/Public/www-style/2014Jun/0312.html\nComments URL: https://news.ycombinator.com/item?id=33202137\nPoints: 2\n# Comments: 0",
-          "link": "https://lists.w3.org/Archives/Public/www-style/2014Jun/0312.html",
-          "publishedOn": "2022-10-14T11:30:21.000Z",
-          "wordCount": 473,
-          "title": "Adding 'rebeccapurple' color to CSS Color Level 4 (2014)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33201629",
-          "author": "goulinkh",
-          "description": "Article URL: https://ubuntu.com/blog/introducing-a-vscode-extension-for-vanilla-css-framework\nComments URL: https://news.ycombinator.com/item?id=33201629\nPoints: 3\n# Comments: 0",
-          "link": "https://ubuntu.com/blog/introducing-a-vscode-extension-for-vanilla-css-framework",
-          "publishedOn": "2022-10-14T10:18:59.000Z",
-          "wordCount": 1243,
-          "title": "A VSCode Extension for Vanilla CSS Framework",
-          "imageUrl": "https://ubuntu.com/wp-content/uploads/0c2d/Vanilla-VSCode-extention-screenshot.png"
         }
       ]
     },
@@ -5760,6 +5700,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=44206",
+          "author": "Seth Godin",
+          "description": "It’s autumn in North America, and that means that homeowners and contractors are busy removing suburban leaves. It’s almost impossible to avoid the deafening roar of gas-powered leaf blowers. Here’s what we know, without doubt: We also know that: The solution, if we’re serious, is to ban gas leaf blowers. The replacements will pay for […]",
+          "link": "https://seths.blog/2022/11/the-leaf-blower-parable/",
+          "publishedOn": "2022-11-12T09:40:00.000Z",
+          "wordCount": 1332,
+          "title": "The leaf blower parable",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg"
+        },
         {
           "id": "https://seths.blog/?p=42236",
           "author": "Seth Godin",
@@ -6049,16 +5999,6 @@
           "wordCount": 1076,
           "title": "We forgot to choose",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43976",
-          "author": "Seth Godin",
-          "description": "That’s what it said on the side of the tractor-trailer on the highway. Since 1924, they’re almost 100 years old. But it’s unlikely that it’s everyone’s favorite. Being everyone’s favorite is such an attractive goal, and almost impossible to achieve. Ask someone about their favorite pie and they’ll talk about the one they ate as […]",
-          "link": "https://seths.blog/2022/10/americas-favorite-pie/",
-          "publishedOn": "2022-10-14T08:06:00.000Z",
-          "wordCount": 1194,
-          "title": "“America’s favorite pie”",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         }
       ]
     },
@@ -7066,56 +7006,6 @@
           "wordCount": 149,
           "title": "Autoname: Name your Figma layers in one click",
           "imageUrl": "https://drive.google.com/uc?id=1IDq7Zd07kZovpGwlJ13uj2ZlO6ejIy99"
-        },
-        {
-          "id": "2AAiAf8dCiWbr7Crq",
-          "author": "@CSS",
-          "description": "An Event Apart 2022 Denver wrapped up yesterday. And while I was unable to make it to all three days this time, I did catch yesterday’s action.",
-          "link": "https://css-tricks.com/some-things-i-took-away-from-an-event-apart-2022-in-denver/",
-          "publishedOn": "2022-10-14T11:20:47.000Z",
-          "wordCount": 1872,
-          "title": "Some Things I Took Away From An Event Apart 2022 in Denver",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/374401"
-        },
-        {
-          "id": "qL3h4cQZrGdmLxwmn",
-          "author": "@mmatuzo",
-          "description": "A blog post about modern CSS every day for 100 days.",
-          "link": "https://www.matuzo.at/blog/2022/100-days-of-more-or-less-modern-css/",
-          "publishedOn": "2022-10-14T11:19:38.000Z",
-          "wordCount": 187,
-          "title": "100 Days Of More Or Less Modern CSS",
-          "imageUrl": "https://res.cloudinary.com/dp3mem7or/image/upload/w_1200/articles/sm_100days-css.jpg"
-        },
-        {
-          "id": "a9vE9YYJbEGhqz6SZ",
-          "author": "@storybookjs",
-          "description": "Storybook 7.0 brings lots of Vite improvements: pre-bundled for speed, zero config setup, no Webpack required and smaller install size.",
-          "link": "https://storybook.js.org/blog/first-class-vite-support-in-storybook/",
-          "publishedOn": "2022-10-14T11:18:41.000Z",
-          "wordCount": 3572,
-          "title": "First-class Vite support in Storybook",
-          "imageUrl": "https://storybookblog.ghost.io/content/images/2022/10/sb-vite.gif"
-        },
-        {
-          "id": "9bdFpAJhKyMtLxzPs",
-          "author": "@components_ai",
-          "description": "Get random, accessible color combinations",
-          "link": "https://randoma11y.com/",
-          "publishedOn": "2022-10-14T11:16:52.000Z",
-          "wordCount": 50,
-          "title": "Randoma11y",
-          "imageUrl": null
-        },
-        {
-          "id": "ZjWW7iRQYi3bB3FWF",
-          "author": "@simonanholt",
-          "description": "The Good Country Index measures what countries contribute to the world outside their own borders, and what they take away.",
-          "link": "https://index.goodcountry.org/",
-          "publishedOn": "2022-10-14T11:14:47.000Z",
-          "wordCount": 13,
-          "title": "The Good Country Index",
-          "imageUrl": "/metafb.png"
         }
       ]
     },
@@ -7208,6 +7098,16 @@
       "feedUrl": "https://www.nytimes.com/svc/collections/v1/publish/http://www.nytimes.com/topic/subject/design/rss.xml",
       "siteUrl": "https://www.nytimes.com/topic/subject/design",
       "articles": [
+        {
+          "id": "https://www.nytimes.com/2022/11/12/style/nyc-new-design-galleries.html",
+          "author": "Aileen Kwun",
+          "description": "New York’s new guard moves beyond social media, opening brick and mortar spaces to make design within reach.",
+          "link": "https://www.nytimes.com/2022/11/12/style/nyc-new-design-galleries.html",
+          "publishedOn": "2022-11-12T10:00:28.000Z",
+          "wordCount": null,
+          "title": "New York’s/Manhattan’s Next Generation of Design Gallerists Invite You Inside",
+          "imageUrl": null
+        },
         {
           "id": "https://www.nytimes.com/2022/11/08/realestate/thanksgiving-table-setting-decor.html",
           "author": "Tim McKeough",
@@ -7476,16 +7376,6 @@
           "publishedOn": "2022-10-14T16:06:39.000Z",
           "wordCount": null,
           "title": "High Design: The Revolution Taking Over Cannabis Dispensaries",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nytimes.com/2022/10/13/realestate/lucia-eames-crate-barrel.html",
-          "author": "Julie Lasky",
-          "description": "Crate & Barrel just introduced a new line of Eames housewares. No, not that Eames.",
-          "link": "https://www.nytimes.com/2022/10/13/realestate/lucia-eames-crate-barrel.html",
-          "publishedOn": "2022-10-13T19:23:13.000Z",
-          "wordCount": null,
-          "title": "Meet Lucia Eames, the Latest Midcentury Design Celebrity",
           "imageUrl": null
         }
       ]
@@ -8164,46 +8054,6 @@
           "wordCount": 1826,
           "title": "Five Independent Book Shops to Follow on Instagram",
           "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/10/john-michael-thomson-9m1V6A8Fm-A-unsplash-scaled.jpg?fit=1200%2C800&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=737155",
-          "author": "PRINT Magazine",
-          "description": "The health food company Founder on his origin story, what motivates his business, and the importance of nutrition.",
-          "link": "https://www.printmag.com/printcast/start-with-health-with-mark-samuel-of-iwon-organics/",
-          "publishedOn": "2022-10-14T11:00:00.000Z",
-          "wordCount": 1638,
-          "title": "Start with Health with Mark Samuel of IWON Organics",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/10/EvolveCPG-MarkSamuel-Square-R1.jpg?fit=1200%2C1200&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=736949",
-          "author": "Steven Heller",
-          "description": "Silas Munro’s “Strikethrough: Typographic Messages of Protest” is a timely breakthrough.",
-          "link": "https://www.printmag.com/daily-heller/the-daily-heller-silas-munro-strikethrough/",
-          "publishedOn": "2022-10-14T11:00:00.000Z",
-          "wordCount": 2109,
-          "title": "The Daily Heller: Designing for the Good Fight",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/10/teaser-1.jpg?fit=1200%2C560&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=736947",
-          "author": "Meg Farmer",
-          "description": "Standards Manual reveals a lost piece of communication and design history of in their gorgeous new collection of rare radio transmission cards.",
-          "link": "https://www.printmag.com/design-books/qsl-offers-a-portal-into-the-world-of-amateur-radio-hobbyists/",
-          "publishedOn": "2022-10-13T18:00:00.000Z",
-          "wordCount": 2972,
-          "title": "‘QSL?’ Offers a Portal Into the World of Amateur Radio Hobbyists",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/10/qsl_039.jpg?fit=1200%2C800&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=737098",
-          "author": "Deroy Peraza",
-          "description": "Your visual identity attracts attention, but lasting impressions are built on reputation and trust earned through each interaction.",
-          "link": "https://www.printmag.com/branding-identity-design/your-behavior-shapes-your-brand-which-shapes-your-behavior/",
-          "publishedOn": "2022-10-13T14:00:00.000Z",
-          "wordCount": 2427,
-          "title": "Your Behavior Shapes Your Brand, Which Shapes Your Behavior",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/10/Lasting-Impressions_2022-09-29-031803_mhtx.jpeg?fit=1200%2C675&ssl=1"
         }
       ]
     },
@@ -8474,21 +8324,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e92a7c2c-7748-4eb9-8ab8-6a534ad201e0/wordpress-full-site-editing.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/10/effective-communication-everyday-meetings/",
-          "author": "hello@smashingmagazine.com (Andrii Zhdan)",
-          "description": "In this article about conducting productive meetings, Andrii Zhdan will give you a step-by-step guide on preparing a solid meeting structure that will let you follow the original plan and reach the meeting goals, and he will also share a few tips based on his design experience.",
-          "link": "https://smashingmagazine.com/2022/10/effective-communication-everyday-meetings/",
-          "publishedOn": "2022-10-13T15:00:00.000Z",
-          "wordCount": 6070,
-          "title": "Effective Communication For Everyday Meetings",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e3c62052-4769-4a7d-8473-828a3e05ff74/effective-communication-everyday-meetings.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e3c62052-4769-4a7d-8473-828a3e05ff74/effective-communication-everyday-meetings.jpg"
         }
       ]
     },
