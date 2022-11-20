@@ -2,10 +2,180 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2022-11-19T00:48:44.692Z</updated>
+    <updated>2022-11-20T00:51:08.904Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Search and download UI code from across the web]]></title>
+        <id>https://news.ycombinator.com/item?id=33676367</id>
+        <link href="https://search-code.aspect.app/"/>
+        <updated>2022-11-19T23:53:58.000Z</updated>
+        <summary type="html"><![CDATA[I made this to simplify UI creation for developers. I use the Chrome console to reference how UI is built, but finding it in the first place is a bit of a pain. It also strikes me how npm has a lot of component and component libraries published there but there isn't a visual way to search and browse them. This is a first attempt by simply scraping UI code and presenting it a visual, searchable way.
+Comments URL: https://news.ycombinator.com/item?id=33676367
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>buildromeinaday</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Rssnix – Unix-style filesystem-based RSS/Atom/JSON Feed fetcher/reader]]></title>
+        <id>https://news.ycombinator.com/item?id=33675361</id>
+        <link href="https://github.com/jafarlihi/rssnix"/>
+        <updated>2022-11-19T22:13:01.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/jafarlihi/rssnix
+Comments URL: https://news.ycombinator.com/item?id=33675361
+Points: 34
+# Comments: 10]]></summary>
+        <author>
+            <name>jafarlihi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design a 3D printable vase in the browser]]></title>
+        <id>https://news.ycombinator.com/item?id=33674467</id>
+        <link href="https://www.youtube.com/watch?v=lJR6sg-_HG4"/>
+        <updated>2022-11-19T20:43:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=lJR6sg-_HG4
+Comments URL: https://news.ycombinator.com/item?id=33674467
+Points: 2
+# Comments: 3]]></summary>
+        <author>
+            <name>trikko</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Duolingo app update with Path UI facing backlash from users]]></title>
+        <id>https://news.ycombinator.com/item?id=33673522</id>
+        <link href="https://piunikaweb.com/2022/10/17/duolingo-app-update-with-path-ui-faces-backlash-from-users/"/>
+        <updated>2022-11-19T19:12:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://piunikaweb.com/2022/10/17/duolingo-app-update-with-path-ui-faces-backlash-from-users/
+Comments URL: https://news.ycombinator.com/item?id=33673522
+Points: 14
+# Comments: 17]]></summary>
+        <author>
+            <name>Markoff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cradle Lets You Design Custom Proteins by Just Typing in a Prompt]]></title>
+        <id>https://news.ycombinator.com/item?id=33672005</id>
+        <link href="https://www.forbes.com/sites/johncumbers/2022/11/17/startup-cradle-lets-you-design-custom-proteins-by-just-typing-in-a-prompt/"/>
+        <updated>2022-11-19T17:06:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.forbes.com/sites/johncumbers/2022/11/17/startup-cradle-lets-you-design-custom-proteins-by-just-typing-in-a-prompt/
+Comments URL: https://news.ycombinator.com/item?id=33672005
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>peteforde</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One can create interactive trees in pure HTML with a single CSS rule]]></title>
+        <id>https://news.ycombinator.com/item?id=33669786</id>
+        <link href="https://twitter.com/marekgibney/status/1593950777739218947"/>
+        <updated>2022-11-19T13:19:38.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/marekgibney/status/1593950777739218947
+Comments URL: https://news.ycombinator.com/item?id=33669786
+Points: 7
+# Comments: 3]]></summary>
+        <author>
+            <name>todsacerdoti</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: What are the good tools to build Admin UI based on REST / GraphQL?]]></title>
+        <id>https://news.ycombinator.com/item?id=33669367</id>
+        <link href="https://news.ycombinator.com/item?id=33669367"/>
+        <updated>2022-11-19T12:00:25.000Z</updated>
+        <summary type="html"><![CDATA[I am looking for tools or frameworks that are great at taking REST / GraphQL endpoints and help in making sleek Admin UI as fast as possible.
+To avoid XY Problem. I have access to REST / GraphQL but I can’t access the DB directly. Hence I can’t use a $name headless CMS.
+Tools like Hasura or  Postgraphile are amazing tools that generate REST / GraphQL API to a database. 
+db -> REST / GrapQL
+Headless CMS like Directus (my favorite) or Strapi are amazing in providing Admin UI on top of SQL DB. 
+db -> Admin UI + REST & GraphQL
+I am looking for something that would do this:
+REST & GraphQL -> Admin UI
+It feels like there are some tools that do that, but I don’t know anyone who has experience with any of them.
+Anyone has any ideas or recommendations? 
+Would prefer to have an option to add custom code too.
+Free, cheap, open source or self hosted would be the best >:)
+Some tools that claim to do what I need, but not sure about it
+My findings:
+https://www.appsmith.com/integration
+https://budibase.com/integration/
+https://www.tooljet.com/integrations
+Comments URL: https://news.ycombinator.com/item?id=33669367
+Points: 4
+# Comments: 0]]></summary>
+        <author>
+            <name>molszanski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Micropayments for content]]></title>
+        <id>https://seths.blog/?p=44246</id>
+        <link href="https://seths.blog/2022/11/micropayments-for-content/"/>
+        <updated>2022-11-19T09:27:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a problem that comes up every year or two, but no one has implemented a useful solution yet. Advertising is a surprisingly bad way for a culture to pay for content, because the kind of content that gets rewarded is often dumbed down for a large audience or is optimized for a small […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Broken by design. Short story of bad user experience in smart home products]]></title>
+        <id>https://news.ycombinator.com/item?id=33668510</id>
+        <link href="https://zb3.org/agturcz/broken-by-design"/>
+        <updated>2022-11-19T09:17:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://zb3.org/agturcz/broken-by-design
+Comments URL: https://news.ycombinator.com/item?id=33668510
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>ZacnyLos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Milligram – A Minimalist CSS Framework]]></title>
+        <id>https://news.ycombinator.com/item?id=33668048</id>
+        <link href="https://github.com/milligram/milligram"/>
+        <updated>2022-11-19T07:52:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/milligram/milligram
+Comments URL: https://news.ycombinator.com/item?id=33668048
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>exponenta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tree views in CSS]]></title>
+        <id>https://news.ycombinator.com/item?id=33667270</id>
+        <link href="https://iamkate.com/code/tree-views/"/>
+        <updated>2022-11-19T05:31:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://iamkate.com/code/tree-views/
+Comments URL: https://news.ycombinator.com/item?id=33667270
+Points: 327
+# Comments: 61]]></summary>
+        <author>
+            <name>divbzero</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Finished basics of HTML,CSS want to create a static website]]></title>
+        <id>https://news.ycombinator.com/item?id=33666831</id>
+        <link href="https://news.ycombinator.com/item?id=33666831"/>
+        <updated>2022-11-19T04:10:29.000Z</updated>
+        <summary type="html"><![CDATA[https://demo.w3layouts.com/demos_new/template_demo/28-07-2021/biodata-liberty-demo_Free/2002651968/web/index.html
+Teacher says that we(students) should be able to build this kind of websites now.(static only). But I'm not able to do so(i've not tried tbf, but IDK how to try because IDK how this site is being made) . can you give me some tips to cross this phase?
+Comments URL: https://news.ycombinator.com/item?id=33666831
+Points: 2
+# Comments: 5]]></summary>
+        <author>
+            <name>shivajikobardan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cornell University’s Digital Systems Design Course Is Taught on RP2040]]></title>
         <id>https://news.ycombinator.com/item?id=33663329</id>
@@ -9276,412 +9446,6 @@ Points: 259
 # Comments: 164]]></summary>
         <author>
             <name>taubek</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fancy Image Decorations: Masks and Advanced Hover Effects]]></title>
-        <id>https://css-tricks.com/?p=374194</id>
-        <link href="https://css-tricks.com/fancy-image-decorations-masks-and-advanced-hover-effects/"/>
-        <updated>2022-10-21T12:46:27.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to Part 2 of this three-part series! We are still decorating images without any extra elements and pseudo-elements. I hope you already took the time to digest Part 1 because we will continue working with a lot of gradients …
-Fancy Image Decorations: Masks and Advanced Hover Effects originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
-        <author>
-            <name>Temani Afif</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Futuristic CSS]]></title>
-        <id>https://smashingmagazine.com/2022/10/futuristic-css/</id>
-        <link href="https://smashingmagazine.com/2022/10/futuristic-css/"/>
-        <updated>2022-10-21T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, Sacha Greif tries to anticipate future CSS trends and takes a look at some far-fetched and futuristic CSS features that might one day make their way to the browser.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Sacha Greif)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Applying the 8 Golden Rules of User-Interface Design]]></title>
-        <id>https://dailydevlinks.com/?p=10927</id>
-        <link href="https://dailydevlinks.com/applying-the-8-golden-rules-of-user-interface-design/"/>
-        <updated>2022-10-21T11:33:00.000Z</updated>
-        <summary type="html"><![CDATA[UI]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top 2021 CSS Frameworks Report: Selectors]]></title>
-        <id>https://dailydevlinks.com/?p=10930</id>
-        <link href="https://dailydevlinks.com/top-2021-css-frameworks-report-selectors/"/>
-        <updated>2022-10-21T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UI Interactions & Animations Roundup]]></title>
-        <id>https://dailydevlinks.com/?p=10936</id>
-        <link href="https://dailydevlinks.com/ui-interactions-animations-roundup/"/>
-        <updated>2022-10-21T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[UI]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Responsive Animations for Every Screen Size and Device]]></title>
-        <id>https://dailydevlinks.com/?p=10933</id>
-        <link href="https://dailydevlinks.com/responsive-animations-for-every-screen-size-and-device/"/>
-        <updated>2022-10-21T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nobody Can Do This Alone with Caroline Cotto of Renewal Mill]]></title>
-        <id>https://www.printmag.com/?p=737513</id>
-        <link href="https://www.printmag.com/printcast/nobody-can-do-this-alone-with-caroline-cotto-of-renewal-mill/"/>
-        <updated>2022-10-21T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Co-Founder and COO on fighting food waste, the rising trend of upcycled food, and the future of sustainability.]]></summary>
-        <author>
-            <name>PRINT Magazine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Daily Heller: My Ode to MAD!]]></title>
-        <id>http://the-daily-heller-why-i-m-mad-about-the-design-biz-spoiler-alert</id>
-        <link href="https://www.printmag.com/daily-heller/the-daily-heller-why-i-m-mad-about-the-design-biz-spoiler-alert/"/>
-        <updated>2022-10-21T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[After relinquishing his dreams of becoming a child actor, Steven Heller discovered his true passion—in the pages of MAD magazine.]]></summary>
-        <author>
-            <name>Steven Heller</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Is there an alternative CloudWatch UI?]]></title>
-        <id>https://news.ycombinator.com/item?id=33286260</id>
-        <link href="https://news.ycombinator.com/item?id=33286260"/>
-        <updated>2022-10-21T09:43:00.000Z</updated>
-        <summary type="html"><![CDATA[I recently started using AWS for my new job, and am currently stuck with CloudWatch for logs. I used to dislike Graylog because of the clunky interface, but I just cannot extract anything from CloudWatch! My logs are there, I can view them but it's impossible to query them:
-- on the Log Streams page, the pagination doesn't work, I can only view page 1
-- if I do "Search all streams" with a basic filter (something like `foo = "bar"`) it doesn't return anything (I know there are some matches I can see them)
-- Logs Insights is limited to the last 3 hours of logs
-Is there an alternative CloudWatch interface somewhere that would allow me to finally query my logs? I don't care if it's a CLI, a heavy client or a webpage, I just want to query my logs...
-Comments URL: https://news.ycombinator.com/item?id=33286260
-Points: 14
-# Comments: 4]]></summary>
-        <author>
-            <name>thiht</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Productivity Tricks That Will Make Using Google Sheets Easier]]></title>
-        <id>https://news.ycombinator.com/item?id=33286086</id>
-        <link href="https://getfiledrop.com/google-sheets-productivity-tricks/"/>
-        <updated>2022-10-21T09:07:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://getfiledrop.com/google-sheets-productivity-tricks/
-Comments URL: https://news.ycombinator.com/item?id=33286086
-Points: 1
-# Comments: 1]]></summary>
-        <author>
-            <name>alexandru84</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Applying the 8 golden rules of UI Design]]></title>
-        <id>https://heydesigner.com/?p=66563</id>
-        <link href="https://heydesigner.com/applying-the-8-golden-rules-of-ui-design/"/>
-        <updated>2022-10-21T08:29:12.000Z</updated>
-        <summary type="html"><![CDATA[In this article, we’ll discuss Shneiderman’s eight golden rules, and supplement them with practical tips and examples.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blending modes]]></title>
-        <id>https://heydesigner.com/?p=66561</id>
-        <link href="https://heydesigner.com/blending-modes/"/>
-        <updated>2022-10-21T08:27:19.000Z</updated>
-        <summary type="html"><![CDATA[Do you just click different blending modes until it sort of looks right? Well, that probably won’t change after you read this but at least you probably won’t use Lighten or Darken again.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Work on what matters]]></title>
-        <id>https://heydesigner.com/?p=66559</id>
-        <link href="https://heydesigner.com/work-on-what-matters/"/>
-        <updated>2022-10-21T08:25:20.000Z</updated>
-        <summary type="html"><![CDATA[The only viable long-term bet on your career is to do work that matters.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dawani’s Law]]></title>
-        <id>https://seths.blog/?p=44056</id>
-        <link href="https://seths.blog/2022/10/dawanis-law/"/>
-        <updated>2022-10-21T08:25:00.000Z</updated>
-        <summary type="html"><![CDATA[“The number of people who say that Moore’s Law can’t continue doubles every 24 months.” Even if you don’t understand this at first, it’s worth a second to understand it. Moore’s Law, now nearly sixty years old, describes a simple engineering fact that has changed the life of everyone on the planet. The number of […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why we’re breaking up with CSS-in-JS]]></title>
-        <id>https://heydesigner.com/?p=66557</id>
-        <link href="https://heydesigner.com/why-were-breaking-up-with-css-in-js/"/>
-        <updated>2022-10-21T08:19:59.000Z</updated>
-        <summary type="html"><![CDATA[This post will delve into what originally attracted me to CSS-in-JS, and why I have decided to shift away from it.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Style queries]]></title>
-        <id>https://heydesigner.com/?p=66555</id>
-        <link href="https://heydesigner.com/style-queries/"/>
-        <updated>2022-10-21T08:09:53.000Z</updated>
-        <summary type="html"><![CDATA[Did you know CSS Container Queries are more than “check the size of a container”?]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Photoshop for text]]></title>
-        <id>8eXbX7zdTXH92Wkym</id>
-        <link href="https://stephanango.com/photoshop-for-text"/>
-        <updated>2022-10-21T05:22:01.000Z</updated>
-        <summary type="html"><![CDATA[When I think about editing images, a vast array of options come to mind: contrast, saturation, sharpen, blur, airbrush, clone stamp, etc.]]></summary>
-        <author>
-            <name>@kepano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Homepage history: Apple.com]]></title>
-        <id>zGfeRLsWeHvLnnJmJ</id>
-        <link href="https://webflow.com/blog/apple-homepage-history"/>
-        <updated>2022-10-21T05:20:33.000Z</updated>
-        <summary type="html"><![CDATA[Looking at over 25 years of Apple.com homepages to see how it has influenced a generation of designers and marketers.]]></summary>
-        <author>
-            <name>@webflow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adobe MAX Sneaks 2022: Every AI Experiment, and its Developer]]></title>
-        <id>hZh45C4YLsquXTmKj</id>
-        <link href="https://prototypr.io/post/adobe-ai-max-sneaks-2022"/>
-        <updated>2022-10-21T05:19:03.000Z</updated>
-        <summary type="html"><![CDATA[Visual examples of every AI experiment from Adobe MAX Sneaks 2022. See it all in action: from 'Project Vector Edge' to 'Project Made in the Shade'.]]></summary>
-        <author>
-            <name>@robdiazzz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When life gives you lemons, write better error messages]]></title>
-        <id>6fuwYHHizB3aGRA73</id>
-        <link href="https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f"/>
-        <updated>2022-10-21T05:18:17.000Z</updated>
-        <summary type="html"><![CDATA[When it comes to error handling, it truly is a team sport.]]></summary>
-        <author>
-            <name>@Medium</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nabla Isometric Color Font]]></title>
-        <id>a9hKhzNxMK3cHdXJB</id>
-        <link href="https://nabla.typearture.com/"/>
-        <updated>2022-10-21T04:32:33.000Z</updated>
-        <summary type="html"><![CDATA[Built using the new COLRv1 color-font format, allowing smooth gradients, sharp highlights and blended shadows to be captured inside a font-file.]]></summary>
-        <author>
-            <name>@typearture</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Holub on Patterns – Design Patterns in the Real World]]></title>
-        <id>https://news.ycombinator.com/item?id=33283145</id>
-        <link href="https://www.holub.com/patterns/"/>
-        <updated>2022-10-21T01:29:54.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.holub.com/patterns/
-Comments URL: https://news.ycombinator.com/item?id=33283145
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>auraham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS-Only Type Grinding: Casting Tokens (Sm|Md|etc.) into Useful Values]]></title>
-        <id>https://news.ycombinator.com/item?id=33280674</id>
-        <link href="https://www.bitovi.com/blog/css-only-type-grinding-casting-tokens-into-useful-values"/>
-        <updated>2022-10-20T21:04:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bitovi.com/blog/css-only-type-grinding-casting-tokens-into-useful-values
-Comments URL: https://news.ycombinator.com/item?id=33280674
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>clairity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design patterns in Go's database/SQL package (2019)]]></title>
-        <id>https://news.ycombinator.com/item?id=33280325</id>
-        <link href="https://eli.thegreenplace.net/2019/design-patterns-in-gos-databasesql-package/"/>
-        <updated>2022-10-20T20:36:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://eli.thegreenplace.net/2019/design-patterns-in-gos-databasesql-package/
-Comments URL: https://news.ycombinator.com/item?id=33280325
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>Bodacious1445</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Instant Articles, Proprietary Syndication, and a Web Built on User Fidelity Preferences]]></title>
-        <id>https://css-tricks.com/?p=374470</id>
-        <link href="https://css-tricks.com/instant-articles-proprietary-syndication-user-fidelity-preferences/"/>
-        <updated>2022-10-20T19:59:46.000Z</updated>
-        <summary type="html"><![CDATA[I love it when there’s a sense of synergy in the blogosphere. First, I caught Nick Heer’s coverage of Meta ending support for Instant Articles, its proprietary format for stripped-down performant news articles. He also compares it to the similar …
-Instant Articles, Proprietary Syndication, and a Web Built on User Fidelity Preferences originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
-        <author>
-            <name>Geoff Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We are breaking up with CSS-in-JS]]></title>
-        <id>https://news.ycombinator.com/item?id=33277064</id>
-        <link href="https://www.spotvirtual.com/blog/why-were-breaking-up-with-css-in-js?s=09"/>
-        <updated>2022-10-20T16:26:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.spotvirtual.com/blog/why-were-breaking-up-with-css-in-js?s=09
-Comments URL: https://news.ycombinator.com/item?id=33277064
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>longrod</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS-bin-bits: API for 16-bit binary operations in CSS only]]></title>
-        <id>https://news.ycombinator.com/item?id=33276827</id>
-        <link href="https://propjockey.github.io/css-bin-bits/"/>
-        <updated>2022-10-20T16:10:14.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://propjockey.github.io/css-bin-bits/
-Comments URL: https://news.ycombinator.com/item?id=33276827
-Points: 1
-# Comments: 1]]></summary>
-        <author>
-            <name>clairity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My Favorite Things: My Way or Our Way?]]></title>
-        <id>https://www.printmag.com/?p=737411</id>
-        <link href="https://www.printmag.com/creative-voices/my-favorite-things-my-way-or-our-way/"/>
-        <updated>2022-10-20T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Tom Guarriello wonders: are our individual choices really our own, or are we constantly following on subtle cues from each other?]]></summary>
-        <author>
-            <name>Tom Guarriello</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Use Case for Cascading Attribute Sheets]]></title>
-        <id>https://daverupert.com/2022/10/use-case-for-cascading-attribute-sheets/</id>
-        <link href="https://daverupert.com/2022/10/use-case-for-cascading-attribute-sheets/"/>
-        <updated>2022-10-20T15:57:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s been some years since Tab Atkins-Bittner first proposed Cascading Attribute Sheets. I had a situation come up which made me think about them again and I thought I’d share.
-On my site I have a handful of blog posts which have a title and/or text content in different languages. As someone who speaks a handful of languages, I like incorporating different languages, phrases, and untranslatable words into my day-to-day blogging. 「手答え」(tegotae) is an example of one of those words. It directly translates to “hand response” but is sometimes translated as “haptic feedback” or “game feel” when used in a video game context.
-One problem with my use of other languages is that I’m lacking proper lang attributes on the foreign text, which makes it inaccessible. I’ve started brainstorming ways out of…]]></summary>
-        <author>
-            <name>daverupert.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design Thinking for Product Launches: Minimal Viable Discovery]]></title>
-        <id>https://news.ycombinator.com/item?id=33276440</id>
-        <link href="https://esteininger.medium.com/design-thinking-for-product-launches-minimal-viable-discovery-8105c831273a"/>
-        <updated>2022-10-20T15:44:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://esteininger.medium.com/design-thinking-for-product-launches-minimal-viable-discovery-8105c831273a
-Comments URL: https://news.ycombinator.com/item?id=33276440
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>Beefin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bin-Packing Algorithm for CSS Sprites]]></title>
-        <id>https://news.ycombinator.com/item?id=33276270</id>
-        <link href="https://codeincomplete.com/articles/bin-packing/"/>
-        <updated>2022-10-20T15:32:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://codeincomplete.com/articles/bin-packing/
-Comments URL: https://news.ycombinator.com/item?id=33276270
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>ALLTaken</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Formal Methods of Software Design: Full Course by Eric Hehner]]></title>
-        <id>https://news.ycombinator.com/item?id=33275855</id>
-        <link href="http://www.cs.toronto.edu/~hehner/FMSD/"/>
-        <updated>2022-10-20T15:06:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://www.cs.toronto.edu/~hehner/FMSD/
-Comments URL: https://news.ycombinator.com/item?id=33275855
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>bmer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What's the difference between CSS “em” and “rem”?]]></title>
-        <id>https://news.ycombinator.com/item?id=33275657</id>
-        <link href="https://news.ycombinator.com/item?id=33275657"/>
-        <updated>2022-10-20T14:53:39.000Z</updated>
-        <summary type="html"><![CDATA[I've read this much about this:
-1) Learning Web Design
-Book by Jennifer Niederst Robbins
-1 rem= 1* browser's default font size
-1 em= depends on the element type, for h1 it's something, for h2, it's sth else.
-2) https://css-tricks.com/confused-rem-em/
->While em is relative to the font-size of its direct or nearest parent, rem is only relative to the html (root) font-size.
-I get the rem part, but not the em part. What does it mean?
-3) https://blog.logrocket.com/using-em-vs-rem-css/#:~:text=Let%27s%20get%20started!-,What%20are%20em%20and%20rem%20and%20why%20use%20them%3F,relative%20to%20a%20set%20value.
-I've read this as well but since I'm only knowing html and starting to learn css, I could not get most of the things written there.
-4) https://www.youtube.com/watch?v=tlRLEsZa89M
-I watch this short video. It does makes things somewhat clear about "inherits from parent".
-Anyway, I am eager to learn the crux of "em". Maybe with some code examples, or figures(if it's lying anywhere in internet)
-Comments URL: https://news.ycombinator.com/item?id=33275657
-Points: 2
-# Comments: 2]]></summary>
-        <author>
-            <name>Hippoly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What’s New In DevTools: Halloween Edition 🎃]]></title>
-        <id>https://smashingmagazine.com/2022/10/devtools-updates-halloween-edition/</id>
-        <link href="https://smashingmagazine.com/2022/10/devtools-updates-halloween-edition/"/>
-        <updated>2022-10-20T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, Patrick Brosset gives an update on the most impactful new features that are now available in DevTools, across Firefox, Chrome, Safari, and Edge.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Patrick Brosset)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arrows – a small experimental puzzle game design]]></title>
-        <id>https://news.ycombinator.com/item?id=33274027</id>
-        <link href="https://tsk.bearblog.dev/arrows-a-small-experimental-puzzle-game/"/>
-        <updated>2022-10-20T13:01:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tsk.bearblog.dev/arrows-a-small-experimental-puzzle-game/
-Comments URL: https://news.ycombinator.com/item?id=33274027
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>memorable</name>
         </author>
     </entry>
 </feed>
