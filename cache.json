@@ -35,6 +35,16 @@
       "siteUrl": "https://addyosmani.com",
       "articles": [
         {
+          "id": "https://addyosmani.com/blog/debugging-tactics/",
+          "author": null,
+          "description": "Debugging is the process of finding and fixing problems in software so that it functions as intended",
+          "link": "https://addyosmani.com/blog/debugging-tactics/",
+          "publishedOn": "2022-11-28T00:00:00.000Z",
+          "wordCount": 1638,
+          "title": "Debugging Tactics",
+          "imageUrl": "https://addyosmani.com/assets/images/debugging-tactics-social.jpeg"
+        },
+        {
           "id": "https://addyosmani.com/blog/high-leverage-activites/",
           "author": null,
           "description": "Leverage = impact produced / time invested. It is the ability to get more done with less effort, time or money.",
@@ -134,7 +144,7 @@
     {
       "title": "Scope for business",
       "feedUrl": "https://bighack.org/feed/",
-      "siteUrl": "https://business.scope.org.uk",
+      "siteUrl": "https://business.scope.org.uk/",
       "articles": [
         {
           "id": "https://scope4b.devchd.com/?p=5674",
@@ -353,6 +363,16 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=375273",
+          "author": "Daniel Schwarz",
+          "description": "HTML lists are boring. They don’t do much, so we don’t really think about them despite how widely used they are. And we’re still able to do the same things we’ve always done to customize them, like removing markers, reversing …\nNewer Things to Know About Good Ol’ HTML Lists originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/newer-things-to-know-about-good-ol-html-lists/",
+          "publishedOn": "2022-11-28T14:05:11.000Z",
+          "wordCount": 2148,
+          "title": "Newer Things to Know About Good Ol’ HTML Lists",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/375273"
+        },
+        {
           "id": "https://css-tricks.com/?p=375343",
           "author": "Geoff Graham",
           "description": "Well, color me this! I was griping to myself last night about just how gosh dang hard it is to read text messages in Apple Messages. You know, not the blue bubbles that you get when messaging other iPhone users. …\nApple Messages & Color Contrast originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -529,6 +549,36 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com/",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=11159",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://dailydevlinks.com/designing-the-future-of-retail/",
+          "publishedOn": "2022-11-28T12:33:00.000Z",
+          "wordCount": 2966,
+          "title": "Designing the future of retail",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=11165",
+          "author": "Adam Marsden",
+          "description": "HTML",
+          "link": "https://dailydevlinks.com/you-dont-need-html/",
+          "publishedOn": "2022-11-28T12:30:00.000Z",
+          "wordCount": 2968,
+          "title": "You Don’t Need HTML",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=11162",
+          "author": "Adam Marsden",
+          "description": "JS",
+          "link": "https://dailydevlinks.com/state-of-js-2022/",
+          "publishedOn": "2022-11-28T12:30:00.000Z",
+          "wordCount": 2968,
+          "title": "State of JS 2022",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
+        },
         {
           "id": "https://dailydevlinks.com/?p=11156",
           "author": "Adam Marsden",
@@ -1091,16 +1141,6 @@
           "wordCount": 1871,
           "title": "Vibe Check №22",
           "imageUrl": null
-        },
-        {
-          "id": "https://daverupert.com/2022/10/the-story-of-this-empty-box/",
-          "author": null,
-          "description": "I’ve spent the last week or so cleaning, purging, and reorganizing my office. I had encapsulated myself in a micro-hoarder situation in the shed which made it difficult to get focused. Clutter, as I’m learning, is adversarial to my distractible brain. One task that’s been looming over my head was this box of file folders.\nThis box of file folders was a collection of all expenses and tax documents from the years 2012-2016. And I mean everything. Every gas, electric, internet, and credit card bill that came to my house. Every business expense. Every health expense. Every mortgage payment. The reason I hoarded all these documents? Self-employment. All those numbers factor into my tax bill every year, so I kept every physical document that was relevant. America glamorizes starting your own bus…",
-          "link": "https://daverupert.com/2022/10/the-story-of-this-empty-box/",
-          "publishedOn": "2022-10-29T17:06:00.000Z",
-          "wordCount": 802,
-          "title": "The story of this empty box",
-          "imageUrl": "https://cdn.daverupert.com/photos/filebox.jpg"
         }
       ]
     },
@@ -1152,6 +1192,16 @@
       "feedUrl": "https://developer.chrome.com/feeds/blog.xml",
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
+        {
+          "id": "https://developer.chrome.com/en/blog/screen-sharing-improvements-in-chrome-109/",
+          "author": null,
+          "description": "Web apps can already use getDisplayMedia() to capture tabs, windows or screens as a MediaStream. From Chrome 109, you can take advantage of the following improvements:\nWhen screen sharing starts, Conditional Focus allows the capturing web app to control whether the browser focuses the captured tab or window, or whether the capturing tab remains active.\nThe suppressLocalAudioPlayback option controls whether the audio playing in a tab would be played out of the user’s local speakers.\n# Conditional Focus\nUsing Conditional Focus, web apps can now control whether the captured tab or window will be focused when capture starts, or whether the capturing page should remain in focus.\nconst controller = new CaptureController();\n// Prompt the user to share a tab, a window or a screen.\nconst stream =\n …",
+          "link": "https://developer.chrome.com/en/blog/screen-sharing-improvements-in-chrome-109/",
+          "publishedOn": "2022-11-28T00:00:00.000Z",
+          "wordCount": 807,
+          "title": "Screen sharing improvements in Chrome 109",
+          "imageUrl": "https://wd.imgix.net/image/vvhSqZboQoZZN9wBvoXq72wzGAf1/1gYV3BbeqdYWvolyzP0E.jpg?auto=format&w=1521"
+        },
         {
           "id": "https://developer.chrome.com/en/blog/devtools-tips-1/",
           "author": null,
@@ -1237,6 +1287,46 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=66828",
+          "author": "Travis",
+          "description": "Broadly applicable skills for digital creation.",
+          "link": "https://heydesigner.com/foundational-skills/",
+          "publishedOn": "2022-11-28T05:56:59.000Z",
+          "wordCount": 185,
+          "title": "Foundational skills",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66826",
+          "author": "Travis",
+          "description": "Designing with empathy and meaning. Challenge the way you think and serve access constrained users with these cards.",
+          "link": "https://heydesigner.com/spotify-performance-cards/",
+          "publishedOn": "2022-11-28T05:56:52.000Z",
+          "wordCount": 199,
+          "title": "Spotify performance cards",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66824",
+          "author": "Travis",
+          "description": "Often, the only difference between what’s possible and what’s not is that the impossible things just have not been done yet. To do the impossible things, first, go ahead and try.",
+          "link": "https://heydesigner.com/how-to-do-impossible-things/",
+          "publishedOn": "2022-11-28T05:56:44.000Z",
+          "wordCount": 205,
+          "title": "How to do impossible things",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=66822",
+          "author": "Travis",
+          "description": "Design token dreams have turned to reality across most design systems. Yet some teams now see a years-old inventory as out of step with how naming design tokens has evolved.",
+          "link": "https://heydesigner.com/reimagining-a-token-taxonomy/",
+          "publishedOn": "2022-11-28T05:56:36.000Z",
+          "wordCount": 205,
+          "title": "Reimagining a token taxonomy",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=66817",
           "author": "Travis",
@@ -3763,66 +3853,6 @@
           "wordCount": 6445,
           "title": "Web Design: The First 100 Years",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33390423",
-          "author": "b20000",
-          "description": "I'm looking for books or online resources showing best practices in use of atomics, barriers and locks in the design of multithreaded realtime applications in C++. I am specifically looking for actual implementation examples and architecture examples and not just covering the basic theory or use.\nBackground/context:\nI am working on an application where I need to share various datastructures between threads. I've been using atomics but as the complexity grows it becomes hard to review code for \"correctness\". My goal is to avoid holding locks for long periods of time. Since this is a realtime application I also want to avoid waiting. So lock-free, wait-free is preferred.\nComments URL: https://news.ycombinator.com/item?id=33390423\nPoints: 2\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=33390423",
-          "publishedOn": "2022-10-30T02:29:53.000Z",
-          "wordCount": 190,
-          "title": "Ask HN: Books covering best practices in advanced multithreaded design in C++",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33388160",
-          "author": "jdcampolargo",
-          "description": "Article URL: https://www.fossilhunters.xyz/evolutionary-theodicy/unintelligent-design.html\nComments URL: https://news.ycombinator.com/item?id=33388160\nPoints: 1\n# Comments: 0",
-          "link": "https://www.fossilhunters.xyz/evolutionary-theodicy/unintelligent-design.html",
-          "publishedOn": "2022-10-29T21:35:00.000Z",
-          "wordCount": 3322,
-          "title": "Unintelligent Design",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33388150",
-          "author": "fdb",
-          "description": "Article URL: https://humanebydesign.com/\nComments URL: https://news.ycombinator.com/item?id=33388150\nPoints: 3\n# Comments: 0",
-          "link": "https://humanebydesign.com/",
-          "publishedOn": "2022-10-29T21:33:50.000Z",
-          "wordCount": 63,
-          "title": "Humane by Design",
-          "imageUrl": "https://humanebydesign.com/images/social/social_og.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33387477",
-          "author": "osigurdson",
-          "description": "Article URL: https://docs.google.com/document/d/e/2PACX-1vTaaSWyhaPyueEAn_lHVopNgfkkUAMCox5H-XhCgdG7JiKvAlDKBmKkTGV-9qWiP7SRkewPfPAnX_j3/pub\nComments URL: https://news.ycombinator.com/item?id=33387477\nPoints: 5\n# Comments: 0",
-          "link": "https://docs.google.com/document/d/e/2PACX-1vTaaSWyhaPyueEAn_lHVopNgfkkUAMCox5H-XhCgdG7JiKvAlDKBmKkTGV-9qWiP7SRkewPfPAnX_j3/pub",
-          "publishedOn": "2022-10-29T20:01:16.000Z",
-          "wordCount": 12273,
-          "title": "Scotiabank's Deliberately Misleading UI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33387052",
-          "author": "waprin",
-          "description": "Article URL: https://paul.copplest.one/blog/design.html\nComments URL: https://news.ycombinator.com/item?id=33387052\nPoints: 2\n# Comments: 1",
-          "link": "https://paul.copplest.one/blog/design.html",
-          "publishedOn": "2022-10-29T19:10:18.000Z",
-          "wordCount": 2248,
-          "title": "Design Tips for Developers (2020)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33385075",
-          "author": "Tomte",
-          "description": "Article URL: http://norvig.com/experiment-design.html\nComments URL: https://news.ycombinator.com/item?id=33385075\nPoints: 1\n# Comments: 0",
-          "link": "http://norvig.com/experiment-design.html",
-          "publishedOn": "2022-10-29T15:48:48.000Z",
-          "wordCount": 8047,
-          "title": "Warning Signs in Experimental Design and Interpretation",
-          "imageUrl": null
         }
       ]
     },
@@ -4310,36 +4340,6 @@
           "wordCount": 573,
           "title": "Ask HN: Is speed of delivery the most important metric in productivity?",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33392212",
-          "author": "brenzenitho",
-          "description": "I'm an undergrad at cal who's trying to get better at React and building apps. I'd love any feedback on the general UI and user experience, new to coding products!\nIf you don't want to download it, but still want to give me feedback, app demo vid & pictures in official launch https://tinyurl.com/reactlaunch\nPlease let me know your thoughts, critical or supportive! Looking to learn\nComments URL: https://news.ycombinator.com/item?id=33392212\nPoints: 24\n# Comments: 13",
-          "link": "https://chrome.google.com/webstore/detail/ihabit/ngbhaiedpgcjihgkkanmacofdekipmnd",
-          "publishedOn": "2022-10-30T07:57:24.000Z",
-          "wordCount": 1388,
-          "title": "Show HN: Hyper minimalist habit tracker for Chrome",
-          "imageUrl": "https://lh3.googleusercontent.com/VtEVV-a-IZN962oVW5F4kbUAXwPeHKv4jJDs8ZL02Nynubc6gDFDnsN-G2JTRNDCtVW-63IU7a63eScQzcVLZoTI2C8=w128-h128-e365-rj-sc0x00ffffff"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33385166",
-          "author": "Akronymus",
-          "description": "Article URL: http://www.cs.yale.edu/publications/techreports/tr1049.pdfoECAwQAQ&usg=AOvVaw1_htlbrJn0_62lYi-hlNwa\nComments URL: https://news.ycombinator.com/item?id=33385166\nPoints: 1\n# Comments: 0",
-          "link": "http://www.cs.yale.edu/publications/techreports/tr1049.pdfoECAwQAQ&usg=AOvVaw1_htlbrJn0_62lYi-hlNwa",
-          "publishedOn": "2022-10-29T15:55:41.000Z",
-          "wordCount": null,
-          "title": "An Experiment in Software Prototyping Productivity (1994)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33385011",
-          "author": "klelatti",
-          "description": "Article URL: https://thechipletter.substack.com/p/adam-tooze-on-writing-and-productivity\nComments URL: https://news.ycombinator.com/item?id=33385011\nPoints: 1\n# Comments: 0",
-          "link": "https://thechipletter.substack.com/p/adam-tooze-on-writing-and-productivity",
-          "publishedOn": "2022-10-29T15:42:56.000Z",
-          "wordCount": 1725,
-          "title": "Adam Tooze on Writing and Productivity",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8da875b1-3d33-4aa0-a84f-5b36383a12c6_1633x1036.jpeg"
         }
       ]
     },
@@ -5307,26 +5307,6 @@
           "wordCount": 1483,
           "title": "Optimizing images with the HTML <picture> tag",
           "imageUrl": "https://jfhr.me/assets/apple-icon-180.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33392379",
-          "author": "homarp",
-          "description": "Article URL: http://chartscss.org/\nComments URL: https://news.ycombinator.com/item?id=33392379\nPoints: 279\n# Comments: 71",
-          "link": "http://chartscss.org/",
-          "publishedOn": "2022-10-30T08:26:23.000Z",
-          "wordCount": 186,
-          "title": "Charts.css: CSS data visualization framework",
-          "imageUrl": "https://chartscss.org/assets/img/logo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33384524",
-          "author": "Tomte",
-          "description": "Article URL: https://www.webdesignmuseum.org/web-design-history/tim-berners-lee-published-a-document-called-html-tags-1991\nComments URL: https://news.ycombinator.com/item?id=33384524\nPoints: 2\n# Comments: 0",
-          "link": "https://www.webdesignmuseum.org/web-design-history/tim-berners-lee-published-a-document-called-html-tags-1991",
-          "publishedOn": "2022-10-29T14:51:46.000Z",
-          "wordCount": 606,
-          "title": "Tim Berners-Lee published a document called HTML Tags – 1991",
-          "imageUrl": "https://www.webdesignmuseum.org/uploaded/web-design-history/the-first-html-tags.png"
         }
       ]
     },
@@ -5404,6 +5384,16 @@
       "siteUrl": "https://remysharp.com",
       "articles": [
         {
+          "id": "automatically-uploading-screenshots-using-my-own-tools",
+          "author": null,
+          "description": "Often I'll want to share a screenshot and over the years I've used a number of different tools, but I'm always beholden to when they eventually become unsupported or the company \"pivots\" and the pricing model goes silly. So after all this time, I finally worked out how to roll my own.\nForewarning though, this is MacOS specific, but I'm sure same thinking can be applied to other operating systems.",
+          "link": "https://remysharp.com/2022/11/28/automatically-uploading-screenshots-using-my-own-tools",
+          "publishedOn": "2022-11-28T00:00:00.000Z",
+          "wordCount": 1430,
+          "title": "Automatically uploading screenshots using my own tools [blog]",
+          "imageUrl": "https://remysharp.com/images/cards/og/9-8.jpg"
+        },
+        {
           "id": "ffconf-2022-the-return",
           "author": null,
           "description": "ffconf is now behind me and it was, as it always is, an amazing experience. I've tried to capture some of what it was like for me, but I suspect words will mostly fail me in the long run.\nStill, here's my own experience of: The Return.",
@@ -5420,6 +5410,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=43305",
+          "author": "Seth Godin",
+          "description": "Try to fit in every general and conceptual detail when describing a very big concept and it’s likely that we’ll be confused. When you’re intent on explaining all of it, we glaze over. Consider switching gears and sharing the most specific possible example with impact and humanity instead. If we’re sold on where you’re going, […]",
+          "link": "https://seths.blog/2022/11/vast-vs-specific/",
+          "publishedOn": "2022-11-28T11:01:00.000Z",
+          "wordCount": 1126,
+          "title": "Vast vs specific",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=44259",
           "author": "Seth Godin",
@@ -5719,16 +5719,6 @@
           "wordCount": 1118,
           "title": "Circus peanuts don’t contain nuts",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43121",
-          "author": "Seth Godin",
-          "description": "History is filled with examples of people who made errors in judgment. The executives at Decca that turned down the Beatles, the CEO at Digital who said that no one would ever need to have a computer in their home, and the reviewers that didn’t like the movie 2001. And of course, the creators that […]",
-          "link": "https://seths.blog/2022/10/the-opportunity-to-be-wrong/",
-          "publishedOn": "2022-10-30T08:42:00.000Z",
-          "wordCount": 1138,
-          "title": "The opportunity to be wrong",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
         }
       ]
     },
@@ -5737,6 +5727,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "WagfZAN2MvAXstpnK",
+          "author": "@FastCompany",
+          "description": "In terms of sheer impact, the like button was one of the most successful pieces of code ever shipped.",
+          "link": "https://www.fastcompany.com/90780140/the-inside-story-of-how-facebook-designed-the-like-button-and-made-social-media-into-a-popularity-contest",
+          "publishedOn": "2022-11-28T07:35:54.000Z",
+          "wordCount": null,
+          "title": "How Facebook designed the like button",
+          "imageUrl": null
+        },
+        {
+          "id": "BpW88r3JdD7BsaY4c",
+          "author": "@vaisakh_pradeep",
+          "description": "Figma designed icons for niche segments like VR, AR, Interplanetary Travel, AI, Crypto, Blockchain, Cyborg, Future Transportation and Sustainability.",
+          "link": "https://futicons.com/",
+          "publishedOn": "2022-11-28T07:31:54.000Z",
+          "wordCount": 44,
+          "title": "Futicons - Icons for the future",
+          "imageUrl": null
+        },
+        {
+          "id": "XH6dwp5ymsdPGABXk",
+          "author": "@spotifydesign",
+          "description": "Challenge the way you think and serve access constrained users with these cards.",
+          "link": "https://spotify.design/article/performance-cards-designing-with-empathy-and-meaning",
+          "publishedOn": "2022-11-28T07:29:12.000Z",
+          "wordCount": 3501,
+          "title": "Performance Cards: Designing with Empathy and Meaning",
+          "imageUrl": "https://images.ctfassets.net/c1zhnszcah7h/1oqIt4961AMm6Miwn7CXur/afaf03f7f2dd7b14a86ad9d06b327ef5/Square_Performance_Cards_-_Header_2x.png"
+        },
+        {
+          "id": "WMZkvr8G8uBWzyz3f",
+          "author": "@uxdesigncc",
+          "description": "The world’s largest language learning platform recently rolled out a major update to its 50M active users.",
+          "link": "https://uxdesign.cc/down-the-wrong-path-the-disaster-of-the-latest-duolingo-ui-update-a4cdd1e6ea1c?sk=8ee645eeb7d363bb07c88ee746b5f651",
+          "publishedOn": "2022-11-28T06:59:55.000Z",
+          "wordCount": 3697,
+          "title": "Down the wrong path: the disaster of the latest Duolingo UI update",
+          "imageUrl": "https://miro.medium.com/max/1200/1*oTKA5OQ6xSskatSBLveFnw.jpeg"
+        },
+        {
+          "id": "2JPMqC8wWXwCyuh6E",
+          "author": "@Codrops",
+          "description": "The latest collection of the most creative and inspiring demos and code experiments from around the web.",
+          "link": "https://tympanus.net/codrops/2022/11/26/awesome-demos-roundup-22/",
+          "publishedOn": "2022-11-28T06:58:34.000Z",
+          "wordCount": 945,
+          "title": "Awesome Demos Roundup #22",
+          "imageUrl": "https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2022/11/demos22.jpg"
+        },
         {
           "id": "XCCceYNEcfQWjjzFZ",
           "author": null,
@@ -6757,6 +6797,16 @@
       "siteUrl": "https://utopia.fyi/",
       "articles": [
         {
+          "id": "https://utopia.fyi/blog/designing-a-utopian-layout-grid",
+          "author": "dev@clearleft.com (James Gilyead)",
+          "description": "This post aims to contextualise the Utopia fluid grid calculator which helps you to define a layout grid by clicking a few buttons.",
+          "link": "https://utopia.fyi/blog/designing-a-utopian-layout-grid",
+          "publishedOn": "2022-11-28T00:00:00.000Z",
+          "wordCount": 4084,
+          "title": "Designing a Utopian layout grid: Working with fluid responsive values in a static design tool.",
+          "imageUrl": "https://utopia.fyi/og.png"
+        },
+        {
           "id": "https://utopia.fyi/blog/get-started-with-utopia-figma-plugins",
           "author": "dev@clearleft.com (James & Trys)",
           "description": "How to use Utopian Figma plugins",
@@ -6839,6 +6889,16 @@
       "feedUrl": "https://www.nytimes.com/svc/collections/v1/publish/http://www.nytimes.com/topic/subject/design/rss.xml",
       "siteUrl": "https://www.nytimes.com/topic/subject/design",
       "articles": [
+        {
+          "id": "https://www.nytimes.com/2022/11/28/t-magazine/london-design-art-deco-modernist.html",
+          "author": "Aimee Farrell and Lee Whittaker",
+          "description": "Inside a nondescript building, Child Studio has created a hybrid work space influenced by Art Deco details and Yves Saint Laurent’s Paris salon.",
+          "link": "https://www.nytimes.com/2022/11/28/t-magazine/london-design-art-deco-modernist.html",
+          "publishedOn": "2022-11-28T12:00:14.000Z",
+          "wordCount": null,
+          "title": "A Modernist London Refuge Drawn From Europe’s Aesthetic Past",
+          "imageUrl": null
+        },
         {
           "id": "https://www.nytimes.com/2022/11/26/style/home-decor-design-sight-unseen.html",
           "author": "Aileen Kwun",
@@ -7096,6 +7156,26 @@
       "feedUrl": "https://www.printmag.com/feed/",
       "siteUrl": "https://www.printmag.com",
       "articles": [
+        {
+          "id": "https://www.printmag.com/?p=739538",
+          "author": "Maria Popova",
+          "description": "Maria Popova on atomic spirituality, featuring an animated poetry collaboration by Marissa Davis, Lottie Kingslake, and Toshi Reagon.",
+          "link": "https://www.printmag.com/creative-voices/monday-marginalian-an-ode-to-our-primeval-bond-with-nature-and-each-other/",
+          "publishedOn": "2022-11-28T15:00:00.000Z",
+          "wordCount": 2130,
+          "title": "Monday Marginalian: An Ode to Our Primeval Bond with Nature and Each Other",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/11/singularity-scaled-1.jpeg?fit=1200%2C630&ssl=1"
+        },
+        {
+          "id": "https://www.printmag.com/?p=739196",
+          "author": "Steven Heller",
+          "description": "Jeff Scher does not take his films to the digital limit—he intuitively knows where to draw the line in the sand, as he showcases in his video for Tom Petty’s “Call Me the Breeze.”",
+          "link": "https://www.printmag.com/daily-heller/the-daily-heller-art-film-music-jeff-schers-artfilmusic/",
+          "publishedOn": "2022-11-28T12:00:00.000Z",
+          "wordCount": 2021,
+          "title": "The Daily Heller: Art + Film + Music = Jeff Scher’s Artful Animation",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/11/IMG_3390-1-scaled.jpg?fit=1200%2C668&ssl=1"
+        },
         {
           "id": "https://www.printmag.com/?p=739429",
           "author": "Sean Childers-Gray",
@@ -7832,7 +7912,18 @@
       "title": "Sara Soueidan – Blog",
       "feedUrl": "https://www.sarasoueidan.com/blog/index.xml",
       "siteUrl": "https://sarasoueidan.com/blog-feed.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://sarasoueidan.com/blog/testing-environment-setup/",
+          "author": null,
+          "description": "When you’re designing and developing for accessibility, performing manual testing using a screen reader is important to catch and fix accessibility and usability issues that cannot be caught by automated accessibility checkers. You can catch the majority of issues by performing testing using the screen readers that your users rely on the most.\nIf you haven’t already, you you want to set up a screen reader testing environment on your computer, and invest a little learning time to get acquainted with the most relevant screen reader commands and shortcuts that you will need to perfom basic manual testing with a screen reader on a day-to-day basis.\nIn this chapter, we will walk through setting up a screen reader testing environment on your computer. We will discuss software options you have to…",
+          "link": "https://sarasoueidan.com/blog/testing-environment-setup/",
+          "publishedOn": "2022-11-24T00:00:00.000Z",
+          "wordCount": 2832,
+          "title": "Setting up a screen reader testing environment on your computer",
+          "imageUrl": "/assets/images/logo/sara-illustration.png"
+        }
+      ]
     },
     {
       "title": "Scott O’Hara - Accessibility engineer, UX developer and designer",
@@ -8088,6 +8179,16 @@
       "feedUrl": "https://www.zachleat.com/web/feed/",
       "siteUrl": "https://www.zachleat.com/web/feed/",
       "articles": [
+        {
+          "id": "https://www.zachleat.com/web/state-of-eleventy-2022/",
+          "author": null,
+          "description": "We did it in 2020. We did it in 2021. It’s that time again! The newest installment of Eleventy in Two Minutes premiered at Jamstack Conf 2022.\n\nWatch The State of Eleventy in Two Minutes (2022) on YouTube.\nWhat’s New in 2022? #\nSo many things! But here are the big highlights:\nThe 1.0 Stable Release shipped early in the year and 2.0 is on the horizon!\nEleventy is now sponsored full time by Netlify!\nAdd your own Custom Template Syntax (e.g. Sass!)\nTry the new WebC templating format for server-rendered Web Components!\nRead about Eleventy’s renowned Build and Site Performance\n\nEleventy Leaderboards\nHow to Deploy Eleventy projects to the Web\n1.57 KB of (optional) client-side JavaScript across the entire ecosystem of official Eleventy core, plugins, and utilities.\nFour Million npm downloads\nNew plugins:\n\n<is-land> for Partial Hydration and Islands Architecture\nInternationalization (i18n) plugin\nEdge plugin to dynamically render pages on the Edge\nHelp support Eleventy!",
+          "link": "https://www.zachleat.com/web/state-of-eleventy-2022/",
+          "publishedOn": "2022-11-28T00:00:00.000Z",
+          "wordCount": 964,
+          "title": "The State of Eleventy (2022) in Two Minutes",
+          "imageUrl": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.zachleat.com%2Fopengraph%2Fweb%2Fstate-of-eleventy-2022%2F/opengraph/_z202211_0/"
+        },
         {
           "id": "https://www.zachleat.com/web/state-of-js/",
           "author": null,
