@@ -2,10 +2,302 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2022-11-29T00:43:48.068Z</updated>
+    <updated>2022-11-30T00:43:32.625Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Destined for the Dump, Construction Waste Gets New Life in the Garden]]></title>
+        <id>https://www.nytimes.com/2022/11/29/business/architecture-mock-up-waste-reuse.html</id>
+        <link href="https://www.nytimes.com/2022/11/29/business/architecture-mock-up-waste-reuse.html"/>
+        <updated>2022-11-29T17:56:07.000Z</updated>
+        <summary type="html"><![CDATA[A new program to reuse architectural mock-ups in community gardens is gaining interest as a way to keep them out of the landfill.]]></summary>
+        <author>
+            <name>Jane Margolies</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to capture single frame from an HTML video]]></title>
+        <id>https://daverupert.com/2022/11/html5-video-capture-frame-still/</id>
+        <link href="https://daverupert.com/2022/11/html5-video-capture-frame-still/"/>
+        <updated>2022-11-29T15:47:00.000Z</updated>
+        <summary type="html"><![CDATA[You ever want to grab a still frame from a video you’re watching online? Here’s a trick I use from time to time to get video stills from HTML <video> and avoid all the fussy hover-activated UI bits.
+Pause the video at the timestamp you want
+Open the DevTools > Console
+Target the right context and paste this in the console…
+
+const v = document.querySelector('video')
+let c = document.createElement('canvas')
+c.height = v.videoHeight || parseInt(v.style.height)
+c.width = v.videoWidth || parseInt(v.style.width)
+const ctx = c.getContext('2d')
+ctx.drawImage(v, 0, 0)
+const wnd = window.open('')
+wnd.document.write(`<img src="${c.toDataURL()}"/>`)
+
+
+This will open a new page with an image captured from the current timestamp. Then you can right-click > save as… or drag it to your desktop, whatever you want to do. Enjoy!]]></summary>
+        <author>
+            <name>daverupert.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More Than “Slapping Paint on a Website”]]></title>
+        <id>https://css-tricks.com/?p=375190</id>
+        <link href="https://css-tricks.com/more-than-slapping-paint-on-a-website/"/>
+        <updated>2022-11-29T15:03:20.000Z</updated>
+        <summary type="html"><![CDATA[I’m a sucker for anything about front-end job titles.
+Anselm Hannemann:
+CSS evolved and we’re beyond the point where everyone can just do it as a side interest. We all can learn it and build amazing stuff with it, 
+…
+More Than “Slapping Paint on a Website” originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Matters to Erin Diehl]]></title>
+        <id>https://www.printmag.com/?p=738851</id>
+        <link href="https://www.printmag.com/what-matters/what-matters-to-erin-diehl/"/>
+        <updated>2022-11-29T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The improve it! Founder on recovering from people pleasing, her ideal afterlife, and 'Double Dare' as a formative influence.]]></summary>
+        <author>
+            <name>Debbie Millman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Make Waves With Mitch Proctor’s Sunny, Free Typeface HC Gleam]]></title>
+        <id>https://www.printmag.com/?p=739576</id>
+        <link href="https://www.printmag.com/type-tuesday/make-waves-with-mitch-proctors-sunny-free-typeface-hc-gleam/"/>
+        <updated>2022-11-29T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This playful, summery font takes inspiration from "the guiding light all around us."]]></summary>
+        <author>
+            <name>Chloe Gordon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Performance Cards: Designing with Empathy and Meaning]]></title>
+        <id>https://dailydevlinks.com/?p=11168</id>
+        <link href="https://dailydevlinks.com/performance-cards-designing-with-empathy-and-meaning/"/>
+        <updated>2022-11-29T12:33:00.000Z</updated>
+        <summary type="html"><![CDATA[Design]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Newer Things to Know About Good Ol’ HTML Lists]]></title>
+        <id>https://dailydevlinks.com/?p=11174</id>
+        <link href="https://dailydevlinks.com/newer-things-to-know-about-good-ol-html-lists/"/>
+        <updated>2022-11-29T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[HTML]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS :is(),:where(),:has() and :not()]]></title>
+        <id>https://dailydevlinks.com/?p=11171</id>
+        <link href="https://dailydevlinks.com/css-iswherehas-and-not/"/>
+        <updated>2022-11-29T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Daily Heller: Three Visionaries of Nascent Data Viz Revealed]]></title>
+        <id>https://www.printmag.com/?p=739382</id>
+        <link href="https://www.printmag.com/daily-heller/the-daily-heller-three-visionaries-of-data-viz/"/>
+        <updated>2022-11-29T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[San Francisco’s Visionary Press has launched a trio of books celebrating a set of surprise heroes.]]></summary>
+        <author>
+            <name>Steven Heller</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In Belgium, a Home That Celebrates the Elegance of Utility]]></title>
+        <id>https://www.nytimes.com/2022/11/29/t-magazine/michael-verheyden-saartje-vereecke-genk-belgium-house.html</id>
+        <link href="https://www.nytimes.com/2022/11/29/t-magazine/michael-verheyden-saartje-vereecke-genk-belgium-house.html"/>
+        <updated>2022-11-29T10:00:37.000Z</updated>
+        <summary type="html"><![CDATA[A designer and an artist have dedicated their lives to producing spaces, objects and furnishings that say only what they need to — and nothing more.]]></summary>
+        <author>
+            <name>Michael Snyder and Martin Morrell</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Los Angeles Never Felt Like Home. Now They Live in a Redwood Forest.]]></title>
+        <id>https://www.nytimes.com/2022/11/29/realestate/los-angeles-redwood-forest.html</id>
+        <link href="https://www.nytimes.com/2022/11/29/realestate/los-angeles-redwood-forest.html"/>
+        <updated>2022-11-29T10:00:30.000Z</updated>
+        <summary type="html"><![CDATA[There was no time to tour the run-down cabin before buying it. But that didn’t matter: All they could see were the majestic trees surrounding it.]]></summary>
+        <author>
+            <name>Tim McKeough</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don’t rush]]></title>
+        <id>https://seths.blog/?p=43296</id>
+        <link href="https://seths.blog/2022/11/dont-rush/"/>
+        <updated>2022-11-29T09:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Hurry, sure. We need to hurry. Hurry puts it up on our priority list. Hurry gives us urgency and focus. But rushing is something that leads to errors and then apologies. “I’m sorry, I rushed it,” is not something we want to hear. But hurry.]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kickstartDS: Open Source starter kit for Design Systems]]></title>
+        <id>https://heydesigner.com/?p=66841</id>
+        <link href="https://heydesigner.com/kickstartds-open-source-starter-kit-for-design-systems/"/>
+        <updated>2022-11-29T05:48:30.000Z</updated>
+        <summary type="html"><![CDATA[A low-code framework and comprehensive component library enabling digital teams to create consistent and brand compliant web frontends super efficiently.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to flex the soft power of design]]></title>
+        <id>https://heydesigner.com/?p=66839</id>
+        <link href="https://heydesigner.com/how-to-flex-the-soft-power-of-design/"/>
+        <updated>2022-11-29T05:48:22.000Z</updated>
+        <summary type="html"><![CDATA[Remember all those “seat at the table” design articles and conversations? How could you miss them? They were inescapable for a while. Frankly, the argument never resonated with me.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Experimenting with AI artwork]]></title>
+        <id>https://heydesigner.com/?p=66837</id>
+        <link href="https://heydesigner.com/experimenting-with-ai-artwork/"/>
+        <updated>2022-11-29T05:48:15.000Z</updated>
+        <summary type="html"><![CDATA[I recently started experimenting with AI generated artwork. I am incredibly impressed by what can be done by typing a few words into a text field. It feels like magic.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Color formats in CSS]]></title>
+        <id>https://heydesigner.com/?p=66833</id>
+        <link href="https://heydesigner.com/color-formats-in-css/"/>
+        <updated>2022-11-29T05:48:07.000Z</updated>
+        <summary type="html"><![CDATA[CSS has a whole slew of different color formats: hex codes, rgb(), hsl(), lch(), the list goes on. Which one should we use?]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Generated Humans]]></title>
+        <id>cN2CDv9HuKpcctjLB</id>
+        <link href="https://generated.photos/humans"/>
+        <updated>2022-11-29T02:50:53.000Z</updated>
+        <summary type="html"><![CDATA[Get super realistic whole-body images.]]></summary>
+        <author>
+            <name>@generated_media</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to evaluate the UX maturity of a company]]></title>
+        <id>Z92uhHPcSTbPou3BE</id>
+        <link href="https://matejlatin.com/blog/2022/11/27/how-to-evaluate-ux-maturity-of-a-company/"/>
+        <updated>2022-11-29T02:39:57.000Z</updated>
+        <summary type="html"><![CDATA[Something wasn’t right. I had just received the work contract to review and the name of the role stated throughout was only “designer.”]]></summary>
+        <author>
+            <name>@matejlatin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[more.graphics]]></title>
+        <id>zSWCT7hGrywAbifRa</id>
+        <link href="https://more.graphics/"/>
+        <updated>2022-11-29T02:34:49.000Z</updated>
+        <summary type="html"><![CDATA[Unique and free generator tools in one place.]]></summary>
+        <author>
+            <name>@mrgrphcs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building conscious design systems]]></title>
+        <id>5HBek6qdJEgixQbHi</id>
+        <link href="https://amyhupe.co.uk/articles/building-conscious-design-systems/"/>
+        <updated>2022-11-29T02:20:36.000Z</updated>
+        <summary type="html"><![CDATA[How can we focus less on artifacts in design systems, and work consciously to build inclusive design systems that put people at their heart?]]></summary>
+        <author>
+            <name>@amy_hupe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Color Formats in CSS]]></title>
+        <id>u6zM4jQGMhFrAtWmg</id>
+        <link href="https://www.joshwcomeau.com/css/color-formats/"/>
+        <updated>2022-11-29T02:17:38.000Z</updated>
+        <summary type="html"><![CDATA[CSS gives us so many options when it comes to expressing color—we can use hex codes, rgb, hsl, and more. Which option should we choose?]]></summary>
+        <author>
+            <name>@joshwcomeau</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stop waiting for GitHub pages to build using overrides]]></title>
+        <id>https://christianheilmann.com/?p=7426</id>
+        <link href="https://christianheilmann.com/2022/11/29/stop-waiting-for-github-pages-to-build-using-overrides/"/>
+        <updated>2022-11-29T00:47:19.000Z</updated>
+        <summary type="html"><![CDATA[Using overrides in Chromium DevTools you can cache static assets locally and you don’t need to wait for GitHub pages to build before seeing a change in your scripts or styles. GitHub Pages are a great offer. You can host and version control not only your code on GitHub, but you can also turn it […]]]></summary>
+        <author>
+            <name>Chris Heilmann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New in Chrome 108]]></title>
+        <id>https://developer.chrome.com/en/blog/new-in-chrome-108/</id>
+        <link href="https://developer.chrome.com/en/blog/new-in-chrome-108/"/>
+        <updated>2022-11-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Here's what you need to know:
+It is easier to create adaptive UIs with new viewport size units.
+Color vector fonts now include support for variable fonts.
+The methods in the interface FileSystemSyncAccessHandle, part of the File System Access API, are now synchronous.
+And there’s plenty more
+I’m Adriana Jara. Let’s dive in and see what’s new for developers in Chrome 108.
+# New viewport size units
+The new viewport units give you more control to create adaptive UIs.
+These units measure the viewport area differently, as they take into account UI elements in the browser that can be expanded or collapsed. For example, the address bar.
+The large units provide the viewport size assuming that those user agent interfaces are collapsed.
+On the other hand the small units provide viewport size assumin…]]></summary>
+        <author>
+            <name>Chrome Developers - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shop Talk Show #593: Zach Leatherman on Eleventy, Mastodon, Twitter, and is-land]]></title>
+        <id>https://www.zachleat.com/web/shoptalkshow-ep-543/</id>
+        <link href="https://www.zachleat.com/web/shoptalkshow-ep-543/"/>
+        <updated>2022-11-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Zach Leatherman talks with us about what's new with Eleventy, setting up on Mastodon, what's happened with Twitter, and is-land.
+Topics:
+Jamstack Conf
+What is WebC?
+How do props work in WebC?
+What about scripts in WebC?
+Enhance.dev
+What's up with social media?
+<is-land>
+Listen to the Interview on Shop Talk Show (58:40)
+Shop Talk Show Appearances
+Shop Talk Show #390: Eleventy with Zach Leatherman
+Shop Talk Show #247: The Performance Equation]]></summary>
+        <author>
+            <name>Zach Leatherman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jamstack Community Survey 2022 Results]]></title>
+        <id>https://www.zachleat.com/web/jamstack-community-survey-2022/</id>
+        <link href="https://www.zachleat.com/web/jamstack-community-survey-2022/"/>
+        <updated>2022-11-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[https://www.11ty.dev/blog/jamstack-survey-2022/
+Read on the Eleventy Blog: Jamstack Community Survey 2022 Results]]></summary>
+        <author>
+            <name>Zach Leatherman</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Monday Marginalian: An Ode to Our Primeval Bond with Nature and Each Other]]></title>
         <id>https://www.printmag.com/?p=739538</id>
@@ -224,6 +516,22 @@ Forewarning though, this is MacOS specific, but I'm sure same thinking can be ap
         <summary type="html"><![CDATA[This post aims to contextualise the Utopia fluid grid calculator which helps you to define a layout grid by clicking a few buttons.]]></summary>
         <author>
             <name>dev@clearleft.com (James Gilyead)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Archive your Tweets with Tweetback]]></title>
+        <id>https://www.zachleat.com/web/tweetback/</id>
+        <link href="https://www.zachleat.com/web/tweetback/"/>
+        <updated>2022-11-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Twitter, it’s not me—it’s you.
+In October of 2019, I gave a talk at Jamstack Conf San Francisco titled Owning your Content on Social Media.
+For this talk I built a social media platform: MySpaceBook.​info, the only social media site exclusively for astronauts. Unfortunately midway through the presentation an investor called me up to make an offer on the site and I was left with no choice but to sell it, taking all of the user data down with it.
+Apropros of nothing and in no way related to the scenario foretold in prophecy, I’m no longer hanging around on Twitter.
+In the Jamstack Conf talk, I went through how one might build a local archive of your Twitter content, as I had done and documented separately a month or two prior. This archive now lives at zachleat.com/twitter/.
+Cue crickets.
+As…]]></summary>
+        <author>
+            <name>Zach Leatherman</name>
         </author>
     </entry>
     <entry>
@@ -2161,6 +2469,17 @@ Atomic Habits book
 Atomic Habits, James Clear - Books - Amazon]]></summary>
         <author>
             <name>Adam Silver</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimizing a Vue App]]></title>
+        <id>https://css-irl.info/optimizing-a-vue-app/</id>
+        <link href="https://css-irl.info/optimizing-a-vue-app/"/>
+        <updated>2022-11-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Prioritizing performance when building our web apps improves the user experience and helps ensure they can be used by as many people as possible. In this article we’ll walk through some of the front-end optimization tips to keep our Vue apps as efficient as possible.
+Read the article]]></summary>
+        <author>
+            <name>CSS In Real Life</name>
         </author>
     </entry>
     <entry>
@@ -8884,293 +9203,6 @@ Points: 1
 # Comments: 0]]></summary>
         <author>
             <name>asztoj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Generative art Open Graph preview images]]></title>
-        <id>https://dailydevlinks.com/?p=11003</id>
-        <link href="https://dailydevlinks.com/generative-art-open-graph-preview-images/"/>
-        <updated>2022-10-31T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Development]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scroll to Text Fragments]]></title>
-        <id>https://dailydevlinks.com/?p=11000</id>
-        <link href="https://dailydevlinks.com/scroll-to-text-fragments/"/>
-        <updated>2022-10-31T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Browser]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Extend Prototypes with JavaScript]]></title>
-        <id>https://davidwalsh.name/javascript-extend-prototype</id>
-        <link href="https://davidwalsh.name/javascript-extend-prototype"/>
-        <updated>2022-10-31T12:13:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>One of the ideological sticking points of the first JavaScript framework was was extending prototypes vs. wrapping functions. Frameworks like MooTools and Prototype extended prototypes while jQuery and other smaller frameworks did not. Each had their benefits, but ultimately all these years later I still believe that the ability to extend native prototypes is a [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://davidwalsh.name/javascript-extend-prototype">How to Extend Prototypes with JavaScript</a> appeared first on <a rel="nofollow" href="https://davidwalsh.name">David Walsh Blog</a>.</p>
-<p><a href="https://tkjs.us/dwb"><img style="margin:0 auto" alt="" src="https://davidwalsh.name/demo/tjs_block-1.svg"></a></p>]]></summary>
-        <author>
-            <name>David Walsh Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Daily Heller: My Favorite Beatles Album is My Favorite Album Ever]]></title>
-        <id>https://www.printmag.com/?p=737832</id>
-        <link href="https://www.printmag.com/daily-heller/the-daily-heller-my-favorite-album-of-all-time/"/>
-        <updated>2022-10-31T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Beatles’ “Revolver” has been rereleased as a box set, and with it comes surprises, treasures and joy beyond belief.]]></summary>
-        <author>
-            <name>Steven Heller</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: How would you design a cringe detector?]]></title>
-        <id>https://news.ycombinator.com/item?id=33403458</id>
-        <link href="https://news.ycombinator.com/item?id=33403458"/>
-        <updated>2022-10-31T09:08:04.000Z</updated>
-        <summary type="html"><![CDATA[I have a dream of making a cringe detector - a program that you could input a tweet or image, and it outputs how cringy it is.
-I am thinking, it could use a neural net, or not necessary.
-I was trying to imagine, how could that thing work? And actually out of clue.
-What do you think?
-Comments URL: https://news.ycombinator.com/item?id=33403458
-Points: 2
-# Comments: 3]]></summary>
-        <author>
-            <name>mib32</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On The Edge Of November (2022 Desktop Wallpapers Edition)]]></title>
-        <id>https://smashingmagazine.com/2022/10/desktop-wallpaper-calendars-november-2022/</id>
-        <link href="https://smashingmagazine.com/2022/10/desktop-wallpaper-calendars-november-2022/"/>
-        <updated>2022-10-31T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[November is just around the corner, and with it, a new collection of desktop wallpapers to celebrate the beginning of the month. Designed by creatives from all across the globe, they come in versions with and without a calendar. Let’s make November colorful!]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Circus peanuts don’t contain nuts]]></title>
-        <id>https://seths.blog/?p=44132</id>
-        <link href="https://seths.blog/2022/10/circus-peanuts-dont-contain-nuts/"/>
-        <updated>2022-10-31T08:39:00.000Z</updated>
-        <summary type="html"><![CDATA[This is obvious. Circus peanuts don’t have nuts, legumes or anything else that resembles a nut. They’re a metaphor. Or perhaps a simile, it depends on your level of pedantry. And yet, many people have a hard time with metaphor. Metaphor, not memorization, is the heart of learning. If you understand A, and you see […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: CSS minifier implemented in dependency-free C]]></title>
-        <id>https://news.ycombinator.com/item?id=33403167</id>
-        <link href="https://fossil.wanderinghorse.net/r/cssminc/wiki/cssminc"/>
-        <updated>2022-10-31T08:09:07.000Z</updated>
-        <summary type="html"><![CDATA[cssminc is a CSS (Cascading Style Sheet) minifier implemented as a tiny, dependency-free, C89-compliant library which can read CSS from arbitrary sources (via a callback) and emit it in minified form to an arbitrary destination (via a callback).
-Its library-level code is only 2 files (one header, one implementation) and it includes an optional CLI app which demonstrates how it's used.
-Comments URL: https://news.ycombinator.com/item?id=33403167
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>sgbeal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Designing an Accessible Future]]></title>
-        <id>7biQPgRBaiyofWm4C</id>
-        <link href="https://www.gerireid.com/designing-an-accessible-future.html"/>
-        <updated>2022-10-31T07:46:14.000Z</updated>
-        <summary type="html"><![CDATA[There’s a huge update for WCAG on the horizon in the form of WCAG 3.0.]]></summary>
-        <author>
-            <name>@gerireid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scroll to Text Fragments]]></title>
-        <id>ZcauoDrY5GzWBS8K6</id>
-        <link href="https://blog.jim-nielsen.com/2022/scroll-to-text-fragments/"/>
-        <updated>2022-10-31T07:41:50.000Z</updated>
-        <summary type="html"><![CDATA[Scroll to text fragments just landed in Safari which makes support even more broad.]]></summary>
-        <author>
-            <name>@jimniels</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Yōkai]]></title>
-        <id>Le87YiDJsraBbs3Ma</id>
-        <link href="https://uxdesign.pl/ai-yokai"/>
-        <updated>2022-10-31T07:37:00.000Z</updated>
-        <summary type="html"><![CDATA[Images of ghosts and monsters from Japanese folklore generated by artificial intelligence. A small project just in time for Halloween 👻]]></summary>
-        <author>
-            <name>@macieklipiec</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Generative art Open Graph preview images]]></title>
-        <id>XTRDTKyKtjyPDc2vK</id>
-        <link href="https://matthewstrom.com/writing/generative-art-og-images/"/>
-        <updated>2022-10-31T07:34:25.000Z</updated>
-        <summary type="html"><![CDATA[A how-to on generative art and browser automation.]]></summary>
-        <author>
-            <name>@ilikescience</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fancy Image Decorations: Outlines and Complex Animations]]></title>
-        <id>EeTbJttp572a6puKZ</id>
-        <link href="https://css-tricks.com/fancy-image-decorations-outlines-and-complex-animations/"/>
-        <updated>2022-10-31T07:30:54.000Z</updated>
-        <summary type="html"><![CDATA[In this third and final piece, we are going to explore more techniques using the CSS outline property.]]></summary>
-        <author>
-            <name>@CSS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: MetalliCSS: A JavaScript library that gives CSS a metallic lustre]]></title>
-        <id>https://news.ycombinator.com/item?id=33402899</id>
-        <link href="https://github.com/MikaeI/metallicss"/>
-        <updated>2022-10-31T07:25:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/MikaeI/metallicss
-Comments URL: https://news.ycombinator.com/item?id=33402899
-Points: 5
-# Comments: 4]]></summary>
-        <author>
-            <name>metallicss</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Typographic hierarchies]]></title>
-        <id>https://heydesigner.com/?p=66631</id>
-        <link href="https://heydesigner.com/typographic-hierarchies/"/>
-        <updated>2022-10-31T05:47:42.000Z</updated>
-        <summary type="html"><![CDATA[In this article, Alma Hoffmann discusses six basic variables to establish a typographic hierarchy.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating interface studies]]></title>
-        <id>https://heydesigner.com/?p=66629</id>
-        <link href="https://heydesigner.com/creating-interface-studies/"/>
-        <updated>2022-10-31T05:46:11.000Z</updated>
-        <summary type="html"><![CDATA[Focused explorations to solve specific problems.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Generative art Open Graph preview images]]></title>
-        <id>https://heydesigner.com/?p=66627</id>
-        <link href="https://heydesigner.com/generative-art-open-graph-preview-images/"/>
-        <updated>2022-10-31T05:44:19.000Z</updated>
-        <summary type="html"><![CDATA[A how-to on generative art and browser automation.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a tooltip component]]></title>
-        <id>https://heydesigner.com/?p=66625</id>
-        <link href="https://heydesigner.com/building-a-tooltip-component/"/>
-        <updated>2022-10-31T05:41:22.000Z</updated>
-        <summary type="html"><![CDATA[A foundational overview of how to build a color-adaptive and accessible tooltip custom element.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scroll to text fragments]]></title>
-        <id>https://heydesigner.com/?p=66623</id>
-        <link href="https://heydesigner.com/scroll-to-text-fragments/"/>
-        <updated>2022-10-31T05:40:07.000Z</updated>
-        <summary type="html"><![CDATA[Scroll to text fragments just landed in Safari which makes support even more broad.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pokémon Cards Holographic Effect in CSS]]></title>
-        <id>https://news.ycombinator.com/item?id=33401256</id>
-        <link href="https://github.com/simeydotme/pokemon-cards-css"/>
-        <updated>2022-10-31T02:07:24.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/simeydotme/pokemon-cards-css
-Comments URL: https://news.ycombinator.com/item?id=33401256
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>joemasilotti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Who Invented CSS?]]></title>
-        <id>https://news.ycombinator.com/item?id=33401210</id>
-        <link href="https://news.ycombinator.com/item?id=33401210"/>
-        <updated>2022-10-31T02:00:18.000Z</updated>
-        <summary type="html"><![CDATA[Google suggests a person who suggested the idea, who was the first to implement it at a decent scale?
-Comments URL: https://news.ycombinator.com/item?id=33401210
-Points: 4
-# Comments: 4]]></summary>
-        <author>
-            <name>esac</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web Design: The First 100 Years]]></title>
-        <id>https://news.ycombinator.com/item?id=33398309</id>
-        <link href="https://idlewords.com/talks/web_design_first_100_years.htm"/>
-        <updated>2022-10-30T20:28:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://idlewords.com/talks/web_design_first_100_years.htm
-Comments URL: https://news.ycombinator.com/item?id=33398309
-Points: 2
-# Comments: 2]]></summary>
-        <author>
-            <name>kikokikokiko</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elastic Productivity Tools]]></title>
-        <id>https://news.ycombinator.com/item?id=33397515</id>
-        <link href="https://simonberens.me/blog/elastic-productivity-tools"/>
-        <updated>2022-10-30T19:05:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://simonberens.me/blog/elastic-productivity-tools
-Comments URL: https://news.ycombinator.com/item?id=33397515
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>sberens</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Optimizing images with the HTML <picture> tag]]></title>
-        <id>https://news.ycombinator.com/item?id=33397054</id>
-        <link href="https://jfhr.me/optimizing-images-with-the-html-picture-tag/"/>
-        <updated>2022-10-30T18:14:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jfhr.me/optimizing-images-with-the-html-picture-tag/
-Comments URL: https://news.ycombinator.com/item?id=33397054
-Points: 55
-# Comments: 35]]></summary>
-        <author>
-            <name>jfhr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Is speed of delivery the most important metric in productivity?]]></title>
-        <id>https://news.ycombinator.com/item?id=33394730</id>
-        <link href="https://news.ycombinator.com/item?id=33394730"/>
-        <updated>2022-10-30T14:23:41.000Z</updated>
-        <summary type="html"><![CDATA[I'm fairly new to the field and relatively late to the party (because I'm old), but a recurring theme that I'm noticing in my current company (which is a small startup) is how the faster you deliver the better you look to the CEO and even CTO's eyes.
-In hour fairly infrequent meetings other engineers have raised the point that we should start valuing code quality and proper testing to our codebase, only to be met with arguments such as "the customer doesn't pay for good code".
-Furthermore, most likely an anecdotal bias and nothing else but I want to mention it: Online elitism revolves around shipping speed too. Comments like "I can build X in Y hours", "I can skim the docs and build what I want with Z library in less than a day", and so on.
-How does everyone feel about it? Maybe it's just me but it feels weird. It's kinda like everyone I mentioned feels like there are no trade-offs to be concerned in regards to speed over quality or people decided that there's no reason to bother ourselves with contemplating what we're trading off speed with. Also, I feel that because quality is subjective and perfect is the enemy of done, people rely on objective metrics like "time taken".
-Is there truth and merit to this observation?
-Comments URL: https://news.ycombinator.com/item?id=33394730
-Points: 2
-# Comments: 2]]></summary>
-        <author>
-            <name>Arisaka1</name>
         </author>
     </entry>
 </feed>
