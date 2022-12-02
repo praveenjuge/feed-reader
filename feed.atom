@@ -2,10 +2,498 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2022-12-01T00:51:23.456Z</updated>
+    <updated>2022-12-02T00:40:32.016Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: I want to crawl every plain HTML website. Where do I begin?]]></title>
+        <id>https://news.ycombinator.com/item?id=33824222</id>
+        <link href="https://news.ycombinator.com/item?id=33824222"/>
+        <updated>2022-12-01T22:59:30.000Z</updated>
+        <summary type="html"><![CDATA[Web crawling in this day and age is loaded with caveats, and must be done carefully as to not put an unnecessary load on other people's infrastructure. I'd really like to try to make my own web search tool, so I'm trying to scope out something simple enough to get me started. Here's what I have so far.
+- I don't want to parse anything in the SimilarWeb Top 50.
+- I don't want to render JS
+- I'd like to keep a web index that is still measured in TBs
+I've done search engines for research papers in the past. The key difference was that I could collect that data very easily through a documented API. Now I need to either build or use a crawler and I'm not sure where to begin. Here are some thoughts that I have so far.
+- I'm probably going to write the crawler in Go. It seems like a good fit for this sort of software.
+- How do I start collecting lists of domains? Do I just start hitting public IPv4 addresses on Ports 80 and 443?
+- If I run something like this with proper rate limiting on a server, would Cloudflare inevitably just start blocking me?
+- If I were to run this from a machine connected to the Internet via a residential ISP, then would I get a nasty letter from my ISP?
+Any advice or feedback is appreciated. The goal of this project is to learn more about web crawling moreso than to build a product that would be sold.
+Comments URL: https://news.ycombinator.com/item?id=33824222
+Points: 2
+# Comments: 1]]></summary>
+        <author>
+            <name>dwrodri</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ultralight – Next-Generation HTML Renderer]]></title>
+        <id>https://news.ycombinator.com/item?id=33821432</id>
+        <link href="https://ultralig.ht/"/>
+        <updated>2022-12-01T19:30:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ultralig.ht/
+Comments URL: https://news.ycombinator.com/item?id=33821432
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>thunderbong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Opening Node developer tools just got easier]]></title>
+        <id>https://christianheilmann.com/?p=7430</id>
+        <link href="https://christianheilmann.com/2022/12/01/opening-node-developer-tools-just-got-easier/"/>
+        <updated>2022-12-01T18:22:02.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft Edge has a command palette which allows you to run commands by typing. You can use this to launch Developer Tools for Node. Press `Ctrl+Q` to open the command palette Type `>`, `node` and press Enter Alternatively, you can always use the old way to access Node devtools using `edge://inspect` and clicking the link. […]]]></summary>
+        <author>
+            <name>Chris Heilmann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to draw ideas]]></title>
+        <id>https://heydesigner.com/?p=66874</id>
+        <link href="https://heydesigner.com/how-to-draw-ideas/"/>
+        <updated>2022-12-01T18:02:03.000Z</updated>
+        <summary type="html"><![CDATA[Great ideas are hard to find. Drawing makes it a lot easier. And fun. How? In a creative process drawing can play four different roles.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Programmable Ink]]></title>
+        <id>https://heydesigner.com/?p=66872</id>
+        <link href="https://heydesigner.com/programmable-ink/"/>
+        <updated>2022-12-01T18:00:37.000Z</updated>
+        <summary type="html"><![CDATA[What would be possible if hand-drawn sketches were programmable like spreadsheets?]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Catch Up with Mauro Porcini in Our Latest Edition of PRINT Book Club]]></title>
+        <id>https://www.printmag.com/?p=739723</id>
+        <link href="https://www.printmag.com/print-magazine/catch-up-with-mauro-porcini-in-our-latest-edition-of-print-book-club/"/>
+        <updated>2022-12-01T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Listen to Debbie Millman and Steven Heller talk to the PepsiCo SVP & Chief Design Officer about his new book, 'The Human Side of Innovation: The Power of People in Love with People.']]></summary>
+        <author>
+            <name>PRINT Magazine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Spanish designer in Dieter Rams’s shadow]]></title>
+        <id>https://heydesigner.com/?p=66870</id>
+        <link href="https://heydesigner.com/the-spanish-designer-in-dieter-ramss-shadow/"/>
+        <updated>2022-12-01T17:58:22.000Z</updated>
+        <summary type="html"><![CDATA[We always hear about Dieter Rams, but there were many others involved in Braun’s iconic designs. One is a Spanish designer who designed a few of Braun’s most successful products.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The benefits of uninterrupted focus time]]></title>
+        <id>https://heydesigner.com/?p=66867</id>
+        <link href="https://heydesigner.com/the-benefits-of-uninterrupted-focus-time/"/>
+        <updated>2022-12-01T17:57:07.000Z</updated>
+        <summary type="html"><![CDATA[How Onfido implemented focus time across our tech organization.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: What do you want in a habit tracker?]]></title>
+        <id>https://news.ycombinator.com/item?id=33819202</id>
+        <link href="https://news.ycombinator.com/item?id=33819202"/>
+        <updated>2022-12-01T17:09:10.000Z</updated>
+        <summary type="html"><![CDATA[I built a habit tracker https://flathabits.com to scratch an itch. I really wanted to do the right thing for the users. The driving principles were as follows:
+- Privacy. These are your personal habits (and they stay on your phone). I want zero access to your data.
+- Minimal friction. Habit tracking requires dedication, so it should require almost no effort to stay on top of it.
+- No gimmicks. Really, no games, prizes, etc. Just want to build an effective tool.
+- No lock-in. Your data is yours. It is saved locally to a text file you can inspect or export at any time.
+- No sign-up or account. There really is no need for it. Period.
+- No social. Social really just gets in the way. These are your habits, focus on them.
+- No analytics. None of any kind. If you like the app or there's a bug, just report it.
+- Text-based. Not that it matters to many users, but all data is stored to a text file in org mode.
+I've used the app thoroghly and managed to rack up a decent year and a half of continuous running and meditation amongst other habits. The app has 114 ratings (across all countries) with a 4.8 score. But, the app hasn're really picked up many users (1-5 daily downloads) even as a free app.
+So, what is this habit tracker missing? What do you actually want in a habit tracker?
+Comments URL: https://news.ycombinator.com/item?id=33819202
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>xenodium</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Favorite Things: BF Skinner and the Invention of the Algorithm]]></title>
+        <id>https://www.printmag.com/?p=739760</id>
+        <link href="https://www.printmag.com/creative-voices/my-favorite-things-bf-skinner-and-the-invention-of-the-algorithm/"/>
+        <updated>2022-12-01T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Tom Guarriello on operant conditioning as a method of predicting human behavior.]]></summary>
+        <author>
+            <name>Tom Guarriello</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bertrand Meyer: ten right and wrong choices in language design]]></title>
+        <id>https://news.ycombinator.com/item?id=33818579</id>
+        <link href="https://arxiv.org/abs/2211.16597"/>
+        <updated>2022-12-01T16:31:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arxiv.org/abs/2211.16597
+Comments URL: https://news.ycombinator.com/item?id=33818579
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>PaulHoule</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design Gifts: 50% off a yearly Sketch plan]]></title>
+        <id>https://news.ycombinator.com/item?id=33818316</id>
+        <link href="https://design.gifts/"/>
+        <updated>2022-12-01T16:17:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://design.gifts/
+Comments URL: https://news.ycombinator.com/item?id=33818316
+Points: 1
+# Comments: 2]]></summary>
+        <author>
+            <name>monkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Books for your solstice]]></title>
+        <id>https://seths.blog/?p=44295</id>
+        <link href="https://seths.blog/2022/12/books-for-your-solstice/"/>
+        <updated>2022-12-01T15:07:01.000Z</updated>
+        <summary type="html"><![CDATA[In the Northern Hemisphere, it gets dark in December. And worldwide, people buy gifts for whatever holidays they celebrate, and a lot of them are around the corner. For both reasons, books! The Carbon Almanac was an Amazon Editor’s choice, a Do Lectures top 100 choice, a bestseller in every country it has been released […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Digging Deeper Into Container Style Queries]]></title>
+        <id>https://css-tricks.com/?p=375607</id>
+        <link href="https://css-tricks.com/digging-deeper-into-container-style-queries/"/>
+        <updated>2022-12-01T13:59:06.000Z</updated>
+        <summary type="html"><![CDATA[I wrote up some early thoughts on container style queries a little while back. It’s still early days. They’re already defined in the CSS Containment Module Level 1 specification (currently in Editor’s Draft status) but there’s still a couple of …
+Digging Deeper Into Container Style Queries originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design Decisions: Why use final classes]]></title>
+        <id>https://news.ycombinator.com/item?id=33815970</id>
+        <link href="https://getparthenon.com/blog/design-decisions-why-use-final-classes/"/>
+        <updated>2022-12-01T13:31:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://getparthenon.com/blog/design-decisions-why-use-final-classes/
+Comments URL: https://news.ycombinator.com/item?id=33815970
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>that_guy_iain</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Happiness Could Be a Habit]]></title>
+        <id>https://news.ycombinator.com/item?id=33815739</id>
+        <link href="https://andrewhuth.substack.com/p/happiness-could-be-a-habit"/>
+        <updated>2022-12-01T13:08:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://andrewhuth.substack.com/p/happiness-could-be-a-habit
+Comments URL: https://news.ycombinator.com/item?id=33815739
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>ahuth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet the International Judges for 2023’s PRINT Awards]]></title>
+        <id>https://www.printmag.com/?p=739639</id>
+        <link href="https://www.printmag.com/print-awards/meet-the-first-lineup-of-exciting-international-judges-for-2023s-print-awards/"/>
+        <updated>2022-12-01T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[These eclectic design experts have been making waves all over the world, and they're ready to check out your work! Click through to meet some of our jury members.]]></summary>
+        <author>
+            <name>PRINT Magazine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The large, small, and dynamic viewport units]]></title>
+        <id>https://dailydevlinks.com/?p=11190</id>
+        <link href="https://dailydevlinks.com/the-large-small-and-dynamic-viewport-units/"/>
+        <updated>2022-12-01T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is CSS Engineer now a job position?]]></title>
+        <id>https://dailydevlinks.com/?p=11193</id>
+        <link href="https://dailydevlinks.com/is-css-engineer-now-a-job-position/"/>
+        <updated>2022-12-01T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[CareerCSS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to evaluate the UX maturity of a company]]></title>
+        <id>https://dailydevlinks.com/?p=11187</id>
+        <link href="https://dailydevlinks.com/how-to-evaluate-the-ux-maturity-of-a-company/"/>
+        <updated>2022-12-01T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[UX]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Daily Heller: The Male Figure by a Figurative Maestro]]></title>
+        <id>https://www.printmag.com/?p=739335</id>
+        <link href="https://www.printmag.com/daily-heller/the-daily-heller-the-male-nude-by-a-drawing-maestro/"/>
+        <updated>2022-12-01T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[“Hello World” is neither strictly an art monograph nor instruction book, although it shares the attributes of both.]]></summary>
+        <author>
+            <name>Steven Heller</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Icon Speedruns: Flag and Pushpin]]></title>
+        <id>https://news.ycombinator.com/item?id=33814994</id>
+        <link href="https://www.youtube.com/watch?v=e_hI4y4u2BE"/>
+        <updated>2022-12-01T11:36:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=e_hI4y4u2BE
+Comments URL: https://news.ycombinator.com/item?id=33814994
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>tambourine_man</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dreambooth training UI for training a model for less than US$0.80]]></title>
+        <id>https://news.ycombinator.com/item?id=33814509</id>
+        <link href="https://huggingface.co/spaces/multimodalart/dreambooth-training"/>
+        <updated>2022-12-01T10:28:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://huggingface.co/spaces/multimodalart/dreambooth-training
+Comments URL: https://news.ycombinator.com/item?id=33814509
+Points: 2
+# Comments: 1]]></summary>
+        <author>
+            <name>polisteps</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[All the marbles (and quick money)]]></title>
+        <id>https://seths.blog/?p=43298</id>
+        <link href="https://seths.blog/2022/12/all-the-marbles-and-quick-money/"/>
+        <updated>2022-12-01T10:01:00.000Z</updated>
+        <summary type="html"><![CDATA[The problem with winning all the marbles is that the game is then over. And owning all the marbles is not really worth the effort if it means no one else has a chance going forward. And quick money? It pales in comparison with money earned over time for a job well done.]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FabUnit: A Smart Way To Control And Synchronize Typo And Space]]></title>
+        <id>https://smashingmagazine.com/2022/12/fabunit-smart-way-control-synchronize-typo-space/</id>
+        <link href="https://smashingmagazine.com/2022/12/fabunit-smart-way-control-synchronize-typo-space/"/>
+        <updated>2022-12-01T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, we’ll take a look at the Sass function that does all the work for you — with no media queries, no breakpoints, and no design jumps. In this article, Fabienne Bielmann explains what FabUnit stands for and why she decided to create her very own responsive magic formula.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Fabienne Bielmann)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Visual design exercises]]></title>
+        <id>https://heydesigner.com/?p=66862</id>
+        <link href="https://heydesigner.com/visual-design-exercises/"/>
+        <updated>2022-12-01T05:57:30.000Z</updated>
+        <summary type="html"><![CDATA[Here’s a list of visual design exercises you can use to practice or improve your visual design skills. These are meant to challenge your skills, not teach you them in the first place.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What makes me a designer?]]></title>
+        <id>https://heydesigner.com/?p=66860</id>
+        <link href="https://heydesigner.com/what-makes-me-a-designer/"/>
+        <updated>2022-12-01T05:55:33.000Z</updated>
+        <summary type="html"><![CDATA[To me, being a designer means I have a strong urge to design absolutely everything around me. It’s as simple as that.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recordings from Schema 2022 by Figma]]></title>
+        <id>https://heydesigner.com/?p=66858</id>
+        <link href="https://heydesigner.com/recordings-from-schema-2022-by-figma/"/>
+        <updated>2022-12-01T05:53:20.000Z</updated>
+        <summary type="html"><![CDATA[For our second-ever design systems conference, Schema by Figma went global, making stops in New York, London, and Tokyo, along with a special virtual event.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI and the future of design]]></title>
+        <id>https://heydesigner.com/?p=66856</id>
+        <link href="https://heydesigner.com/ai-and-the-future-of-design/"/>
+        <updated>2022-12-01T05:52:37.000Z</updated>
+        <summary type="html"><![CDATA[The first impact of AI will be that more and more non-designers develop their creativity and social intelligence skills to bolster their employability.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The large, small, and dynamic viewport units]]></title>
+        <id>3sbhiap4bJMbsfm9E</id>
+        <link href="https://web.dev/viewport-units"/>
+        <updated>2022-12-01T05:45:29.000Z</updated>
+        <summary type="html"><![CDATA[New CSS units that account for mobile viewports with dynamic toolbars.]]></summary>
+        <author>
+            <name>@ChromiumDev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing a Utopian layout grid]]></title>
+        <id>LuAv2zia6GsuWSZTh</id>
+        <link href="https://utopia.fyi/blog/designing-a-utopian-layout-grid"/>
+        <updated>2022-12-01T05:45:04.000Z</updated>
+        <summary type="html"><![CDATA[Working with fluid responsive values in a static design tool.]]></summary>
+        <author>
+            <name>@trysmudford</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Spanish designer in Dieter Rams's shadow]]></title>
+        <id>KGiotseZJDeAQYRZf</id>
+        <link href="https://www.arun.is/blog/gabriel-lluelles/"/>
+        <updated>2022-12-01T05:43:55.000Z</updated>
+        <summary type="html"><![CDATA[We always hear about Dieter Rams, but there were many others involved in Braun’s iconic designs.]]></summary>
+        <author>
+            <name>@zhenpixels</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GenCup — Generative data posters from World Cup 2022]]></title>
+        <id>DB97SLDpCCNNfiout</id>
+        <link href="https://www.gencup.art/"/>
+        <updated>2022-12-01T05:41:55.000Z</updated>
+        <summary type="html"><![CDATA[Generative art project that combines graphic design, football, and data. Using the statics of FIFA World Cup games to generate abstract compositions.]]></summary>
+        <author>
+            <name>@zehf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reimagining a Token Taxonomy]]></title>
+        <id>anDsF43iGdFRfvehx</id>
+        <link href="https://medium.com/eightshapes-llc/reimagining-a-token-taxonomy-462d35b2b033"/>
+        <updated>2022-12-01T05:41:17.000Z</updated>
+        <summary type="html"><![CDATA[Notes from design token projects, from audits to implementation.]]></summary>
+        <author>
+            <name>@nathanacurtis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flabbergasted #001:⌘K – The biggest scam in UX – How to use type on the web]]></title>
+        <id>https://news.ycombinator.com/item?id=33812734</id>
+        <link href="https://flabbergasted.substack.com/p/flabbergasted-001"/>
+        <updated>2022-12-01T05:32:07.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://flabbergasted.substack.com/p/flabbergasted-001
+Comments URL: https://news.ycombinator.com/item?id=33812734
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>Mike_Andreuzza</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web Development Advent Calendars for 2022]]></title>
+        <id>https://adrianroselli.com/?p=19930</id>
+        <link href="https://adrianroselli.com/2022/12/web-development-advent-calendars-for-2022.html"/>
+        <updated>2022-12-01T05:00:18.000Z</updated>
+        <summary type="html"><![CDATA[It’s a dice advent calendar. I have no idea how five Platonic Solids and some D10s will carry for 24 days, but I am going to find out. Web developers around the world have for years given a nod to Saturnalia solstice Isaac Newton’s birthday Yule wassailing mummering end of…]]></summary>
+        <author>
+            <name>Adrian Roselli</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New CSS units that account for mobile viewports with dynamic toolbars]]></title>
+        <id>https://news.ycombinator.com/item?id=33812528</id>
+        <link href="https://web.dev/viewport-units/"/>
+        <updated>2022-12-01T04:59:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://web.dev/viewport-units/
+Comments URL: https://news.ycombinator.com/item?id=33812528
+Points: 54
+# Comments: 49]]></summary>
+        <author>
+            <name>robust-cactus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: PyParsy an HTML Parsing library with YAML definitions]]></title>
+        <id>https://news.ycombinator.com/item?id=33812391</id>
+        <link href="https://github.com/vkolev/parsy"/>
+        <updated>2022-12-01T04:38:34.000Z</updated>
+        <summary type="html"><![CDATA[I would like to introduce a library I'm currently working on. It is more similar to selectorlib - where it defines the Selector definitions in YAML file, but with the difference, that it supports more than one selector per field, which in turn allows you to have one yaml definition per different HTML variations of a website. It also tries to validate the selector expressions before running the parsing. At this point I am looking for some feedback, so I can improve.
+Comments URL: https://news.ycombinator.com/item?id=33812391
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>vkolev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Secure Payment Confirmation on Chrome Android]]></title>
+        <id>https://developer.chrome.com/en/blog/spc-on-android/</id>
+        <link href="https://developer.chrome.com/en/blog/spc-on-android/"/>
+        <updated>2022-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[# Overview
+Secure Payment Confirmation (SPC) is a proposed web
+standard that allows
+customers to authenticate with a credit card issuer, bank, or other payment
+service provider using a platform authenticator—typically activated with a
+device's screen unlock feature such as a fingerprint sensor. This usually
+happens during a payments authentication protocol such as EMV 3-D
+Secure or Open
+Banking. EMV 3-D Secure, for example,
+has support for SPC in its v2.3 spec
+release.
+We previously announced that SPC was
+launched for Google Chrome on macOS and Windows and provided developer guides
+for both registration and
+authentication.
+As of M109 (currently on the Beta channel), SPC will also be available on Google
+Chrome on Android. Users will be able to use their device's screen lock to
+complete the …]]></summary>
+        <author>
+            <name>Chrome Developers - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First-Party Sets testing instructions]]></title>
+        <id>https://developer.chrome.com/en/blog/first-party-sets-testing-instructions/</id>
+        <link href="https://developer.chrome.com/en/blog/first-party-sets-testing-instructions/"/>
+        <updated>2022-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The latest iteration of First-Party Sets is ready for developer feature-flag testing from Chrome 108.
+Ecosystem feedback has highlighted cross-site use cases that will be impacted when third-party cookies are no longer supported in Chrome. The First-Party Sets proposal examines and addresses a class of cross-site use cases in which the interdependent sites share a relationship that can be expressed to the browser such that the browser can take the appropriate action on behalf of the user and/or effectively present that information to the user.
+The updated proposal uses two APIs (the Storage Access API and a new API tentatively named requestStorageAccessForOrigin) to provide sites with an active method of requesting cross-site access for their cookies within a First-Party Set. The instructi…]]></summary>
+        <author>
+            <name>Chrome Developers - Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chrome 109 beta]]></title>
+        <id>https://developer.chrome.com/en/blog/chrome-109-beta/</id>
+        <link href="https://developer.chrome.com/en/blog/chrome-109-beta/"/>
+        <updated>2022-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Unless otherwise noted, changes described below apply to the newest Chrome beta channel release for Android, ChromeOS, Linux, macOS, and Windows. Learn more about the features listed here through the provided links or from the list on ChromeStatus.com. Chrome 109 is beta as of December 1, 2022. You can download the latest on Google.com for desktop or on Google Play Store on Android.
+# CSS
+# Auto range support for font descriptors inside @font-face rule
+Variable fonts provide users the opportunity to choose how heavy or slanted or wide the typeface should be, using the font-weight, font-style, and font-stretch' descriptors inside the @font-face rule. The CSS Working Group added a new value of auto for these descriptors, which is now the initial value. This value is implemented in 109 to mat…]]></summary>
+        <author>
+            <name>Chrome Developers - Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quantum computing used to design heat-blocking glass]]></title>
         <id>https://news.ycombinator.com/item?id=33808767</id>
@@ -412,6 +900,19 @@ and the previous page in history would b…]]></summary>
         <summary type="html"><![CDATA[A new program to reuse architectural mock-ups in community gardens is gaining interest as a way to keep them out of the landfill.]]></summary>
         <author>
             <name>Jane Margolies</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to design, build and test small liquid-fuel rocket engines]]></title>
+        <id>https://news.ycombinator.com/item?id=33790494</id>
+        <link href="https://spacha.github.io/How-to-Rocket/"/>
+        <updated>2022-11-29T17:29:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://spacha.github.io/How-to-Rocket/
+Comments URL: https://news.ycombinator.com/item?id=33790494
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>andyljones</name>
         </author>
     </entry>
     <entry>
@@ -8848,387 +9349,6 @@ Points: 2
 Some Links About CSS Gradients originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Geoff Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do you really understand CSS radial-gradients?]]></title>
-        <id>https://dailydevlinks.com/?p=11013</id>
-        <link href="https://dailydevlinks.com/do-you-really-understand-css-radial-gradients/"/>
-        <updated>2022-11-02T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The New CSS Media Query Range Syntax]]></title>
-        <id>https://dailydevlinks.com/?p=11019</id>
-        <link href="https://dailydevlinks.com/the-new-css-media-query-range-syntax/"/>
-        <updated>2022-11-02T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Getting WCAG color contrast right]]></title>
-        <id>https://dailydevlinks.com/?p=11016</id>
-        <link href="https://dailydevlinks.com/getting-wcag-color-contrast-right/"/>
-        <updated>2022-11-02T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[A11Y]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Daily Heller: The ’60s Part II, an Incomplete History]]></title>
-        <id>https://www.printmag.com/?p=737961</id>
-        <link href="https://www.printmag.com/daily-heller/the-daily-heller-the-sixties-part-ii-an-incomplete-history/"/>
-        <updated>2022-11-02T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The ’60s was a dramatic period during which technological inventions and conceptual innovations converged to form a distinctively American design profession.]]></summary>
-        <author>
-            <name>Steven Heller</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Purposefully Disheveled Book Invites Grief Directly Into the Reading Experience]]></title>
-        <id>https://www.printmag.com/?p=737857</id>
-        <link href="https://www.printmag.com/print-design/this-purposefully-disheveled-book-invites-grief-directly-into-the-reading-experience/"/>
-        <updated>2022-11-02T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[errorerror studio pays tribute to late poet Federico García Lorca with 'Fragmentos,' a burnt, spray painted book designed to elicit the frustration that comes from an artist's untimely death.]]></summary>
-        <author>
-            <name>Chloe Gordon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Hierarchical List UI in the Band Model of the Hyperbolic Plane]]></title>
-        <id>https://news.ycombinator.com/item?id=33433389</id>
-        <link href="http://ianhenderson.org/hypernav.html"/>
-        <updated>2022-11-02T09:51:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://ianhenderson.org/hypernav.html
-Comments URL: https://news.ycombinator.com/item?id=33433389
-Points: 3
-# Comments: 1]]></summary>
-        <author>
-            <name>panic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: RSS Feeds in Notion.so]]></title>
-        <id>https://news.ycombinator.com/item?id=33433174</id>
-        <link href="https://github.com/Jeadie/notion-rss"/>
-        <updated>2022-11-02T09:25:43.000Z</updated>
-        <summary type="html"><![CDATA[I recently built a tool to manage and store RSS Feeds in Notion. 
-The only problem is that it doesn't auto save the HTML into notion page (this would required parsing HTML into Notion objects). I started on this with [html2notion](https://github.com/Jeadie/html2notion), but it turned out to be alot of work.
-With Notion already having a [Notion web clipper](https://www.notion.so/web-clipper), I was wondering if it was worth implementing? Personally I read a small fraction of the blog posts from my RSS feed, and I like the spare page to take notes. For me, notion-rss solves the one core problem I have, acquiring and filtering high quality RSS feeds. What does HN think?
-Comments URL: https://news.ycombinator.com/item?id=33433174
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>jeadie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No good ideas?]]></title>
-        <id>https://seths.blog/?p=44130</id>
-        <link href="https://seths.blog/2022/11/no-good-ideas/"/>
-        <updated>2022-11-02T08:56:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s certainly a common excuse for being stuck. In fact, there are more good ideas right now than ever before. That’s not the hard part. Need a name for your project? This site will not only invent a thousand names, it will also generate a nearly infinite number of logos for you. Instantly. Surely, at […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Should consistency be a goal of design systems?]]></title>
-        <id>https://heydesigner.com/?p=66658</id>
-        <link href="https://heydesigner.com/should-consistency-be-a-goal-of-design-systems/"/>
-        <updated>2022-11-02T08:49:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s becoming increasingly unfashionable to cite “consistency” as a goal for design systems.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open design systems repo]]></title>
-        <id>https://heydesigner.com/?p=62698</id>
-        <link href="https://heydesigner.com/open-design-systems-repo/"/>
-        <updated>2022-11-02T08:42:45.000Z</updated>
-        <summary type="html"><![CDATA[Discover all open design systems.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Framer Supply]]></title>
-        <id>https://heydesigner.com/?p=66654</id>
-        <link href="https://heydesigner.com/framer-supply/"/>
-        <updated>2022-11-02T08:40:59.000Z</updated>
-        <summary type="html"><![CDATA[Add some magic to your sites with these funky components for Framer.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using sections in Figma]]></title>
-        <id>https://heydesigner.com/?p=66652</id>
-        <link href="https://heydesigner.com/using-sections-in-figma/"/>
-        <updated>2022-11-02T08:35:43.000Z</updated>
-        <summary type="html"><![CDATA[Sections have a few visual design differences that make them standout from our frame counterparts.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design system interview: Jennie S Yip]]></title>
-        <id>https://heydesigner.com/?p=66649</id>
-        <link href="https://heydesigner.com/design-system-interview-jennie-s-yip/"/>
-        <updated>2022-11-02T08:31:48.000Z</updated>
-        <summary type="html"><![CDATA[Hybrid design engineer who loves elegant user interfaces, intuitive user experiences, and beautifully crafted code.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Conditionally adaptive CSS]]></title>
-        <id>https://heydesigner.com/?p=66647</id>
-        <link href="https://heydesigner.com/conditionally-adaptive-css/"/>
-        <updated>2022-11-02T08:29:40.000Z</updated>
-        <summary type="html"><![CDATA[Browser behavior that might improve your performance.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DesignFloat – Creative Community and Design Blog]]></title>
-        <id>https://news.ycombinator.com/item?id=33432397</id>
-        <link href="https://www.designfloat.com/?url=https%3A%2F%2Flofapk.com%2Ftm-whatsapp%2F"/>
-        <updated>2022-11-02T07:39:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.designfloat.com/?url=https%3A%2F%2Flofapk.com%2Ftm-whatsapp%2F
-Comments URL: https://news.ycombinator.com/item?id=33432397
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>RubinaHameed479</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploring Piston Engine Design with Lego]]></title>
-        <id>https://news.ycombinator.com/item?id=33432259</id>
-        <link href="https://hackaday.com/2022/11/01/exploring-piston-engine-design-with-lego/"/>
-        <updated>2022-11-02T07:17:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://hackaday.com/2022/11/01/exploring-piston-engine-design-with-lego/
-Comments URL: https://news.ycombinator.com/item?id=33432259
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>rcarmo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Womp is the new way to 3D]]></title>
-        <id>Af3sLQcA9RooSiWJk</id>
-        <link href="https://www.womp.com/"/>
-        <updated>2022-11-02T06:05:11.000Z</updated>
-        <summary type="html"><![CDATA[Womp is a totally new way to 3D. No downloads or gray-on-gray apps with 1,000 buttons. Get started with any web browser, and your creativity.]]></summary>
-        <author>
-            <name>@womp3D</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unreveal Effects for Content Previews]]></title>
-        <id>6eDheE8jx9Abgeynn</id>
-        <link href="https://tympanus.net/codrops/2022/11/01/unreveal-effects-for-content-previews/"/>
-        <updated>2022-11-02T05:59:49.000Z</updated>
-        <summary type="html"><![CDATA[Some explorations of page transitions using covering elements and CSS clip-paths.]]></summary>
-        <author>
-            <name>@Codrops</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Creative Switch]]></title>
-        <id>opjxiGNYQ8w7SXxvf</id>
-        <link href="https://ralphammer.com/the-creative-switch/"/>
-        <updated>2022-11-02T05:58:40.000Z</updated>
-        <summary type="html"><![CDATA[The basic recipe for good ideas is really simple: Just create a lot of options and then pick the best one.]]></summary>
-        <author>
-            <name>@ralphammer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Everything Looks the Same]]></title>
-        <id>dZry6byQEmstKDtTL</id>
-        <link href="https://medium.com/knowable/why-everything-looks-the-same-bad80133dd6e"/>
-        <updated>2022-11-02T05:57:10.000Z</updated>
-        <summary type="html"><![CDATA[How economic globalization, generational transition, and technology converge to flatten the consumer experience.]]></summary>
-        <author>
-            <name>@knowablefyi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Knowing what it’s not]]></title>
-        <id>txrEPCbYfWHMxY4eS</id>
-        <link href="https://uxdesign.cc/knowing-what-its-not-fac9d2c82359"/>
-        <updated>2022-11-02T05:51:28.000Z</updated>
-        <summary type="html"><![CDATA[Defining the negative space as a technique in product management.]]></summary>
-        <author>
-            <name>@uxdesigncc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How the new, darker YouTube look compares to the old design [Gallery]]]></title>
-        <id>https://news.ycombinator.com/item?id=33430901</id>
-        <link href="https://9to5google.com/2022/10/26/new-dark-youtube-gallery/"/>
-        <updated>2022-11-02T02:49:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://9to5google.com/2022/10/26/new-dark-youtube-gallery/
-Comments URL: https://news.ycombinator.com/item?id=33430901
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>r721</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Biggest Bottleneck for Large Language Model Startups Is UX]]></title>
-        <id>https://news.ycombinator.com/item?id=33430442</id>
-        <link href="https://medium.com/innovationendeavors/the-biggest-bottleneck-for-large-language-model-startups-is-ux-ef4500e4e786"/>
-        <updated>2022-11-02T01:38:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://medium.com/innovationendeavors/the-biggest-bottleneck-for-large-language-model-startups-is-ux-ef4500e4e786
-Comments URL: https://news.ycombinator.com/item?id=33430442
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>davistreybig</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cando: Computer Aided Nanostructure Design and Optimization]]></title>
-        <id>https://news.ycombinator.com/item?id=33425788</id>
-        <link href="https://github.com/cando-developers/cando"/>
-        <updated>2022-11-01T18:56:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/cando-developers/cando
-Comments URL: https://news.ycombinator.com/item?id=33425788
-Points: 3
-# Comments: 1]]></summary>
-        <author>
-            <name>homarp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Deliver application as single HTML/JS file?]]></title>
-        <id>https://news.ycombinator.com/item?id=33425381</id>
-        <link href="https://news.ycombinator.com/item?id=33425381"/>
-        <updated>2022-11-01T18:31:47.000Z</updated>
-        <summary type="html"><![CDATA[I’m planning to develop some simple tools for my company’s internal use, and due to IT requirements, I’m hoping to have everything run in the browser and be delivered as a single file containing HTML/JS/CSS. Is there a particular name for this practice/development style?
-Comments URL: https://news.ycombinator.com/item?id=33425381
-Points: 3
-# Comments: 3]]></summary>
-        <author>
-            <name>vitejose</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[People return to offices, productivity plunges]]></title>
-        <id>https://news.ycombinator.com/item?id=33424977</id>
-        <link href="https://ktla.com/news/money-smart/people-return-to-offices-productivity-plunges/"/>
-        <updated>2022-11-01T18:05:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ktla.com/news/money-smart/people-return-to-offices-productivity-plunges/
-Comments URL: https://news.ycombinator.com/item?id=33424977
-Points: 25
-# Comments: 10]]></summary>
-        <author>
-            <name>Brajeshwar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS Nesting]]></title>
-        <id>https://news.ycombinator.com/item?id=33424361</id>
-        <link href="https://www.w3.org/TR/css-nesting-1/"/>
-        <updated>2022-11-01T17:27:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.w3.org/TR/css-nesting-1/
-Comments URL: https://news.ycombinator.com/item?id=33424361
-Points: 4
-# Comments: 2]]></summary>
-        <author>
-            <name>jacobr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introducing Website Performance Monitoring with WebPageTest!]]></title>
-        <id>https://blog.webpagetest.org/posts/introducing-website-performance-monitoring-with-webpagetest/</id>
-        <link href="https://blog.webpagetest.org/posts/introducing-website-performance-monitoring-with-webpagetest/"/>
-        <updated>2022-11-01T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Schedule, test, and monitor your website performance metrics in a single dashboard with the new WebPageTest feature in the Catchpoint portal.
-For a long time now, we’ve been working behind the scenes to deliver one of the most widely-requested features from the WebPageTest community. WebPageTest results have always been extremely useful for performance audits, ad-hoc performance testing, and lately performance prototyping with Opportunities & Experiments. As some of our more advanced users are well aware, we support CI/CD integrations and homebrewed dashboards with the WebPageTest API.
-But for those without the time or resources to build their own dashboards, or for those with complicated or sprawling websites that need serious automation for performance monitoring, it’s been tricky or imp…]]></summary>
-        <author>
-            <name>WebPageTest Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One CSS trick can save you months of time]]></title>
-        <id>https://news.ycombinator.com/item?id=33422950</id>
-        <link href="https://twitter.com/breckyunits/status/1587473216074764288"/>
-        <updated>2022-11-01T15:55:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/breckyunits/status/1587473216074764288
-Comments URL: https://news.ycombinator.com/item?id=33422950
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>breck</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ethical design is a risk management strategy]]></title>
-        <id>https://news.ycombinator.com/item?id=33421946</id>
-        <link href="https://uxdesign.cc/ethical-design-is-a-risk-management-strategy-400abd84c8a"/>
-        <updated>2022-11-01T14:48:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://uxdesign.cc/ethical-design-is-a-risk-management-strategy-400abd84c8a
-Comments URL: https://news.ycombinator.com/item?id=33421946
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>andyjohnson0</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Matters to Mauro Porcini]]></title>
-        <id>https://www.printmag.com/?p=737444</id>
-        <link href="https://www.printmag.com/what-matters/what-matters-to-mauro-porcini/"/>
-        <updated>2022-11-01T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The PepsiCo Chief Design Officer and PRINT Book Club author on the life-affirming power of empathy, wrestling with the concept of an afterlife, and literally writing with fire.]]></summary>
-        <author>
-            <name>Debbie Millman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A 16th-Century French Chateau That Honors a Family’s Histories of Exile]]></title>
-        <id>https://www.nytimes.com/2022/11/01/t-magazine/chateau-montalembert-france-home-design.html</id>
-        <link href="https://www.nytimes.com/2022/11/01/t-magazine/chateau-montalembert-france-home-design.html"/>
-        <updated>2022-11-01T13:25:08.000Z</updated>
-        <summary type="html"><![CDATA[For centuries, the owners of an ancestral estate have sought to secure within its walls the worlds they lost.]]></summary>
-        <author>
-            <name>Gisela Williams and Joaquín Laguinge</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hailea Urban Display Takes Script Fonts Into the Next Generation]]></title>
-        <id>https://www.printmag.com/?p=737982</id>
-        <link href="https://www.printmag.com/type-tuesday/hailea-urban-display-takes-script-fonts-into-the-next-generation/"/>
-        <updated>2022-11-01T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Inspired by calligraphy and tech, Hailea is a typeface by Wisnu Cipto that takes script typefaces into the next generation.]]></summary>
-        <author>
-            <name>Chloe Gordon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rendering External API Data in WordPress Blocks on the Back End]]></title>
-        <id>https://css-tricks.com/?p=374381</id>
-        <link href="https://css-tricks.com/rendering-external-api-data-in-wordpress-blocks-on-the-back-end/"/>
-        <updated>2022-11-01T12:57:22.000Z</updated>
-        <summary type="html"><![CDATA[This is a continuation of my last article about “Rendering External API Data in WordPress Blocks on the Front End”. In that last one, we learned how to take an external API and integrate it with a block that …
-Rendering External API Data in WordPress Blocks on the Back End originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
-        <author>
-            <name>Manoj Kumar</name>
         </author>
     </entry>
 </feed>
