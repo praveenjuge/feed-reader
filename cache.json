@@ -92,6 +92,16 @@
       "siteUrl": "https://adrianroselli.com",
       "articles": [
         {
+          "id": "https://adrianroselli.com/?p=19969",
+          "author": "Adrian Roselli",
+          "description": "TL;DR: Description list support is generally good (with Safari being the outlier), even if you may not like how it is supported. This post builds on my 2020 tests when iOS 14 finally added (partial) support for description lists (VoiceOver on iOS 14 Supports Description Lists). The <dl> has existed…",
+          "link": "https://adrianroselli.com/2022/12/brief-note-on-description-list-support.html",
+          "publishedOn": "2022-12-04T00:19:19.000Z",
+          "wordCount": 2603,
+          "title": "Brief Note on Description List Support",
+          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2022/12/sample-dl_thumb-300x300.png"
+        },
+        {
           "id": "https://adrianroselli.com/?p=19930",
           "author": "Adrian Roselli",
           "description": "It’s a dice advent calendar. I have no idea how five Platonic Solids and some D10s will carry for 24 days, but I am going to find out. Web developers around the world have for years given a nod to Saturnalia solstice Isaac Newton’s birthday Yule wassailing mummering end of…",
@@ -336,16 +346,6 @@
           "wordCount": 560,
           "title": "Links, 2, 3, 4: Accessibility",
           "imageUrl": null
-        },
-        {
-          "id": "https://christianheilmann.com/?p=7397",
-          "author": "Chris Heilmann",
-          "description": "If you use Microsoft Edge, you get a camera icon when you hover your mouse over any image: This is a great tool for users as it allows them to do a visual search in a sidebar for that image. During local development, the icon appears on images, too, but the results don’t show up. […]",
-          "link": "https://christianheilmann.com/2022/11/04/removing-the-camera-overlay-icon-on-images-in-microsoft-edge/",
-          "publishedOn": "2022-11-04T10:41:49.000Z",
-          "wordCount": 540,
-          "title": "Removing the camera overlay icon on images in Microsoft Edge",
-          "imageUrl": null
         }
       ]
     },
@@ -570,16 +570,6 @@
           "wordCount": 1282,
           "title": "A Couple Changes Coming in Chrome 108",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/374894"
-        },
-        {
-          "id": "https://css-tricks.com/?p=374731",
-          "author": "Aisha Bukar",
-          "description": "Web Sockets, Web Workers, Service Workers… these are terms you may have read or overheard. Maybe not all of them, but likely at least one of them. And even if you have a good handle on front-end development, there’s a …\nThe Difference Between Web Sockets, Web Workers, and Service Workers originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/the-difference-between-web-sockets-web-workers-and-service-workers/",
-          "publishedOn": "2022-11-03T12:56:58.000Z",
-          "wordCount": 2106,
-          "title": "The Difference Between Web Sockets, Web Workers, and Service Workers",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/374731"
         }
       ]
     },
@@ -1107,36 +1097,6 @@
           "wordCount": 2972,
           "title": "Design Principles For The Web",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11040",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/the-difference-between-web-sockets-web-workers-and-service-workers/",
-          "publishedOn": "2022-11-04T08:30:00.000Z",
-          "wordCount": 2993,
-          "title": "The Difference Between Web Sockets, Web Workers, and Service Workers",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11034",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://dailydevlinks.com/unreveal-effects-for-content-previews/",
-          "publishedOn": "2022-11-04T08:30:00.000Z",
-          "wordCount": 2968,
-          "title": "Unreveal Effects for Content Previews",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11037",
-          "author": "Adam Marsden",
-          "description": "CSSHTMLPerformance",
-          "link": "https://dailydevlinks.com/html-css-features-tips-for-a-10x-faster-page-loading-speed/",
-          "publishedOn": "2022-11-04T08:30:00.000Z",
-          "wordCount": 3003,
-          "title": "HTML & CSS Features, Tips For a 10x Faster Page Loading Speed",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2022/09/social-share.jpg"
         }
       ]
     },
@@ -1380,16 +1340,6 @@
           "wordCount": 1594,
           "title": "Federated Credential Management API is shipping",
           "imageUrl": "https://wd.imgix.net/image/vgdbNJBYHma2o62ZqYmcnkq3j0o1/yG6HcKRIK416ewhINL0T.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/storage-buckets/",
-          "author": null,
-          "description": "The Storage Standard defines an API for persistent storage and\nquota estimates, and the platform storage architecture. It's available behind the\n#enable-experimental-web-platform-features flag in Chromium 106, and we'd love your feedback.\n# What problem does the storage standard aim to solve?\nTraditionally, as the user runs out of storage space on their device, the data stored with APIs like\nIndexedDB or localStorage gets lost without the user being able to intervene. A way to make\nstorage persistent is through invoking the\npersist() method of the\nStorageManager interface. It simultaneously requests the end user for permission and changes the\nstorage to be persistent once granted:\nconst persisted = await navigator.storage.persist();\nif (persisted) {\n  /* Storage will not be cleared except …",
-          "link": "https://developer.chrome.com/en/blog/storage-buckets/",
-          "publishedOn": "2022-11-04T00:00:00.000Z",
-          "wordCount": 1316,
-          "title": "Not all storage is created equal: introducing Storage Buckets",
-          "imageUrl": "https://wd.imgix.net/image/8WbTDNrhLsU0El80frMBGE4eMCD3/uSUKNoGdlmEsXAtHr0yJ.jpg?auto=format&w=1521"
         }
       ]
     },
@@ -2115,36 +2065,6 @@
           "wordCount": 196,
           "title": "Visual design in UX",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=66679",
-          "author": "Travis",
-          "description": "Did you know these are called Boolean Operations? That’s because they use booleans to determine which part of the shapes should be visible.",
-          "link": "https://heydesigner.com/vector-boolean-operations/",
-          "publishedOn": "2022-11-04T08:51:52.000Z",
-          "wordCount": 203,
-          "title": "Vector boolean operations",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=66677",
-          "author": "Travis",
-          "description": "I started making diagrams and design artifacts to expose broken experiences giving my team a visual representation of the problem.",
-          "link": "https://heydesigner.com/driving-clarity-with-design-artifacts/",
-          "publishedOn": "2022-11-04T08:50:18.000Z",
-          "wordCount": 205,
-          "title": "Driving clarity with design artifacts",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=66674",
-          "author": "Travis",
-          "description": "I’m a big advocate for HCI being integrated into all disciplines, no matter your job title. Anyone on a software team could run a user study.",
-          "link": "https://heydesigner.com/my-hci-toolbox-methods-for-designing-and-evaluating-uis/",
-          "publishedOn": "2022-11-04T08:48:02.000Z",
-          "wordCount": 216,
-          "title": "My HCI toolbox: Methods for designing and evaluating UIs",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2153,6 +2073,46 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=33846417",
+          "author": "Ygg2",
+          "description": "Article URL: https://www.youtube.com/watch?v=zVUTZlNCb8U\nComments URL: https://news.ycombinator.com/item?id=33846417\nPoints: 1\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=zVUTZlNCb8U",
+          "publishedOn": "2022-12-03T19:24:08.000Z",
+          "wordCount": null,
+          "title": "High Performance Rust UI",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33843427",
+          "author": "tosh",
+          "description": "Article URL: http://cva.stanford.edu/classes/cs99s/papers/myer-sutherland-design-of-display-processors.pdf\nComments URL: https://news.ycombinator.com/item?id=33843427\nPoints: 2\n# Comments: 1",
+          "link": "http://cva.stanford.edu/classes/cs99s/papers/myer-sutherland-design-of-display-processors.pdf",
+          "publishedOn": "2022-12-03T13:47:29.000Z",
+          "wordCount": 16288,
+          "title": "On the Design of Display Processors (1968) [pdf]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33843203",
+          "author": "dxs",
+          "description": "Article URL: https://english.elpais.com/culture/2022-12-03/buckminster-fuller-the-crazy-genius-that-steve-jobs-turned-into-an-icon.html\nComments URL: https://news.ycombinator.com/item?id=33843203\nPoints: 1\n# Comments: 0",
+          "link": "https://english.elpais.com/culture/2022-12-03/buckminster-fuller-the-crazy-genius-that-steve-jobs-turned-into-an-icon.html",
+          "publishedOn": "2022-12-03T13:10:18.000Z",
+          "wordCount": 4084,
+          "title": "Buckminster Fuller, the crazy genius that Steve Jobs turned into an icon",
+          "imageUrl": "https://images.english.elpais.com/resizer/rKFmxqy16FF6iT-PaQbGC3SSBH4=/1200x0/filters:focal(1599x1271:1609x1281)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/4F4QXZRVOZA5BCKKTU5EFD5I7Y.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33839127",
+          "author": "stephencoyner",
+          "description": "Article URL: https://material.io/blog/24-hour-clock-design-research\nComments URL: https://news.ycombinator.com/item?id=33839127\nPoints: 5\n# Comments: 0",
+          "link": "https://material.io/blog/24-hour-clock-design-research",
+          "publishedOn": "2022-12-03T01:02:36.000Z",
+          "wordCount": 926,
+          "title": "The 24-hour Clock Design Challenge",
+          "imageUrl": "https://lh3.googleusercontent.com/awqU8wkZbnucN_ns4dyrL_qyiLreJX4K-mjBNaNFthQ1OP9CVCUmfcvANYFeawPmkf7463T_vI-AH5DuBdvdWb4F9O526sosnV7hsVbvGZWyzDzGOSc"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=33837758",
           "author": "KasianFranks",
@@ -3962,36 +3922,6 @@
           "wordCount": 869,
           "title": "Design by Contract",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33463752",
-          "author": "Kinrany",
-          "description": "Article URL: https://www.juxt.pro/blog/bitemporality-more-than-a-design-pattern\nComments URL: https://news.ycombinator.com/item?id=33463752\nPoints: 1\n# Comments: 0",
-          "link": "https://www.juxt.pro/blog/bitemporality-more-than-a-design-pattern",
-          "publishedOn": "2022-11-04T09:08:55.000Z",
-          "wordCount": 2044,
-          "title": "Bitemporality: More Than a Design Pattern",
-          "imageUrl": "https://uploads-ssl.webflow.com/5ee34ed4add9efa8a4b731de/60748a1dbe3a8edae382cc3a_bitemporality-dr-who-blink.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33461488",
-          "author": "asfsadfsdf",
-          "description": "I have a rails app and I need to build a good UI for my website. It has a form and requires CRUD operations and has 3/4 pages. The backend is in place, but I'm not quite comfortable with the UI part. I need to build a UI that is responsive. Are there any recommended drap/drop UI builders that can export the required HTML/CSS that I can just shove into my existing rails app?\nSites like wordpress will allow me to create a UI and some backend but it is a new backend that I'll need to learn. I'd rather keep the backend as rails as I'm comfortable with it, so it'll be faster for me to build on it.\nComments URL: https://news.ycombinator.com/item?id=33461488\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=33461488",
-          "publishedOn": "2022-11-04T02:57:56.000Z",
-          "wordCount": 211,
-          "title": "Ask HN: Easy way to build a UI that I can add to a rails app?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33452162",
-          "author": "rntn",
-          "description": "Article URL: https://link.springer.com/article/10.1007/s10462-022-10142-3\nComments URL: https://news.ycombinator.com/item?id=33452162\nPoints: 2\n# Comments: 0",
-          "link": "https://link.springer.com/article/10.1007/s10462-022-10142-3",
-          "publishedOn": "2022-11-03T15:06:50.000Z",
-          "wordCount": 11609,
-          "title": "When AI meets store layout design: a review",
-          "imageUrl": "https://media.springernature.com/w200/springer-static/cover/journal/10462.jpg"
         }
       ]
     },
@@ -4000,6 +3930,46 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=33846604",
+          "author": "cassianoleal",
+          "description": "Article URL: https://theconversation.com/four-day-week-trial-confirms-working-less-increases-wellbeing-and-productivity-195660\nComments URL: https://news.ycombinator.com/item?id=33846604\nPoints: 14\n# Comments: 0",
+          "link": "https://theconversation.com/four-day-week-trial-confirms-working-less-increases-wellbeing-and-productivity-195660",
+          "publishedOn": "2022-12-03T19:45:58.000Z",
+          "wordCount": 4286,
+          "title": "Four-day week trial confirms working less increases wellbeing and productivity",
+          "imageUrl": "https://images.theconversation.com/files/498263/original/file-20221130-14-xvzlkn.jpg?ixlib=rb-1.1.0&rect=0%2C342%2C6709%2C3349&q=45&auto=format&w=1356&h=668&fit=crop"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33845547",
+          "author": "Beefin",
+          "description": "Article URL: https://esteininger.medium.com/applying-stoic-principles-in-a-struggling-economy-352738b45650\nComments URL: https://news.ycombinator.com/item?id=33845547\nPoints: 1\n# Comments: 0",
+          "link": "https://esteininger.medium.com/applying-stoic-principles-in-a-struggling-economy-352738b45650",
+          "publishedOn": "2022-12-03T17:54:58.000Z",
+          "wordCount": 1436,
+          "title": "Applying Stoic Principles in a Struggling Economy",
+          "imageUrl": "https://miro.medium.com/max/1200/1*2ZtbdYdmJNANVdKA7r4G-g.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33843958",
+          "author": "ingve",
+          "description": "Article URL: https://lukas.io/autoposting-rss-to-mastodon\nComments URL: https://news.ycombinator.com/item?id=33843958\nPoints: 27\n# Comments: 4",
+          "link": "https://lukas.io/autoposting-rss-to-mastodon",
+          "publishedOn": "2022-12-03T15:02:09.000Z",
+          "wordCount": null,
+          "title": "How to post to Mastodon automatically from an RSS Feed",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33842599",
+          "author": "xenodium",
+          "description": "I built a habit tracker https://flathabits.com to scratch an itch. I really wanted to do the right thing for the users. The driving principles were as follows:\n- Privacy. These are your personal habits (and they stay on your phone). I want zero access to your data.\n- Minimal friction. Habit tracking requires dedication, so it should require almost no effort to stay on top of it.\n- No gimmicks. Really, no games, prizes, etc. Just want to build an effective tool.\n- No lock-in. Your data is yours. It is saved locally to a text file you can inspect or export at any time.\n- No sign-up or account. There really is no need for it. Period.\n- No social. Social really just gets in the way. These are your habits, focus on them.\n- No analytics. None of any kind. If you like the app or there's a bug, just report it.\n- Text-based. Not that it matters to many users, but all data is stored to a text file in org mode.\nI've used the app thoroghly and managed to rack up a decent year and a half of continuous running and meditation amongst other habits. The app has 114 ratings (across all countries) with a 4.8 score. But, the app hasn're really picked up many users (1-5 daily downloads) even as a free app.\nSo, what is this habit tracker missing? What do you actually want in a habit tracker?\nComments URL: https://news.ycombinator.com/item?id=33842599\nPoints: 11\n# Comments: 10",
+          "link": "https://news.ycombinator.com/item?id=33842599",
+          "publishedOn": "2022-12-03T11:11:53.000Z",
+          "wordCount": 1386,
+          "title": "Ask HN: What do you want in a habit tracker?",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=33833125",
           "author": "node-bayarea",
@@ -4439,26 +4409,6 @@
           "wordCount": 5601,
           "title": "Productivity has fallen, and experts are puzzled. I’m not. We’re all just tired",
           "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/fbe758e/2147483647/strip/true/crop/6000x3150+0+850/resize/1200x630!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Faa%2Ff9%2F6deb60a44e628f5b0e882fa033de%2Fgettyimages-1296530046.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33465364",
-          "author": "zccm",
-          "description": "Article URL: https://zihan.ga/post/disadvantages-of-rss\nComments URL: https://news.ycombinator.com/item?id=33465364\nPoints: 5\n# Comments: 2",
-          "link": "https://zihan.ga/post/disadvantages-of-rss",
-          "publishedOn": "2022-11-04T12:19:27.000Z",
-          "wordCount": 886,
-          "title": "The Problems of RSS",
-          "imageUrl": "/rss_hero_image.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33463196",
-          "author": "kobaroko",
-          "description": "I would like to move away from CMS that I'm using to GitHub pages. I think that the easiest way is to use my RSS feed as source, but I don't know how to convert. I get it that not everything can be converted, but just to manage to get the images and text out and formated right it would be great.\nMy second option is to copy HTML source code, but I don't think that GitHub pages support all of the HTML tags.\nComments URL: https://news.ycombinator.com/item?id=33463196\nPoints: 1\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=33463196",
-          "publishedOn": "2022-11-04T07:25:50.000Z",
-          "wordCount": 174,
-          "title": "Ask HN: Converting HTML to Markdown Using RSS",
-          "imageUrl": null
         }
       ]
     },
@@ -4467,6 +4417,36 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=33846512",
+          "author": "disadvantage",
+          "description": "Article URL: https://austingil.com/px-or-rem-in-css/\nComments URL: https://news.ycombinator.com/item?id=33846512\nPoints: 40\n# Comments: 39",
+          "link": "https://austingil.com/px-or-rem-in-css/",
+          "publishedOn": "2022-12-03T19:35:06.000Z",
+          "wordCount": 4208,
+          "title": "PX or REM in CSS? Just Use REM",
+          "imageUrl": "https://cdn.statically.io/img/austingil.com/f=auto%2Cq=70/wp-content/uploads/CSS%20Blog%20Cover.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33845887",
+          "author": "orf",
+          "description": "Article URL: https://github.com/orf/hq\nComments URL: https://news.ycombinator.com/item?id=33845887\nPoints: 4\n# Comments: 0",
+          "link": "https://github.com/orf/hq",
+          "publishedOn": "2022-12-03T18:24:39.000Z",
+          "wordCount": 770,
+          "title": "Show HN: A tool like jq, but for parsing HTML",
+          "imageUrl": "https://opengraph.githubassets.com/6c5a100318155fa2388729cb934701f8d38629c3b7f00fc60f09a79c99686e93/orf/hq"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=33840431",
+          "author": "novateg",
+          "description": "Article URL: https://novateg.com/\nComments URL: https://news.ycombinator.com/item?id=33840431\nPoints: 5\n# Comments: 1",
+          "link": "https://novateg.com/",
+          "publishedOn": "2022-12-03T03:56:36.000Z",
+          "wordCount": 1755,
+          "title": "You don't need JS series: I build a website mostly with HTML and CSS",
+          "imageUrl": "https://novateg.com/placeholder-social.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=33827254",
           "author": "thunderbong",
@@ -5326,46 +5306,6 @@
           "wordCount": null,
           "title": "Infinitely scroll any content horizontally using CSS animations",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33463196",
-          "author": "kobaroko",
-          "description": "I would like to move away from CMS that I'm using to GitHub pages. I think that the easiest way is to use my RSS feed as source, but I don't know how to convert. I get it that not everything can be converted, but just to manage to get the images and text out and formated right it would be great.\nMy second option is to copy HTML source code, but I don't think that GitHub pages support all of the HTML tags.\nComments URL: https://news.ycombinator.com/item?id=33463196\nPoints: 1\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=33463196",
-          "publishedOn": "2022-11-04T07:25:50.000Z",
-          "wordCount": 174,
-          "title": "Ask HN: Converting HTML to Markdown Using RSS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33455993",
-          "author": "notmysql_",
-          "description": "Article URL: https://css-tricks.com/is-there-too-much-css-now/\nComments URL: https://news.ycombinator.com/item?id=33455993\nPoints: 19\n# Comments: 14",
-          "link": "https://css-tricks.com/is-there-too-much-css-now/",
-          "publishedOn": "2022-11-03T19:18:40.000Z",
-          "wordCount": 3067,
-          "title": "Is There Too Much CSS Now?",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/374364"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33455771",
-          "author": "selvan",
-          "description": "Article URL: https://bookdown.org/home/\nComments URL: https://news.ycombinator.com/item?id=33455771\nPoints: 3\n# Comments: 0",
-          "link": "https://bookdown.org/home/",
-          "publishedOn": "2022-11-03T19:02:18.000Z",
-          "wordCount": 2494,
-          "title": "Bookdown: Write HTML, PDF, ePub, and Kindle Books with R Markdown",
-          "imageUrl": "https://bookdown.org/yihui/bookdown/images/logo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33453514",
-          "author": "adrianthedev",
-          "description": "Article URL: https://github.com/avo-hq/class_variants\nComments URL: https://news.ycombinator.com/item?id=33453514\nPoints: 2\n# Comments: 0",
-          "link": "https://github.com/avo-hq/class_variants",
-          "publishedOn": "2022-11-03T16:29:53.000Z",
-          "wordCount": 1001,
-          "title": "Show HN: Create maintainable Tailwind components in Ruby",
-          "imageUrl": "https://opengraph.githubassets.com/069b509d16a8da6836417d5115f39338824ab923606554aee95353ddac352936/avo-hq/class_variants"
         }
       ]
     },
@@ -5469,6 +5409,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=43320",
+          "author": "Seth Godin",
+          "description": "It doesn’t matter how sure you are that this is a winning ticket, the ticket doesn’t care. And there are lots of lotteries in our lives. I was talking to a fifteen-year old the other day. He’s decided to devote the next decade of his life to getting drafted to play in the NBA. Without […]",
+          "link": "https://seths.blog/2022/12/confidence-doesnt-help-win-the-lottery/",
+          "publishedOn": "2022-12-03T09:51:00.000Z",
+          "wordCount": 1194,
+          "title": "Confidence doesn’t help win the lottery",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
+        },
         {
           "id": "https://seths.blog/?p=43316",
           "author": "Seth Godin",
@@ -5788,16 +5738,6 @@
           "wordCount": 1154,
           "title": "The hodgepodge is normal",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44153",
-          "author": "Seth Godin",
-          "description": "It’s easy to imagine that they are, as it lets us off the hook as habits become negative, or even addictions. If someone else is thriving without the habit we seem to need, then it’s likely a desire pretending to be a need. For example: You can be a successful professional without spending time on […]",
-          "link": "https://seths.blog/2022/11/habits-are-not-needs/",
-          "publishedOn": "2022-11-04T08:46:00.000Z",
-          "wordCount": 1119,
-          "title": "Habits are not needs",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         }
       ]
     },
@@ -6805,56 +6745,6 @@
           "wordCount": null,
           "title": "Can artificial intelligence save democracy?",
           "imageUrl": null
-        },
-        {
-          "id": "hSLJWriM4ZnN2uos2",
-          "author": "@nerddoingsocial",
-          "description": "CtrlAlt.CC helps you easily find cool products, that sometimes fly under the radar but will make your startup’s life easier.",
-          "link": "https://ctrlalt.cc/",
-          "publishedOn": "2022-11-04T04:17:39.000Z",
-          "wordCount": 4558,
-          "title": "CtrlAlt.CC",
-          "imageUrl": "https://ctrlalt.cc/wp-content/uploads/2022/07/cc-ft-img-min.png"
-        },
-        {
-          "id": "HYPwCe56FjSBLpkqW",
-          "author": "@hdv",
-          "description": "Interop 2022 makes a great impact for web developers, should something like an accessibility-specific Interop exist?",
-          "link": "https://hidde.blog/at-interop/",
-          "publishedOn": "2022-11-04T04:15:25.000Z",
-          "wordCount": 1709,
-          "title": "Do we need an Interop for assistive technologies?",
-          "imageUrl": "https://hidde.blog/_images/EF2CC0D7-2D6A-46B1-813C-8EEEA29ABFA5.png"
-        },
-        {
-          "id": "5fsDkSdqPtPSEJ3hD",
-          "author": "@nngroup",
-          "description": "Premature error messages, aggressively styled fields, and unnecessarily disruptive system-status messages.",
-          "link": "https://www.nngroup.com/articles/hostile-error-messages/",
-          "publishedOn": "2022-11-04T04:14:17.000Z",
-          "wordCount": 2789,
-          "title": "Hostile Patterns in Error Messages",
-          "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/Social_Posts-Megan_2_22.png"
-        },
-        {
-          "id": "9PFJAeTbHuZYkDkcu",
-          "author": "@verge",
-          "description": "Darin Fisher built the world’s most popular browsers — now he’s going to try and disrupt them.",
-          "link": "https://www.theverge.com/2022/10/31/23428862/arc-browser-web-company-darin-fisher",
-          "publishedOn": "2022-11-04T04:10:16.000Z",
-          "wordCount": 10547,
-          "title": "Why one web pioneer thinks it’s time to reinvent the browser",
-          "imageUrl": "https://cdn.vox-cdn.com/thumbor/PEATIA7wfMUPq6kn8cMDx-x_1hE=/0x0:1600x1065/1200x628/filters:focal(800x533:801x534)/cdn.vox-cdn.com/uploads/chorus_asset/file/24149689/image1.jpg"
-        },
-        {
-          "id": "DG3FdFLzgr8XkTr8i",
-          "author": "@Builtformars",
-          "description": "Google Ads should be flawless, given its size. Instead, it’s a demonstration that operating at a scale creates inefficiencies and flaws.",
-          "link": "https://builtformars.com/case-studies/google-ads",
-          "publishedOn": "2022-11-04T04:04:00.000Z",
-          "wordCount": 2188,
-          "title": "A UX teardown of the Google Ads platform",
-          "imageUrl": "https://builtformars.com/uploads/images/_1200x630_crop_center-center_82_none/GGMeme-featured-image.jpg?mtime=1667552716"
         }
       ]
     },
@@ -6911,16 +6801,6 @@
           "wordCount": 1075,
           "title": "WDRL — Edition 305: Free, Independent and hand-made. That’s the Internet we like.",
           "imageUrl": null
-        },
-        {
-          "id": "https://wdrl.info/archive/304",
-          "author": null,
-          "description": "Hey,\nwhen I started this newsletter in 2013, I’d never imagined to writing this for nine years, to have thousands of subscribers via email, and many more via the website, social media, and the RSS feed. With many ups and downs, changes in schedule, and ups and downs in motivation, I’m glad to have this project still alive, to get feedback from my dear readers (you), and seem to have a positive impact on web developers’ work lives. This is what still motivates me today.\nBut what remains open is the question of monetarizing this project. I have always accepted contributions, but they decline every year. And while the monthly schedule brings a bit more flexibility, writing the newsletter is the big chunk of work. Right now, I’m happy if the contributions at least pay my hosting and sending bi…",
-          "link": "https://wdrl.info/archive/304",
-          "publishedOn": "2022-11-04T06:00:00.000Z",
-          "wordCount": 995,
-          "title": "WDRL — Edition 304: New CSS, an unplugged life, and new Open Source challenges.",
-          "imageUrl": "https://wdrl.info/media/pages/archive/304/5bcc7555cd-1667540884/wdrl-304-1200x630-crop-1-q80.png"
         }
       ]
     },
@@ -6978,6 +6858,16 @@
       "feedUrl": "https://www.nytimes.com/svc/collections/v1/publish/http://www.nytimes.com/topic/subject/design/rss.xml",
       "siteUrl": "https://www.nytimes.com/topic/subject/design",
       "articles": [
+        {
+          "id": "https://www.nytimes.com/2022/12/03/travel/winter-hotels-united-states-europe.html",
+          "author": "Amy Tara Koch",
+          "description": "For those looking to get away to the cold, new and reimagined hotels in New England, the Alps and beyond offer stylish accommodations near the snow.",
+          "link": "https://www.nytimes.com/2022/12/03/travel/winter-hotels-united-states-europe.html",
+          "publishedOn": "2022-12-03T15:10:15.000Z",
+          "wordCount": null,
+          "title": "8 New Hotels for Winter Enthusiasts in the U.S. and Europe",
+          "imageUrl": null
+        },
         {
           "id": "https://www.nytimes.com/interactive/2022/12/02/realestate/gumdrop-christmas-tree.html",
           "author": "Tim McKeough",
@@ -7257,26 +7147,6 @@
           "wordCount": 5410,
           "title": "Sustainable Getaways and Second Homes",
           "imageUrl": "https://static01.nyt.com/images/2022/11/05/multimedia/05sp-water-sustain-inyt3/05sp-water-sustain-inyt3-facebookJumbo.jpg"
-        },
-        {
-          "id": "https://www.nytimes.com/2022/11/04/t-magazine/miniature-furniture.html",
-          "author": "Adriane Quinlan and Alyona Kuzmina",
-          "description": "For artists and designers accustomed to considering both form and function, working in miniature affords outsize opportunities for experimentation.",
-          "link": "https://www.nytimes.com/2022/11/04/t-magazine/miniature-furniture.html",
-          "publishedOn": "2022-11-04T11:00:10.000Z",
-          "wordCount": 4962,
-          "title": "Tiny Furniture Isn’t Just for Dollhouses Anymore",
-          "imageUrl": "https://static01.nyt.com/images/2022/11/04/t-magazine/04tmag-tinyfurniture-slide-X7ML-copy/04tmag-tinyfurniture-slide-X7ML-copy-facebookJumbo.jpg"
-        },
-        {
-          "id": "https://www.nytimes.com/2022/11/04/realestate/under-water-restaurants-vacations.html",
-          "author": "Sam Lubell",
-          "description": "Those fascinated by the ocean can now vacation, dine or even live underwater in these specially designed locations.",
-          "link": "https://www.nytimes.com/2022/11/04/realestate/under-water-restaurants-vacations.html",
-          "publishedOn": "2022-11-04T09:00:23.000Z",
-          "wordCount": 5349,
-          "title": "At Home Beneath the Waves",
-          "imageUrl": "https://static01.nyt.com/images/2022/11/05/multimedia/05sp-water-homes-inyt4/merlin_152337354_a34b0116-65fd-4e25-9187-4e80343b3dcb-facebookJumbo.jpg"
         }
       ]
     },
@@ -8014,66 +7884,6 @@
           "wordCount": 2124,
           "title": "The Daily Heller: John Baeder’s American Idols",
           "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/11/Baeder-Chadwick-Square-Diner-scaled.jpg?fit=1200%2C750&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=738227",
-          "author": "PRINT Magazine",
-          "description": "The Co-Founder and CEO of the organic potato chip company on how she got started, her commitment to living sustainably, and the push for less wasteful packaging.",
-          "link": "https://www.printmag.com/printcast/shifting-toward-sustainability-with-alicia-lahey-of-humble-snacks/",
-          "publishedOn": "2022-11-04T11:00:00.000Z",
-          "wordCount": 1731,
-          "title": "Shifting Toward Sustainability with Alicia Lahey of Humble Snacks",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/11/EvolveCPG-AliciaLahey-Square-R1.jpg?fit=1200%2C1200&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=738046",
-          "author": "Steven Heller",
-          "description": "Knowles riffs on the output of Domain press, which he originally launched as part of his MFA thesis.",
-          "link": "https://www.printmag.com/daily-heller/the-daily-heller-david-knowles-runs-an-indie-publishing-house-on-the-side/",
-          "publishedOn": "2022-11-04T11:00:00.000Z",
-          "wordCount": 5208,
-          "title": "The Daily Heller: David Knowles Runs an Indie Publishing House on the Side",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/11/teaser.jpg?fit=1200%2C699&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=737874",
-          "author": "Chloe Gordon",
-          "description": "These whimsical, circus-inspired designs for Canada Post are a testament to the enduring charm of analog communication.",
-          "link": "https://www.printmag.com/illustration-design/paprika-design-adds-extra-magic-to-mail-with-their-vintage-carousels-stamps/",
-          "publishedOn": "2022-11-04T10:00:00.000Z",
-          "wordCount": 1840,
-          "title": "Paprika Design Adds Extra Magic to Mail with Their Vintage Carousels Stamps",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/10/88a9a2151731241.6310f12e226ea.jpg?fit=1200%2C800&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=738262",
-          "author": "Elissa Altman",
-          "description": "Elissa Altman reflects on her time with the beloved late chef, Julie Powell.",
-          "link": "https://www.printmag.com/creative-voices/poor-mans-feast-julie-not-julia/",
-          "publishedOn": "2022-11-03T17:00:00.000Z",
-          "wordCount": 2345,
-          "title": "Poor Man’s Feast: Julie, Not Julia",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/11/alone-tabito-Bgm06JjsW38-unsplash-scaled.jpg?fit=1200%2C900&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=738214",
-          "author": "Tom Guarriello",
-          "description": "Tom Guarriello on how the things we care about can help us live with more intention.",
-          "link": "https://www.printmag.com/creative-voices/my-favorite-things-caring-about-favorites/",
-          "publishedOn": "2022-11-03T16:00:00.000Z",
-          "wordCount": 2366,
-          "title": "My Favorite Things: Living Care-fully",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/11/cd46fd70-43e9-4879-9b44-c66abe9d8527_876x897.jpeg?fit=876%2C897&ssl=1"
-        },
-        {
-          "id": "https://www.printmag.com/?p=738135",
-          "author": "Charlotte Beach",
-          "description": "The New Zealand-born artist on bringing the City of Angels' historic architecture to life in miniature form.",
-          "link": "https://www.printmag.com/designer-interviews/small-scale-la/",
-          "publishedOn": "2022-11-03T14:00:00.000Z",
-          "wordCount": 3127,
-          "title": "Kieran Wright’s Miniature Models of LA Buildings Reflect His Big Love for the City",
-          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2022/11/IMG_20200503_153210-01-01.jpeg?fit=1200%2C876&ssl=1"
         }
       ]
     },
@@ -8310,21 +8120,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/48e8a36f-2bd6-4fdf-8a56-acec206c23c8/whats-new-nextjs-13.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/11/practical-steps-build-transparency-remote-business/",
-          "author": "hello@smashingmagazine.com (Siobhan McKeown)",
-          "description": "Transparency is part of the fabric of many remote businesses. It doesn’t, however, come naturally to everyone, especially if you’ve only recently become remote. In this article, Siobhan takes you through some of the practical ways that you can build transparency within your organization.",
-          "link": "https://smashingmagazine.com/2022/11/practical-steps-build-transparency-remote-business/",
-          "publishedOn": "2022-11-04T09:00:00.000Z",
-          "wordCount": 6368,
-          "title": "Practical Steps To Build Transparency In Your Remote Business",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c9ac3481-4133-40fb-bb5c-6ddf9fe04c03/practical-steps-build-transparency-remote-business.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c9ac3481-4133-40fb-bb5c-6ddf9fe04c03/practical-steps-build-transparency-remote-business.jpg"
         }
       ]
     },
