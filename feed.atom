@@ -2,10 +2,428 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2022-12-07T00:41:10.229Z</updated>
+    <updated>2022-12-08T00:39:21.400Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The State of UX in 2023: A vibe shift is coming]]></title>
+        <id>https://news.ycombinator.com/item?id=33902333</id>
+        <link href="https://trends.uxdesign.cc/"/>
+        <updated>2022-12-08T00:16:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://trends.uxdesign.cc
+Comments URL: https://news.ycombinator.com/item?id=33902333
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>spking</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A new way to create the UI – BemtvJS]]></title>
+        <id>https://news.ycombinator.com/item?id=33901625</id>
+        <link href="https://github.com/diogoneves07/bemtvjs"/>
+        <updated>2022-12-07T23:01:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/diogoneves07/bemtvjs
+Comments URL: https://news.ycombinator.com/item?id=33901625
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>diogoneves07</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: A framework of open-source technologies to design real-time ML systems]]></title>
+        <id>https://news.ycombinator.com/item?id=33901199</id>
+        <link href="https://github.com/PiePra/Realtime-MLOps"/>
+        <updated>2022-12-07T22:23:17.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/PiePra/Realtime-MLOps
+Comments URL: https://news.ycombinator.com/item?id=33901199
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>amath</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design Takes the Lead in Japanese Watchmaker’s Work]]></title>
+        <id>https://news.ycombinator.com/item?id=33900917</id>
+        <link href="https://www.nytimes.com/2022/12/04/fashion/craftsmanship-watches-hajime-asaoka-tokyo.html"/>
+        <updated>2022-12-07T22:00:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nytimes.com/2022/12/04/fashion/craftsmanship-watches-hajime-asaoka-tokyo.html
+Comments URL: https://news.ycombinator.com/item?id=33900917
+Points: 2
+# Comments: 1]]></summary>
+        <author>
+            <name>bookofjoe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: HTML Print Pagination?]]></title>
+        <id>https://news.ycombinator.com/item?id=33900648</id>
+        <link href="https://news.ycombinator.com/item?id=33900648"/>
+        <updated>2022-12-07T21:37:23.000Z</updated>
+        <summary type="html"><![CDATA[I am so impressed with how far we have come with HTML and CSS over the years.  But printing still leaves orphaned headers at the bottom of pages and splits paragraphs so that 1% of my paragraph is on a page by itself.
+ and 
+ are the bread and butter of semantic text on the web.  Is there still no way of heuristically placing them on the printed page, in a way that looks typographically reasonable?
+Comments URL: https://news.ycombinator.com/item?id=33900648
+Points: 3
+# Comments: 3]]></summary>
+        <author>
+            <name>gorgoiler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ken Carbone’s Wonderlust: Seeing the Forest and the Trees]]></title>
+        <id>https://www.printmag.com/?p=739997</id>
+        <link href="https://www.printmag.com/creative-voices/ken-carbones-wonderlust-seeing-the-forest-and-the-trees/"/>
+        <updated>2022-12-07T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The designer and "proud tree hugger" on the species' long history in art and how they inspire his work and philosophy.]]></summary>
+        <author>
+            <name>Ken Carbone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Depoxy – DataOps UI for the AWS data stack]]></title>
+        <id>https://news.ycombinator.com/item?id=33896367</id>
+        <link href="https://app.depoxy.dev/login/"/>
+        <updated>2022-12-07T16:31:53.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN,
+During this year we have been building Depoxy, a tool for managing and optimizing data pipelines on AWS.
+The main reasons for building Depoxy are:
+the current UIs for managing data pipelines are inefficient
+optimizing data pipelines has a lot of potential both in CO2 and financial terms
+Where is this inefficiency coming from and how much better we can get?
+The UI and the tooling around data services are not integrated at the level it is optimal. This is the reason why having an integrated UI improves the workflows by 50% (22s vs 54s). You can check out the video we have about a simple workflow.
+How much optimization?
+We have 10 years experience with various clients in this space and based on the previous experiences the optimization potential is between 10 - 30% year over year infrastructure cost. This is a lot for many companies, especially nowadays.
+Where are we with this product?
+This is the first iteration of the product and we just got started. The next iteration is going to be metadata analytics engine for data that is stored on AWS S3. Based on the metadata we can get insight into the efficiency of the data set and provide guidance for optimizing it.
+The second next iteration we are planning to implement a SQL parsing engine that provides automatic data lineage so that people can track how data flows through their system.
+Detailed blog post with a lot more:
+https://www.depoxy.dev/blog/2022-12-07-introducing-depoxy
+Let us know what you think. If you find any problems, issues (even security bugs) please let us know. Thank you in advance.
+Comments URL: https://news.ycombinator.com/item?id=33896367
+Points: 4
+# Comments: 0]]></summary>
+        <author>
+            <name>StreamBright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Build Privacy by Design into Customer Experience]]></title>
+        <id>https://news.ycombinator.com/item?id=33895817</id>
+        <link href="https://www.informationweek.com/big-data/how-to-build-privacy-by-design-into-customer-experience"/>
+        <updated>2022-12-07T15:56:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.informationweek.com/big-data/how-to-build-privacy-by-design-into-customer-experience
+Comments URL: https://news.ycombinator.com/item?id=33895817
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>ohjeez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The AI Portrait Generator Lensa Makes Our Dystopian Nightmares a Reality]]></title>
+        <id>https://www.printmag.com/?p=740008</id>
+        <link href="https://www.printmag.com/design-news/lensa/"/>
+        <updated>2022-12-07T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The meteoric rise in popularity of Lensa raises more questions around the ethics of AI art, data collection, and the human psyche.]]></summary>
+        <author>
+            <name>Charlotte Beach</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adding Box Shadows to WordPress Blocks and Elements]]></title>
+        <id>https://css-tricks.com/?p=375412</id>
+        <link href="https://css-tricks.com/adding-box-shadows-to-wordpress-blocks-and-elements/"/>
+        <updated>2022-12-07T13:59:50.000Z</updated>
+        <summary type="html"><![CDATA[The CSS box-shadow and outline properties gained theme.json support in WordPress 6.1. Let's look at a few examples of how it works in real themes, and what options we have to apply these styles to WordPress blocks and elements.
+Adding Box Shadows to WordPress Blocks and Elements originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Ganesh Dahal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Students design robot to collect micro plastics from beaches]]></title>
+        <id>https://news.ycombinator.com/item?id=33894221</id>
+        <link href="https://news.cornell.edu/stories/2022/12/students-design-robot-collect-microplastics-beaches"/>
+        <updated>2022-12-07T13:43:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://news.cornell.edu/stories/2022/12/students-design-robot-collect-microplastics-beaches
+Comments URL: https://news.ycombinator.com/item?id=33894221
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>PaulHoule</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS is OK]]></title>
+        <id>https://dailydevlinks.com/?p=11229</id>
+        <link href="https://dailydevlinks.com/css-is-ok/"/>
+        <updated>2022-12-07T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accessible Front-End Patterns For Responsive Tables]]></title>
+        <id>https://dailydevlinks.com/?p=11226</id>
+        <link href="https://dailydevlinks.com/accessible-front-end-patterns-for-responsive-tables/"/>
+        <updated>2022-12-07T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[A11Y]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We’re Extending Our Early Bird Deadline!]]></title>
+        <id>https://www.printmag.com/?p=740055</id>
+        <link href="https://www.printmag.com/print-awards/were-extending-our-early-bird-deadline/"/>
+        <updated>2022-12-07T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you're looking to save on PRINT Awards fees, there's no better time to enter than now! You never know who you might impress...]]></summary>
+        <author>
+            <name>PRINT Magazine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Daily Heller: A Newer New Typography]]></title>
+        <id>https://www.printmag.com/?p=739939</id>
+        <link href="https://www.printmag.com/daily-heller/the-daily-heller-a-newer-new-typography/"/>
+        <updated>2022-12-07T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[MuirMcNeil has just produced a book of typographic wizardry, “System Process Form.”]]></summary>
+        <author>
+            <name>Steven Heller</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The eggplants before Richard Nixon]]></title>
+        <id>https://seths.blog/?p=43438</id>
+        <link href="https://seths.blog/2022/12/the-eggplants-before-richard-nixon/"/>
+        <updated>2022-12-07T11:02:00.000Z</updated>
+        <summary type="html"><![CDATA[For thousands of years, eggplants have had ‘features’ like this. But once we learned what they resemble, we can’t unsee it. It used to be a weird shape for a vegetable, but now it looks eerily like a former President. Once we find a hook, we can’t forget it. Our job as story tellers is […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advent Calendars For Web Designers And Developers (2022 Edition)]]></title>
+        <id>https://smashingmagazine.com/2022/12/tech-advent-calendars-web-developers-web-designers-2022/</id>
+        <link href="https://smashingmagazine.com/2022/12/tech-advent-calendars-web-developers-web-designers-2022/"/>
+        <updated>2022-12-07T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Are you ready for the countdown to Christmas? This year, the web community was once again busy creating tech advent calendars jam-packed with fantastic content to sweeten your days. But which ones to follow? We help you find the right one, whether you’re a front-end dev, UX designer, or content strategist.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The State of UX in 2023: A Vibe Shift Is Coming]]></title>
+        <id>https://news.ycombinator.com/item?id=33892642</id>
+        <link href="https://trends.uxdesign.cc/"/>
+        <updated>2022-12-07T10:09:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://trends.uxdesign.cc
+Comments URL: https://news.ycombinator.com/item?id=33892642
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>jcolman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[System Design Practice Problems]]></title>
+        <id>https://news.ycombinator.com/item?id=33892607</id>
+        <link href="https://leetdesign.com/"/>
+        <updated>2022-12-07T10:05:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://leetdesign.com/
+Comments URL: https://news.ycombinator.com/item?id=33892607
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>Setoh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[State of CSS 2022]]></title>
+        <id>https://news.ycombinator.com/item?id=33892497</id>
+        <link href="https://2022.stateofcss.com/en-us/"/>
+        <updated>2022-12-07T09:49:36.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://2022.stateofcss.com/en-us/
+Comments URL: https://news.ycombinator.com/item?id=33892497
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>mariuz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Electronic music icon Korg makes music with Raspberry Pi]]></title>
+        <id>https://news.ycombinator.com/item?id=33892009</id>
+        <link href="https://www.raspberrypi.com/news/electronic-music-icon-korg-makes-music-with-raspberry-pi/"/>
+        <updated>2022-12-07T08:29:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.raspberrypi.com/news/electronic-music-icon-korg-makes-music-with-raspberry-pi/
+Comments URL: https://news.ycombinator.com/item?id=33892009
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>sohkamyung</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design tools survey results 2022]]></title>
+        <id>https://heydesigner.com/?p=66913</id>
+        <link href="https://heydesigner.com/design-tools-survey-results-2022/"/>
+        <updated>2022-12-07T07:13:21.000Z</updated>
+        <summary type="html"><![CDATA[This year we can understand the industry more deeply as we ask new questions about remote work, leadership, and research. We also added two new categories: advanced prototyping and portfolio builders.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing complex desktop interfaces]]></title>
+        <id>https://heydesigner.com/?p=66911</id>
+        <link href="https://heydesigner.com/designing-complex-desktop-interfaces/"/>
+        <updated>2022-12-07T07:10:26.000Z</updated>
+        <summary type="html"><![CDATA[In this article, I’m going to explore the process of designing complex desktop interfaces. The first half looks at defining what a complex desktop interface is, and the second half explores design principles and tactics that can be of help.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three times is a pattern]]></title>
+        <id>https://heydesigner.com/?p=66909</id>
+        <link href="https://heydesigner.com/three-times-is-a-pattern/"/>
+        <updated>2022-12-07T07:08:14.000Z</updated>
+        <summary type="html"><![CDATA[“How do we know which components should be added to our design system?” I have a simple guideline I share with teams to prevent a lengthy debate.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accessible front-end patterns for responsive tables]]></title>
+        <id>https://heydesigner.com/?p=66907</id>
+        <link href="https://heydesigner.com/accessible-front-end-patterns-for-responsive-tables/"/>
+        <updated>2022-12-07T07:06:40.000Z</updated>
+        <summary type="html"><![CDATA[There is no universal solution for making every kind of table responsive and usable on smaller screens, so we have to rely on various patterns, which Adrian explains in this two-part series.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spokk – Design Critique Platform]]></title>
+        <id>https://news.ycombinator.com/item?id=33891012</id>
+        <link href="https://www.spokk.io/"/>
+        <updated>2022-12-07T05:41:02.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.spokk.io/
+Comments URL: https://news.ycombinator.com/item?id=33891012
+Points: 1
+# Comments: 1]]></summary>
+        <author>
+            <name>samesh13</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mastodon, Steampipe, and RSS]]></title>
+        <id>https://news.ycombinator.com/item?id=33890428</id>
+        <link href="https://blog.jonudell.net/2022/12/06/mastodon-steampipe-and-rss/"/>
+        <updated>2022-12-07T03:48:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://blog.jonudell.net/2022/12/06/mastodon-steampipe-and-rss/
+Comments URL: https://news.ycombinator.com/item?id=33890428
+Points: 1
+# Comments: 1]]></summary>
+        <author>
+            <name>judell</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Foney Fonts Game]]></title>
+        <id>kivFKXvPHNDdwknrP</id>
+        <link href="https://www.supremo.co.uk/foney-fonts-christmas/"/>
+        <updated>2022-12-07T03:44:12.000Z</updated>
+        <summary type="html"><![CDATA[Calling all Christmas connoisseurs and logo lovers, branding agency Supremo have put a festive twist on their engrossing graphic design game.]]></summary>
+        <author>
+            <name>@supremohq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blend to my will! Fonts on cylinder objects in Blender]]></title>
+        <id>o88PefmEatRNpHyFP</id>
+        <link href="https://evilmartians.com/chronicles/blend-to-my-will-fonts-on-cylinder-objects-in-blender"/>
+        <updated>2022-12-07T03:42:27.000Z</updated>
+        <summary type="html"><![CDATA[More than a story about curving texts around a cylinder object in Blender — a testament to the creative process.]]></summary>
+        <author>
+            <name>@evilmartians</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Icon Design Trends For 2023]]></title>
+        <id>GewSjcWGhLhgbWaNi</id>
+        <link href="https://shakuro.com/blog/icon-design-trends-for-2023?utm_source=sidebar&amp;utm_medium=referral&amp;utm_campaign=blog_sharing"/>
+        <updated>2022-12-07T03:40:32.000Z</updated>
+        <summary type="html"><![CDATA[Check out these icon design trends for future years before diving into work.]]></summary>
+        <author>
+            <name>@shakuro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The State of UX in 2023]]></title>
+        <id>hJzKCZuggB6ziusvg</id>
+        <link href="https://trends.uxdesign.cc/"/>
+        <updated>2022-12-07T03:38:24.000Z</updated>
+        <summary type="html"><![CDATA[From design tools, to our design process, to the user behaviors that will change the way we design — a list of what to expect for UX in the next year.]]></summary>
+        <author>
+            <name>@uxdesigncc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022 Design Tools Survey Results]]></title>
+        <id>9YYm8DcBP6Rbjtbws</id>
+        <link href="https://uxtools.co/survey/2022/"/>
+        <updated>2022-12-07T03:35:47.000Z</updated>
+        <summary type="html"><![CDATA[Find your next tool from the responses of thousands of designers around the world.]]></summary>
+        <author>
+            <name>@uxtoolsco</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitcoin Mining Farm design and operation guide – Part 1 – Airflow management]]></title>
+        <id>https://news.ycombinator.com/item?id=33890184</id>
+        <link href="https://altairtech.io/designing-a-bitcoin-mining-facility-airflow-management/"/>
+        <updated>2022-12-07T03:07:11.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://altairtech.io/designing-a-bitcoin-mining-facility-airflow-management/
+Comments URL: https://news.ycombinator.com/item?id=33890184
+Points: 1
+# Comments: 1]]></summary>
+        <author>
+            <name>altairtech</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Award winning animation with only 20 lines of CSS?]]></title>
+        <id>https://news.ycombinator.com/item?id=33889676</id>
+        <link href="https://www.youtube.com/watch?v=PkADl0HubMY"/>
+        <updated>2022-12-07T01:36:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=PkADl0HubMY
+Comments URL: https://news.ycombinator.com/item?id=33889676
+Points: 4
+# Comments: 0]]></summary>
+        <author>
+            <name>tzury</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022 Design Tools Survey Results]]></title>
+        <id>https://news.ycombinator.com/item?id=33889524</id>
+        <link href="https://uxtools.co/survey/2022/demographics/"/>
+        <updated>2022-12-07T01:16:43.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://uxtools.co/survey/2022/demographics/
+Comments URL: https://news.ycombinator.com/item?id=33889524
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>jonifico</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The design considerations for a seamless sign-in experience (Second Chapter)]]></title>
         <id>https://news.ycombinator.com/item?id=33889176</id>
@@ -9333,464 +9751,6 @@ Points: 4
 # Comments: 0]]></summary>
         <author>
             <name>thebetatester</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CrtAlt.CC]]></title>
-        <id>https://dailydevlinks.com/?p=11055</id>
-        <link href="https://dailydevlinks.com/crtalt-cc/"/>
-        <updated>2022-11-08T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Tool]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why we need CSS Speech]]></title>
-        <id>https://dailydevlinks.com/?p=11052</id>
-        <link href="https://dailydevlinks.com/why-we-need-css-speech/"/>
-        <updated>2022-11-08T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Visual Design in UX: Study Guide]]></title>
-        <id>https://dailydevlinks.com/?p=11043</id>
-        <link href="https://dailydevlinks.com/visual-design-in-ux-study-guide/"/>
-        <updated>2022-11-08T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[UX]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Daily Heller: Ladislav Sutnar’s Modernudism]]></title>
-        <id>https://www.printmag.com/?p=738248</id>
-        <link href="https://www.printmag.com/daily-heller/the-daily-heller-ladislav-sutnars-modernudeism/"/>
-        <updated>2022-11-08T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Czech modernist’s “Venus” paintings became his main focus during the late 1960s and ’70s.]]></summary>
-        <author>
-            <name>Steven Heller</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Links, 2, 3, 4: Accessibility]]></title>
-        <id>https://christianheilmann.com/?p=7404</id>
-        <link href="https://christianheilmann.com/2022/11/08/links-2-3-4-accessibility/"/>
-        <updated>2022-11-08T11:32:21.000Z</updated>
-        <summary type="html"><![CDATA[Here are some recent links on the topic of accessibility you might enjoy and learn something from: Manuel Matuzovic has a course together with SmashingMag on Deep Dive on Accessibility Testing starting on the 14th of November 2022. On that topic I also have a class on Skillshare Product Management: Tools for Improving Product Accessibility […]]]></summary>
-        <author>
-            <name>Chris Heilmann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learn how to create a design system with this step by step guide]]></title>
-        <id>https://news.ycombinator.com/item?id=33518028</id>
-        <link href="https://roadmap.sh/design-system"/>
-        <updated>2022-11-08T11:20:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://roadmap.sh/design-system
-Comments URL: https://news.ycombinator.com/item?id=33518028
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>Bahodir</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thanksgiving Table Setting Ideas for a Big Crowd]]></title>
-        <id>https://www.nytimes.com/2022/11/08/realestate/thanksgiving-table-setting-decor.html</id>
-        <link href="https://www.nytimes.com/2022/11/08/realestate/thanksgiving-table-setting-decor.html"/>
-        <updated>2022-11-08T10:00:24.000Z</updated>
-        <summary type="html"><![CDATA[If you’re expecting a big crowd for Thanksgiving, you’ll need a flexible space that can accommodate everyone. Here’s how to design it.]]></summary>
-        <author>
-            <name>Tim McKeough</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[As soon as possible]]></title>
-        <id>https://seths.blog/?p=42210</id>
-        <link href="https://seths.blog/2022/11/as-soon-as-possible/"/>
-        <updated>2022-11-08T09:22:00.000Z</updated>
-        <summary type="html"><![CDATA[“As soon as possible” is a trap if you focus on soon instead of possible.]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Huge type on the web]]></title>
-        <id>https://heydesigner.com/?p=66703</id>
-        <link href="https://heydesigner.com/huge-type-on-the-web/"/>
-        <updated>2022-11-08T05:44:25.000Z</updated>
-        <summary type="html"><![CDATA[Big bold type makes a statement. I’ve always been fascinated with minimalistic, typography-focused design.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our web design tools are holding us back]]></title>
-        <id>https://heydesigner.com/?p=66701</id>
-        <link href="https://heydesigner.com/our-web-design-tools-are-holding-us-back/"/>
-        <updated>2022-11-08T05:44:19.000Z</updated>
-        <summary type="html"><![CDATA[With photoshop we could come up with things that we couldn’t build with css. But nowadays we can build things with css that are impossible to create with our design tools.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why I changed my mind about AI for creative work]]></title>
-        <id>https://heydesigner.com/?p=66699</id>
-        <link href="https://heydesigner.com/why-i-changed-my-mind-about-ai-for-creative-work/"/>
-        <updated>2022-11-08T05:44:10.000Z</updated>
-        <summary type="html"><![CDATA[First impressions from the week AI took over my feed.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ballet dancers and shot putters]]></title>
-        <id>https://heydesigner.com/?p=66697</id>
-        <link href="https://heydesigner.com/ballet-dancers-and-shot-putters/"/>
-        <updated>2022-11-08T05:43:58.000Z</updated>
-        <summary type="html"><![CDATA[Why design isn’t always creative, and why that isn’t always a bad thing.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Masked gradient dashed lines]]></title>
-        <id>https://heydesigner.com/?p=66692</id>
-        <link href="https://heydesigner.com/masked-gradient-dashed-lines/"/>
-        <updated>2022-11-08T05:43:35.000Z</updated>
-        <summary type="html"><![CDATA[Making a dashed line that has a visible gradient from one color to another.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[InfernoJS – insanely fast, React-like library for building high-performance UI]]></title>
-        <id>https://news.ycombinator.com/item?id=33515888</id>
-        <link href="https://www.infernojs.org/"/>
-        <updated>2022-11-08T04:33:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.infernojs.org/
-Comments URL: https://news.ycombinator.com/item?id=33515888
-Points: 1
-# Comments: 1]]></summary>
-        <author>
-            <name>modinfo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Almost monospaced: the perfect fonts for writing]]></title>
-        <id>MbpXky2kx6sEu4dGj</id>
-        <link href="https://blakewatson.com/journal/almost-monospaced-the-perfect-fonts-for-writing/"/>
-        <updated>2022-11-08T02:19:53.000Z</updated>
-        <summary type="html"><![CDATA[The unedited, writerly feel of monospaced fonts meets the readability and legibility of proportional ones.]]></summary>
-        <author>
-            <name>@blakewatson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design System ROI Calculator]]></title>
-        <id>tYKPbCoHrq949Sfxd</id>
-        <link href="https://www.knapsack.cloud/calculator"/>
-        <updated>2022-11-08T02:10:39.000Z</updated>
-        <summary type="html"><![CDATA[A little tool to help you project your team’s expected Design System ROI by calculating efficiency and cost savings.]]></summary>
-        <author>
-            <name>@vitalyf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Evolution of AR and VR: UX inspiration from history]]></title>
-        <id>KytzkM2LS4HwhzDn2</id>
-        <link href="https://uxdesign.cc/evolution-of-ar-and-vr-ux-inspiration-from-history-74c31ddd4d9c?sk=114f2a5a565f71cd531da924e9097d08"/>
-        <updated>2022-11-08T02:05:22.000Z</updated>
-        <summary type="html"><![CDATA[If AR is extending, adding, or changing reality, we can find a lot of examples that eventually will lead us to AR invention.]]></summary>
-        <author>
-            <name>@uxdesigncc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I Discovered and Fell in Love with Data Visualisation Art]]></title>
-        <id>KqkrbkyBSscmFPTGy</id>
-        <link href="https://nightingaledvs.com/discovering-data-visualisation-how-i-discovered-and-fell-in-love-with-data-visualisation-art/"/>
-        <updated>2022-11-08T02:05:00.000Z</updated>
-        <summary type="html"><![CDATA[I stumbled upon data visualisation art quite by accident early in 2022, at a time when I was at an interesting crossroads in my life.]]></summary>
-        <author>
-            <name>@DataVizSociety</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Huge Type on the Web]]></title>
-        <id>7rk2hmBa54EspWPFx</id>
-        <link href="https://matejlatin.com/blog/2022/11/06/huge-type-on-the-web/"/>
-        <updated>2022-11-08T02:01:09.000Z</updated>
-        <summary type="html"><![CDATA[Big bold type makes a statement. I’ve always been fascinated with minimalistic, typography-focused design.]]></summary>
-        <author>
-            <name>@matejlatin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tech has not improved US productivity from 1950-today]]></title>
-        <id>https://news.ycombinator.com/item?id=33513772</id>
-        <link href="https://www.advisorperspectives.com/commentaries/2021/12/14/2022-back-to-the-future"/>
-        <updated>2022-11-07T23:01:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.advisorperspectives.com/commentaries/2021/12/14/2022-back-to-the-future
-Comments URL: https://news.ycombinator.com/item?id=33513772
-Points: 3
-# Comments: 3]]></summary>
-        <author>
-            <name>jasonnchann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Release Notes for Safari Technology Preview 157]]></title>
-        <id>https://webkit.org/?p=13575</id>
-        <link href="https://webkit.org/blog/13575/release-notes-for-safari-technology-preview-157/"/>
-        <updated>2022-11-07T21:42:33.000Z</updated>
-        <summary type="html"><![CDATA[Safari Technology Preview Release 157 is now available for download for macOS Monterey 12.3 or later and macOS Ventura.]]></summary>
-        <author>
-            <name>Blog – WebKit</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Phoenix 1.7-RC Released: Built-In Tailwind, Verified Routes, and More]]></title>
-        <id>https://news.ycombinator.com/item?id=33512502</id>
-        <link href="https://phoenixframework.org/blog/phoenix-1.7-released"/>
-        <updated>2022-11-07T21:10:01.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://phoenixframework.org/blog/phoenix-1.7-released
-Comments URL: https://news.ycombinator.com/item?id=33512502
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>tosh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Phoenix 1.7-RC Released: Built-In Tailwind, Verified Routes, and More]]></title>
-        <id>https://news.ycombinator.com/item?id=33512381</id>
-        <link href="https://www.phoenixframework.org/blog/phoenix-1.7-released"/>
-        <updated>2022-11-07T21:01:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.phoenixframework.org/blog/phoenix-1.7-released
-Comments URL: https://news.ycombinator.com/item?id=33512381
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>neillyons</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design and Manufacturing Walkthrough of an M.2 FPGA Accelerator]]></title>
-        <id>https://news.ycombinator.com/item?id=33511432</id>
-        <link href="https://www.youtube.com/watch?v=8bw80LiCl7g"/>
-        <updated>2022-11-07T19:55:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=8bw80LiCl7g
-Comments URL: https://news.ycombinator.com/item?id=33511432
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>sdmike1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[List of CSS properties, both proposed and standard]]></title>
-        <id>https://news.ycombinator.com/item?id=33511308</id>
-        <link href="https://www.w3.org/Style/CSS/all-properties.en.html"/>
-        <updated>2022-11-07T19:46:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.w3.org/Style/CSS/all-properties.en.html
-Comments URL: https://news.ycombinator.com/item?id=33511308
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>nayuki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dead People Can Inspire You to Become the Perfect Stoic]]></title>
-        <id>https://news.ycombinator.com/item?id=33511234</id>
-        <link href="https://simone.org/dead-stoics/"/>
-        <updated>2022-11-07T19:42:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://simone.org/dead-stoics/
-Comments URL: https://news.ycombinator.com/item?id=33511234
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>smnrg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Concise Encoding Design Document]]></title>
-        <id>https://news.ycombinator.com/item?id=33510909</id>
-        <link href="https://github.com/kstenerud/concise-encoding/blob/6160457ba3f9c58e37ef053964bedcae8a0fa605/DESIGN.md"/>
-        <updated>2022-11-07T19:20:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/kstenerud/concise-encoding/blob/6160457ba3f9c58e37ef053964bedcae8a0fa605/DESIGN.md
-Comments URL: https://news.ycombinator.com/item?id=33510909
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>heyzk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Typography for Lawyers, 2nd Edition (2018)]]></title>
-        <id>https://news.ycombinator.com/item?id=33510827</id>
-        <link href="https://typographyforlawyers.com/"/>
-        <updated>2022-11-07T19:15:33.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://typographyforlawyers.com/
-Comments URL: https://news.ycombinator.com/item?id=33510827
-Points: 79
-# Comments: 39]]></summary>
-        <author>
-            <name>notpushkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rebuilding My Writing Habit]]></title>
-        <id>https://news.ycombinator.com/item?id=33510434</id>
-        <link href="https://writing.coffee/post/700284075523620864/rebuilding-my-writing-habit"/>
-        <updated>2022-11-07T18:56:00.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://writing.coffee/post/700284075523620864/rebuilding-my-writing-habit
-Comments URL: https://news.ycombinator.com/item?id=33510434
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>astro-</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Edible Drones for Rescue Missions: Design and Flight of Nutritional Wings]]></title>
-        <id>https://news.ycombinator.com/item?id=33509945</id>
-        <link href="https://ras.papercept.net/conferences/conferences/IROS22/program/IROS22_ContentListWeb_2.html#mob-6_05"/>
-        <updated>2022-11-07T18:27:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ras.papercept.net/conferences/conferences/IROS22/program/IROS22_ContentListWeb_2.html#mob-6_05
-Comments URL: https://news.ycombinator.com/item?id=33509945
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>bookofjoe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MastoFeed – Send Your RSS Feeds to Mastodon]]></title>
-        <id>https://news.ycombinator.com/item?id=33509774</id>
-        <link href="https://mastofeed.org/"/>
-        <updated>2022-11-07T18:17:08.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mastofeed.org/
-Comments URL: https://news.ycombinator.com/item?id=33509774
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>barredo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Now Habit (2015)]]></title>
-        <id>https://news.ycombinator.com/item?id=33509292</id>
-        <link href="https://www.2uo.de/Books/the-now-habit/"/>
-        <updated>2022-11-07T17:46:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.2uo.de/Books/the-now-habit/
-Comments URL: https://news.ycombinator.com/item?id=33509292
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>Tomte</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS Magnetic Poetry]]></title>
-        <id>https://news.ycombinator.com/item?id=33506596</id>
-        <link href="https://css-magnetic-poetry.tone-row.com/"/>
-        <updated>2022-11-07T14:58:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://css-magnetic-poetry.tone-row.com/
-Comments URL: https://news.ycombinator.com/item?id=33506596
-Points: 5
-# Comments: 2]]></summary>
-        <author>
-            <name>tonerow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why typography is a matter of life and death in aircraft piloting systems]]></title>
-        <id>https://news.ycombinator.com/item?id=33506591</id>
-        <link href="https://www.wired.co.uk/article/aircraft-typography"/>
-        <updated>2022-11-07T14:58:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wired.co.uk/article/aircraft-typography
-Comments URL: https://news.ycombinator.com/item?id=33506591
-Points: 5
-# Comments: 1]]></summary>
-        <author>
-            <name>f1shy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fast Design]]></title>
-        <id>https://news.ycombinator.com/item?id=33505971</id>
-        <link href="https://indiantinker.bearblog.dev/fast-design/"/>
-        <updated>2022-11-07T14:12:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://indiantinker.bearblog.dev/fast-design/
-Comments URL: https://news.ycombinator.com/item?id=33505971
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>indiantinker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managing CSS Styles in a WordPress Block Theme]]></title>
-        <id>https://css-tricks.com/?p=374910</id>
-        <link href="https://css-tricks.com/managing-css-styles-in-a-wordpress-block-theme/"/>
-        <updated>2022-11-07T14:05:11.000Z</updated>
-        <summary type="html"><![CDATA[The way we write CSS for WordPress themes is in the midst of sweeping changes. I recently shared a technique for adding fluid type support in WordPress by way of theme.json, a new file that WordPress has been pushing …
-Managing CSS Styles in a WordPress Block Theme originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
-        <author>
-            <name>Ganesh Dahal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Monday Marginalian: Our Human Hunger to Know the Universe]]></title>
-        <id>https://www.printmag.com/?p=738351</id>
-        <link href="https://www.printmag.com/creative-voices/monday-marginalian-our-human-hunger-to-know-the-universe/"/>
-        <updated>2022-11-07T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Maria Popova on the astronomical discoveries of Henrietta Leavitt and Edwin Hubble, with poetry by Tracy K. Smith and art by Daniel Bruson.]]></summary>
-        <author>
-            <name>Maria Popova</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What’s New In Next.js 13?]]></title>
-        <id>https://smashingmagazine.com/2022/11/whats-new-nextjs-13/</id>
-        <link href="https://smashingmagazine.com/2022/11/whats-new-nextjs-13/"/>
-        <updated>2022-11-07T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Let’s talk about Next.js, one of the most well-known React frameworks used for production. From new components to font optimization, Atila shares a quick overview and invites you to join his [Advanced Next.js Masterclass](https://smashingconf.com/online-workshops/workshops/advanced-nextjs-atila-fassina) taking place later this month.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Atila Fassina)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Larry June’s Slow Productivity]]></title>
-        <id>https://news.ycombinator.com/item?id=33505687</id>
-        <link href="https://www.calnewport.com/blog/2022/11/05/larry-junes-slow-productivity/"/>
-        <updated>2022-11-07T13:46:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.calnewport.com/blog/2022/11/05/larry-junes-slow-productivity/
-Comments URL: https://news.ycombinator.com/item?id=33505687
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>yarapavan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: More productive low-code: create UI in code, perfect in GUI editor]]></title>
-        <id>https://news.ycombinator.com/item?id=33505628</id>
-        <link href="http://www.myriptide.com/mix-mode-low-code/"/>
-        <updated>2022-11-07T13:40:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://www.myriptide.com/mix-mode-low-code/
-Comments URL: https://news.ycombinator.com/item?id=33505628
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>yz-yu</name>
         </author>
     </entry>
 </feed>
