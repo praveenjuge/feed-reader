@@ -339,6 +339,16 @@
       "siteUrl": "https://christianheilmann.com",
       "articles": [
         {
+          "id": "https://christianheilmann.com/?p=7484",
+          "author": "Chris Heilmann",
+          "description": "I just wrote myself a small tool to get all the thumbnail images available for a YouTube video. Say you have a Youtube URL, the ID is the last part: https://www.youtube.com/watch?v=GDukVqBDd3Q, in this case “GDukVqBDd3Q”. Just copy this into the tool and you will get all the images available. You can choose to get JPG […]",
+          "link": "https://christianheilmann.com/2023/01/11/getting-all-the-video-thumbnails-from-a-youtube-video/",
+          "publishedOn": "2023-01-11T20:16:15.000Z",
+          "wordCount": 526,
+          "title": "Getting all the video thumbnails from a YouTube video",
+          "imageUrl": null
+        },
+        {
           "id": "https://christianheilmann.com/?p=7476",
           "author": "Chris Heilmann",
           "description": "Unless you’ve lived under a rock, you probably heard of ChatGPT, OpenAI wunderkind chat bot that seemingly gives answers to any problem you throw at it. Of course people fed it with lots of programming questions and it yielded great results. This, once again, sparked a big discussion if “AI” could replace developers. I don’t […]",
@@ -442,6 +452,16 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=376342",
+          "author": "Geoff Graham",
+          "description": "A little thing happened on the way to publishing the CSS :has() selector to the ol’ Almanac. I had originally described :has() as a “forgiving” selector, the idea being that anything in its argument is evaluated, even if one or …\n:has is an unforgiving selector originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/has-is-an-unforgiving-selector/",
+          "publishedOn": "2023-01-11T14:18:13.000Z",
+          "wordCount": 1048,
+          "title": ":has is an unforgiving selector",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/376342"
+        },
         {
           "id": "https://css-tricks.com/?p=376307",
           "author": "Anders Pedersen",
@@ -1383,6 +1403,16 @@
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
         {
+          "id": "https://developer.chrome.com/en/blog/sqlite-wasm-in-the-browser-backed-by-the-origin-private-file-system/",
+          "author": null,
+          "description": "Success\nIn our blog post\nDeprecating and removing Web SQL, we promised a replacement for Web\nSQL based on SQLite. The SQLite Wasm library with the Origin Private File System persistence backend\nis our fulfillment of this promise. \n\n\n# About SQLite\nSQLite is a popular, open-source, lightweight,\nembedded relational database management system. Many developers use it to store data in a\nstructured, easy-to-use manner. Because of its small size and low memory requirements, SQLite is\noften leveraged as a database engine in mobile devices, desktop applications, and web browsers.\nOne of the key features of SQLite is that it is a serverless database, which means that it does not\nrequire a separate server process to operate. Instead, the database is stored in a single file on\nthe user's device, makin…",
+          "link": "https://developer.chrome.com/en/blog/sqlite-wasm-in-the-browser-backed-by-the-origin-private-file-system/",
+          "publishedOn": "2023-01-11T00:00:00.000Z",
+          "wordCount": 1816,
+          "title": "SQLite Wasm in the browser backed by the Origin Private File System",
+          "imageUrl": "https://wd.imgix.net/image/8WbTDNrhLsU0El80frMBGE4eMCD3/l5kRHOrUI9mQmwOTJKr7.jpg?auto=format&w=1521"
+        },
+        {
           "id": "https://developer.chrome.com/en/blog/audiocontext-setsinkid/",
           "author": null,
           "description": "Until now, setting the destination audio output device was only possible for <video> and <audio> with HTMLMediaElement.setSinkId(). In Web Audio, AudioContext used the default device, leaving the user to change the system audio output device manually.\nFrom Chrome 110, you can use AudioContext.setSinkId() to programmatically direct the audio output in Web Audio to any permitted device.\nThis is especially helpful in a variety of real-time communication scenarios. For example, a web app can use this to programmatically direct output to a specific audio output device such as a Bluetooth headset or speakerphone.\n# Route audio output to a specific device\nFirst, you need the identifier of the audio output device you want to use as a destination. Get the list of available media devices with naviga…",
@@ -1468,18 +1498,7 @@
       "title": "Courtside",
       "feedUrl": "https://dribbble.com/stories.rss",
       "siteUrl": "https://dribbble.com/stories",
-      "articles": [
-        {
-          "id": "https://dribbble.com/stories/2022/12/13/business-tools-for-designers",
-          "author": null,
-          "description": "As a designer, your brand is more than your awwward winning website and the final_final_v2 assets you deliver to your client.\nIt’s the entire client journey from start to finish.\nUnfortunately, designers are forced to use tools that are dated, clunky, and give clients an experience far from “designer”.\nThe good news is that there are tools you might not know about that can fix this. See for example this free invoice generator that was created for creatives.\nTo build a brand that enables you to raise your rates, you have to connect every client touch-point in an experience that is beautiful and intuitive.\nTo do this, every designer must decide if they will use individual tools or an all-in-one platform like Bloom. While individual tools will give you more features, they are far more expensi…",
-          "link": "https://dribbble.com/stories/2022/12/13/business-tools-for-designers",
-          "publishedOn": "2022-12-13T06:00:00.000Z",
-          "wordCount": 3185,
-          "title": "7 critical business tools every designer needs in 2023",
-          "imageUrl": "https://cdn.dribbble.com/uploads/43144/original/3c0b815faaccefbb2c55009848996fde.png?1670361214"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Farnam Street",
@@ -2327,56 +2346,6 @@
           "wordCount": 196,
           "title": "Let ChatGPT design an app for you",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=66956",
-          "author": "Travis",
-          "description": "Five Base team members reveal which themes, trends, and developments they think will guide the world of branding through next year and beyond.",
-          "link": "https://heydesigner.com/branding-predictions-for-2023/",
-          "publishedOn": "2022-12-13T05:41:47.000Z",
-          "wordCount": 204,
-          "title": "Branding predictions for 2023",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=66962",
-          "author": "Travis",
-          "description": "The one adjustment that really can make a difference.",
-          "link": "https://heydesigner.com/responsive-components-in-figma/",
-          "publishedOn": "2022-12-13T05:41:39.000Z",
-          "wordCount": 191,
-          "title": "Responsive components in Figma",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=66952",
-          "author": "Travis",
-          "description": "A Figma plugin to dynamically generate seamless tiled noise, textures, patterns, gradients, and more. Select a layer and add your noise or texture.",
-          "link": "https://heydesigner.com/noise-and-texture/",
-          "publishedOn": "2022-12-13T05:41:29.000Z",
-          "wordCount": 202,
-          "title": "Noise and Texture",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=66954",
-          "author": "Travis",
-          "description": "Six strategies for making your data visualization accessible, scalable, and helpful.",
-          "link": "https://heydesigner.com/top-tips-for-data-accessibility/",
-          "publishedOn": "2022-12-13T05:41:17.000Z",
-          "wordCount": 198,
-          "title": "Top tips for data accessibility",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=66950",
-          "author": "Travis",
-          "description": "On seeing tools for thought through a historical and anthropological lens.",
-          "link": "https://heydesigner.com/tools-for-thought/",
-          "publishedOn": "2022-12-13T05:41:09.000Z",
-          "wordCount": 193,
-          "title": "Tools for thought",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2385,6 +2354,36 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=34344888",
+          "author": "trynewideas",
+          "description": "Article URL: https://www.businessballs.com/amusement-stress-relief/tree-swing-cartoon-pictures-early-versions/\nComments URL: https://news.ycombinator.com/item?id=34344888\nPoints: 3\n# Comments: 1",
+          "link": "https://www.businessballs.com/amusement-stress-relief/tree-swing-cartoon-pictures-early-versions/",
+          "publishedOn": "2023-01-11T21:10:07.000Z",
+          "wordCount": 4859,
+          "title": "History of the “what the user wanted” treeswing product design comic",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34344701",
+          "author": "GeorgeMac",
+          "description": "Article URL: https://www.flipt.io/blog/embedding-react-in-go\nComments URL: https://news.ycombinator.com/item?id=34344701\nPoints: 10\n# Comments: 1",
+          "link": "https://www.flipt.io/blog/embedding-react-in-go",
+          "publishedOn": "2023-01-11T20:59:38.000Z",
+          "wordCount": 6730,
+          "title": "Embedding Our New React UI in Go",
+          "imageUrl": "https://d2gyxfk3i23rk4.cloudfront.net/blog/embedding-react-in-go/react-go.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34340858",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://elinux.org/images/4/48/TFT-white-paper.pdf\nComments URL: https://news.ycombinator.com/item?id=34340858\nPoints: 1\n# Comments: 0",
+          "link": "https://elinux.org/images/4/48/TFT-white-paper.pdf",
+          "publishedOn": "2023-01-11T17:01:38.000Z",
+          "wordCount": 17051,
+          "title": "Thin-Film-Transistor (TFT) LCD Display Control Electronics Design and Operation [pdf]",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=34338656",
           "author": "thunderbong",
@@ -3974,16 +3973,6 @@
           "wordCount": 3042,
           "title": "Experimental Design and Common Pitfalls of Machine Learning in Finance",
           "imageUrl": "https://hudsonthames.org/wp-content/uploads/2022/12/experiment-design.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33966315",
-          "author": "rcarmo",
-          "description": "Article URL: https://tympanus.net/codrops/2022/12/06/5-upcoming-web-design-trends-for-2023/\nComments URL: https://news.ycombinator.com/item?id=33966315\nPoints: 1\n# Comments: 0",
-          "link": "https://tympanus.net/codrops/2022/12/06/5-upcoming-web-design-trends-for-2023/",
-          "publishedOn": "2022-12-13T08:55:18.000Z",
-          "wordCount": 2272,
-          "title": "Upcoming Web Design Trends for 2023",
-          "imageUrl": "https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2022/12/Be2023-1.jpg"
         }
       ]
     },
@@ -3992,6 +3981,26 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=34343798",
+          "author": "gnicholas",
+          "description": "Article URL: https://www.sfgate.com/tech/article/salesforce-ceo-blasts-worker-productivity-17708474.php\nComments URL: https://news.ycombinator.com/item?id=34343798\nPoints: 3\n# Comments: 5",
+          "link": "https://www.sfgate.com/tech/article/salesforce-ceo-blasts-worker-productivity-17708474.php",
+          "publishedOn": "2023-01-11T20:01:15.000Z",
+          "wordCount": 3124,
+          "title": "Days after layoffs, Salesforce CEO Benioff still blasts worker productivity",
+          "imageUrl": "https://s.hdnux.com/photos/76/52/63/16428275/8/rawImage.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34342200",
+          "author": "t0bia_s",
+          "description": "Is there a RSS feed of HN articles? I mean those from frontpage or ie for over 100 points.\nI don't want this: https://hnrss.org/frontpage because it show in my RSS feed two links to articles and comments. I just want feed of those articles with previews, just like other feeds that I'm used to subscribe.\nThanks.\nComments URL: https://news.ycombinator.com/item?id=34342200\nPoints: 3\n# Comments: 6",
+          "link": "https://news.ycombinator.com/item?id=34342200",
+          "publishedOn": "2023-01-11T18:19:38.000Z",
+          "wordCount": 235,
+          "title": "Ask HN: RSS Feed of HN Articles?",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=34337676",
           "author": "petemir",
@@ -4729,6 +4738,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=34340563",
+          "author": "tiltedspheres",
+          "description": "Article URL: https://blog.begin.com/posts/2023-01-10-past-informs-the-present-our-approach-to-css\nComments URL: https://news.ycombinator.com/item?id=34340563\nPoints: 3\n# Comments: 0",
+          "link": "https://blog.begin.com/posts/2023-01-10-past-informs-the-present-our-approach-to-css",
+          "publishedOn": "2023-01-11T16:45:42.000Z",
+          "wordCount": 4801,
+          "title": "Past Informs the Present: Our Approach to CSS",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=34336576",
           "author": "redbar0n",
@@ -5468,26 +5487,6 @@
           "wordCount": null,
           "title": "Native Angular support for Tailwind UI",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33967455",
-          "author": "edward",
-          "description": "Article URL: https://octodon.social/@edward/109506129090748621\nComments URL: https://news.ycombinator.com/item?id=33967455\nPoints: 2\n# Comments: 0",
-          "link": "https://octodon.social/@edward/109506129090748621",
-          "publishedOn": "2022-12-13T11:30:49.000Z",
-          "wordCount": 117,
-          "title": "Parcel delivered with the HTML entity for ampersand on the shipping label",
-          "imageUrl": "https://assets.octodon.social/media_attachments/files/109/506/111/445/712/663/original/52297e8502fff9b5.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=33967203",
-          "author": "nikolalsvk",
-          "description": "Article URL: https://pragmaticpineapple.com/adding-custom-html-and-css-to-github-readme/\nComments URL: https://news.ycombinator.com/item?id=33967203\nPoints: 1\n# Comments: 0",
-          "link": "https://pragmaticpineapple.com/adding-custom-html-and-css-to-github-readme/",
-          "publishedOn": "2022-12-13T11:03:52.000Z",
-          "wordCount": 2687,
-          "title": "Adding Custom HTML and CSS to GitHub Readme",
-          "imageUrl": "https://pragmaticpineapple.com/static/9244880767442dc6003900da6b21b2fd/og-image.jpg"
         }
       ]
     },
@@ -5971,16 +5970,6 @@
           "wordCount": 1104,
           "title": "Sooner or later…",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44360",
-          "author": "Seth Godin",
-          "description": "The question, of course, is how long? We’ve been working hard on fusion for sixty years (using ‘we’ to include myself with all of humanity, not because I’m a physicist). The Post writes: “To most of us, this was only a matter of time,” said a senior fusion scientist familiar with the work of the […]",
-          "link": "https://seths.blog/2022/12/it-was-only-a-matter-of-time/",
-          "publishedOn": "2022-12-13T08:34:00.000Z",
-          "wordCount": 1212,
-          "title": "It was only a matter of time",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         }
       ]
     },
