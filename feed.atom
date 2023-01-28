@@ -2,10 +2,382 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2023-01-27T00:04:46.142Z</updated>
+    <updated>2023-01-28T00:04:46.193Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Broider: Pixel Art CSS Borders]]></title>
+        <id>https://news.ycombinator.com/item?id=34553190</id>
+        <link href="https://maxbittker.github.io/broider/"/>
+        <updated>2023-01-27T23:24:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://maxbittker.github.io/broider/
+Comments URL: https://news.ycombinator.com/item?id=34553190
+Points: 11
+# Comments: 3]]></summary>
+        <author>
+            <name>thesephist</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Python vs Go for Web – Productivity-Wise]]></title>
+        <id>https://news.ycombinator.com/item?id=34552271</id>
+        <link href="https://news.ycombinator.com/item?id=34552271"/>
+        <updated>2023-01-27T21:40:20.000Z</updated>
+        <summary type="html"><![CDATA[I hope it's not a too big can of worm I am opening here, and I can imagine it is quite subjective, but it would be nice to hear other people's opinions about this.
+I have programmed for quite a long time in both Python and Go and I also experimented with rewriting the same solution in each language - for smaller projects.
+Performance Go of course beats Python in almost all aspects, but what about productivity?
+My experience is in general Python is a lot more productive, with less code but if you don't take care of keeping things well-organized then the productivity falls for bigger projects.
+While on the other hand, Go seems to be more linear (similar) productivity even if you have a larger code base.
+What is your experience with productivity, especially as the project matures?
+Comments URL: https://news.ycombinator.com/item?id=34552271
+Points: 2
+# Comments: 2]]></summary>
+        <author>
+            <name>TigerTeamX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WireHole with UI: Set Up Pihole, WireGuard, and Unbound Instantly]]></title>
+        <id>https://news.ycombinator.com/item?id=34551859</id>
+        <link href="https://github.com/IAmStoxe/wirehole/tree/feature/wg-easy"/>
+        <updated>2023-01-27T21:06:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/IAmStoxe/wirehole/tree/feature/wg-easy
+Comments URL: https://news.ycombinator.com/item?id=34551859
+Points: 2
+# Comments: 2]]></summary>
+        <author>
+            <name>byteknight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: How would you design an ML/AI maths study plan?]]></title>
+        <id>https://news.ycombinator.com/item?id=34547954</id>
+        <link href="https://news.ycombinator.com/item?id=34547954"/>
+        <updated>2023-01-27T16:33:25.000Z</updated>
+        <summary type="html"><![CDATA[Assume a high school level maths background.
+Assume you can only use OCW.
+Which courses would you include and in which order?
+Comments URL: https://news.ycombinator.com/item?id=34547954
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>sage76</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Powerful ways to use CSS variables]]></title>
+        <id>https://news.ycombinator.com/item?id=34547354</id>
+        <link href="https://nerdy.dev/custom-prop-categories"/>
+        <updated>2023-01-27T15:49:44.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nerdy.dev/custom-prop-categories
+Comments URL: https://news.ycombinator.com/item?id=34547354
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>Destiner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using AI to appease Jest]]></title>
+        <id>https://daverupert.com/2023/01/using-ai-to-appease-jest/</id>
+        <link href="https://daverupert.com/2023/01/using-ai-to-appease-jest/"/>
+        <updated>2023-01-27T15:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Friday evening at 5pm on my way out of work I was about to push a feature fix up to add some encryption and decryption using crypto-js.  The API looks like this:
+
+import CryptoJS from 'crypto-js'
+
+const encryptedThing = CryptoJS.AES.encrypt("message", SECRET_KEY).toString()
+const decryptedThing = CryptoJS.AES.decrypt(encryptedThing, SECRET_KEY).toString(CryptoJS.enc.Utf8)
+
+
+It’s an AES cipher block that puts a message in a cipher, and decrypts it on the other end. Cool. It uses math, like popular cryptographic technology Bitcoin, so you know it’s good.
+As I was ready to push the code up, my tests were failing in the prepush hook. I knew the code was working but I’d have to appease Jest. Jest’s issue was it didn’t know about the import CryptoJS from 'crypto-js' part because it only understa…]]></summary>
+        <author>
+            <name>daverupert.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to set up Node and Tailwind with Docker]]></title>
+        <id>https://news.ycombinator.com/item?id=34546773</id>
+        <link href="https://medium.com/@gustavoinzunza/how-to-set-up-node-and-tailwind-with-docker-step-by-step-e40a4cff05b3"/>
+        <updated>2023-01-27T15:01:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://medium.com/@gustavoinzunza/how-to-set-up-node-and-tailwind-with-docker-step-by-step-e40a4cff05b3
+Comments URL: https://news.ycombinator.com/item?id=34546773
+Points: 3
+# Comments: 1]]></summary>
+        <author>
+            <name>lcjury</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Authorization back end that comes with a UI for RBAC and ABAC permissions]]></title>
+        <id>https://news.ycombinator.com/item?id=34546615</id>
+        <link href="https://www.authz.fr/"/>
+        <updated>2023-01-27T14:48:10.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.authz.fr
+Comments URL: https://news.ycombinator.com/item?id=34546615
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>eko</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hotwire: Build web apps by sending HTML instead of JSON over the wire]]></title>
+        <id>https://news.ycombinator.com/item?id=34546360</id>
+        <link href="https://hotwired.dev/"/>
+        <updated>2023-01-27T14:25:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://hotwired.dev/
+Comments URL: https://news.ycombinator.com/item?id=34546360
+Points: 2
+# Comments: 1]]></summary>
+        <author>
+            <name>philonoist</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AR, VR, and a Model for 3D in HTML]]></title>
+        <id>https://css-tricks.com/?p=376674</id>
+        <link href="https://css-tricks.com/ar-vr-and-a-model-for-3d-in-html/"/>
+        <updated>2023-01-27T14:15:43.000Z</updated>
+        <summary type="html"><![CDATA[Tucked down somewhere in the Safari Technology Preview 161 release notes is a seemingly innocous line about support for a new HTML element and attribute:
+Added support for <model src> and honor <source type> attributes (257518@main)
+Anytime I …
+AR, VR, and a Model for 3D in HTML originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Does the HN commenting UI work for you?]]></title>
+        <id>https://news.ycombinator.com/item?id=34545536</id>
+        <link href="https://news.ycombinator.com/item?id=34545536"/>
+        <updated>2023-01-27T13:07:16.000Z</updated>
+        <summary type="html"><![CDATA[I've been coming to Hacker News since 2005. Over that time it's grown by many orders of magnitude.
+The quality of the links has fluctuated but on the whole have stayed strong and, if anything, improved over time. I don't know what the filtering process is but it works well - the articles feel pure and deeply interesting.
+But the comments are trickier. As the size of the audience has grown, so have the number of comments. Which has the potential to be really interesting, except for the propensity of the UI to drive both readers and commenters deep into rabbitholes.
+I used to love seeing the breadth of reactions to an article (or a new company). I could scan the comments to see what Hacker News thought. I quickly could get an idea of different perspectives and opinions. I could absorb the reaction of the Silicon Valley Coding Diaspora.
+These days though it feels, at best, a deep, cloistered exploration of one POV, and at worst a triggered cascade of pedantry.
+There are still amazing people and amazing observations in there. But they're not easy to get to. There's no easy way to scan the comments to get a sense of the breadth of reaction - it's just a case of wading through all of them.
+Back when I was in my 20s and soaking up everything I possibly could, I would happily invest that time. These days it doesn't feel like such a good trade-off.
+And I fear that in turn that penalises the potential breadth of reaction that this remarkable audience posesses. And reduces the participation of others who have less time - many of whom are more senior (decide for yourself whether you value that perspective).
+If I could wave a wand, I'd love to see the threads collapsed by default. I feel like there are lot of potential UI wins that could further broaden engagement.
+Would love to hear everyone else's thoughts...
+(Also... and I'm sure I'm thousandth person to ask this... how on earth is it that there is no dark mode to this dev-mecca?!)
+Comments URL: https://news.ycombinator.com/item?id=34545536
+Points: 3
+# Comments: 3]]></summary>
+        <author>
+            <name>petenixey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Animating CSS Grid (How To + Examples)]]></title>
+        <id>https://dailydevlinks.com/?p=11578</id>
+        <link href="https://dailydevlinks.com/animating-css-grid-how-to-examples/"/>
+        <updated>2023-01-27T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Locking body scroll for modals on iOS]]></title>
+        <id>https://dailydevlinks.com/?p=11572</id>
+        <link href="https://dailydevlinks.com/locking-body-scroll-for-modals-on-ios/"/>
+        <updated>2023-01-27T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[CSSHTMLJS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Build Strong Customer Relationships For User Research]]></title>
+        <id>https://smashingmagazine.com/2023/01/build-strong-customer-relationships-user-research/</id>
+        <link href="https://smashingmagazine.com/2023/01/build-strong-customer-relationships-user-research/"/>
+        <updated>2023-01-27T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article, Rachel walks you through various ways that product teams can utilize to build relationships with customers. She will share some tips and tricks from her experience that have helped her nurture customer relationships and build better products.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Renaissance Rachel)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Great designers aren’t born, they’re made]]></title>
+        <id>https://heydesigner.com/?p=67324</id>
+        <link href="https://heydesigner.com/great-designers-arent-born-theyre-made/"/>
+        <updated>2023-01-27T08:46:48.000Z</updated>
+        <summary type="html"><![CDATA[We are all capable of improving, no matter how experienced we already are.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The end of writing]]></title>
+        <id>https://heydesigner.com/?p=67322</id>
+        <link href="https://heydesigner.com/the-end-of-writing/"/>
+        <updated>2023-01-27T08:45:26.000Z</updated>
+        <summary type="html"><![CDATA[Soon, you won’t need to write much anymore. Artificial Intelligence will do it for you. With all the free time we will have, we could try to rethink how we learn, work, and how we communicate.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pay what you want]]></title>
+        <id>https://seths.blog/?p=44800</id>
+        <link href="https://seths.blog/2023/01/pay-what-you-want/"/>
+        <updated>2023-01-27T08:39:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s a fascinating payment model. For digital goods and other transactions where the marginal cost of one more sale approaches zero, “pay what you want” exposes how complicated the story we tell about money can be. When we add in the charity component, it becomes even more layered. The Best of Akimbo (volume 1) is […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating meaningful design systems]]></title>
+        <id>https://heydesigner.com/?p=67320</id>
+        <link href="https://heydesigner.com/creating-meaningful-design-systems/"/>
+        <updated>2023-01-27T08:38:29.000Z</updated>
+        <summary type="html"><![CDATA[If we can use our design systems to speed up meaningful work, standardise things to a high quality, and scale the things we actually want to reproduce – then the reverse is also true.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Use the dialog element (reasonably)]]></title>
+        <id>https://heydesigner.com/?p=67318</id>
+        <link href="https://heydesigner.com/use-the-dialog-element-reasonably/"/>
+        <updated>2023-01-27T08:32:54.000Z</updated>
+        <summary type="html"><![CDATA[The dialog element has reached the tipping point of generally being the better option for web developers who need to implement dialogs in their web pages.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: React UI Frameworks]]></title>
+        <id>https://news.ycombinator.com/item?id=34543431</id>
+        <link href="https://news.ycombinator.com/item?id=34543431"/>
+        <updated>2023-01-27T07:03:44.000Z</updated>
+        <summary type="html"><![CDATA[I can’t get my hands on a beautiful UI framework I saw in one Show HN project few months ago. It is not part of https://github.com/brillout/awesome-react-components#ui-frameworks nor https://github.com/enaqx/awesome-react#react-component-libraries. Do you know any nice UI frameworks / component libraries which are not one of :
+AgnosticUI
+ant-design
+atlaskit
+base web
+baseweb
+blueprint
+bumbag-ui
+carbon
+cdbreactwebsites and web apps.
+chakra-ui
+ChatUI
+CoreUI for React
+eui
+evergreen
+flowbite-react
+Fluent UI
+geist-ui
+gestalt
+grommet
+Mantine
+orbit
+primereact
+radix-ui
+react-bootstrap
+react-bulma
+react-foundation
+react-spectrumexperiences
+reactstrap
+reakit
+rebass
+ring-ui
+rsuite
+searchkit
+semantic-ui-react
+semi-design
+shineoutetc
+trunx
+Comments URL: https://news.ycombinator.com/item?id=34543431
+Points: 1
+# Comments: 2]]></summary>
+        <author>
+            <name>blaydator</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Powerful ways to use CSS variables]]></title>
+        <id>https://news.ycombinator.com/item?id=34542552</id>
+        <link href="https://nerdy.dev/custom-prop-categories"/>
+        <updated>2023-01-27T04:41:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nerdy.dev/custom-prop-categories
+Comments URL: https://news.ycombinator.com/item?id=34542552
+Points: 1
+# Comments: 1]]></summary>
+        <author>
+            <name>lobo_tuerto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A universal deep-learning model for zinc finger design]]></title>
+        <id>https://news.ycombinator.com/item?id=34542180</id>
+        <link href="https://www.nature.com/articles/s41587-022-01624-4"/>
+        <updated>2023-01-27T03:41:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nature.com/articles/s41587-022-01624-4
+Comments URL: https://news.ycombinator.com/item?id=34542180
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>Thebroser</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neurodiversity Design System]]></title>
+        <id>yYx9wadLWKQxK2RxZ</id>
+        <link href="https://www.neurodiversity.design/"/>
+        <updated>2023-01-27T01:11:39.000Z</updated>
+        <summary type="html"><![CDATA[The NDS is a coherent set of standards and principles that combine neurodiversity and user experience design for Learning Management Systems.]]></summary>
+        <author>
+            <name>@willsoward</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Type Trends 2023]]></title>
+        <id>BkEhYgsXPNkqnAWmD</id>
+        <link href="https://www.monotype.com/type-trends-2023"/>
+        <updated>2023-01-27T01:09:28.000Z</updated>
+        <summary type="html"><![CDATA[Typographic trendspotting from the Monotype Studio.]]></summary>
+        <author>
+            <name>@monotype</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Astro 2.0]]></title>
+        <id>qRoSzuxNb3FtotquW</id>
+        <link href="https://astro.build/blog/astro-2"/>
+        <updated>2023-01-27T01:06:58.000Z</updated>
+        <summary type="html"><![CDATA[Astro 2.0 is the first major web framework to deliver complete type-safety for Markdown and MDX.]]></summary>
+        <author>
+            <name>@astrodotbuild</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing for the Developers]]></title>
+        <id>rwFd8ByWu8sWe3KrN</id>
+        <link href="https://www.sequoiacap.com/article/linear-spotlight/"/>
+        <updated>2023-01-27T01:06:04.000Z</updated>
+        <summary type="html"><![CDATA[With a Finnish sensibility, Linear’s founders center software engineers in the development process.]]></summary>
+        <author>
+            <name>@karrisaarinen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prompt-Driven Design]]></title>
+        <id>NtEQzE7vQFrXe2Eir</id>
+        <link href="https://www.felicis.com/news/prompt-driven-design"/>
+        <updated>2023-01-27T00:56:39.000Z</updated>
+        <summary type="html"><![CDATA[Prompt-driven design is when an AI command bar functions as either the primary tool of navigation or output. Learn why this pattern is here to stay.]]></summary>
+        <author>
+            <name>@felicis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to transition <div> height with CSS]]></title>
         <id>https://news.ycombinator.com/item?id=34539332</id>
@@ -810,6 +1182,23 @@ I felt like the previous UI was becoming a bit muddled as I added new features o
 If I had any se…]]></summary>
         <author>
             <name>CSS In Real Life</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meet the top layer: a solution to z-index:10000]]></title>
+        <id>https://developer.chrome.com/en/blog/what-is-the-top-layer/</id>
+        <link href="https://developer.chrome.com/en/blog/what-is-the-top-layer/"/>
+        <updated>2023-01-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The top layer sits above its related document in the browser viewport, and each document has one associated top layer. This means that elements promoted to the top layer needn't worry about z-index or DOM hierarchy. They also get a neat ::backdrop pseudo-element to play with. The Fullscreen API spec goes into more details as Fullscreen was a great example of the top layer in use before dialog support came along.
+The top layer helps solve the problem of rendering content above the rest of the document.
+The important things to remember:
+Top layer is outside of the document flow.
+z-index has no effect in the top layer.
+Each element in the top layer has a styleable ::backdrop pseudo-element.
+Each element and ::backdrop generates a new stacking context.
+Elements in the top layer are stacked in …]]></summary>
+        <author>
+            <name>Chrome Developers - Blog</name>
         </author>
     </entry>
     <entry>
@@ -8528,257 +8917,6 @@ Write out specific plans and then seek out feedback from folks who’ve done wor
         <link href="https://dailydevlinks.com/a-guide-to-command-line-data-manipulation/"/>
         <updated>2022-12-29T12:30:00.000Z</updated>
         <summary type="html"><![CDATA[Development]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gotcha Rest Client 1.6.0 Released, All-in-One API Design and Test Platform]]></title>
-        <id>https://news.ycombinator.com/item?id=34171803</id>
-        <link href="https://gotcha.rest/"/>
-        <updated>2022-12-29T12:03:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gotcha.rest
-Comments URL: https://news.ycombinator.com/item?id=34171803
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>whitecosm0s</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Surprising Things That CSS Can Animate]]></title>
-        <id>https://news.ycombinator.com/item?id=34171686</id>
-        <link href="https://codersblock.com/blog/the-surprising-things-that-css-can-animate/"/>
-        <updated>2022-12-29T11:44:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://codersblock.com/blog/the-surprising-things-that-css-can-animate/
-Comments URL: https://news.ycombinator.com/item?id=34171686
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>asicsp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Designing a colour system]]></title>
-        <id>https://heydesigner.com/?p=67090</id>
-        <link href="https://heydesigner.com/designing-a-colour-system/"/>
-        <updated>2022-12-29T10:25:34.000Z</updated>
-        <summary type="html"><![CDATA[This article is my take on multi-brand colour systems that support light and dark modes with minimum effort. It is all about organizing, naming and choosing the right colour values for the system to work.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I name Design Tokens and Components]]></title>
-        <id>https://heydesigner.com/?p=67088</id>
-        <link href="https://heydesigner.com/how-i-name-design-tokens-and-components/"/>
-        <updated>2022-12-29T10:21:34.000Z</updated>
-        <summary type="html"><![CDATA[A brief, but hopefully effective, walk through my process of creating names for my components and all three levels of Design Tokens.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When machines change art]]></title>
-        <id>https://heydesigner.com/?p=67086</id>
-        <link href="https://heydesigner.com/when-machines-change-art/"/>
-        <updated>2022-12-29T10:20:00.000Z</updated>
-        <summary type="html"><![CDATA[New art-making technologies change art in consistent ways, and studying the past helps us understand how things will change in the future.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Landmarks and where to put them]]></title>
-        <id>https://heydesigner.com/?p=67084</id>
-        <link href="https://heydesigner.com/landmarks-and-where-to-put-them/"/>
-        <updated>2022-12-29T10:18:59.000Z</updated>
-        <summary type="html"><![CDATA[When you look up landmark elements, you’ll find that they also go by another name: sectioning elements. You can take that quite literally: they section off different parts of your page into unique semantic blocks.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Insightful data is called information]]></title>
-        <id>https://seths.blog/?p=44466</id>
-        <link href="https://seths.blog/2022/12/insightful-data-is-called-information/"/>
-        <updated>2022-12-29T09:12:00.000Z</updated>
-        <summary type="html"><![CDATA[Data is everywhere around us, and most of it is simply noise. The purpose of information is to inform, to help us change our minds. Information has a point of view, it’s useful. It turns data into actionable truth. Getting more data isn’t the hard part. Turning it into information is. About a year ago, […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A little semantic HTML trick for React components]]></title>
-        <id>https://news.ycombinator.com/item?id=34169640</id>
-        <link href="https://queen.raae.codes/emails/2022-10-10-semantic-react/"/>
-        <updated>2022-12-29T04:45:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://queen.raae.codes/emails/2022-10-10-semantic-react/
-Comments URL: https://news.ycombinator.com/item?id=34169640
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>fagnerbrack</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a guitar pedal VST plugin (inc. UX) using ChatGPT]]></title>
-        <id>https://news.ycombinator.com/item?id=34169480</id>
-        <link href="https://www.youtube.com/watch?v=Ra7WUfaQNrM"/>
-        <updated>2022-12-29T04:14:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=Ra7WUfaQNrM
-Comments URL: https://news.ycombinator.com/item?id=34169480
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>cyberferret</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How designers can start using AI at work today]]></title>
-        <id>5SyEYPYhebRs8d3ei</id>
-        <link href="https://uxdesign.cc/ways-to-use-ai-in-product-design-today-ad70e3311e92?sk=29904c4665e8025b4ca7f57276634f32"/>
-        <updated>2022-12-29T00:21:57.000Z</updated>
-        <summary type="html"><![CDATA[Existing and future use-cases for AI in web and product design.]]></summary>
-        <author>
-            <name>@uxdesigncc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Companies.tools 2022 Recap]]></title>
-        <id>pmAAr4M7abAb4LdzE</id>
-        <link href="https://recap.companies.tools/"/>
-        <updated>2022-12-29T00:18:03.000Z</updated>
-        <summary type="html"><![CDATA[Here’s how and which apps and tools tech teams all over the world used.]]></summary>
-        <author>
-            <name>@arsenkolyba</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When Machines Change Art]]></title>
-        <id>xMrfmHauYWCWz9xDA</id>
-        <link href="https://aaronhertzmann.com/2022/12/17/when-tech-changes-art.html"/>
-        <updated>2022-12-29T00:17:37.000Z</updated>
-        <summary type="html"><![CDATA[At a few times in history, new technologies came along that changed the way we make art.]]></summary>
-        <author>
-            <name>@AaronHertzmann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React Wrap Balancer]]></title>
-        <id>rLDc6AqD9b9WLf3aS</id>
-        <link href="https://react-wrap-balancer.vercel.app/"/>
-        <updated>2022-12-29T00:12:42.000Z</updated>
-        <summary type="html"><![CDATA[Simple React Component That Makes Titles More Readable]]></summary>
-        <author>
-            <name>@shuding_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An Event Apart - Farewell]]></title>
-        <id>eSHNufKAZku9XrTXb</id>
-        <link href="https://www.aneventapart.com/"/>
-        <updated>2022-12-29T00:11:54.000Z</updated>
-        <summary type="html"><![CDATA[Seventeen years ago, in December 2005, we held our first conference in Philadelphia. The event we just held in San Francisco was our last.]]></summary>
-        <author>
-            <name>@aneventapart</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Is a front end dev who's also good at UI/UX desirable on the market?]]></title>
-        <id>https://news.ycombinator.com/item?id=34165553</id>
-        <link href="https://news.ycombinator.com/item?id=34165553"/>
-        <updated>2022-12-28T20:30:57.000Z</updated>
-        <summary type="html"><![CDATA[Comments URL: https://news.ycombinator.com/item?id=34165553
-Points: 3
-# Comments: 2]]></summary>
-        <author>
-            <name>nassimsoftware</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thank You (2022 Edition)]]></title>
-        <id>https://css-tricks.com/?p=375486</id>
-        <link href="https://css-tricks.com/thank-you-2022-edition/"/>
-        <updated>2022-12-28T15:46:15.000Z</updated>
-        <summary type="html"><![CDATA[You know, this is the time of year where Chris normally publishes a big ol’ reflection of the past year. The first one was published in 2007, the same year CSS-Tricks began, and it continued all the way through 2021…
-Thank You (2022 Edition) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
-        <author>
-            <name>Geoff Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A small CSS icon library written by ChatGPT]]></title>
-        <id>https://news.ycombinator.com/item?id=34160873</id>
-        <link href="https://ejth.github.io/uniglyph/"/>
-        <updated>2022-12-28T13:46:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ejth.github.io/uniglyph/
-Comments URL: https://news.ycombinator.com/item?id=34160873
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>EliasToft</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A small CSS icon library written by ChatGPT]]></title>
-        <id>https://news.ycombinator.com/item?id=34160873</id>
-        <link href="https://ejth.github.io/uniglyph/"/>
-        <updated>2022-12-28T13:46:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://ejth.github.io/uniglyph/
-Comments URL: https://news.ycombinator.com/item?id=34160873
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>EliasToft</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top 10 UX Articles of 2022]]></title>
-        <id>https://dailydevlinks.com/?p=11342</id>
-        <link href="https://dailydevlinks.com/top-10-ux-articles-of-2022/"/>
-        <updated>2022-12-28T12:33:00.000Z</updated>
-        <summary type="html"><![CDATA[UX]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A CSS challenge: skewed highlight]]></title>
-        <id>https://dailydevlinks.com/?p=11351</id>
-        <link href="https://dailydevlinks.com/a-css-challenge-skewed-highlight/"/>
-        <updated>2022-12-28T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Say Goodbye to Boring Lorem Ipsum]]></title>
-        <id>https://dailydevlinks.com/?p=11345</id>
-        <link href="https://dailydevlinks.com/say-goodbye-to-boring-lorem-ipsum/"/>
-        <updated>2022-12-28T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[DesignTool]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Birth of the Situation Designer]]></title>
-        <id>https://dailydevlinks.com/?p=11354</id>
-        <link href="https://dailydevlinks.com/the-birth-of-the-situation-designer/"/>
-        <updated>2022-12-28T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Design]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2022 CSS Updates]]></title>
-        <id>https://dailydevlinks.com/?p=11348</id>
-        <link href="https://dailydevlinks.com/2022-css-updates/"/>
-        <updated>2022-12-28T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
         <author>
             <name>Adam Marsden</name>
         </author>
