@@ -2,10 +2,153 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2023-01-29T00:05:45.991Z</updated>
+    <updated>2023-01-30T00:04:44.451Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Yoinking auto-transcripts from Slack]]></title>
+        <id>https://daverupert.com/2023/01/yoinking-slack-transcripts/</id>
+        <link href="https://daverupert.com/2023/01/yoinking-slack-transcripts/"/>
+        <updated>2023-01-29T19:13:00.000Z</updated>
+        <summary type="html"><![CDATA[We are creating some How-To Videos for Luro. Exciting to be at that point in product development, but it would be nice if our videos had captions from day one to set a precedent. We could pay to have them all transcribed, or pay for some automated caption service, or even upload them all to YouTube and get transcriptions once those finish processing… but ughck, those options are extra work and not “lean” in spirit.
+That’s when we noticed Slack started adding transcriptions for any video we upload. We had transcriptions! In the spirit of patching the Web, I wrote a one-liner console script to yoink those VTT transcriptions from Slack for Web with a little URL hacking.
+Find the uploaded video in Slack, click “View Transcript” in the caption below the video, then click the “Expand” button to see the video and the transcript side-by-side. Then put this in the console:
+
+$('video').poster.split('/').slice(0,-1).join('/') + '/file.vtt'
+
+
+⚠️ Warning: Auto-captions —what the deaf community lovingly refer to as “auto-craptions”— have limitations. For example, it transcribes our “Luro” as “Laura” and is entirely wrong and non-sensical at times. I point this out to show that you’ll need a human in the mix to proofread and fix captions. Be extra alert when dealing with technical content.
+Anyways, hope this is helpful.]]></summary>
+        <author>
+            <name>daverupert.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Privacy by Design]]></title>
+        <id>https://news.ycombinator.com/item?id=34571245</id>
+        <link href="https://dorian.substack.com/p/privacy-by-design"/>
+        <updated>2023-01-29T18:44:13.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://dorian.substack.com/p/privacy-by-design
+Comments URL: https://news.ycombinator.com/item?id=34571245
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>cambel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creativity as a system]]></title>
+        <id>https://heydesigner.com/?p=67339</id>
+        <link href="https://heydesigner.com/creativity-as-a-system/"/>
+        <updated>2023-01-29T18:09:26.000Z</updated>
+        <summary type="html"><![CDATA[Seeing creativity as a system simplifies the creative process and allows for better management of creative energy over time.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lego PC Case Part 8.4: The Design Summary]]></title>
+        <id>https://news.ycombinator.com/item?id=34570838</id>
+        <link href="https://www.youtube.com/watch?v=uMhX1yZhu3A"/>
+        <updated>2023-01-29T18:08:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=uMhX1yZhu3A
+Comments URL: https://news.ycombinator.com/item?id=34570838
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>prettyStandard</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prompt-driven design]]></title>
+        <id>https://heydesigner.com/?p=67337</id>
+        <link href="https://heydesigner.com/prompt-driven-design/"/>
+        <updated>2023-01-29T18:08:27.000Z</updated>
+        <summary type="html"><![CDATA[Whole products are now built with prompts as the primary form of engagement. We see a growing trend of software startups with prompts as the center of the experience.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The general creative state, and the art of experiencing]]></title>
+        <id>https://heydesigner.com/?p=67334</id>
+        <link href="https://heydesigner.com/the-general-creative-state-and-the-art-of-experiencing/"/>
+        <updated>2023-01-29T18:05:23.000Z</updated>
+        <summary type="html"><![CDATA[Lessons from Acting to practice empathy in UX Design.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[21 more small thoughts on Information Architecture]]></title>
+        <id>https://heydesigner.com/?p=67332</id>
+        <link href="https://heydesigner.com/21-more-small-thoughts-on-information-architecture/"/>
+        <updated>2023-01-29T18:04:42.000Z</updated>
+        <summary type="html"><![CDATA[Expositions, illustrations, and annotations to Scott Kubie’s 21 small thoughts on IA.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[clamp() Calculator]]></title>
+        <id>https://heydesigner.com/?p=67330</id>
+        <link href="https://heydesigner.com/clamp-calculator/"/>
+        <updated>2023-01-29T18:01:20.000Z</updated>
+        <summary type="html"><![CDATA[Handy little tool for calculating viewport-based clamped values.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacking Through the UI]]></title>
+        <id>https://news.ycombinator.com/item?id=34569639</id>
+        <link href="https://anguscheng.com/post/2022-01-28-trying/"/>
+        <updated>2023-01-29T16:30:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://anguscheng.com/post/2022-01-28-trying/
+Comments URL: https://news.ycombinator.com/item?id=34569639
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>4pkjai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The coming ubiquity]]></title>
+        <id>https://seths.blog/?p=44826</id>
+        <link href="https://seths.blog/2023/01/the-coming-ubiquity/"/>
+        <updated>2023-01-29T09:34:00.000Z</updated>
+        <summary type="html"><![CDATA[The fuss about AI might be mis-focused. It’s easy to point to a computer-created essay, song or illustration and find the defects or errors. Given hard work by 1,000 trained people, it’s likely that a human could make something more useful or inspired than a computer could. But the real impact of AI isn’t going […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rules of Unix Design Philosophy]]></title>
+        <id>https://news.ycombinator.com/item?id=34564176</id>
+        <link href="http://www.catb.org/~esr/writings/taoup/html/ch01s06.html"/>
+        <updated>2023-01-29T02:12:26.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: http://www.catb.org/~esr/writings/taoup/html/ch01s06.html
+Comments URL: https://news.ycombinator.com/item?id=34564176
+Points: 33
+# Comments: 3]]></summary>
+        <author>
+            <name>revskill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reverse RSS Feed]]></title>
+        <id>https://news.ycombinator.com/item?id=34563853</id>
+        <link href="https://www.jefftk.com/p/reverse-rss-feed"/>
+        <updated>2023-01-29T01:09:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.jefftk.com/p/reverse-rss-feed
+Comments URL: https://news.ycombinator.com/item?id=34563853
+Points: 43
+# Comments: 12]]></summary>
+        <author>
+            <name>rcarr</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Zinc Finger Design AI Tool Opens Door to Large-Scale Gene Therapies]]></title>
         <id>https://news.ycombinator.com/item?id=34560755</id>
@@ -8498,306 +8641,6 @@ Points: 1
 Source: gist.github.com]]></summary>
         <author>
             <name>remy sharp's b:log</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The world as it is]]></title>
-        <id>https://seths.blog/?p=43643</id>
-        <link href="https://seths.blog/2022/12/the-world-as-it-is/"/>
-        <updated>2022-12-31T09:21:00.000Z</updated>
-        <summary type="html"><![CDATA[No one sees reality. It’s worth repeating: No one accurately sees the world as it is. A person with hearing loss doesn’t experience the world the same way a synesthete does. A rock climber doesn’t see a steep slope the same way an elderly person does. And an optimist and a pessimist rarely experience opportunities […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Opening The Doors To 2023 (January Wallpapers Edition)]]></title>
-        <id>https://smashingmagazine.com/2022/12/desktop-wallpaper-calendars-january-2023/</id>
-        <link href="https://smashingmagazine.com/2022/12/desktop-wallpaper-calendars-january-2023/"/>
-        <updated>2022-12-31T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Let’s start into the new year with a little inspiration boost: wallpapers created with love by the community for the community. Happy 2023!]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I Built Sailboat UI – Modern UI Framework for Tailwind CSS]]></title>
-        <id>https://news.ycombinator.com/item?id=34194759</id>
-        <link href="https://sailboatui.com/"/>
-        <updated>2022-12-31T08:48:38.000Z</updated>
-        <summary type="html"><![CDATA[Get start with 150+ Tailwind CSS components , built your website quickly with Sailboat UI.
-Comments URL: https://news.ycombinator.com/item?id=34194759
-Points: 8
-# Comments: 1]]></summary>
-        <author>
-            <name>lvwzhen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I Built Sailboat UI – Modern UI Framework for Tailwind CSS]]></title>
-        <id>https://news.ycombinator.com/item?id=34194759</id>
-        <link href="https://sailboatui.com/"/>
-        <updated>2022-12-31T08:48:38.000Z</updated>
-        <summary type="html"><![CDATA[Get start with 150+ Tailwind CSS components , built your website quickly with Sailboat UI.
-Comments URL: https://news.ycombinator.com/item?id=34194759
-Points: 8
-# Comments: 1]]></summary>
-        <author>
-            <name>lvwzhen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drop-In Minimal CSS]]></title>
-        <id>https://news.ycombinator.com/item?id=34194069</id>
-        <link href="https://dohliam.github.io/dropin-minimal-css/"/>
-        <updated>2022-12-31T06:04:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://dohliam.github.io/dropin-minimal-css/
-Comments URL: https://news.ycombinator.com/item?id=34194069
-Points: 6
-# Comments: 0]]></summary>
-        <author>
-            <name>thunderbong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Live countdown clock in 40 bytes of CSS and 0 bytes of JavaScript]]></title>
-        <id>https://news.ycombinator.com/item?id=34194016</id>
-        <link href="https://mastodon.social/@jed/109481588082486389"/>
-        <updated>2022-12-31T05:55:37.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mastodon.social/@jed/109481588082486389
-Comments URL: https://news.ycombinator.com/item?id=34194016
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>losfair</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2022 Year In Review]]></title>
-        <id>http://ishadeed.com/journal/2022/</id>
-        <link href="http://ishadeed.com/journal/2022/"/>
-        <updated>2022-12-31T03:47:11.000Z</updated>
-        <author>
-            <name>Ahmad Shadeed Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Habit Gym – make or break any habit using compassionate accountability]]></title>
-        <id>https://news.ycombinator.com/item?id=34193247</id>
-        <link href="https://www.thehabitgym.com/programs/hn"/>
-        <updated>2022-12-31T03:33:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.thehabitgym.com/programs/hn
-Comments URL: https://news.ycombinator.com/item?id=34193247
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>suketk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>http://benmccormick.micro.blog/2022/12/30/i-love-this.html</id>
-        <link href="https://benmccormick.org/2022/12/30/i-love-this.html"/>
-        <updated>2022-12-31T00:23:44.000Z</updated>
-        <summary type="html"><![CDATA[I love this clear visual summary of a Staff+ Engineer’s role from Tanya Reilly’s The Staff Engineer’s Path]]></summary>
-        <author>
-            <name>Herding Lions</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Document.elementFromPoint]]></title>
-        <id>https://davidwalsh.name/document-elementfrompoint</id>
-        <link href="https://davidwalsh.name/document-elementfrompoint"/>
-        <updated>2022-12-30T22:37:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Reacting to events with JavaScript is the foundation of a dynamic experiences on the web. Whether it&#8217;s a click event or another typical action, responding to that action is important. We started with assigning events to specific elements, then moved to event delegation for efficiency, but did you know you can identify elements by position [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://davidwalsh.name/document-elementfrompoint">Document.elementFromPoint</a> appeared first on <a rel="nofollow" href="https://davidwalsh.name">David Walsh Blog</a>.</p>
-<p><a href="https://tkjs.us/dwb"><img style="margin:0 auto" alt="" src="https://davidwalsh.name/demo/tjs_block-1.svg"></a></p>]]></summary>
-        <author>
-            <name>David Walsh Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: RSS Brain]]></title>
-        <id>https://news.ycombinator.com/item?id=34188734</id>
-        <link href="https://www.rssbrain.com/"/>
-        <updated>2022-12-30T19:13:52.000Z</updated>
-        <summary type="html"><![CDATA[I wrote an RSS reader called RSS Brain recently. The motivate is the current RSS readers either don't sort articles by priority, which makes it hard to read posts from HackerNews and Reddit, or sort it with some "smart" algorithm which I don't trust. I also like the Google News feature that can show related story from different source, but the sources are not configurable and the algorithm is not transparent either. So with RSS Brain, I implemented these features:
-* Recommend related articles from the feeds of your choice. It's backed by ElasticSearch and the algorithm is described on RSS Brain's website.
-* Option to sort articles by upvotes and time. The algorithm is similar to the old Reddit and you can find it on the website as well.
-* Save search terms into folders so you can filter the articles.
-I've been using it for a while and found these features very helpful. So I want to share this on HackerNews. The frontend is written in Flutter so it has cross platform clients, even though the web version don't feel very "web native" because the level of Flutter web support. I guess only time can improve that.
-I don't have enough hardware to scale it up so it's currently in subscription mode to limit the users. I'm going to open source the code (maybe non-commercial license) once I think it's ready so you can host it by yourself. It's still in early stage and haven't been tested by a lot of people. So any feedback is helpful. Thanks!
-Update: Added a scroll down hint in the landing page. Thanks for the feedback.
-Comments URL: https://news.ycombinator.com/item?id=34188734
-Points: 66
-# Comments: 52]]></summary>
-        <author>
-            <name>wb14123</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learning in the new year]]></title>
-        <id>https://seths.blog/?p=44501</id>
-        <link href="https://seths.blog/2022/12/learning-in-the-new-year/"/>
-        <updated>2022-12-30T19:13:00.000Z</updated>
-        <summary type="html"><![CDATA[86,000 people have taken my Udemy courses over the last few years, and the first week of January is always a good time to lean in and learn. These are self-paced, video lectures. Udemy is offering the Modern Marketing course at 25% off for the next few weeks. The course for freelancers is my most […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No need to fear Design Reviews – Learn to do them the Agile way]]></title>
-        <id>https://news.ycombinator.com/item?id=34188028</id>
-        <link href="https://medium.com/appsflyerengineering/no-need-to-fear-design-reviews-learn-to-do-them-the-agile-way-f70c9cfc6440"/>
-        <updated>2022-12-30T18:21:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://medium.com/appsflyerengineering/no-need-to-fear-design-reviews-learn-to-do-them-the-agile-way-f70c9cfc6440
-Comments URL: https://news.ycombinator.com/item?id=34188028
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>1659447091</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: I built a possible alternative to social media RSS]]></title>
-        <id>https://news.ycombinator.com/item?id=34187119</id>
-        <link href="https://www.fetcher.page/"/>
-        <updated>2022-12-30T17:15:48.000Z</updated>
-        <summary type="html"><![CDATA[Hi there, I built a chrome extension to grab new posts from social media.
-Instagram, twitter, Pinterest, etc don't really allow for RSS so I worked on this alternative to get new posts. Hope this might be useful for some of you.
-Comments URL: https://news.ycombinator.com/item?id=34187119
-Points: 9
-# Comments: 6]]></summary>
-        <author>
-            <name>sum1ren</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adding 'rebeccapurple' color to CSS Color Level 4 (2014)]]></title>
-        <id>https://news.ycombinator.com/item?id=34186932</id>
-        <link href="https://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/"/>
-        <updated>2022-12-30T16:59:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/
-Comments URL: https://news.ycombinator.com/item?id=34186932
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>metadat</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blowfish – Tailwind Hugo Theme]]></title>
-        <id>https://news.ycombinator.com/item?id=34185974</id>
-        <link href="https://blowfish.page/"/>
-        <updated>2022-12-30T15:38:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blowfish.page/
-Comments URL: https://news.ycombinator.com/item?id=34185974
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>nunocoracao</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Feedle: Every search is an RSS feed]]></title>
-        <id>https://news.ycombinator.com/item?id=34185758</id>
-        <link href="https://feedle.world/"/>
-        <updated>2022-12-30T15:16:43.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://feedle.world/
-Comments URL: https://news.ycombinator.com/item?id=34185758
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>keyboardJones</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fluid Typography: Predicting A Problem With Your User’s Zoom-In]]></title>
-        <id>https://smashingmagazine.com/2022/12/fluid-typography-predict-problem-users-zoom-in/</id>
-        <link href="https://smashingmagazine.com/2022/12/fluid-typography-predict-problem-users-zoom-in/"/>
-        <updated>2022-12-30T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, Ruslan Yevych will show you an easy way how to predict the appearance of a problem known as WCAG Failure Under 1.4.4 Resize Text (AA) while zooming the page. You will have a clear understanding of the possible risks of using responsive typography at the stage of development.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Ruslan Yevych)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Designing a new Outlook experience]]></title>
-        <id>https://heydesigner.com/?p=67100</id>
-        <link href="https://heydesigner.com/designing-a-new-outlook-experience/"/>
-        <updated>2022-12-30T14:53:36.000Z</updated>
-        <summary type="html"><![CDATA[Outlook’s key design challenge is that of many heritage products: how do you chart a path forward that modernizes a beloved product, while also honoring its legacy and maintaining familiarity for the millions of people who rely on it?]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ways to use AI in product design today]]></title>
-        <id>https://heydesigner.com/?p=67098</id>
-        <link href="https://heydesigner.com/ways-to-use-ai-in-product-design-today/"/>
-        <updated>2022-12-30T14:52:26.000Z</updated>
-        <summary type="html"><![CDATA[Existing and future use-cases for AI in web and product design.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Redlines]]></title>
-        <id>https://heydesigner.com/?p=67096</id>
-        <link href="https://heydesigner.com/redlines/"/>
-        <updated>2022-12-30T14:51:15.000Z</updated>
-        <summary type="html"><![CDATA[This Figma plugin gives you the ability to create and generate redlines from a selection of objects with ease, while also enabling full control over the style and display of each redline element.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS Subgrid]]></title>
-        <id>https://heydesigner.com/?p=67094</id>
-        <link href="https://heydesigner.com/css-subgrid/"/>
-        <updated>2022-12-30T14:49:03.000Z</updated>
-        <summary type="html"><![CDATA[With subgrid coming to all engines very soon, it’s a great time to discover what this new feature of grid can do.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The CSS Holy Grail Layout (2006)]]></title>
-        <id>https://news.ycombinator.com/item?id=34185051</id>
-        <link href="https://alistapart.com/article/holygrail/"/>
-        <updated>2022-12-30T14:03:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://alistapart.com/article/holygrail/
-Comments URL: https://news.ycombinator.com/item?id=34185051
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>Brajeshwar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: New Year Card Design Templates and Editor]]></title>
-        <id>https://news.ycombinator.com/item?id=34184960</id>
-        <link href="https://www.creatosaurus.io/apps/muse/templates/cards/new-year"/>
-        <updated>2022-12-30T13:49:35.000Z</updated>
-        <summary type="html"><![CDATA[Hello everyone. We've been working on this for a couple of weeks and wanted to share these amazing free to use New Year Card template designs (https://www.creatosaurus.io/apps/muse/templates/cards/new-ye...).
-Cheers to 2023! Ring in the new year by creating custom-made happy new poster greetings with our graphic design tool - Muse.
-Is there a design layout you have in mind for your happy new year card poster card? Let that creative zeal come to life with Muse — Pro graphic design editor. Have no idea where to start? Muse has got you covered with a ton of free new year wishes templates and overall 1000+ free design templates.
-Here’s what up for grabs
-- A vast collection of high-quality new year card templates
-- Seamless personalisation
-- Zero-hassle editing tools
-- Create from scratch or use pre-existing templates
-- Easily downloadable templates
-- Seamless save your favourite new year card creation
-- Professional happy new year poster templates for all
-- Instant sharing and printing feature
-I'm here to answer all your questions and collect feedback!
-We also launched this on the Product Hunt(https://www.producthunt.com/posts/new-year-card-templates), do share your feedbacks and insights.
-Comments URL: https://news.ycombinator.com/item?id=34184960
-Points: 4
-# Comments: 6]]></summary>
-        <author>
-            <name>malavwarke</name>
         </author>
     </entry>
 </feed>

@@ -5,6 +5,102 @@
 <link rel="shortcut icon" href="https://praveenjuge.com/favicon.ico" />
 <style>body{margin:0 auto;max-width:50rem;padding:2rem;font-size:.85rem;line-height:1.6;color:#666;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,sans-serif}body>*,section>*{margin:1.5rem 0}section{overflow-x:hidden;border-radius:.25rem;background-color:#000;padding:1rem}div{display:flow-root;width:100%}p{margin:0}a{text-decoration:none;font-weight:500;color:#ccc}a:visited{color:#666}a:hover{color:#fff}img{float:right;margin-left:1rem;border-radius:.25rem;height:auto}</style>
 
+  <p>2023-01-29</p>
+    <section>
+      <p>daverupert.com</p>
+        <div>
+          <a href=https://daverupert.com/2023/01/yoinking-slack-transcripts/ target="_blank">Yoinking auto-transcripts from Slack</a>
+          <p>We are creating some How-To Videos for Luro. Exciting to be at that point in product development, but it would be nice if our videos had captions from day one to set a precedent. We could pay to have them all transcribed, or pay for some automated caption service, or even upload them all to YouTube and get transcriptions once those finish processing… but ughck, those options are extra work and not “lean” in spirit.
+That’s when we noticed Slack started adding transcriptions for any video we upload. We had transcriptions! In the spirit of patching the Web, I wrote a one-liner console script to yoink those VTT transcriptions from Slack for Web with a little URL hacking.
+Find the uploaded video in Slack, click “View Transcript” in the caption below the video, then click the “Expand” button to see the video and the transcript side-by-side. Then put this in the console:
+
+$(&#x27;video&#x27;).poster.split(&#x27;/&#x27;).slice(0,-1).join(&#x27;/&#x27;) + &#x27;/file.vtt&#x27;
+
+
+⚠️ Warning: Auto-captions —what the deaf community lovingly refer to as “auto-craptions”— have limitations. For example, it transcribes our “Luro” as “Laura” and is entirely wrong and non-sensical at times. I point this out to show that you’ll need a human in the mix to proofread and fix captions. Be extra alert when dealing with technical content.
+Anyways, hope this is helpful.</p>
+        </div>
+    </section>
+    <section>
+      <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;icon&quot; &quot;typography&quot; &quot;wireframe&quot; &quot;illustration&quot;&quot;</p>
+        <div>
+            <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03a4fe1f-c5c0-4a95-ba33-68cda7330aa0_4032x3024.jpeg" width="96" loading="lazy" />
+          <a href=https://dorian.substack.com/p/privacy-by-design target="_blank">Privacy by Design</a>
+          <p>Article URL: https://dorian.substack.com/p/privacy-by-design
+Comments URL: https://news.ycombinator.com/item?id&#x3D;34571245
+Points: 2
+# Comments: 0</p>
+        </div>
+        <div>
+          <a href=https://www.youtube.com/watch?v&#x3D;uMhX1yZhu3A target="_blank">Lego PC Case Part 8.4: The Design Summary</a>
+          <p>Article URL: https://www.youtube.com/watch?v&#x3D;uMhX1yZhu3A
+Comments URL: https://news.ycombinator.com/item?id&#x3D;34570838
+Points: 1
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://anguscheng.com/images/hero.jpg" width="96" loading="lazy" />
+          <a href=https://anguscheng.com/post/2022-01-28-trying/ target="_blank">Hacking Through the UI</a>
+          <p>Article URL: https://anguscheng.com/post/2022-01-28-trying/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;34569639
+Points: 1
+# Comments: 0</p>
+        </div>
+        <div>
+          <a href=http://www.catb.org/~esr/writings/taoup/html/ch01s06.html target="_blank">Rules of Unix Design Philosophy</a>
+          <p>Article URL: http://www.catb.org/~esr/writings/taoup/html/ch01s06.html
+Comments URL: https://news.ycombinator.com/item?id&#x3D;34564176
+Points: 33
+# Comments: 3</p>
+        </div>
+    </section>
+    <section>
+      <p>HeyDesigner</p>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/creativity-as-a-system/ target="_blank">Creativity as a system</a>
+          <p>Seeing creativity as a system simplifies the creative process and allows for better management of creative energy over time.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/prompt-driven-design/ target="_blank">Prompt-driven design</a>
+          <p>Whole products are now built with prompts as the primary form of engagement. We see a growing trend of software startups with prompts as the center of the experience.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/the-general-creative-state-and-the-art-of-experiencing/ target="_blank">The general creative state, and the art of experiencing</a>
+          <p>Lessons from Acting to practice empathy in UX Design.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/21-more-small-thoughts-on-information-architecture/ target="_blank">21 more small thoughts on Information Architecture</a>
+          <p>Expositions, illustrations, and annotations to Scott Kubie’s 21 small thoughts on IA.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/clamp-calculator/ target="_blank">clamp() Calculator</a>
+          <p>Handy little tool for calculating viewport-based clamped values.</p>
+        </div>
+    </section>
+    <section>
+      <p>Seth&#x27;s Blog</p>
+        <div>
+            <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg" width="96" loading="lazy" />
+          <a href=https://seths.blog/2023/01/the-coming-ubiquity/ target="_blank">The coming ubiquity</a>
+          <p>The fuss about AI might be mis-focused. It’s easy to point to a computer-created essay, song or illustration and find the defects or errors. Given hard work by 1,000 trained people, it’s likely that a human could make something more useful or inspired than a computer could. But the real impact of AI isn’t going […]</p>
+        </div>
+    </section>
+    <section>
+      <p>Hacker News - Newest: &quot;&quot;habit&quot; &quot;productivity&quot; &quot;stoic&quot; &quot;rss&quot;&quot;</p>
+        <div>
+            <img src="https://www.jefftk.com/jefftk-glyph-framed.jpg" width="96" loading="lazy" />
+          <a href=https://www.jefftk.com/p/reverse-rss-feed target="_blank">Reverse RSS Feed</a>
+          <p>Article URL: https://www.jefftk.com/p/reverse-rss-feed
+Comments URL: https://news.ycombinator.com/item?id&#x3D;34563853
+Points: 43
+# Comments: 12</p>
+        </div>
+    </section>
   <p>2023-01-28</p>
     <section>
       <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;icon&quot; &quot;typography&quot; &quot;wireframe&quot; &quot;illustration&quot;&quot;</p>
@@ -5544,13 +5640,6 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;34200904
 Points: 2
 # Comments: 0</p>
         </div>
-        <div>
-          <a href=https://sailboatui.com/ target="_blank">Show HN: I Built Sailboat UI – Modern UI Framework for Tailwind CSS</a>
-          <p>Get start with 150+ Tailwind CSS components , built your website quickly with Sailboat UI.
-Comments URL: https://news.ycombinator.com/item?id&#x3D;34194759
-Points: 8
-# Comments: 1</p>
-        </div>
     </section>
     <section>
       <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot; &quot;html&quot;&quot;</p>
@@ -5572,28 +5661,6 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;34196373
 Points: 1
 # Comments: 0</p>
         </div>
-        <div>
-          <a href=https://sailboatui.com/ target="_blank">Show HN: I Built Sailboat UI – Modern UI Framework for Tailwind CSS</a>
-          <p>Get start with 150+ Tailwind CSS components , built your website quickly with Sailboat UI.
-Comments URL: https://news.ycombinator.com/item?id&#x3D;34194759
-Points: 8
-# Comments: 1</p>
-        </div>
-        <div>
-          <a href=https://dohliam.github.io/dropin-minimal-css/ target="_blank">Drop-In Minimal CSS</a>
-          <p>Article URL: https://dohliam.github.io/dropin-minimal-css/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;34194069
-Points: 6
-# Comments: 0</p>
-        </div>
-        <div>
-            <img src="https://files.mastodon.social/accounts/avatars/000/034/508/original/f3e4fbf71b179e66.jpg" width="96" loading="lazy" />
-          <a href=https://mastodon.social/@jed/109481588082486389 target="_blank">Live countdown clock in 40 bytes of CSS and 0 bytes of JavaScript</a>
-          <p>Article URL: https://mastodon.social/@jed/109481588082486389
-Comments URL: https://news.ycombinator.com/item?id&#x3D;34194016
-Points: 2
-# Comments: 1</p>
-        </div>
     </section>
     <section>
       <p>Hacker News - Newest: &quot;&quot;habit&quot; &quot;productivity&quot; &quot;stoic&quot; &quot;rss&quot;&quot;</p>
@@ -5603,13 +5670,6 @@ Points: 2
 Comments URL: https://news.ycombinator.com/item?id&#x3D;34198759
 Points: 29
 # Comments: 56</p>
-        </div>
-        <div>
-          <a href=https://www.thehabitgym.com/programs/hn target="_blank">Show HN: Habit Gym – make or break any habit using compassionate accountability</a>
-          <p>Article URL: https://www.thehabitgym.com/programs/hn
-Comments URL: https://news.ycombinator.com/item?id&#x3D;34193247
-Points: 2
-# Comments: 1</p>
         </div>
     </section>
     <section>
@@ -5627,175 +5687,5 @@ More obvious (to me) is my lack of blogging and really the motivation to write h
           <a href=https://remysharp.com/links/2022-12-31-57e337af target="_blank">Safari&#x27;s date-picker is the cause of 1/3 of our customer support issues [link]</a>
           <p>I&#x27;m not even that old and I&#x27;ve been hit with this stupid UX from iOS (thankfully it was a one off for me as I&#x27;m primarily an Android user)
 Source: gist.github.com</p>
-        </div>
-    </section>
-    <section>
-      <p>Seth&#x27;s Blog</p>
-        <div>
-            <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg" width="96" loading="lazy" />
-          <a href=https://seths.blog/2022/12/the-world-as-it-is/ target="_blank">The world as it is</a>
-          <p>No one sees reality. It’s worth repeating: No one accurately sees the world as it is. A person with hearing loss doesn’t experience the world the same way a synesthete does. A rock climber doesn’t see a steep slope the same way an elderly person does. And an optimist and a pessimist rarely experience opportunities […]</p>
-        </div>
-    </section>
-    <section>
-      <p>Articles on Smashing Magazine — For Web Designers And Developers</p>
-        <div>
-            <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ea4019d5-9870-41a3-9646-a68895c59a3d/jan-23-bird-bird-bird-bird-preview-opt.png" width="96" loading="lazy" />
-          <a href=https://smashingmagazine.com/2022/12/desktop-wallpaper-calendars-january-2023/ target="_blank">Opening The Doors To 2023 (January Wallpapers Edition)</a>
-          <p>Let’s start into the new year with a little inspiration boost: wallpapers created with love by the community for the community. Happy 2023!</p>
-        </div>
-    </section>
-    <section>
-      <p>Ahmad Shadeed Blog</p>
-        <div>
-            <img src="https://ishadeed.com/assets/2022/twitter-card.jpg" width="96" loading="lazy" />
-          <a href=http://ishadeed.com/journal/2022/ target="_blank">2022 Year In Review</a>
-          <p>No content preview</p>
-        </div>
-    </section>
-    <section>
-      <p>Herding Lions</p>
-        <div>
-            <img src="https://cdn.uploads.micro.blog/92198/2022/5ca3e79f6f.jpg" width="96" loading="lazy" />
-          <a href=https://benmccormick.org/2022/12/30/i-love-this.html target="_blank">Untitled</a>
-          <p>I love this clear visual summary of a Staff+ Engineer’s role from Tanya Reilly’s The Staff Engineer’s Path</p>
-        </div>
-    </section>
-  <p>2022-12-30</p>
-    <section>
-      <p>David Walsh Blog</p>
-        <div>
-            <img src="https://davidwalsh.name/wp-content/themes/punky/images/logo.png" width="96" loading="lazy" />
-          <a href=https://davidwalsh.name/document-elementfrompoint target="_blank">Document.elementFromPoint</a>
-          <p>Reacting to events with JavaScript is the foundation of a dynamic experiences on the web. Whether it’s a click event or another typical action, responding to that action is important. We started with assigning events to specific elements, then moved to event delegation for efficiency, but did you know you can identify elements by position […]
-The post Document.elementFromPoint appeared first on David Walsh Blog.</p>
-        </div>
-    </section>
-    <section>
-      <p>Hacker News - Newest: &quot;&quot;habit&quot; &quot;productivity&quot; &quot;stoic&quot; &quot;rss&quot;&quot;</p>
-        <div>
-          <a href=https://www.rssbrain.com/ target="_blank">Show HN: RSS Brain</a>
-          <p>I wrote an RSS reader called RSS Brain recently. The motivate is the current RSS readers either don&#x27;t sort articles by priority, which makes it hard to read posts from HackerNews and Reddit, or sort it with some &quot;smart&quot; algorithm which I don&#x27;t trust. I also like the Google News feature that can show related story from different source, but the sources are not configurable and the algorithm is not transparent either. So with RSS Brain, I implemented these features:
-* Recommend related articles from the feeds of your choice. It&#x27;s backed by ElasticSearch and the algorithm is described on RSS Brain&#x27;s website.
-* Option to sort articles by upvotes and time. The algorithm is similar to the old Reddit and you can find it on the website as well.
-* Save search terms into folders so you can filter the articles.
-I&#x27;ve been using it for a while and found these features very helpful. So I want to share this on HackerNews. The frontend is written in Flutter so it has cross platform clients, even though the web version don&#x27;t feel very &quot;web native&quot; because the level of Flutter web support. I guess only time can improve that.
-I don&#x27;t have enough hardware to scale it up so it&#x27;s currently in subscription mode to limit the users. I&#x27;m going to open source the code (maybe non-commercial license) once I think it&#x27;s ready so you can host it by yourself. It&#x27;s still in early stage and haven&#x27;t been tested by a lot of people. So any feedback is helpful. Thanks!
-Update: Added a scroll down hint in the landing page. Thanks for the feedback.
-Comments URL: https://news.ycombinator.com/item?id&#x3D;34188734
-Points: 66
-# Comments: 52</p>
-        </div>
-        <div>
-          <a href=https://www.fetcher.page/ target="_blank">Show HN: I built a possible alternative to social media RSS</a>
-          <p>Hi there, I built a chrome extension to grab new posts from social media.
-Instagram, twitter, Pinterest, etc don&#x27;t really allow for RSS so I worked on this alternative to get new posts. Hope this might be useful for some of you.
-Comments URL: https://news.ycombinator.com/item?id&#x3D;34187119
-Points: 9
-# Comments: 6</p>
-        </div>
-        <div>
-            <img src="https://feedle.world/assets/img/og.jpg" width="96" loading="lazy" />
-          <a href=https://feedle.world/ target="_blank">Feedle: Every search is an RSS feed</a>
-          <p>Article URL: https://feedle.world/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;34185758
-Points: 2
-# Comments: 0</p>
-        </div>
-    </section>
-    <section>
-      <p>Seth&#x27;s Blog</p>
-        <div>
-            <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg" width="96" loading="lazy" />
-          <a href=https://seths.blog/2022/12/learning-in-the-new-year/ target="_blank">Learning in the new year</a>
-          <p>86,000 people have taken my Udemy courses over the last few years, and the first week of January is always a good time to lean in and learn. These are self-paced, video lectures. Udemy is offering the Modern Marketing course at 25% off for the next few weeks. The course for freelancers is my most […]</p>
-        </div>
-    </section>
-    <section>
-      <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;icon&quot; &quot;typography&quot; &quot;wireframe&quot; &quot;illustration&quot;&quot;</p>
-        <div>
-            <img src="https://miro.medium.com/max/1200/1*sFP0weerA1q4STA903tVKw.png" width="96" loading="lazy" />
-          <a href=https://medium.com/appsflyerengineering/no-need-to-fear-design-reviews-learn-to-do-them-the-agile-way-f70c9cfc6440 target="_blank">No need to fear Design Reviews – Learn to do them the Agile way</a>
-          <p>Article URL: https://medium.com/appsflyerengineering/no-need-to-fear-design-reviews-learn-to-do-them-the-agile-way-f70c9cfc6440
-Comments URL: https://news.ycombinator.com/item?id&#x3D;34188028
-Points: 2
-# Comments: 0</p>
-        </div>
-        <div>
-          <a href=https://www.creatosaurus.io/apps/muse/templates/cards/new-year target="_blank">Show HN: New Year Card Design Templates and Editor</a>
-          <p>Hello everyone. We&#x27;ve been working on this for a couple of weeks and wanted to share these amazing free to use New Year Card template designs (https://www.creatosaurus.io/apps/muse/templates/cards/new-ye...).
-Cheers to 2023! Ring in the new year by creating custom-made happy new poster greetings with our graphic design tool - Muse.
-Is there a design layout you have in mind for your happy new year card poster card? Let that creative zeal come to life with Muse — Pro graphic design editor. Have no idea where to start? Muse has got you covered with a ton of free new year wishes templates and overall 1000+ free design templates.
-Here’s what up for grabs
-- A vast collection of high-quality new year card templates
-- Seamless personalisation
-- Zero-hassle editing tools
-- Create from scratch or use pre-existing templates
-- Easily downloadable templates
-- Seamless save your favourite new year card creation
-- Professional happy new year poster templates for all
-- Instant sharing and printing feature
-I&#x27;m here to answer all your questions and collect feedback!
-We also launched this on the Product Hunt(https://www.producthunt.com/posts/new-year-card-templates), do share your feedbacks and insights.
-Comments URL: https://news.ycombinator.com/item?id&#x3D;34184960
-Points: 4
-# Comments: 6</p>
-        </div>
-    </section>
-    <section>
-      <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot; &quot;html&quot;&quot;</p>
-        <div>
-            <img src="https://meyerweb.com/ui/i/hamonshu/fb-og-image.png" width="96" loading="lazy" />
-          <a href=https://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/ target="_blank">Adding &#x27;rebeccapurple&#x27; color to CSS Color Level 4 (2014)</a>
-          <p>Article URL: https://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;34186932
-Points: 2
-# Comments: 1</p>
-        </div>
-        <div>
-          <a href=https://blowfish.page/ target="_blank">Blowfish – Tailwind Hugo Theme</a>
-          <p>Article URL: https://blowfish.page/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;34185974
-Points: 2
-# Comments: 1</p>
-        </div>
-        <div>
-            <img src="https://i0.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA211_grail_300.png?fit&#x3D;646%2C782&amp;ssl&#x3D;1" width="96" loading="lazy" />
-          <a href=https://alistapart.com/article/holygrail/ target="_blank">The CSS Holy Grail Layout (2006)</a>
-          <p>Article URL: https://alistapart.com/article/holygrail/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;34185051
-Points: 1
-# Comments: 0</p>
-        </div>
-    </section>
-    <section>
-      <p>Articles on Smashing Magazine — For Web Designers And Developers</p>
-        <div>
-            <img src="http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e896f9f1-7437-48c5-9481-483ae087a622/fluid-typography-predict-problem-users-zoom-in.jpg" width="96" loading="lazy" />
-          <a href=https://smashingmagazine.com/2022/12/fluid-typography-predict-problem-users-zoom-in/ target="_blank">Fluid Typography: Predicting A Problem With Your User’s Zoom-In</a>
-          <p>In this article, Ruslan Yevych will show you an easy way how to predict the appearance of a problem known as WCAG Failure Under 1.4.4 Resize Text (AA) while zooming the page. You will have a clear understanding of the possible risks of using responsive typography at the stage of development.</p>
-        </div>
-    </section>
-    <section>
-      <p>HeyDesigner</p>
-        <div>
-            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
-          <a href=https://heydesigner.com/designing-a-new-outlook-experience/ target="_blank">Designing a new Outlook experience</a>
-          <p>Outlook’s key design challenge is that of many heritage products: how do you chart a path forward that modernizes a beloved product, while also honoring its legacy and maintaining familiarity for the millions of people who rely on it?</p>
-        </div>
-        <div>
-            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
-          <a href=https://heydesigner.com/ways-to-use-ai-in-product-design-today/ target="_blank">Ways to use AI in product design today</a>
-          <p>Existing and future use-cases for AI in web and product design.</p>
-        </div>
-        <div>
-            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
-          <a href=https://heydesigner.com/redlines/ target="_blank">Redlines</a>
-          <p>This Figma plugin gives you the ability to create and generate redlines from a selection of objects with ease, while also enabling full control over the style and display of each redline element.</p>
-        </div>
-        <div>
-            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
-          <a href=https://heydesigner.com/css-subgrid/ target="_blank">CSS Subgrid</a>
-          <p>With subgrid coming to all engines very soon, it’s a great time to discover what this new feature of grid can do.</p>
         </div>
     </section>

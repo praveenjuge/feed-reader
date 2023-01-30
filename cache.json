@@ -137,16 +137,6 @@
           "wordCount": 735,
           "title": "2022 Books",
           "imageUrl": null
-        },
-        {
-          "id": "http://benmccormick.micro.blog/2022/12/30/i-love-this.html",
-          "author": null,
-          "description": "I love this clear visual summary of a Staff+ Engineer’s role from Tanya Reilly’s The Staff Engineer’s Path",
-          "link": "https://benmccormick.org/2022/12/30/i-love-this.html",
-          "publishedOn": "2022-12-31T00:23:44.000Z",
-          "wordCount": 63,
-          "title": "Untitled",
-          "imageUrl": "https://cdn.uploads.micro.blog/92198/2022/5ca3e79f6f.jpg"
         }
       ]
     },
@@ -1109,6 +1099,16 @@
       "siteUrl": "https://daverupert.com",
       "articles": [
         {
+          "id": "https://daverupert.com/2023/01/yoinking-slack-transcripts/",
+          "author": null,
+          "description": "We are creating some How-To Videos for Luro. Exciting to be at that point in product development, but it would be nice if our videos had captions from day one to set a precedent. We could pay to have them all transcribed, or pay for some automated caption service, or even upload them all to YouTube and get transcriptions once those finish processing… but ughck, those options are extra work and not “lean” in spirit.\nThat’s when we noticed Slack started adding transcriptions for any video we upload. We had transcriptions! In the spirit of patching the Web, I wrote a one-liner console script to yoink those VTT transcriptions from Slack for Web with a little URL hacking.\nFind the uploaded video in Slack, click “View Transcript” in the caption below the video, then click the “Expand” button to see the video and the transcript side-by-side. Then put this in the console:\n\n$('video').poster.split('/').slice(0,-1).join('/') + '/file.vtt'\n\n\n⚠️ Warning: Auto-captions —what the deaf community lovingly refer to as “auto-craptions”— have limitations. For example, it transcribes our “Luro” as “Laura” and is entirely wrong and non-sensical at times. I point this out to show that you’ll need a human in the mix to proofread and fix captions. Be extra alert when dealing with technical content.\nAnyways, hope this is helpful.",
+          "link": "https://daverupert.com/2023/01/yoinking-slack-transcripts/",
+          "publishedOn": "2023-01-29T19:13:00.000Z",
+          "wordCount": 555,
+          "title": "Yoinking auto-transcripts from Slack",
+          "imageUrl": null
+        },
+        {
           "id": "https://daverupert.com/2023/01/using-ai-to-appease-jest/",
           "author": null,
           "description": "Friday evening at 5pm on my way out of work I was about to push a feature fix up to add some encryption and decryption using crypto-js.  The API looks like this:\n\nimport CryptoJS from 'crypto-js'\n\nconst encryptedThing = CryptoJS.AES.encrypt(\"message\", SECRET_KEY).toString()\nconst decryptedThing = CryptoJS.AES.decrypt(encryptedThing, SECRET_KEY).toString(CryptoJS.enc.Utf8)\n\n\nIt’s an AES cipher block that puts a message in a cipher, and decrypts it on the other end. Cool. It uses math, like popular cryptographic technology Bitcoin, so you know it’s good.\nAs I was ready to push the code up, my tests were failing in the prepush hook. I knew the code was working but I’d have to appease Jest. Jest’s issue was it didn’t know about the import CryptoJS from 'crypto-js' part because it only understa…",
@@ -1269,16 +1269,6 @@
           "publishedOn": "2023-01-02T18:09:11.000Z",
           "wordCount": 1683,
           "title": "Detect XR Support with JavaScript",
-          "imageUrl": "https://davidwalsh.name/wp-content/themes/punky/images/logo.png"
-        },
-        {
-          "id": "https://davidwalsh.name/document-elementfrompoint",
-          "author": null,
-          "description": "<p>Reacting to events with JavaScript is the foundation of a dynamic experiences on the web. Whether it&#8217;s a click event or another typical action, responding to that action is important. We started with assigning events to specific elements, then moved to event delegation for efficiency, but did you know you can identify elements by position [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://davidwalsh.name/document-elementfrompoint\">Document.elementFromPoint</a> appeared first on <a rel=\"nofollow\" href=\"https://davidwalsh.name\">David Walsh Blog</a>.</p>\n<p><a href=\"https://tkjs.us/dwb\"><img style=\"margin:0 auto\" alt=\"\" src=\"https://davidwalsh.name/demo/tjs_block-1.svg\"></a></p>",
-          "link": "https://davidwalsh.name/document-elementfrompoint",
-          "publishedOn": "2022-12-30T22:37:00.000Z",
-          "wordCount": 1689,
-          "title": "Document.elementFromPoint",
           "imageUrl": "https://davidwalsh.name/wp-content/themes/punky/images/logo.png"
         }
       ]
@@ -1474,6 +1464,56 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=67339",
+          "author": "Travis",
+          "description": "Seeing creativity as a system simplifies the creative process and allows for better management of creative energy over time.",
+          "link": "https://heydesigner.com/creativity-as-a-system/",
+          "publishedOn": "2023-01-29T18:09:26.000Z",
+          "wordCount": 201,
+          "title": "Creativity as a system",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67337",
+          "author": "Travis",
+          "description": "Whole products are now built with prompts as the primary form of engagement. We see a growing trend of software startups with prompts as the center of the experience.",
+          "link": "https://heydesigner.com/prompt-driven-design/",
+          "publishedOn": "2023-01-29T18:08:27.000Z",
+          "wordCount": 206,
+          "title": "Prompt-driven design",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67334",
+          "author": "Travis",
+          "description": "Lessons from Acting to practice empathy in UX Design.",
+          "link": "https://heydesigner.com/the-general-creative-state-and-the-art-of-experiencing/",
+          "publishedOn": "2023-01-29T18:05:23.000Z",
+          "wordCount": 202,
+          "title": "The general creative state, and the art of experiencing",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67332",
+          "author": "Travis",
+          "description": "Expositions, illustrations, and annotations to Scott Kubie’s 21 small thoughts on IA.",
+          "link": "https://heydesigner.com/21-more-small-thoughts-on-information-architecture/",
+          "publishedOn": "2023-01-29T18:04:42.000Z",
+          "wordCount": 201,
+          "title": "21 more small thoughts on Information Architecture",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67330",
+          "author": "Travis",
+          "description": "Handy little tool for calculating viewport-based clamped values.",
+          "link": "https://heydesigner.com/clamp-calculator/",
+          "publishedOn": "2023-01-29T18:01:20.000Z",
+          "wordCount": 189,
+          "title": "clamp() Calculator",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=67324",
           "author": "Travis",
@@ -2263,46 +2303,6 @@
           "wordCount": 214,
           "title": "Things CSS could still use heading into 2023",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67100",
-          "author": "Travis",
-          "description": "Outlook’s key design challenge is that of many heritage products: how do you chart a path forward that modernizes a beloved product, while also honoring its legacy and maintaining familiarity for the millions of people who rely on it?",
-          "link": "https://heydesigner.com/designing-a-new-outlook-experience/",
-          "publishedOn": "2022-12-30T14:53:36.000Z",
-          "wordCount": 207,
-          "title": "Designing a new Outlook experience",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67098",
-          "author": "Travis",
-          "description": "Existing and future use-cases for AI in web and product design.",
-          "link": "https://heydesigner.com/ways-to-use-ai-in-product-design-today/",
-          "publishedOn": "2022-12-30T14:52:26.000Z",
-          "wordCount": 202,
-          "title": "Ways to use AI in product design today",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67096",
-          "author": "Travis",
-          "description": "This Figma plugin gives you the ability to create and generate redlines from a selection of objects with ease, while also enabling full control over the style and display of each redline element.",
-          "link": "https://heydesigner.com/redlines/",
-          "publishedOn": "2022-12-30T14:51:15.000Z",
-          "wordCount": 198,
-          "title": "Redlines",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67094",
-          "author": "Travis",
-          "description": "With subgrid coming to all engines very soon, it’s a great time to discover what this new feature of grid can do.",
-          "link": "https://heydesigner.com/css-subgrid/",
-          "publishedOn": "2022-12-30T14:49:03.000Z",
-          "wordCount": 202,
-          "title": "CSS Subgrid",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2311,6 +2311,46 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=34571245",
+          "author": "cambel",
+          "description": "Article URL: https://dorian.substack.com/p/privacy-by-design\nComments URL: https://news.ycombinator.com/item?id=34571245\nPoints: 2\n# Comments: 0",
+          "link": "https://dorian.substack.com/p/privacy-by-design",
+          "publishedOn": "2023-01-29T18:44:13.000Z",
+          "wordCount": 8261,
+          "title": "Privacy by Design",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03a4fe1f-c5c0-4a95-ba33-68cda7330aa0_4032x3024.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34570838",
+          "author": "prettyStandard",
+          "description": "Article URL: https://www.youtube.com/watch?v=uMhX1yZhu3A\nComments URL: https://news.ycombinator.com/item?id=34570838\nPoints: 1\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=uMhX1yZhu3A",
+          "publishedOn": "2023-01-29T18:08:41.000Z",
+          "wordCount": null,
+          "title": "Lego PC Case Part 8.4: The Design Summary",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34569639",
+          "author": "4pkjai",
+          "description": "Article URL: https://anguscheng.com/post/2022-01-28-trying/\nComments URL: https://news.ycombinator.com/item?id=34569639\nPoints: 1\n# Comments: 0",
+          "link": "https://anguscheng.com/post/2022-01-28-trying/",
+          "publishedOn": "2023-01-29T16:30:30.000Z",
+          "wordCount": 901,
+          "title": "Hacking Through the UI",
+          "imageUrl": "https://anguscheng.com/images/hero.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34564176",
+          "author": "revskill",
+          "description": "Article URL: http://www.catb.org/~esr/writings/taoup/html/ch01s06.html\nComments URL: https://news.ycombinator.com/item?id=34564176\nPoints: 33\n# Comments: 3",
+          "link": "http://www.catb.org/~esr/writings/taoup/html/ch01s06.html",
+          "publishedOn": "2023-01-29T02:12:26.000Z",
+          "wordCount": 5213,
+          "title": "Rules of Unix Design Philosophy",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=34560755",
           "author": "birriel",
@@ -4170,36 +4210,6 @@
           "wordCount": 1918,
           "title": "Gio Wiederhold the database design pioneer passes away",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34194759",
-          "author": "lvwzhen",
-          "description": "Get start with 150+ Tailwind CSS components , built your website quickly with Sailboat UI.\nComments URL: https://news.ycombinator.com/item?id=34194759\nPoints: 8\n# Comments: 1",
-          "link": "https://sailboatui.com/",
-          "publishedOn": "2022-12-31T08:48:38.000Z",
-          "wordCount": null,
-          "title": "Show HN: I Built Sailboat UI – Modern UI Framework for Tailwind CSS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34188028",
-          "author": "1659447091",
-          "description": "Article URL: https://medium.com/appsflyerengineering/no-need-to-fear-design-reviews-learn-to-do-them-the-agile-way-f70c9cfc6440\nComments URL: https://news.ycombinator.com/item?id=34188028\nPoints: 2\n# Comments: 0",
-          "link": "https://medium.com/appsflyerengineering/no-need-to-fear-design-reviews-learn-to-do-them-the-agile-way-f70c9cfc6440",
-          "publishedOn": "2022-12-30T18:21:49.000Z",
-          "wordCount": 3906,
-          "title": "No need to fear Design Reviews – Learn to do them the Agile way",
-          "imageUrl": "https://miro.medium.com/max/1200/1*sFP0weerA1q4STA903tVKw.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34184960",
-          "author": "malavwarke",
-          "description": "Hello everyone. We've been working on this for a couple of weeks and wanted to share these amazing free to use New Year Card template designs (https://www.creatosaurus.io/apps/muse/templates/cards/new-ye...).\nCheers to 2023! Ring in the new year by creating custom-made happy new poster greetings with our graphic design tool - Muse.\nIs there a design layout you have in mind for your happy new year card poster card? Let that creative zeal come to life with Muse — Pro graphic design editor. Have no idea where to start? Muse has got you covered with a ton of free new year wishes templates and overall 1000+ free design templates.\nHere’s what up for grabs\n- A vast collection of high-quality new year card templates\n- Seamless personalisation\n- Zero-hassle editing tools\n- Create from scratch or use pre-existing templates\n- Easily downloadable templates\n- Seamless save your favourite new year card creation\n- Professional happy new year poster templates for all\n- Instant sharing and printing feature\nI'm here to answer all your questions and collect feedback!\nWe also launched this on the Product Hunt(https://www.producthunt.com/posts/new-year-card-templates), do share your feedbacks and insights.\nComments URL: https://news.ycombinator.com/item?id=34184960\nPoints: 4\n# Comments: 6",
-          "link": "https://www.creatosaurus.io/apps/muse/templates/cards/new-year",
-          "publishedOn": "2022-12-30T13:49:35.000Z",
-          "wordCount": 889,
-          "title": "Show HN: New Year Card Design Templates and Editor",
-          "imageUrl": null
         }
       ]
     },
@@ -4208,6 +4218,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=34563853",
+          "author": "rcarr",
+          "description": "Article URL: https://www.jefftk.com/p/reverse-rss-feed\nComments URL: https://news.ycombinator.com/item?id=34563853\nPoints: 43\n# Comments: 12",
+          "link": "https://www.jefftk.com/p/reverse-rss-feed",
+          "publishedOn": "2023-01-29T01:09:52.000Z",
+          "wordCount": 2048,
+          "title": "Reverse RSS Feed",
+          "imageUrl": "https://www.jefftk.com/jefftk-glyph-framed.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=34552271",
           "author": "TigerTeamX",
@@ -4877,46 +4897,6 @@
           "wordCount": 1507,
           "title": "Gripes with RSS after one week",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34193247",
-          "author": "suketk",
-          "description": "Article URL: https://www.thehabitgym.com/programs/hn\nComments URL: https://news.ycombinator.com/item?id=34193247\nPoints: 2\n# Comments: 1",
-          "link": "https://www.thehabitgym.com/programs/hn",
-          "publishedOn": "2022-12-31T03:33:56.000Z",
-          "wordCount": 2469,
-          "title": "Show HN: Habit Gym – make or break any habit using compassionate accountability",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34188734",
-          "author": "wb14123",
-          "description": "I wrote an RSS reader called RSS Brain recently. The motivate is the current RSS readers either don't sort articles by priority, which makes it hard to read posts from HackerNews and Reddit, or sort it with some \"smart\" algorithm which I don't trust. I also like the Google News feature that can show related story from different source, but the sources are not configurable and the algorithm is not transparent either. So with RSS Brain, I implemented these features:\n* Recommend related articles from the feeds of your choice. It's backed by ElasticSearch and the algorithm is described on RSS Brain's website.\n* Option to sort articles by upvotes and time. The algorithm is similar to the old Reddit and you can find it on the website as well.\n* Save search terms into folders so you can filter the articles.\nI've been using it for a while and found these features very helpful. So I want to share this on HackerNews. The frontend is written in Flutter so it has cross platform clients, even though the web version don't feel very \"web native\" because the level of Flutter web support. I guess only time can improve that.\nI don't have enough hardware to scale it up so it's currently in subscription mode to limit the users. I'm going to open source the code (maybe non-commercial license) once I think it's ready so you can host it by yourself. It's still in early stage and haven't been tested by a lot of people. So any feedback is helpful. Thanks!\nUpdate: Added a scroll down hint in the landing page. Thanks for the feedback.\nComments URL: https://news.ycombinator.com/item?id=34188734\nPoints: 66\n# Comments: 52",
-          "link": "https://www.rssbrain.com/",
-          "publishedOn": "2022-12-30T19:13:52.000Z",
-          "wordCount": 219,
-          "title": "Show HN: RSS Brain",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34187119",
-          "author": "sum1ren",
-          "description": "Hi there, I built a chrome extension to grab new posts from social media.\nInstagram, twitter, Pinterest, etc don't really allow for RSS so I worked on this alternative to get new posts. Hope this might be useful for some of you.\nComments URL: https://news.ycombinator.com/item?id=34187119\nPoints: 9\n# Comments: 6",
-          "link": "https://www.fetcher.page/",
-          "publishedOn": "2022-12-30T17:15:48.000Z",
-          "wordCount": 539,
-          "title": "Show HN: I built a possible alternative to social media RSS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34185758",
-          "author": "keyboardJones",
-          "description": "Article URL: https://feedle.world/\nComments URL: https://news.ycombinator.com/item?id=34185758\nPoints: 2\n# Comments: 0",
-          "link": "https://feedle.world/",
-          "publishedOn": "2022-12-30T15:16:43.000Z",
-          "wordCount": 650,
-          "title": "Feedle: Every search is an RSS feed",
-          "imageUrl": "https://feedle.world/assets/img/og.jpg"
         }
       ]
     },
@@ -5684,66 +5664,6 @@
           "wordCount": 219,
           "title": "Tailwind CSS in a Website",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34194759",
-          "author": "lvwzhen",
-          "description": "Get start with 150+ Tailwind CSS components , built your website quickly with Sailboat UI.\nComments URL: https://news.ycombinator.com/item?id=34194759\nPoints: 8\n# Comments: 1",
-          "link": "https://sailboatui.com/",
-          "publishedOn": "2022-12-31T08:48:38.000Z",
-          "wordCount": null,
-          "title": "Show HN: I Built Sailboat UI – Modern UI Framework for Tailwind CSS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34194069",
-          "author": "thunderbong",
-          "description": "Article URL: https://dohliam.github.io/dropin-minimal-css/\nComments URL: https://news.ycombinator.com/item?id=34194069\nPoints: 6\n# Comments: 0",
-          "link": "https://dohliam.github.io/dropin-minimal-css/",
-          "publishedOn": "2022-12-31T06:04:40.000Z",
-          "wordCount": 1032,
-          "title": "Drop-In Minimal CSS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34194016",
-          "author": "losfair",
-          "description": "Article URL: https://mastodon.social/@jed/109481588082486389\nComments URL: https://news.ycombinator.com/item?id=34194016\nPoints: 2\n# Comments: 1",
-          "link": "https://mastodon.social/@jed/109481588082486389",
-          "publishedOn": "2022-12-31T05:55:37.000Z",
-          "wordCount": 115,
-          "title": "Live countdown clock in 40 bytes of CSS and 0 bytes of JavaScript",
-          "imageUrl": "https://files.mastodon.social/accounts/avatars/000/034/508/original/f3e4fbf71b179e66.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34186932",
-          "author": "metadat",
-          "description": "Article URL: https://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/\nComments URL: https://news.ycombinator.com/item?id=34186932\nPoints: 2\n# Comments: 1",
-          "link": "https://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/",
-          "publishedOn": "2022-12-30T16:59:21.000Z",
-          "wordCount": 2696,
-          "title": "Adding 'rebeccapurple' color to CSS Color Level 4 (2014)",
-          "imageUrl": "https://meyerweb.com/ui/i/hamonshu/fb-og-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34185974",
-          "author": "nunocoracao",
-          "description": "Article URL: https://blowfish.page/\nComments URL: https://news.ycombinator.com/item?id=34185974\nPoints: 2\n# Comments: 1",
-          "link": "https://blowfish.page/",
-          "publishedOn": "2022-12-30T15:38:46.000Z",
-          "wordCount": 737,
-          "title": "Blowfish – Tailwind Hugo Theme",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34185051",
-          "author": "Brajeshwar",
-          "description": "Article URL: https://alistapart.com/article/holygrail/\nComments URL: https://news.ycombinator.com/item?id=34185051\nPoints: 1\n# Comments: 0",
-          "link": "https://alistapart.com/article/holygrail/",
-          "publishedOn": "2022-12-30T14:03:21.000Z",
-          "wordCount": 22339,
-          "title": "The CSS Holy Grail Layout (2006)",
-          "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA211_grail_300.png?fit=646%2C782&ssl=1"
         }
       ]
     },
@@ -5790,16 +5710,6 @@
           "wordCount": 3059,
           "title": "Conditional CSS",
           "imageUrl": "https://ishadeed.com/assets/conditional-css/twitter-card.jpg"
-        },
-        {
-          "id": "http://ishadeed.com/journal/2022/",
-          "author": null,
-          "description": "",
-          "link": "http://ishadeed.com/journal/2022/",
-          "publishedOn": "2022-12-31T03:47:11.000Z",
-          "wordCount": 1803,
-          "title": "2022 Year In Review",
-          "imageUrl": "https://ishadeed.com/assets/2022/twitter-card.jpg"
         }
       ]
     },
@@ -5888,6 +5798,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=44826",
+          "author": "Seth Godin",
+          "description": "The fuss about AI might be mis-focused. It’s easy to point to a computer-created essay, song or illustration and find the defects or errors. Given hard work by 1,000 trained people, it’s likely that a human could make something more useful or inspired than a computer could. But the real impact of AI isn’t going […]",
+          "link": "https://seths.blog/2023/01/the-coming-ubiquity/",
+          "publishedOn": "2023-01-29T09:34:00.000Z",
+          "wordCount": 958,
+          "title": "The coming ubiquity",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=44809",
           "author": "Seth Godin",
@@ -6177,26 +6097,6 @@
           "wordCount": 1161,
           "title": "Arguing for inaction",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43643",
-          "author": "Seth Godin",
-          "description": "No one sees reality. It’s worth repeating: No one accurately sees the world as it is. A person with hearing loss doesn’t experience the world the same way a synesthete does. A rock climber doesn’t see a steep slope the same way an elderly person does. And an optimist and a pessimist rarely experience opportunities […]",
-          "link": "https://seths.blog/2022/12/the-world-as-it-is/",
-          "publishedOn": "2022-12-31T09:21:00.000Z",
-          "wordCount": 1222,
-          "title": "The world as it is",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44501",
-          "author": "Seth Godin",
-          "description": "86,000 people have taken my Udemy courses over the last few years, and the first week of January is always a good time to lean in and learn. These are self-paced, video lectures. Udemy is offering the Modern Marketing course at 25% off for the next few weeks. The course for freelancers is my most […]",
-          "link": "https://seths.blog/2022/12/learning-in-the-new-year/",
-          "publishedOn": "2022-12-30T19:13:00.000Z",
-          "wordCount": 1172,
-          "title": "Learning in the new year",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
         }
       ]
     },
@@ -7604,36 +7504,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/892f360a-dc33-44c0-aba8-478b1edc7357/usability-2023.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/12/desktop-wallpaper-calendars-january-2023/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Let’s start into the new year with a little inspiration boost: wallpapers created with love by the community for the community. Happy 2023!",
-          "link": "https://smashingmagazine.com/2022/12/desktop-wallpaper-calendars-january-2023/",
-          "publishedOn": "2022-12-31T09:00:00.000Z",
-          "wordCount": 4561,
-          "title": "Opening The Doors To 2023 (January Wallpapers Edition)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ea4019d5-9870-41a3-9646-a68895c59a3d/jan-23-bird-bird-bird-bird-preview-opt.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ea4019d5-9870-41a3-9646-a68895c59a3d/jan-23-bird-bird-bird-bird-preview-opt.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/12/fluid-typography-predict-problem-users-zoom-in/",
-          "author": "hello@smashingmagazine.com (Ruslan Yevych)",
-          "description": "In this article, Ruslan Yevych will show you an easy way how to predict the appearance of a problem known as WCAG Failure Under 1.4.4 Resize Text (AA) while zooming the page. You will have a clear understanding of the possible risks of using responsive typography at the stage of development.",
-          "link": "https://smashingmagazine.com/2022/12/fluid-typography-predict-problem-users-zoom-in/",
-          "publishedOn": "2022-12-30T15:00:00.000Z",
-          "wordCount": 4670,
-          "title": "Fluid Typography: Predicting A Problem With Your User’s Zoom-In",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e896f9f1-7437-48c5-9481-483ae087a622/fluid-typography-predict-problem-users-zoom-in.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e896f9f1-7437-48c5-9481-483ae087a622/fluid-typography-predict-problem-users-zoom-in.jpg"
         }
       ]
     },
