@@ -221,7 +221,28 @@
       "title": "WebPageTest Blog",
       "feedUrl": "https://blog.webpagetest.org/feed.xml",
       "siteUrl": "https://blog.webpagetest.org/feed.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.webpagetest.org/posts/edit-response-html/",
+          "author": null,
+          "description": "We're happy to announce the addition of a new custom experiment in WebPageTest Pro! The new \"Edit Response HTML\" experiment is one of our most powerful yet, as it allows you to freely edit the initial HTML of a website and compare the performance of that edited version to the live website.\nWhat's it for?\nThe use cases for this experiment are infinite...\nperhaps you'd like to test the performance impact of reordering some HTML elements in the head of a website to match the recommendations in Harry Roberts' excellent Get Your Head Straight guide...\nor maybe you'd like to A/B test the addition of new section of your homepage...\nor you're curious see how much pageweight is saved by swapping out several images with verbose picture element markup.\nEach of these situations would have been difficu…",
+          "link": "https://blog.webpagetest.org/posts/edit-response-html/",
+          "publishedOn": "2023-01-30T01:38:29.000Z",
+          "wordCount": 848,
+          "title": "New WebPageTest Experiment: Edit Response HTML!",
+          "imageUrl": "https://blog.webpagetest.org/cloudinary/webpagetest/image/upload/f_auto,q_auto,c_fill,g_xy_center,h_630,w_1200,x_0/edit-html-feature_s5yqkh.jpg"
+        },
+        {
+          "id": "https://blog.webpagetest.org/posts/webpagetests-guiding-principles/",
+          "author": null,
+          "description": "I’ve been using WebPageTest for somewhere around 11-12 years now. I don’t want to date anyone else, but the reality is many of the folks working on it since it found a home at Catchpoint were avid WebPageTest users long before joining to work on it full-time.\nIt’s safe to say it’s important to us that we do right by it and we have countless ideas for how to improve it and make it even more powerful.\nBut with so many decisions to be made, it’s important that we provide some sort of framework around how we think about the tool. All tools have opinions, whether or not they realize it. By making them explicit, you ensure that everyone involved has a clear picture of what those opinions are. Most importantly, you also provide everyone with a framework for making decisions about the product so t…",
+          "link": "https://blog.webpagetest.org/posts/webpagetests-guiding-principles/",
+          "publishedOn": "2023-01-19T18:15:13.000Z",
+          "wordCount": 1286,
+          "title": "WebPageTest's Guiding Principles",
+          "imageUrl": "https://blog.webpagetest.org/cloudinary/webpagetest/image/upload/f_auto,q_auto,c_fill,g_xy_center,h_630,w_1200,x_0/guiding-principles_in0vqu.png"
+        }
+      ]
     },
     {
       "title": "Bocoup",
@@ -425,6 +446,36 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com/",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=11584",
+          "author": "Adam Marsden",
+          "description": "CSSTool",
+          "link": "https://dailydevlinks.com/clamp-calculator/",
+          "publishedOn": "2023-01-30T12:30:00.000Z",
+          "wordCount": 2854,
+          "title": "clamp() Calculator",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=11587",
+          "author": "Adam Marsden",
+          "description": "DesignDevelopment",
+          "link": "https://dailydevlinks.com/designing-for-the-developers/",
+          "publishedOn": "2023-01-30T12:30:00.000Z",
+          "wordCount": 2864,
+          "title": "Designing for the Developers",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=11590",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://dailydevlinks.com/prompt-driven-design/",
+          "publishedOn": "2023-01-30T12:30:00.000Z",
+          "wordCount": 2854,
+          "title": "Prompt-Driven Design",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
+        },
         {
           "id": "https://dailydevlinks.com/?p=11578",
           "author": "Adam Marsden",
@@ -1099,6 +1150,16 @@
       "siteUrl": "https://daverupert.com",
       "articles": [
         {
+          "id": "https://daverupert.com/2023/01/lessons-from-my-gunpla-tools/",
+          "author": null,
+          "description": "Last year I got into Gunpla, a hobby where you build little plastic model anime robots. What I like most about the hobby is that the models are “press-fit”, meaning you can build the entire model by pressing the parts together with your fingers. No gluing, no painting, just fingers. You can follow the directions and have a little plastic robot model in one sitting. That low-barrier of entry is a key part of what makes Gunpla fun.\nAlthough tools are not required, a handful of tools improve the experience and output. As I’ve been progressing at Gunpla, my modest toolset has evolved. This post is a half “how it started / how it’s going” post about my Gunpla tools and half a reflection about tools in general. What are tools for? Why do we choose them? Are the more expensive tools worth it? Let…",
+          "link": "https://daverupert.com/2023/01/lessons-from-my-gunpla-tools/",
+          "publishedOn": "2023-01-30T15:54:00.000Z",
+          "wordCount": 1405,
+          "title": "Lessons from my Gunpla Tools",
+          "imageUrl": "https://cdn.daverupert.com/opengraph/godhand.png"
+        },
+        {
           "id": "https://daverupert.com/2023/01/yoinking-slack-transcripts/",
           "author": null,
           "description": "We are creating some How-To Videos for Luro. Exciting to be at that point in product development, but it would be nice if our videos had captions from day one to set a precedent. We could pay to have them all transcribed, or pay for some automated caption service, or even upload them all to YouTube and get transcriptions once those finish processing… but ughck, those options are extra work and not “lean” in spirit.\nThat’s when we noticed Slack started adding transcriptions for any video we upload. We had transcriptions! In the spirit of patching the Web, I wrote a one-liner console script to yoink those VTT transcriptions from Slack for Web with a little URL hacking.\nFind the uploaded video in Slack, click “View Transcript” in the caption below the video, then click the “Expand” button to see the video and the transcript side-by-side. Then put this in the console:\n\n$('video').poster.split('/').slice(0,-1).join('/') + '/file.vtt'\n\n\n⚠️ Warning: Auto-captions —what the deaf community lovingly refer to as “auto-craptions”— have limitations. For example, it transcribes our “Luro” as “Laura” and is entirely wrong and non-sensical at times. I point this out to show that you’ll need a human in the mix to proofread and fix captions. Be extra alert when dealing with technical content.\nAnyways, hope this is helpful.",
@@ -1197,16 +1258,6 @@
           "wordCount": 1489,
           "title": "Vibe Check №24",
           "imageUrl": null
-        },
-        {
-          "id": "https://daverupert.com/2022/12/twenty-twenty-two/",
-          "author": null,
-          "description": "Another year has come and gone. I can’t believe it. I think I’ll look back on 2022 as a year of milestones. It’s been a year of new jobs, new challenges, new products, and new hobbies. This is my second year piecing my year together from my monthly vibechecks. I think I’ve boiled those posts down to some major themes from the past year.\nMy new job at Luro\n\nThe biggest change this past year is my employment, I’m working full-time on Luro. What began as a side project app has grown into it’s own little stealth startup. And when I say startup, I mean startup. Over the course of the last year, we took a bit of pre-seed investment, made our first hires, re-architected the app, and onboarded our first round of private beta users.\nThere have been ups and downs starting a SaaS business in the head…",
-          "link": "https://daverupert.com/2022/12/twenty-twenty-two/",
-          "publishedOn": "2022-12-31T22:01:00.000Z",
-          "wordCount": 2056,
-          "title": "Twenty Twenty-Two",
-          "imageUrl": null
         }
       ]
     },
@@ -1221,6 +1272,16 @@
       "feedUrl": "https://davidwalsh.name/feed/atom",
       "siteUrl": "https://davidwalsh.name",
       "articles": [
+        {
+          "id": "https://davidwalsh.name/diff-two-images",
+          "author": null,
+          "description": "<p>When I was a child, I loved looking for Waldo in the &#8220;Where&#8217;s Waldo?&#8221; book series. These days I&#8217;m a sucker for TMZ&#8217;s &#8220;What&#8217;s the Big Frigin Difference&#8221; images, where TMZ slightly changes an image and you have to spot the differences between the two. That got me to thinking &#8212; how easily could I [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://davidwalsh.name/diff-two-images\">How to Create a Diff of Two Images</a> appeared first on <a rel=\"nofollow\" href=\"https://davidwalsh.name\">David Walsh Blog</a>.</p>\n<p><a href=\"https://tkjs.us/dwb\"><img style=\"margin:0 auto\" alt=\"\" src=\"https://davidwalsh.name/demo/tjs_block-1.svg\"></a></p>",
+          "link": "https://davidwalsh.name/diff-two-images",
+          "publishedOn": "2023-01-30T11:32:51.000Z",
+          "wordCount": 1782,
+          "title": "How to Create a Diff of Two Images",
+          "imageUrl": "https://davidwalsh.name/demo/2023/01/left-508x1024.png"
+        },
         {
           "id": "https://davidwalsh.name/5-web-design-trends-for-2023-that-you-should-pay-attention-to",
           "author": null,
@@ -1278,6 +1339,16 @@
       "feedUrl": "https://developer.chrome.com/feeds/blog.xml",
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
+        {
+          "id": "https://developer.chrome.com/en/blog/css-color-mix/",
+          "author": null,
+          "description": "The CSS color-mix()\nfunction is shipping in Chrome 111. This post explains how you can use this\nfunction to mix colors in your stylesheets.\nBefore color-mix(), to darken, lighten, or desaturate a color, developers used\nCSS preprocessors or\ncalc() on color\nchannels.\n.color-mixing-with-sass {\n  /* Sass: equally mix red with white */\n  --red-white-mix: color.mix(red, white);\n}\nSass has done great\nwork staying ahead of the color CSS specification. There has not, however, been\na real way to mix colors in CSS. To get close you need to do math of partial\ncolor values. Here's a reduced example of how CSS may simulate mixing today:\n.color-mixing-with-vanilla-css-before {\n  --lightness: 50%;\n  --red: hsl(0 50% var(--lightness));\n  /* add \"white\" to red\n     by adding 25% to the lightness channel\n  *…",
+          "link": "https://developer.chrome.com/en/blog/css-color-mix/",
+          "publishedOn": "2023-01-30T00:00:00.000Z",
+          "wordCount": 2237,
+          "title": "CSS color-mix()",
+          "imageUrl": "https://wd.imgix.net/image/vS06HQ1YTsbMKSFTIPl2iogUQP73/mvVxfLoskymgjVwKVNCV.jpg?auto=format&w=1521"
+        },
         {
           "id": "https://developer.chrome.com/en/blog/longer-esw-lifetimes/",
           "author": null,
@@ -2311,6 +2382,76 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=34587009",
+          "author": "doener",
+          "description": "Article URL: https://endpts.com/exclusive-profluent-debuts-to-design-proteins-with-machine-learning-in-bid-to-move-past-ai-sprinkled-on-top/\nComments URL: https://news.ycombinator.com/item?id=34587009\nPoints: 1\n# Comments: 0",
+          "link": "https://endpts.com/exclusive-profluent-debuts-to-design-proteins-with-machine-learning-in-bid-to-move-past-ai-sprinkled-on-top/",
+          "publishedOn": "2023-01-30T21:57:48.000Z",
+          "wordCount": 3027,
+          "title": "Profluent debuts to design proteins with machine learning",
+          "imageUrl": "https://endpts.com/wp-content/uploads/2023/01/Ali-Madani-Profluent-Bio-social.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34584605",
+          "author": "CPLX",
+          "description": "Subject says it all. Was this the final day for everyone? I just refreshed and the new horrible design is now the default and it seems like it's not possible to change it.\nDoes anyone know if:\n1) There's any possible way to get back the old design\nand/or\n2) there's a great browser extension that lets you get back or otherwise has a more uncluttered look that uses the space better\nComments URL: https://news.ycombinator.com/item?id=34584605\nPoints: 2\n# Comments: 3",
+          "link": "https://news.ycombinator.com/item?id=34584605",
+          "publishedOn": "2023-01-30T18:53:13.000Z",
+          "wordCount": 388,
+          "title": "Ask HN: Did everyone get forced to the new Gmail design today?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34584089",
+          "author": "DitheringIdiot",
+          "description": "Article URL: https://getoutofmyhead.dev/apple-touch-icons/\nComments URL: https://news.ycombinator.com/item?id=34584089\nPoints: 2\n# Comments: 0",
+          "link": "https://getoutofmyhead.dev/apple-touch-icons/",
+          "publishedOn": "2023-01-30T18:22:30.000Z",
+          "wordCount": 2342,
+          "title": "Zero byte Apple-touch-icon markup",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34583859",
+          "author": "sss111",
+          "description": "going to graduate soon and was planning to make my own personal website, looking for some inspiration\nComments URL: https://news.ycombinator.com/item?id=34583859\nPoints: 1\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=34583859",
+          "publishedOn": "2023-01-30T18:07:50.000Z",
+          "wordCount": 121,
+          "title": "Ask HN: Show us your (favorite) personal website design?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34583172",
+          "author": "shinkim0914",
+          "description": "Article URL: https://www.designdocs.dev/\nComments URL: https://news.ycombinator.com/item?id=34583172\nPoints: 2\n# Comments: 0",
+          "link": "https://www.designdocs.dev/",
+          "publishedOn": "2023-01-30T17:27:37.000Z",
+          "wordCount": 1719,
+          "title": "DesignDocs.dev: Curated library of design docs",
+          "imageUrl": "https://assets.website-files.com/63983d9361aa3ea8c744c187/63a1891650ac19454fa62965_DesignDocsDev.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34580442",
+          "author": "anthk",
+          "description": "Article URL: http://unicon.org/\nComments URL: https://news.ycombinator.com/item?id=34580442\nPoints: 2\n# Comments: 1",
+          "link": "http://unicon.org/",
+          "publishedOn": "2023-01-30T15:02:39.000Z",
+          "wordCount": 215,
+          "title": "Unicon, an Extended Dialect of Icon",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34575329",
+          "author": "Garbage",
+          "description": "Article URL: https://github.com/salesforce/progen\nComments URL: https://news.ycombinator.com/item?id=34575329\nPoints: 4\n# Comments: 0",
+          "link": "https://github.com/salesforce/progen",
+          "publishedOn": "2023-01-30T02:55:37.000Z",
+          "wordCount": 711,
+          "title": "Salesforce/progen: projects and models for protein engineering and design",
+          "imageUrl": "https://opengraph.githubassets.com/7a2f06e4814f51c6357aa4b8068183da9502ebeda86051b7d541d7f22b3d4803/salesforce/progen"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=34571245",
           "author": "cambel",
@@ -4190,26 +4331,6 @@
           "wordCount": 2201,
           "title": "Samsung taps a former Mercedes-Benz designer to lead its mobile design team",
           "imageUrl": "https://s.yimg.com/os/creatr-uploaded-images/2022-02/8faae640-8f8f-11ec-a5dd-5a09a0825945"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34202157",
-          "author": "Austin_Conlon",
-          "description": "Article URL: https://developer.apple.com/videos/play/wwdc2022/10059/\nComments URL: https://news.ycombinator.com/item?id=34202157\nPoints: 4\n# Comments: 0",
-          "link": "https://developer.apple.com/videos/play/wwdc2022/10059/",
-          "publishedOn": "2023-01-01T00:14:31.000Z",
-          "wordCount": null,
-          "title": "The craft of SwiftUI API design: Progressive disclosure [video]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34200904",
-          "author": "enduku",
-          "description": "Article URL: https://en.wikipedia.org/wiki/Gio_Wiederhold\nComments URL: https://news.ycombinator.com/item?id=34200904\nPoints: 2\n# Comments: 0",
-          "link": "https://en.wikipedia.org/wiki/Gio_Wiederhold",
-          "publishedOn": "2022-12-31T21:23:15.000Z",
-          "wordCount": 1918,
-          "title": "Gio Wiederhold the database design pioneer passes away",
-          "imageUrl": null
         }
       ]
     },
@@ -4887,16 +5008,6 @@
           "wordCount": 1091,
           "title": "Writing a habit tracker, part 1: Setting up some tools",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34198759",
-          "author": "jez",
-          "description": "Article URL: https://blog.jez.io/rss-after-one-week/\nComments URL: https://news.ycombinator.com/item?id=34198759\nPoints: 29\n# Comments: 56",
-          "link": "https://blog.jez.io/rss-after-one-week/",
-          "publishedOn": "2022-12-31T17:46:41.000Z",
-          "wordCount": 1507,
-          "title": "Gripes with RSS after one week",
-          "imageUrl": null
         }
       ]
     },
@@ -4905,6 +5016,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=34583017",
+          "author": "feross",
+          "description": "Article URL: https://developer.chrome.com/blog/css-color-mix/\nComments URL: https://news.ycombinator.com/item?id=34583017\nPoints: 2\n# Comments: 0",
+          "link": "https://developer.chrome.com/blog/css-color-mix/",
+          "publishedOn": "2023-01-30T17:19:08.000Z",
+          "wordCount": 2237,
+          "title": "CSS Color-Mix()",
+          "imageUrl": "https://wd.imgix.net/image/vS06HQ1YTsbMKSFTIPl2iogUQP73/mvVxfLoskymgjVwKVNCV.jpg?auto=format&w=1521"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=34557197",
           "author": "sipex",
@@ -5644,26 +5765,6 @@
           "wordCount": 10280,
           "title": "You can't parse [X]HTML with regex",
           "imageUrl": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34199587",
-          "author": "b1ue64",
-          "description": "Article URL: https://muffinman.io/blog/css-blocky-people-making-waves/\nComments URL: https://news.ycombinator.com/item?id=34199587\nPoints: 2\n# Comments: 0",
-          "link": "https://muffinman.io/blog/css-blocky-people-making-waves/",
-          "publishedOn": "2022-12-31T19:04:43.000Z",
-          "wordCount": 1308,
-          "title": "CSS blocky people making stadium waves",
-          "imageUrl": "https://muffinman.io/img/blocky-people.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34196373",
-          "author": "hdkl",
-          "description": "let's say I am using Tailwind CSS (licensed under MIT) in my website by using the npm package \"tailwindcss\" which on build creates a css file. According to MIT - \"The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\".\nThe css file that is created has a comment on top \"/* ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com */\"\nIs that sufficient? or do I need to include the whole MIT text or do I need to make a /license page and write about it there \"tailwindcss is used in this website, licensed under MIT - full MIT license here\"? if not, how do I do it correctly?\nI saw some sites like which seem to use tailwindcss but in the devtool sources only have the top line in the css \"tailwindcss v3.0.23 | MIT License | https://tailwindcss.com\" is that a violation of the MIT license?\nComments URL: https://news.ycombinator.com/item?id=34196373\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=34196373",
-          "publishedOn": "2022-12-31T13:47:51.000Z",
-          "wordCount": 219,
-          "title": "Tailwind CSS in a Website",
-          "imageUrl": null
         }
       ]
     },
@@ -5742,6 +5843,16 @@
       "siteUrl": "https://remysharp.com",
       "articles": [
         {
+          "id": "on-vercel-if-some-of-my-sites-are-down",
+          "author": null,
+          "description": "It's because Vercel has blocked my account under \"fair usage\".\nI had all of 12 hours on a Sunday to prevent people from using the source of the spike - but I suspect they would have blocked my account either way because normal traffic would have tipped me over their limits.\n\nThe trouble is that they've blocked my personal account and personal accounts can't be upgraded to a paid account, you have to create a Team and then put your paid instances into the team, and of course that process is nowhere near as automated as their blocking process.\nTo be clear, a blocking process on a personal account results in landing on any of my projects returning a 422 - payment required and this:\n\nThe whole thing kind of blew up my Monday morning - particularly as I should have been more focused on getting …",
+          "link": "https://remysharp.com/2023/01/30/on-vercel-if-some-of-my-sites-are-down",
+          "publishedOn": "2023-01-30T00:00:00.000Z",
+          "wordCount": 1163,
+          "title": "On Vercel: If some of my sites are down… [blog]",
+          "imageUrl": "https://remysharp.com/images/cards/og/9-3.jpg"
+        },
+        {
           "id": "hardware-failures",
           "author": null,
           "description": "As I enter the year 2023, I started to collect more and more mini hardware based projects that I wanted to try out.\nSo far, it's been 100% failure, so I figured I'd make a note here - in the hope I wouldn't repeat the failings!",
@@ -5770,26 +5881,6 @@
           "wordCount": 991,
           "title": "How to quickly spot a fake Game Boy cartridge [blog]",
           "imageUrl": "https://remysharp.com/images/cards/og/9-4.jpg"
-        },
-        {
-          "id": "my-2022",
-          "author": null,
-          "description": "Finally feeling like society around me has settled into it's stride, even many normal things have happened, but as I write my last blog post of the year (as I've done for over a decade), I'm not entirely happy with how I feel like my blog has been neglected.\nWork\nSince the pandemic hit us back in early 2020, I've been working (mostly) flat out because we really didn't know what would happen to the economy.\nMy typical work contract would be, at most, a few months, but instead I've been working very long term with clients. This is really good for our security but not something I'm used to and I can see the impact it's had on my creativity around side projects that I'd normally work towards.\nMore obvious (to me) is my lack of blogging and really the motivation to write has gone utterly kaput.…",
-          "link": "https://remysharp.com/2022/12/31/my-2022",
-          "publishedOn": "2022-12-31T14:00:00.000Z",
-          "wordCount": 1546,
-          "title": "My 2022 [blog]",
-          "imageUrl": "https://remysharp.com/images/cards/og/9-5.jpg"
-        },
-        {
-          "id": "2022-12-31-57e337af",
-          "author": null,
-          "description": "I'm not even that old and I've been hit with this stupid UX from iOS (thankfully it was a one off for me as I'm primarily an Android user)\nSource: gist.github.com",
-          "link": "https://remysharp.com/links/2022-12-31-57e337af",
-          "publishedOn": "2022-12-31T13:33:19.000Z",
-          "wordCount": 524,
-          "title": "Safari's date-picker is the cause of 1/3 of our customer support issues [link]",
-          "imageUrl": null
         }
       ]
     },
@@ -5798,6 +5889,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=44828",
+          "author": "Seth Godin",
+          "description": "It’s tempting to embrace the meme that the best way for humans to solve the big problems in front of us is to increase the population, perhaps dramatically. The thinking goes that people are the ones who can solve problems, and more people give us more problem-solvers. This doesn’t hold up to a reductio ad […]",
+          "link": "https://seths.blog/2023/01/population-and-big-innovations/",
+          "publishedOn": "2023-01-30T09:40:00.000Z",
+          "wordCount": 1043,
+          "title": "Population and big innovations",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=44826",
           "author": "Seth Godin",
@@ -6087,16 +6188,6 @@
           "wordCount": 1092,
           "title": "Virtually no one",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43422",
-          "author": "Seth Godin",
-          "description": "…is surprisingly easy. “We’ve done all this work and things haven’t gotten better,” so, apparently, we should stop trying and go back to what we were doing. “We’ve done all this work and things are getting better,” so that means that there’s no need to keep trying and we can go back to what we […]",
-          "link": "https://seths.blog/2023/01/arguing-for-inaction/",
-          "publishedOn": "2023-01-01T10:00:00.000Z",
-          "wordCount": 1161,
-          "title": "Arguing for inaction",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
         }
       ]
     },
@@ -6105,6 +6196,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "3uujtCwPP9ANMvBbq",
+          "author": "@ilikescience",
+          "description": "How interfaces, incentives, emergence, and second-order thinking make platforms a unique design opportunity",
+          "link": "https://matthewstrom.com/writing/platform-design/",
+          "publishedOn": "2023-01-30T02:51:08.000Z",
+          "wordCount": 2062,
+          "title": "What it means to design a platform",
+          "imageUrl": "https://matthewstrom.com/images/og/I1D5KwA-mf-1200.jpeg"
+        },
+        {
+          "id": "KRkZNwXJiYmdjnXcL",
+          "author": "@MaximeHeckel",
+          "description": "A guide on how to reproduce a chromatic dispersion effect for your React Three Fiber and shader projects.",
+          "link": "https://blog.maximeheckel.com/posts/refraction-dispersion-and-other-shader-light-effects/",
+          "publishedOn": "2023-01-30T02:49:35.000Z",
+          "wordCount": 14195,
+          "title": "Refraction, dispersion, and other shader light effects",
+          "imageUrl": "https://blog.maximeheckel.com/static/og/d00365c879410f48d506876d987af4ca.png?v1"
+        },
+        {
+          "id": "hvGT8Asjf5S7n5F8R",
+          "author": "@geoffreylitt",
+          "description": "Reflections on the benefits of tweaking an existing app, instead of starting from scratch.",
+          "link": "https://www.geoffreylitt.com/2023/01/08/for-your-next-side-project-make-a-browser-extension.html",
+          "publishedOn": "2023-01-30T02:48:57.000Z",
+          "wordCount": 3117,
+          "title": "For your next side project, make a browser extension",
+          "imageUrl": "https://geoffreylitt.com/images/article_images/gears.jpg"
+        },
+        {
+          "id": "67Rd3fae82xdo6Rsd",
+          "author": "@FontsInUse",
+          "description": "Putting a name to the typeface that defined the visual identity of the science fiction series and its author, Frank Herbert",
+          "link": "https://fontsinuse.com/uses/43515/the-mystery-of-the-dune-font",
+          "publishedOn": "2023-01-30T02:28:23.000Z",
+          "wordCount": 3637,
+          "title": "The Mystery of the Dune Font",
+          "imageUrl": "https://cards.fontsinuse.com/cardshot?s=og&t=use&url=https://fontsinuse.com/uses/43515/the-mystery-of-the-dune-font&k=7442995d4415438a26a3eb8781483f0b"
+        },
+        {
+          "id": "vm4uYPtpbQmPS6tXF",
+          "author": "@MaxBittker",
+          "description": "This a tool for making \"9-patch\" borders. Draw on the grid above to design your pattern.",
+          "link": "https://maxbittker.github.io/broider/",
+          "publishedOn": "2023-01-30T02:27:52.000Z",
+          "wordCount": 39,
+          "title": "Broider",
+          "imageUrl": null
+        },
         {
           "id": "yYx9wadLWKQxK2RxZ",
           "author": "@willsoward",
@@ -7220,6 +7361,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2023/01/svg-customization-animation-practical-guide/",
+          "author": "hello@smashingmagazine.com (Adrian Bece)",
+          "description": "Developers often feel discouraged from editing SVG markup and experimenting with SVG animations, thinking it’s a significant time investment or they need to use a complex animation library to do so. In this article, Adrian showcases his favorite tricks, which make the process streamlined and fun.",
+          "link": "https://smashingmagazine.com/2023/01/svg-customization-animation-practical-guide/",
+          "publishedOn": "2023-01-30T14:00:00.000Z",
+          "wordCount": 8877,
+          "title": "Easy SVG Customization And Animation: A Practical Guide",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/svg-customization-animation-practical-guide/meta-sharing-image-svg-customization-animation-practical-guide.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/svg-customization-animation-practical-guide/meta-sharing-image-svg-customization-animation-practical-guide.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2023/01/build-strong-customer-relationships-user-research/",
           "author": "hello@smashingmagazine.com (Renaissance Rachel)",
