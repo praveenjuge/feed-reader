@@ -2,10 +2,367 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2023-02-10T00:05:06.691Z</updated>
+    <updated>2023-02-11T00:05:12.705Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[I started a newsletter about nice design details]]></title>
+        <id>https://news.ycombinator.com/item?id=34747395</id>
+        <link href="https://niceux.design/"/>
+        <updated>2023-02-10T23:20:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://niceux.design
+Comments URL: https://news.ycombinator.com/item?id=34747395
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>shaundon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fvim – Cross platform Neovim front-end UI, built with F# + Avalonia]]></title>
+        <id>https://news.ycombinator.com/item?id=34747307</id>
+        <link href="https://github.com/yatli/fvim"/>
+        <updated>2023-02-10T23:12:35.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/yatli/fvim
+Comments URL: https://news.ycombinator.com/item?id=34747307
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>capableweb</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Feedgrid.io- RSS reader with a grid UI for serious infotainment junkies]]></title>
+        <id>https://news.ycombinator.com/item?id=34746972</id>
+        <link href="https://feedgrid.io/"/>
+        <updated>2023-02-10T22:38:32.000Z</updated>
+        <summary type="html"><![CDATA[What:
+Feedgrid is a news aggregator for RSS and Atom feeds.
+It lets you organize your feeds into related topics and view feed items in 2-dimensional grids, rather than a single infinite scroll column.
+The goal is to have a highly configurable tool to organize diverse feeds in a visual way, and then easily check for new content with a bird's eye view.
+Why:
+- there’s a lot of stuff on the web, but you want it in 1 place, organized by categories that make sense to you
+- RSS is nice in principle but most readers feel like an overloaded email inbox (i.e. kinda stressful—you already have other inboxes to deal with..)
+- you like breadth-first search rather than depth-first search when you’re on the john and looking for some infotainment, but TikTok is frenetic and unsettling to you because you still like reading
+How:
+- we’re running a Django app with some minimal js in the frontend, and serve grid pages as a modest-sized html blob with enough content for one sitting, and offer old-school pagination to get more content
+- the backend web scraping is entirely separate from the server, and uses scrapy. Scrapers are deployed on VMs, launching scrapy crawler instances dynamically based on feed SLA data in the db; there is no “scheduler”, but rather long-running parent coordinators launching child subprocesses as needed, so SLAs (and other attributes) can be modified by site admins without touching spiders
+Comments URL: https://news.ycombinator.com/item?id=34746972
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>polyglut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Feedgrid.io- RSS reader with a grid UI for serious infotainment junkies]]></title>
+        <id>https://news.ycombinator.com/item?id=34746972</id>
+        <link href="https://feedgrid.io/"/>
+        <updated>2023-02-10T22:38:32.000Z</updated>
+        <summary type="html"><![CDATA[What:
+Feedgrid is a news aggregator for RSS and Atom feeds.
+It lets you organize your feeds into related topics and view feed items in 2-dimensional grids, rather than a single infinite scroll column.
+The goal is to have a highly configurable tool to organize diverse feeds in a visual way, and then easily check for new content with a bird's eye view.
+Why:
+- there’s a lot of stuff on the web, but you want it in 1 place, organized by categories that make sense to you
+- RSS is nice in principle but most readers feel like an overloaded email inbox (i.e. kinda stressful—you already have other inboxes to deal with..)
+- you like breadth-first search rather than depth-first search when you’re on the john and looking for some infotainment, but TikTok is frenetic and unsettling to you because you still like reading
+How:
+- we’re running a Django app with some minimal js in the frontend, and serve grid pages as a modest-sized html blob with enough content for one sitting, and offer old-school pagination to get more content
+- the backend web scraping is entirely separate from the server, and uses scrapy. Scrapers are deployed on VMs, launching scrapy crawler instances dynamically based on feed SLA data in the db; there is no “scheduler”, but rather long-running parent coordinators launching child subprocesses as needed, so SLAs (and other attributes) can be modified by site admins without touching spiders
+Comments URL: https://news.ycombinator.com/item?id=34746972
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>polyglut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: How are you using Streamdeck (and similar) for productivity when WFH?]]></title>
+        <id>https://news.ycombinator.com/item?id=34746607</id>
+        <link href="https://news.ycombinator.com/item?id=34746607"/>
+        <updated>2023-02-10T22:06:49.000Z</updated>
+        <summary type="html"><![CDATA[I run remote workshops and am looking to lift my game. I've recently updated my lighting/camera setup and now looking at how others may be using Elgato Streamdeck's and other similar tools for productivity gains when working remotely.
+Would love to hear your experience and how you're using it in a work context. Most seem more oriented towards streaming (Twitch) and less about use for work. Or if you've seen any good articles/videos that'd be welcome too!
+Comments URL: https://news.ycombinator.com/item?id=34746607
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>wisie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[System Design Interview: A Step-by-Step Guide]]></title>
+        <id>https://news.ycombinator.com/item?id=34744887</id>
+        <link href="https://www.youtube.com/watch?v=i7twT3x5yv8"/>
+        <updated>2023-02-10T19:56:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.youtube.com/watch?v=i7twT3x5yv8
+Comments URL: https://news.ycombinator.com/item?id=34744887
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>O__________O</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Find Substack RSS Feeds]]></title>
+        <id>https://news.ycombinator.com/item?id=34744652</id>
+        <link href="https://thenewleafjournal.com/how-to-find-substack-rss-feeds-and-other-notes/"/>
+        <updated>2023-02-10T19:40:15.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://thenewleafjournal.com/how-to-find-substack-rss-feeds-and-other-notes/
+Comments URL: https://news.ycombinator.com/item?id=34744652
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>jasondrowley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Does increasing farm productivity relieve pressure on remaining natural areas?]]></title>
+        <id>https://news.ycombinator.com/item?id=34744526</id>
+        <link href="https://phys.org/news/2023-02-farm-productivity-relieve-pressure-natural.html"/>
+        <updated>2023-02-10T19:30:52.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://phys.org/news/2023-02-farm-productivity-relieve-pressure-natural.html
+Comments URL: https://news.ycombinator.com/item?id=34744526
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>rntn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: What companies are embracing “HTML over the wire”?]]></title>
+        <id>https://news.ycombinator.com/item?id=34744348</id>
+        <link href="https://news.ycombinator.com/item?id=34744348"/>
+        <updated>2023-02-10T19:18:50.000Z</updated>
+        <summary type="html"><![CDATA[I'm a web developer who has been in the market for a new job for a while now.  As someone who has never enjoyed working with frontend JS frameworks (yes, I sucked it up and learned them and have worked with them professionally) I'm wondering who all the companies are who have embraced the semi-recent "HTML over the wire" movement (Can you imagine... using hyper text transfer protocol for transferring hyper text?  Seems nuts, I know).  It's a massive slog shifting through endless React/Vue/etc-focused jobs out there.  Even if you use React in small areas where it pulls its weight but generally try and stick to simplicity of sending plain ol' HTML, I'd love to know who you are.  Even if you aren't hiring, it's nice knowing you're out there fighting the good fight :)
+Comments URL: https://news.ycombinator.com/item?id=34744348
+Points: 106
+# Comments: 139]]></summary>
+        <author>
+            <name>sodapopcan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mozilla plans ground-up UI redesign for Thunderbird email client this July]]></title>
+        <id>https://news.ycombinator.com/item?id=34741956</id>
+        <link href="https://arstechnica.com/gadgets/2023/02/mozilla-plans-ground-up-ui-redesign-for-thunderbird-email-client-this-july/"/>
+        <updated>2023-02-10T16:34:51.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://arstechnica.com/gadgets/2023/02/mozilla-plans-ground-up-ui-redesign-for-thunderbird-email-client-this-july/
+Comments URL: https://news.ycombinator.com/item?id=34741956
+Points: 3
+# Comments: 4]]></summary>
+        <author>
+            <name>mikece</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Mockup – A UI/UX Sketching App for iPad Got a Major Update]]></title>
+        <id>https://news.ycombinator.com/item?id=34741935</id>
+        <link href="https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407"/>
+        <updated>2023-02-10T16:33:45.000Z</updated>
+        <summary type="html"><![CDATA[Hey HN,
+I’d like to introduce, our app, Mockup - the ideal design tool for sketching and creating blueprints for apps or web designs.
+One of my end goals is to make the design process easy and intuitive and that's exactly what Mockup does with its 45+ templates, flexible canvas, Library to save your elements, and a range of other attributes. With features like the Lasso tool, text and image insertion, 4000 symbols from Apple's SF Symbols library, and a customizable grid, your design possibilities are endless.
+And, the best part? I've just released a brand new update, packed with features suggested by our users to make the design experience even better like arrange objects, copy & paste, and an enhanced toolbar. Not to mention, users can now publish their elements to the community and access elements created by others as well as create UI  for TV apps with the highly requested newly added TV template.
+I can't wait for you to try it out!
+Comments URL: https://news.ycombinator.com/item?id=34741935
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>hasankassem</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Different Ways to Get CSS Gradient Shadows]]></title>
+        <id>https://css-tricks.com/?p=376764</id>
+        <link href="https://css-tricks.com/different-ways-to-get-css-gradient-shadows/"/>
+        <updated>2023-02-10T15:13:42.000Z</updated>
+        <summary type="html"><![CDATA[It’s a question I hear asked quite often: Is it possible to create shadows from gradients instead of solid colors? There is no specific CSS property that does this (believe me, I’ve looked) and any blog post you find about …
+Different Ways to Get CSS Gradient Shadows originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Temani Afif</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I made an automatic, non AI design creator. Free, no signup]]></title>
+        <id>https://news.ycombinator.com/item?id=34738970</id>
+        <link href="https://www.artify.co/auto/tool"/>
+        <updated>2023-02-10T12:49:59.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.artify.co/auto/tool
+Comments URL: https://news.ycombinator.com/item?id=34738970
+Points: 5
+# Comments: 3]]></summary>
+        <author>
+            <name>jonifico</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design a chat system[Text style]]]></title>
+        <id>https://news.ycombinator.com/item?id=34738958</id>
+        <link href="https://nintyzeros.substack.com/p/interview-session-design-a-chat-system"/>
+        <updated>2023-02-10T12:48:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://nintyzeros.substack.com/p/interview-session-design-a-chat-system
+Comments URL: https://news.ycombinator.com/item?id=34738958
+Points: 10
+# Comments: 0]]></summary>
+        <author>
+            <name>willem19x</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Moving Backgrounds]]></title>
+        <id>https://dailydevlinks.com/?p=11676</id>
+        <link href="https://dailydevlinks.com/moving-backgrounds/"/>
+        <updated>2023-02-10T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[CSSJS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Native CSS masonry layout]]></title>
+        <id>https://dailydevlinks.com/?p=11670</id>
+        <link href="https://dailydevlinks.com/native-css-masonry-layout/"/>
+        <updated>2023-02-10T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advanced techniques for writing good interfaces]]></title>
+        <id>https://dailydevlinks.com/?p=11673</id>
+        <link href="https://dailydevlinks.com/advanced-techniques-for-writing-good-interfaces/"/>
+        <updated>2023-02-10T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[UI]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Discovering Primitive Objects In JavaScript (Part 1)]]></title>
+        <id>https://smashingmagazine.com/2023/02/discovering-primitive-objects-javascript-part1/</id>
+        <link href="https://smashingmagazine.com/2023/02/discovering-primitive-objects-javascript-part1/"/>
+        <updated>2023-02-10T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In the first part of the series, Kirill Myshkin covers some aspects of JavaScript that help bring objects closer to primitive values, which allow benefiting from common language features that aren’t usually associated with an object, like comparisons and arithmetic operators.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Kirill Myshkin)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: TopAi.tools an AI tools directory with 850 tools, RSS available]]></title>
+        <id>https://news.ycombinator.com/item?id=34738340</id>
+        <link href="https://topai.tools/"/>
+        <updated>2023-02-10T11:31:06.000Z</updated>
+        <summary type="html"><![CDATA[I have been collecting a lot of AI tools lately, put them in a web directory, categorized and updated daily. The idea to provide you with the means to get updates however you need (RSS, telegram, social media, etc) It's a work in progress. Looking to make this useful, let me know your ideas and comments ..
+Comments URL: https://news.ycombinator.com/item?id=34738340
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>linkology</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cheating at golf]]></title>
+        <id>https://seths.blog/?p=42780</id>
+        <link href="https://seths.blog/2023/02/cheating-at-golf/"/>
+        <updated>2023-02-10T10:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Someone who cheats at a friendly game of golf when nothing much is at stake–how can you possibly trust them with something important? And yet, organizations and individuals “cheat at golf” all the time. They put clever clauses in the fine print. Spam a media list. Conceal the long-term impact of short-term decisions. Steal your […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Assistant for Visually Editing HTML and CSS]]></title>
+        <id>https://news.ycombinator.com/item?id=34736423</id>
+        <link href="https://twitter.com/pinegrow/status/1623933104539987968"/>
+        <updated>2023-02-10T06:42:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/pinegrow/status/1623933104539987968
+Comments URL: https://news.ycombinator.com/item?id=34736423
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>mattront</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One UI 5.1 bloatware is not consuming 60 GB storage on new Samsung Galaxy S23]]></title>
+        <id>https://news.ycombinator.com/item?id=34735871</id>
+        <link href="https://www.notebookcheck.net/One-UI-5-1-bloatware-is-not-consuming-60-GB-storage-on-new-Samsung-Galaxy-S23-Galaxy-S23-Plus-or-Galaxy-S23-Ultra.692149.0.html"/>
+        <updated>2023-02-10T05:11:49.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.notebookcheck.net/One-UI-5-1-bloatware-is-not-consuming-60-GB-storage-on-new-Samsung-Galaxy-S23-Galaxy-S23-Plus-or-Galaxy-S23-Ultra.692149.0.html
+Comments URL: https://news.ycombinator.com/item?id=34735871
+Points: 24
+# Comments: 6]]></summary>
+        <author>
+            <name>sulkie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TypeTrials]]></title>
+        <id>w4qNCnDRuk4tN5bKT</id>
+        <link href="https://typetrials.com/"/>
+        <updated>2023-02-10T00:59:38.000Z</updated>
+        <summary type="html"><![CDATA[A tool for testing and exploring possibilities of variable (or static) fonts.]]></summary>
+        <author>
+            <name>@pangrampangram_</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design Psychology: 4 Principles That Empower Designers]]></title>
+        <id>2ABgcH55JY7kpEusw</id>
+        <link href="https://raw.studio/blog/design-psychology-4-principles-part-1/"/>
+        <updated>2023-02-10T00:57:58.000Z</updated>
+        <summary type="html"><![CDATA[You might not know it yet, but you beautiful designer, have an almighty power in your hands: the power of Design Psychology.]]></summary>
+        <author>
+            <name>@rawstudioco</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Market for Lemons]]></title>
+        <id>jzKp4bCLANSnjC7E8</id>
+        <link href="https://infrequently.org/2023/02/the-market-for-lemons/"/>
+        <updated>2023-02-10T00:55:36.000Z</updated>
+        <summary type="html"><![CDATA[New web services are being built to a self-defeatingly low UX and performance standard.]]></summary>
+        <author>
+            <name>@slightlylate</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three Principles of Ethical Research That UX Can Take From Academia]]></title>
+        <id>8dTb4htyoBGT2rCom</id>
+        <link href="https://indeed.design/article/three-basic-principles-of-ethical-research-that-ux-can-take-from-academia"/>
+        <updated>2023-02-10T00:49:47.000Z</updated>
+        <summary type="html"><![CDATA[Product users and research teams can both benefit from these techniques.]]></summary>
+        <author>
+            <name>@designindeed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advanced techniques for writing good interfaces]]></title>
+        <id>LpifSsbERA9HbiM29</id>
+        <link href="https://uxdesign.cc/advanced-techniques-for-writing-good-interfaces-c030ae60150"/>
+        <updated>2023-02-10T00:32:33.000Z</updated>
+        <summary type="html"><![CDATA[Feeling stuck? Here’s how to keep moving forward.]]></summary>
+        <author>
+            <name>@uxdesigncc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My CSS Wishlist]]></title>
+        <id>https://news.ycombinator.com/item?id=34733665</id>
+        <link href="https://ishadeed.com/article/css-wishlist-2023/"/>
+        <updated>2023-02-10T00:09:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ishadeed.com/article/css-wishlist-2023/
+Comments URL: https://news.ycombinator.com/item?id=34733665
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>soheilpro</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Drag'n Drop UI Builder for Python]]></title>
         <id>https://news.ycombinator.com/item?id=34732787</id>
@@ -8910,363 +9267,6 @@ Points: 2
         <link href="https://dailydevlinks.com/the-linear-effect/"/>
         <updated>2023-01-12T12:30:00.000Z</updated>
         <summary type="html"><![CDATA[Design]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Three more questions]]></title>
-        <id>https://seths.blog/?p=44603</id>
-        <link href="https://seths.blog/2023/01/three-more-questions/"/>
-        <updated>2023-01-12T10:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Pronouncements are more common than ever. It might be an insurgent announcing a way to change the government, a CEO with a bold new plan or an entrepreneur seeking funds. Or perhaps it’s a pundit or a critic, hard at work. Pronouncements are bold, definitive and dramatic, but they also seem to defy common sense. […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top Front-End Tools Of 2022]]></title>
-        <id>https://smashingmagazine.com/2023/01/top-frontend-tools-2022/</id>
-        <link href="https://smashingmagazine.com/2023/01/top-frontend-tools-2022/"/>
-        <updated>2023-01-12T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Who doesn’t love a good front-end tool? In this roundup, you’ll find a nice list of useful front-end tools that were popular last year but are still bound to help you speed up and enhance your development workflow. Let’s dive in!]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Louis Lazaris)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kristall – a browser without support for CSS/JS/WASM or graphical websites]]></title>
-        <id>https://news.ycombinator.com/item?id=34350436</id>
-        <link href="https://kristall.random-projects.net/"/>
-        <updated>2023-01-12T07:50:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://kristall.random-projects.net/
-Comments URL: https://news.ycombinator.com/item?id=34350436
-Points: 281
-# Comments: 175]]></summary>
-        <author>
-            <name>tsujp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is Adobe’s AI art feature as creepy as it sounds?]]></title>
-        <id>pcXDATBn2SudEdinr</id>
-        <link href="https://www.creativebloq.com/news/adobe-ai-setting"/>
-        <updated>2023-01-12T06:10:22.000Z</updated>
-        <summary type="html"><![CDATA[Recently, French comic artist Claire Wendling noticed Adobe’s privacy and personal data settings had a curious automatic opt-in.]]></summary>
-        <author>
-            <name>@creativebloq</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bring Back Blogs!]]></title>
-        <id>2wMBXrxdiqWLJJPyx</id>
-        <link href="https://bringback.blog/"/>
-        <updated>2023-01-12T06:07:02.000Z</updated>
-        <summary type="html"><![CDATA[In the twilight of Twitter, we’re running an experiment. Can we all bring back blogging, together?]]></summary>
-        <author>
-            <name>@ashsmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Linear effect]]></title>
-        <id>CNoNet9GnGeS6dMJg</id>
-        <link href="https://rectangle.substack.com/p/the-linear-effect"/>
-        <updated>2023-01-12T06:00:39.000Z</updated>
-        <summary type="html"><![CDATA[Is everything looking the same?]]></summary>
-        <author>
-            <name>@darylginn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Demystifying Figma Auto Layout]]></title>
-        <id>5FDwZbjdvvnvHAPBx</id>
-        <link href="https://uxdesign.cc/demystifying-figma-auto-layout-d7b5cd05a54f?sk=09e24fdc306fcaf3dbe76924a003579b"/>
-        <updated>2023-01-12T05:57:17.000Z</updated>
-        <summary type="html"><![CDATA[As a designer, you might see yourself as something of a mad scientist, carefully mixing all of the elements of your designs.]]></summary>
-        <author>
-            <name>@uxdesigncc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The State of JS 2022]]></title>
-        <id>jHvk7QdrHnB2bcHy7</id>
-        <link href="https://2022.stateofjs.com/"/>
-        <updated>2023-01-12T05:39:46.000Z</updated>
-        <summary type="html"><![CDATA[The 2022 edition of the annual survey about the latest trends in the JavaScript ecosystem.]]></summary>
-        <author>
-            <name>@SachaGreif</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Atari 2600 Hardware Design: Making Something Out of (Almost) Nothing]]></title>
-        <id>https://news.ycombinator.com/item?id=34349278</id>
-        <link href="https://www.bigmessowires.com/2023/01/11/atari-2600-hardware-design-making-something-out-of-almost-nothing/"/>
-        <updated>2023-01-12T04:38:49.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.bigmessowires.com/2023/01/11/atari-2600-hardware-design-making-something-out-of-almost-nothing/
-Comments URL: https://news.ycombinator.com/item?id=34349278
-Points: 5
-# Comments: 0]]></summary>
-        <author>
-            <name>zdw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What happens when you make meditation a real habit]]></title>
-        <id>https://news.ycombinator.com/item?id=34347011</id>
-        <link href="https://mashable.com/article/how-to-consistently-meditate"/>
-        <updated>2023-01-12T00:06:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://mashable.com/article/how-to-consistently-meditate
-Comments URL: https://news.ycombinator.com/item?id=34347011
-Points: 3
-# Comments: 2]]></summary>
-        <author>
-            <name>nequo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iframe credentialless: Easily embed iframes in COEP environments]]></title>
-        <id>https://developer.chrome.com/en/blog/iframe-credentialless/</id>
-        <link href="https://developer.chrome.com/en/blog/iframe-credentialless/"/>
-        <updated>2023-01-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Iframe credentialless is enabled by default from Chrome version 110. It solves the most common complaint developers working with Cross-Origin-Embedder-Policy (COEP) have: embedding third-party iframes that do not set COEP.
-It was previously available as an origin trial from version 106 to 108, and known as anonymous iframe.
-# Why we need COEP
-Some web APIs increase the risk of side-channel attacks such as Spectre. To mitigate that risk, browsers offer an opt-in-based isolated environment called cross-origin isolation, which requires deploying COEP. Cross-origin isolation allows websites to use privileged features including SharedArrayBuffer, performance.measureUserAgentSpecificMemory(), and high-precision timers with better resolution.
-To enable cross-origin isolation, websites must send t…]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cookie Expires and Max-Age attributes now have upper limit]]></title>
-        <id>https://developer.chrome.com/en/blog/cookie-max-age-expires/</id>
-        <link href="https://developer.chrome.com/en/blog/cookie-max-age-expires/"/>
-        <updated>2023-01-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As of Chrome release M104 (August
-2022) cookies can no longer set an
-expiration date more than 400 days in the future.
-This change does not impact session cookies—cookies that do not explicitly set
-an expiration date with Max-Age or Expires—as these are instead cleared when
-the browsing session ends.
-With this change, Chrome caps the expiration date to the maximum allowed value:
-400 days from the time the cookie was set. Cookies that request an expiration
-date further out than 400 days aren't rejected; their expiration date is set to
-400 days instead.
-# Example
-For example, consider a cookie set on Sunday, January 1, 2023:
-Cookie
-      Requested expiration
-      Days in future
-      Over 400 days?
-      Effective expiration
-    
- 
-Name=Value; Expires=Mon, 1 Jan 2024 00:00:00 GMT
-       
-Ja…]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome 110 beta]]></title>
-        <id>https://developer.chrome.com/en/blog/chrome-110-beta/</id>
-        <link href="https://developer.chrome.com/en/blog/chrome-110-beta/"/>
-        <updated>2023-01-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Unless otherwise noted, changes described below apply to the newest Chrome beta channel release for Android, ChromeOS, Linux, macOS, and Windows. Learn more about the features listed here through the provided links or from the list on ChromeStatus.com. Chrome 110 is beta as of 12 January 2023. You can download the latest on Google.com for desktop or on Google Play Store on Android.
-# CSS
-This release adds two new CSS features.
-# CSS Initial Letters
-Initial letters are large, decorative letters that have been used to start new sections of text since before the invention of printing. The CSS initial-letter property provides a way to set the number of lines that an initial-letter should sink into following lines of text. In the following example the initial-letter will display over three line…]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[History of the “what the user wanted” treeswing product design comic]]></title>
-        <id>https://news.ycombinator.com/item?id=34344888</id>
-        <link href="https://www.businessballs.com/amusement-stress-relief/tree-swing-cartoon-pictures-early-versions/"/>
-        <updated>2023-01-11T21:10:07.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.businessballs.com/amusement-stress-relief/tree-swing-cartoon-pictures-early-versions/
-Comments URL: https://news.ycombinator.com/item?id=34344888
-Points: 3
-# Comments: 1]]></summary>
-        <author>
-            <name>trynewideas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Embedding Our New React UI in Go]]></title>
-        <id>https://news.ycombinator.com/item?id=34344701</id>
-        <link href="https://www.flipt.io/blog/embedding-react-in-go"/>
-        <updated>2023-01-11T20:59:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.flipt.io/blog/embedding-react-in-go
-Comments URL: https://news.ycombinator.com/item?id=34344701
-Points: 10
-# Comments: 1]]></summary>
-        <author>
-            <name>GeorgeMac</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Getting all the video thumbnails from a YouTube video]]></title>
-        <id>https://christianheilmann.com/?p=7484</id>
-        <link href="https://christianheilmann.com/2023/01/11/getting-all-the-video-thumbnails-from-a-youtube-video/"/>
-        <updated>2023-01-11T20:16:15.000Z</updated>
-        <summary type="html"><![CDATA[I just wrote myself a small tool to get all the thumbnail images available for a YouTube video. Say you have a Youtube URL, the ID is the last part: https://www.youtube.com/watch?v=GDukVqBDd3Q, in this case “GDukVqBDd3Q”. Just copy this into the tool and you will get all the images available. You can choose to get JPG […]]]></summary>
-        <author>
-            <name>Chris Heilmann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Days after layoffs, Salesforce CEO Benioff still blasts worker productivity]]></title>
-        <id>https://news.ycombinator.com/item?id=34343798</id>
-        <link href="https://www.sfgate.com/tech/article/salesforce-ceo-blasts-worker-productivity-17708474.php"/>
-        <updated>2023-01-11T20:01:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.sfgate.com/tech/article/salesforce-ceo-blasts-worker-productivity-17708474.php
-Comments URL: https://news.ycombinator.com/item?id=34343798
-Points: 3
-# Comments: 5]]></summary>
-        <author>
-            <name>gnicholas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: RSS Feed of HN Articles?]]></title>
-        <id>https://news.ycombinator.com/item?id=34342200</id>
-        <link href="https://news.ycombinator.com/item?id=34342200"/>
-        <updated>2023-01-11T18:19:38.000Z</updated>
-        <summary type="html"><![CDATA[Is there a RSS feed of HN articles? I mean those from frontpage or ie for over 100 points.
-I don't want this: https://hnrss.org/frontpage because it show in my RSS feed two links to articles and comments. I just want feed of those articles with previews, just like other feeds that I'm used to subscribe.
-Thanks.
-Comments URL: https://news.ycombinator.com/item?id=34342200
-Points: 3
-# Comments: 6]]></summary>
-        <author>
-            <name>t0bia_s</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thin-Film-Transistor (TFT) LCD Display Control Electronics Design and Operation [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=34340858</id>
-        <link href="https://elinux.org/images/4/48/TFT-white-paper.pdf"/>
-        <updated>2023-01-11T17:01:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://elinux.org/images/4/48/TFT-white-paper.pdf
-Comments URL: https://news.ycombinator.com/item?id=34340858
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Past Informs the Present: Our Approach to CSS]]></title>
-        <id>https://news.ycombinator.com/item?id=34340563</id>
-        <link href="https://blog.begin.com/posts/2023-01-10-past-informs-the-present-our-approach-to-css"/>
-        <updated>2023-01-11T16:45:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.begin.com/posts/2023-01-10-past-informs-the-present-our-approach-to-css
-Comments URL: https://news.ycombinator.com/item?id=34340563
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>tiltedspheres</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>http://benmccormick.micro.blog/2023/01/11/basically-from-a.html</id>
-        <link href="https://benmccormick.org/2023/01/11/basically-from-a.html"/>
-        <updated>2023-01-11T14:53:51.000Z</updated>
-        <summary type="html"><![CDATA[Basically from a “quality triangle” perspective – execs can control costs or time, but holding the line on a minimum quality bar is essentially a core piece of my job, and nobody wins when you try to promise impossible combinations of scope/quality/dates.]]></summary>
-        <author>
-            <name>Herding Lions</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untitled]]></title>
-        <id>http://benmccormick.micro.blog/2023/01/11/in-an-ideal.html</id>
-        <link href="https://benmccormick.org/2023/01/11/in-an-ideal.html"/>
-        <updated>2023-01-11T14:50:17.000Z</updated>
-        <summary type="html"><![CDATA[In an ideal world, org leaders define goals and teams figure out what to do.  But top down asks happen.  How I decide whether to push back on top down asks as an EM:
-a. Fine to be asked for a date or a scope (not both)
-b. Never ship something likely to cause an incident]]></summary>
-        <author>
-            <name>Herding Lions</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[:has is an unforgiving selector]]></title>
-        <id>https://css-tricks.com/?p=376342</id>
-        <link href="https://css-tricks.com/has-is-an-unforgiving-selector/"/>
-        <updated>2023-01-11T14:18:13.000Z</updated>
-        <summary type="html"><![CDATA[A little thing happened on the way to publishing the CSS :has() selector to the ol’ Almanac. I had originally described :has() as a “forgiving” selector, the idea being that anything in its argument is evaluated, even if one or …
-:has is an unforgiving selector originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
-        <author>
-            <name>Geoff Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft pivots to new foldable screen design for new Surface Duo 3]]></title>
-        <id>https://news.ycombinator.com/item?id=34338656</id>
-        <link href="https://www.windowscentral.com/hardware/laptops/microsoft-scraps-plans-for-dual-screen-surface-duo-3-pivots-to-new-foldable-screen-design"/>
-        <updated>2023-01-11T14:12:52.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.windowscentral.com/hardware/laptops/microsoft-scraps-plans-for-dual-screen-surface-duo-3-pivots-to-new-foldable-screen-design
-Comments URL: https://news.ycombinator.com/item?id=34338656
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>thunderbong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Super-Productivity: advanced todo list app with Timeboxing and time tracking]]></title>
-        <id>https://news.ycombinator.com/item?id=34337676</id>
-        <link href="https://github.com/johannesjo/super-productivity"/>
-        <updated>2023-01-11T12:33:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/johannesjo/super-productivity
-Comments URL: https://news.ycombinator.com/item?id=34337676
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>petemir</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Faking Min Width on a Table Column]]></title>
-        <id>https://dailydevlinks.com/?p=11448</id>
-        <link href="https://dailydevlinks.com/faking-min-width-on-a-table-column/"/>
-        <updated>2023-01-11T12:33:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2022 JavaScript Rising Stars]]></title>
-        <id>https://dailydevlinks.com/?p=11451</id>
-        <link href="https://dailydevlinks.com/2022-javascript-rising-stars/"/>
-        <updated>2023-01-11T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[JS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Good Design is Intentional]]></title>
-        <id>https://dailydevlinks.com/?p=11457</id>
-        <link href="https://dailydevlinks.com/good-design-is-intentional/"/>
-        <updated>2023-01-11T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Design]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3D in CSS]]></title>
-        <id>https://dailydevlinks.com/?p=11454</id>
-        <link href="https://dailydevlinks.com/3d-in-css/"/>
-        <updated>2023-01-11T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
         <author>
             <name>Adam Marsden</name>
         </author>
