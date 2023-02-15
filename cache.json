@@ -167,7 +167,18 @@
       "title": "Ulysses Blog",
       "feedUrl": "https://blog.ulysses.app/rss/",
       "siteUrl": "https://blog.ulysses.app/",
-      "articles": []
+      "articles": [
+        {
+          "id": "63ea425e63d0940007872560",
+          "author": "Jingya",
+          "description": "Initially starting as a freelance journalist and then switching to (ghost-)writing books full-time, Tim Van der Mensbrugghe has been writing for over 20 years. In this interview, he has demystified the perception of a ghostwriter and how he could write eight books a year with Ulysses.",
+          "link": "https://blog.ulysses.app/tim-van-der-mensbrugghe/",
+          "publishedOn": "2023-02-14T11:28:43.000Z",
+          "wordCount": 2219,
+          "title": "The Demystification of a Ghostwriter Who Loves Storytelling",
+          "imageUrl": "https://blog.ulysses.app/content/images/2023/02/Interview.jpg"
+        }
+      ]
     },
     {
       "title": "WebPageTest Blog",
@@ -305,6 +316,16 @@
       "feedUrl": "https://css-irl.info/rss.xml",
       "siteUrl": "https://css-irl.info/rss.xml/",
       "articles": [
+        {
+          "id": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+          "author": null,
+          "description": "Temperature anomaly data from the Global Warming and Climate Change API, visualised with D3\n\nThere are many different ways of using colour informatively when it comes to data visualization. But we also need to ensure our use of colour conveys the right information, and that it is used accessibly. In this article we’ll walk through some examples of using colour in different types of visualizations with the data visualization library D3.js. Some familiarity with D3 will be assumed, but there will be some helpful pointers regardless of how you create your visualizations.\nIs colour the best option?\nColour can be extremely useful in conveying meaning in our designs. It can also be difficult to get right, and in the worst case could have a negative impact on the user experience. Some colour comb…",
+          "link": "https://css-irl.info/working-with-color-scales-for-data-visualisation-in-d3/",
+          "publishedOn": "2023-02-14T00:00:00.000Z",
+          "wordCount": 2192,
+          "title": "Working with Colour Scales for Data Visualisation in D3",
+          "imageUrl": "https://css-irl.info/social_1200x630.png"
+        },
         {
           "id": "https://css-irl.info/testing-colour-accessibility-with-dev-tools/",
           "author": null,
@@ -1334,16 +1355,6 @@
           "wordCount": 2805,
           "title": "5 Web Design Trends for 2023 That You Should Pay Attention To (Sponsored)",
           "imageUrl": "https://davidwalsh.name/demo/2023/01/bebiker-header-icons.png"
-        },
-        {
-          "id": "https://davidwalsh.name/fetch-with-timeout",
-          "author": null,
-          "description": "<p>A few years back I wrote a blog post about how write a fetch Promise that times out. The function was effective but the code wasn&#8217;t great, mostly because AbortController , which allows you to cancel a fetch Promise, did not yet exist. With AbortController and AbortSignal available, let&#8217;s create a better JavaScript function for [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://davidwalsh.name/fetch-with-timeout\">fetch with Timeout</a> appeared first on <a rel=\"nofollow\" href=\"https://davidwalsh.name\">David Walsh Blog</a>.</p>\n<p><a href=\"https://tkjs.us/dwb\"><img style=\"margin:0 auto\" alt=\"\" src=\"https://davidwalsh.name/demo/tjs_block-1.svg\"></a></p>",
-          "link": "https://davidwalsh.name/fetch-with-timeout",
-          "publishedOn": "2023-01-16T10:03:37.000Z",
-          "wordCount": 1803,
-          "title": "fetch with Timeout",
-          "imageUrl": "https://davidwalsh.name/wp-content/themes/punky/images/logo.png"
         }
       ]
     },
@@ -1352,6 +1363,16 @@
       "feedUrl": "https://developer.chrome.com/feeds/blog.xml",
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
+        {
+          "id": "https://developer.chrome.com/en/blog/font-fallbacks/",
+          "author": null,
+          "description": "# Summary\nThis article is a deep dive into font fallbacks and the size-adjust, ascent-override, descent-override, and line-gap-override APIs. These APIs make it possible to use local fonts to create fallback font faces that closely or exactly match the dimensions of a web font. This reduces or eliminates layout shifts caused by font swapping.\nIf you’d prefer to skip reading this article, these are some of the tools that you can use to start using these APIs immediately:\nFramework tools:\n@next/font: Starting in Next 13, next/font automatically uses font metric overrides and size-adjust to provide matching font fallbacks.\n@nuxtjs/fontaine: Starting in Nuxt 3, you can use nuxt/fontaine to automatically generate and insert matching font fallbacks into the stylesheets used by your Nuxt app.\nNon…",
+          "link": "https://developer.chrome.com/en/blog/font-fallbacks/",
+          "publishedOn": "2023-02-10T00:00:00.000Z",
+          "wordCount": 3061,
+          "title": "Improved font fallbacks",
+          "imageUrl": "https://wd.imgix.net/image/fuiz5I8Iv7bV8YbrK2PKiY3Vask2/iGPiWTtoy7iF932Xday1.png?auto=format&w=1521"
+        },
         {
           "id": "https://developer.chrome.com/en/blog/lighthouse-10-0/",
           "author": null,
@@ -1579,6 +1600,16 @@
       "feedUrl": "https://dribbble.com/stories.rss",
       "siteUrl": "https://dribbble.com/stories",
       "articles": [
+        {
+          "id": "https://dribbble.com/stories/2023/02/14/project-management-for-designers",
+          "author": null,
+          "description": "Picture it: you turn on your computer for the day and see your inbox flooded with requests. Your desk is littered with sticky notes, to-do lists, and random scribbled-down thoughts. Some of your clients have sent feedback, others have revision requests, you have new designs to start, and you can’t remember at all what’s happening with that huge ongoing design project you’re working on. Then, you realize there’s a big deadline today you completely forgot about. You’ve been ‘working’ for just a few minutes, and you’re already frazzled and stressed.\nNow let’s set another scene — one that’s a bit less overwhelming.\nYou settle in at your desk with your favorite beverage (perhaps a chai latte?). When you open your computer to start your work day, you already have a plan. You check for updates on…",
+          "link": "https://dribbble.com/stories/2023/02/14/project-management-for-designers",
+          "publishedOn": "2023-02-14T07:00:00.000Z",
+          "wordCount": 3876,
+          "title": "How to be a more productive designer: 7 project management tips",
+          "imageUrl": "https://cdn.dribbble.com/uploads/44497/original/5b804f51864ca684b885d93b83849bff.png?1675707847"
+        },
         {
           "id": "https://dribbble.com/stories/2023/02/09/cute-character-designs",
           "author": null,
@@ -2507,56 +2538,6 @@
           "wordCount": 210,
           "title": "How to maintain a UX portfolio over time",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67216",
-          "author": "Travis",
-          "description": "My work focuses on the interfaces we think with. As such, WonderOS is focused on experimenting with future user environments, of hardware both known and imagined.",
-          "link": "https://heydesigner.com/wonderos/",
-          "publishedOn": "2023-01-15T17:15:19.000Z",
-          "wordCount": 199,
-          "title": "WonderOS",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67214",
-          "author": "Travis",
-          "description": "Designers don’t talk about visual design enough. So I interviewed some people and we only talked about visual design.",
-          "link": "https://heydesigner.com/hard-skills/",
-          "publishedOn": "2023-01-15T17:12:46.000Z",
-          "wordCount": 199,
-          "title": "Hard skills",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67212",
-          "author": "Travis",
-          "description": "Design decisions are the decisions designers—and more often than not stakeholders—make in order to shape a digital product.",
-          "link": "https://heydesigner.com/design-decisions/",
-          "publishedOn": "2023-01-15T17:11:22.000Z",
-          "wordCount": 197,
-          "title": "Design decisions",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67210",
-          "author": "Travis",
-          "description": "Part 2 of a deep dive series on specific design system components.",
-          "link": "https://heydesigner.com/checkbox-and-radio/",
-          "publishedOn": "2023-01-15T17:10:52.000Z",
-          "wordCount": 193,
-          "title": "Checkbox and Radio",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67208",
-          "author": "Travis",
-          "description": "I know I’m really late to the party, but I finally understood why people find color functions like hsl(), hwb(), or lab() so appealing.",
-          "link": "https://heydesigner.com/css-color-functions-and-custom-properties/",
-          "publishedOn": "2023-01-15T17:09:56.000Z",
-          "wordCount": 210,
-          "title": "CSS color functions and custom properties",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2565,6 +2546,96 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=34795287",
+          "author": "steveklabnik",
+          "description": "Article URL: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2022/p2687r0.pdf\nComments URL: https://news.ycombinator.com/item?id=34795287\nPoints: 1\n# Comments: 0",
+          "link": "https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2022/p2687r0.pdf",
+          "publishedOn": "2023-02-14T20:12:13.000Z",
+          "wordCount": 9291,
+          "title": "Design Alternatives for Type-and-Resource Safe C++ [pdf]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34793370",
+          "author": "salaivv",
+          "description": "Article URL: https://twitter.com/salaivv/status/1625550080479739904\nComments URL: https://news.ycombinator.com/item?id=34793370\nPoints: 1\n# Comments: 0",
+          "link": "https://twitter.com/salaivv/status/1625550080479739904",
+          "publishedOn": "2023-02-14T18:07:59.000Z",
+          "wordCount": 498,
+          "title": "Show HN: Material UI Time Picker Using Alpine.js",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34790518",
+          "author": "mpweiher",
+          "description": "Article URL: https://martinfowler.com/articles/modularizing-react-apps.html#NewRequirementDonateToACharity\nComments URL: https://news.ycombinator.com/item?id=34790518\nPoints: 1\n# Comments: 0",
+          "link": "https://martinfowler.com/articles/modularizing-react-apps.html#NewRequirementDonateToACharity",
+          "publishedOn": "2023-02-14T15:19:36.000Z",
+          "wordCount": 5196,
+          "title": "Modularizing React Applications with Established UI Patterns",
+          "imageUrl": "https://martinfowler.com/articles/modularizing-react-apps/evolution-5.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34790484",
+          "author": "adrian_mrd",
+          "description": "Article URL: https://principles.design/\nComments URL: https://news.ycombinator.com/item?id=34790484\nPoints: 2\n# Comments: 0",
+          "link": "https://principles.design/",
+          "publishedOn": "2023-02-14T15:17:40.000Z",
+          "wordCount": 558,
+          "title": "An open source collection of Design Principles and methods",
+          "imageUrl": "https://principles.design/images/design-principles-og.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34788920",
+          "author": "weird_user",
+          "description": "Article URL: https://www.lowtechmagazine.com/2021/05/how-to-design-a-sailing-ship-for-the-21st-century.html\nComments URL: https://news.ycombinator.com/item?id=34788920\nPoints: 1\n# Comments: 0",
+          "link": "https://www.lowtechmagazine.com/2021/05/how-to-design-a-sailing-ship-for-the-21st-century.html",
+          "publishedOn": "2023-02-14T13:27:49.000Z",
+          "wordCount": 10830,
+          "title": "How to design a sailing ship for the 21st century?",
+          "imageUrl": "https://krisdedecker.typepad.com/.a/6a00e0099229e888330282e10a2f88200b-600wi"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34788844",
+          "author": "lukko",
+          "description": "Article URL: https://wepresent.wetransfer.com/stories/studio-pia-lungy\nComments URL: https://news.ycombinator.com/item?id=34788844\nPoints: 1\n# Comments: 0",
+          "link": "https://wepresent.wetransfer.com/stories/studio-pia-lungy",
+          "publishedOn": "2023-02-14T13:19:45.000Z",
+          "wordCount": 2877,
+          "title": "Combining science and design to make an immersive breathing app",
+          "imageUrl": "https://images.ctfassets.net/adaoj5ok2j3t/5SyQHtK7RuNj6BvEGEO4fZ/8fcd26b6edd293c004d1ee96f786d0dc/luke_hale_lungy_wepresent.png?w=1200&fm=jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34787891",
+          "author": "belter",
+          "description": "Article URL: https://www.ft.com/content/215ff743-c10c-46e7-a63a-7b3aea353ca2\nComments URL: https://news.ycombinator.com/item?id=34787891\nPoints: 1\n# Comments: 0",
+          "link": "https://www.ft.com/content/215ff743-c10c-46e7-a63a-7b3aea353ca2",
+          "publishedOn": "2023-02-14T11:20:20.000Z",
+          "wordCount": 1622,
+          "title": "Detailed, Subjective Ranking of Research Note Graphic Design",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34786559",
+          "author": "ingve",
+          "description": "Article URL: https://nibblestew.blogspot.com/2023/02/plain-c-api-design-real-world-kobayashi.html\nComments URL: https://news.ycombinator.com/item?id=34786559\nPoints: 2\n# Comments: 0",
+          "link": "https://nibblestew.blogspot.com/2023/02/plain-c-api-design-real-world-kobayashi.html",
+          "publishedOn": "2023-02-14T07:39:00.000Z",
+          "wordCount": 3441,
+          "title": "Plain C API design, the real world Kobayashi Maru test",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34785199",
+          "author": "tonystubblebine",
+          "description": "Article URL: https://uxdesign.cc/design-for-ai-what-should-people-who-design-ai-know-761e78fdabb\nComments URL: https://news.ycombinator.com/item?id=34785199\nPoints: 2\n# Comments: 1",
+          "link": "https://uxdesign.cc/design-for-ai-what-should-people-who-design-ai-know-761e78fdabb",
+          "publishedOn": "2023-02-14T04:13:01.000Z",
+          "wordCount": 4698,
+          "title": "What should people who design AI know?",
+          "imageUrl": "https://miro.medium.com/max/1200/1*GKZNyvd_yCpoGoi_xB9A4Q.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=34782435",
           "author": "t0bia_s",
@@ -4744,56 +4815,6 @@
           "wordCount": 964,
           "title": "Authz: Authorization back end that comes with a UI for RBAC and ABAC permissions",
           "imageUrl": "https://repository-images.githubusercontent.com/577073014/428ebe60-0243-4e6d-8e25-91d38ff2d6c1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34396578",
-          "author": "spking",
-          "description": "Article URL: https://www.nngroup.com/articles/tesla-big-touchscreen/\nComments URL: https://news.ycombinator.com/item?id=34396578\nPoints: 1\n# Comments: 0",
-          "link": "https://www.nngroup.com/articles/tesla-big-touchscreen/",
-          "publishedOn": "2023-01-16T03:50:29.000Z",
-          "wordCount": 3532,
-          "title": "Tesla’s Touchscreen UI: A Case Study of Car-Dashboard User Interface (2019)",
-          "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/tesla-big-touchscreen.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34393879",
-          "author": "xk3",
-          "description": "Article URL: https://github.com/NUDelta/Telescope\nComments URL: https://news.ycombinator.com/item?id=34393879\nPoints: 1\n# Comments: 1",
-          "link": "https://github.com/NUDelta/Telescope",
-          "publishedOn": "2023-01-15T21:48:52.000Z",
-          "wordCount": 726,
-          "title": "Telescope: Fine-Tuned Discovery of Interactive Web UI Feature Implementation",
-          "imageUrl": "https://opengraph.githubassets.com/670df95060c18b6a713d77ed613a345e7dfa1957a195093d1cc80c439ddfb26c/NUDelta/Telescope"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34390380",
-          "author": "awhalethrow",
-          "description": "Comments URL: https://news.ycombinator.com/item?id=34390380\nPoints: 2\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=34390380",
-          "publishedOn": "2023-01-15T16:05:41.000Z",
-          "wordCount": 81,
-          "title": "Ask HN: Annoyances and 'hacks' in Home Design?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34389476",
-          "author": "eternalban",
-          "description": "Article URL: https://www.rfc-editor.org/rfc/rfc3117.txt\nComments URL: https://news.ycombinator.com/item?id=34389476\nPoints: 2\n# Comments: 0",
-          "link": "https://www.rfc-editor.org/rfc/rfc3117.txt",
-          "publishedOn": "2023-01-15T14:06:56.000Z",
-          "wordCount": 8613,
-          "title": "RFC 3117 – On the Design of Application Protocols (2001)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34388989",
-          "author": "flylo2022",
-          "description": "Article URL: https://www.zac.fail/blog/the-everything-algorithm\nComments URL: https://news.ycombinator.com/item?id=34388989\nPoints: 3\n# Comments: 0",
-          "link": "https://www.zac.fail/blog/the-everything-algorithm",
-          "publishedOn": "2023-01-15T12:45:46.000Z",
-          "wordCount": 3820,
-          "title": "The Everything Algorithm: What Do LLMs Mean for UX, Product, and Engineering?",
-          "imageUrl": "http://static1.squarespace.com/static/63b5ad7e0b64c7223f52e6c5/63b5ada2f175986006fa20b4/63ba3733b20be02255d41e27/1673281650620/04280005+copy.JPG?format=1500w"
         }
       ]
     },
@@ -4802,6 +4823,36 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=34791381",
+          "author": "tooltitude",
+          "description": "Let me introduce the Tooltitude VS Code extension. Our extension augments the official GoLang extension with a set of power tools which make you a more productive developer.\nWhat do we provide:\n- Inspections - checks which look at your code and warn you about potential problems in your code. Here’re some highlights\n  - Highlighting of deprecated symbol usages in the editor (gopls doesn’t highlight them at the moment of writing)\n\n  - Variable shadowing detection\n\n  - Use of interface{} instead of any \n\n  - Redundant parenthesis\n\n  - Handle error: https://twitter.com/tooltitude/status/1620448875311165442 \n\n  - Apply DeMorgan laws: https://twitter.com/tooltitude/status/1620814134240747520 \n\n  - Iterate over collection: https://twitter.com/tooltitude/status/1621146816736800768 \n\n  - Invert If: https://twitter.com/tooltitude/status/1623336440930107397\n \n  - Overall we currently have more than 20 code actions, and working on adding more\n\n- Install and try in VS Code right now: https://marketplace.visualstudio.com/items?itemName=tooltitu... \n- Read more about our features: https://www.tooltitude.com/\nWe are looking for feedback from users, so if there’re any features, inspections or code actions you re interested it, feel free to comment here, write to support@tooltitude.com, or write to us on twitter: https://twitter.com/tooltitude\nComments URL: https://news.ycombinator.com/item?id=34791381\nPoints: 3\n# Comments: 0",
+          "link": "https://marketplace.visualstudio.com/items?itemName=tooltitudeteam.tooltitude",
+          "publishedOn": "2023-02-14T16:08:00.000Z",
+          "wordCount": 3170,
+          "title": "Show HN: VS Code GoLang Productivity Extension",
+          "imageUrl": "https://tooltitudeteam.gallerycdn.vsassets.io/extensions/tooltitudeteam/tooltitude/0.4.0/1676387786792/Microsoft.VisualStudio.Services.Icons.Default"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34788676",
+          "author": "intheleantime",
+          "description": "Article URL: https://leantime.io/2023/02/12/organizing-projects-with-adhd-tips-and-tricks-to-increase-productivity/\nComments URL: https://news.ycombinator.com/item?id=34788676\nPoints: 1\n# Comments: 0",
+          "link": "https://leantime.io/2023/02/12/organizing-projects-with-adhd-tips-and-tricks-to-increase-productivity/",
+          "publishedOn": "2023-02-14T13:02:27.000Z",
+          "wordCount": 4950,
+          "title": "Organizing Projects with ADHD: Tips and Tricks to Increase Productivity",
+          "imageUrl": "https://cloud.leantime.io/wp-content/uploads/2023/02/Managing-Projects-with-ADHD-use-a-project-management-system-like-Leantime-scaled.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=34786505",
+          "author": "cheeseface",
+          "description": "Article URL: https://www.swarmia.com/blog/size-age-culture-productivity/\nComments URL: https://news.ycombinator.com/item?id=34786505\nPoints: 1\n# Comments: 0",
+          "link": "https://www.swarmia.com/blog/size-age-culture-productivity/",
+          "publishedOn": "2023-02-14T07:29:51.000Z",
+          "wordCount": 2967,
+          "title": "Size, age, culture: 3 factors that will shape your productivity path",
+          "imageUrl": "https://www.swarmia.com/static/size-age-culture-productivity-e24bb37af9c6ff6fb9fbcd963cc0d289.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=34777748",
           "author": "legrande",
@@ -5301,36 +5352,6 @@
           "wordCount": 7201,
           "title": "Repost: Distributed Service-Sector Productivity",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd070874-8406-459b-9364-fac3c4878976_838x1024.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34396884",
-          "author": "atomicnature",
-          "description": "Hi HN,\nCurious to know whether any of you have noticed significant improvements in developer productivity due to adapting a functional style of system building?\nOn the surface, it looks like FP will lead to a more modular and decomposed system, and hence would lead to greater re-usability and maintainability.\nMoreover, if you have any thoughts/experiences on how adapting FP impacts a software dev team (or just individuals) currently operating in imperative style, please share your views.\nComments URL: https://news.ycombinator.com/item?id=34396884\nPoints: 2\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=34396884",
-          "publishedOn": "2023-01-16T04:42:45.000Z",
-          "wordCount": 144,
-          "title": "Ask HN: Does functional programming increase dev productivity?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34394024",
-          "author": "tchalla",
-          "description": "Article URL: https://ieeexplore.ieee.org/document/9994260\nComments URL: https://news.ycombinator.com/item?id=34394024\nPoints: 1\n# Comments: 0",
-          "link": "https://ieeexplore.ieee.org/document/9994260",
-          "publishedOn": "2023-01-15T22:02:07.000Z",
-          "wordCount": 1443,
-          "title": "A Human-Centered Approach to Developer Productivity",
-          "imageUrl": "https://ieeexplore.ieee.org/assets/img/ieee_logo_smedia_200X200.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34389667",
-          "author": "preek",
-          "description": "Article URL: https://200ok.ch/posts/2023-01-05_inbox_zero_hack:_achieving_productivity_bliss_in_the_new_year_with_mue.html\nComments URL: https://news.ycombinator.com/item?id=34389667\nPoints: 1\n# Comments: 0",
-          "link": "https://200ok.ch/posts/2023-01-05_inbox_zero_hack:_achieving_productivity_bliss_in_the_new_year_with_mue.html",
-          "publishedOn": "2023-01-15T14:33:53.000Z",
-          "wordCount": 415,
-          "title": "Inbox Zero Hack: Achieving Productivity Bliss in the New Year with Mu4e",
-          "imageUrl": "https://200ok.ch/img/200ok.svg"
         }
       ]
     },
@@ -5339,6 +5360,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=34789500",
+          "author": "corentin88",
+          "description": "Article URL: https://wesbos.com/times-html-entity-close-button/\nComments URL: https://news.ycombinator.com/item?id=34789500\nPoints: 1\n# Comments: 0",
+          "link": "https://wesbos.com/times-html-entity-close-button/",
+          "publishedOn": "2023-02-14T14:12:20.000Z",
+          "wordCount": 1517,
+          "title": "Use × HTML entity for close buttons rather than the letter X (2014)",
+          "imageUrl": "https://wesbos.com/.netlify/functions/ogimage?title=use+%C3%97+HTML+entity+for+close+buttons+rather+than+the+letter+X+for+a+perfectly+angled+%C3%97&url=https%3A%2F%2Fwesbos.com%2Ftimes-html-entity-close-button&thumbnail=%2Fstatic%2F94da75ed944de4662c252c1570ba3fcf%2Fss-2014-08-12-at-1.22.54-PM.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=34776936",
           "author": "vmoore",
@@ -6108,26 +6139,6 @@
           "wordCount": 523929,
           "title": "Whatwg HTML Review Draft 2023-01 published",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34395057",
-          "author": "rmason",
-          "description": "Article URL: https://www.bennadel.com/blog/4389-overriding-form-submission-properties-using-button-attributes-in-native-html.htm\nComments URL: https://news.ycombinator.com/item?id=34395057\nPoints: 1\n# Comments: 0",
-          "link": "https://www.bennadel.com/blog/4389-overriding-form-submission-properties-using-button-attributes-in-native-html.htm",
-          "publishedOn": "2023-01-16T00:00:35.000Z",
-          "wordCount": 2477,
-          "title": "Overriding Form Submission Properties Using Button Attributes in Native HTML",
-          "imageUrl": "https://bennadel-cdn.com/resources/uploads/2023/form-submit-button-default-behavior@2x.gif"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34389773",
-          "author": "hlandau",
-          "description": "Article URL: https://www.devever.net/~hl/stringtemplates\nComments URL: https://news.ycombinator.com/item?id=34389773\nPoints: 3\n# Comments: 0",
-          "link": "https://www.devever.net/~hl/stringtemplates",
-          "publishedOn": "2023-01-15T14:47:31.000Z",
-          "wordCount": 5079,
-          "title": "Producing HTML using string templates has always been the wrong solution",
-          "imageUrl": null
         }
       ]
     },
@@ -6241,6 +6252,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=44935",
+          "author": "Seth Godin",
+          "description": "The alphabet is a miracle, one that is compounded by books. And the lessons we learn from this cornerstone of modern culture apply to organizations, meetings, tech, politics and almost everything we do together. Your copy of To Kill a Mockingbird contains every single word that Harper Lee had in the edition she signed off […]",
+          "link": "https://seths.blog/2023/02/fidelity-compression-and-culture/",
+          "publishedOn": "2023-02-14T09:39:00.000Z",
+          "wordCount": 1757,
+          "title": "Fidelity, compression and culture",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=43639",
           "author": "Seth Godin",
@@ -6540,16 +6561,6 @@
           "wordCount": 1103,
           "title": "Jumping to conclusions",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44663",
-          "author": "Seth Godin",
-          "description": "We’re often reminded that the best way to get what we want is to help other people get what they want. That opening the door for others makes it more likely that others will open the door for us. What makes it odd is the implication that if we don’t get, it’s hardly worth giving. […]",
-          "link": "https://seths.blog/2023/01/the-odd-generous-selfish-cycle/",
-          "publishedOn": "2023-01-16T09:39:00.000Z",
-          "wordCount": 1192,
-          "title": "Generous and selfish",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
         }
       ]
     },
@@ -6558,6 +6569,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "B76Zm2EPjSCtSJSFi",
+          "author": "@uxdesigncc",
+          "description": "This month marks our 10th anniversary on Medium and our 15th anniversary as a design publication.",
+          "link": "https://uxdesign.cc/what-were-not-doing-9510d0db25ec",
+          "publishedOn": "2023-02-14T05:02:50.000Z",
+          "wordCount": 1851,
+          "title": "What we’re not doing",
+          "imageUrl": "https://miro.medium.com/max/1200/1*iiWSGnNtKw5s6GXcobFEbg.png"
+        },
+        {
+          "id": "r3jDqWeQBE2Ay62tN",
+          "author": "@shadeed9",
+          "description": "A few CSS features I wish to have.",
+          "link": "https://ishadeed.com/article/css-wishlist-2023/",
+          "publishedOn": "2023-02-14T05:00:12.000Z",
+          "wordCount": 975,
+          "title": "My CSS Wishlist",
+          "imageUrl": "https://ishadeed.com/assets/css-wishlist-2023/twitter-card.jpg?10"
+        },
+        {
+          "id": "QYnhGC6sT43aFdBvD",
+          "author": "@stblattr",
+          "description": "Find the human art behind the A.I. images",
+          "link": "https://www.stableattribution.com/",
+          "publishedOn": "2023-02-14T04:59:40.000Z",
+          "wordCount": 548,
+          "title": "Stable Attribution",
+          "imageUrl": "https://www.stableattribution.com/fallback_image.png?cache=1"
+        },
+        {
+          "id": "a3RseQdXo5swNKaxf",
+          "author": "@uxdesigncc",
+          "description": "Is the future a blue, transparent hologram? Why is this the vision of the future shown in film?",
+          "link": "https://uxdesign.cc/why-all-of-hollywood-ui-looks-the-same-2ae1d3143350?sk=0a753406fbae97af87cf8076630354dc",
+          "publishedOn": "2023-02-14T04:54:41.000Z",
+          "wordCount": 6853,
+          "title": "Why all of Hollywood UI looks the same",
+          "imageUrl": "https://miro.medium.com/max/1024/0*HLmn6lvgRRpM24mK"
+        },
+        {
+          "id": "DyTPJ2awEniQimPLi",
+          "author": "@css",
+          "description": "You can’t have a white favicon, because, in a lot of situations, you won’t be able to see the dang thing at all.",
+          "link": "https://chriscoyier.net/2023/02/10/you-kinda-want-an-orange-favicon/",
+          "publishedOn": "2023-02-14T04:52:44.000Z",
+          "wordCount": 1494,
+          "title": "You kinda want an orange favicon",
+          "imageUrl": "https://chriscoyier.net/wp-content/uploads/2023/02/Screenshot-2023-02-10-at-12.23.53-PM.png"
+        },
         {
           "id": "zqdhR9b2qZGFa6faq",
           "author": "@uxdesigncc",
@@ -7557,56 +7618,6 @@
           "wordCount": 3862,
           "title": "Design system breakdown: checkbox & radio",
           "imageUrl": "https://miro.medium.com/max/960/0*rgQn2kSsSvNtiVHj.png"
-        },
-        {
-          "id": "mcrqXXRZZ7usjuAJe",
-          "author": "@_faelpt",
-          "description": "Retro logos for Instagram, Spotify, and more.",
-          "link": "https://www.fael.pt/",
-          "publishedOn": "2023-01-16T04:05:37.000Z",
-          "wordCount": 7050,
-          "title": "Rafael Serra's Retro Logos",
-          "imageUrl": "https://www.fael.pt/wp-content/uploads/2019/07/fael-facebook.png"
-        },
-        {
-          "id": "KjqpE9ND6pLeDzT6y",
-          "author": "@ChromiumDev",
-          "description": "A collection of best practices for optimizing websites’ Core Web Vitals performance based on the state of the web in 2023.",
-          "link": "https://web.dev/top-cwv-2023/",
-          "publishedOn": "2023-01-16T03:52:29.000Z",
-          "wordCount": 3995,
-          "title": "Our top Core Web Vitals recommendations for 2023",
-          "imageUrl": "https://web-dev.imgix.net/image/STd8eW8CSiNp5B1bX0R6Dww2eH32/5YsYz2bJSPUpNSPHRQRx.jpg?auto=format&fit=max&w=1200&fm=auto"
-        },
-        {
-          "id": "HQ383Dgikp7fS7kAW",
-          "author": "@ffffffuel",
-          "description": "Quickly look up how to define SVG shapes, transforms, masks, patterns, gradients, text and more.",
-          "link": "https://fffuel.co/sssvg/",
-          "publishedOn": "2023-01-16T03:50:11.000Z",
-          "wordCount": 2400,
-          "title": "SSSVG: An Interactive SVG Reference",
-          "imageUrl": null
-        },
-        {
-          "id": "Atzbw3jsrgTQ5QtDC",
-          "author": "@HugoDuprez",
-          "description": "Simply upload your image and choose your pixelation level to transform your photo into a retro-style pixel art masterpiece.",
-          "link": "https://www.pixelicious.xyz/",
-          "publishedOn": "2023-01-16T02:30:20.000Z",
-          "wordCount": 67,
-          "title": "Pixelicious: Convert Your Images to Pixel Art",
-          "imageUrl": "https://i.ibb.co/DtBD8pF/ogImage.png"
-        },
-        {
-          "id": "wJwFSCX6hTrxMZLtD",
-          "author": "@colossal",
-          "description": "Form meets function in this wooden artwork that transforms into a workspace designed by Robert van Embricqs.",
-          "link": "https://www.thisiscolossal.com/2023/01/robert-van-embricqs-flow-wall-desk/",
-          "publishedOn": "2023-01-16T00:40:49.000Z",
-          "wordCount": 1654,
-          "title": "A Wooden Artwork Miraculously Unfurls into a Functional Desk",
-          "imageUrl": null
         }
       ]
     },
