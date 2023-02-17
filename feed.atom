@@ -2,10 +2,346 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2023-02-16T00:05:11.540Z</updated>
+    <updated>2023-02-17T00:05:09.127Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[React's useEffect swallows async errors [til/javascript]]]></title>
+        <id>use-effect-async-swallows</id>
+        <link href="https://remysharp.com/til/javascript/use-effect-async-swallows"/>
+        <updated>2023-02-16T23:59:59.000Z</updated>
+        <summary type="html"><![CDATA[I don't particularly use this pattern, but I ran across it recently and it took me a while to work out what was happening (it does make sense if you think about it, but running through code it's not easy to spot).
+In the following example you won't see any errors nor any logging.
+useEffect(() => {
+  const test = async = () => {
+    someFunctionThatThrows();
+    console.log("sid");
+  };
+
+  try {
+    test();
+  } catch (e) {
+    console.log("sam");
+  }
+}, []);
+
+It needs to either change to to explicitly catches (which I tend to prefer because it feels explicit) or a try catch inside the async:
+useEffect(() => {
+  const test = async = () => {
+    try {
+      someFunctionThatThrows();
+    } catch (e) {
+      console.error(e);
+    }
+    console.log("test has finished");
+  };
+
+  test();
+}, []);
+
+Or, which covers more cases:
+useEffect(() => {
+  const test = async = () => {
+    someFunctionThatThrows();
+    console.log("test has finished");
+  };
+
+  test().catch(e => console.error(e));
+}, []);]]></summary>
+        <author>
+            <name>remy sharp's b:log</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: A loop keyword for generating HTML snippets]]></title>
+        <id>https://news.ycombinator.com/item?id=34827925</id>
+        <link href="https://try.scroll.pub/#scroll%0A%20title%20The%20%60loop%60%20keyword%0A%20%23%23%20A%20new%20quick%20way%20to%20generate%20HTML%20snippets%0A%20%23%23%20New%20in%20Scroll%20version%2058.1.0%0A%20%20https%3A%2F%2Fscroll.pub%2F%20Scroll%0A%20%0A%20%23%20Loop%20over%20lines%3A%0A%20loop%0A%20%20lines%0A%20%20%20What%20you%20focus%20on%20increases%0A%20%20%20Experience%20is%20what%20you%20get%20when%20you%20don%27t%20get%20what%20you%20want%0A%20%20%20We%20do%20this%20not%20because%20it%20is%20easy%2C%20but%20because%20we%20thought%20it%20would%20be%20easy.%0A%20%20javascript%20%60%3Cblockquote%20class%3D%22quote%22%3E%24%7Bitem%7D%3C%2Fblockquote%3E%60%0A%20%0A%20%23%20Or%20loop%20over%20words%3A%0A%20loop%0A%20%20words%20%232a2d34ff%20%23009ddcff%20%23f26430ff%20%236761a8ff%20%23009b72ff%0A%20%20javascript%20%60%3Cspan%20style%3D%22background-color%3A%20%24%7Bitem%7D%3B%20width%3A%2030px%3B%20height%3A%2030px%3B%20display%3A%20inline-block%3B%22%3E%20%3C%2Fspan%3E%60%0A%20%0A%20%0A%20css%20.quote%20%7B%20font-size%3A%20150%25%3B%20border-left%3A%2020px%20solid%20grey%3B%20padding-left%3A%2010px%3B%7D"/>
+        <updated>2023-02-16T23:03:42.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://try.scroll.pub/#scroll%0A%20title%20The%20%60loop%60%20keyword%0A%20%23%23%20A%20new%20quick%20way%20to%20generate%20HTML%20snippets%0A%20%23%23%20New%20in%20Scroll%20version%2058.1.0%0A%20%20https%3A%2F%2Fscroll.pub%2F%20Scroll%0A%20%0A%20%23%20Loop%20over%20lines%3A%0A%20loop%0A%20%20lines%0A%20%20%20What%20you%20focus%20on%20increases%0A%20%20%20Experience%20is%20what%20you%20get%20when%20you%20don%27t%20get%20what%20you%20want%0A%20%20%20We%20do%20this%20not%20because%20it%20is%20easy%2C%20but%20because%20we%20thought%20it%20would%20be%20easy.%0A%20%20javascript%20%60%3Cblockquote%20class%3D%22quote%22%3E%24%7Bitem%7D%3C%2Fblockquote%3E%60%0A%20%0A%20%23%20Or%20loop%20over%20words%3A%0A%20loop%0A%20%20words%20%232a2d34ff%20%23009ddcff%20%23f26430ff%20%236761a8ff%20%23009b72ff%0A%20%20javascript%20%60%3Cspan%20style%3D%22background-color%3A%20%24%7Bitem%7D%3B%20width%3A%2030px%3B%20height%3A%2030px%3B%20display%3A%20inline-block%3B%22%3E%20%3C%2Fspan%3E%60%0A%20%0A%20%0A%20css%20.quote%20%7B%20font-size%3A%20150%25%3B%20border-left%3A%2020px%20solid%20grey%3B%20padding-left%3A%2010px%3B%7D
+Comments URL: https://news.ycombinator.com/item?id=34827925
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>breck</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The return to the office could be the real reason for the slump in productivity]]></title>
+        <id>https://news.ycombinator.com/item?id=34827410</id>
+        <link href="https://fortune.com/2023/02/16/return-office-real-reason-slump-productivity-data-careers-gleb-tsipursky/"/>
+        <updated>2023-02-16T22:27:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://fortune.com/2023/02/16/return-office-real-reason-slump-productivity-data-careers-gleb-tsipursky/
+Comments URL: https://news.ycombinator.com/item?id=34827410
+Points: 10
+# Comments: 2]]></summary>
+        <author>
+            <name>lolinder</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I'm building Memories, a FOSS Google Photos alternative focused on UX]]></title>
+        <id>https://news.ycombinator.com/item?id=34827289</id>
+        <link href="https://github.com/pulsejet/memories"/>
+        <updated>2023-02-16T22:16:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/pulsejet/memories
+Comments URL: https://news.ycombinator.com/item?id=34827289
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>radialapps</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web Push for Web Apps on iOS and iPadOS]]></title>
+        <id>https://webkit.org/?p=13878</id>
+        <link href="https://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/"/>
+        <updated>2023-02-16T18:30:59.000Z</updated>
+        <summary type="html"><![CDATA[With iOS and iPadOS 16.4 beta 1 comes support for Web Push for Home Screen web apps, Badging API, Manifest ID, and more.]]></summary>
+        <author>
+            <name>Blog – WebKit</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Putting Gears In Motion: Animating Cars With HTML And SVG]]></title>
+        <id>https://smashingmagazine.com/2023/02/putting-gears-motion-animating-cars-with-html-svg/</id>
+        <link href="https://smashingmagazine.com/2023/02/putting-gears-motion-animating-cars-with-html-svg/"/>
+        <updated>2023-02-16T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SVG `` provides a way to define how an element moves along a motion path. In this article, Paul Scanlon shares an idea of how to use it by animating race cars in an infinite loop as easy as one-two-three!]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Paul Scanlon)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some reasons to work on productivity and velocity]]></title>
+        <id>https://news.ycombinator.com/item?id=34817991</id>
+        <link href="https://danluu.com/productivity-velocity/"/>
+        <updated>2023-02-16T12:48:16.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://danluu.com/productivity-velocity/
+Comments URL: https://news.ycombinator.com/item?id=34817991
+Points: 3
+# Comments: 1]]></summary>
+        <author>
+            <name>ZephyrBlu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Complete Guide to Usability Testing — What is Usability Testing]]></title>
+        <id>https://dailydevlinks.com/?p=11700</id>
+        <link href="https://dailydevlinks.com/a-complete-guide-to-usability-testing-what-is-usability-testing/"/>
+        <updated>2023-02-16T12:33:00.000Z</updated>
+        <summary type="html"><![CDATA[UX]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Container queries land in stable browsers]]></title>
+        <id>https://dailydevlinks.com/?p=11703</id>
+        <link href="https://dailydevlinks.com/container-queries-land-in-stable-browsers/"/>
+        <updated>2023-02-16T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[BrowserCSS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accelerate your UX process with the dedicated plugin for Figma and FigJam]]></title>
+        <id>https://news.ycombinator.com/item?id=34817509</id>
+        <link href="https://www.figma.com/community/plugin/1205653626312349596/UX-Stack-Guru"/>
+        <updated>2023-02-16T11:47:03.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.figma.com/community/plugin/1205653626312349596/UX-Stack-Guru
+Comments URL: https://news.ycombinator.com/item?id=34817509
+Points: 1
+# Comments: 1]]></summary>
+        <author>
+            <name>yellowww</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design Psychology: 4 principles that empower designers]]></title>
+        <id>https://heydesigner.com/?p=67478</id>
+        <link href="https://heydesigner.com/design-psychology-4-principles-that-empower-designers/"/>
+        <updated>2023-02-16T09:59:24.000Z</updated>
+        <summary type="html"><![CDATA[You might not know it yet, but you beautiful designer, have an almighty power in your hands: the power of understanding humans’ needs.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can AI generate illustrations in a custom style?]]></title>
+        <id>https://heydesigner.com/?p=67472</id>
+        <link href="https://heydesigner.com/can-ai-generate-illustrations-in-a-custom-style/"/>
+        <updated>2023-02-16T09:58:50.000Z</updated>
+        <summary type="html"><![CDATA[At De Voorhoede, we use quite a few illustrations to communicate with the outside world. So far, all these illustrations have been drawn by hand, but can we use AI to generate them in our style?]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dangerous lies creators tell themselves]]></title>
+        <id>https://heydesigner.com/?p=67484</id>
+        <link href="https://heydesigner.com/dangerous-lies-creators-tell-themselves/"/>
+        <updated>2023-02-16T09:56:20.000Z</updated>
+        <summary type="html"><![CDATA[Using Sahil Bloom’s framework as a jumping-off point for talking about common creative struggles.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The feature work → Maintenance work loop]]></title>
+        <id>https://heydesigner.com/?p=67482</id>
+        <link href="https://heydesigner.com/the-feature-work-%e2%86%92-maintenance-work-loop/"/>
+        <updated>2023-02-16T09:55:30.000Z</updated>
+        <summary type="html"><![CDATA[I frequently find myself in a cycle where I’m switching between phases of “Feature Work” and “Maintenance Work”.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Container queries land in stable browsers]]></title>
+        <id>https://heydesigner.com/?p=67480</id>
+        <link href="https://heydesigner.com/container-queries-land-in-stable-browsers/"/>
+        <updated>2023-02-16T09:50:43.000Z</updated>
+        <summary type="html"><![CDATA[This web feature is now available in all three major browser engines.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In 2023, what are the best wireframing UI / UX tools?]]></title>
+        <id>https://news.ycombinator.com/item?id=34816584</id>
+        <link href="https://news.ycombinator.com/item?id=34816584"/>
+        <updated>2023-02-16T09:07:08.000Z</updated>
+        <summary type="html"><![CDATA[Hi HN, question in the subject really.
+I am a former UI guy that moved out into a management role years ago, however I am hopping back in to manage the user experience with a fairly large and widely used application. I've kept my hand in with products like Adobe XD and Figma, however I'm curious to know what HN considers the go to tools are these days?
+I have a fairly large job on my hands, the application has grown a little wild over the years, so need to bring it all into order.
+Appreciate any advice you may have.
+Comments URL: https://news.ycombinator.com/item?id=34816584
+Points: 2
+# Comments: 2]]></summary>
+        <author>
+            <name>BenjaminDyer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The leaping curve]]></title>
+        <id>https://seths.blog/?p=43824</id>
+        <link href="https://seths.blog/2023/02/the-leaping-curve/"/>
+        <updated>2023-02-16T08:47:00.000Z</updated>
+        <summary type="html"><![CDATA[The learning curve is familiar to many people. It might be steep, but it’s continuous. Organizations (and people) work their way up it, one step at a time (it’s the black line in the graph below). But there’s rarely a continuous learning curve. Instead, it’s often interrupted by leaps. The moments when both feet need […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NASA Turns to AI to Design Mission Hardware]]></title>
+        <id>https://news.ycombinator.com/item?id=34816237</id>
+        <link href="https://www.nasa.gov/feature/goddard/2023/nasa-turns-to-ai-to-design-mission-hardware/"/>
+        <updated>2023-02-16T08:09:25.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nasa.gov/feature/goddard/2023/nasa-turns-to-ai-to-design-mission-hardware/
+Comments URL: https://news.ycombinator.com/item?id=34816237
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>taubek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Jessica Hische Brings New Life to an Old Logo]]></title>
+        <id>cGgv9NPotW6eXf5um</id>
+        <link href="https://www.printmag.com/designer-interviews/jessica-hische-logo-refresh/"/>
+        <updated>2023-02-16T05:27:45.000Z</updated>
+        <summary type="html"><![CDATA[The lettering artist tells us all about her process, what brands are looking for, and the differences between rebrands and refreshes.]]></summary>
+        <author>
+            <name>@printmag</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lessons of Design]]></title>
+        <id>BHHGx9Sfn42oftfMB</id>
+        <link href="https://lessons.design/"/>
+        <updated>2023-02-16T05:25:24.000Z</updated>
+        <summary type="html"><![CDATA[The musings of a designer on why he designs the way he does and what he’s learned along the journey.]]></summary>
+        <author>
+            <name>@fabriciot</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023 Underwater Photographer of the Year]]></title>
+        <id>ARb5gTZ3FvHo6v3JJ</id>
+        <link href="https://www.thisiscolossal.com/2023/02/2023-underwater-photographer/"/>
+        <updated>2023-02-16T05:24:04.000Z</updated>
+        <summary type="html"><![CDATA[The 2023 Underwater Photographer of the Year competition centers on the mammals, fish, and plants occupying the world’s oceans and seas.]]></summary>
+        <author>
+            <name>@colossal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bing: “I will not harm you unless you harm me first”]]></title>
+        <id>ZxwxCfhRFhkaiDqeA</id>
+        <link href="https://simonwillison.net/2023/Feb/15/bing/"/>
+        <updated>2023-02-16T05:09:08.000Z</updated>
+        <summary type="html"><![CDATA[Last week, Microsoft announced the new AI-powered Bing: a search interface that incorporates a language model powered chatbot.]]></summary>
+        <author>
+            <name>@simonw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Camome UI – A lightweight React and CSS framework]]></title>
+        <id>https://news.ycombinator.com/item?id=34815122</id>
+        <link href="https://camome.net/"/>
+        <updated>2023-02-16T04:43:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://camome.net
+Comments URL: https://news.ycombinator.com/item?id=34815122
+Points: 18
+# Comments: 4]]></summary>
+        <author>
+            <name>sabigara</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Camome UI – A lightweight React and CSS framework]]></title>
+        <id>https://news.ycombinator.com/item?id=34815122</id>
+        <link href="https://camome.net/"/>
+        <updated>2023-02-16T04:43:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://camome.net
+Comments URL: https://news.ycombinator.com/item?id=34815122
+Points: 18
+# Comments: 4]]></summary>
+        <author>
+            <name>sabigara</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Look at Gender Demographics in the Developer Community, Part 1]]></title>
+        <id>kDSHhuRzHPJiDQ4cj</id>
+        <link href="https://dev.to/sachagreif/a-look-at-gender-demographics-in-the-developer-community-part-1-4d76"/>
+        <updated>2023-02-16T04:37:00.000Z</updated>
+        <summary type="html"><![CDATA[I asked some of the biggest programming YouTubers to share their demographics data.]]></summary>
+        <author>
+            <name>@thepracticaldev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What's New in DevTools (Chrome 111)]]></title>
+        <id>https://developer.chrome.com/en/blog/new-in-devtools-111/</id>
+        <link href="https://developer.chrome.com/en/blog/new-in-devtools-111/"/>
+        <updated>2023-02-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Interested in helping improve DevTools? Sign up to participate in Google User Research here.
+No video for this release.
+# Debugging HD color with the Styles pane
+New CSS color types and spaces are coming to the web! It is equally exciting that DevTools introduced new tools to help developers create, convert and debug High Definition color.
+The Styles pane now supports 12 new color spaces and 7 new gamuts as outlined in the CSS Color Level 4 specification. See High Definition CSS Color Guide for a comprehensive understanding of color options available on the web.
+Here are examples of CSS color definitions with color(), lch(), oklab() and color-mix().
+
+When using the color-mix() function, you can view the final color output in the Computed pane.
+
+The color picker supports all the new color s…]]></summary>
+        <author>
+            <name>Chrome Developers - Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Failing into Tech and Content Design]]></title>
         <id>https://news.ycombinator.com/item?id=34812478</id>
@@ -9135,427 +9471,6 @@ Points: 1
 # Comments: 0]]></summary>
         <author>
             <name>jandeboevrie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Best tips and resources for a software eng learning product design]]></title>
-        <id>https://news.ycombinator.com/item?id=34425693</id>
-        <link href="https://news.ycombinator.com/item?id=34425693"/>
-        <updated>2023-01-18T11:58:16.000Z</updated>
-        <summary type="html"><![CDATA[I've noticed that I'm design-blind. As long as something is functional, and I have an accurate conceptual model of how it works, I can deal with it. The important part (to me) is whether I can do the things I want done without the product getting in the way. For example, Jira does a terrible job of this, by getting in the way.
-What I've come to realise is that this is only a small part of the picture. There's a lot more that goes into design: a product helping you build an accurate model, showing you what's possible, getting out of your way, and the emotional positive response because of the sheer attention to detail.
-Recently reading Design of Everyday Things, and I _love_ it because it helped me formulate a model of what objectively good design looks like.
-I read RefactoringUI as well, and this felt a lot more 'here are some good rule of thumbs to follow'. Awesome, but I feel I'm still fumbling in the dark. I find myself falling back to these because I don't know better.
-So, do you have any tips or resources for helping improve design sense?
-Comments URL: https://news.ycombinator.com/item?id=34425693
-Points: 3
-# Comments: 2]]></summary>
-        <author>
-            <name>neilkakkar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Read RSS Feeds on Mastodon]]></title>
-        <id>https://news.ycombinator.com/item?id=34425546</id>
-        <link href="https://www.tumfatig.net/2022/read-rss-feeds-on-mastodon/"/>
-        <updated>2023-01-18T11:29:20.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.tumfatig.net/2022/read-rss-feeds-on-mastodon/
-Comments URL: https://news.ycombinator.com/item?id=34425546
-Points: 1
-# Comments: 1]]></summary>
-        <author>
-            <name>donpott</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lecture note on design theory]]></title>
-        <id>https://heydesigner.com/?p=67242</id>
-        <link href="https://heydesigner.com/lecture-note-on-design-theory/"/>
-        <updated>2023-01-18T10:13:40.000Z</updated>
-        <summary type="html"><![CDATA[All designers, at some point, become interested in theory, philosophy, and principles to guide their hand.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From senior designer to lead designer]]></title>
-        <id>https://heydesigner.com/?p=67240</id>
-        <link href="https://heydesigner.com/from-senior-designer-to-lead-designer/"/>
-        <updated>2023-01-18T10:12:20.000Z</updated>
-        <summary type="html"><![CDATA[I didn’t become a principal designer simply by being really good at design. I spent a lot of time filling the gaps on my teams to make them succeed.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Today’s design influencer: quick tips get hits]]></title>
-        <id>https://heydesigner.com/?p=67238</id>
-        <link href="https://heydesigner.com/todays-design-influencer-quick-tips-get-hits/"/>
-        <updated>2023-01-18T10:10:26.000Z</updated>
-        <summary type="html"><![CDATA[I have some recommendations of sites to follow if you want to move beyond bite-sized content and deeper learning.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OKLCH color picker and  converter]]></title>
-        <id>https://heydesigner.com/?p=67236</id>
-        <link href="https://heydesigner.com/oklch-color-picker-and-converter/"/>
-        <updated>2023-01-18T10:07:30.000Z</updated>
-        <summary type="html"><![CDATA[Color picker and converter for OKLCH and LCH color space.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scalable CSS]]></title>
-        <id>https://heydesigner.com/?p=67234</id>
-        <link href="https://heydesigner.com/scalable-css/"/>
-        <updated>2023-01-18T10:06:08.000Z</updated>
-        <summary type="html"><![CDATA[What is the best scalable CSS approach? First, what does scalable CSS mean?]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UX design: looks lie users do scroll]]></title>
-        <id>https://news.ycombinator.com/item?id=34425052</id>
-        <link href="http://abovethefold.fyi/"/>
-        <updated>2023-01-18T09:59:29.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://abovethefold.fyi
-Comments URL: https://news.ycombinator.com/item?id=34425052
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>BaudouinVH</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[There are no stupid mistakes]]></title>
-        <id>https://seths.blog/?p=43621</id>
-        <link href="https://seths.blog/2023/01/there-are-no-stupid-mistakes/"/>
-        <updated>2023-01-18T09:46:00.000Z</updated>
-        <summary type="html"><![CDATA[There are mistakes. These are moments when reality teaches us something. And there’s stupid. This is what happens when we refuse to learn from our mistakes. “Don’t be stupid” is a fine mantra. It’s particularly apt when talking about cultural forces, political agendas and our thoughtless impulses. It’s also useful to remember to “make productive […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You should be saving RSS files in archive.org]]></title>
-        <id>https://news.ycombinator.com/item?id=34424957</id>
-        <link href="https://news.ycombinator.com/item?id=34424957"/>
-        <updated>2023-01-18T09:40:49.000Z</updated>
-        <summary type="html"><![CDATA[Yesterday I was going through all the links in BBC, CNN, Guardian RSS stored during time of pandemic, for research purposes. I downloaded archived RSS files in archive.org, like for http://feeds.bbci.co.uk/news/rss.xml. Unfortunately I have noticed that some days are missing in the archive.org.
-I think it is a good idea, if you have a favorite site, which has a RSS source, to make a call to store it regularly in archive.org for 'the next generations'. https://help.archive.org/help/save-pages-in-the-wayback-machine/.
-I have updated my RSS client to make a such call everyday, even for my fav YouTube RSS sources.
-Even if 'link rot' gets in a way, this might be insightful to see at least link, or title, or description of the RSS entry. Historians might consider it useful some day.
-Comments URL: https://news.ycombinator.com/item?id=34424957
-Points: 16
-# Comments: 4]]></summary>
-        <author>
-            <name>renegat0x0</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changing scoped CSS variables using JavaScript]]></title>
-        <id>https://news.ycombinator.com/item?id=34424212</id>
-        <link href="https://tobiasuhlig.medium.com/changing-scoped-css-variables-using-javascript-96b26dfa43b1"/>
-        <updated>2023-01-18T07:14:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tobiasuhlig.medium.com/changing-scoped-css-variables-using-javascript-96b26dfa43b1
-Comments URL: https://news.ycombinator.com/item?id=34424212
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>tobiu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This is Fine]]></title>
-        <id>bhMtkLQpshQGtAypG</id>
-        <link href="https://www.tumblr.com/kcggggg/706263607432921088/we-passed-it-a-couple-of-days-ago-but-it-has-been"/>
-        <updated>2023-01-18T06:09:37.000Z</updated>
-        <summary type="html"><![CDATA[We passed it a couple of days ago, but it has been 10 years since the strip “On Fire” which became the meme “This is Fine” was posted originally.]]></summary>
-        <author>
-            <name>@kcgreenn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Origin and development of a Snowflake Map]]></title>
-        <id>XmtYkBxR49ZJ4FmSb</id>
-        <link href="https://waterdata.usgs.gov/blog/snow-tiles-demo/"/>
-        <updated>2023-01-18T06:06:33.000Z</updated>
-        <summary type="html"><![CDATA[Reproducible code demonstrating the evolution of a recent data viz of CONUS snow cover]]></summary>
-        <author>
-            <name>@aaarchmiller</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WonderOS]]></title>
-        <id>PB6QzejGTjtqNd7wh</id>
-        <link href="https://wonderos.org/"/>
-        <updated>2023-01-18T06:03:06.000Z</updated>
-        <summary type="html"><![CDATA[An ongoing research project exploring the future of personal computing.]]></summary>
-        <author>
-            <name>Sidebar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What it means to design a platform]]></title>
-        <id>Lesgu69bsHnXAuhbj</id>
-        <link href="https://matthewstrom.com/writing/platform-design"/>
-        <updated>2023-01-18T06:03:04.000Z</updated>
-        <summary type="html"><![CDATA[How interfaces, incentives, emergence, and second-order thinking make platforms a unique design opportunity.]]></summary>
-        <author>
-            <name>@ilikescience</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The UX of Banking: 900 Days of Progress]]></title>
-        <id>7Mt6TFjh7oy9tXKJz</id>
-        <link href="https://builtformars.com/case-studies/ux-banking-chapter-7"/>
-        <updated>2023-01-18T05:59:24.000Z</updated>
-        <summary type="html"><![CDATA[A unique opportunity to revisit 12 UK banks, re-benchmark them, and highlight what 900 days of progress looks like.]]></summary>
-        <author>
-            <name>@Builtformars</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Radical Design of PizzaExpress]]></title>
-        <id>https://news.ycombinator.com/item?id=34422646</id>
-        <link href="https://vittles.substack.com/p/the-radical-design-of-pizzaexpress"/>
-        <updated>2023-01-18T02:18:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://vittles.substack.com/p/the-radical-design-of-pizzaexpress
-Comments URL: https://news.ycombinator.com/item?id=34422646
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>savebykilling</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Useful VS Code Extension for Environment Switching]]></title>
-        <id>https://css-irl.info/a-useful-vscode-extension-for-environment-switching/</id>
-        <link href="https://css-irl.info/a-useful-vscode-extension-for-environment-switching/"/>
-        <updated>2023-01-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Do you find yourself needing to switch between development environments frequently? That's often the case for me. I work on a web app for wind turbine operators, and I regularly need to test my front end code with different databases.
-My colleague recently alerted me to .ENV Switcher, a VS Code extension that makes switching between different environments simple. Once installed, you need to create your different .env files (such as dev.env, release.env). Then you bring up a list of .env files to select from by clicking on a small button at the bottom of the window, and instantly switch to the desired environment. Nice!
-Get the extension →]]></summary>
-        <author>
-            <name>CSS In Real Life</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Discovering the capable web]]></title>
-        <id>https://developer.chrome.com/en/blog/how-fugu-is-my-browser-and-how-fugu-is-the-web/</id>
-        <link href="https://developer.chrome.com/en/blog/how-fugu-is-my-browser-and-how-fugu-is-the-web/"/>
-        <updated>2023-01-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Project Fugu is a cross company effort to close gaps in the web's capabilities, enabling new classes
-of applications to run on the web. More concretely, this means adding new APIs to browsers that app
-developers can use to enable previously impossible use cases. What APIs does your browser of choice
-support? What web applications make use of these APIs? Let's find out!
-# How Fugu is my browser?
-Project Fugu APIs such as File Handling,
-File System Access,
-Async Clipboard, and Web Share
-have brought capabilities to the web that you might expect only to be possible in platform-specific
-apps. For example, you can now double-click an image file so it opens in an associated PWA, make
-modifications, save the changes back to the file, and then copy the image contents over into another
-app or share…]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design of Emacs in Rust]]></title>
-        <id>https://news.ycombinator.com/item?id=34421163</id>
-        <link href="https://coredumped.dev/2023/01/17/design-of-emacs-in-rust/"/>
-        <updated>2023-01-17T23:44:21.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://coredumped.dev/2023/01/17/design-of-emacs-in-rust/
-Comments URL: https://news.ycombinator.com/item?id=34421163
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>rck</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Patterns.dev – Modern Web App Design Patterns]]></title>
-        <id>https://news.ycombinator.com/item?id=34420543</id>
-        <link href="https://www.patterns.dev/"/>
-        <updated>2023-01-17T22:41:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.patterns.dev/
-Comments URL: https://news.ycombinator.com/item?id=34420543
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>DerekBickerton</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do you have a need for UX/UI design work? (FREE)]]></title>
-        <id>https://news.ycombinator.com/item?id=34420327</id>
-        <link href="https://news.ycombinator.com/item?id=34420327"/>
-        <updated>2023-01-17T22:23:32.000Z</updated>
-        <summary type="html"><![CDATA[Avocademy is offering Pro Bono UX/UI Design services.
-We can help you with:
-- UX Research
-- Heuristic Evaluation of your Current Product
-- User Journey Maps
-- Wireframes (Low/ High Fidelity)
-- Redesign of your Websites/Apps
-- Style Guides
-- User Testing
-Some things we don’t do: logos, coding, or development.
-What You Can Expect:
-- Results in 6 weeks
-- Dedicated PM and Senior Designer supporting the team
-- Maximum of 2 hours over weeks of your time required
-- Project plan with key milestones and deliverables
-- Documentation and comments so future developers can easily build the product
-- Recommendations for future features
-Next Steps:
-Fill out this form and someone will contact you to get started!
-https://airtable.com/shriAG2128RVm6zIL
-Comments URL: https://news.ycombinator.com/item?id=34420327
-Points: 10
-# Comments: 0]]></summary>
-        <author>
-            <name>alexavocademy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The truth about CSS selector performance]]></title>
-        <id>https://news.ycombinator.com/item?id=34417527</id>
-        <link href="https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/"/>
-        <updated>2023-01-17T19:36:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/
-Comments URL: https://news.ycombinator.com/item?id=34417527
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>fabiospampinato</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Make G-Sheets a UI for your MongoDB]]></title>
-        <id>https://news.ycombinator.com/item?id=34413960</id>
-        <link href="https://news.ycombinator.com/item?id=34413960"/>
-        <updated>2023-01-17T15:51:05.000Z</updated>
-        <summary type="html"><![CDATA[Hey fellow Sheets lovers,
-I recently wrote a blog post on different ways to sync Google Sheets with MongoDB, and thought it would be useful to lay out the key points here for anybody who is facing this problem!
-The problem
-G sheets is an incredibly popular way for business teams to interact with data. You can use Sheets for internal tools, BI, ad hoc analysis, you name it.
-However, it's extremely tricky to sync data between G sheets and NoSQL databases like MongoDB. This limits the usefulness of either tool.
-So, what options are there? There are a few.
-Method #1: Write your own script
-You could build your own in-house solution using Google's API and MongoDB change streams. Mongo's change streams make it pretty easy to track events in MongoDB, but the Google API is trickier to work with. Fo…]]></summary>
-        <author>
-            <name>vinarun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My talk on CSS runtime performance]]></title>
-        <id>https://news.ycombinator.com/item?id=34413887</id>
-        <link href="https://nolanlawson.com/2023/01/17/my-talk-on-css-runtime-performance/"/>
-        <updated>2023-01-17T15:47:19.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://nolanlawson.com/2023/01/17/my-talk-on-css-runtime-performance/
-Comments URL: https://news.ycombinator.com/item?id=34413887
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>feross</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Authz: Centralized authorization back end using ABAC and RBAC with a UI]]></title>
-        <id>https://news.ycombinator.com/item?id=34412947</id>
-        <link href="https://vincent.composieux.fr/article/authz-authorisation-backend-using-rbac-and-abac"/>
-        <updated>2023-01-17T14:45:58.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://vincent.composieux.fr/article/authz-authorisation-backend-using-rbac-and-abac
-Comments URL: https://news.ycombinator.com/item?id=34412947
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>eko</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rethinking Authentication UX]]></title>
-        <id>https://news.ycombinator.com/item?id=34412781</id>
-        <link href="https://www.smashingmagazine.com/2022/08/authentication-ux-design-guidelines/"/>
-        <updated>2023-01-17T14:31:53.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.smashingmagazine.com/2022/08/authentication-ux-design-guidelines/
-Comments URL: https://news.ycombinator.com/item?id=34412781
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>fagnerbrack</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design of Emacs in Rust]]></title>
-        <id>https://news.ycombinator.com/item?id=34412562</id>
-        <link href="https://coredumped.dev/2023/01/17/design-of-emacs-in-rust/"/>
-        <updated>2023-01-17T14:13:45.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://coredumped.dev/2023/01/17/design-of-emacs-in-rust/
-Comments URL: https://news.ycombinator.com/item?id=34412562
-Points: 4
-# Comments: 0]]></summary>
-        <author>
-            <name>celeritascelery</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Web Design Trends for 2023 That You Should Pay Attention To (Sponsored)]]></title>
-        <id>https://davidwalsh.name/5-web-design-trends-for-2023-that-you-should-pay-attention-to</id>
-        <link href="https://davidwalsh.name/5-web-design-trends-for-2023-that-you-should-pay-attention-to"/>
-        <updated>2023-01-17T14:00:41.000Z</updated>
-        <summary type="html"><![CDATA[<p>The start of a new year is usually a time when we start looking for ways to make something a little better. That something could be our life, work, or what we produce. Web designers, for example, might look for ways to make their designs more interesting or effective. In this post we will focus [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://davidwalsh.name/5-web-design-trends-for-2023-that-you-should-pay-attention-to">5 Web Design Trends for 2023 That You Should Pay Attention To (Sponsored)</a> appeared first on <a rel="nofollow" href="https://davidwalsh.name">David Walsh Blog</a>.</p>
-<p><a href="https://tkjs.us/dwb"><img style="margin:0 auto" alt="" src="https://davidwalsh.name/demo/tjs_block-1.svg"></a></p>]]></summary>
-        <author>
-            <name>David Walsh Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Code Documentation, Streamlined]]></title>
-        <id>https://smashingmagazine.com/2023/01/swimm-code-documentation-streamlined/</id>
-        <link href="https://smashingmagazine.com/2023/01/swimm-code-documentation-streamlined/"/>
-        <updated>2023-01-17T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Writing code documentation can be overwhelming when there’s no smooth process in place. Streamlining best practices and setting automation in your favor works a long way toward getting permanently up-to-date content that reflects the important pieces of your codebase.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Atila Fassina)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[6 Common SVG Fails (and How to Fix Them)]]></title>
-        <id>https://css-tricks.com/?p=376352</id>
-        <link href="https://css-tricks.com/6-common-svg-fails-and-how-to-fix-them/"/>
-        <updated>2023-01-17T13:51:20.000Z</updated>
-        <summary type="html"><![CDATA[Someone recently asked me how I approach debugging inline SVGs. Because it is part of the DOM, we can inspect any inline SVG in any browser DevTools. And because of that, we have the ability to scope things out and …
-6 Common SVG Fails (and How to Fix Them) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
-        <author>
-            <name>Mariana Beldi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accessibility kit for web developers]]></title>
-        <id>https://dailydevlinks.com/?p=11493</id>
-        <link href="https://dailydevlinks.com/accessibility-kit-for-web-developers/"/>
-        <updated>2023-01-17T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[A11YDevelopment]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design System Breakdown: Checkbox & Radio]]></title>
-        <id>https://dailydevlinks.com/?p=11496</id>
-        <link href="https://dailydevlinks.com/design-system-breakdown-checkbox-radio/"/>
-        <updated>2023-01-17T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[UI]]></summary>
-        <author>
-            <name>Adam Marsden</name>
         </author>
     </entry>
 </feed>
