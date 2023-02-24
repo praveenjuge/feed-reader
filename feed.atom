@@ -2,10 +2,367 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2023-02-23T00:04:52.955Z</updated>
+    <updated>2023-02-24T00:05:21.437Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Femke built a design community around her expertise]]></title>
+        <id>https://news.ycombinator.com/item?id=34918624</id>
+        <link href="https://rosie.land/posts/how-femke-built-a-design-community-around-her-expertise/"/>
+        <updated>2023-02-23T23:56:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://rosie.land/posts/how-femke-built-a-design-community-around-her-expertise/
+Comments URL: https://news.ycombinator.com/item?id=34918624
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>rosiesherry</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tech’s Productivity Obsession Is Toxic]]></title>
+        <id>https://news.ycombinator.com/item?id=34915315</id>
+        <link href="https://www.wired.co.uk/article/techs-productivity-obsession-is-toxic"/>
+        <updated>2023-02-23T19:36:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.wired.co.uk/article/techs-productivity-obsession-is-toxic
+Comments URL: https://news.ycombinator.com/item?id=34915315
+Points: 34
+# Comments: 7]]></summary>
+        <author>
+            <name>Balgair</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: A fast, Rust HTML parser that works?]]></title>
+        <id>https://news.ycombinator.com/item?id=34914897</id>
+        <link href="https://news.ycombinator.com/item?id=34914897"/>
+        <updated>2023-02-23T19:05:45.000Z</updated>
+        <summary type="html"><![CDATA[So I'm doing some web scraping in Rust, and so I will need to parse HTML. [scraper](https://docs.rs/scraper/latest/scraper/) (which uses [html5ever](https://github.com/servo/html5ever)) is doing fine except that it's the bottleneck of my application.
+So I need a faster parser. I've tried [tl](https://docs.rs/tl/latest/tl/) which would've been perfect except that it doesn't actually work on the HTML I have. When I try to `query_selector` the elements I need, it returns nothing.
+[Kuchiki](https://docs.rs/kuchiki/latest/kuchiki/) is abandonded.
+I couldn't figure out how to get [lol-html](https://github.com/cloudflare/lol-html) to work for me (it's designed for re-writing HTML, whatever that means). It doesn't seem to have an API to extract the inner text of an element.
+[html5gum](https://github.com/untitaker/html5gum) seems to be just an HTML tokenizer, or otherwise just too low-level. I have not yet tried [quick-xml](https://github.com/tafia/quick-xml/) but judging from the README, it's pretty low-level too. I mean, if these are the only options left then I will try them. Otherwise, I would love to use a parser that's faster but as ergonomic as `scraper` or `tl`.
+At this point, I would be happy with an Lxml bridge/port of some sort. I don't need to mutate HTML, just parse and read data from it.
+Comments URL: https://news.ycombinator.com/item?id=34914897
+Points: 2
+# Comments: 2]]></summary>
+        <author>
+            <name>thatxliner</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windstatic – A set of 161 elements and layouts made with Tailwind and Alpine.js]]></title>
+        <id>https://news.ycombinator.com/item?id=34913164</id>
+        <link href="https://windstatic.com/"/>
+        <updated>2023-02-23T17:03:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://windstatic.com/
+Comments URL: https://news.ycombinator.com/item?id=34913164
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>matijash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: How do you research system design paradigms?]]></title>
+        <id>https://news.ycombinator.com/item?id=34912315</id>
+        <link href="https://news.ycombinator.com/item?id=34912315"/>
+        <updated>2023-02-23T16:07:59.000Z</updated>
+        <summary type="html"><![CDATA[I feel like I often find myself wondering "How do other people do this?" when I need to solve some larger system design question. This usually leads to Google, which usually leads to a bunch of ads. Sorting through this is not the best experience.
+Stack Overflow is also sort of subpar for these sorts of questions - as its short form, and frankly just doesn't contain much of the content I'm looking for.
+I think I'd love a mostly-correct ChatGPT modeled as a system design expert. The current iteration seems kinda shallow, unless my prompts just suck.
+How do other people go about doing this research?
+Comments URL: https://news.ycombinator.com/item?id=34912315
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>sun_har</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dopt: Tools to design/run user state machines with an in-product headless CMS]]></title>
+        <id>https://news.ycombinator.com/item?id=34912310</id>
+        <link href="https://docs.dopt.com/"/>
+        <updated>2023-02-23T16:07:37.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://docs.dopt.com/
+Comments URL: https://news.ycombinator.com/item?id=34912310
+Points: 8
+# Comments: 0]]></summary>
+        <author>
+            <name>alonmower</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Wireframe Kit for Early Research and Testing Concepts]]></title>
+        <id>https://news.ycombinator.com/item?id=34911577</id>
+        <link href="https://indeed.design/article/a-wireframe-kit-for-early-research-and-testing-concepts/"/>
+        <updated>2023-02-23T15:13:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://indeed.design/article/a-wireframe-kit-for-early-research-and-testing-concepts/
+Comments URL: https://news.ycombinator.com/item?id=34911577
+Points: 2
+# Comments: 1]]></summary>
+        <author>
+            <name>betm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: AI and Automations = cool use cases for productivity]]></title>
+        <id>https://news.ycombinator.com/item?id=34911454</id>
+        <link href="https://twitter.com/fibery_io/status/1628754549967056897"/>
+        <updated>2023-02-23T15:03:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://twitter.com/fibery_io/status/1628754549967056897
+Comments URL: https://news.ycombinator.com/item?id=34911454
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>tablet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Tiny HTML Snippet to “Discuss on HN”]]></title>
+        <id>https://news.ycombinator.com/item?id=34910014</id>
+        <link href="https://taylor.town/hn-discuss"/>
+        <updated>2023-02-23T13:07:45.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://taylor.town/hn-discuss
+Comments URL: https://news.ycombinator.com/item?id=34910014
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>surprisetalk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Make it easier” is not a product strategy]]></title>
+        <id>https://dailydevlinks.com/?p=11737</id>
+        <link href="https://dailydevlinks.com/make-it-easier-is-not-a-product-strategy/"/>
+        <updated>2023-02-23T12:33:00.000Z</updated>
+        <summary type="html"><![CDATA[Design]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Last baseline alignment]]></title>
+        <id>https://dailydevlinks.com/?p=11740</id>
+        <link href="https://dailydevlinks.com/last-baseline-alignment/"/>
+        <updated>2023-02-23T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Netflix brand system by Koto Studio]]></title>
+        <id>https://heydesigner.com/?p=67546</id>
+        <link href="https://heydesigner.com/netflix-brand-system-by-koto-studio/"/>
+        <updated>2023-02-23T10:34:55.000Z</updated>
+        <summary type="html"><![CDATA[We evolved their previous system by connecting iconography, typography, and illustration to roots within the cinematic universe, referencing effects and techniques reminiscent of the film-making process.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The three faces of design research]]></title>
+        <id>https://heydesigner.com/?p=67544</id>
+        <link href="https://heydesigner.com/the-three-faces-of-design-research/"/>
+        <updated>2023-02-23T10:15:21.000Z</updated>
+        <summary type="html"><![CDATA[I didn’t know much about design research when I began doing it nearly 10 years ago.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Surviving design systems]]></title>
+        <id>https://heydesigner.com/?p=67542</id>
+        <link href="https://heydesigner.com/surviving-design-systems/"/>
+        <updated>2023-02-23T10:14:26.000Z</updated>
+        <summary type="html"><![CDATA[Keeping yourself and a Design System alive long-term with effective maintenance and some fresh motivation.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Buttons, links, and focus]]></title>
+        <id>https://heydesigner.com/?p=67540</id>
+        <link href="https://heydesigner.com/buttons-links-and-focus/"/>
+        <updated>2023-02-23T10:13:47.000Z</updated>
+        <summary type="html"><![CDATA[Knowing when to use a button or link is important, and there’s some great guidance out there. Here’s another way to work out when to use which.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resizing with CSS]]></title>
+        <id>https://heydesigner.com/?p=67538</id>
+        <link href="https://heydesigner.com/resizing-with-css/"/>
+        <updated>2023-02-23T10:12:27.000Z</updated>
+        <summary type="html"><![CDATA[In case you missed it, container queries landed in all stable browsers this week.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mercedes-Benz – The new E-Class: dimensional concept and interior design]]></title>
+        <id>https://news.ycombinator.com/item?id=34908705</id>
+        <link href="https://media.mbusa.com/releases/release-5b4adbb64b571bfd29dec5cd0a0115ad-the-new-e-class-dimensional-concept-and-interior-design"/>
+        <updated>2023-02-23T09:58:30.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://media.mbusa.com/releases/release-5b4adbb64b571bfd29dec5cd0a0115ad-the-new-e-class-dimensional-concept-and-interior-design
+Comments URL: https://news.ycombinator.com/item?id=34908705
+Points: 3
+# Comments: 3]]></summary>
+        <author>
+            <name>Madko</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Checking the date]]></title>
+        <id>https://seths.blog/?p=44996</id>
+        <link href="https://seths.blog/2023/02/checking-the-date/"/>
+        <updated>2023-02-23T09:41:00.000Z</updated>
+        <summary type="html"><![CDATA[After 2022, it’s hard to tell for sure. And going forward, public life is going to be even more rumor-driven than it is now. Any video, any voiceover, any photograph–we can’t be sure. If YouTube or the Wayback Machine shows us that it happened after 2022, bring some doubt. AI and digital cools can produce a perfect voiceover, edit a video, forge a document… There have always been forces at work that prize disrupting our civic systems. But thanks to AI and digital deepfakes, it’s significantly easier to create and spread a story that simply didn’t happen. A speech that […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS: The modern web’s underrated powerhouse]]></title>
+        <id>https://news.ycombinator.com/item?id=34908499</id>
+        <link href="https://github.com/readme/featured/css-future"/>
+        <updated>2023-02-23T09:17:04.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/readme/featured/css-future
+Comments URL: https://news.ycombinator.com/item?id=34908499
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>skilled</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MauiKit UI Framework: Development Report 21]]></title>
+        <id>https://news.ycombinator.com/item?id=34908461</id>
+        <link href="https://mauikit.org/blog/maui-report-21/"/>
+        <updated>2023-02-23T09:10:21.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://mauikit.org/blog/maui-report-21/
+Comments URL: https://news.ycombinator.com/item?id=34908461
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>jlpcsl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nearly 1/4 children’s Google Play Apps breach ICO’s age-appropriate design code]]></title>
+        <id>https://news.ycombinator.com/item?id=34908029</id>
+        <link href="https://www.comparitech.com/blog/vpn-privacy/app-ico-study/"/>
+        <updated>2023-02-23T07:56:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.comparitech.com/blog/vpn-privacy/app-ico-study/
+Comments URL: https://news.ycombinator.com/item?id=34908029
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>t0bia_s</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Windstatic.160 Free Elements and Layout with Tailwind CSS and Alpine.js]]></title>
+        <id>https://news.ycombinator.com/item?id=34908004</id>
+        <link href="https://windstatic.com/"/>
+        <updated>2023-02-23T07:51:41.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://windstatic.com/
+Comments URL: https://news.ycombinator.com/item?id=34908004
+Points: 4
+# Comments: 1]]></summary>
+        <author>
+            <name>Mike_Andreuzza</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Try out CSS Nesting today]]></title>
+        <id>WHTq7bNEQ98c6nvM7</id>
+        <link href="https://webkit.org/blog/13813/try-css-nesting-today-in-safari-technology-preview"/>
+        <updated>2023-02-23T07:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Back in December, we wrote an article detailing three different options for CSS Nesting.]]></summary>
+        <author>
+            <name>@webkit</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resizing with CSS]]></title>
+        <id>jvb7f4GvPYLi73KXs</id>
+        <link href="https://css-irl.info/resizing-with-css/"/>
+        <updated>2023-02-23T07:34:18.000Z</updated>
+        <summary type="html"><![CDATA[In case you missed it, container queries landed in all stable browsers this week.]]></summary>
+        <author>
+            <name>@CSSInRealLife</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Last Baseline Alignment]]></title>
+        <id>xjjwuqJgev3LamuZD</id>
+        <link href="https://web.dev/last-baseline/"/>
+        <updated>2023-02-23T07:31:17.000Z</updated>
+        <summary type="html"><![CDATA[All major browser engines now support last baseline alignment in CSS grid and flexbox.]]></summary>
+        <author>
+            <name>@chromiumdev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Make it easier” is not a product strategy]]></title>
+        <id>hdHTEpfM6CX4dEtfo</id>
+        <link href="https://uxdesign.cc/make-it-easier-is-not-a-product-strategy-5d0fdab1f76e"/>
+        <updated>2023-02-23T07:30:19.000Z</updated>
+        <summary type="html"><![CDATA[To understand the value to your customer, you need to start with research into their problems, not skip to validating features]]></summary>
+        <author>
+            <name>@uxdesigncc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shift Happens Preview]]></title>
+        <id>SK76pc5SmSMKFbdmp</id>
+        <link href="https://www.arun.is/blog/shift-happens-preview/"/>
+        <updated>2023-02-23T07:24:33.000Z</updated>
+        <summary type="html"><![CDATA[Here’s a little preview of Marcin Wichary’s long-awaited book, Shift Happens.]]></summary>
+        <author>
+            <name>@zhenpixels</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disqualified from a National Web Design Competition for Using GitHub]]></title>
+        <id>https://news.ycombinator.com/item?id=34906444</id>
+        <link href="https://medium.com/@shiloholotu/disqualified-from-a-national-web-design-competition-for-using-github-c26e103b157a"/>
+        <updated>2023-02-23T03:37:29.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://medium.com/@shiloholotu/disqualified-from-a-national-web-design-competition-for-using-github-c26e103b157a
+Comments URL: https://news.ycombinator.com/item?id=34906444
+Points: 441
+# Comments: 290]]></summary>
+        <author>
+            <name>101008</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[De novo design of luciferases using deep learning]]></title>
+        <id>https://news.ycombinator.com/item?id=34906337</id>
+        <link href="https://www.nature.com/articles/s41586-023-05696-3"/>
+        <updated>2023-02-23T03:23:55.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nature.com/articles/s41586-023-05696-3
+Comments URL: https://news.ycombinator.com/item?id=34906337
+Points: 3
+# Comments: 1]]></summary>
+        <author>
+            <name>bglazer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>http://benmccormick.micro.blog/2023/02/22/really-enjoyed-these.html</id>
+        <link href="https://benmccormick.org/2023/02/22/really-enjoyed-these.html"/>
+        <updated>2023-02-23T02:36:41.000Z</updated>
+        <summary type="html"><![CDATA[Really enjoyed these reflections on LLMs:  medium.learningbyshipping.com
+AI, ChatGPT, and Bing…Oh My]]></summary>
+        <author>
+            <name>Herding Lions</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[People do use Add to Home Screen]]></title>
         <id>https://blog.mozilla.org/ux/?p=4471</id>
@@ -37,6 +394,16 @@ Points: 1
 # Comments: 0]]></summary>
         <author>
             <name>legrande</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building Future-Proof High-Performance Websites With Astro Islands And Headless CMS]]></title>
+        <id>https://smashingmagazine.com/2023/02/building-future-proof-high-performance-websites-astro-islands-headless-cms-storyblok/</id>
+        <link href="https://smashingmagazine.com/2023/02/building-future-proof-high-performance-websites-astro-islands-headless-cms-storyblok/"/>
+        <updated>2023-02-22T17:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Let’s see how to achieve phenomenal web performance and great developer experience with Astro and a headless CMS, resulting in the best possible experience for users, developers and content creators alike.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Manuel Schröder)</name>
         </author>
     </entry>
     <entry>
@@ -8956,519 +9323,6 @@ The post The End of Writing appeared first on iA.]]></summary>
         <summary type="html"><![CDATA[How do we design effective reviews and ratings? With a distribution chart, decimal scores, tags, recommendation score and unedited product photos.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Vitaly Friedman)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The CSS at w3.org is gone]]></title>
-        <id>https://news.ycombinator.com/item?id=34517214</id>
-        <link href="https://www.w3.org/"/>
-        <updated>2023-01-25T11:56:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.w3.org/
-Comments URL: https://news.ycombinator.com/item?id=34517214
-Points: 107
-# Comments: 65]]></summary>
-        <author>
-            <name>internetter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can a productivity tool change lives?]]></title>
-        <id>https://news.ycombinator.com/item?id=34516872</id>
-        <link href="https://tally.so/r/n9NYNQ"/>
-        <updated>2023-01-25T10:59:39.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://tally.so/r/n9NYNQ
-Comments URL: https://news.ycombinator.com/item?id=34516872
-Points: 10
-# Comments: 3]]></summary>
-        <author>
-            <name>productivelif</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The UX of Banking: 900 days of progress]]></title>
-        <id>https://heydesigner.com/?p=67295</id>
-        <link href="https://heydesigner.com/the-ux-of-banking-900-days-of-progress/"/>
-        <updated>2023-01-25T10:30:21.000Z</updated>
-        <summary type="html"><![CDATA[A unique opportunity to revisit 12 UK banks, re-benchmark them, and highlight what 900 days of progress looks like.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why is writing beneficial to UI Designer?]]></title>
-        <id>https://heydesigner.com/?p=67293</id>
-        <link href="https://heydesigner.com/why-is-writing-beneficial-to-ui-designer/"/>
-        <updated>2023-01-25T10:28:00.000Z</updated>
-        <summary type="html"><![CDATA[Every design project or task needs documentation at some point in the process, whether it’s a technical write-up for your development team or a client specification document.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Be prolific: Why more is more for creative impact]]></title>
-        <id>https://heydesigner.com/?p=67291</id>
-        <link href="https://heydesigner.com/be-prolific-why-more-is-more-for-creative-impact/"/>
-        <updated>2023-01-25T10:26:23.000Z</updated>
-        <summary type="html"><![CDATA[Plus, 5 strategies for increasing your creative output]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On OKRs and the art of setting unobtainable goals]]></title>
-        <id>https://heydesigner.com/?p=67289</id>
-        <link href="https://heydesigner.com/on-okrs-and-the-art-of-setting-unobtainable-goals/"/>
-        <updated>2023-01-25T10:25:18.000Z</updated>
-        <summary type="html"><![CDATA[In the pursuit of the impossible.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS Wishlist 2023]]></title>
-        <id>https://heydesigner.com/?p=67287</id>
-        <link href="https://heydesigner.com/css-wishlist-2023/"/>
-        <updated>2023-01-25T10:24:33.000Z</updated>
-        <summary type="html"><![CDATA[Here’s my Top 5 short list of CSS features I want based on the work I do on a daily basis.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design and Evaluation of Optimal Free Trials]]></title>
-        <id>https://news.ycombinator.com/item?id=34516017</id>
-        <link href="https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4507?_cio_id=b4e70502ff9901e0ee04&amp;"/>
-        <updated>2023-01-25T08:54:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4507?_cio_id=b4e70502ff9901e0ee04&
-Comments URL: https://news.ycombinator.com/item?id=34516017
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>wrechen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“What do you do around here?”]]></title>
-        <id>https://seths.blog/?p=43650</id>
-        <link href="https://seths.blog/2023/01/what-do-you-do-around-here/"/>
-        <updated>2023-01-25T08:33:00.000Z</updated>
-        <summary type="html"><![CDATA[There are lots of useful, honest answers. Some might include: I do what I’m told I challenge the status quo I show up on time I solve complicated problems I absorb nonsense and create calm for others I raise our standards I help people feel seen I’m steady I don’t cause trouble I bring energy […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Model View Controller design pattern]]></title>
-        <id>https://news.ycombinator.com/item?id=34515122</id>
-        <link href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"/>
-        <updated>2023-01-25T06:34:48.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
-Comments URL: https://news.ycombinator.com/item?id=34515122
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>revskill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wonders of Street View]]></title>
-        <id>rwa25kKcQTKvyAouB</id>
-        <link href="https://neal.fun/wonders-of-street-view/"/>
-        <updated>2023-01-25T06:15:13.000Z</updated>
-        <summary type="html"><![CDATA[Explore the weird and wonderful things on Google Street View.]]></summary>
-        <author>
-            <name>@nealagarwal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Greater styling control over type with `initial-letter`]]></title>
-        <id>2KnA38fiStjceivgP</id>
-        <link href="https://blog.stephaniestimac.com/posts/2023/1/css-initial-letter"/>
-        <updated>2023-01-25T05:56:51.000Z</updated>
-        <summary type="html"><![CDATA[An overview of the new CSS property initial-letter for more styling control over the first letter.]]></summary>
-        <author>
-            <name>@seaotta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating the Wikimedia Design System]]></title>
-        <id>5JzqJroRZNZpLC499</id>
-        <link href="https://diff.wikimedia.org/2022/12/22/creating-the-wikimedia-design-system/"/>
-        <updated>2023-01-25T05:50:03.000Z</updated>
-        <summary type="html"><![CDATA[Wikipedia has been around for two decades, and the Wikimedia ecosystem has grown over the years.]]></summary>
-        <author>
-            <name>@wikimedia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sketch.com Redesign]]></title>
-        <id>rGx5F8g2LpGdKHuRJ</id>
-        <link href="https://www.sketch.com/"/>
-        <updated>2023-01-25T05:48:35.000Z</updated>
-        <summary type="html"><![CDATA[Sketch, the all-in-one platform for digital design, redesigned their homepage and marketing site.]]></summary>
-        <author>
-            <name>@sketch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Logggos — Well-Designed Logos for Your Inspiration]]></title>
-        <id>QSQmZv4tdWjyTcsPq</id>
-        <link href="https://www.logggos.club/"/>
-        <updated>2023-01-25T05:47:30.000Z</updated>
-        <summary type="html"><![CDATA[Discover inspiring logos sorted by industries, themes, typography style, branding color and more.]]></summary>
-        <author>
-            <name>@hvost</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rsslay: Turns RSS or Atom feeds into Nostr profiles]]></title>
-        <id>https://news.ycombinator.com/item?id=34513193</id>
-        <link href="https://rsslay.nostr.net/"/>
-        <updated>2023-01-25T01:33:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://rsslay.nostr.net/
-Comments URL: https://news.ycombinator.com/item?id=34513193
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>disadvantage</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Five typography trends set to make waves in 2023]]></title>
-        <id>https://news.ycombinator.com/item?id=34512860</id>
-        <link href="https://www.itsnicethat.com/features/forward-thinking-five-typography-trends-graphic-design-040123"/>
-        <updated>2023-01-25T00:53:16.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.itsnicethat.com/features/forward-thinking-five-typography-trends-graphic-design-040123
-Comments URL: https://news.ycombinator.com/item?id=34512860
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>vmoore</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Quick Website Redesign]]></title>
-        <id>https://css-irl.info/a-quick-website-redesign/</id>
-        <link href="https://css-irl.info/a-quick-website-redesign/"/>
-        <updated>2023-01-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In my 2023 review I mentioned that I wanted to give this site a revamp. This week I carved out some time to do just that. So, here it is: Welcome to the new and improved CSS { IRL }!
-Design improvements
-I felt like the previous UI was becoming a bit muddled as I added new features on an ad-hoc basis, without sitting down and committing to a plan. Also, I was just sick of looking at it! So this design is a bit more stripped back visually, without to many unnecessary flourishes, while still keeping some nice little touches, like animated underlines on hover. Other improvements include a better mobile experience (via the expanding/collapsing tag menu), and the ability to filter by category of post (currently “articles”, “notes” or “quick tips”, which I might add to over time).
-If I had any se…]]></summary>
-        <author>
-            <name>CSS In Real Life</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Longer extension service worker lifetimes]]></title>
-        <id>https://developer.chrome.com/en/blog/longer-esw-lifetimes/</id>
-        <link href="https://developer.chrome.com/en/blog/longer-esw-lifetimes/"/>
-        <updated>2023-01-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Starting in Chrome 110 (in beta as of February 7, 2023), extension service workers stay alive as long as they're receiving events. This corrects a timing problem in the previous implementation of extension service workers. It was possible for timeouts to occur when new events were in the event queue and for the timeouts to truncate asynchronous work. This improvement removes the hard five-minute maximum lifetime for extension service workers.
-This article describes how these behaviors have changed.
-# Background
-Extension service workers mostly behave like web service workers, but in addition to service worker events, extension service workers can also listen to extension events. While normal service worker events extend the service worker's lifetime, before the release of 110 only a few ex…]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meet the top layer: a solution to z-index:10000]]></title>
-        <id>https://developer.chrome.com/en/blog/what-is-the-top-layer/</id>
-        <link href="https://developer.chrome.com/en/blog/what-is-the-top-layer/"/>
-        <updated>2023-01-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The top layer sits above its related document in the browser viewport, and each document has one associated top layer. This means that elements promoted to the top layer needn't worry about z-index or DOM hierarchy. They also get a neat ::backdrop pseudo-element to play with. The Fullscreen API spec goes into more details as Fullscreen was a great example of the top layer in use before dialog support came along.
-The top layer helps solve the problem of rendering content above the rest of the document.
-The important things to remember:
-Top layer is outside of the document flow.
-z-index has no effect in the top layer.
-Each element in the top layer has a styleable ::backdrop pseudo-element.
-Each element and ::backdrop generates a new stacking context.
-Elements in the top layer are stacked in …]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scrollend, a new JavaScript event]]></title>
-        <id>https://developer.chrome.com/en/blog/scrollend-a-new-javascript-event/</id>
-        <link href="https://developer.chrome.com/en/blog/scrollend-a-new-javascript-event/"/>
-        <updated>2023-01-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Before the scrollend event, there was no reliable way to detect that a scroll
-was complete. This meant that events would fire late or while a user's finger
-was still down on the screen. This unreliability in knowing when scroll has
-actually ended, led to bugs and a poor experience for the user.
-document.onscroll = event => {
-  clearTimeout(window.scrollEndTimer)
-  window.scrollEndTimer = setTimeout(callback, 100)
-}
-The best this setTimeout() strategy can do is know if scroll has stopped for
-100ms. This makes it more like a scroll has paused event, not a scroll has
-ended event.
-After the
-scrollend
-event, the browser does all this difficult evaluation for you.
-document.onscrollend = event => {…}
-That's the good stuff. Perfectly timed and packed full of meaningful conditions
-before emitting.
-…]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Basic offline page for web apps on Chrome Android]]></title>
-        <id>https://developer.chrome.com/en/blog/default-offline/</id>
-        <link href="https://developer.chrome.com/en/blog/default-offline/"/>
-        <updated>2023-01-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Installed platform apps can be launched even when offline. In this situation they often include a page letting the user know internet access is not available. Some developers even create a full set of features that can be used while offline.
-With web apps, the capability to work offline is more recent; it became possible with the launch of the Service Worker API. Also, when websites became installable, PWA added a requirement to register a service worker and implement its fetch() method in order for a web app to be installable.
-The idea was to incentivize developers to provide their users at least a notice that the app couldn’t be used at the moment.
-Now developers won’t need to do anything to get a default offline page. From Chrome 109 on Android, the browser will automatically generate a page that lets the user know when they are offline.
-If the app doesn’t implement a custom offline experience, when the user is offline, the default offline page uses the app’s icon and simple You are offline message. Like the example below.
-Visit this glitch to see the previous example in action.
-The option to create your own custom offline page is still available. The following video demonstrates how to serve your custom page, using Workbox, with a single line of code.
-
-
-Even though the feature is available on Android only at the moment, we are working to bring it to desktop as well. If you have any feedback send it our way via this form
-Photo by Sten Ritterfeld on Unsplash]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Offscreen Documents in Manifest V3]]></title>
-        <id>https://developer.chrome.com/en/blog/Offscreen-Documents-in-Manifest-v3/</id>
-        <link href="https://developer.chrome.com/en/blog/Offscreen-Documents-in-Manifest-v3/"/>
-        <updated>2023-01-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[To replace functionality in the transition from background pages to extension service workers, developers can use the chrome.offscreen API and manifest permission starting in Chrome 109. Requesting this permission allows for the creation of off-screen documents to use DOM APIs without obtrusively opening new windows or tabs that interrupt the user experience. The chrome.offscreen API documentation is now available in chrome extensions.
-In Chromium, Manifest V3 extensions are service worker-based, but service workers don't provide support for the same APIs and mechanisms that full document-based pages (which include background and event pages) do. Additionally, using content scripts to access DOM APIs on web pages leaves the extension at the mercy of different content security policies on a…]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bringing Typesafety to Tailwind]]></title>
-        <id>https://news.ycombinator.com/item?id=34511867</id>
-        <link href="https://typewind.vercel.app/"/>
-        <updated>2023-01-24T23:00:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://typewind.vercel.app/
-Comments URL: https://news.ycombinator.com/item?id=34511867
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>aloukissas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tremor.so: How we design dashboard components]]></title>
-        <id>https://news.ycombinator.com/item?id=34510767</id>
-        <link href="https://www.tremor.so/journal/component-design"/>
-        <updated>2023-01-24T21:34:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.tremor.so/journal/component-design
-Comments URL: https://news.ycombinator.com/item?id=34510767
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>exod983</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New NASA nuclear rocket design enables 45-day Mars transit]]></title>
-        <id>https://news.ycombinator.com/item?id=34509383</id>
-        <link href="https://www.nasa.gov/directorates/spacetech/niac/2023/New_Class_of_Bimodal/"/>
-        <updated>2023-01-24T20:00:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.nasa.gov/directorates/spacetech/niac/2023/New_Class_of_Bimodal/
-Comments URL: https://news.ycombinator.com/item?id=34509383
-Points: 3
-# Comments: 1]]></summary>
-        <author>
-            <name>DennisP</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: HTML 1.0-ish links recently posted to HN]]></title>
-        <id>https://news.ycombinator.com/item?id=34509173</id>
-        <link href="https://news.coffee/pala"/>
-        <updated>2023-01-24T19:48:26.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://news.coffee/pala
-Comments URL: https://news.ycombinator.com/item?id=34509173
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>alphabet9000</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beautifully designed components built with Radix UI and Tailwind CSS]]></title>
-        <id>https://news.ycombinator.com/item?id=34508715</id>
-        <link href="https://github.com/shadcn/ui"/>
-        <updated>2023-01-24T19:21:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/shadcn/ui
-Comments URL: https://news.ycombinator.com/item?id=34508715
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>fmerian</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beautifully designed components built with Radix UI and Tailwind CSS]]></title>
-        <id>https://news.ycombinator.com/item?id=34508715</id>
-        <link href="https://github.com/shadcn/ui"/>
-        <updated>2023-01-24T19:21:50.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/shadcn/ui
-Comments URL: https://news.ycombinator.com/item?id=34508715
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>fmerian</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[U.S. Approves First Small Modular Nuclear Reactor Design]]></title>
-        <id>https://news.ycombinator.com/item?id=34508507</id>
-        <link href="https://gizmodo.com/usa-approves-first-small-modular-nuclear-reactor-design-1850024656"/>
-        <updated>2023-01-24T19:10:18.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://gizmodo.com/usa-approves-first-small-modular-nuclear-reactor-design-1850024656
-Comments URL: https://news.ycombinator.com/item?id=34508507
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>mikece</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Designer Showcase of everyone who has stolen his design]]></title>
-        <id>https://news.ycombinator.com/item?id=34507840</id>
-        <link href="https://copydennis.com/"/>
-        <updated>2023-01-24T18:31:47.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://copydennis.com
-Comments URL: https://news.ycombinator.com/item?id=34507840
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>davezatch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linelith Level Design Timeline]]></title>
-        <id>https://news.ycombinator.com/item?id=34506957</id>
-        <link href="https://cwpat.me/misc/linelith-level-design-timeline/"/>
-        <updated>2023-01-24T17:33:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cwpat.me/misc/linelith-level-design-timeline/
-Comments URL: https://news.ycombinator.com/item?id=34506957
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>hcs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[So you can set an SVG circle’s radius in CSS?]]></title>
-        <id>https://news.ycombinator.com/item?id=34506914</id>
-        <link href="https://cloudfour.com/thinks/so-you-can-set-an-svg-circles-radius-in-css/"/>
-        <updated>2023-01-24T17:31:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cloudfour.com/thinks/so-you-can-set-an-svg-circles-radius-in-css/
-Comments URL: https://news.ycombinator.com/item?id=34506914
-Points: 3
-# Comments: 1]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The US certifies the first small modular nuclear reactor design]]></title>
-        <id>https://news.ycombinator.com/item?id=34504589</id>
-        <link href="https://www.theverge.com/2023/1/23/23567711/nuclear-energy-advanced-small-modular-reactor-design-certified"/>
-        <updated>2023-01-24T15:16:34.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.theverge.com/2023/1/23/23567711/nuclear-energy-advanced-small-modular-reactor-design-certified
-Comments URL: https://news.ycombinator.com/item?id=34504589
-Points: 4
-# Comments: 0]]></summary>
-        <author>
-            <name>BerislavLopac</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Culture, Care and Typography]]></title>
-        <id>https://news.ycombinator.com/item?id=34504543</id>
-        <link href="https://seths.blog/2023/01/culture-care-and-typography/"/>
-        <updated>2023-01-24T15:14:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://seths.blog/2023/01/culture-care-and-typography/
-Comments URL: https://news.ycombinator.com/item?id=34504543
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>gmays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS Wishlist 2023]]></title>
-        <id>https://daverupert.com/2023/01/css-wishlist-2023/</id>
-        <link href="https://daverupert.com/2023/01/css-wishlist-2023/"/>
-        <updated>2023-01-24T14:37:00.000Z</updated>
-        <summary type="html"><![CDATA[2022 was a massive year for CSS. We got CSS Layers, more subgrid support, the impossible :has() selector, and WE GOT CONTAINER QUERIES! 🎉  Thank you to everyone who worked on those. A lot of the success for CSS this past year was due to an incredible cross-browser effort called Interop 2022, a loose agreement amongst browsers to try to work on some of the same features so feature support gaps between browsers are shorter.
-I’m thankful for what we’ve gotten, but I don’t want to stop dreaming. I have no idea what’s in store for Interop 2023, but here’s my Top 5 short list of CSS features I want based on the work I do on a daily basis.
-<selectmenu> - Technically HTML, but fully style-able select menus. This exists in Chrome Canary behind a flag (and Origin Trial?). According to Edge this is …]]></summary>
-        <author>
-            <name>daverupert.com</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Vision Models to Parse UI]]></title>
-        <id>https://news.ycombinator.com/item?id=34503907</id>
-        <link href="https://news.ycombinator.com/item?id=34503907"/>
-        <updated>2023-01-24T14:25:18.000Z</updated>
-        <summary type="html"><![CDATA[Hello. I was curious whether there are any existing vision models out there for either object classification of individual UI elements, or object detection of UI elements within their broader context.
-Comments URL: https://news.ycombinator.com/item?id=34503907
-Points: 17
-# Comments: 8]]></summary>
-        <author>
-            <name>darepublic</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Propellant-less spacecraft acceleration using split design]]></title>
-        <id>https://news.ycombinator.com/item?id=34503555</id>
-        <link href="https://andrisa1.github.io/"/>
-        <updated>2023-01-24T13:56:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://andrisa1.github.io/
-Comments URL: https://news.ycombinator.com/item?id=34503555
-Points: 1
-# Comments: 1]]></summary>
-        <author>
-            <name>andrisa1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Build better products by playing video games]]></title>
-        <id>https://dailydevlinks.com/?p=11546</id>
-        <link href="https://dailydevlinks.com/build-better-products-by-playing-video-games/"/>
-        <updated>2023-01-24T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Design]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Level Up Your CSS Skills With The :has() Selector]]></title>
-        <id>https://dailydevlinks.com/?p=11534</id>
-        <link href="https://dailydevlinks.com/level-up-your-css-skills-with-the-has-selector/"/>
-        <updated>2023-01-24T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Things to do and not to do during a wave of tech layoffs]]></title>
-        <id>https://christianheilmann.com/?p=7513</id>
-        <link href="https://christianheilmann.com/2023/01/24/things-to-do-and-not-to-do-during-a-wave-of-tech-layoffs/"/>
-        <updated>2023-01-24T12:18:45.000Z</updated>
-        <summary type="html"><![CDATA[Currently we are in a huge round of tech layoffs that are reminiscent of the first .com crash in the beginning of the century. Meta, Amazon, Microsoft and now Google announced layoffs in the 10k range and it seems no one is spared. New people as well as people who have been at companies for […]]]></summary>
-        <author>
-            <name>Chris Heilmann</name>
         </author>
     </entry>
 </feed>
