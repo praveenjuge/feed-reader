@@ -51,6 +51,16 @@
       "siteUrl": "https://adrianroselli.com",
       "articles": [
         {
+          "id": "https://adrianroselli.com/?p=13778",
+          "author": "Adrian Roselli",
+          "description": "This post was written in early 2022 and sat in a corner of my site, hidden from the world, after AudioEye sent me a legal threat over a handful of tweets in April 2022. I opted not to poke this well-funded bully as a self-employed consultant. As such, the videos…",
+          "link": "https://adrianroselli.com/2023/02/audioeye-will-get-you-sued.html",
+          "publishedOn": "2023-02-26T23:11:38.000Z",
+          "wordCount": 4313,
+          "title": "#AudioEye Will Get You Sued",
+          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2022/05/AudioEye-Redacted_activate_poster-300x234.jpg"
+        },
+        {
           "id": "https://adrianroselli.com/?p=21715",
           "author": "Adrian Roselli",
           "description": "This post is part of RSS Club, rewarding those who still use RSS to read and/or share content. These posts are embargoed from my regular post feed and the socials for an arbitrary number of weeks. You can see all the RSS-only posts at AdrianRoselli.com/category/RSS. Tell your friends (to get…",
@@ -493,16 +503,6 @@
           "wordCount": 3891,
           "title": "Caching Data in SvelteKit",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/376634"
-        },
-        {
-          "id": "https://css-tricks.com/?p=376674",
-          "author": "Geoff Graham",
-          "description": "Tucked down somewhere in the Safari Technology Preview 161 release notes is a seemingly innocous line about support for a new HTML element and attribute:\nAdded support for <model src> and honor <source type> attributes (257518@main)\nAnytime I …\nAR, VR, and a Model for 3D in HTML originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/ar-vr-and-a-model-for-3d-in-html/",
-          "publishedOn": "2023-01-27T14:15:43.000Z",
-          "wordCount": 1524,
-          "title": "AR, VR, and a Model for 3D in HTML",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/376674"
         }
       ]
     },
@@ -1020,26 +1020,6 @@
           "wordCount": 2854,
           "title": "Prompt-Driven Design",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11578",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://dailydevlinks.com/animating-css-grid-how-to-examples/",
-          "publishedOn": "2023-01-27T12:30:00.000Z",
-          "wordCount": 2879,
-          "title": "Animating CSS Grid (How To + Examples)",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11572",
-          "author": "Adam Marsden",
-          "description": "CSSHTMLJS",
-          "link": "https://dailydevlinks.com/locking-body-scroll-for-modals-on-ios/",
-          "publishedOn": "2023-01-27T12:30:00.000Z",
-          "wordCount": 2879,
-          "title": "Locking body scroll for modals on iOS",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
         }
       ]
     },
@@ -1152,16 +1132,6 @@
           "publishedOn": "2023-01-29T19:13:00.000Z",
           "wordCount": 555,
           "title": "Yoinking auto-transcripts from Slack",
-          "imageUrl": null
-        },
-        {
-          "id": "https://daverupert.com/2023/01/using-ai-to-appease-jest/",
-          "author": null,
-          "description": "Friday evening at 5pm on my way out of work I was about to push a feature fix up to add some encryption and decryption using crypto-js.  The API looks like this:\n\nimport CryptoJS from 'crypto-js'\n\nconst encryptedThing = CryptoJS.AES.encrypt(\"message\", SECRET_KEY).toString()\nconst decryptedThing = CryptoJS.AES.decrypt(encryptedThing, SECRET_KEY).toString(CryptoJS.enc.Utf8)\n\n\nIt’s an AES cipher block that puts a message in a cipher, and decrypts it on the other end. Cool. It uses math, like popular cryptographic technology Bitcoin, so you know it’s good.\nAs I was ready to push the code up, my tests were failing in the prepush hook. I knew the code was working but I’d have to appease Jest. Jest’s issue was it didn’t know about the import CryptoJS from 'crypto-js' part because it only understa…",
-          "link": "https://daverupert.com/2023/01/using-ai-to-appease-jest/",
-          "publishedOn": "2023-01-27T15:48:00.000Z",
-          "wordCount": 967,
-          "title": "Using AI to appease Jest",
           "imageUrl": null
         }
       ]
@@ -1470,6 +1440,56 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=67560",
+          "author": "Travis",
+          "description": "A brand refresh for one of the world’s biggest streaming services welcomes fans of all kinds to a universe of entertainment.",
+          "link": "https://heydesigner.com/prime-video-a-brand-refresh-by-pentagram/",
+          "publishedOn": "2023-02-26T17:28:54.000Z",
+          "wordCount": 208,
+          "title": "Prime Video: A brand refresh by Pentagram",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67558",
+          "author": "Travis",
+          "description": "This document outlines a non-exhaustive list of details that make a good (web) interface. It is a living document, periodically updated based on personal learnings.",
+          "link": "https://heydesigner.com/web-interface-guidelines/",
+          "publishedOn": "2023-02-26T17:24:36.000Z",
+          "wordCount": 203,
+          "title": "Web interface guidelines",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67555",
+          "author": "Travis",
+          "description": "Hundreds of design-related quotes organized into 36 different topics in this collection.",
+          "link": "https://heydesigner.com/design-quotes/",
+          "publishedOn": "2023-02-26T17:21:48.000Z",
+          "wordCount": 190,
+          "title": "Design quotes",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67553",
+          "author": "Travis",
+          "description": "Create mood boards to collect visual inspiration, communicate brand identity, and decide on the product’s visual direction.",
+          "link": "https://heydesigner.com/mood-boards-in-ux-how-and-why-to-use-them/",
+          "publishedOn": "2023-02-26T17:10:31.000Z",
+          "wordCount": 212,
+          "title": "Mood Boards in UX: How and why to use them",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67551",
+          "author": "Travis",
+          "description": "Managers help you fix situations, they are reactive. Leaders inspire you to want to do better, they’re proactive.",
+          "link": "https://heydesigner.com/managers-vs-leaders/",
+          "publishedOn": "2023-02-26T17:08:56.000Z",
+          "wordCount": 198,
+          "title": "Managers vs Leaders",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=67546",
           "author": "Travis",
@@ -2317,6 +2337,16 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=34943838",
+          "author": "throwway1922",
+          "description": "Just wondering similar to STAFF tag (or blue tick from Twitter) it would be great if there was an icon added to mention that this account/organisation was using U2F security. This will strengthen the trust on the repo.\nWhat do you all think?\nComments URL: https://news.ycombinator.com/item?id=34943838\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=34943838",
+          "publishedOn": "2023-02-26T07:46:17.000Z",
+          "wordCount": 120,
+          "title": "Ask HN: Add U2F tag/icon next to username for popular GitHub/Gitlab repo?",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=34939954",
           "author": "alexbock",
@@ -4366,46 +4396,6 @@
           "wordCount": 23,
           "title": "Phaser Bodies – generative design meets fashion and ballet",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34551859",
-          "author": "byteknight",
-          "description": "Article URL: https://github.com/IAmStoxe/wirehole/tree/feature/wg-easy\nComments URL: https://news.ycombinator.com/item?id=34551859\nPoints: 2\n# Comments: 2",
-          "link": "https://github.com/IAmStoxe/wirehole/tree/feature/wg-easy",
-          "publishedOn": "2023-01-27T21:06:04.000Z",
-          "wordCount": 3222,
-          "title": "WireHole with UI: Set Up Pihole, WireGuard, and Unbound Instantly",
-          "imageUrl": "https://repository-images.githubusercontent.com/292471955/ea911d00-f2e6-11ea-920f-7c74b61534b1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34547954",
-          "author": "sage76",
-          "description": "Assume a high school level maths background.\nAssume you can only use OCW.\nWhich courses would you include and in which order?\nComments URL: https://news.ycombinator.com/item?id=34547954\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=34547954",
-          "publishedOn": "2023-01-27T16:33:25.000Z",
-          "wordCount": 96,
-          "title": "Ask HN: How would you design an ML/AI maths study plan?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34546615",
-          "author": "eko",
-          "description": "Article URL: https://www.authz.fr\nComments URL: https://news.ycombinator.com/item?id=34546615\nPoints: 1\n# Comments: 0",
-          "link": "https://www.authz.fr/",
-          "publishedOn": "2023-01-27T14:48:10.000Z",
-          "wordCount": 520,
-          "title": "Authorization back end that comes with a UI for RBAC and ABAC permissions",
-          "imageUrl": "/images/screenshot.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34545536",
-          "author": "petenixey",
-          "description": "I've been coming to Hacker News since 2005. Over that time it's grown by many orders of magnitude.\nThe quality of the links has fluctuated but on the whole have stayed strong and, if anything, improved over time. I don't know what the filtering process is but it works well - the articles feel pure and deeply interesting.\nBut the comments are trickier. As the size of the audience has grown, so have the number of comments. Which has the potential to be really interesting, except for the propensity of the UI to drive both readers and commenters deep into rabbitholes.\nI used to love seeing the breadth of reactions to an article (or a new company). I could scan the comments to see what Hacker News thought. I quickly could get an idea of different perspectives and opinions. I could absorb the reaction of the Silicon Valley Coding Diaspora.\nThese days though it feels, at best, a deep, cloistered exploration of one POV, and at worst a triggered cascade of pedantry.\nThere are still amazing people and amazing observations in there. But they're not easy to get to. There's no easy way to scan the comments to get a sense of the breadth of reaction - it's just a case of wading through all of them.\nBack when I was in my 20s and soaking up everything I possibly could, I would happily invest that time. These days it doesn't feel like such a good trade-off.\nAnd I fear that in turn that penalises the potential breadth of reaction that this remarkable audience posesses. And reduces the participation of others who have less time - many of whom are more senior (decide for yourself whether you value that perspective).\nIf I could wave a wand, I'd love to see the threads collapsed by default. I feel like there are lot of potential UI wins that could further broaden engagement.\nWould love to hear everyone else's thoughts...\n(Also... and I'm sure I'm thousandth person to ask this... how on earth is it that there is no dark mode to this dev-mecca?!)\nComments URL: https://news.ycombinator.com/item?id=34545536\nPoints: 3\n# Comments: 3",
-          "link": "https://news.ycombinator.com/item?id=34545536",
-          "publishedOn": "2023-01-27T13:07:16.000Z",
-          "wordCount": 1159,
-          "title": "Ask HN: Does the HN commenting UI work for you?",
-          "imageUrl": null
         }
       ]
     },
@@ -4414,6 +4404,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=34949642",
+          "author": "clircle",
+          "description": "Article URL: http://feedbase.org/about/\nComments URL: https://news.ycombinator.com/item?id=34949642\nPoints: 30\n# Comments: 2",
+          "link": "http://feedbase.org/about/",
+          "publishedOn": "2023-02-26T21:26:27.000Z",
+          "wordCount": 252,
+          "title": "Feedbase is an Atom/RSS-feed to nntp gateway",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=34937206",
           "author": "lagniappe",
@@ -4943,16 +4943,6 @@
           "wordCount": 2048,
           "title": "Reverse RSS Feed",
           "imageUrl": "https://www.jefftk.com/jefftk-glyph-framed.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34552271",
-          "author": "TigerTeamX",
-          "description": "I hope it's not a too big can of worm I am opening here, and I can imagine it is quite subjective, but it would be nice to hear other people's opinions about this.\nI have programmed for quite a long time in both Python and Go and I also experimented with rewriting the same solution in each language - for smaller projects.\nPerformance Go of course beats Python in almost all aspects, but what about productivity?\nMy experience is in general Python is a lot more productive, with less code but if you don't take care of keeping things well-organized then the productivity falls for bigger projects.\nWhile on the other hand, Go seems to be more linear (similar) productivity even if you have a larger code base.\nWhat is your experience with productivity, especially as the project matures?\nComments URL: https://news.ycombinator.com/item?id=34552271\nPoints: 2\n# Comments: 2",
-          "link": "https://news.ycombinator.com/item?id=34552271",
-          "publishedOn": "2023-01-27T21:40:20.000Z",
-          "wordCount": 412,
-          "title": "Ask HN: Python vs Go for Web – Productivity-Wise",
-          "imageUrl": null
         }
       ]
     },
@@ -5710,46 +5700,6 @@
           "wordCount": null,
           "title": "Website: No JavaScript No CSS No HTML",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34553190",
-          "author": "thesephist",
-          "description": "Article URL: https://maxbittker.github.io/broider/\nComments URL: https://news.ycombinator.com/item?id=34553190\nPoints: 11\n# Comments: 3",
-          "link": "https://maxbittker.github.io/broider/",
-          "publishedOn": "2023-01-27T23:24:06.000Z",
-          "wordCount": 39,
-          "title": "Broider: Pixel Art CSS Borders",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34547354",
-          "author": "Destiner",
-          "description": "Article URL: https://nerdy.dev/custom-prop-categories\nComments URL: https://news.ycombinator.com/item?id=34547354\nPoints: 1\n# Comments: 0",
-          "link": "https://nerdy.dev/custom-prop-categories",
-          "publishedOn": "2023-01-27T15:49:44.000Z",
-          "wordCount": 2035,
-          "title": "Powerful ways to use CSS variables",
-          "imageUrl": "https://storage.googleapis.com/atoms-sandbox.google.com.a.appspot.com/og_gif.gif"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34546773",
-          "author": "lcjury",
-          "description": "Article URL: https://medium.com/@gustavoinzunza/how-to-set-up-node-and-tailwind-with-docker-step-by-step-e40a4cff05b3\nComments URL: https://news.ycombinator.com/item?id=34546773\nPoints: 3\n# Comments: 1",
-          "link": "https://medium.com/@gustavoinzunza/how-to-set-up-node-and-tailwind-with-docker-step-by-step-e40a4cff05b3",
-          "publishedOn": "2023-01-27T15:01:49.000Z",
-          "wordCount": 2598,
-          "title": "How to set up Node and Tailwind with Docker",
-          "imageUrl": "https://miro.medium.com/max/849/1*zI-wOgzAiD3JJPi1cSf40g.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34546360",
-          "author": "philonoist",
-          "description": "Article URL: https://hotwired.dev/\nComments URL: https://news.ycombinator.com/item?id=34546360\nPoints: 2\n# Comments: 1",
-          "link": "https://hotwired.dev/",
-          "publishedOn": "2023-01-27T14:25:26.000Z",
-          "wordCount": 279,
-          "title": "Hotwire: Build web apps by sending HTML instead of JSON over the wire",
-          "imageUrl": null
         }
       ]
     },
@@ -5863,6 +5813,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=43897",
+          "author": "Seth Godin",
+          "description": "It’s tempting for a creator. To make a pop hit, a song or a book or a meme that becomes a popular idea and part of the culture. In our lifetimes, it’s become possible to imagine that you could even make a living creating pop. But pop is a harsh mistress, because pop means popular, which is, by definition rare and unfairly distributed. As long as it’s easy to create and rare to have a hit, there will be a huge majority of people who don’t win this lottery. And it is a lottery. It’s tempting to believe that passion, […]",
+          "link": "https://seths.blog/2023/02/the-truth-about-pop/",
+          "publishedOn": "2023-02-26T09:26:00.000Z",
+          "wordCount": 968,
+          "title": "The reality of chasing pop",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
+        },
         {
           "id": "https://seths.blog/?p=42011",
           "author": "Seth Godin",
@@ -6152,26 +6112,6 @@
           "wordCount": 958,
           "title": "The coming ubiquity",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44809",
-          "author": "Seth Godin",
-          "description": "And then what happens? Many small businesses start with generosity and good intent at their core. But it’s a rough ride, and especially when outside funding is involved, it’s easy to get seduced by the bright lights of Milton Friedman and an obsession with short-term profits. Over time, purpose starts to fade. The urgencies and […]",
-          "link": "https://seths.blog/2023/01/new-ways-to-codify-purpose/",
-          "publishedOn": "2023-01-28T09:55:00.000Z",
-          "wordCount": 1042,
-          "title": "New ways to codify purpose",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43692",
-          "author": "Seth Godin",
-          "description": "…is no choice at all. The stable owner gets to pick which horse you get. Take it or leave it. Some people prefer this. It means that we’re off the hook and not responsible. It relieves us of the emotional labor of choice. Let someone else worry about it… And so we give up our […]",
-          "link": "https://seths.blog/2023/01/hobsons-choice/",
-          "publishedOn": "2023-01-28T09:36:00.000Z",
-          "wordCount": 919,
-          "title": "Hobson’s choice",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
         }
       ]
     },
@@ -7688,6 +7628,16 @@
       "feedUrl": "https://www.zachleat.com/web/feed/",
       "siteUrl": "https://www.zachleat.com/web/feed/",
       "articles": [
+        {
+          "id": "https://www.zachleat.com/web/flex-luthor/",
+          "author": null,
+          "description": "Just going through the backlog of some old projects and found this Filament Group gem that went unpublished!\nFlex Luthor is a small CSS wrapper library to help with responsive intrinsic-sized Flexbox layouts that wrap based on content and container width (avoiding viewport-based media queries).\nDemo\nSource Code\nThis library predated Flexbox support for the gap property but I updated it to use gap in the new v3.0.0 version. I think the coolest feature it provides is the addition of borders only when cells wrap to a new line (horizontal, vertical, or both).\nInstall #\nAvailable on npm\nnpm install @zachleat/flex-luthor --save",
+          "link": "https://www.zachleat.com/web/flex-luthor/",
+          "publishedOn": "2023-02-25T00:00:00.000Z",
+          "wordCount": 5620,
+          "title": "Flex Luthor, a Little CSS Flexbox Layout Helper",
+          "imageUrl": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.zachleat.com%2Fopengraph%2Fweb%2Fflex-luthor%2F/opengraph/_z202302_5/"
+        },
         {
           "id": "https://www.zachleat.com/web/site-generator-review/",
           "author": null,
