@@ -112,16 +112,6 @@
           "wordCount": 732,
           "title": "Axe-con mingle with Axess Lab",
           "imageUrl": null
-        },
-        {
-          "id": "https://axesslab.com/?p=3639",
-          "author": "Joel Holmberg",
-          "description": "Looking for a free quick guide, a “cheat sheet” or a “one pager” for screen reader testing? You’ve come to the right place! There is is! Or an image of it at least, the actual document is linked further down. So why did we create this? We meet teams every day who are new to […]",
-          "link": "https://axesslab.com/screen-reader-quick-guide/",
-          "publishedOn": "2023-02-01T13:57:22.000Z",
-          "wordCount": 1094,
-          "title": "Screen reader quick guide",
-          "imageUrl": "https://axesslab.com/wp-content/uploads/2023/02/Screenreader-one-pager-Windows-Narrator-2-283x400.jpg"
         }
       ]
     },
@@ -410,6 +400,16 @@
       "siteUrl": "https://christianheilmann.com",
       "articles": [
         {
+          "id": "https://christianheilmann.com/?p=7562",
+          "author": "Chris Heilmann",
+          "description": "I am currently affected by the wave of layoffs in the technology industry and this isn’t my first rodeo. The difference is that it feels worse this time as I am not only annoyed by losing my job, but I am starting to feel that the system is incredibly flawed. Instead of building a sustainable […]",
+          "link": "https://christianheilmann.com/2023/03/03/continuous-growth-is-cancer/",
+          "publishedOn": "2023-03-03T11:40:12.000Z",
+          "wordCount": 1409,
+          "title": "Continuous growth is cancer",
+          "imageUrl": null
+        },
+        {
           "id": "https://christianheilmann.com/?p=7559",
           "author": "Chris Heilmann",
           "description": "Want to automatically generate tests for your JS/TS functions? GitHub CoPilot now does that. GitHubNext added a TestPilot experiment that can generate tests for a function by analysing it and scanning the docs and comments.",
@@ -515,16 +515,6 @@
           "wordCount": 236,
           "title": "Testing Colour Accessibility with Dev Tools",
           "imageUrl": "https://css-irl.info/social_1200x630.png"
-        },
-        {
-          "id": "https://css-irl.info/interop-2023/",
-          "author": null,
-          "description": "Last year, Interop 2022, a collaborative cross-browser initiative, was hugely successful in getting 15 key features implemented interoperably. As developers, we can enjoy the fruits of this collaboration, with features like container queries, cascade layers and dynamic viewport units going from little or no browser support to almost full support in the space of a year.\nInterop 2023 has just been announced, expanding to 26 focus areas. Some exciting CSS features include the :has() pseudo-class, which is already supported in some browsers, as well as Level 4 media queries, math functions, and font palette features, which enable custom coloured fonts.\nRead the Interop teams’ write-ups here:\nWebKit\nGoogle\nIgalia\nMicrosoft\nMozilla\nBocoup",
-          "link": "https://css-irl.info/interop-2023/",
-          "publishedOn": "2023-02-02T00:00:00.000Z",
-          "wordCount": 161,
-          "title": "Interop 2023",
-          "imageUrl": "https://css-irl.info/social_1200x630.png"
         }
       ]
     },
@@ -612,16 +602,6 @@
           "wordCount": 3105,
           "title": "A Fancy Hover Effect For Your Avatar",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/376676"
-        },
-        {
-          "id": "https://css-tricks.com/?p=376634",
-          "author": "Adam Rackis",
-          "description": "My previous post was a broad overview of SvelteKit where we saw what a great tool it is for web development. This post will fork off what we did there and dive into every developer’s favorite topic: caching. So, …\nCaching Data in SvelteKit originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/caching-data-in-sveltekit/",
-          "publishedOn": "2023-02-01T15:04:33.000Z",
-          "wordCount": 3891,
-          "title": "Caching Data in SvelteKit",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/376634"
         }
       ]
     },
@@ -630,6 +610,16 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com/",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=11779",
+          "author": "Adam Marsden",
+          "description": "UX",
+          "link": "https://dailydevlinks.com/a-masterclass-in-pricing-psychology/",
+          "publishedOn": "2023-03-03T12:30:00.000Z",
+          "wordCount": 2819,
+          "title": "A masterclass in pricing psychology",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
+        },
         {
           "id": "https://dailydevlinks.com/?p=11767",
           "author": "Adam Marsden",
@@ -1502,36 +1492,6 @@
           "wordCount": 905,
           "title": "The Chromium Chronicle #32: Mind the patch gap",
           "imageUrl": "https://wd.imgix.net/image/0g2WvpbGRGdVs0aAPc6ObG7gkud2/hgu6uTktp2ipmuODZZhP.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/private-network-access-update-2023-02-02/",
-          "author": null,
-          "description": "Feedback from websites currently participating in the Private Network Access from non-secure contexts deprecation trial has emphasized the difficulty in migrating affected websites to HTTPS. As a result, the trial is extended until Chrome 113 inclusive. Chrome 114, the first milestone without support for the trial, will roll out to Beta in early May 2023 and Stable in the end of May 2023.\nA permission prompt will be built to allow mix-content requests from HTTPs public websites to plaintext private devices. For more information, please check the feature explainer for an overview and the developer walks through document to see developers' possible approaches need to achieve. We will put out a blog post with more details in the future once it is ready.\nFor further information, please see Private Network Access update: Introducing a deprecation trial.\nIf you host a website within a private network that expects requests from\npublic networks, we are interested in your feedback and use cases.\nLet us know by filing an issue with Chromium at crbug.com and set\nthe component to Blink>SecurityFeature>CORS>PrivateNetworkAccess or open an issue\nin the Private Network Access WICG specification Github repository.\nThank you for helping us make the web safer!",
-          "link": "https://developer.chrome.com/en/blog/private-network-access-update-2023-02-02/",
-          "publishedOn": "2023-02-02T00:00:00.000Z",
-          "wordCount": 685,
-          "title": "Private Network Access update: Announce extension of the Deprecation Trial",
-          "imageUrl": "https://wd.imgix.net/image/YLflGBAPWecgtKJLqCJHSzHqe2J2/dwtN0NkxkBmIz1EyhzAm.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/the-future-of-picture-in-picture/",
-          "author": null,
-          "description": "Before the Document Picture-in-Picture API, it was only possible to put an HTML <video> element into a Picture-in-Picture window. This new API makes it possible to open an always-on-top window that can be populated with arbitrary HTML content. It is available as an origin trial starting in Chrome 111 on desktop.\nA Picture-in-Picture window created with the Document Picture-in-Picture API (demo).\n\nThe new API provides much more than is available from the existing Picture-in-Picture API for <video>. For example, you can provide custom controls and inputs (for example, captions, playlists, time scrubber, liking and disliking videos) to improve the user's Picture-in-Picture video player experience.\nWith a full Document in Picture-in-Picture, video conferencing web apps can combine multiple vid…",
-          "link": "https://developer.chrome.com/en/blog/the-future-of-picture-in-picture/",
-          "publishedOn": "2023-02-02T00:00:00.000Z",
-          "wordCount": 700,
-          "title": "The future of Picture-in-Picture",
-          "imageUrl": "https://wd.imgix.net/image/vvhSqZboQoZZN9wBvoXq72wzGAf1/lofWr2Afx8wx94iMIEyg.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/meet-the-new-css-color-spaces/",
-          "author": null,
-          "description": "CSS color 4 brings a large set of tools and features to CSS for managing and\nhandling color. I've written the High Definition Color\nGuide to cover all these new\nfeatures. In this guide you will learn:\nWhat is a color gamut?\nHuman visual gamut.\nWhat is a color space?\nHow to access more colors, new spaces, and debug results.\nA review of the classic color spaces.\nMeet the new web color spaces.\nColor interpolation.\nGamut clamping.\nChoosing a color space.\nMigrating to HD CSS color.\nChecking for gamut and color space support.\nDebugging color with Chrome DevTools.\nI hope this finds you well and answers all your color questions. 🙂",
-          "link": "https://developer.chrome.com/en/blog/meet-the-new-css-color-spaces/",
-          "publishedOn": "2023-02-02T00:00:00.000Z",
-          "wordCount": 561,
-          "title": "Meet the new CSS color spaces",
-          "imageUrl": "https://wd.imgix.net/image/vS06HQ1YTsbMKSFTIPl2iogUQP73/1EFisnQsVHucCNJdjQvy.png?auto=format&w=1521"
         }
       ]
     },
@@ -2496,6 +2456,56 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35013669",
+          "author": "automatom",
+          "description": "Article URL: https://www.youtube.com/watch?v=SKjaGkZ8hSQ\nComments URL: https://news.ycombinator.com/item?id=35013669\nPoints: 6\n# Comments: 2",
+          "link": "https://www.youtube.com/watch?v=SKjaGkZ8hSQ",
+          "publishedOn": "2023-03-03T19:04:49.000Z",
+          "wordCount": null,
+          "title": "Bassnectar 360 Subwoofer Sound Design",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35012507",
+          "author": "bensterne",
+          "description": "Article URL: https://freedesignstuff.com\nComments URL: https://news.ycombinator.com/item?id=35012507\nPoints: 1\n# Comments: 1",
+          "link": "https://freedesignstuff.com/",
+          "publishedOn": "2023-03-03T17:23:28.000Z",
+          "wordCount": 24259,
+          "title": "Curated digital design resources. All for free",
+          "imageUrl": "https://freedesignstuff.com/assets/images/card.jpg?v=b2ad6061"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35008468",
+          "author": "felixbade",
+          "description": "Article URL: https://assistant.bloat.app\nComments URL: https://news.ycombinator.com/item?id=35008468\nPoints: 4\n# Comments: 3",
+          "link": "https://assistant.bloat.app/",
+          "publishedOn": "2023-03-03T12:08:11.000Z",
+          "wordCount": 79,
+          "title": "I made a free web UI for ChatGPT API so you all don't have to",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35005903",
+          "author": "wsc981",
+          "description": "Article URL: https://www.youtube.com/watch?v=4oDZyOf6CW4\nComments URL: https://news.ycombinator.com/item?id=35005903\nPoints: 1\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=4oDZyOf6CW4",
+          "publishedOn": "2023-03-03T04:41:52.000Z",
+          "wordCount": null,
+          "title": "Tony Fadell: iPhone, iPod, Nest, Steve Jobs, Design, and Engineering",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35005434",
+          "author": "hyperific",
+          "description": "Article URL: https://www.vulnhub.com/\nComments URL: https://news.ycombinator.com/item?id=35005434\nPoints: 2\n# Comments: 0",
+          "link": "https://www.vulnhub.com/",
+          "publishedOn": "2023-03-03T03:27:52.000Z",
+          "wordCount": 691,
+          "title": "VulnHub: Vulnerable by Design",
+          "imageUrl": "https://www.vulnhub.com/static/img/logo.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35003766",
           "author": "zzinedddine",
@@ -4765,76 +4775,6 @@
           "wordCount": 113,
           "title": "Ask HN: What are some free and comprehensive Web Component UI libraries?",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34625178",
-          "author": "graderjs",
-          "description": "Article URL: https://www.thedrive.com/the-war-zone/huge-ekranoplan-like-airlifter-design-teams-selected-by-darpa\nComments URL: https://news.ycombinator.com/item?id=34625178\nPoints: 3\n# Comments: 0",
-          "link": "https://www.thedrive.com/the-war-zone/huge-ekranoplan-like-airlifter-design-teams-selected-by-darpa",
-          "publishedOn": "2023-02-02T11:33:29.000Z",
-          "wordCount": 5521,
-          "title": "Ekranoplan-Like Airlifter Design Teams Selected by DARPA",
-          "imageUrl": "https://www.thedrive.com/uploads/2023/02/02/gaas-liberty-lifter-copy.jpg?auto=webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34624755",
-          "author": "qba_",
-          "description": "Article URL: https://appsilon.github.io/rhino/articles/tutorial/write-end-to-end-tests-with-cypress.html\nComments URL: https://news.ycombinator.com/item?id=34624755\nPoints: 1\n# Comments: 0",
-          "link": "https://appsilon.github.io/rhino/articles/tutorial/write-end-to-end-tests-with-cypress.html",
-          "publishedOn": "2023-02-02T10:34:56.000Z",
-          "wordCount": 2148,
-          "title": "RStats/Shiny – Testing UI with Cypress",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34617420",
-          "author": "app4soft",
-          "description": "Article URL: https://www.tec-science.com/mechanical-power-transmission/involute-gear/geometry-of-involute-gears/\nComments URL: https://news.ycombinator.com/item?id=34617420\nPoints: 1\n# Comments: 1",
-          "link": "https://www.tec-science.com/mechanical-power-transmission/involute-gear/geometry-of-involute-gears/",
-          "publishedOn": "2023-02-01T20:45:09.000Z",
-          "wordCount": 6413,
-          "title": "Construction and Design of Involute Gears (2018)",
-          "imageUrl": "https://www.tec-science.com/wp-content/uploads/2021/03/en-involute-gear-involute-of-circle-construction-meshing.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34616666",
-          "author": "v1Labs",
-          "description": "Article URL: https://www.dailysubset.com/p/19-typography-graphql-macromedia\nComments URL: https://news.ycombinator.com/item?id=34616666\nPoints: 1\n# Comments: 0",
-          "link": "https://www.dailysubset.com/p/19-typography-graphql-macromedia",
-          "publishedOn": "2023-02-01T19:57:58.000Z",
-          "wordCount": 2840,
-          "title": "Typography, GraphQL and Macromedia",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F93e86caa-3934-43ec-91f5-a7c06f680016_900x500.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34612987",
-          "author": "soheilpro",
-          "description": "Article URL: https://ishadeed.com/article/responsive-design/\nComments URL: https://news.ycombinator.com/item?id=34612987\nPoints: 2\n# Comments: 0",
-          "link": "https://ishadeed.com/article/responsive-design/",
-          "publishedOn": "2023-02-01T16:34:58.000Z",
-          "wordCount": 4614,
-          "title": "The Guide to Responsive Design in 2023 and Beyond",
-          "imageUrl": "https://ishadeed.com/assets/responsive-design/twitter-card.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34612468",
-          "author": "jacooper",
-          "description": "Article URL: https://brave.com/published-proxy-config/\nComments URL: https://news.ycombinator.com/item?id=34612468\nPoints: 2\n# Comments: 0",
-          "link": "https://brave.com/published-proxy-config/",
-          "publishedOn": "2023-02-01T16:07:30.000Z",
-          "wordCount": 1897,
-          "title": "Privacy by Design: Published Proxy Config",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34612314",
-          "author": "rntn",
-          "description": "Article URL: https://www.frontiersin.org/articles/10.3389/fnbot.2022.850489/full\nComments URL: https://news.ycombinator.com/item?id=34612314\nPoints: 1\n# Comments: 0",
-          "link": "https://www.frontiersin.org/articles/10.3389/fnbot.2022.850489/full",
-          "publishedOn": "2023-02-01T15:59:13.000Z",
-          "wordCount": 29486,
-          "title": "Resonance as a Design Strategy for AI and Social Robots",
-          "imageUrl": "https://www.frontiersin.org/files/MyHome%20Article%20Library/850489/850489_Thumb_400.jpg"
         }
       ]
     },
@@ -4843,6 +4783,36 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35015832",
+          "author": "redbell",
+          "description": "Article URL: https://world.hey.com/dhh/saas-startups-will-have-to-care-about-productivity-again-78d4bd1a\nComments URL: https://news.ycombinator.com/item?id=35015832\nPoints: 2\n# Comments: 0",
+          "link": "https://world.hey.com/dhh/saas-startups-will-have-to-care-about-productivity-again-78d4bd1a",
+          "publishedOn": "2023-03-03T22:20:37.000Z",
+          "wordCount": 755,
+          "title": "SaaS startups will have to care about productivity, again",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35014925",
+          "author": "jger15",
+          "description": "Article URL: https://www.drorpoleg.com/productivity-and-bullshit/\nComments URL: https://news.ycombinator.com/item?id=35014925\nPoints: 1\n# Comments: 0",
+          "link": "https://www.drorpoleg.com/productivity-and-bullshit/",
+          "publishedOn": "2023-03-03T21:00:30.000Z",
+          "wordCount": 3509,
+          "title": "Productivity and Bullshit",
+          "imageUrl": "https://www.drorpoleg.com/content/images/2023/03/Prod-and-BS.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35010752",
+          "author": "chaabani",
+          "description": "The Zone is the state where you are completely focused and fully productive. It takes time to get there, but the slightest distraction can knock you out of it and you have to start over.\nSo I built this app to track productivity and measure the impact of interruptions.\nThis is how it can help:\n• Launching the app and starting to get in the Zone is a commitment to work. It can prevent you from procrastinating and is a good motivator to actually start working and to keep distractions away.\n• The timer can help you decide if it’s a good time to take a pause because you’ve been in the Zone for a long period, or if it is better to continue working because you’ve just entered the Zone.\n• Your colleagues will notice the color change from yellow to red. This is a great signal that helps them understand the impact of interruptions on your productivity.\n• Statistics help you measure your daily productive time.\n• Using your phone for other purposes is considered an interruption by the app, so that’s already one distraction taken care of.\nComments URL: https://news.ycombinator.com/item?id=35010752\nPoints: 4\n# Comments: 2",
+          "link": "https://www.inthezoneapp.com/",
+          "publishedOn": "2023-03-03T15:21:33.000Z",
+          "wordCount": 400,
+          "title": "Show HN: In The Zone – An app to boost productivity and fight interruptions",
+          "imageUrl": "http://inthezoneapp.com/images/icon.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=34998711",
           "author": "Djonckheere",
@@ -5392,16 +5362,6 @@
           "wordCount": 179,
           "title": "Ask HN: How did you optimize your productivity over your career?",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34612017",
-          "author": "rntn",
-          "description": "Article URL: https://www.theregister.com/2023/02/01/google_cookie_sandbox/\nComments URL: https://news.ycombinator.com/item?id=34612017\nPoints: 1\n# Comments: 0",
-          "link": "https://www.theregister.com/2023/02/01/google_cookie_sandbox/",
-          "publishedOn": "2023-02-01T15:40:04.000Z",
-          "wordCount": 1642,
-          "title": "Google ready to kick the cookie habit by Q3 2024, for real this time",
-          "imageUrl": "https://regmedia.co.uk/2023/02/01/cookie_shutterstock.jpg"
         }
       ]
     },
@@ -6209,16 +6169,6 @@
           "wordCount": 1584,
           "title": "How we designed and implemented dark mode using Tailwind",
           "imageUrl": "https://fern.so/assets/images/uploads/blog-social-card-dark-mode.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34612194",
-          "author": "albertgoeswoof",
-          "description": "Article URL: https://blog.mailpace.com/blog/create-a-toggle-in-rails-tailwind/\nComments URL: https://news.ycombinator.com/item?id=34612194\nPoints: 3\n# Comments: 0",
-          "link": "https://blog.mailpace.com/blog/create-a-toggle-in-rails-tailwind/",
-          "publishedOn": "2023-02-01T15:52:00.000Z",
-          "wordCount": 760,
-          "title": "When a checkbox isn't enough – toggles in Rails Forms with Tailwind",
-          "imageUrl": null
         }
       ]
     },
@@ -6226,18 +6176,7 @@
       "title": "iA",
       "feedUrl": "https://ia.net/feed",
       "siteUrl": "https://ia.net",
-      "articles": [
-        {
-          "id": "https://ia.net/?p=14133",
-          "author": "Oliver Reichenstein",
-          "description": "Before Christmas, we asked you what you would charge for iA Presenter and you said: \"Much more than you!\" We heard you, but we don't quite believe you just yet. Unfortunately, we forgot to ask you where you are from, which, when it comes to pricing, matters. So, we'd like to ask you one more time: How much would you charge for iA Presenter in your country?\nThe post How Much Would You Charge for iA Presenter? (Part 2) appeared first on iA.",
-          "link": "https://ia.net/topics/how-much-would-you-charge-for-ia-presenter-part-2",
-          "publishedOn": "2023-02-02T11:28:04.000Z",
-          "wordCount": 2474,
-          "title": "How Much Would You Charge for iA Presenter? (Part 2)",
-          "imageUrl": "https://ia.net/wp-content/uploads/2023/02/Big-Mac-Presenter-1024x640.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Inclusive Components",
@@ -6342,6 +6281,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=43952",
+          "author": "Seth Godin",
+          "description": "Human beings never reveal all of our emotions. We don’t simply blurt out the first thing that pops into our head in a meeting, or insult someone upon meeting them. We’re able to give people the benefit of the doubt (which requires doubt before we can offer the benefit) and to plan for the long […]",
+          "link": "https://seths.blog/2023/03/the-generosity-of-concealment/",
+          "publishedOn": "2023-03-03T09:45:00.000Z",
+          "wordCount": 968,
+          "title": "The generosity of concealment",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=43949",
           "author": "Seth Godin",
@@ -6631,16 +6580,6 @@
           "wordCount": 926,
           "title": "Confusion about performance",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44832",
-          "author": "Seth Godin",
-          "description": "What would happen if public transportation were free? What if it were paid for by congestion pricing, digitally implemented? What if public toilets were safe, beautiful, well-appointed and consistently maintained? What if there were a tax on empty storefronts, payable after three months of vacancy? Shortly after the invention of the car, society made many […]",
-          "link": "https://seths.blog/2023/02/reimagining-cities-in-a-few-simple-questions/",
-          "publishedOn": "2023-02-02T09:13:00.000Z",
-          "wordCount": 950,
-          "title": "Reimagining cities in a few simple questions",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg"
         }
       ]
     },
@@ -6649,6 +6588,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "GtFvmszSHPjTjPSH6",
+          "author": "@vice",
+          "description": "OpenAI is today unrecognizable, with multi-billion-dollar deals and corporate partnerships. Will it seek to own its shiny AI future?",
+          "link": "https://www.vice.com/en/article/5d3naz/openai-is-now-everything-it-promised-not-to-be-corporate-closed-source-and-for-profit",
+          "publishedOn": "2023-03-03T02:50:54.000Z",
+          "wordCount": 7248,
+          "title": "OpenAI Is Now Everything It Promised Not to Be",
+          "imageUrl": "https://video-images.vice.com/articles/63fd1ce7b0f53f1ac54c237c/lede/1677602039559-gettyimages-1247508445.jpeg?image-resize-opts=Y3JvcD0xeHc6MC44NDI5eGg7MHh3LDAuMDQ1N3hoJnJlc2l6ZT0xMjAwOiomcmVzaXplPTEyMDA6Kg"
+        },
+        {
+          "id": "YBFFYRqcRrij5C9bu",
+          "author": "@BenDMyers",
+          "description": "For years, developers have passed around a set of styles like a magic incantation. It’s time we made it a web standard.",
+          "link": "https://benmyers.dev/blog/native-visually-hidden/",
+          "publishedOn": "2023-03-03T02:46:04.000Z",
+          "wordCount": 2779,
+          "title": "The Web Needs a Native .visually-hidden",
+          "imageUrl": "https://res.cloudinary.com/bendmyers/image/upload/v1677690154/benmyers.dev/native-visually-hidden.png"
+        },
+        {
+          "id": "aFromxiGRtMsyqdnw",
+          "author": "@chromiumdev",
+          "description": "Style queries allow developers to query a parent element’s style values using the @container rule.",
+          "link": "https://developer.chrome.com/blog/style-queries/",
+          "publishedOn": "2023-03-03T02:43:26.000Z",
+          "wordCount": 3483,
+          "title": "Getting Started with Style Queries",
+          "imageUrl": "https://wd.imgix.net/image/HodOHWjMnbNw56hvNASHWSgZyAf2/N8vx7PDIeyMNI2wzWnax.jpg?auto=format&w=1521"
+        },
+        {
+          "id": "XwCHaiZw22o8yhzP8",
+          "author": "@bookingux",
+          "description": "Building a design system that works is a challenge at any scale.",
+          "link": "https://booking.design/how-we-built-our-multi-platform-design-system-at-booking-com-d7b895399d40",
+          "publishedOn": "2023-03-03T02:42:41.000Z",
+          "wordCount": 5261,
+          "title": "How we built our multi-platform design system at Booking.com",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*KTOSDVab-FCM82TmbilJ5g.png"
+        },
+        {
+          "id": "KEN2NhDhPhPKar5CY",
+          "author": "@Wise",
+          "description": "Wise Design is the Wise design system.",
+          "link": "https://wise.design/our-new-design-system",
+          "publishedOn": "2023-03-03T02:41:25.000Z",
+          "wordCount": 1749,
+          "title": "Wise Design",
+          "imageUrl": "/api/images/Hero-BrandStrategy.webp"
+        },
         {
           "id": "dDhDtbmNzat8DWpJG",
           "author": "@uxdesigncc",
@@ -7648,56 +7637,6 @@
           "wordCount": 1330,
           "title": "Modern Illustration",
           "imageUrl": null
-        },
-        {
-          "id": "rvZMTpEreXEu2az3o",
-          "author": "@ChromiumDev",
-          "description": "Learn more about how all browser vendors, and other stakeholders, have come together to solve the top browsers compatibility issues.",
-          "link": "https://web.dev/interop-2023/",
-          "publishedOn": "2023-02-02T04:48:12.000Z",
-          "wordCount": 1003,
-          "title": "Interop 2023: continuing to improve the web for developers",
-          "imageUrl": "https://web-dev.imgix.net/image/RYmV5NPuMZRoF3PVwIXTUpdYeQ23/NqhNbZwtnkSEgDtlXdHa.jpg?auto=format&fit=max&w=1200&fm=auto"
-        },
-        {
-          "id": "7JtQtMRfh9hHht9qC",
-          "author": "@bramus",
-          "description": "Because selector matching in browsers happens from right to left, you might end up with more matches than you expected when using :is().",
-          "link": "https://www.bram.us/2023/01/17/using-is-in-complex-selectors-selects-more-than-you-might-initially-think/",
-          "publishedOn": "2023-02-02T04:45:25.000Z",
-          "wordCount": 3815,
-          "title": "Using :is() in complex selectors selects more than you might initially think",
-          "imageUrl": "https://www.bram.us/wordpress/wp-content/uploads/2023/01/spot-the-difference.png"
-        },
-        {
-          "id": "DyGiH2KtgBPeMGHmp",
-          "author": "@uxdesigncc",
-          "description": "Bill Maher’s Real Time on HBO is an acquired taste.",
-          "link": "https://uxdesign.cc/the-last-acceptable-prejudice-def6e04a6381",
-          "publishedOn": "2023-02-02T04:41:48.000Z",
-          "wordCount": 4815,
-          "title": "Ageism: the last acceptable prejudice",
-          "imageUrl": "https://miro.medium.com/max/900/0*evUB2UO74eAv1QnK"
-        },
-        {
-          "id": "3LfABbo9mR8v8PYaK",
-          "author": "@shadeed9",
-          "description": "A modern look at responsive web design.",
-          "link": "http://ishadeed.com/article/responsive-design/",
-          "publishedOn": "2023-02-02T04:39:53.000Z",
-          "wordCount": 4614,
-          "title": "The Guide To Responsive Design In 2023 and Beyond",
-          "imageUrl": "https://ishadeed.com/assets/responsive-design/twitter-card.jpg"
-        },
-        {
-          "id": "k4LkFnXZ9nYnmGhT6",
-          "author": "@netlify",
-          "description": "Netlify has acquired Gatsby Inc. – cloud platform, and creators of web framework Gatsby.",
-          "link": "https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/",
-          "publishedOn": "2023-02-02T04:38:54.000Z",
-          "wordCount": 1802,
-          "title": "Netlify Acquires Gatsby",
-          "imageUrl": "https://cdn.sanity.io/images/o0o2tn5x/production/b7fa78f0c905be8f8c43d8a237a17cd43d2e2c9b-2400x1260.png"
         }
       ]
     },
@@ -7810,16 +7749,6 @@
           "wordCount": 1166,
           "title": "ElementInternals and Form-Associated Custom Elements",
           "imageUrl": null
-        },
-        {
-          "id": "https://webkit.org/?p=13706",
-          "author": null,
-          "description": "A year ago, Apple, Bocoup, Google, Igalia, Microsoft, and Mozilla came together to improve the interoperability of the web and to continue our commitments to web standards — actions that ensure the web will work in any browser, on any operating system, with any computer.",
-          "link": "https://webkit.org/blog/13706/interop-2023/",
-          "publishedOn": "2023-02-01T17:00:39.000Z",
-          "wordCount": 3471,
-          "title": "Pushing Interop Forward in 2023",
-          "imageUrl": "https://webkit.org/wp-content/uploads/Interop-2022-graph-stable-1024x536.png"
         }
       ]
     },
@@ -7875,6 +7804,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2023/03/ai-technology-transform-design/",
+          "author": "hello@smashingmagazine.com (Nick Babich & Gleb Kuznetsov)",
+          "description": "In this article, Nick and Gleb cover the current state of design, answer common questions designers have about AI tools, and share practical tips on how designers can make the most of using AI tools.",
+          "link": "https://smashingmagazine.com/2023/03/ai-technology-transform-design/",
+          "publishedOn": "2023-03-03T11:00:00.000Z",
+          "wordCount": 5424,
+          "title": "How AI Technology Will Transform Design",
+          "enclosure": {
+            "url": "http://smashing-files.ams3.digitaloceanspaces.com/articles/ai-technology-transform-design/meta-ai-technology-transform-design.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://smashing-files.ams3.digitaloceanspaces.com/articles/ai-technology-transform-design/meta-ai-technology-transform-design.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2023/03/vue-case-study-migrating-headless-cms-system/",
           "author": "hello@smashingmagazine.com (Lisi Linhart)",
@@ -8144,21 +8088,6 @@
             "type": "image/png"
           },
           "imageUrl": "http://files.smashing.media/articles/ux-podcasts/podcasts-ux-designers.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/02/host-wordpress-site-amazon-lightsail/",
-          "author": "hello@smashingmagazine.com (Leonardo Losoviz)",
-          "description": "Lightsail provides all the power we need to host our websites, as we are used to from AWS, but making it way easier than ever before. In this article, Leonardo Losoviz explores how to launch a WordPress site in Lightsail in a quick and easy way.",
-          "link": "https://smashingmagazine.com/2023/02/host-wordpress-site-amazon-lightsail/",
-          "publishedOn": "2023-02-02T09:00:00.000Z",
-          "wordCount": 4981,
-          "title": "How To Host A WordPress Site On Amazon Lightsail",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/wordpress-site-hosted-by-amazon-lightsail/host-wordpress-site-amazon-lightsail.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/wordpress-site-hosted-by-amazon-lightsail/host-wordpress-site-amazon-lightsail.jpg"
         }
       ]
     },
