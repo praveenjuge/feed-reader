@@ -1109,56 +1109,6 @@
           "wordCount": 2781,
           "title": "10 best GitHub repos for developers",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11607",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://dailydevlinks.com/container-queries-and-typography/",
-          "publishedOn": "2023-02-02T12:33:00.000Z",
-          "wordCount": 2766,
-          "title": "Container Queries and Typography",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11621",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/netlify-acquires-gatsby-its-struggling-jamstack-competitor/",
-          "publishedOn": "2023-02-02T12:30:00.000Z",
-          "wordCount": 2784,
-          "title": "Netlify Acquires Gatsby, Its Struggling Jamstack Competitor",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11610",
-          "author": "Adam Marsden",
-          "description": "A11Y",
-          "link": "https://dailydevlinks.com/understanding-color-and-accessibility/",
-          "publishedOn": "2023-02-02T12:30:00.000Z",
-          "wordCount": 2769,
-          "title": "Understanding Color and Accessibility",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11616",
-          "author": "Adam Marsden",
-          "description": "SVG",
-          "link": "https://dailydevlinks.com/easy-svg-customization-and-animation-a-practical-guide/",
-          "publishedOn": "2023-02-02T12:30:00.000Z",
-          "wordCount": 2789,
-          "title": "Easy SVG Customization And Animation: A Practical Guide",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11613",
-          "author": "Adam Marsden",
-          "description": "HTML",
-          "link": "https://dailydevlinks.com/use-the-dialog-element-reasonably/",
-          "publishedOn": "2023-02-02T12:30:00.000Z",
-          "wordCount": 2774,
-          "title": "Use the dialog element (reasonably)",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
         }
       ]
     },
@@ -1252,16 +1202,6 @@
           "wordCount": 1979,
           "title": "Vibe Check №25",
           "imageUrl": "https://cdn.daverupert.com/opengraph/2023-freeze.jpg"
-        },
-        {
-          "id": "https://daverupert.com/2023/02/solved-the-case-of-the-bing-ban-theory/",
-          "author": null,
-          "description": "This post is part of a series:\nPart I: I’m Shadow Banned by DuckDuckGo (and Bing)\nPart II: Updates on my Bing ban\nPart III: My Bing Webmaster Guidelines Compliance Report\nToday I bring good news: We solved the mystery! Bing now indexes my site and it shows up on DuckDuckGo… and it’s possible your site is showing up now too. What fixed it? Here’s what Microsoft/Bing told me a couple days after my post…\nThousands of small blogs were mistakenly marked as spam splogs. Wasn’t specific to yours.\nWoah. It’s done. That’s it. I’m released from SEO jail. Thanos snapped. Temba, his arms wide. Jubilee.\nThis whole experience is a lot to digest, but I think there’s one important lesson here…\nBlog your problems\nThat’s it. That’s the biggest lesson. Blog your problems. When in doubt, blog it out. In my ex…",
-          "link": "https://daverupert.com/2023/02/solved-the-case-of-the-bing-ban-theory/",
-          "publishedOn": "2023-02-02T21:02:00.000Z",
-          "wordCount": 1163,
-          "title": "SOLVED! The Case of the Bing Ban Theory",
-          "imageUrl": null
         }
       ]
     },
@@ -1472,26 +1412,6 @@
           "wordCount": 4004,
           "title": "What's New In DevTools (Chrome 110)",
           "imageUrl": "https://wd.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/KTdhtEIhwldooyDWFCNW.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/web-share-api-in-third-party-iframes/",
-          "author": null,
-          "description": "This article covers a potentially breaking change in the Web Share API. This change is already in\nFirefox, will land in Chrome from version 110,\nand is expected to land in\nSafari soon.\nThe Web Share API allows you to share\ntext, URLs, or files. In its simplest form, the share code looks something like this:\ntry {\n  await navigator.share({\n    title: 'Title',\n    text: 'Text',\n    url: location.href,\n  });\n} catch (err) {\n  console.error(`${err.name}: ${err.message}`);\n}\nIf a sharing action needs to happen in a third-party iframe, a\nrecent spec change requires you to explicitly allow the\noperation. Do this by adding an allow attribute\nto the <iframe> tag with a value of web-share. This tells the browser that the embedding site allows the embedded\nthird-party iframe to trigger the share action.\n<!DOCTYPE html>\n<html lang=\"en\">\n  <body>\n    <h1>Web Share in third-party iframes</h1>\n    <!-- The embedding page is hosted on https://example.com/index.html. -->\n    <iframe allow=\"web-share\" src=\"https://third-party.example.com/iframe.html\"></iframe>\n  </body>\n</html>\nYou can see this in action in a demo on Glitch\nand view the\nsource code.\nFailing to provide the attribute will result in a NotAllowedError with the message\nFailed to execute 'share' on 'Navigator': Permission denied. This limitation was agreed by all\nbrowser vendors to improve the privacy and security of users and to prevent bad actors, for example,\nabusive ads, from triggering unexpected share actions.",
-          "link": "https://developer.chrome.com/en/blog/web-share-api-in-third-party-iframes/",
-          "publishedOn": "2023-02-03T00:00:00.000Z",
-          "wordCount": 679,
-          "title": "New requirements for the Web Share API in third-party iframes",
-          "imageUrl": "https://wd.imgix.net/image/fuiz5I8Iv7bV8YbrK2PKiY3Vask2/iGPiWTtoy7iF932Xday1.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/chromium-chronicle-32/",
-          "author": null,
-          "description": "Episode 32: by Amy Ressler in Mountain View, USA (February, 2023)\nPrevious episodes\nSo you've just fixed a security bug in Chrome! Congratulations and thank you for making Chrome more secure for all users. But wait, your work is not done just yet. Only you can help mind the patch gap.\n# What's the patch gap?\nThe patch gap is the critical time between when you land the security fix and when the fix is shipped to users in a Stable channel update of Chrome.\nWhen you land a fix in Chromium, that fix is publicly available to anyone that monitors our source code repositories—including bad actors and exploit brokers.\nBad actors work quickly to take advantage of that time between the landed changelist (CL) and users having access to that patch in a stable channel update, reverse engineering the CL…",
-          "link": "https://developer.chrome.com/en/blog/chromium-chronicle-32/",
-          "publishedOn": "2023-02-03T00:00:00.000Z",
-          "wordCount": 905,
-          "title": "The Chromium Chronicle #32: Mind the patch gap",
-          "imageUrl": "https://wd.imgix.net/image/0g2WvpbGRGdVs0aAPc6ObG7gkud2/hgu6uTktp2ipmuODZZhP.jpg?auto=format&w=1521"
         }
       ]
     },
@@ -1500,6 +1420,16 @@
       "feedUrl": "https://dribbble.com/stories.rss",
       "siteUrl": "https://dribbble.com/stories",
       "articles": [
+        {
+          "id": "https://dribbble.com/stories/2023/03/04/how-did-you-land-your-first-design-job",
+          "author": null,
+          "description": "Olivia Hoskin\n      Writer & Design Enthusiast \n\nThere’s nothing like reminiscing on your first job. For many, it may have been babysitting, working in food service, as a camp counselor or instructor, or even tutoring. A first job is memorable because it’s often your first taste of independence, earning your own money, or a moment of entrusted responsibility.\nLanding your first design job is no different! You may even feel more sentimental about your first design job. While your first job may have been mainly motivated by financial gain (nothing beats those hard-earned babysitting bucks), your first design job was likely more intrinsically valuable.\nAnd if you’re still working towards landing your first design job, this one’s for you! We asked our community how they landed their first desi…",
+          "link": "https://dribbble.com/stories/2023/03/04/how-did-you-land-your-first-design-job",
+          "publishedOn": "2023-03-04T06:00:00.000Z",
+          "wordCount": 2997,
+          "title": "How did you land your first design job? We asked you answered.",
+          "imageUrl": "https://cdn.dribbble.com/users/1312159/screenshots/5442483/intercom-blog-3936-1864_4x.png"
+        },
         {
           "id": "https://dribbble.com/stories/2023/02/28/generative-ai-lorem-ipsum",
           "author": null,
@@ -2348,106 +2278,6 @@
           "wordCount": 209,
           "title": "Pondering the future of web interactions",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67390",
-          "author": "Travis",
-          "description": "Working at Meta has given me the chance to work on large scale products with social impact and collaborate with a talented community of designers.",
-          "link": "https://heydesigner.com/what-i-learned-as-a-product-designer-on-my-first-year-at-meta/",
-          "publishedOn": "2023-02-03T09:12:38.000Z",
-          "wordCount": 222,
-          "title": "What I learned as a Product Designer on my first year at Meta",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67388",
-          "author": "Travis",
-          "description": "Your value as a designer is more than the pixels you create.",
-          "link": "https://heydesigner.com/dont-count-screens/",
-          "publishedOn": "2023-02-03T09:08:16.000Z",
-          "wordCount": 192,
-          "title": "Don’t count screens",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67386",
-          "author": "Travis",
-          "description": "A modern look at responsive web design.",
-          "link": "https://heydesigner.com/the-guide-to-responsive-design-in-2023-and-beyond/",
-          "publishedOn": "2023-02-03T09:06:50.000Z",
-          "wordCount": 200,
-          "title": "The guide to responsive design in 2023 and beyond",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67384",
-          "author": "Travis",
-          "description": "On a mindset for doing hard things.",
-          "link": "https://heydesigner.com/beyond-optimism/",
-          "publishedOn": "2023-02-03T09:05:17.000Z",
-          "wordCount": 185,
-          "title": "Beyond optimism",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67380",
-          "author": "Travis",
-          "description": "In the recent refresh of my website’s design I implemented different theming options.",
-          "link": "https://heydesigner.com/building-an-accessible-theme-picker/",
-          "publishedOn": "2023-02-03T08:34:32.000Z",
-          "wordCount": 200,
-          "title": "Building an accessible theme picker",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67376",
-          "author": "Travis",
-          "description": "Why is making a dark mode greyscale so hard to get right? Well, of course it has to do with the weird way humans perceive colour and contrast.",
-          "link": "https://heydesigner.com/darkmode/",
-          "publishedOn": "2023-02-02T13:41:07.000Z",
-          "wordCount": 199,
-          "title": "Darkmode",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67374",
-          "author": "Travis",
-          "description": "Modern Illustration is an archive of print from c.1950-1975, shining a spotlight on pioneering illustrators and their work.",
-          "link": "https://heydesigner.com/modern-illustration/",
-          "publishedOn": "2023-02-02T13:40:05.000Z",
-          "wordCount": 196,
-          "title": "Modern Illustration",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67372",
-          "author": "Travis",
-          "description": "An in-depth course on images for the web.",
-          "link": "https://heydesigner.com/learn-images/",
-          "publishedOn": "2023-02-02T13:38:35.000Z",
-          "wordCount": 189,
-          "title": "Learn images",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67370",
-          "author": "Travis",
-          "description": "Container queries makes decades of typographic hacks irrelevant and so this kinda feels like the end of an era for me.",
-          "link": "https://heydesigner.com/container-queries-and-typography/",
-          "publishedOn": "2023-02-02T13:36:30.000Z",
-          "wordCount": 206,
-          "title": "Container queries and typography",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67368",
-          "author": "Travis",
-          "description": "Notes extend our minds. They offload our memories and allow us to think through complex issues.",
-          "link": "https://heydesigner.com/building-a-personal-knowledge-garden/",
-          "publishedOn": "2023-02-02T13:33:48.000Z",
-          "wordCount": 200,
-          "title": "Building a personal knowledge garden",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2456,6 +2286,46 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35025395",
+          "author": "punnerud",
+          "description": "Article URL: https://jgthms.com/web-design-in-4-minutes/\nComments URL: https://news.ycombinator.com/item?id=35025395\nPoints: 2\n# Comments: 0",
+          "link": "https://jgthms.com/web-design-in-4-minutes/",
+          "publishedOn": "2023-03-04T23:03:11.000Z",
+          "wordCount": 1020,
+          "title": "Web Design in 4 Minutes",
+          "imageUrl": "https://jgthms.com/web-design-in-4-minutes/learn-web-design-in-4-minutes.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35023234",
+          "author": "Gooblebrai",
+          "description": "I've been considering learning web design for some time now, but with the rise of no-code tools, templates, and AI-powered website builders, I'm starting to wonder if it's still worth it.\nI understand that having a strong understanding of design principles can give me more flexibility and customization when it comes to building websites. However, it seems like more and more people are using no-code tools and templates to quickly create websites without the need for any specialized knowledge.\nSo, is learning web design still worth it in 2023?\nComments URL: https://news.ycombinator.com/item?id=35023234\nPoints: 4\n# Comments: 4",
+          "link": "https://news.ycombinator.com/item?id=35023234",
+          "publishedOn": "2023-03-04T18:39:35.000Z",
+          "wordCount": 513,
+          "title": "Ask HN: Is web design still worth learning in the age of no-code tools and AI?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35021470",
+          "author": "usgroup",
+          "description": "Article URL: https://en.wikipedia.org/wiki/Computer-aided_software_engineering\nComments URL: https://news.ycombinator.com/item?id=35021470\nPoints: 2\n# Comments: 0",
+          "link": "https://en.wikipedia.org/wiki/Computer-aided_software_engineering",
+          "publishedOn": "2023-03-04T15:27:51.000Z",
+          "wordCount": 2596,
+          "title": "Computer Aided Software Design",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Umbrello_1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35017411",
+          "author": "Hitech-Redneck",
+          "description": "Article URL: https://codebycody.com/slds-design-tokens/\nComments URL: https://news.ycombinator.com/item?id=35017411\nPoints: 1\n# Comments: 0",
+          "link": "https://codebycody.com/slds-design-tokens/",
+          "publishedOn": "2023-03-04T02:04:20.000Z",
+          "wordCount": 1967,
+          "title": "Using Design Tokens in Salesforce Development",
+          "imageUrl": "https://codebycody.com/content/images/2023/03/blog-covers.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35013669",
           "author": "automatom",
@@ -4635,146 +4505,6 @@
           "wordCount": 164,
           "title": "Show HN: Design Navigator",
           "imageUrl": "https://navigator.designdisciplin.com/card_default.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34639554",
-          "author": "TikolaNesla",
-          "description": "Hi everyone,\nI'm currently hosting a logo design contest on 99designs for my Shopify app, Delm Delivery Date Estimator.\nI would really appreciate if you could take a moment to check out the designs and give me some feedback via the poll on 99designs.\nThe poll link is: https://en.99designs.de/contests/poll/4bc1cad60f\nAnd for context here's the app store listing: https://apps.shopify.com/delm\nThanks in advance!\nPS: I understand the criticism aimed at 99designs, but participating in a design contest isn't just about winning prize money. Designers know what they're signing up for and can still benefit greatly from the experience. They have the chance to learn and improve their skills, and may even end up with a one-on-one client project as a result.\nComments URL: https://news.ycombinator.com/item?id=34639554\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=34639554",
-          "publishedOn": "2023-02-03T10:43:54.000Z",
-          "wordCount": 183,
-          "title": "Need feedback on our 99designs logo design contest",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34639252",
-          "author": "ingve",
-          "description": "Article URL: https://mortoray.com/why_ui_layout_calculations_are_slow/\nComments URL: https://news.ycombinator.com/item?id=34639252\nPoints: 2\n# Comments: 1",
-          "link": "https://mortoray.com/why_ui_layout_calculations_are_slow/",
-          "publishedOn": "2023-02-03T09:53:37.000Z",
-          "wordCount": 3037,
-          "title": "Why UI layout calculations are slow",
-          "imageUrl": "https://mortoray.com/wp-content/uploads/2023/02/snail-7627781_1920.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34638327",
-          "author": "brettkromkamp",
-          "description": "Comments URL: https://news.ycombinator.com/item?id=34638327\nPoints: 5\n# Comments: 5",
-          "link": "https://news.ycombinator.com/item?id=34638327",
-          "publishedOn": "2023-02-03T07:45:31.000Z",
-          "wordCount": 212,
-          "title": "Ask HN: If you could read only one book on design, which would it be?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34638285",
-          "author": "geminikims",
-          "description": "Personally, I often saw when visiting several companies that many developers were strongly dependent on ‘Spring’, which was always unfortunate.\nRecently, I put together some materials for developers’ education, and I’ll post some of the contents here.\nI would appreciate it if you could see this article as one of the ways even if it is obviously not the ideal solution.\nhttps://medium.com/@geminikim/how-to-design-software-that-is-sustainable-9411dc999ecf\nComments URL: https://news.ycombinator.com/item?id=34638285\nPoints: 1\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=34638285",
-          "publishedOn": "2023-02-03T07:41:18.000Z",
-          "wordCount": 141,
-          "title": "Sustainable Software: How to design software that is sustainable",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34637010",
-          "author": "geox",
-          "description": "Article URL: https://www.archdaily.com/995879/urb-reveals-design-for-the-loop-a-93-kilometer-long-controlled-climate-cycling-highway-in-dubai\nComments URL: https://news.ycombinator.com/item?id=34637010\nPoints: 2\n# Comments: 0",
-          "link": "https://www.archdaily.com/995879/urb-reveals-design-for-the-loop-a-93-kilometer-long-controlled-climate-cycling-highway-in-dubai",
-          "publishedOn": "2023-02-03T04:04:57.000Z",
-          "wordCount": 10421,
-          "title": "Design for Controlled-Climate Cycling Highway in Dubai",
-          "imageUrl": "https://images.adsttc.com/media/images/63db/8a08/ba6f/a813/5621/5b73/large_jpg/urb-reveals-design-for-the-loop-a-93-kilometer-long-controlled-climate-cycling-highway-in-dubai_1.jpg?1675332115"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34636624",
-          "author": "kitschyred",
-          "description": "Article URL: https://lwn.net/Articles/741722/\nComments URL: https://news.ycombinator.com/item?id=34636624\nPoints: 11\n# Comments: 0",
-          "link": "https://lwn.net/Articles/741722/",
-          "publishedOn": "2023-02-03T03:02:05.000Z",
-          "wordCount": 4453,
-          "title": "HarfBuzz brings professional typography to the desktop (2017)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34635104",
-          "author": "jonas_kgomo",
-          "description": "Article URL: https://snd.dev/\nComments URL: https://news.ycombinator.com/item?id=34635104\nPoints: 1\n# Comments: 0",
-          "link": "https://snd.dev/",
-          "publishedOn": "2023-02-02T23:55:41.000Z",
-          "wordCount": 1947,
-          "title": "Crafted UI sound assets for UX developers",
-          "imageUrl": "https://snd.dev/images/ogp.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34633171",
-          "author": "mhb",
-          "description": "Article URL: https://www.youtube.com/watch?v=hUhisi2FBuw\nComments URL: https://news.ycombinator.com/item?id=34633171\nPoints: 3\n# Comments: 0",
-          "link": "https://www.youtube.com/watch?v=hUhisi2FBuw",
-          "publishedOn": "2023-02-02T21:16:10.000Z",
-          "wordCount": null,
-          "title": "The ingenious design of the aluminum beverage can (2015) [video]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34629214",
-          "author": "shadowfiend",
-          "description": "Article URL: https://www.macrumors.com/2023/02/02/apple-jeff-williams-to-lead-product-design-team/\nComments URL: https://news.ycombinator.com/item?id=34629214\nPoints: 2\n# Comments: 0",
-          "link": "https://www.macrumors.com/2023/02/02/apple-jeff-williams-to-lead-product-design-team/",
-          "publishedOn": "2023-02-02T16:49:14.000Z",
-          "wordCount": 2467,
-          "title": "Apple Dropping Product Design Chief Role, Team to Report to COO Jeff Williams",
-          "imageUrl": "https://images.macrumors.com/t/fA8JAuQKC-pd-tgbrw9NvuEv8cM=/1600x/article-new/2022/11/Apple-Design-Team.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34629055",
-          "author": "TuringTest",
-          "description": "Article URL: https://www.academia.edu/2670583/The_influence_of_the_psychology_of_programming_on_a_language_design_Project_status_report\nComments URL: https://news.ycombinator.com/item?id=34629055\nPoints: 2\n# Comments: 0",
-          "link": "https://www.academia.edu/2670583/The_influence_of_the_psychology_of_programming_on_a_language_design_Project_status_report",
-          "publishedOn": "2023-02-02T16:41:40.000Z",
-          "wordCount": 1590,
-          "title": "The influence of the psychology of programming on a language design",
-          "imageUrl": "http://a.academia-assets.com/images/open-graph-icons/fb-paper.gif"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34629039",
-          "author": "retskrad",
-          "description": "Article URL: https://www.bloomberg.com/news/articles/2023-02-02/apple-decides-to-drop-role-of-industrial-design-chief-in-post-jony-ive-era\nComments URL: https://news.ycombinator.com/item?id=34629039\nPoints: 23\n# Comments: 1",
-          "link": "https://www.bloomberg.com/news/articles/2023-02-02/apple-decides-to-drop-role-of-industrial-design-chief-in-post-jony-ive-era",
-          "publishedOn": "2023-02-02T16:40:41.000Z",
-          "wordCount": 576,
-          "title": "Apple Is Dropping Industrial Design Chief Role in Post-Jony Ive Era",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34628368",
-          "author": "LinuxBender",
-          "description": "Article URL: https://www.theregister.com/2023/02/02/meta_q4_2022/\nComments URL: https://news.ycombinator.com/item?id=34628368\nPoints: 1\n# Comments: 0",
-          "link": "https://www.theregister.com/2023/02/02/meta_q4_2022/",
-          "publishedOn": "2023-02-02T15:59:07.000Z",
-          "wordCount": 1410,
-          "title": "Meta trims datacenter build bills by $4B with new 'phased' design",
-          "imageUrl": "https://regmedia.co.uk/2022/02/16/meta_shutterstock.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34626779",
-          "author": "Alifatisk",
-          "description": "I mean take a look at the websites being retweeted here https://twitter.com/rauchg\nAlmost every single one looks about the same.\nDon’t get me wrong, it’s not that I don’t like it because I do. it’s beautiful and minimal, but is it right to give Vercel the credits?\nIf not, where did it originate from?\nComments URL: https://news.ycombinator.com/item?id=34626779\nPoints: 1\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=34626779",
-          "publishedOn": "2023-02-02T14:18:08.000Z",
-          "wordCount": 213,
-          "title": "Ask HN: Has Vercel revolutionised todays web design?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34626369",
-          "author": "armanm",
-          "description": "Nord (https://nordhealth.design/) is a good example of what I'm looking for but its license doesn't allow using it outside of Nordhealth projects. (https://nordhealth.design/faq/#can-i-use-nord-in-any-project)\nWhat are some equally comprehensive alternatives Web Component libraries that are open source?\nComments URL: https://news.ycombinator.com/item?id=34626369\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=34626369",
-          "publishedOn": "2023-02-02T13:43:51.000Z",
-          "wordCount": 113,
-          "title": "Ask HN: What are some free and comprehensive Web Component UI libraries?",
-          "imageUrl": null
         }
       ]
     },
@@ -4783,6 +4513,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35025288",
+          "author": "mgl",
+          "description": "Article URL: https://world.hey.com/dhh/saas-startups-will-have-to-care-about-productivity-again-78d4bd1a?hn\nComments URL: https://news.ycombinator.com/item?id=35025288\nPoints: 2\n# Comments: 1",
+          "link": "https://world.hey.com/dhh/saas-startups-will-have-to-care-about-productivity-again-78d4bd1a?hn",
+          "publishedOn": "2023-03-04T22:50:31.000Z",
+          "wordCount": 755,
+          "title": "DHH: SaaS startups will have to care about productivity again",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35015832",
           "author": "redbell",
@@ -5332,36 +5072,6 @@
           "wordCount": 576,
           "title": "Ask HN: Which tools increased your productivity the most?",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34638353",
-          "author": "fagnerbrack",
-          "description": "Article URL: https://sprkl.dev/37-tips-for-improving-productivity-in-software-development-teams/\nComments URL: https://news.ycombinator.com/item?id=34638353\nPoints: 1\n# Comments: 0",
-          "link": "https://sprkl.dev/37-tips-for-improving-productivity-in-software-development-teams/",
-          "publishedOn": "2023-02-03T07:48:12.000Z",
-          "wordCount": 16708,
-          "title": "Tips for improving productivity in software development teams",
-          "imageUrl": "https://sprkl.dev/wp-content/uploads/2022/12/Daniel-blog-banner.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34632044",
-          "author": "rustoo",
-          "description": "Article URL: https://timesofindia.indiatimes.com/business/india-business/productivity-got-boost-from-wfh-but-toxicity-grew-too/articleshow/97503244.cms\nComments URL: https://news.ycombinator.com/item?id=34632044\nPoints: 2\n# Comments: 0",
-          "link": "https://timesofindia.indiatimes.com/business/india-business/productivity-got-boost-from-wfh-but-toxicity-grew-too/articleshow/97503244.cms",
-          "publishedOn": "2023-02-02T19:49:23.000Z",
-          "wordCount": 6818,
-          "title": "Productivity got boost from WFH, but toxicity grew too",
-          "imageUrl": "https://static.toiimg.com/thumb/msid-97503243,width-1070,height-580,imgsize-37805,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34626721",
-          "author": "hubraumhugo",
-          "description": "By productivity, I mean not only efficiency but also effectiveness.\nI already went through GTD, to-do lists, and pomodoro techniques, so I would love to hear what worked best for you.\nI returned to a simple to-do list on paper, my calendar, and a website blocker.\nComments URL: https://news.ycombinator.com/item?id=34626721\nPoints: 2\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=34626721",
-          "publishedOn": "2023-02-02T14:13:27.000Z",
-          "wordCount": 179,
-          "title": "Ask HN: How did you optimize your productivity over your career?",
-          "imageUrl": null
         }
       ]
     },
@@ -5370,6 +5080,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35019288",
+          "author": "rahxul",
+          "description": "Article URL: https://www.rahul.biz/blog/a-guide-to-css-color-functions-rgb-hsl-rgba-hsla-in-2023\nComments URL: https://news.ycombinator.com/item?id=35019288\nPoints: 2\n# Comments: 1",
+          "link": "https://www.rahul.biz/blog/a-guide-to-css-color-functions-rgb-hsl-rgba-hsla-in-2023",
+          "publishedOn": "2023-03-04T08:38:11.000Z",
+          "wordCount": 8050,
+          "title": "CSS Color Functions in 2023 – Everything You Need to Know to Get Started",
+          "imageUrl": "https://cdn.sanity.io/images/lmj8mowy/production/9570eddc6735efcc7d1d068dd08e4e613b003caa-4000x2665.jpg?fit=max&auto=format"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35003821",
           "author": "nomdep",
@@ -6159,16 +5879,6 @@
           "wordCount": 2234,
           "title": "HTML as a compile target: Embracing type-safe HTML",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34639834",
-          "author": "veryragnar",
-          "description": "Article URL: https://fern.so/blog/how-we-designed-and-implemented-dark-mode-in-fern/\nComments URL: https://news.ycombinator.com/item?id=34639834\nPoints: 3\n# Comments: 1",
-          "link": "https://fern.so/blog/how-we-designed-and-implemented-dark-mode-in-fern/",
-          "publishedOn": "2023-02-03T11:25:51.000Z",
-          "wordCount": 1584,
-          "title": "How we designed and implemented dark mode using Tailwind",
-          "imageUrl": "https://fern.so/assets/images/uploads/blog-social-card-dark-mode.png"
         }
       ]
     },
@@ -6281,6 +5991,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=45105",
+          "author": "Seth Godin",
+          "description": "Perhaps you only acknowledge and focus on problems where you know and are comfortable with the appropriate response. Denying the existence of the other ones is easier than dealing with them. Or it might be that you only choose to see the problems that are actually situations, that can’t be solved, and that amplify our […]",
+          "link": "https://seths.blog/2023/03/choosing-your-problems/",
+          "publishedOn": "2023-03-04T09:13:00.000Z",
+          "wordCount": 972,
+          "title": "Choosing your problems",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
+        },
         {
           "id": "https://seths.blog/?p=43952",
           "author": "Seth Godin",
@@ -6570,16 +6290,6 @@
           "wordCount": 905,
           "title": "“No photos”",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42703",
-          "author": "Seth Godin",
-          "description": "The thing that your product or service delivers could be called performance, and it’s made of two components: –The story and expectations and cultural impact of what you do (the story). –The deliverables that are objectively measured (the spec). It helps to have both. Many hard-working freelancers are confused about their story. Either they insist […]",
-          "link": "https://seths.blog/2023/02/confusion-about-performance/",
-          "publishedOn": "2023-02-03T09:35:00.000Z",
-          "wordCount": 926,
-          "title": "Confusion about performance",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
         }
       ]
     },
@@ -7587,56 +7297,6 @@
           "wordCount": 80,
           "title": "TresJS: The solution for 3D on VueJS",
           "imageUrl": null
-        },
-        {
-          "id": "Bh4qWpB6AbqpH98QD",
-          "author": "@verge",
-          "description": "Let's hope Sidebar doesn't break! – Sacha",
-          "link": "https://www.theverge.com/2023/2/2/23582615/twitter-removing-free-api-developer-apps-price-announcement",
-          "publishedOn": "2023-02-03T06:21:55.000Z",
-          "wordCount": 9362,
-          "title": "Twitter is replacing free access to its API with a new paid tier",
-          "imageUrl": "https://cdn.vox-cdn.com/thumbor/2hKyPyHYth1o-C3Dlk_alBZRzhs=/0x0:3000x2000/1200x628/filters:focal(1500x1000:1501x1001)/cdn.vox-cdn.com/uploads/chorus_asset/file/23951434/acastro_STK050_08.jpg"
-        },
-        {
-          "id": "oWcoeBkwTszHkKG9Y",
-          "author": "@robinrendle",
-          "description": "Back in 2013 when I started my career there were a few big problems with CSS.",
-          "link": "https://www.robinrendle.com/notes/container-queries-and-typography/",
-          "publishedOn": "2023-02-03T06:20:37.000Z",
-          "wordCount": 3267,
-          "title": "Container Queries and Typography",
-          "imageUrl": null
-        },
-        {
-          "id": "GgpxxNYnbEZEbEhy3",
-          "author": "@wilto",
-          "description": "An in-depth course on images for the web.",
-          "link": "https://web.dev/learn/images/",
-          "publishedOn": "2023-02-03T06:18:56.000Z",
-          "wordCount": 641,
-          "title": "Learn Images",
-          "imageUrl": "https://web-dev.imgix.net/image/kheDArv5csY6rvQUJDbWRscckLr1/MadRbq0upSrYMQ1ksYrQ.png?auto=format&fit=max&w=1200&fm=auto"
-        },
-        {
-          "id": "og6QL4ErKs9uGyp6j",
-          "author": "@linear",
-          "description": "It’s time to push back against the forces of stagnation. It’s time for a change.",
-          "link": "https://linear.app/change",
-          "publishedOn": "2023-02-03T06:17:39.000Z",
-          "wordCount": 3158,
-          "title": "Last Year You Said Next Year",
-          "imageUrl": "https://linear.app/static/change/og.gif"
-        },
-        {
-          "id": "NCHpcydo2f3hXEgWS",
-          "author": "@zaraillustrates",
-          "description": "Modern Illustration is an archive of print from c.1950-1975, collected and documented by illustrator Zara Picken.",
-          "link": "https://www.modernillustration.org/",
-          "publishedOn": "2023-02-03T06:17:36.000Z",
-          "wordCount": 1330,
-          "title": "Modern Illustration",
-          "imageUrl": null
         }
       ]
     },
@@ -8073,21 +7733,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://files.smashing.media/articles/building-print-like-website-layout-css-grid-areas/build-magazine-layout-css-grid-areas.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/02/podcasts-ux-designers/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Podcasts are a fantastic opportunity to get up close with the people who know their craft. In this post, we compiled podcasts that are bound to provide valuable insights into UX and new perspectives on the field. Perfect for a short coffee break or a long commute.",
-          "link": "https://smashingmagazine.com/2023/02/podcasts-ux-designers/",
-          "publishedOn": "2023-02-02T15:00:00.000Z",
-          "wordCount": 4626,
-          "title": "Podcasts For UX Designers",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/ux-podcasts/podcasts-ux-designers.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://files.smashing.media/articles/ux-podcasts/podcasts-ux-designers.png"
         }
       ]
     },
