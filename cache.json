@@ -82,28 +82,7 @@
       "title": "Axess Lab",
       "feedUrl": "https://axesslab.com/feed/",
       "siteUrl": "https://axesslab.com",
-      "articles": [
-        {
-          "id": "https://axesslab.com/?p=3650",
-          "author": "Erik Gustafsson",
-          "description": "Welcome to a 2 day event on March 16 and 17 with mingle and networking. We will watch Axe-cons virtual conference where the theme is inclusive design and accessibility. Axe-con March 16 – 17 Location: Stockholm, time TBA. Daytime. No cost to attend. We will offer vegetarian/vegan snacks/treats, but do let us know if you […]",
-          "link": "https://axesslab.com/axecon-2023/",
-          "publishedOn": "2023-02-08T14:05:21.000Z",
-          "wordCount": 406,
-          "title": "Axe-con 2023 watch party and mingle with Axess Lab",
-          "imageUrl": "https://axesslab.com/wp-content/uploads/2023/02/terren-hurst-blgOFmPIlr0-unsplash-400x267.jpg"
-        },
-        {
-          "id": "https://axesslab.com/?p=3650",
-          "author": "Erik Gustafsson",
-          "description": "Axe-con March 16 – 17 Welcome to a 2 day event with mingle and networking. We will watch Axe-cons virtual conference where the theme is inclusive design and accessibility. Location: Stockholm, time TBA. Daytime. No cost to attend. We will offer vegetarian/vegan snacks/treats, but do let us know if you have any allergies. Register here […]",
-          "link": "https://axesslab.com/axecon/",
-          "publishedOn": "2023-02-08T14:05:21.000Z",
-          "wordCount": 732,
-          "title": "Axe-con mingle with Axess Lab",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Herding Lions",
@@ -493,6 +472,16 @@
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=377098",
+          "author": "Richard Oliver Bray",
+          "description": "You know what it’s like to pick up a new language or framework. Sometimes there’s great documentation to help you find your way through it. But even the best documentation doesn’t cover absolutely everything. And when you work with something …\n5 Mistakes I Made When Starting My First React Project originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/5-mistakes-starting-react/",
+          "publishedOn": "2023-03-10T16:41:52.000Z",
+          "wordCount": 2308,
+          "title": "5 Mistakes I Made When Starting My First React Project",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/377098"
+        },
         {
           "id": "https://css-tricks.com/?p=377074",
           "author": "Mads Stoumann",
@@ -1029,46 +1018,6 @@
           "wordCount": 2775,
           "title": "Advanced techniques for writing good interfaces",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11658",
-          "author": "Adam Marsden",
-          "description": "A11Y",
-          "link": "https://dailydevlinks.com/testing-colour-accessibility-with-dev-tools/",
-          "publishedOn": "2023-02-08T12:33:00.000Z",
-          "wordCount": 2775,
-          "title": "Testing Colour Accessibility with Dev Tools",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11667",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://dailydevlinks.com/my-favourite-3-lines-of-css/",
-          "publishedOn": "2023-02-08T12:30:00.000Z",
-          "wordCount": 2778,
-          "title": "My favourite 3 lines of CSS",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11661",
-          "author": "Adam Marsden",
-          "description": "A11YTool",
-          "link": "https://dailydevlinks.com/bite-sized-accessibility/",
-          "publishedOn": "2023-02-08T12:30:00.000Z",
-          "wordCount": 2758,
-          "title": "Bite-Sized Accessibility",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11664",
-          "author": "Adam Marsden",
-          "description": "CSSPerformance",
-          "link": "https://dailydevlinks.com/the-truth-about-css-selector-performance/",
-          "publishedOn": "2023-02-08T12:30:00.000Z",
-          "wordCount": 2778,
-          "title": "The truth about CSS selector performance",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
         }
       ]
     },
@@ -1372,36 +1321,6 @@
           "wordCount": 3061,
           "title": "Improved font fallbacks",
           "imageUrl": "https://wd.imgix.net/image/fuiz5I8Iv7bV8YbrK2PKiY3Vask2/iGPiWTtoy7iF932Xday1.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/lighthouse-10-0/",
-          "author": null,
-          "description": "Lighthouse is a website auditing tool that helps developers with opportunities and diagnostics to improve the user experience of their sites.\nLighthouse 10 is available immediately on the command line through npm, in Chrome Canary, and in PageSpeed Insights. It will land in Chrome stable in Chrome 112.\n# Scoring changes\nThe venerable Time To Interactive (TTI) metric is being removed in Lighthouse 10, with its 10% score weight shifted to Cumulative Layout Shift (CLS), which will now account for 25% of the overall performance score. Ideally this change will increase focus on CLS for sites that still need fixes for unnecessary layout shifts.\nWe expect this to improve most pages' performance scores, since most pages tend to score better on CLS than TTI. In an analysis of 13 million page loads …",
-          "link": "https://developer.chrome.com/en/blog/lighthouse-10-0/",
-          "publishedOn": "2023-02-09T00:00:00.000Z",
-          "wordCount": 1087,
-          "title": "What's new in Lighthouse 10",
-          "imageUrl": "https://wd.imgix.net/image/MtjnObpuceYe3ijODN3a79WrxLU2/SM05YIr19Ucx2cUCx5lR.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/chrome-111-beta/",
-          "author": null,
-          "description": "Unless otherwise noted, the following changes apply to the newest Chrome beta channel release for Android, ChromeOS, Linux, macOS, and Windows. Learn more about the features listed here through the provided links or from the list on ChromeStatus.com. Chrome 111 is beta as of 9 February 2023. You can download the latest on Google.com for desktop or on Google Play Store on Android.\n# CSS\n# New CSS color types and spaces\nAll features described in CSS Color Level 4 are now enabled. This includes four device-independent color types (lab, Oklab, lch and Oklch), the color() function, and user-defined color spaces for gradients and animations.\nRead the High definition CSS color guide to learn about these new color types and spaces.\n# The color-mix() function\nThe incredibly useful color-mix() funct…",
-          "link": "https://developer.chrome.com/en/blog/chrome-111-beta/",
-          "publishedOn": "2023-02-09T00:00:00.000Z",
-          "wordCount": 1809,
-          "title": "Chrome 111 beta",
-          "imageUrl": "https://wd.imgix.net/image/kheDArv5csY6rvQUJDbWRscckLr1/pcXsIOqFVrZiYPjNulQf.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/bidding-and-auction-services-availability/",
-          "author": null,
-          "description": "As FLEDGE adoption continues to grow and scale, we recently launched a collection of new optimizations to help improve on-device auction latency. In addition to these improvements, we will be expanding support for the Bidding and Auction services to the web platform.\nThe Bidding and Auction services integrate with existing FLEDGE designs and offload bid computation and scoring to a cloud-based trusted execution environment. This was proposed back in 2022 and, after careful consideration, both Chrome and Android plan to provide support for Bidding and Auction services.\nWe will continue to support on-device auctions, and the use of the Bidding and Auction Services is not required unless it fits your use cases.\nOur goal is to minimize the effort to test and deploy Bidding and Auction services…",
-          "link": "https://developer.chrome.com/en/blog/bidding-and-auction-services-availability/",
-          "publishedOn": "2023-02-09T00:00:00.000Z",
-          "wordCount": 1109,
-          "title": "FLEDGE Bidding and Auction services availability",
-          "imageUrl": "https://wd.imgix.net/image/hVf1flv5Jdag8OQKYqOcJgWUvtz1/J1xttcy4grVMCckg0Feu.png?auto=format&w=1521"
         }
       ]
     },
@@ -1500,6 +1419,46 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=67649",
+          "author": "Travis",
+          "description": "Something non-designers understandably struggle with is how to make things look good.",
+          "link": "https://heydesigner.com/some-simple-ways-to-make-content-look-good/",
+          "publishedOn": "2023-03-10T06:59:36.000Z",
+          "wordCount": 205,
+          "title": "Some simple ways to make content look good",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67647",
+          "author": "Travis",
+          "description": "Task-oriented user stories lead to bad product decisions because they mix up value with cost. But they are easy to turn into inverted user stories — a tool for thinking bigger.",
+          "link": "https://heydesigner.com/as-a-user-i-dont-want-to/",
+          "publishedOn": "2023-03-10T06:57:26.000Z",
+          "wordCount": 211,
+          "title": "As a user, I don’t want to",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67645",
+          "author": "Travis",
+          "description": "New selling tools and the Figma Creator Fund will help fuel the love of craft that fuels Figma Community.",
+          "link": "https://heydesigner.com/creators-need-creators/",
+          "publishedOn": "2023-03-10T06:55:41.000Z",
+          "wordCount": 199,
+          "title": "Creators need creators",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67643",
+          "author": "Travis",
+          "description": "The text-wrap:balance declaration in CSS Text Module Level 4 says that line breaks should be chosen to balance out the line lengths in a block of text.",
+          "link": "https://heydesigner.com/an-end-to-typographic-widows-on-the-web/",
+          "publishedOn": "2023-03-10T06:53:59.000Z",
+          "wordCount": 215,
+          "title": "An end to typographic widows on the web",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=67639",
           "author": "Travis",
@@ -2317,6 +2276,76 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35098130",
+          "author": "Wahba",
+          "description": "Do I need to get an EE master’s (VLSI focus, interested in this field) to understand the field better so that I can use AI to improve chip design and manufacture life cycle (as a CS grad)?\nI am a cs grad, but I liked electronics since first year's summer break when I took a practical course in electronics, then I played around with embedded systems & ai & robotics and web dev's study materials for all of my college years and never got past any intro course in any of them. now after graduation I feel like I know nothing and interested in a lot of things and not being able to decide what to choose. now I am interested in both ai & vlsi and can't decide between:\n1.using ai to automate the build process of ic chips. or,\n2.using vlsi to design ai-specific chips to advance the field more and more.\nbeing ignorant about both fields, I can't make a decision. and I feel like I have to study both no matter what order of the two I pursue. so, I chose to start with ai as a tool for solving problems and then later in my career I pursue an MS in EE to understand the kind of problems in this field and how to solve it using ai. and this order is safer for me, giving my cs background, than to shift my career to EE as a fresh grad.\ndoes this make any sense, or I am just wasting my time for lack of experience to decide?\nand what is the job title for something like this? is it related to a VLSI CAD engineer?\nComments URL: https://news.ycombinator.com/item?id=35098130\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=35098130",
+          "publishedOn": "2023-03-10T17:50:34.000Z",
+          "wordCount": 341,
+          "title": "Ask HN: AI in VLSI Design",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35096555",
+          "author": "p44v9n",
+          "description": "Article URL: https://www.reipishtari.com/notes/process\nComments URL: https://news.ycombinator.com/item?id=35096555\nPoints: 1\n# Comments: 0",
+          "link": "https://www.reipishtari.com/notes/process",
+          "publishedOn": "2023-03-10T16:27:27.000Z",
+          "wordCount": 1325,
+          "title": "Rei's Web Design Process",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35095149",
+          "author": "timothymiko",
+          "description": "Article URL: https://eng.lyft.com/the-journey-to-server-driven-ui-at-lyft-bikes-and-scooters-c19264a0378e?gi=a19ce9def2b0\nComments URL: https://news.ycombinator.com/item?id=35095149\nPoints: 7\n# Comments: 1",
+          "link": "https://eng.lyft.com/the-journey-to-server-driven-ui-at-lyft-bikes-and-scooters-c19264a0378e?gi=a19ce9def2b0",
+          "publishedOn": "2023-03-10T15:03:12.000Z",
+          "wordCount": 7133,
+          "title": "The Journey to Server Driven UI at Lyft Bikes and Scooters",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*zq1NpUSuXZyHchtX"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35093566",
+          "author": "evelynn93",
+          "description": "Article URL: https://medium.com/@maganja.eva/why-i-started-my-own-design-agency-cdeff9ed9c52\nComments URL: https://news.ycombinator.com/item?id=35093566\nPoints: 2\n# Comments: 1",
+          "link": "https://medium.com/@maganja.eva/why-i-started-my-own-design-agency-cdeff9ed9c52",
+          "publishedOn": "2023-03-10T12:31:46.000Z",
+          "wordCount": 1783,
+          "title": "Why I Started My Own Design Agency",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*pERUx8sEKWIDBe7TSiuNPQ.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35090989",
+          "author": "jaderubick",
+          "description": "Article URL: https://www.rubick.com/steel-threads/\nComments URL: https://news.ycombinator.com/item?id=35090989\nPoints: 146\n# Comments: 79",
+          "link": "https://www.rubick.com/steel-threads/",
+          "publishedOn": "2023-03-10T06:09:14.000Z",
+          "wordCount": 1868,
+          "title": "Steel Threads are a powerful but obscure software design approach",
+          "imageUrl": "https://rubick.com/static/67ed1d2cbb58d382f3c8a12d9581a47c/14b42/thread.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35090566",
+          "author": "call-me-al",
+          "description": "Article URL: https://github.com/oobabooga/text-generation-webui\nComments URL: https://news.ycombinator.com/item?id=35090566\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/oobabooga/text-generation-webui",
+          "publishedOn": "2023-03-10T04:59:55.000Z",
+          "wordCount": 1929,
+          "title": "A gradio web UI for running Large Language Models",
+          "imageUrl": "https://opengraph.githubassets.com/e47a505670d79c8aa6818b19694dbc418536dd10a8940986e6fcd884e4400ab1/oobabooga/text-generation-webui"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35089951",
+          "author": "whereistimbo",
+          "description": "Article URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7499053/\nComments URL: https://news.ycombinator.com/item?id=35089951\nPoints: 2\n# Comments: 0",
+          "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7499053/",
+          "publishedOn": "2023-03-10T03:10:08.000Z",
+          "wordCount": 16604,
+          "title": "The Covid-19 pandemic: Impacts on cities and lessons for urban planning design",
+          "imageUrl": "https://www.ncbi.nlm.nih.gov/corehtml/pmc/pmcgifs/pmc-graphic-share.png?_=0"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35086896",
           "author": "anigbrowl",
@@ -4596,36 +4625,6 @@
           "wordCount": 4913,
           "title": "The Design of Transparent Telemetry",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34720249",
-          "author": "netvarun",
-          "description": "Article URL: https://www.usegalileo.ai/\nComments URL: https://news.ycombinator.com/item?id=34720249\nPoints: 3\n# Comments: 0",
-          "link": "https://www.usegalileo.ai/",
-          "publishedOn": "2023-02-09T05:55:00.000Z",
-          "wordCount": 253,
-          "title": "Text to Figma Design AI",
-          "imageUrl": "https://usegalileo.ai/og_preview.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34712664",
-          "author": "clumsysmurf",
-          "description": "Lately I have been learning Jetpack Compose (for Android). Its new and shiny, like its counterpart SwiftUI (Apple), but there are older frameworks that take this approach, like React.\nThe main problem being solved, according to the marketing materials, is that its easier to keep state in sync with UI by regenerating the UI as state changes. Lots of work goes into avoiding updating the tree of UI that hasn't changed. This sounds good.\nIs the declarative approach the way forward for all 2d UIs (even outside mobile)? Is there still merit with the older approach of stateful widget trees and mutating their state imperatively? Where will we see the traditional (imperative) way maintain its niche compared to declarative UIs?\nComments URL: https://news.ycombinator.com/item?id=34712664\nPoints: 2\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=34712664",
-          "publishedOn": "2023-02-08T18:41:18.000Z",
-          "wordCount": 242,
-          "title": "Ask HN: Are declarative UI frameworks the way forward in all 2D UIs?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34707989",
-          "author": "jub0bs",
-          "description": "Article URL: https://jub0bs.com/posts/2023-02-08-fearless-cors/\nComments URL: https://news.ycombinator.com/item?id=34707989\nPoints: 1\n# Comments: 0",
-          "link": "https://jub0bs.com/posts/2023-02-08-fearless-cors/",
-          "publishedOn": "2023-02-08T13:52:50.000Z",
-          "wordCount": 8813,
-          "title": "Fearless CORS: a design philosophy for CORS middleware libraries and a Go impl",
-          "imageUrl": null
         }
       ]
     },
@@ -4634,6 +4633,26 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35099075",
+          "author": "larsbarnabee",
+          "description": "Hello, I was wondering what computer monitor setup helps your productivity for game design. Do you use one curved monitor? Or multiple square monitors? Or some combination? Personally, I use two and had been thinking it is annoying not to have a dedicated area for code, game engine, api, chatgpt. It seems like a difficult balance to see proper information at once.\nComments URL: https://news.ycombinator.com/item?id=35099075\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=35099075",
+          "publishedOn": "2023-03-10T18:48:57.000Z",
+          "wordCount": 136,
+          "title": "Ask HN: Videogame Designers, what monitor setup helps your productivity?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35096756",
+          "author": "daviducolo",
+          "description": "Article URL: https://searq.org/exports\nComments URL: https://news.ycombinator.com/item?id=35096756\nPoints: 1\n# Comments: 0",
+          "link": "https://searq.org/exports",
+          "publishedOn": "2023-03-10T16:39:55.000Z",
+          "wordCount": 92,
+          "title": "Show HN: Export News as CSV file from RSS feeds",
+          "imageUrl": "https://searq.org/logo.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35084001",
           "author": "mililitre",
@@ -5291,6 +5310,46 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35099609",
+          "author": "tannhaeuser",
+          "description": "Article URL: https://sgmljs.net/blog/blog2303.html\nComments URL: https://news.ycombinator.com/item?id=35099609\nPoints: 1\n# Comments: 0",
+          "link": "https://sgmljs.net/blog/blog2303.html",
+          "publishedOn": "2023-03-10T19:32:05.000Z",
+          "wordCount": 2178,
+          "title": "DTDs for HTML Review Drafts January, 2020 and 2023: Is this HTML 6?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35097164",
+          "author": "mfiguiere",
+          "description": "Article URL: https://www.phoronix.com/news/Chrome-112-Beta\nComments URL: https://news.ycombinator.com/item?id=35097164\nPoints: 3\n# Comments: 0",
+          "link": "https://www.phoronix.com/news/Chrome-112-Beta",
+          "publishedOn": "2023-03-10T17:00:23.000Z",
+          "wordCount": 1366,
+          "title": "Chrome 112 Beta Released with CSS Nesting, WebAssembly Tail Call",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35092446",
+          "author": "vp",
+          "description": "Article URL: https://hotwired.dev/\nComments URL: https://news.ycombinator.com/item?id=35092446\nPoints: 2\n# Comments: 1",
+          "link": "https://hotwired.dev/",
+          "publishedOn": "2023-03-10T09:45:12.000Z",
+          "wordCount": 279,
+          "title": "Sending HTML instead of JSON over the wire",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35090292",
+          "author": "marban",
+          "description": "Article URL: https://joshcollinsworth.com/blog/great-transitions\nComments URL: https://news.ycombinator.com/item?id=35090292\nPoints: 2\n# Comments: 0",
+          "link": "https://joshcollinsworth.com/blog/great-transitions",
+          "publishedOn": "2023-03-10T04:14:38.000Z",
+          "wordCount": 5834,
+          "title": "Ten tips for better CSS transitions and animations",
+          "imageUrl": "https://joshcollinsworth.com/images/post_images/great-transitions.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35084180",
           "author": "michalg82",
@@ -6060,46 +6119,6 @@
           "wordCount": 714,
           "title": "Show HN: Supertweak, chrome extension to visually edit any Tailwind website",
           "imageUrl": "https://supertweak.dev/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34721234",
-          "author": "acqbu",
-          "description": "Article URL: https://learn.shayhowe.com/advanced-html-css/\nComments URL: https://news.ycombinator.com/item?id=34721234\nPoints: 2\n# Comments: 0",
-          "link": "https://learn.shayhowe.com/advanced-html-css/",
-          "publishedOn": "2023-02-09T08:36:36.000Z",
-          "wordCount": 405,
-          "title": "Learn Advanced HTML and CSS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34712064",
-          "author": "feross",
-          "description": "Article URL: https://webkit.org/blog/13813/try-css-nesting-today-in-safari-technology-preview/\nComments URL: https://news.ycombinator.com/item?id=34712064\nPoints: 5\n# Comments: 1",
-          "link": "https://webkit.org/blog/13813/try-css-nesting-today-in-safari-technology-preview/",
-          "publishedOn": "2023-02-08T18:04:19.000Z",
-          "wordCount": 1419,
-          "title": "Try out CSS Nesting today",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34708319",
-          "author": "soheilpro",
-          "description": "Article URL: https://css-tricks.com/the-truth-about-css-selector-performance/\nComments URL: https://news.ycombinator.com/item?id=34708319\nPoints: 2\n# Comments: 0",
-          "link": "https://css-tricks.com/the-truth-about-css-selector-performance/",
-          "publishedOn": "2023-02-08T14:19:17.000Z",
-          "wordCount": 874,
-          "title": "The truth about CSS selector performance",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/376659"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34707103",
-          "author": "biodiscus",
-          "description": "Article URL: https://github.com/webdiscus/html-bundler-webpack-plugin\nComments URL: https://news.ycombinator.com/item?id=34707103\nPoints: 1\n# Comments: 0",
-          "link": "https://github.com/webdiscus/html-bundler-webpack-plugin",
-          "publishedOn": "2023-02-08T12:23:55.000Z",
-          "wordCount": 5794,
-          "title": "Show HN: HTML Bundler Plugin makes Webpack setup easy and intuitive",
-          "imageUrl": "https://opengraph.githubassets.com/9edca887cbdbafc4b50d252b6e3314586d575f88bc6f5b289d710c85b8ec76f7/webdiscus/html-bundler-webpack-plugin"
         }
       ]
     },
@@ -6135,16 +6154,6 @@
           "wordCount": 1141,
           "title": "Do we need CSS flex-wrap detection?",
           "imageUrl": "https://ishadeed.com/assets/flex-wrap-detection/twitter-card.jpg"
-        },
-        {
-          "id": "http://ishadeed.com/article/css-wishlist-2023/",
-          "author": null,
-          "description": "A few CSS features I wish to have.",
-          "link": "http://ishadeed.com/article/css-wishlist-2023/",
-          "publishedOn": "2023-02-09T05:00:00.000Z",
-          "wordCount": 975,
-          "title": "My CSS Wishlist",
-          "imageUrl": "https://ishadeed.com/assets/css-wishlist-2023/twitter-card.jpg"
         }
       ]
     },
@@ -6212,6 +6221,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=44966",
+          "author": "Seth Godin",
+          "description": "I considered myself someone with an encyclopedic knowledge of a narrow range of mid-1960s TV and certain strains of pop music as well. I was stunned, then, to hear the song Zilch for the first time recently. Mr. Dobalina, Mr. Bob Dobalina. It’s unforgettable. And it’s from the Monkees. Go figure. We’ve long passed the […]",
+          "link": "https://seths.blog/2023/03/bob-dobalina/",
+          "publishedOn": "2023-03-10T09:45:00.000Z",
+          "wordCount": 936,
+          "title": "Bob Dobalina",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=44978",
           "author": "Seth Godin",
@@ -6511,16 +6530,6 @@
           "wordCount": 1056,
           "title": "The magic of a page a day",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41897",
-          "author": "Seth Godin",
-          "description": "Most people want you to make something cheap, write something short, share something funny, and fit in. But the people you serve… they might want something else. The few people you need to thrive in your work might want you to write something they’ll remember for a long time, or to take them on a […]",
-          "link": "https://seths.blog/2023/02/most-people-and-the-people-you-choose/",
-          "publishedOn": "2023-02-09T10:39:00.000Z",
-          "wordCount": 944,
-          "title": "Most people (and the people you choose)",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg"
         }
       ]
     },
@@ -6529,6 +6538,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "aJbwDnTXPmQZekWZw",
+          "author": "@Medium",
+          "description": "This article goes through almost all of the changes of the last 3 years (and some from earlier) in JavaScript / ECMAScript and TypeScript.",
+          "link": "https://medium.com/@LinusSchlumberger/all-javascript-and-typescript-features-of-the-last-3-years-629c57e73e42",
+          "publishedOn": "2023-03-10T09:54:23.000Z",
+          "wordCount": 14343,
+          "title": "All JavaScript and TypeScript features of the last 3 years",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:512/1*2yo_1MdBQE1pOYWV4ueyfQ.png"
+        },
+        {
+          "id": "eoSsfvFiAK8tRuMr2",
+          "author": "@_csilverman",
+          "description": "Since late 2021, I’ve done one drawing on my phone every day, sharing them to social media under the hashtag #notesArt.",
+          "link": "https://notes.art/",
+          "publishedOn": "2023-03-10T09:49:13.000Z",
+          "wordCount": 464,
+          "title": "Notes Art – Explorations in iPhone Notes",
+          "imageUrl": null
+        },
+        {
+          "id": "fQMNoJHpNDwn5vDS5",
+          "author": null,
+          "description": "While the redesign has given the internet yet another thing to hate, COLLINS’ L.A. Corrall offers a different, more flattering perspective.",
+          "link": "https://www.printmag.com/type-tuesday/why-are-people-mad-about-the-new-nokia-logo-and-is-it-warranted/",
+          "publishedOn": "2023-03-10T09:44:25.000Z",
+          "wordCount": 2471,
+          "title": "Why Are People Mad About the New Nokia Logo— and Is It Warranted?",
+          "imageUrl": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2023/03/42911f70-b5f7-11ed-aee9-cf158d99b41d.cf_.jpg?fit=875%2C546&ssl=1"
+        },
+        {
+          "id": "o477R4CsTXaWvy9mC",
+          "author": "@youtube",
+          "description": "The Age of AI has arrived and its first flashpoint is art.",
+          "link": "https://www.youtube.com/watch?v=rswxcDyotXA",
+          "publishedOn": "2023-03-10T09:43:13.000Z",
+          "wordCount": null,
+          "title": "AI and Image Generation (Everything is a Remix Part 4)",
+          "imageUrl": null
+        },
+        {
+          "id": "irigLJi6tQKbPTDfa",
+          "author": "@uxdesigncc",
+          "description": "Delving into the different UX mindsets of starters and finishers in the tech world.",
+          "link": "https://uxdesign.cc/your-team-needs-a-better-balance-between-starters-and-finishers-37047c8ad952?sk=a789cd6e8a85f06e8f20e90fd4e449ec",
+          "publishedOn": "2023-03-10T09:42:14.000Z",
+          "wordCount": 4686,
+          "title": "Your team needs a better balance between starters and finishers",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:540/1*P5Vs9o8bCs4WeJmsyDYUSg.png"
+        },
         {
           "id": "rtmHkKLAtxmnfk4Bv",
           "author": null,
@@ -7528,56 +7587,6 @@
           "wordCount": 2568,
           "title": "Advanced techniques for writing good interfaces",
           "imageUrl": "https://miro.medium.com/max/1200/1*fqsGgALYfAOHK7oz3D1X0g.png"
-        },
-        {
-          "id": "vScrsJ6ZfjGpDgpfR",
-          "author": "@colossal",
-          "description": "‘Shift Happens’ documents 150 years of keyboard history from early analog typewriters to the pixelated versions on our phones.",
-          "link": "https://www.thisiscolossal.com/2023/02/shift-happens-marcin-wichary/",
-          "publishedOn": "2023-02-09T05:50:25.000Z",
-          "wordCount": 1976,
-          "title": "Shift Happens Catalogs the 150-Year History of the Keyboard",
-          "imageUrl": "https://www.thisiscolossal.com/wp-content/uploads/2023/02/wichary-og.jpg"
-        },
-        {
-          "id": "XkZcbPftnrb8beEoM",
-          "author": "@tweetsbytbi",
-          "description": "“Essentially, we were brought in to help give CHEEX a brand ‘clean-up,’” Designer Tomas Clarkson tells us.",
-          "link": "https://the-brandidentity.com/project/plusminus-studios-unapologetic-identity-refresh-for-cheex-signals-a-new-standard-for-porn-sites",
-          "publishedOn": "2023-02-09T05:48:32.000Z",
-          "wordCount": 3142,
-          "title": "PLUSMINUS Studio’s unapologetic identity refresh for CHEEX",
-          "imageUrl": "https://the-brandidentity.com/uploads/articles/2023/02/plusminus-studios-unapologetic-identity-refresh-for-cheex-signals-a-new-standard-for-porn-sites/Cheex-PlusMinus-10_2023-02-01-105058_galy.jpg"
-        },
-        {
-          "id": "KMAPoCKtXer3wevm9",
-          "author": "@SCMPgraphics",
-          "description": "A visual explainer of Pele’s remarkable legacy in football and his most famous moments.",
-          "link": "https://multimedia.scmp.com/infographics/sport/article/3208740/pele/index.html",
-          "publishedOn": "2023-02-09T05:42:39.000Z",
-          "wordCount": 1666,
-          "title": "Why Pele is considered the greatest football player of all time",
-          "imageUrl": "https://multimedia.scmp.com/infographics/sport/article/3208740/pele/img/cover.jpg"
-        },
-        {
-          "id": "oo6oFxcN2LWz6DnBB",
-          "author": "@codrops",
-          "description": "A shuffling type animation with various effects for a geeky terminal look.",
-          "link": "https://tympanus.net/codrops/2023/02/08/shuffling-typography-animation/",
-          "publishedOn": "2023-02-09T05:39:27.000Z",
-          "wordCount": 882,
-          "title": "Shuffling Typography Animation",
-          "imageUrl": "https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2023/02/typeshuffle.jpg"
-        },
-        {
-          "id": "4u4PrEJrfpquhPDgu",
-          "author": "@logodesignlove",
-          "description": "ABVA documents, stores, studies, and popularises examples of different visual arts from Bulgaria.",
-          "link": "https://www.logodesignlove.com/bulgarian-logo-archive",
-          "publishedOn": "2023-02-09T05:38:33.000Z",
-          "wordCount": 1041,
-          "title": "Bulgarian logo archive, by ABVA",
-          "imageUrl": "https://www.logodesignlove.com/wp-content/uploads/2023/02/bulgarian-logos-04.jpg"
         }
       ]
     },
@@ -7670,26 +7679,6 @@
           "wordCount": 1026,
           "title": "Declarative Shadow DOM",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.webkit.org/?p=13839",
-          "author": null,
-          "description": "Safari Technology Preview Release 163 is now available for download for macOS Monterey 12.3 or later and macOS Ventura.",
-          "link": "https://webkit.org/blog/13839/release-notes-for-safari-technology-preview-163/",
-          "publishedOn": "2023-02-08T21:49:25.000Z",
-          "wordCount": 1581,
-          "title": "Release Notes for Safari Technology Preview 163",
-          "imageUrl": null
-        },
-        {
-          "id": "https://webkit.org/?p=13813",
-          "author": null,
-          "description": "Back in December, we wrote an article detailing three different options for CSS Nesting.",
-          "link": "https://webkit.org/blog/13813/try-css-nesting-today-in-safari-technology-preview/",
-          "publishedOn": "2023-02-08T18:00:02.000Z",
-          "wordCount": 1419,
-          "title": "Try out CSS Nesting today",
-          "imageUrl": null
         }
       ]
     },
@@ -7745,6 +7734,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2023/03/pragmatists-guide-lean-user-research/",
+          "author": "hello@smashingmagazine.com (Paul Boag)",
+          "description": "Instead of telling you once again what the best practice is and adding to your imposter syndrome, let’s concentrate on some practical approaches to user research that we might be able to fit into our existing projects without being left disillusioned.",
+          "link": "https://smashingmagazine.com/2023/03/pragmatists-guide-lean-user-research/",
+          "publishedOn": "2023-03-10T08:00:00.000Z",
+          "wordCount": 4675,
+          "title": "A Pragmatist’s Guide To Lean User Research",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/pragmatists-guide-lean-user-research/pragmatists-guide-lean-user-research.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/pragmatists-guide-lean-user-research/pragmatists-guide-lean-user-research.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2023/03/building-complex-forms-vue/",
           "author": "hello@smashingmagazine.com (Olufunke Moronfolu)",
@@ -8014,21 +8018,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://files.smashing.media/articles/discovering-primitive-objects-javascript-part1/discovering-primitive-objects-javascript-part1.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/02/pixo-photo-editor/",
-          "author": "hello@smashingmagazine.com (Hristo Chakarov)",
-          "description": "With so many image editing services available nowadays, it’s good to have one good solution that is applicable for all websites and web apps that need to provide image editing as a feature. Hristo Chakarov explains how Pixo Editor’s easy integration (just a few JavaScript lines) and rich API can save your time and improve your end users’ workflow.",
-          "link": "https://smashingmagazine.com/2023/02/pixo-photo-editor/",
-          "publishedOn": "2023-02-09T09:00:00.000Z",
-          "wordCount": 4695,
-          "title": "Picture Perfect: Meet Pixo, A Photo Editor For Your End Users",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/photo-image-editor-pixo-wordpress/pixo-photo-editor.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/photo-image-editor-pixo-wordpress/pixo-photo-editor.jpg"
         }
       ]
     },
@@ -8037,6 +8026,16 @@
       "feedUrl": "https://www.zachleat.com/web/feed/",
       "siteUrl": "https://www.zachleat.com/web/feed/",
       "articles": [
+        {
+          "id": "https://www.zachleat.com/web/jsparty-eleventy-2/",
+          "author": null,
+          "description": "I was on the JS Party podcast!\nZach Leatherman returns to the show to discuss his progress over the last year since going full-time on Eleventy, including Eleventy 2.0, the release of WebC, and the state of static site generators.\nListen at https://changelog.com/jsparty/266",
+          "link": "https://www.zachleat.com/web/jsparty-eleventy-2/",
+          "publishedOn": "2023-03-10T00:00:00.000Z",
+          "wordCount": 5513,
+          "title": "JS Party Episode #266: Celebrating Eleventy 2.0 🎉",
+          "imageUrl": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.zachleat.com%2Fopengraph%2Fweb%2Fjsparty-eleventy-2%2F/opengraph/_z202303_3/"
+        },
         {
           "id": "https://www.zachleat.com/web/flex-luthor/",
           "author": null,
