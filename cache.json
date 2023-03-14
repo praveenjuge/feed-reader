@@ -108,16 +108,6 @@
           "wordCount": 451,
           "title": "Setting Expectations: 4 key areas for performance management",
           "imageUrl": null
-        },
-        {
-          "id": "http://benmccormick.micro.blog/2023/02/11/setting-expectations-key.html",
-          "author": null,
-          "description": "Performance management processes have been different at every company I’ve worked in, ranging from “basically non-existent” at a 15 person startup to “months of work for managers each review period followed by clear expectations that growth feedback will be given throughout the year” in big tech world.  Some of these differences are good and bad, most are more about the context of the company.  I’ve found that regardless of process there are 4 things that it’s important for a team member to align with their manager on throughout the year.  Hopefully there’s process supporting this, but if not both the team member or the manager can take the initiative to make it happen.\nFocus - Where should the teammate be putting their energy?  Depending on seniority and the level of change within the org…",
-          "link": "https://benmccormick.org/2023/02/11/setting-expectations-key.html",
-          "publishedOn": "2023-02-12T01:19:54.000Z",
-          "wordCount": 451,
-          "title": "Setting Expectations: 4 key areas for performance management",
-          "imageUrl": null
         }
       ]
     },
@@ -452,6 +442,16 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=376950",
+          "author": "Mads Stoumann",
+          "description": "Doing a quick search here on CSS-Tricks shows just how many different ways there are to approach calendars. Some show how CSS Grid can create the layout efficiently. Some attempt to bring actual data into the mix. Some …\nMaking Calendars With Accessibility and Internationalization in Mind originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/making-calendars-with-accessibility-and-internationalization-in-mind/",
+          "publishedOn": "2023-03-13T13:23:52.000Z",
+          "wordCount": 3413,
+          "title": "Making Calendars With Accessibility and Internationalization in Mind",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/376950"
+        },
+        {
           "id": "https://css-tricks.com/?p=377098",
           "author": "Richard Oliver Bray",
           "description": "You know what it’s like to pick up a new language or framework. Sometimes there’s great documentation to help you find your way through it. But even the best documentation doesn’t cover absolutely everything. And when you work with something …\n5 Mistakes I Made When Starting My First React Project originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -508,6 +508,36 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com/",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=11822",
+          "author": "Adam Marsden",
+          "description": "Career",
+          "link": "https://dailydevlinks.com/your-team-needs-a-better-balance-between-starters-and-finishers/",
+          "publishedOn": "2023-03-13T12:30:00.000Z",
+          "wordCount": 2844,
+          "title": "Your team needs a better balance between starters and finishers",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=11816",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/an-end-to-typographic-widows-on-the-web/",
+          "publishedOn": "2023-03-13T12:30:00.000Z",
+          "wordCount": 2834,
+          "title": "An end to typographic widows on the web",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=11819",
+          "author": "Adam Marsden",
+          "description": "JS",
+          "link": "https://dailydevlinks.com/all-javascript-and-typescript-features-of-the-last-3-years/",
+          "publishedOn": "2023-03-13T12:30:00.000Z",
+          "wordCount": 2844,
+          "title": "All JavaScript and TypeScript Features of the last 3 years",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
+        },
         {
           "id": "https://dailydevlinks.com/?p=11810",
           "author": "Adam Marsden",
@@ -1010,16 +1040,6 @@
           "wordCount": 1187,
           "title": "The case for Flex applications",
           "imageUrl": null
-        },
-        {
-          "id": "https://daverupert.com/2023/02/creating-web-components-kevin-powell/",
-          "author": null,
-          "description": "Earlier this month, I got the chance to join Kevin Powell on his livestream to talk Web Components. Kevin is one of my favorite web development content creators. His style is approachable and beginner friendly. If you’re getting started with web development or want to improve your HTML and CSS chops, I highly recommend you like and subscribe.\nKevin is like other talented web developers I know; knows about Web Components but hasn’t dug in and used them yet. We follow my course guidebook, starting with HTML → moving on to CSS → and then start to get into JavaScript towards the end but we ran out of time to go super deep on that topic. If you liked this livestream or want to know more about writing Web Components or building systems with Web Components, there’s more in my Frontend Masters course.",
-          "link": "https://daverupert.com/2023/02/creating-web-components-kevin-powell/",
-          "publishedOn": "2023-02-11T15:19:00.000Z",
-          "wordCount": 490,
-          "title": "Creating Web Components on the Kevin Powell Livestream",
-          "imageUrl": null
         }
       ]
     },
@@ -1061,6 +1081,16 @@
       "feedUrl": "https://developer.chrome.com/feeds/blog.xml",
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
+        {
+          "id": "https://developer.chrome.com/en/blog/android-webview-header-privacy/",
+          "author": null,
+          "description": "When a user installs and runs an application that uses a WebView to embed web content, the WebView will add the X-Requested-With header on every request sent to servers, with a value of the application APK name. It is then left to the receiving web server to determine if and how to use this information.\nWe want to protect the user's privacy by only sending this header on requests if the app developer explicitly opts in to share with services embedded within the WebView. To achieve this and let current online services that depend on this header migrate away from using it, we will run a Deprecation Origin Trial, while removing the header for general traffic. In parallel, we will be developing new privacy-preserving APIs (such as client attestation APIs) to match the use cases where the X-Requested-With header is being used today.\nYou can read more about why we're making this change and how it works over at the Android Developer's Blog in Improving user privacy by requiring opt-in to send X-Requested-With header from WebView.",
+          "link": "https://developer.chrome.com/en/blog/android-webview-header-privacy/",
+          "publishedOn": "2023-03-13T00:00:00.000Z",
+          "wordCount": 704,
+          "title": "Improving user privacy by requiring opt-in to send X-Requested-With header from WebView",
+          "imageUrl": "https://wd.imgix.net/image/VbsHyyQopiec0718rMq2kTE1hke2/LNiRMeNkUXQw6EBKwJw9.jpg?auto=format&w=1521"
+        },
         {
           "id": "https://developer.chrome.com/en/blog/storage-partitioning-deprecation-trial/",
           "author": null,
@@ -1229,6 +1259,16 @@
       "siteUrl": "https://dribbble.com/stories",
       "articles": [
         {
+          "id": "https://dribbble.com/stories/2023/03/13/ui-design-course-case-studies-graduates",
+          "author": null,
+          "description": "Olivia Hoskin\n      Writer & Design Enthusiast \n\nCongratulations to Dribbble’s graduating class of new UI designers! After recently completing our Introduction to UI Design course, we’re excited to highlight some of the amazing case studies completed throughout the 4-week program.\nThroughout the course, students were introduced to the principles of UI design, including user research, wireframing, prototyping, and visual design. Each student brought their unique perspective and creativity to the projects, resulting in a diverse range of impressive case studies. Join us in celebrating their hard work and accomplishments!\nThe design challenge\nDesigners were challenged to establish the visual language for an NFT marketplace app that offers a unique and engaging experience for users. Their goal…",
+          "link": "https://dribbble.com/stories/2023/03/13/ui-design-course-case-studies-graduates",
+          "publishedOn": "2023-03-13T23:28:15.000Z",
+          "wordCount": 3082,
+          "title": "7 Incredible Case Studies from Dribbble's UI Design Graduates",
+          "imageUrl": "https://cdn.dribbble.com/userupload/4986854/file/original-7d344d7fbcd776740339cc3861595251.png"
+        },
+        {
           "id": "https://dribbble.com/stories/2023/03/09/nokia-rebrand-graphic-designers-remix-logo",
           "author": null,
           "description": "Olivia Hoskin\n      Writer & Design Enthusiast \n\nWith humble beginnings as a rubber manufacturer in Finland in 1865, Nokia has come a long way. After making its name as a communications company producing arguably the most indestructible cellphones, this tech giant is ready for a new adventure.\nThe pivot into a more service-oriented business model as a B2B innovation and tech company comes with a new brand identity, including an updated logo to shift perceptions of the company from a mobile phone company. The new logo has a more geometric and abstract approach, balancing visual evolution and instant recognition.\nSome say that the “new Nokia” resembles a distant echo of the original logo since so many elements have been stripped away. A bold graphic was used throughout all content, repurposi…",
@@ -1308,6 +1348,46 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=67672",
+          "author": "Travis",
+          "description": "Practical button design tips to avoid common usability and accessibility problems.",
+          "link": "https://heydesigner.com/button-design-tips-to-avoid-common-mistakes/",
+          "publishedOn": "2023-03-13T18:02:51.000Z",
+          "wordCount": 200,
+          "title": "Button design tips to avoid common mistakes",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67670",
+          "author": "Travis",
+          "description": "Use this collection of links to our articles and videos about UX visioning and strategy.",
+          "link": "https://heydesigner.com/ux-strategy-study-guide/",
+          "publishedOn": "2023-03-13T17:51:16.000Z",
+          "wordCount": 201,
+          "title": "UX Strategy: Study guide",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67668",
+          "author": "Travis",
+          "description": "Reconciling the differences between the craft of making websites and the industry that has grown around it.",
+          "link": "https://heydesigner.com/craft-vs-industry-separating-concerns/",
+          "publishedOn": "2023-03-13T17:50:15.000Z",
+          "wordCount": 203,
+          "title": "Craft vs Industry: Separating concerns",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67666",
+          "author": "Travis",
+          "description": "One of the more maddening limitations of CSS was for long its inability to select elements based on their children or preceding siblings.",
+          "link": "https://heydesigner.com/selecting-previous-siblings-with-css-has/",
+          "publishedOn": "2023-03-13T17:46:48.000Z",
+          "wordCount": 210,
+          "title": "Selecting previous siblings with CSS :has()",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=67661",
           "author": "Travis",
@@ -2165,6 +2245,66 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35137707",
+          "author": "gandalfgeek",
+          "description": "Article URL: https://www.youtube.com/watch?v=Sl_9mnauHhM\nComments URL: https://news.ycombinator.com/item?id=35137707\nPoints: 2\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=Sl_9mnauHhM",
+          "publishedOn": "2023-03-13T16:09:07.000Z",
+          "wordCount": null,
+          "title": "Using LLMs for UI interaction [video]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35136241",
+          "author": "tikkun",
+          "description": "Article URL: https://github.com/dgoldman0/SAM\nComments URL: https://news.ycombinator.com/item?id=35136241\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/dgoldman0/SAM",
+          "publishedOn": "2023-03-13T14:36:20.000Z",
+          "wordCount": 1047,
+          "title": "A Stateful Multi-Context Aware Design Using OpenAI's GPT",
+          "imageUrl": "https://opengraph.githubassets.com/381742280231ac710691f115f4a8cc6ac4191cdf7215b3419a7a0a1a93de9be3/dgoldman0/SAM"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35135049",
+          "author": "anjit6",
+          "description": "I'm trying to understand the emerging UX in software products.\nIn the ChatSpot demo video, Dharmesh Shah talks about something called ChatUX. Though NLP to SQL existed in some form or the other, I think the game changer is the integration with generative AI.\nDid you try adding something like ChatUX for your software product? Any other UX experiments you have tried? What were your learnings?\nComments URL: https://news.ycombinator.com/item?id=35135049\nPoints: 1\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=35135049",
+          "publishedOn": "2023-03-13T12:54:25.000Z",
+          "wordCount": 232,
+          "title": "What UX experiments you ran on your SaaS product?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35133676",
+          "author": "stared",
+          "description": "Article URL: https://99percentinvisible.org/article/least-resistance-desire-paths-can-lead-better-design/\nComments URL: https://news.ycombinator.com/item?id=35133676\nPoints: 2\n# Comments: 0",
+          "link": "https://99percentinvisible.org/article/least-resistance-desire-paths-can-lead-better-design/",
+          "publishedOn": "2023-03-13T10:27:33.000Z",
+          "wordCount": 2995,
+          "title": "Least Resistance: How Desire Paths Can Lead to Better Design (2016)",
+          "imageUrl": "https://99percentinvisible.org/app/uploads/2015/12/desire-paths-728x486.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35130912",
+          "author": "flykespice",
+          "description": "Article URL: https://www.xd.adobe.com/ideas/principles/web-design/flat-vs-material-skeuomorphic-examples/\nComments URL: https://news.ycombinator.com/item?id=35130912\nPoints: 1\n# Comments: 0",
+          "link": "https://www.xd.adobe.com/ideas/principles/web-design/flat-vs-material-skeuomorphic-examples/",
+          "publishedOn": "2023-03-13T04:07:09.000Z",
+          "wordCount": 2673,
+          "title": "Flat vs. Material vs. Skeuomorphic Design Examples (2020)",
+          "imageUrl": "/ideas/wp-content/uploads/2021/06/flat_vs_material_skeuomorphic.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35129844",
+          "author": "matt_d",
+          "description": "Article URL: https://www.youtube.com/watch?v=fWSGhxyTG-4\nComments URL: https://news.ycombinator.com/item?id=35129844\nPoints: 1\n# Comments: 1",
+          "link": "https://www.youtube.com/watch?v=fWSGhxyTG-4",
+          "publishedOn": "2023-03-13T02:05:24.000Z",
+          "wordCount": null,
+          "title": "Language Design Meets Verifying Compilers (GPCE 2022 Keynote)",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35128244",
           "author": "bobvanluijt",
@@ -4364,96 +4504,6 @@
           "wordCount": 574,
           "title": "Ask HN: How would you design a non-horizontal work setup?",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34762128",
-          "author": "dr_dshiv",
-          "description": "Article URL: https://www.technologyreview.com/2023/02/09/1067821/design-thinking-retrospective-what-went-wrong/\nComments URL: https://news.ycombinator.com/item?id=34762128\nPoints: 2\n# Comments: 0",
-          "link": "https://www.technologyreview.com/2023/02/09/1067821/design-thinking-retrospective-what-went-wrong/",
-          "publishedOn": "2023-02-12T11:49:03.000Z",
-          "wordCount": 12233,
-          "title": "Design thinking was supposed to fix the world. Where did it go wrong?",
-          "imageUrl": "https://wp.technologyreview.com/wp-content/uploads/2023/02/GettyImages-200517407-thumb.jpeg?resize=1200,600"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34761479",
-          "author": "borisandcrispin",
-          "description": "Article URL: https://pulse.moonfire.com/972-billion-portfolios-how-to-design-the-optimal-venture-portfolio/\nComments URL: https://news.ycombinator.com/item?id=34761479\nPoints: 1\n# Comments: 0",
-          "link": "https://pulse.moonfire.com/972-billion-portfolios-how-to-design-the-optimal-venture-portfolio/",
-          "publishedOn": "2023-02-12T09:43:12.000Z",
-          "wordCount": 1301,
-          "title": "972B portfolios: How to design the optimal venture portfolio",
-          "imageUrl": "https://pulse.moonfire.com/content/images/2023/02/mick-haupt-ePHz9WOME0c-unsplash--1-.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34761420",
-          "author": "Shivam_Dewan",
-          "description": "Article URL: https://ageneralist.substack.com/p/design-hiring-search-engine-for-health\nComments URL: https://news.ycombinator.com/item?id=34761420\nPoints: 2\n# Comments: 0",
-          "link": "https://ageneralist.substack.com/p/design-hiring-search-engine-for-health",
-          "publishedOn": "2023-02-12T09:33:33.000Z",
-          "wordCount": 2253,
-          "title": "AI tool that creates UI, how Figma builds product",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1f3aaf8-2c59-412c-b6d3-169e4a71d35e_1125x2134.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34761103",
-          "author": "vaasu1234",
-          "description": "Article URL: https://vasupasupuleti.substack.com/p/system-design-interview-resources\nComments URL: https://news.ycombinator.com/item?id=34761103\nPoints: 1\n# Comments: 0",
-          "link": "https://vasupasupuleti.substack.com/p/system-design-interview-resources",
-          "publishedOn": "2023-02-12T08:37:34.000Z",
-          "wordCount": 1030,
-          "title": "System Design Interview Resources",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F06f8e266-feba-4d0e-bf20-b83843546120_6000x4000.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34758325",
-          "author": "chaostorm",
-          "description": "Article URL: https://twitter.com/LazarStojkovic/status/1624547700778717184\nComments URL: https://news.ycombinator.com/item?id=34758325\nPoints: 3\n# Comments: 0",
-          "link": "https://twitter.com/LazarStojkovic/status/1624547700778717184",
-          "publishedOn": "2023-02-12T01:09:20.000Z",
-          "wordCount": 498,
-          "title": "AI-Powered UI Design Platform",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34756893",
-          "author": "cimaw",
-          "description": "Article URL: https://aeronordblog.blogspot.com/2023/02/sony-xperia-1-v-renderings-present.html\nComments URL: https://news.ycombinator.com/item?id=34756893\nPoints: 1\n# Comments: 0",
-          "link": "https://aeronordblog.blogspot.com/2023/02/sony-xperia-1-v-renderings-present.html",
-          "publishedOn": "2023-02-11T22:06:19.000Z",
-          "wordCount": 7379,
-          "title": "Sony Xperia 1 V renderings present a recognizable design with slight mod",
-          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ7SeNB5icPgwssLgJMp0r8QovBy17Fzj7L_QJbGX_UFdOeKwdJVCMoM5ag4jsnMZb_o5m4wK_dlITrSV1KM9kaHnckljhpZp2_IJBBVeqc9Qvl86R90OQ1ZRtnjvlkB476XagIE1Jy6fzWqmOyh7907zfEqIFYWAEcHB0A7zrxEnpxcBO3UT1xiSyyw/w1200-h630-p-k-no-nu/4(1).jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34755789",
-          "author": "PaulHoule",
-          "description": "Article URL: https://arstechnica.com/gaming/2023/02/system-shock-remake-demo-fuses-modern-design-to-a-retro-fps-rpg-package/\nComments URL: https://news.ycombinator.com/item?id=34755789\nPoints: 1\n# Comments: 0",
-          "link": "https://arstechnica.com/gaming/2023/02/system-shock-remake-demo-fuses-modern-design-to-a-retro-fps-rpg-package/",
-          "publishedOn": "2023-02-11T20:04:55.000Z",
-          "wordCount": 2374,
-          "title": "System Shock remake demo fuses modern design to retro FPS/RPG",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2023/02/system_shock_cover-760x380.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34754852",
-          "author": "kungfudoi",
-          "description": "Article URL: https://theopenroadproject.org/energy-efficient-design-starts-with-the-architecture/\nComments URL: https://news.ycombinator.com/item?id=34754852\nPoints: 2\n# Comments: 0",
-          "link": "https://theopenroadproject.org/energy-efficient-design-starts-with-the-architecture/",
-          "publishedOn": "2023-02-11T18:28:28.000Z",
-          "wordCount": 2695,
-          "title": "Energy Efficient Design Starts with the Architecture",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34752960",
-          "author": "mpetyak",
-          "description": "Article URL: https://www.delegaid.ai/create\nComments URL: https://news.ycombinator.com/item?id=34752960\nPoints: 20\n# Comments: 4",
-          "link": "https://www.delegaid.ai/create",
-          "publishedOn": "2023-02-11T15:08:01.000Z",
-          "wordCount": 158,
-          "title": "Delegaid – package your favourite prompts in simple UI",
-          "imageUrl": null
         }
       ]
     },
@@ -4462,6 +4512,46 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35142904",
+          "author": "beatthatflight",
+          "description": "Article URL: https://toolfinder.xyz/\nComments URL: https://news.ycombinator.com/item?id=35142904\nPoints: 1\n# Comments: 0",
+          "link": "https://toolfinder.xyz/",
+          "publishedOn": "2023-03-13T21:20:40.000Z",
+          "wordCount": 4623,
+          "title": "Find Productivity Tools",
+          "imageUrl": "https://super-static-assets.s3.amazonaws.com/05a27665-670b-457d-ae41-f68942e2d90f/uploads/cover/27c5e9a3-afcc-4b8c-b125-f3107cf44145.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35142882",
+          "author": "e2e4",
+          "description": "Article URL: https://www.yankodesign.com/2023/03/13/note-taking-desk-accessory-puts-a-small-twist-to-your-productivity/\nComments URL: https://news.ycombinator.com/item?id=35142882\nPoints: 2\n# Comments: 0",
+          "link": "https://www.yankodesign.com/2023/03/13/note-taking-desk-accessory-puts-a-small-twist-to-your-productivity/",
+          "publishedOn": "2023-03-13T21:19:40.000Z",
+          "wordCount": 3644,
+          "title": "Note-taking desk accessory puts a small twist to your productivity",
+          "imageUrl": "https://www.yankodesign.com/images/design_news/2023/03/note-taking-desk-accessory-puts-a-small-twist-to-your-productivity/note-thoughts-concept-11.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35142515",
+          "author": "johnxie",
+          "description": "Article URL: https://www.taskade.com/blog/the-para-method/\nComments URL: https://news.ycombinator.com/item?id=35142515\nPoints: 1\n# Comments: 0",
+          "link": "https://www.taskade.com/blog/the-para-method/",
+          "publishedOn": "2023-03-13T20:59:54.000Z",
+          "wordCount": 4216,
+          "title": "The Para Method: A Productivity Framework for Organizing Your Life",
+          "imageUrl": "https://www.taskade.com/blog/wp-content/uploads/2023/03/taskade-gtd-para-method.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35135212",
+          "author": "larve",
+          "description": "Article URL: https://www.cigionline.org/articles/claims-that-ai-productivity-will-save-us-are-neither-new-nor-true/\nComments URL: https://news.ycombinator.com/item?id=35135212\nPoints: 2\n# Comments: 0",
+          "link": "https://www.cigionline.org/articles/claims-that-ai-productivity-will-save-us-are-neither-new-nor-true/",
+          "publishedOn": "2023-03-13T13:11:33.000Z",
+          "wordCount": null,
+          "title": "Claims That AI Productivity Will Save Us Are Neither New, nor True",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35128222",
           "author": "georgehill",
@@ -5061,36 +5151,6 @@
           "wordCount": 1612,
           "title": "Accessibility: Productivity on Mobile Platforms",
           "imageUrl": "https://micro.blog/devinprater/favicon.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34762197",
-          "author": "kyoteap",
-          "description": "Article URL: https://www.ordently.com/post/ai-an-effective-productivity-tool-is-more-important-than-ever\nComments URL: https://news.ycombinator.com/item?id=34762197\nPoints: 1\n# Comments: 0",
-          "link": "https://www.ordently.com/post/ai-an-effective-productivity-tool-is-more-important-than-ever",
-          "publishedOn": "2023-02-12T12:03:09.000Z",
-          "wordCount": 17176,
-          "title": "AI: An effective productivity tool is more important than ever",
-          "imageUrl": "https://static.wixstatic.com/media/34ca16_866cc391a8b747d2a3e119192364512e~mv2.png/v1/fit/w_1000%2Ch_1000%2Cal_c/file.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34757748",
-          "author": "rntn",
-          "description": "Article URL: https://www.imf.org/en/Blogs/Articles/2023/01/09/asias-productivity-needs-a-boost-that-digitalization-can-provide\nComments URL: https://news.ycombinator.com/item?id=34757748\nPoints: 1\n# Comments: 0",
-          "link": "https://www.imf.org/en/Blogs/Articles/2023/01/09/asias-productivity-needs-a-boost-that-digitalization-can-provide",
-          "publishedOn": "2023-02-11T23:50:09.000Z",
-          "wordCount": 1083,
-          "title": "Asia's Productivity Needs a Boost That Digitalization Can Provide",
-          "imageUrl": "https://www.imf.org/-/media/Images/IMF/Blog/Articles/Hero/2023/January/BLOG-2099x600-ASIA-KOONSIRI-Adobe-Stock.ashx"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34752244",
-          "author": "Tomte",
-          "description": "Article URL: https://lukespear.co.uk/plaintext-productivity/\nComments URL: https://news.ycombinator.com/item?id=34752244\nPoints: 1\n# Comments: 0",
-          "link": "https://lukespear.co.uk/plaintext-productivity/",
-          "publishedOn": "2023-02-11T13:44:25.000Z",
-          "wordCount": 3815,
-          "title": "Productivity in Plaintext (2016)",
-          "imageUrl": null
         }
       ]
     },
@@ -5099,6 +5159,46 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35142423",
+          "author": "rikroots",
+          "description": "Article URL: https://developer.chrome.com/articles/high-definition-css-color-guide/\nComments URL: https://news.ycombinator.com/item?id=35142423\nPoints: 2\n# Comments: 1",
+          "link": "https://developer.chrome.com/articles/high-definition-css-color-guide/",
+          "publishedOn": "2023-03-13T20:54:40.000Z",
+          "wordCount": 8636,
+          "title": "High Definition CSS Color Guide",
+          "imageUrl": "https://wd.imgix.net/image/vS06HQ1YTsbMKSFTIPl2iogUQP73/lUKgvbcTc1Lg3xNUdCpq.png?auto=format&w=1521"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35136666",
+          "author": "no_wizard",
+          "description": "Article URL: https://css-tricks.com/making-calendars-with-accessibility-and-internationalization-in-mind/\nComments URL: https://news.ycombinator.com/item?id=35136666\nPoints: 1\n# Comments: 0",
+          "link": "https://css-tricks.com/making-calendars-with-accessibility-and-internationalization-in-mind/",
+          "publishedOn": "2023-03-13T15:03:40.000Z",
+          "wordCount": 3413,
+          "title": "Accessible Calendar with Plain JavaScript and CSS",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/376950"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35133032",
+          "author": "exod983",
+          "description": "This major release is the first step towards a production-ready version of Tremor. Over the past few months, we have rewritten the library to make it fit for the future. We added the long-awaited exposure of className and support for other HTML attributes, enabling you to overwrite our root styles or extend them with Tailwind CSS.\nComments URL: https://news.ycombinator.com/item?id=35133032\nPoints: 3\n# Comments: 0",
+          "link": "https://www.tremor.so/",
+          "publishedOn": "2023-03-13T09:07:16.000Z",
+          "wordCount": 1546,
+          "title": "Show HN: Tremor v2 – Tailwind-first open-source library to build dashboards",
+          "imageUrl": "https://tremor.so/tremor_thumbnail.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35131745",
+          "author": "blakewatson",
+          "description": "Article URL: https://blakewatson.com/journal/surveying-the-landscape-of-css-micro-frameworks/\nComments URL: https://news.ycombinator.com/item?id=35131745\nPoints: 3\n# Comments: 0",
+          "link": "https://blakewatson.com/journal/surveying-the-landscape-of-css-micro-frameworks/",
+          "publishedOn": "2023-03-13T06:04:13.000Z",
+          "wordCount": 1942,
+          "title": "Surveying the landscape of CSS micro-frameworks",
+          "imageUrl": "https://blakewatson.com/wp/wp-content/uploads/2019/06/og-image.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35119782",
           "author": "kkoncevicius",
@@ -5848,16 +5948,6 @@
           "wordCount": 5799,
           "title": "The rise and fall of Bootstrap and how Tailwind became the go-to CSS framework",
           "imageUrl": "https://miro.medium.com/max/1200/1*q6OVfOcEDVflxJbqbCPvJA.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34755877",
-          "author": "robert1er",
-          "description": "I have used rudimentary scrapers for years but always found that the process of training them doesn’t scale as well as I expect. In a scenario where one needs hundreds of scrapers all grabbing the same five or 10 pieces of information (dates, names, addresses, and ID numbers) is it possible to just grab the raw HTML and train an NLP model to find the relevant data rather than selecting specific selectors/paths?\nIt seems to me that finding these items in an HTML doc would be a trivial task for NLP and this would allow us to forgo scraper maintenance in the event that websites change. Assuming that I already have hundreds of thousands or millions of records in structured data that could be used for training, would modern tools make this a more efficient way of ingesting data?\nComments URL: https://news.ycombinator.com/item?id=34755877\nPoints: 2\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=34755877",
-          "publishedOn": "2023-02-11T20:14:54.000Z",
-          "wordCount": 228,
-          "title": "Using NLP on raw HTML from scrapers More efficient than training them directly?",
-          "imageUrl": null
         }
       ]
     },
@@ -5970,6 +6060,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=45146",
+          "author": "Seth Godin",
+          "description": "Not all projects become t-shirt brands, nor should they. The risk is in thinking you’re building one when you’re not. T-shirt worthy brands are a very small subset of the whole. The question is: Would your customers want to wear your logo on a t-shirt? Why? If you’re creating identity, possibility, connection and giving folks […]",
+          "link": "https://seths.blog/2023/03/is-it-a-t-shirt-brand/",
+          "publishedOn": "2023-03-13T09:20:00.000Z",
+          "wordCount": 1030,
+          "title": "Is it a t-shirt brand?",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=44022",
           "author": "Seth Godin",
@@ -6259,16 +6359,6 @@
           "wordCount": 971,
           "title": "With the sound off",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44924",
-          "author": "Seth Godin",
-          "description": "Ben Zander is bringing the Boston Philharmonic and Beethoven to New York in a few weeks. I’m excited to see them in person, but it’s also streaming live. I hope you’re able to come. While his impact on the musical canon is legendary, Ben’s ruckus extends far into how we lead, how we live and […]",
-          "link": "https://seths.blog/2023/02/home-is-wherever-my-cello-is/",
-          "publishedOn": "2023-02-12T09:03:00.000Z",
-          "wordCount": 1081,
-          "title": "“Home is wherever my cello is”",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         }
       ]
     },
@@ -6277,6 +6367,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "4kqzm3NqoLjiS7rzx",
+          "author": null,
+          "description": "Relive classic 1990s Mac and PC screensavers like Flying Toasters and Aquatic Realm, remade using modern CSS techniques.",
+          "link": "https://www.bryanbraun.com/after-dark-css/",
+          "publishedOn": "2023-03-13T01:26:56.000Z",
+          "wordCount": 557,
+          "title": "After Dark Screensavers in CSS",
+          "imageUrl": null
+        },
+        {
+          "id": "yJ2AnFNRZxtPkpqZu",
+          "author": "@ericwbailey",
+          "description": "RSS is an incredibly powerful, under-appreciated, and under-utilized technology.",
+          "link": "https://ericwbailey.website/published/i-doubled-down-on-rss/",
+          "publishedOn": "2023-03-13T01:25:46.000Z",
+          "wordCount": 2718,
+          "title": "I doubled-down on RSS",
+          "imageUrl": "https://ericwbailey.website/img/posts/i-doubled-down-on-rss/share-image-facebook.png"
+        },
+        {
+          "id": "gixXabvBYp64YhRsS",
+          "author": null,
+          "description": "A Collection of dark and light theme toggles, built with SVG’s driven by CSS transitions.",
+          "link": "https://toggles.dev/",
+          "publishedOn": "2023-03-13T01:22:16.000Z",
+          "wordCount": 964,
+          "title": "Theme Toggles",
+          "imageUrl": "https://toggles.dev/theme-toggles.png"
+        },
+        {
+          "id": "wqHKWzYDrjANHQLyN",
+          "author": "@talesofsyn",
+          "description": "Using Stable Diffusion techniques to create 2D game environments",
+          "link": "https://talesofsyn.com/posts/creating-isometric-rpg-game-backgrounds",
+          "publishedOn": "2023-03-13T01:20:58.000Z",
+          "wordCount": 4378,
+          "title": "Creating Isometric RPG Game Backgrounds",
+          "imageUrl": "https://super-static-assets.s3.amazonaws.com/6fc853e0-4524-4e47-89b8-c8fc55cba56c/images/c7956659-472b-4c7c-9747-0c2eaecabb8b.webp?b=data:image/png;base64,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"
+        },
+        {
+          "id": "vAxYG35Cnwc4zdY5b",
+          "author": "@zeroheight",
+          "description": "The second edition of the How We Document report by zeroheight showcases the current state of Design System Documentation in 2023.",
+          "link": "https://zeroheight.com/how-we-document?utm_campaign=How%20We%20Document%20Report%20-%20MKTG.RESOURCE.FEB.23&utm_source=email&utm_medium=sidebar&utm_content=Sidebar",
+          "publishedOn": "2023-03-13T00:40:08.000Z",
+          "wordCount": 999,
+          "title": "How We Document 2023 - Brought to you by zeroheight",
+          "imageUrl": "hwd-share.png"
+        },
         {
           "id": "aJbwDnTXPmQZekWZw",
           "author": "@Medium",
