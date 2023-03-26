@@ -30,6 +30,16 @@
       "siteUrl": "https://adrianroselli.com",
       "articles": [
         {
+          "id": "https://adrianroselli.com/?p=22284",
+          "author": "Adrian Roselli",
+          "description": "Usually. I originally titled this InacCSS-onlyible. I even made this typographically, er, distinct image. Then I realized it was silly and will instead use the neologism in a talk so I can hear the groans IRL. Interactive widgets powered with only CSS are relatively common as people are playing with…",
+          "link": "https://adrianroselli.com/2023/03/css-only-widgets-are-inaccessible.html",
+          "publishedOn": "2023-03-25T18:11:42.000Z",
+          "wordCount": 2180,
+          "title": "CSS-only Widgets Are Inaccessible",
+          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2023/03/CSS-only_sort-table_thumb_cabin-caps-300x300.png"
+        },
+        {
           "id": "https://adrianroselli.com/?p=13778",
           "author": "Adrian Roselli",
           "description": "This post was written in early 2022 and sat in a corner of my site, hidden from the world, after AudioEye sent me a legal threat over a handful of tweets in April 2022. I opted not to poke this well-funded bully as a self-employed consultant. As such, the videos…",
@@ -1049,26 +1059,6 @@
           "wordCount": 2820,
           "title": "Buttons, links, and focus",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11737",
-          "author": "Adam Marsden",
-          "description": "Design",
-          "link": "https://dailydevlinks.com/make-it-easier-is-not-a-product-strategy/",
-          "publishedOn": "2023-02-23T12:33:00.000Z",
-          "wordCount": 2827,
-          "title": "“Make it easier” is not a product strategy",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11740",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://dailydevlinks.com/last-baseline-alignment/",
-          "publishedOn": "2023-02-23T12:30:00.000Z",
-          "wordCount": 2819,
-          "title": "Last baseline alignment",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
         }
       ]
     },
@@ -1292,16 +1282,6 @@
           "wordCount": 2145,
           "title": "Framework tools for font fallbacks",
           "imageUrl": "https://wd.imgix.net/image/IypihH3o5cSpEMVp5i08dp69otp2/aBnMiacBdhhgGBozA5jJ.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/style-queries/",
-          "author": null,
-          "description": "The ability to query a parent’s inline size, and container query unit values recently reached stable support in all modern browser engines.\nBrowser support\n  \n    \n      chrome 105, Supported\n    \n    105\n      firefox 110, Supported\n    \n    110\n      edge 105, Supported\n    \n    105\n      safari 16, Supported\n    \n    16\n  \n  Source\n\nHowever, the containment spec includes more than just size queries; it also enables querying a parent's style values. From Chromium 111, you’ll be able to apply style containment for custom property values and query a parent element for the value of a custom property.\nThis means that we have even more logical control of styles in CSS, and enables  better separation of an application’s logic and data layer from its styles.\nThe CSS Containment Module Level 3 s…",
-          "link": "https://developer.chrome.com/en/blog/style-queries/",
-          "publishedOn": "2023-02-24T00:00:00.000Z",
-          "wordCount": 3446,
-          "title": "Getting Started with Style Queries",
-          "imageUrl": "https://wd.imgix.net/image/HodOHWjMnbNw56hvNASHWSgZyAf2/N8vx7PDIeyMNI2wzWnax.jpg?auto=format&w=1521"
         }
       ]
     },
@@ -2187,6 +2167,26 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35302714",
+          "author": "_448",
+          "description": "Article URL: https://www.youtube.com/watch?v=5c0BvOlR5gs\nComments URL: https://news.ycombinator.com/item?id=35302714\nPoints: 1\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=5c0BvOlR5gs",
+          "publishedOn": "2023-03-25T14:01:47.000Z",
+          "wordCount": null,
+          "title": "Curriculum Design as an Engineering Problem: Lessons from the Field",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35299622",
+          "author": "vimarsh6739",
+          "description": "Article URL: https://learn.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design\nComments URL: https://news.ycombinator.com/item?id=35299622\nPoints: 1\n# Comments: 0",
+          "link": "https://learn.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design",
+          "publishedOn": "2023-03-25T05:04:29.000Z",
+          "wordCount": 891,
+          "title": "Screen Sizes and Breakpoints for Responsive Design",
+          "imageUrl": "https://learn.microsoft.com/en-us/media/logos/logo-ms-social.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35296398",
           "author": "rntn",
@@ -4416,76 +4416,6 @@
           "wordCount": 143,
           "title": "Faking Algebraic Effects and Handlers with Traits: a Rust Design Pattern",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34921157",
-          "author": "NayamAmarshe",
-          "description": "Article URL: https://konstaui.com/\nComments URL: https://news.ycombinator.com/item?id=34921157\nPoints: 226\n# Comments: 231",
-          "link": "https://konstaui.com/",
-          "publishedOn": "2023-02-24T05:24:38.000Z",
-          "wordCount": 260,
-          "title": "Konsta UI – Mobile UI Components Built with TailwindCSS",
-          "imageUrl": "https://konstaui.com/images/share-banner.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34919925",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://blog.shtsoft.eu\nComments URL: https://news.ycombinator.com/item?id=34919925\nPoints: 1\n# Comments: 0",
-          "link": "https://blog.shtsoft.eu/",
-          "publishedOn": "2023-02-24T02:21:14.000Z",
-          "wordCount": 143,
-          "title": "Faking Algebraic Effects and Handlers with Traits: a Rust Design Pattern",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34919771",
-          "author": "schemescape",
-          "description": "Edge just showed me a (huge) ad within the browser UI (between the address bar and web view):\n> Take your AI-powered copilot for the web on the go! Download Microsoft Edge on your mobile device to sign-up and get ready for the new Bing experience!\nThis is especially irritating because there's no reason to show me this ad--I already use Edge as my primary browser on mobile (because the latest iOS update made Safari start losing its scroll position when going back to a previous page).\nBetween this and the frequent repinning of an Edge icon to my Windows desktop (every single update), I'm fairly annoyed.\nDoes FireFox do this kind of annoying stuff? Is there another browser I should try?\nEdit: I've seen small \"ads\" before in Edge (like \"try this new feature\" or \"oh no, please don't install Chrome\"), but never just a literal huge banner ad.\nComments URL: https://news.ycombinator.com/item?id=34919771\nPoints: 11\n# Comments: 6",
-          "link": "https://news.ycombinator.com/item?id=34919771",
-          "publishedOn": "2023-02-24T02:03:55.000Z",
-          "wordCount": 459,
-          "title": "Tell HN: Edge has started showing banner ads in its UI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34918624",
-          "author": "rosiesherry",
-          "description": "Article URL: https://rosie.land/posts/how-femke-built-a-design-community-around-her-expertise/\nComments URL: https://news.ycombinator.com/item?id=34918624\nPoints: 1\n# Comments: 0",
-          "link": "https://rosie.land/posts/how-femke-built-a-design-community-around-her-expertise/",
-          "publishedOn": "2023-02-23T23:56:55.000Z",
-          "wordCount": 2248,
-          "title": "Femke built a design community around her expertise",
-          "imageUrl": "https://rosie.land/content/images/2023/02/femke.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34912315",
-          "author": "sun_har",
-          "description": "I feel like I often find myself wondering \"How do other people do this?\" when I need to solve some larger system design question. This usually leads to Google, which usually leads to a bunch of ads. Sorting through this is not the best experience.\nStack Overflow is also sort of subpar for these sorts of questions - as its short form, and frankly just doesn't contain much of the content I'm looking for.\nI think I'd love a mostly-correct ChatGPT modeled as a system design expert. The current iteration seems kinda shallow, unless my prompts just suck.\nHow do other people go about doing this research?\nComments URL: https://news.ycombinator.com/item?id=34912315\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=34912315",
-          "publishedOn": "2023-02-23T16:07:59.000Z",
-          "wordCount": 176,
-          "title": "Ask HN: How do you research system design paradigms?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34912310",
-          "author": "alonmower",
-          "description": "Article URL: https://docs.dopt.com/\nComments URL: https://news.ycombinator.com/item?id=34912310\nPoints: 8\n# Comments: 0",
-          "link": "https://docs.dopt.com/",
-          "publishedOn": "2023-02-23T16:07:37.000Z",
-          "wordCount": 353,
-          "title": "Dopt: Tools to design/run user state machines with an in-product headless CMS",
-          "imageUrl": "https://docs.dopt.com/img/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34911577",
-          "author": "betm",
-          "description": "Article URL: https://indeed.design/article/a-wireframe-kit-for-early-research-and-testing-concepts/\nComments URL: https://news.ycombinator.com/item?id=34911577\nPoints: 2\n# Comments: 1",
-          "link": "https://indeed.design/article/a-wireframe-kit-for-early-research-and-testing-concepts/",
-          "publishedOn": "2023-02-23T15:13:27.000Z",
-          "wordCount": 3421,
-          "title": "A Wireframe Kit for Early Research and Testing Concepts",
-          "imageUrl": "https://indeed.design//static/049825091e577e860bad8cec9bba94d5/0eab3/Use-a-low-fidelity-wireframing-kit-to-get-more-focused-feedback-on-your-designs.jpg"
         }
       ]
     },
@@ -4494,6 +4424,36 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35302293",
+          "author": "leangeek",
+          "description": "Article URL: https://agilehacking.substack.com/p/shiny-object-saturday-03252023\nComments URL: https://news.ycombinator.com/item?id=35302293\nPoints: 4\n# Comments: 0",
+          "link": "https://agilehacking.substack.com/p/shiny-object-saturday-03252023",
+          "publishedOn": "2023-03-25T13:09:40.000Z",
+          "wordCount": 2944,
+          "title": "Anxiety of Productivity, Flow State, Squirrels on Mics, & More",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F721ca74e-93c2-4def-983c-c79c2ed9e80b_1875x659.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35300641",
+          "author": "paraschopra",
+          "description": "Article URL: https://invertedpassion.com/the-anti-productivity-manifesto/\nComments URL: https://news.ycombinator.com/item?id=35300641\nPoints: 2\n# Comments: 0",
+          "link": "https://invertedpassion.com/the-anti-productivity-manifesto/",
+          "publishedOn": "2023-03-25T08:31:06.000Z",
+          "wordCount": 2845,
+          "title": "The Anti-Productivity Manifesto",
+          "imageUrl": "https://invertedpassion.com/wp-content/uploads/2023/03/51RZveXXoeL.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35298946",
+          "author": "daniel_iversen",
+          "description": "TL;DR: Does anyone know of an AI-based voice app that allows you to manage calendar and mails?\nI’ve been searching around a lot and couldn’t find a virtual AI (I.e cheaper than humans) assistant/app that’s voice based that allows me to manage my calendar and emails; I wanna be able to check what’s coming, quickly send attendees some follow up information, mail people, schedule new meetings etc. I’d be realistic about the quality and not use it for the most important customer communication etc but I’d assume AI in the last year has come far enough that some Startup us created such an app?\nComments URL: https://news.ycombinator.com/item?id=35298946\nPoints: 1\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=35298946",
+          "publishedOn": "2023-03-25T03:17:59.000Z",
+          "wordCount": 199,
+          "title": "Ask HN: A productivity AI assistant for meetings and mails?",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35293669",
           "author": "robg",
@@ -5053,36 +5013,6 @@
           "wordCount": 27,
           "title": "Show HN: Get advice from a GPT3-based stoic philosopher",
           "imageUrl": "http://seneca.dylancastillo.co/static/meta-img.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34920190",
-          "author": "cdme",
-          "description": "Article URL: https://coryd.dev/blog/automating-rss-syndication-with-nextjs-github\nComments URL: https://news.ycombinator.com/item?id=34920190\nPoints: 2\n# Comments: 0",
-          "link": "https://coryd.dev/blog/automating-rss-syndication-with-nextjs-github",
-          "publishedOn": "2023-02-24T02:56:59.000Z",
-          "wordCount": 3565,
-          "title": "Automating RSS syndication and sharing with Next.js and GitHub",
-          "imageUrl": "https://coryd.dev/static/images/social-card.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34915315",
-          "author": "Balgair",
-          "description": "Article URL: https://www.wired.co.uk/article/techs-productivity-obsession-is-toxic\nComments URL: https://news.ycombinator.com/item?id=34915315\nPoints: 34\n# Comments: 7",
-          "link": "https://www.wired.co.uk/article/techs-productivity-obsession-is-toxic",
-          "publishedOn": "2023-02-23T19:36:24.000Z",
-          "wordCount": 18933,
-          "title": "Tech’s Productivity Obsession Is Toxic",
-          "imageUrl": "https://media.wired.co.uk/photos/63f696ddf41c7a2766c3ed65/16:9/w_1280,c_limit/Tech's-Obsession-With-Prodcutivity-Is-Toxic-Business-1180705082.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34911454",
-          "author": "tablet",
-          "description": "Article URL: https://twitter.com/fibery_io/status/1628754549967056897\nComments URL: https://news.ycombinator.com/item?id=34911454\nPoints: 2\n# Comments: 0",
-          "link": "https://twitter.com/fibery_io/status/1628754549967056897",
-          "publishedOn": "2023-02-23T15:03:31.000Z",
-          "wordCount": 498,
-          "title": "Show HN: AI and Automations = cool use cases for productivity",
-          "imageUrl": null
         }
       ]
     },
@@ -5091,6 +5021,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35304514",
+          "author": "pionerkotik",
+          "description": "Article URL: https://github.com/mayank99/ecsstatic\nComments URL: https://news.ycombinator.com/item?id=35304514\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/mayank99/ecsstatic",
+          "publishedOn": "2023-03-25T16:53:44.000Z",
+          "wordCount": 1057,
+          "title": "The predefinite CSS-in-JS library for Vite",
+          "imageUrl": "https://opengraph.githubassets.com/7175cdf698b67876e3d02a569ab7e68af43c0c6f0a0d65ac03932198b1db3e16/mayank99/ecsstatic"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35296534",
           "author": "zerojames",
@@ -5770,66 +5710,6 @@
           "wordCount": null,
           "title": "Rethinking HTML for WordPress",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34923640",
-          "author": "zvikara",
-          "description": "Article URL: https://framework7.io/\nComments URL: https://news.ycombinator.com/item?id=34923640\nPoints: 2\n# Comments: 0",
-          "link": "https://framework7.io/",
-          "publishedOn": "2023-02-24T12:02:15.000Z",
-          "wordCount": 422,
-          "title": "Full Featured Mobile HTML Framework for Building iOS and Android Apps",
-          "imageUrl": "/i/share-banner.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34923547",
-          "author": "feross",
-          "description": "Comments URL: https://news.ycombinator.com/item?id=34923547\nPoints: 1\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=34923547",
-          "publishedOn": "2023-02-24T11:47:37.000Z",
-          "wordCount": 82,
-          "title": "DevTools Tips: Discover CSS Issues",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34921157",
-          "author": "NayamAmarshe",
-          "description": "Article URL: https://konstaui.com/\nComments URL: https://news.ycombinator.com/item?id=34921157\nPoints: 226\n# Comments: 231",
-          "link": "https://konstaui.com/",
-          "publishedOn": "2023-02-24T05:24:38.000Z",
-          "wordCount": 260,
-          "title": "Konsta UI – Mobile UI Components Built with TailwindCSS",
-          "imageUrl": "https://konstaui.com/images/share-banner.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34914897",
-          "author": "thatxliner",
-          "description": "So I'm doing some web scraping in Rust, and so I will need to parse HTML. [scraper](https://docs.rs/scraper/latest/scraper/) (which uses [html5ever](https://github.com/servo/html5ever)) is doing fine except that it's the bottleneck of my application.\nSo I need a faster parser. I've tried [tl](https://docs.rs/tl/latest/tl/) which would've been perfect except that it doesn't actually work on the HTML I have. When I try to `query_selector` the elements I need, it returns nothing.\n[Kuchiki](https://docs.rs/kuchiki/latest/kuchiki/) is abandonded.\nI couldn't figure out how to get [lol-html](https://github.com/cloudflare/lol-html) to work for me (it's designed for re-writing HTML, whatever that means). It doesn't seem to have an API to extract the inner text of an element.\n[html5gum](https://github.com/untitaker/html5gum) seems to be just an HTML tokenizer, or otherwise just too low-level. I have not yet tried [quick-xml](https://github.com/tafia/quick-xml/) but judging from the README, it's pretty low-level too. I mean, if these are the only options left then I will try them. Otherwise, I would love to use a parser that's faster but as ergonomic as `scraper` or `tl`.\nAt this point, I would be happy with an Lxml bridge/port of some sort. I don't need to mutate HTML, just parse and read data from it.\nComments URL: https://news.ycombinator.com/item?id=34914897\nPoints: 2\n# Comments: 2",
-          "link": "https://news.ycombinator.com/item?id=34914897",
-          "publishedOn": "2023-02-23T19:05:45.000Z",
-          "wordCount": 317,
-          "title": "Ask HN: A fast, Rust HTML parser that works?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34913164",
-          "author": "matijash",
-          "description": "Article URL: https://windstatic.com/\nComments URL: https://news.ycombinator.com/item?id=34913164\nPoints: 2\n# Comments: 0",
-          "link": "https://windstatic.com/",
-          "publishedOn": "2023-02-23T17:03:58.000Z",
-          "wordCount": 459,
-          "title": "Windstatic – A set of 161 elements and layouts made with Tailwind and Alpine.js",
-          "imageUrl": "https://\n    windstatic.com/images/OpenGraph/facebook.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34910014",
-          "author": "surprisetalk",
-          "description": "Article URL: https://taylor.town/hn-discuss\nComments URL: https://news.ycombinator.com/item?id=34910014\nPoints: 2\n# Comments: 0",
-          "link": "https://taylor.town/hn-discuss",
-          "publishedOn": "2023-02-23T13:07:45.000Z",
-          "wordCount": 1329,
-          "title": "A Tiny HTML Snippet to “Discuss on HN”",
-          "imageUrl": null
         }
       ]
     },
@@ -5921,6 +5801,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=45480",
+          "author": "Seth Godin",
+          "description": "It doesn’t have to happen with intent, in fact, it rarely does. Micro-emotions appear on our face and then disappear in less than a second. Blink and you’ll miss them. But sometimes, people don’t blink. We’ve evolved to be hyperware of these tiny displays of emotion. And yet, most of us don’t even realize it’s […]",
+          "link": "https://seths.blog/2023/03/flashing-on-contempt/",
+          "publishedOn": "2023-03-25T08:32:00.000Z",
+          "wordCount": 1062,
+          "title": "Flashing on contempt",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=45449",
           "author": "Seth Godin",
@@ -6210,16 +6100,6 @@
           "wordCount": 959,
           "title": "The obligation of “none of the above”",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=45028",
-          "author": "Seth Godin",
-          "description": "Hustle harder. Run more ads. Spam people. Interrupt. Make the logo bigger. Post again. Post again. Add more blurbs. Push the press release to irrelevant people. Do one more ad. Use AI to create faux intimacy. Get the word out. Burn trust. Get more attention. In the last forty years, the amount of promotion has gone up exponentially. At the same time, the success of promoted content, products and services hasn’t increased at all. That’s because the secret isn’t to focus on your promo. The secret is to create something that those you serve want to tell others about. When […]",
-          "link": "https://seths.blog/2023/02/promo-creep/",
-          "publishedOn": "2023-02-24T09:19:00.000Z",
-          "wordCount": 948,
-          "title": "Promo creep",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
         }
       ]
     },
@@ -7227,56 +7107,6 @@
           "wordCount": 78,
           "title": "Can Bing’s new AI search challenge Google?",
           "imageUrl": "https://s3.amazonaws.com/files.growth.design/cms/cleenbrji00070tmrehcphhas.png"
-        },
-        {
-          "id": "JgFyeXTnM9hdJsDyQ",
-          "author": "@pentagram",
-          "description": "A brand refresh for one of the world’s biggest streaming services welcomes fans of all kinds to a universe of entertainment.",
-          "link": "https://www.pentagram.com/work/prime-video/story",
-          "publishedOn": "2023-02-24T06:27:41.000Z",
-          "wordCount": 1444,
-          "title": "Prime Video Identity",
-          "imageUrl": "https://pentagram-production.imgix.net/38cf1cca-b7de-4393-85b9-cf36de0e38cf/Amazon_PrimeVideo_Documentation_02copy.jpg?crop=edges&fit=crop&h=630&rect=192%2C0%2C3456%2C2160&w=1200"
-        },
-        {
-          "id": "26F6yT73d3F98MPsa",
-          "author": "@colossal",
-          "description": "A recently released book delves into the otherwise unseen world of electronics as it highlights the impeccable insides of common devices.",
-          "link": "https://www.thisiscolossal.com/2023/02/open-circuits-book/",
-          "publishedOn": "2023-02-24T06:25:27.000Z",
-          "wordCount": 1792,
-          "title": "‘Open Circuits’ Slices Everyday Electronics to Reveal Their Insides",
-          "imageUrl": "https://www.thisiscolossal.com/wp-content/uploads/2023/02/open-og.jpg"
-        },
-        {
-          "id": "8Rxpsa8kzitp6ggxo",
-          "author": null,
-          "description": "Original logo concepts for what would become Windows XP.",
-          "link": "https://www.caseypotterdesign.com/#/windowsxp/",
-          "publishedOn": "2023-02-24T06:24:38.000Z",
-          "wordCount": 1265,
-          "title": "Windows XP Logo",
-          "imageUrl": "http://static1.squarespace.com/static/5dba1ee2a32c3f464f5744b1/t/5dbb34cf65a9a810a8c8e471/1572549840970/CP+design+logo+Wireframe_Vonly_2020.png?format=1500w"
-        },
-        {
-          "id": "Zn7LX592qz6SqrJTW",
-          "author": "@mattfriz",
-          "description": "Today’s adventure: DIY whole hog data exfiltration.",
-          "link": "https://mattfrisbie.substack.com/p/spy-chrome-extension",
-          "publishedOn": "2023-02-24T06:22:58.000Z",
-          "wordCount": 5265,
-          "title": "Let’s build a Chrome extension that steals everything",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f0e4276-498c-4d46-80fb-466437307695_2184x1426.png"
-        },
-        {
-          "id": "QNQK5bdySR9wB6ix7",
-          "author": "@Filldoforealdo",
-          "description": "Word portraits created in ink and acrylic paint.",
-          "link": "https://www.philvance.com/in-their-own-words-by-phil-vance/",
-          "publishedOn": "2023-02-24T06:22:23.000Z",
-          "wordCount": 805,
-          "title": "In Their Own Words",
-          "imageUrl": null
         }
       ]
     },
@@ -7712,16 +7542,6 @@
           "wordCount": 5620,
           "title": "Flex Luthor, a Little CSS Flexbox Layout Helper",
           "imageUrl": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.zachleat.com%2Fopengraph%2Fweb%2Fflex-luthor%2F/opengraph/_z202302_5/"
-        },
-        {
-          "id": "https://www.zachleat.com/web/site-generator-review/",
-          "author": null,
-          "description": "It’s time again for every framework author’s favorite: The JavaScript Site Generator Review, February 2023 edition.\nExpand for the table of contents\n\n\nPrevious Reviews \nnpm install Times \nClient JavaScript Baseline \nnode_modules Weight \nnpm Auditing \nTelemetry \nFeedback \n\n\nHere is the list of site generators reviewed in alphabetical order:\nAstro 2.0.15\nEleventy 2.0.0\nGatsby 5.7.0\nNext.js 13.2.1\nNuxt 3.2.2\nRemix 1.13.0\nSvelteKit 1.8.3\nEach example site was created using a fresh run of the Quick Start or Getting Started tutorial on each respective generator’s web site.\nPrevious Reviews #\nNext.js v13 review—October 2022\nWho Pays for Web Frameworks?—Last updated October 2022\nMarkdown benchmark and npm install Benchmark—July 2022\nRemix v1.5.1 review—June 2022\nNext.js review—December 2021\nnpm in…",
-          "link": "https://www.zachleat.com/web/site-generator-review/",
-          "publishedOn": "2023-02-24T00:00:00.000Z",
-          "wordCount": 6104,
-          "title": "The JavaScript Site Generator Review, 2023",
-          "imageUrl": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.zachleat.com%2Fopengraph%2Fweb%2Fsite-generator-review%2F/opengraph/_z202302_3/"
         }
       ]
     }
