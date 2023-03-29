@@ -38,16 +38,6 @@
           "wordCount": 2180,
           "title": "CSS-only Widgets Are Inaccessible",
           "imageUrl": "https://adrianroselli.com/wp-content/uploads/2023/03/CSS-only_sort-table_thumb_cabin-caps-300x300.png"
-        },
-        {
-          "id": "https://adrianroselli.com/?p=13778",
-          "author": "Adrian Roselli",
-          "description": "This post was written in early 2022 and sat in a corner of my site, hidden from the world, after AudioEye sent me a legal threat over a handful of tweets in April 2022. I opted not to poke this well-funded bully as a self-employed consultant. As such, the videos…",
-          "link": "https://adrianroselli.com/2023/02/audioeye-will-get-you-sued.html",
-          "publishedOn": "2023-02-26T23:11:38.000Z",
-          "wordCount": 4313,
-          "title": "#AudioEye Will Get You Sued",
-          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2022/05/AudioEye-Redacted_activate_poster-300x234.jpg"
         }
       ]
     },
@@ -277,13 +267,34 @@
       "title": "Bocoup",
       "feedUrl": "https://bocoup.com/feed",
       "siteUrl": "https://bocoup.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://bocoup.com/?p=8917",
+          "author": "Lazarus Letcher",
+          "description": "Our co-worker thought we were heartless monsters. This is a slight exaggeration, but an important lesson about what gets lost in translation when apps aren’t entirely accessible. During an experimental Zoom call, we learned that screen readers and the reactions feature aren’t quite compatible. That means that every time during a call when someone mentioned […]",
+          "link": "https://bocoup.com/blog/making-zoom-calls-more-accessible",
+          "publishedOn": "2023-03-28T18:15:08.000Z",
+          "wordCount": 1254,
+          "title": "Making Zoom Calls More Accessible",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Christian Heilmann",
       "feedUrl": "https://christianheilmann.com/feed/",
       "siteUrl": "https://christianheilmann.com",
       "articles": [
+        {
+          "id": "https://christianheilmann.com/?p=7633",
+          "author": "Chris Heilmann",
+          "description": "I was just about to write a blog post on my current experiences in trying to find a new job. I wanted to write about the frustrations and how it feels ridiculous that developers and recruiters aren’t best friends. And then I remembered that Microsoft Edge now comes with a HUGE Bing icon that promised […]",
+          "link": "https://christianheilmann.com/2023/03/28/this-is-the-time-to-be-unpredictable-and-human/",
+          "publishedOn": "2023-03-28T15:42:46.000Z",
+          "wordCount": 1553,
+          "title": "This is the time to be unpredictable and human",
+          "imageUrl": null
+        },
         {
           "id": "https://christianheilmann.com/?p=7624",
           "author": "Chris Heilmann",
@@ -500,6 +511,36 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com/",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=11921",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://dailydevlinks.com/the-best-handoff-is-no-handoff/",
+          "publishedOn": "2023-03-28T11:33:00.000Z",
+          "wordCount": 2861,
+          "title": "The Best Handoff Is No Handoff",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=11924",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://dailydevlinks.com/your-personal-design-language/",
+          "publishedOn": "2023-03-28T11:30:00.000Z",
+          "wordCount": 2863,
+          "title": "Your personal design language",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=11927",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://dailydevlinks.com/wysiwygpt/",
+          "publishedOn": "2023-03-28T11:30:00.000Z",
+          "wordCount": 2848,
+          "title": "WYSIWYGPT",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
+        },
         {
           "id": "https://dailydevlinks.com/?p=11918",
           "author": "Adam Marsden",
@@ -1262,36 +1303,6 @@
           "wordCount": 1553,
           "title": "Working with the industry to evolve CHIPS",
           "imageUrl": "https://wd.imgix.net/image/udVScdcCFAdRjZwFdLk2jWAFQyr1/Rr2cBdWZprYKZQrJI8cw.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/user-agent-reduction-android-model-and-version/",
-          "author": null,
-          "description": "Starting in Chrome 110 (February 2023) we are gradually introducing a fixed value for Android version and device model—the default value will always be Android 10 on a model K.\nIf you rely on the user-agent to detect a visitor's operating system version, Android device model, or detailed browser version then you may need to take action—read on for the details.\n\n\nThe user-agent is a string that provides information about the user's browser and their environment—like knowing that a visitor on your site is running Chrome version 110 on Android.\nYour browser sends this in an HTTP header and makes it available via JavaScript.\nThe problem with full user-agent string is that it shares detailed information about the browser by default on every request which is a major factor in allowing cross-site…",
-          "link": "https://developer.chrome.com/en/blog/user-agent-reduction-android-model-and-version/",
-          "publishedOn": "2023-02-27T00:00:00.000Z",
-          "wordCount": 1510,
-          "title": "Prepare for Chrome's user‑agent reduction",
-          "imageUrl": "https://wd.imgix.net/image/VWw0b3pM7jdugTkwI6Y81n6f5Yc2/3VrRwYpBizX3JQA93uzg.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/standards-behavior/",
-          "author": null,
-          "description": "One of the ongoing challenges in the web standards community is ensuring respectful, inclusive, and constructive conduct in standards discussions. We've seen good technical discussions derailed when participants stop listening to each other; we've also seen dominant voices shut out interest from newcomers who don't feel included.  Even among those of us who have been doing this for a long time, it is all too easy to answer bluntness with curt responses, and curt responses with rudeness; unfortunately, this escalates disagreements, and makes collaboration impossible. Several of us in the Chrome team set out to work with the community to develop some insights into how to improve. We hope to encourage the broad adoption of more respectful and productive interactions by setting a good example …",
-          "link": "https://developer.chrome.com/en/blog/standards-behavior/",
-          "publishedOn": "2023-02-27T00:00:00.000Z",
-          "wordCount": 1243,
-          "title": "Improving standards of behavior in standards discussions",
-          "imageUrl": "https://wd.imgix.net/image/kheDArv5csY6rvQUJDbWRscckLr1/HYruo4j2ir5MYZ96WabJ.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/framework-tools-font-fallback/",
-          "author": null,
-          "description": "Sites that load fonts with font-display: swap often suffer from a layout shift (CLS) when the web font loads and is swapped with the fallback font.\nYou can prevent CLS by adjusting the dimensions of the fallback font to match that of the primary font. Properties such as size-adjust, ascent-override, descent-override, and line-gap-override in the @font-face rule can help override the metrics of a fallback font allowing developers more control over how fonts are displayed. You can read more about font-fallbacks and the override properties in this post. You can also see a working implementation of this technique in this demo.\nThis article explores how font size adjustments are implemented in the Next.js and Nuxt.js frameworks to generate the fallback font CSS and reduce the CLS. It also demon…",
-          "link": "https://developer.chrome.com/en/blog/framework-tools-font-fallback/",
-          "publishedOn": "2023-02-27T00:00:00.000Z",
-          "wordCount": 2145,
-          "title": "Framework tools for font fallbacks",
-          "imageUrl": "https://wd.imgix.net/image/IypihH3o5cSpEMVp5i08dp69otp2/aBnMiacBdhhgGBozA5jJ.jpg?auto=format&w=1521"
         }
       ]
     },
@@ -1300,6 +1311,16 @@
       "feedUrl": "https://dribbble.com/stories.rss",
       "siteUrl": "https://dribbble.com/stories",
       "articles": [
+        {
+          "id": "https://dribbble.com/stories/2023/03/28/why-web-designers-should-use-a-proxy",
+          "author": null,
+          "description": "As a web designer, accessing online resources and tools is an essential part of your work. However, there are times when certain websites or services may be blocked or restricted, preventing you from accessing the content you need for research or inspiration. Sound familiar?\nOnline security and privacy are other concerns for professionals working in this field. That’s where proxies come in handy. These tools can provide web designers with greater flexibility, security, and performance when working online.\nBut before we explain how you can use them to make your projects more efficient and effective, let’s explore what proxy servers are and how they work.\nThanks to our friends at IPRoyal for sponsoring this blog post!\nWhat is a proxy server?\nA proxy server is an intermediary between a client…",
+          "link": "https://dribbble.com/stories/2023/03/28/why-web-designers-should-use-a-proxy",
+          "publishedOn": "2023-03-28T05:00:00.000Z",
+          "wordCount": 3132,
+          "title": "5 reasons why web designers should use a proxy",
+          "imageUrl": "https://cdn.dribbble.com/uploads/45751/original/9b7560a1c57942f03c659ba589f63efb.png?1679420280"
+        },
         {
           "id": "https://dribbble.com/stories/2023/03/13/ui-design-course-case-studies-graduates",
           "author": null,
@@ -1380,6 +1401,56 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=67778",
+          "author": "Travis",
+          "description": "The visual design of an application interface is often “layered”. For example, the container layer sits on the background layer.",
+          "link": "https://heydesigner.com/application-interface-layers/",
+          "publishedOn": "2023-03-28T05:22:04.000Z",
+          "wordCount": 201,
+          "title": "Application interface layers",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67776",
+          "author": "Travis",
+          "description": "Brainstorming ideas and solutions together is an extremely popular activity because it feels collaborative and creativity-enhancing even when it’s really not. Research has shown group brainstorming to be a waste of time.",
+          "link": "https://heydesigner.com/brainstorm-questions-not-ideas/",
+          "publishedOn": "2023-03-28T05:20:55.000Z",
+          "wordCount": 205,
+          "title": "Brainstorm questions not ideas",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67774",
+          "author": "Travis",
+          "description": "The intersection of culture, policy, and enforcement.",
+          "link": "https://heydesigner.com/creating-a-positive-workplace-community/",
+          "publishedOn": "2023-03-28T05:19:37.000Z",
+          "wordCount": 191,
+          "title": "Creating a positive workplace community",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67772",
+          "author": "Travis",
+          "description": "Using an outline as a step toward writing an essay is like prototyping as a precursor to a high-fidelity design.",
+          "link": "https://heydesigner.com/outlines-are-information-architecture/",
+          "publishedOn": "2023-03-28T05:18:39.000Z",
+          "wordCount": 203,
+          "title": "Outlines are information architecture",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67770",
+          "author": "Travis",
+          "description": "The separation of concerns we aim for in design systems has an unwanted byproduct: bloated HTML in the space between components.",
+          "link": "https://heydesigner.com/fighting-inter-component-html-bloat/",
+          "publishedOn": "2023-03-28T05:16:13.000Z",
+          "wordCount": 204,
+          "title": "Fighting inter-component HTML bloat",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=67764",
           "author": "Travis",
@@ -2169,56 +2240,6 @@
           "wordCount": 212,
           "title": "On container queries, responsive images, and JPEG-XL",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67560",
-          "author": "Travis",
-          "description": "A brand refresh for one of the world’s biggest streaming services welcomes fans of all kinds to a universe of entertainment.",
-          "link": "https://heydesigner.com/prime-video-a-brand-refresh-by-pentagram/",
-          "publishedOn": "2023-02-26T17:28:54.000Z",
-          "wordCount": 208,
-          "title": "Prime Video: A brand refresh by Pentagram",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67558",
-          "author": "Travis",
-          "description": "This document outlines a non-exhaustive list of details that make a good (web) interface. It is a living document, periodically updated based on personal learnings.",
-          "link": "https://heydesigner.com/web-interface-guidelines/",
-          "publishedOn": "2023-02-26T17:24:36.000Z",
-          "wordCount": 203,
-          "title": "Web interface guidelines",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67555",
-          "author": "Travis",
-          "description": "Hundreds of design-related quotes organized into 36 different topics in this collection.",
-          "link": "https://heydesigner.com/design-quotes/",
-          "publishedOn": "2023-02-26T17:21:48.000Z",
-          "wordCount": 190,
-          "title": "Design quotes",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67553",
-          "author": "Travis",
-          "description": "Create mood boards to collect visual inspiration, communicate brand identity, and decide on the product’s visual direction.",
-          "link": "https://heydesigner.com/mood-boards-in-ux-how-and-why-to-use-them/",
-          "publishedOn": "2023-02-26T17:10:31.000Z",
-          "wordCount": 212,
-          "title": "Mood Boards in UX: How and why to use them",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67551",
-          "author": "Travis",
-          "description": "Managers help you fix situations, they are reactive. Leaders inspire you to want to do better, they’re proactive.",
-          "link": "https://heydesigner.com/managers-vs-leaders/",
-          "publishedOn": "2023-02-26T17:08:56.000Z",
-          "wordCount": 198,
-          "title": "Managers vs Leaders",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2227,6 +2248,66 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35342855",
+          "author": "ray_of_light",
+          "description": "I am interested in knowing how a bidding system works from a system design perspective.  I haven't been able to find a detail design for this.  There are a couple of challenges that I can think of:\n- many bidders for a specific item requiring multiple nodes\n- accepting a bid is a transaction?\n- ordering of bids as they come in\n- invalidating bids once and reflecting that to a customer very quickly\nUsually systems that are distributed that also need to be fast choose eventual consistency, but I am not sure how that would work in a bidding environment.  Any detailed resources (papers, blog posts, videos etc...) that I can review?  Thanks!\nComments URL: https://news.ycombinator.com/item?id=35342855\nPoints: 3\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=35342855",
+          "publishedOn": "2023-03-28T15:41:06.000Z",
+          "wordCount": 198,
+          "title": "How does a bidding system work [System Design]?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35342570",
+          "author": "elorant",
+          "description": "Article URL: https://www.theverge.com/2023/3/27/23657938/microsoft-teams-overhaul-performance-improvements-ui-design-changes-features\nComments URL: https://news.ycombinator.com/item?id=35342570\nPoints: 1\n# Comments: 0",
+          "link": "https://www.theverge.com/2023/3/27/23657938/microsoft-teams-overhaul-performance-improvements-ui-design-changes-features",
+          "publishedOn": "2023-03-28T15:23:28.000Z",
+          "wordCount": 11266,
+          "title": "The new Microsoft Teams is here with big performance improvements and UI changes",
+          "imageUrl": "https://cdn.vox-cdn.com/thumbor/d9F8pP1fKEL39cDs2SeDFybWesU=/0x0:1920x1080/1200x628/filters:focal(960x540:961x541)/cdn.vox-cdn.com/uploads/chorus_asset/file/24539335/blog_header_image.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35339357",
+          "author": "jaimefjorge",
+          "description": "Article URL: https://github.com/vuestorefront/storefront-ui\nComments URL: https://news.ycombinator.com/item?id=35339357\nPoints: 28\n# Comments: 12",
+          "link": "https://github.com/vuestorefront/storefront-ui",
+          "publishedOn": "2023-03-28T11:59:41.000Z",
+          "wordCount": 1276,
+          "title": "Storefront UI 2: Tailwind Based, ECommerce Centric, UI Library for Vue and React",
+          "imageUrl": "https://opengraph.githubassets.com/4d10b9546c6f3f4d1140a3b202988c7e9bdac4ed149794809eea371640803420/vuestorefront/storefront-ui"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35338862",
+          "author": "codingclaws",
+          "description": "Article URL: https://www.peachesnstink.com/p/XsFpmd5jRab2ciPv3Jyggn\nComments URL: https://news.ycombinator.com/item?id=35338862\nPoints: 1\n# Comments: 0",
+          "link": "https://www.peachesnstink.com/p/XsFpmd5jRab2ciPv3Jyggn",
+          "publishedOn": "2023-03-28T11:18:50.000Z",
+          "wordCount": 176,
+          "title": "Developers Are Your Best UI/UX People",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35337209",
+          "author": "marban",
+          "description": "Article URL: https://www.jovo.design/writing/ml-in-design-systems\nComments URL: https://news.ycombinator.com/item?id=35337209\nPoints: 1\n# Comments: 0",
+          "link": "https://www.jovo.design/writing/ml-in-design-systems",
+          "publishedOn": "2023-03-28T07:48:35.000Z",
+          "wordCount": 2586,
+          "title": "The machines won’t save your design system",
+          "imageUrl": "http://static1.squarespace.com/static/635b18a10afbb03499f372a5/t/641d1146ad39274a5fbf7130/1679626566751/robot.jpg?format=1500w"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35337036",
+          "author": "zimnicki_ux",
+          "description": "Article URL: https://bootcamp.uxdesign.cc/5-important-lessons-ive-learned-by-using-a-ux-process-to-redesign-my-portfolio-f4c0f9b4e489?gi=97c57ae683eb\nComments URL: https://news.ycombinator.com/item?id=35337036\nPoints: 3\n# Comments: 4",
+          "link": "https://bootcamp.uxdesign.cc/5-important-lessons-ive-learned-by-using-a-ux-process-to-redesign-my-portfolio-f4c0f9b4e489?gi=97c57ae683eb",
+          "publishedOn": "2023-03-28T07:20:37.000Z",
+          "wordCount": 3218,
+          "title": "Important lessons I’ve learned by using a UX process to redesign my portfolio",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*byj48MwXa3DymLab0lwUcA.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35333430",
           "author": "rbanffy",
@@ -4486,66 +4567,6 @@
           "wordCount": 695,
           "title": "Chrome extension to test UI Responsiveness",
           "imageUrl": "https://opengraph.githubassets.com/179ffb7ceb43d4624e31ac4031eb6c77b2147709f4b4dfbe4927d0f6174c49e8/skmail/responsive-viewer"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34955234",
-          "author": "marban",
-          "description": "Article URL: https://anthonyhobday.com/sideprojects/designquotes/\nComments URL: https://news.ycombinator.com/item?id=34955234\nPoints: 1\n# Comments: 0",
-          "link": "https://anthonyhobday.com/sideprojects/designquotes/",
-          "publishedOn": "2023-02-27T11:28:35.000Z",
-          "wordCount": 27732,
-          "title": "Design Quotes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34955115",
-          "author": "JimDesigns",
-          "description": "Article URL: https://jimdesigns.co/pure\nComments URL: https://news.ycombinator.com/item?id=34955115\nPoints: 3\n# Comments: 0",
-          "link": "https://jimdesigns.co/pure",
-          "publishedOn": "2023-02-27T11:06:39.000Z",
-          "wordCount": 123,
-          "title": "Show HN: Pure – A minimalist design system for SaaS, that comes in 4 flavor",
-          "imageUrl": "https://jimdesigns.co/assets/bg-trello.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34954867",
-          "author": "s1291",
-          "description": "Article URL: https://icon-shelf.github.io/\nComments URL: https://news.ycombinator.com/item?id=34954867\nPoints: 1\n# Comments: 0",
-          "link": "https://icon-shelf.github.io/",
-          "publishedOn": "2023-02-27T10:30:29.000Z",
-          "wordCount": 740,
-          "title": "The icon manager for web developer",
-          "imageUrl": "/meta-preview-hero-image.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34954098",
-          "author": "Nareshmeetei",
-          "description": "Is there any SaaS design new and updates newsletter? If yes what are the best one I should subscribe? Thanks.\nComments URL: https://news.ycombinator.com/item?id=34954098\nPoints: 1\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=34954098",
-          "publishedOn": "2023-02-27T07:56:54.000Z",
-          "wordCount": 116,
-          "title": "What are the best SaaS design new and updates newsletter?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34952285",
-          "author": "oyster143",
-          "description": "I'm building my first project and was curious if there are some fundamental principles (as opposed to technology specific) of web design to be aware of?\nComments URL: https://news.ycombinator.com/item?id=34952285\nPoints: 1\n# Comments: 2",
-          "link": "https://news.ycombinator.com/item?id=34952285",
-          "publishedOn": "2023-02-27T02:36:21.000Z",
-          "wordCount": 294,
-          "title": "Ask HN: What are guiding principles of web design that beginners should know?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34951834",
-          "author": "loeber",
-          "description": "Article URL: https://loeber.substack.com/p/4-bring-back-idiomatic-design\nComments URL: https://news.ycombinator.com/item?id=34951834\nPoints: 7\n# Comments: 0",
-          "link": "https://loeber.substack.com/p/4-bring-back-idiomatic-design",
-          "publishedOn": "2023-02-27T01:21:15.000Z",
-          "wordCount": 6202,
-          "title": "Bring Back Idiomatic Design",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d9c4a86-cb01-4f2c-ab0e-1cf2f0d0a2c8_419x304.png"
         }
       ]
     },
@@ -4554,6 +4575,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35337391",
+          "author": "tapanjk",
+          "description": "Article URL: https://effectivesoftwaredesign.com/2023/03/27/excellence-is-a-habit-happiness-is-a-journey/\nComments URL: https://news.ycombinator.com/item?id=35337391\nPoints: 2\n# Comments: 0",
+          "link": "https://effectivesoftwaredesign.com/2023/03/27/excellence-is-a-habit-happiness-is-a-journey/",
+          "publishedOn": "2023-03-28T08:18:17.000Z",
+          "wordCount": 3635,
+          "title": "Excellence is a Habit, Happiness is a Journey",
+          "imageUrl": "https://effectivesoftwaredesign.files.wordpress.com/2023/03/excellence.webp"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35331384",
           "author": "rntn",
@@ -5113,26 +5144,6 @@
           "wordCount": 100,
           "title": "Developer Productivity for Humans, Part 2: Hybrid Productivity [pdf]",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34954090",
-          "author": "punnerud",
-          "description": "Article URL: https://www.kalzumeus.com/2009/10/04/work-smarter-not-harder/\nComments URL: https://news.ycombinator.com/item?id=34954090\nPoints: 171\n# Comments: 98",
-          "link": "https://www.kalzumeus.com/2009/10/04/work-smarter-not-harder/",
-          "publishedOn": "2023-02-27T07:55:38.000Z",
-          "wordCount": 3913,
-          "title": "Work less, get more done: Analytics for maximizing productivity (2009)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=34949642",
-          "author": "clircle",
-          "description": "Article URL: http://feedbase.org/about/\nComments URL: https://news.ycombinator.com/item?id=34949642\nPoints: 30\n# Comments: 2",
-          "link": "http://feedbase.org/about/",
-          "publishedOn": "2023-02-26T21:26:27.000Z",
-          "wordCount": 252,
-          "title": "Feedbase is an Atom/RSS-feed to nntp gateway",
-          "imageUrl": null
         }
       ]
     },
@@ -5141,6 +5152,96 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35347121",
+          "author": "gravitate",
+          "description": "Article URL: https://tobiasahlin.com/blog/previous-sibling-css-has/\nComments URL: https://news.ycombinator.com/item?id=35347121\nPoints: 1\n# Comments: 0",
+          "link": "https://tobiasahlin.com/blog/previous-sibling-css-has/",
+          "publishedOn": "2023-03-28T20:11:58.000Z",
+          "wordCount": 813,
+          "title": "Selecting previous siblings with CSS:has()",
+          "imageUrl": "https://tobiasahlin.com/static/-social/og_blog-previous-sibling-css-has.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35344341",
+          "author": "eberkund",
+          "description": "Article URL: https://tailwindcss.com/blog/tailwindcss-v3-3\nComments URL: https://news.ycombinator.com/item?id=35344341\nPoints: 4\n# Comments: 0",
+          "link": "https://tailwindcss.com/blog/tailwindcss-v3-3",
+          "publishedOn": "2023-03-28T17:07:00.000Z",
+          "wordCount": 1985,
+          "title": "Tailwind CSS 3.3 is released",
+          "imageUrl": "https://tailwindcss.com/_next/static/media/card.bd99fd56.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35342497",
+          "author": "Techbrunch",
+          "description": "Article URL: https://garethheyes.co.uk/games/cascade-of-duty/\nComments URL: https://news.ycombinator.com/item?id=35342497\nPoints: 2\n# Comments: 0",
+          "link": "https://garethheyes.co.uk/games/cascade-of-duty/",
+          "publishedOn": "2023-03-28T15:18:58.000Z",
+          "wordCount": 149,
+          "title": "Cascade of Duty – Cod Using HTML and CSS Only",
+          "imageUrl": "http://garethheyes.co.uk/games/cascade-of-duty/images/twitter-card.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35340850",
+          "author": "cjr",
+          "description": "Article URL: https://www.urlbox.io/chatgpt-render-screenshots-html\nComments URL: https://news.ycombinator.com/item?id=35340850\nPoints: 8\n# Comments: 3",
+          "link": "https://www.urlbox.io/chatgpt-render-screenshots-html",
+          "publishedOn": "2023-03-28T13:38:31.000Z",
+          "wordCount": 3634,
+          "title": "Using chatGPT to render HTML and capture screenshots",
+          "imageUrl": "https://storage.googleapis.com/urlbox1/renders/571f54138cd8b877077d3788/2023/3/28/2040babf-fbc7-4b17-a785-0bf6cbc5d4ca.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35339929",
+          "author": "mjdowney",
+          "description": "I've found it particularly useful for drawing SVGs.\nAlso allows mixing in new code blocks one by one, so you can have a REPL-like conversation and add/overwrite JavaScript functions one by one.\nScreenshots and install instructions in the GitHub readme.\nTaking suggestions for any other kinds of structured output to render, too!\nComments URL: https://news.ycombinator.com/item?id=35339929\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/matthewdowney/rendergpt",
+          "publishedOn": "2023-03-28T12:39:19.000Z",
+          "wordCount": 879,
+          "title": "Show HN: Chrome extension to execute ChatGPT output inline (HTML/JS –> iframe)",
+          "imageUrl": "https://opengraph.githubassets.com/b9fed1767da1d776d83f6eb90b2d51638321bdb8847b6b2db795161fd7ac6156/matthewdowney/rendergpt"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35339357",
+          "author": "jaimefjorge",
+          "description": "Article URL: https://github.com/vuestorefront/storefront-ui\nComments URL: https://news.ycombinator.com/item?id=35339357\nPoints: 28\n# Comments: 12",
+          "link": "https://github.com/vuestorefront/storefront-ui",
+          "publishedOn": "2023-03-28T11:59:41.000Z",
+          "wordCount": 1276,
+          "title": "Storefront UI 2: Tailwind Based, ECommerce Centric, UI Library for Vue and React",
+          "imageUrl": "https://opengraph.githubassets.com/4d10b9546c6f3f4d1140a3b202988c7e9bdac4ed149794809eea371640803420/vuestorefront/storefront-ui"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35339230",
+          "author": "hackmylife",
+          "description": "Article URL: https://evrone.com/hakon-wium-lie-interview\nComments URL: https://news.ycombinator.com/item?id=35339230\nPoints: 16\n# Comments: 1",
+          "link": "https://evrone.com/hakon-wium-lie-interview",
+          "publishedOn": "2023-03-28T11:49:22.000Z",
+          "wordCount": 3344,
+          "title": "CSS Creator Håkon Wium Lie Interview",
+          "imageUrl": "https://evrone.com/sites/default/files/n-fields/cases/hakon.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35338587",
+          "author": "jack_pp",
+          "description": "Article URL: https://making.close.com/posts/rendering-untrusted-html-email-safely\nComments URL: https://news.ycombinator.com/item?id=35338587\nPoints: 1\n# Comments: 0",
+          "link": "https://making.close.com/posts/rendering-untrusted-html-email-safely",
+          "publishedOn": "2023-03-28T10:45:09.000Z",
+          "wordCount": 2253,
+          "title": "Rendering untrusted HTML email, safely",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35336402",
+          "author": "itsuka",
+          "description": "Article URL: https://web.dev/css-trig-functions/\nComments URL: https://news.ycombinator.com/item?id=35336402\nPoints: 112\n# Comments: 46",
+          "link": "https://web.dev/css-trig-functions/",
+          "publishedOn": "2023-03-28T05:43:08.000Z",
+          "wordCount": 1061,
+          "title": "Trigonometric Functions in CSS",
+          "imageUrl": "https://web-dev.imgix.net/image/AeNB0cHNDkYPUYzDuv8gInYA9rY2/dG0sJst2uPCE6Z1g4AZm.jpg?auto=format&fit=max&w=1200&fm=auto"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35326681",
           "author": "MostlyEmre",
@@ -5883,16 +5984,6 @@
           "wordCount": 1652,
           "title": "The flavour of my funk, or: my happy list [blog]",
           "imageUrl": "https://remysharp.com/images/cards/og/9-5.jpg"
-        },
-        {
-          "id": "testing-usb-cables-for-data-lines",
-          "author": null,
-          "description": "I've got many, many USB A to USB micro cables and I still have a good number of devices that make use of the micro connection.\nThe USB (2) port generally have four wires - ground, power and then D+ and D- (for data exchange). USB micro has a 5th line, though when it's connected to USB A on the other side that 5th line isn't connected.\nMy problem is that I also have a boat load of power only USB cables - and there's no way to tell using a visual inspection. You can buy tools that tell you if there's a data line, but I can make one fairly simply.\n\nI should caveat this with the fact that I just happened to have the parts laying around.\nIn short\nThe device is an LED power a battery power source and the USB's data wire is used to complete the circuit.\nParts\n\nProtoboard\nUSB A port\nUSB micro port\nLED\n220ohm (ish) resistor\nBattery (I used a game boy cartridge battery - again I had them laying around)\n\nWiring\nIn my version, I've included separate LEDs and checks for both the D+ and the D- but it's not really necessary - if D+ isn't there, neither is D-.\nThe pinout on the USB ports is the important detail, the outside pins (far left and far right) are VCC and ground (which we don't care about). The centre pins are what we're interested in. The centre pins will make up the circuit.\n\nResult\nNow I have a simple tool that can help me weed out those pesky power-only USB cables!",
-          "link": "https://remysharp.com/2023/02/27/testing-usb-cables-for-data-lines",
-          "publishedOn": "2023-02-27T00:00:00.000Z",
-          "wordCount": 774,
-          "title": "Testing USB cables for data lines [blog]",
-          "imageUrl": "https://remysharp.com/images/cards/og/9-4.jpg"
         }
       ]
     },
@@ -5901,6 +5992,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=45523",
+          "author": "Seth Godin",
+          "description": "School sports can have some valuable outputs: And yet, many schools act as if all they have is a trophy shortage. They bench kids who might not (yet) have the physical attributes necessary to win, or they build huge stadiums, go on long road trips, berate students that make an error or simply act as […]",
+          "link": "https://seths.blog/2023/03/rethinking-the-sports-industrial-complex/",
+          "publishedOn": "2023-03-28T08:25:00.000Z",
+          "wordCount": 1052,
+          "title": "Rethinking the Sports-Industrial Complex",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=44136",
           "author": "Seth Godin",
@@ -6190,16 +6291,6 @@
           "wordCount": 968,
           "title": "The unaware snoop",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42901",
-          "author": "Seth Godin",
-          "description": "There are things we avoid looking at too closely. If we looked, really saw what was happening, we’d have to change our minds, admit we were mistaken, refactor our priorities or take action. It’s so frightening that we even hesitate to make a list of the things we don’t want to look at. Because the list itself is frightening. If we don’t see it, it feels safer.",
-          "link": "https://seths.blog/2023/02/avert-your-eyes-2/",
-          "publishedOn": "2023-02-27T09:30:00.000Z",
-          "wordCount": 896,
-          "title": "Avert your eyes",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
         }
       ]
     },
@@ -6208,6 +6299,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "cMq4JzZSZQxdjFF2C",
+          "author": "@codepo8",
+          "description": "One of the GPT-4 demos made a massive splash: painting a web app on a napkin and getting the “AI” to create the HTML, CSS and JS to make it work.",
+          "link": "https://christianheilmann.com/2023/03/24/wysiwygpt/",
+          "publishedOn": "2023-03-28T05:02:19.000Z",
+          "wordCount": 1359,
+          "title": "WYSIWYGPT",
+          "imageUrl": null
+        },
+        {
+          "id": "oA5kha3yT7WmhSJZQ",
+          "author": "@scottohara",
+          "description": "The HTML specification added a new grouping content element: the search element.",
+          "link": "https://www.scottohara.me/blog/2023/03/24/search-element.html",
+          "publishedOn": "2023-03-28T05:01:05.000Z",
+          "wordCount": 1196,
+          "title": "The Search Element",
+          "imageUrl": null
+        },
+        {
+          "id": "43LMBfcBk6jCAPaft",
+          "author": "@aardrian",
+          "description": "Interactive widgets powered with only CSS are relatively common.",
+          "link": "https://adrianroselli.com/2023/03/css-only-widgets-are-inaccessible.html",
+          "publishedOn": "2023-03-28T05:00:18.000Z",
+          "wordCount": 2839,
+          "title": "CSS-only Widgets Are Inaccessible",
+          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2023/03/CSS-only_sort-table_thumb_cabin-caps-300x300.png"
+        },
+        {
+          "id": "8dT3X44rtyyMQnth3",
+          "author": "@geoffreylitt",
+          "description": "All computer users may soon have the ability to author small bits of code.",
+          "link": "https://www.geoffreylitt.com/2023/03/25/llm-end-user-programming.html",
+          "publishedOn": "2023-03-28T04:57:18.000Z",
+          "wordCount": 4423,
+          "title": "Malleable software in the age of LLMs",
+          "imageUrl": "https://geoffreylitt.com/images/article_images/llm-eup/robot-coding.png"
+        },
+        {
+          "id": "PuZvJJubj5rFPkAnR",
+          "author": "@youtube",
+          "description": "The complete updated 2023 edition of the classic video essay.",
+          "link": "https://www.youtube.com/watch?v=X9RYuvPCQUA",
+          "publishedOn": "2023-03-28T04:52:33.000Z",
+          "wordCount": null,
+          "title": "Everything is a Remix",
+          "imageUrl": null
+        },
         {
           "id": "b8dkg3hBWSnfrqzrD",
           "author": "@materialdesign",
@@ -7207,56 +7348,6 @@
           "wordCount": 6851,
           "title": "A Guide To Accessible Form Validation",
           "imageUrl": "https://files.smashing.media/articles/guide-accessible-form-validation/guide-accessible-form-validation.jpg"
-        },
-        {
-          "id": "wQWCBqov93y2yJJem",
-          "author": "@chromiumdev",
-          "description": "The new size-adjust and font metric overrides allow developers to create font fallbacks that closely match web fonts.",
-          "link": "https://developer.chrome.com/blog/font-fallbacks/",
-          "publishedOn": "2023-02-27T02:26:36.000Z",
-          "wordCount": 3066,
-          "title": "Improved Font Fallbacks",
-          "imageUrl": "https://wd.imgix.net/image/j2RDdG43oidUy6AL6LovThjeX9c2/TrmUi4o0TLMxhZQTwhmO.png?auto=format&w=1521"
-        },
-        {
-          "id": "N8YtaR7ejWcHSvRj8",
-          "author": "@zachleat",
-          "description": "It’s time again for every framework author’s favorite: The JavaScript Site Generator Review, February 2023 edition.",
-          "link": "https://www.zachleat.com/web/site-generator-review/",
-          "publishedOn": "2023-02-27T02:24:11.000Z",
-          "wordCount": 6463,
-          "title": "The JavaScript Site Generator Review, 2023",
-          "imageUrl": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.zachleat.com%2Fopengraph%2Fweb%2Fsite-generator-review%2F/opengraph/_z202302_6/"
-        },
-        {
-          "id": "zFgnk7eh7MXGAvY4X",
-          "author": "@zeke",
-          "description": "Turn your sketch into a refined image using AI.",
-          "link": "https://scribblediffusion.com/",
-          "publishedOn": "2023-02-27T02:21:14.000Z",
-          "wordCount": 39,
-          "title": "Scribble Diffusion",
-          "imageUrl": "https://scribble-diffusion-2e4a4i8ps-replicate.vercel.app/og-b7xwc4g4wrdrtneilxnbngzvti.png"
-        },
-        {
-          "id": "99QEume9vgPcR8tWT",
-          "author": "@awwwards",
-          "description": "We were excited to weave in our latest experience with WebGL to create something new and magical.",
-          "link": "https://www.awwwards.com/icon-x-khaby-lame-an-interactive-editorial.html",
-          "publishedOn": "2023-02-27T02:09:06.000Z",
-          "wordCount": 3308,
-          "title": "ICON x Khaby Lame - An Interactive Editorial",
-          "imageUrl": "https://assets.awwwards.com/awards/images/2023/01/khaby-thumb.jpg"
-        },
-        {
-          "id": "D95djQPx2jFb4cxj6",
-          "author": "@growthdotdesign",
-          "description": "This onboarding case study shows how Bing’s new AI chat experience could be improved.",
-          "link": "https://growth.design/case-studies/new-bing-ai-ep1",
-          "publishedOn": "2023-02-27T02:06:02.000Z",
-          "wordCount": 78,
-          "title": "Can Bing’s new AI search challenge Google?",
-          "imageUrl": "https://s3.amazonaws.com/files.growth.design/cms/cleenbrji00070tmrehcphhas.png"
         }
       ]
     },
