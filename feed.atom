@@ -2,10 +2,490 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2023-04-03T00:04:56.961Z</updated>
+    <updated>2023-04-04T00:04:46.621Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Alternative GitHub UI?]]></title>
+        <id>https://news.ycombinator.com/item?id=35432912</id>
+        <link href="https://news.ycombinator.com/item?id=35432912"/>
+        <updated>2023-04-03T23:32:31.000Z</updated>
+        <summary type="html"><![CDATA[Does anyone use an alternative GitHub UI? I was thinking of making my own with nothing much more than plaintext and links. My main problem with the default UI is it has too much friction for something I use so often, and the page that loads when I type github.com (the dashboard) is an unnecessary distraction.
+Comments URL: https://news.ycombinator.com/item?id=35432912
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>nomilk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The HTML Review]]></title>
+        <id>https://news.ycombinator.com/item?id=35431347</id>
+        <link href="https://thehtml.review/"/>
+        <updated>2023-04-03T21:11:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://thehtml.review/
+Comments URL: https://news.ycombinator.com/item?id=35431347
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>cfcfcf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google chip design team moves IT workloads to Google Cloud Platform]]></title>
+        <id>https://news.ycombinator.com/item?id=35430876</id>
+        <link href="https://www.datacenterdynamics.com/en/news/google-chip-design-team-moves-it-workloads-to-google-cloud-platform/"/>
+        <updated>2023-04-03T20:33:28.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.datacenterdynamics.com/en/news/google-chip-design-team-moves-it-workloads-to-google-cloud-platform/
+Comments URL: https://news.ycombinator.com/item?id=35430876
+Points: 8
+# Comments: 2]]></summary>
+        <author>
+            <name>webmaven</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Best design for an Alexa-like voice powered ChatGPT]]></title>
+        <id>https://news.ycombinator.com/item?id=35429834</id>
+        <link href="https://news.ycombinator.com/item?id=35429834"/>
+        <updated>2023-04-03T19:23:48.000Z</updated>
+        <summary type="html"><![CDATA[I'm obsessed with OpenAI and ChatGPT and I want to work on a voice powered version so that I can just chat with it directly.
+I find the streaming text based response distracting and honestly I'd just like to talk to it as if it were a partner/collaborator.
+My thinking is to use OpenAI Whisper as the Speech to Text (STT) input:
+https://openai.com/research/whisper
+Then stream the results to a Text To Speech (TTS).
+I'm going to use the raw OpenAI chat API to access GPT directly.
+I'm going to OSS it and put it up on Github.
+The problem I'm having now is that I need a way to stream the output of ChatGPT to the the TTS system.
+I think I need something BETTER than the Google Cloud Speech API so I'm looking for a recommendation.
+My idea is to buffer the output from GPT until I have 1-2 sentences, THEN start streaming that, on sentence boundaries, to the TTS system.
+That should enable both low latency responses but also give the TTS system a decent chance of making the results sound like an actual human without any jarring breaks (at least I hope)
+The problem is that the Google Cloud Speech API doesn't have a streaming API.
+Though I guess if I only send 2-3 sentences at a time that I can aggregate these in the client and keep the latency small.
+Thoughts?
+Comments URL: https://news.ycombinator.com/item?id=35429834
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>burtonator</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Turn Notion into a UI for Postgres]]></title>
+        <id>https://news.ycombinator.com/item?id=35429269</id>
+        <link href="https://news.ycombinator.com/item?id=35429269"/>
+        <updated>2023-04-03T18:47:42.000Z</updated>
+        <summary type="html"><![CDATA[Product hunt post that helps customer service teams who use Notion view and change customer service data in Postgres, without leaving Notion. Sharing in case it's helpful
+https://www.producthunt.com/posts/portal-b96e3e18-f1d7-4c75-bf65-330bf5df4962
+Comments URL: https://news.ycombinator.com/item?id=35429269
+Points: 9
+# Comments: 2]]></summary>
+        <author>
+            <name>vinarun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitter’s new dog icon is sending dogecoin – sigh – to the moon]]></title>
+        <id>https://news.ycombinator.com/item?id=35429260</id>
+        <link href="https://techcrunch.com/2023/04/03/twitters-new-dog-icon-is-sending-dogecoin-sigh-to-the-moon/"/>
+        <updated>2023-04-03T18:47:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://techcrunch.com/2023/04/03/twitters-new-dog-icon-is-sending-dogecoin-sigh-to-the-moon/
+Comments URL: https://news.ycombinator.com/item?id=35429260
+Points: 11
+# Comments: 4]]></summary>
+        <author>
+            <name>michlim</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typography can make a more inclusive future]]></title>
+        <id>https://news.ycombinator.com/item?id=35427833</id>
+        <link href="https://www.itsnicethat.com/features/forward-thinking-how-typography-can-make-a-more-inclusive-future-graphic-design-040123"/>
+        <updated>2023-04-03T17:27:54.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.itsnicethat.com/features/forward-thinking-how-typography-can-make-a-more-inclusive-future-graphic-design-040123
+Comments URL: https://news.ycombinator.com/item?id=35427833
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>bryanrasmussen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Text-Wrap: Balance]]></title>
+        <id>https://news.ycombinator.com/item?id=35426498</id>
+        <link href="https://developer.chrome.com/blog/css-text-wrap-balance/"/>
+        <updated>2023-04-03T16:19:32.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://developer.chrome.com/blog/css-text-wrap-balance/
+Comments URL: https://news.ycombinator.com/item?id=35426498
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>feross</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The age of the app is over]]></title>
+        <id>https://heydesigner.com/?p=67812</id>
+        <link href="https://heydesigner.com/the-age-of-the-app-is-over/"/>
+        <updated>2023-04-03T15:31:34.000Z</updated>
+        <summary type="html"><![CDATA[We think in projects, goals, and people. So why are our smartphones built around apps?]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accessibility for designer: where do I start?]]></title>
+        <id>https://heydesigner.com/?p=67829</id>
+        <link href="https://heydesigner.com/accessibility-for-designer-where-do-i-start/"/>
+        <updated>2023-04-03T15:31:26.000Z</updated>
+        <summary type="html"><![CDATA[Articles, resources, checklists, tools, plugins and books to design accessible products.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The art of making more: When quantity beats quality]]></title>
+        <id>https://heydesigner.com/?p=67827</id>
+        <link href="https://heydesigner.com/the-art-of-making-more-when-quantity-beats-quality/"/>
+        <updated>2023-04-03T15:28:10.000Z</updated>
+        <summary type="html"><![CDATA[In the pursuit of creating something great, we often find ourselves torn between the ideals of quality and quantity.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sticky page header shadow on scroll]]></title>
+        <id>https://heydesigner.com/?p=67825</id>
+        <link href="https://heydesigner.com/sticky-page-header-shadow-on-scroll/"/>
+        <updated>2023-04-03T15:27:31.000Z</updated>
+        <summary type="html"><![CDATA[What if we desired something a little bit extra, like applying a box-shadow to the sticky header as soon as the page is scrolled?]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Checkered background using two lines of code in CSS]]></title>
+        <id>https://heydesigner.com/?p=67823</id>
+        <link href="https://heydesigner.com/checkered-background-using-two-lines-of-code-in-css/"/>
+        <updated>2023-04-03T15:26:08.000Z</updated>
+        <summary type="html"><![CDATA[After a little digging, I have found out that it’s just a simple CSS trick that she is using to create the checkered background.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mindfulness Is the Secret to Increased Productivity]]></title>
+        <id>https://news.ycombinator.com/item?id=35425202</id>
+        <link href="https://www.shezennow.com/blogs/news/how-mindfulness-improves-your-productivity"/>
+        <updated>2023-04-03T15:20:50.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.shezennow.com/blogs/news/how-mindfulness-improves-your-productivity
+Comments URL: https://news.ycombinator.com/item?id=35425202
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>havingfunwithai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open Offices Aren't Working, So How Do We Design an Office That Does?]]></title>
+        <id>https://news.ycombinator.com/item?id=35423553</id>
+        <link href="https://www.scientificamerican.com/podcast/episode/open-offices-arent-working-so-how-do-we-design-an-office-that-does/"/>
+        <updated>2023-04-03T13:52:23.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.scientificamerican.com/podcast/episode/open-offices-arent-working-so-how-do-we-design-an-office-that-does/
+Comments URL: https://news.ycombinator.com/item?id=35423553
+Points: 4
+# Comments: 1]]></summary>
+        <author>
+            <name>LinuxBender</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do AI chatbot plugins spell the end of UX as we know it?]]></title>
+        <id>https://news.ycombinator.com/item?id=35423463</id>
+        <link href="https://tyk.io/blog/ai-chatbot-plugins-end-of-ux/"/>
+        <updated>2023-04-03T13:45:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://tyk.io/blog/ai-chatbot-plugins-end-of-ux/
+Comments URL: https://news.ycombinator.com/item?id=35423463
+Points: 1
+# Comments: 1]]></summary>
+        <author>
+            <name>LeonidBugaev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Productivity System for Knowledge Workers: 2023 Edition]]></title>
+        <id>https://news.ycombinator.com/item?id=35423363</id>
+        <link href="https://creativerly.com/the-ultimate-productivity-system-for-knowledge-workers/"/>
+        <updated>2023-04-03T13:39:20.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://creativerly.com/the-ultimate-productivity-system-for-knowledge-workers/
+Comments URL: https://news.ycombinator.com/item?id=35423363
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>conanxin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I created a free library of 50 landing page HTML templates to help your projects]]></title>
+        <id>https://news.ycombinator.com/item?id=35422542</id>
+        <link href="https://htmlrev.com/"/>
+        <updated>2023-04-03T12:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://htmlrev.com/
+Comments URL: https://news.ycombinator.com/item?id=35422542
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>luciantartea</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CodeQuest – Learn To Code!]]></title>
+        <id>https://dailydevlinks.com/?p=11970</id>
+        <link href="https://dailydevlinks.com/codequest-learn-to-code/"/>
+        <updated>2023-04-03T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[BeginnersDevelopmentTool]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Checkered background using two lines of code in CSS]]></title>
+        <id>https://dailydevlinks.com/?p=11976</id>
+        <link href="https://dailydevlinks.com/checkered-background-using-two-lines-of-code-in-css/"/>
+        <updated>2023-04-03T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jumping HTML tags. Another reason to validate your markup]]></title>
+        <id>https://dailydevlinks.com/?p=11973</id>
+        <link href="https://dailydevlinks.com/jumping-html-tags-another-reason-to-validate-your-markup/"/>
+        <updated>2023-04-03T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[HTML]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Masking]]></title>
+        <id>https://dailydevlinks.com/?p=11967</id>
+        <link href="https://dailydevlinks.com/css-masking/"/>
+        <updated>2023-04-03T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS]]></summary>
+        <author>
+            <name>Adam Marsden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Review: Video Tap – automatically convert YouTube videos to blog posts]]></title>
+        <id>https://christianheilmann.com/?p=7663</id>
+        <link href="https://christianheilmann.com/2023/04/03/review-video-tap-automatically-convert-youtube-videos-to-blog-posts/"/>
+        <updated>2023-04-03T11:22:26.000Z</updated>
+        <summary type="html"><![CDATA[Yesterday I wrote a blog post about a question I got at a conference and I thought I try one of those fancy “AI” tools that grace my inbox every few hours. Video Tap promises to turn videos into blog posts. You give it a YouTube URL, and it writes a post for you, looking […]]]></summary>
+        <author>
+            <name>Chris Heilmann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond Algorithms: Skills Of Designers That AI Can’t Replicate]]></title>
+        <id>https://smashingmagazine.com/2023/04/skills-designers-ai-cant-replicate/</id>
+        <link href="https://smashingmagazine.com/2023/04/skills-designers-ai-cant-replicate/"/>
+        <updated>2023-04-03T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article highlights non-technical skills like curiosity, observation, empathy, advocacy, visual communication, and collaboration that designers routinely use in their process to make a difference through design. AI can be used to augment designers’ workflow instead of replacing people.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Lyndon Cerejo)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On being missed]]></title>
+        <id>https://seths.blog/?p=43433</id>
+        <link href="https://seths.blog/2023/04/on-being-missed/"/>
+        <updated>2023-04-03T08:54:00.000Z</updated>
+        <summary type="html"><![CDATA[Some friends moved away, and the cake at the party read, “We’ll miss you.” Perhaps it would have been more accurate for it to say, “You’ll miss us.” Because, after all, what’s mostly being missed is the community of friends and neighbors. Even when someone moves away, the community remains. When a marketer serves a […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bootstrap 5.3.0-alpha3]]></title>
+        <id>https://blog.getbootstrap.com/2023/04/03/bootstrap-5-3-0-alpha3/</id>
+        <link href="https://blog.getbootstrap.com/2023/04/03/bootstrap-5-3-0-alpha3/"/>
+        <updated>2023-04-03T07:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Hot on the heels of our second alpha, we’re releasing a third (and unexpected) alpha for v5.3.0 today with some fixes for some Node Sass compilation errors. In addition, we’ve added a handful of other updates. We’re still on target to ship our stable release soon!
+Once again, if you’re new to the v5.3.0 alpha releases, please read through the Migration guide for the first alpha and last month’s second alpha.
+Here’s a look at what’s changed in this quick release:
+Fixed wrong interpolated variables with node-sass/Hugo.
+Added a check for interpolated variables to catch compilation errors with Node Sass when using Sass variables in calc() functions.
+Started using --bs-border-radius variables across more components.
+Added .d-inline-grid utility class.
+Fixed .tooltip-inner placement when using variations in fallbackPlacements.
+Fix selectors for dark mode carousel overrides when compiling with $color-mode-type: media-query.
+Updated the styling of floating labels when “floated” to include a background-color to help with multiple lines of text in textareas. This also fixes the colors when form elements are disabled in floating forms.
+Updated RFS to v10.0.0.
+Get the release
+Head to https://getbootstrap.com for the latest. It’s also been pushed to npm:
+npm i bootstrap@v5.3.0-alpha3
+
+
+Read the GitHub v5.3.0-alpha3 changelog for a complete list of changes in this release.
+Support the team
+Visit our Open Collective page or our team members’ GitHub profiles to help support the maintainers contributing to Bootstrap.]]></summary>
+        <author>
+            <name>Bootstrap Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT Lifts Business Professionals’ Productivity and Improves Work Quality]]></title>
+        <id>https://news.ycombinator.com/item?id=35419505</id>
+        <link href="https://www.nngroup.com/articles/chatgpt-productivity/"/>
+        <updated>2023-04-03T06:54:34.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.nngroup.com/articles/chatgpt-productivity/
+Comments URL: https://news.ycombinator.com/item?id=35419505
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>mooreds</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing a single grid system for all Wikimedia projects]]></title>
+        <id>https://heydesigner.com/?p=67816</id>
+        <link href="https://heydesigner.com/designing-a-single-grid-system-for-all-wikimedia-projects/"/>
+        <updated>2023-04-03T06:04:40.000Z</updated>
+        <summary type="html"><![CDATA[Without a grid system, making decisions about where items should sit on the page, and maintaining visual consistency across multiple projects would be more challenging.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A comprehensive guide on creating UI designs for iOS apps]]></title>
+        <id>https://heydesigner.com/?p=67814</id>
+        <link href="https://heydesigner.com/a-comprehensive-guide-on-creating-ui-designs-for-ios-apps/"/>
+        <updated>2023-04-03T06:04:33.000Z</updated>
+        <summary type="html"><![CDATA[This guide covers essential topics that we need to know to make high-quality designs that are consistent with Apple’s guidelines.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The complete guide to user interviews]]></title>
+        <id>https://heydesigner.com/?p=67810</id>
+        <link href="https://heydesigner.com/the-complete-guide-to-user-interviews/"/>
+        <updated>2023-04-03T06:04:24.000Z</updated>
+        <summary type="html"><![CDATA[I am writing this guide for those who want to conduct user interviews and need help figuring out where to start and how to get maximum results.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS masking]]></title>
+        <id>https://heydesigner.com/?p=67808</id>
+        <link href="https://heydesigner.com/css-masking/"/>
+        <updated>2023-04-03T06:04:13.000Z</updated>
+        <summary type="html"><![CDATA[In this article, I will go through what CSS masking is, how it works, and a few use cases and examples for it.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: The Philosopher from Carnival Island (HTML)]]></title>
+        <id>https://news.ycombinator.com/item?id=35417868</id>
+        <link href="https://chahinearchives.com/the-philosopher-from-carnival-island/the-first-letter.html"/>
+        <updated>2023-04-03T02:36:26.000Z</updated>
+        <summary type="html"><![CDATA[I wrote a book about absolute nothingness, or at least alluded to its omnipresence, and uploaded it to a fun, somewhat formatted static site for free.
+I think when I wrote it I wanted someone to discuss it with, but I’ve since realised it’s a very boring topic to many, and still most get offended by the mere challenging of their beliefs.
+It’s not to say I am certain what this book says is correct, but that I would love to understand another’s point of view of… well, nothing at all.
+I’ve been a little too obsessed with this concept for a few years now, and don’t regret writing the book, but can’t help but think I could have had a few more discussion if I wrote about, literally, anything else (that isn’t nothing)
+Comments URL: https://news.ycombinator.com/item?id=35417868
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>heroapp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Netflix Is A Joke Festival Identity]]></title>
+        <id>Estrv9zkTfscM3Y4u</id>
+        <link href="https://the-brandidentity.com/project/porto-rochas-vibrant-identity-for-netflix-is-a-joke-the-festival-is-a-deliberate-laughingstock"/>
+        <updated>2023-04-03T01:36:03.000Z</updated>
+        <summary type="html"><![CDATA[“When it comes to the shapes and colours of the identity, we wanted to convey the idea of a comedy comeback after the pandemic”.]]></summary>
+        <author>
+            <name>@tweetsbytbi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New to the web platform in March]]></title>
+        <id>68jHmwP7oPadMrxSG</id>
+        <link href="https://web.dev/web-platform-03-2023/"/>
+        <updated>2023-04-03T01:33:59.000Z</updated>
+        <summary type="html"><![CDATA[Discover some of the interesting features that landed in stable and beta web browsers during March 2023.]]></summary>
+        <author>
+            <name>@chromiumdev</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Masking]]></title>
+        <id>wxffxekMYZiq3S6qX</id>
+        <link href="https://ishadeed.com/article/css-masking/"/>
+        <updated>2023-04-03T01:32:05.000Z</updated>
+        <summary type="html"><![CDATA[A deep dive into how masking in CSS works and some practical use cases.]]></summary>
+        <author>
+            <name>@shadeed9</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Preventing too-short final lines of text blocks]]></title>
+        <id>c89aHMeACDp8oQTKA</id>
+        <link href="https://clagnut.com/blog/2425/"/>
+        <updated>2023-04-03T01:31:22.000Z</updated>
+        <summary type="html"><![CDATA[At the end my previous post, I said I’d settle for direct control over widows and orphans in text blocks.]]></summary>
+        <author>
+            <name>@clagnut</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving CSS Shapes with Trigonometric Functions]]></title>
+        <id>MGwZmLRLXfmZvGKzo</id>
+        <link href="https://danielcwilson.com/posts/css-shapes-with-trig-functions/"/>
+        <updated>2023-04-03T01:17:42.000Z</updated>
+        <summary type="html"><![CDATA[With the introduction of CSS Trigonometric functions, we can simplify how we make regular polygons and build even more complex shapes.]]></summary>
+        <author>
+            <name>Sidebar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS text-wrap: balance]]></title>
+        <id>https://developer.chrome.com/en/blog/css-text-wrap-balance/</id>
+        <link href="https://developer.chrome.com/en/blog/css-text-wrap-balance/"/>
+        <updated>2023-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chrome Canary includes a new feature—text-wrap: balance from CSS Text Level
+4. To check it out, enable
+chrome://flags/#enable-experimental-web-platform-features,
+and then take a look at the examples in this post to learn how this one line of
+CSS can massively improve your text layouts.
+          
+  
+    
+      Try a demo
+    
+  
+
+Without text-wrap: balance; designers, content editors and publishers have
+few tools
+to change the way lines are balanced.. The best options available being to use
+<wbr> or
+&shy; to help
+guide text layouts into smarter decisions about where to break lines and words.
+As a developer, you don’t know the final size, font size, or even language of a
+headline or paragraph. All the variables needed for an effective and aesthetic
+treatment of text wrapping, are in the bro…]]></summary>
+        <author>
+            <name>Chrome Developers - Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Case Against Artificial Intelligence in Design]]></title>
         <id>https://news.ycombinator.com/item?id=35415832</id>
@@ -742,6 +1222,17 @@ Points: 163
 # Comments: 68]]></summary>
         <author>
             <name>kami8845</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating accessible PDFs from InDesign 2-day Masterclass launched]]></title>
+        <id>https://accessible-digital-documents.com/?p=7395</id>
+        <link href="https://accessible-digital-documents.com/blog/creating-accessible-pdfs-from-indesign-2-day-masterclass-launched/"/>
+        <updated>2023-03-30T13:09:52.000Z</updated>
+        <summary type="html"><![CDATA[We have recently expanded our Accessible PDFs from InDesign course from 1.5 days to 2 full days. We have done so because there is just too much you need to know in order to cram all of the relevant know-how into just 1.5 days. The sorts of essential topics you will not get in a […]
+The post Creating accessible PDFs from InDesign 2-day Masterclass launched appeared first on ADD.]]></summary>
+        <author>
+            <name>Ted Page</name>
         </author>
     </entry>
     <entry>
@@ -8344,136 +8835,6 @@ Points: 1
 # Comments: 0]]></summary>
         <author>
             <name>graderjs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Now AI Can Be Used to Design New Proteins]]></title>
-        <id>https://news.ycombinator.com/item?id=35028648</id>
-        <link href="https://www.the-scientist.com/news-opinion/now-ai-can-be-used-to-design-new-proteins-70997"/>
-        <updated>2023-03-05T11:27:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.the-scientist.com/news-opinion/now-ai-can-be-used-to-design-new-proteins-70997
-Comments URL: https://news.ycombinator.com/item?id=35028648
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>pseudolus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rituals]]></title>
-        <id>https://seths.blog/?p=45101</id>
-        <link href="https://seths.blog/2023/03/rituals/"/>
-        <updated>2023-03-05T10:42:11.000Z</updated>
-        <summary type="html"><![CDATA[The things we do each day, every day, often arrive without intent. By the time we realize that they’re now habits, these random behaviors have already become part of how we define ourselves and the time we spend. Bringing intent to our rituals gives us the chance to rewire our attitudes. But first we need […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shape Interrogation for Computer Aided Design and Manufacturing]]></title>
-        <id>https://news.ycombinator.com/item?id=35028288</id>
-        <link href="https://web.mit.edu/hyperbook/Patrikalakis-Maekawa-Cho/mathe.html"/>
-        <updated>2023-03-05T10:10:10.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://web.mit.edu/hyperbook/Patrikalakis-Maekawa-Cho/mathe.html
-Comments URL: https://news.ycombinator.com/item?id=35028288
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>gone35</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Experimental Evidence on the Productivity Effects of Generative AI [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=35027901</id>
-        <link href="https://economics.mit.edu/sites/default/files/inline-files/Noy_Zhang_1.pdf"/>
-        <updated>2023-03-05T08:28:30.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://economics.mit.edu/sites/default/files/inline-files/Noy_Zhang_1.pdf
-Comments URL: https://news.ycombinator.com/item?id=35027901
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>hunglee2</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: ChatGPT-term – a terminal UI client for ChatGPT]]></title>
-        <id>https://news.ycombinator.com/item?id=35026766</id>
-        <link href="https://github.com/thomasantony/chatgpt-term"/>
-        <updated>2023-03-05T03:50:58.000Z</updated>
-        <summary type="html"><![CDATA[This is just something I whipped up earlier today in a few hours for experimenting with the ChatGPT API in Rust.
-Supply your own API key and chat away. You can also save sessions to a file and continue at a later time. Be forewarned that it is very much a proof-of-concept and unpolished.
-Comments URL: https://news.ycombinator.com/item?id=35026766
-Points: 4
-# Comments: 0]]></summary>
-        <author>
-            <name>tantony</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An idea lets AI return the formatted data for UX]]></title>
-        <id>https://news.ycombinator.com/item?id=35026217</id>
-        <link href="https://github.com/deskbtm/nitmgpt"/>
-        <updated>2023-03-05T01:28:12.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/deskbtm/nitmgpt
-Comments URL: https://news.ycombinator.com/item?id=35026217
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>Nawbc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web Design in 4 Minutes]]></title>
-        <id>https://news.ycombinator.com/item?id=35025395</id>
-        <link href="https://jgthms.com/web-design-in-4-minutes/"/>
-        <updated>2023-03-04T23:03:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jgthms.com/web-design-in-4-minutes/
-Comments URL: https://news.ycombinator.com/item?id=35025395
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>punnerud</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DHH: SaaS startups will have to care about productivity again]]></title>
-        <id>https://news.ycombinator.com/item?id=35025288</id>
-        <link href="https://world.hey.com/dhh/saas-startups-will-have-to-care-about-productivity-again-78d4bd1a?hn"/>
-        <updated>2023-03-04T22:50:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://world.hey.com/dhh/saas-startups-will-have-to-care-about-productivity-again-78d4bd1a?hn
-Comments URL: https://news.ycombinator.com/item?id=35025288
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>mgl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Is web design still worth learning in the age of no-code tools and AI?]]></title>
-        <id>https://news.ycombinator.com/item?id=35023234</id>
-        <link href="https://news.ycombinator.com/item?id=35023234"/>
-        <updated>2023-03-04T18:39:35.000Z</updated>
-        <summary type="html"><![CDATA[I've been considering learning web design for some time now, but with the rise of no-code tools, templates, and AI-powered website builders, I'm starting to wonder if it's still worth it.
-I understand that having a strong understanding of design principles can give me more flexibility and customization when it comes to building websites. However, it seems like more and more people are using no-code tools and templates to quickly create websites without the need for any specialized knowledge.
-So, is learning web design still worth it in 2023?
-Comments URL: https://news.ycombinator.com/item?id=35023234
-Points: 4
-# Comments: 4]]></summary>
-        <author>
-            <name>Gooblebrai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Computer Aided Software Design]]></title>
-        <id>https://news.ycombinator.com/item?id=35021470</id>
-        <link href="https://en.wikipedia.org/wiki/Computer-aided_software_engineering"/>
-        <updated>2023-03-04T15:27:51.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://en.wikipedia.org/wiki/Computer-aided_software_engineering
-Comments URL: https://news.ycombinator.com/item?id=35021470
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>usgroup</name>
         </author>
     </entry>
 </feed>
