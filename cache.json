@@ -383,16 +383,6 @@
           "wordCount": 2308,
           "title": "5 Mistakes I Made When Starting My First React Project",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/377098"
-        },
-        {
-          "id": "https://css-tricks.com/?p=377074",
-          "author": "Mads Stoumann",
-          "description": "CSS trigonometry functions are here! Well, they are if you’re using the latest versions of Firefox and Safari, that is. Having this sort of mathematical power in CSS opens up a whole bunch of possibilities. In this tutorial, I thought …\nCreating a Clock with the New CSS sin() and cos() Trigonometry Functions originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/creating-a-clock-with-the-new-css-sin-and-cos-trigonometry-functions/",
-          "publishedOn": "2023-03-08T14:05:52.000Z",
-          "wordCount": 2555,
-          "title": "Creating a Clock with the New CSS sin() and cos() Trigonometry Functions",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/377074"
         }
       ]
     },
@@ -401,6 +391,46 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com/",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=12017",
+          "author": "Adam Marsden",
+          "description": "Browser",
+          "link": "https://dailydevlinks.com/new-in-chrome-112/",
+          "publishedOn": "2023-04-07T11:30:00.000Z",
+          "wordCount": 3069,
+          "title": "New in Chrome 112",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=12008",
+          "author": "Adam Marsden",
+          "description": "UX",
+          "link": "https://dailydevlinks.com/the-future-of-software-ux-an-early-glimpse-into-ais-impact/",
+          "publishedOn": "2023-04-07T11:30:00.000Z",
+          "wordCount": 3104,
+          "title": "The future of software UX: an early glimpse into AI’s impact",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=12014",
+          "author": "Adam Marsden",
+          "description": "JS",
+          "link": "https://dailydevlinks.com/the-worlds-most-satisfying-toggle/",
+          "publishedOn": "2023-04-07T11:30:00.000Z",
+          "wordCount": 3074,
+          "title": "The world’s most satisfying toggle",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=12011",
+          "author": "Adam Marsden",
+          "description": "UX",
+          "link": "https://dailydevlinks.com/lean-ux-agile-glossary/",
+          "publishedOn": "2023-04-07T11:30:00.000Z",
+          "wordCount": 3074,
+          "title": "Lean UX & Agile Glossary",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
         {
           "id": "https://dailydevlinks.com/?p=12004",
           "author": "Adam Marsden",
@@ -1153,56 +1183,6 @@
           "wordCount": 704,
           "title": "Improving user privacy by requiring opt-in to send X-Requested-With header from WebView",
           "imageUrl": "https://wd.imgix.net/image/VbsHyyQopiec0718rMq2kTE1hke2/LNiRMeNkUXQw6EBKwJw9.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/storage-partitioning-deprecation-trial/",
-          "author": null,
-          "description": "Beginning gradually in Chrome 113,\nstorage, service workers, and communication APIs will be\npartitioned in third-party contexts.\nIn addition to being isolated by the same-origin policy, the affected APIs used\nin third-party contexts would also be separated by the site of the top-level\ncontext. Sites that haven't had time to implement support for third-party\nstorage partitioning can take part in a deprecation trial to temporarily\nunpartition (continue isolation by same-origin policy but remove isolation\nby top-level site) and restore prior behavior of storage, service workers, and\ncommunication APIs in content embedded on their site.\nIn addition to a general unpartitioning deprecation trial, it's possible to\nparticipate in a focused deprecation trial just for window.sessionStorage.\nThis tri…",
-          "link": "https://developer.chrome.com/en/blog/storage-partitioning-deprecation-trial/",
-          "publishedOn": "2023-03-09T00:00:00.000Z",
-          "wordCount": 1362,
-          "title": "Participate in deprecation trial for unpartitioned third-party storage, Service Workers, and Communication APIs",
-          "imageUrl": "https://wd.imgix.net/image/fuiz5I8Iv7bV8YbrK2PKiY3Vask2/iGPiWTtoy7iF932Xday1.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/spa-view-transitions-land/",
-          "author": null,
-          "description": "The View Transition API lets you update the DOM in a single step, while generating an animated transition between the two states.\n          \n  Transitions created with the View Transition API. Try the demo site–Requires Chrome 111+.\n\n\n\nWarning\nIn our efforts to work on future enhancements to this feature, we broke it in Chrome Canary. Oops! But hey, that's what Canary's for. If you want to try view transitions today, use stable Chrome 111, or beta Chrome 112.\nThese kinds of transitions were a frequently-requested feature from developers, including me, and I think we've managed to land it in a way that balances good defaults with extensibility and customization. That sounds like we're patting ourselves on the back, but developer feedback was key to the design of this feature. An earlier pro…",
-          "link": "https://developer.chrome.com/en/blog/spa-view-transitions-land/",
-          "publishedOn": "2023-03-09T00:00:00.000Z",
-          "wordCount": 1647,
-          "title": "SPA view transitions land in Chrome 111",
-          "imageUrl": "https://wd.imgix.net/image/CZmpGM8Eo1dFe0KNhEO9SGO8Ok23/nR4JNO8pelD4mGP3dQbr.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/new-in-devtools-112/",
-          "author": null,
-          "description": "Interested in helping improve DevTools? Sign up to participate in Google User Research here.\nNo 'What's new in DevTools' video for this release. Check out the latest DevTools Tips video to learn how to identify and fix CSS issues with the Styles pane.\n# Recorder updates\n# Replay extensions support\nThe Recorder introduces support for custom replay options that you can embed into DevTools with an extension.\nTry out the example extension. Select the new custom replay option to open the custom replay UI.\nTo customize the Recorder to your needs and integrate it with your tools, consider developing your own extension: explore the chrome.devtools.recorder API and check out more extension examples.\nChromium issue: 1400243.\n# Record with pierce selectors\nIn addition to custom, CSS, ARIA, text, and …",
-          "link": "https://developer.chrome.com/en/blog/new-in-devtools-112/",
-          "publishedOn": "2023-03-09T00:00:00.000Z",
-          "wordCount": 4354,
-          "title": "What's New in DevTools (Chrome 112)",
-          "imageUrl": "https://wd.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/GJvLUWB0oNIje3SXYusK.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/fedcm-auto-reauthn-origin-trial/",
-          "author": null,
-          "description": "Federated Credential Management API (FedCM) is a\nweb API for privacy-preserving identity federation. With identity federation, an\nRP (relying party) relies on an IdP (identity provider) to provide the user an\naccount without requiring a new username and password.\nFedCM is a purpose-built API that allows the browser to understand the context\nin which the RP and IdP exchange information, inform the user as to the\ninformation and privilege levels being shared and prevent unintended abuse.\n# Updates\nThere are a few updates to Chrome's FedCM implementation:\nFor the ID assertion\nendpoint, IdPs need to\ncheck the Origin header (instead of the Referer header) to see if the\nvalue matches the origin of the client ID.\nA new Chrome flag\nchrome://flags/#fedcm-without-third-party-cookies added. With this…",
-          "link": "https://developer.chrome.com/en/blog/fedcm-auto-reauthn-origin-trial/",
-          "publishedOn": "2023-03-09T00:00:00.000Z",
-          "wordCount": 1457,
-          "title": "FedCM updates: Origin trial for auto-reauthentication",
-          "imageUrl": "https://wd.imgix.net/image/YLflGBAPWecgtKJLqCJHSzHqe2J2/9C9Sneo3nkZlqRcsbWff.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/chrome-112-beta/",
-          "author": null,
-          "description": "Unless otherwise noted, changes described below apply to the newest Chrome beta channel release for Android, ChromeOS, Linux, macOS, and Windows. Learn more about the features listed here through the provided links or from the list on ChromeStatus.com. Chrome 112 is beta as of 9 March 2023. You can download the latest on Google.com for desktop or on Google Play Store on Android.\n# CSS\n# CSS Nesting\nThe ability to nest CSS style rules inside other style rules, combining selectors from the outer with the inner rule for increasing modularity and maintainability of style sheets. Learn more in this article on CSS Nesting.\n# CSS animation-composition property\nThe animation-composition property allows the specification of the composite operation to use when multiple animations affect the same pro…",
-          "link": "https://developer.chrome.com/en/blog/chrome-112-beta/",
-          "publishedOn": "2023-03-09T00:00:00.000Z",
-          "wordCount": 1815,
-          "title": "Chrome 112 beta",
-          "imageUrl": "https://wd.imgix.net/image/kheDArv5csY6rvQUJDbWRscckLr1/fKHm0WlotmleOWIwU9d0.png?auto=format&w=1521"
         }
       ]
     },
@@ -2110,46 +2090,6 @@
           "wordCount": 215,
           "title": "An end to typographic widows on the web",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67639",
-          "author": "Travis",
-          "description": "More often than not we do great things not because we’re told to, or get paid to do them, but because we feel the urge for these things to exist in the world. We want to execute our work in a specific way because quality is a sign of respect for what we do.",
-          "link": "https://heydesigner.com/design-in-a-command-and-control-environments/",
-          "publishedOn": "2023-03-08T17:37:55.000Z",
-          "wordCount": 207,
-          "title": "Design in a command-and-control environments",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67637",
-          "author": "Travis",
-          "description": "As the recent tech industry downturn lays claim to untold thousands of UXers—designers, researchers, writers, and such—a pervasive sense of unease seems to be settling in across the industry.",
-          "link": "https://heydesigner.com/regenerative-ux/",
-          "publishedOn": "2023-03-08T17:31:25.000Z",
-          "wordCount": 201,
-          "title": "Regenerative UX",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67635",
-          "author": "Travis",
-          "description": "Something I have noticed as content, software, and product design have attempted to eradicate friction is that friction is not necessarily a bad thing.",
-          "link": "https://heydesigner.com/friction-can-be-good/",
-          "publishedOn": "2023-03-08T17:29:58.000Z",
-          "wordCount": 205,
-          "title": "Friction can be good",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67633",
-          "author": "Travis",
-          "description": "The CSS Working Group has recently published a new draft of the CSS Text Module Level 4 specification that introduces a new property called text-wrap that allows you to control the wrapping of text in a more granular way.",
-          "link": "https://heydesigner.com/balanced-text-wrapping-is-coming-to-css/",
-          "publishedOn": "2023-03-08T17:27:05.000Z",
-          "wordCount": 212,
-          "title": "Balanced text wrapping is coming to CSS",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2158,6 +2098,136 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35488306",
+          "author": "teleforce",
+          "description": "Article URL: https://www.al-enterprise.com/en/solutions/shortest-path-bridging\nComments URL: https://news.ycombinator.com/item?id=35488306\nPoints: 2\n# Comments: 0",
+          "link": "https://www.al-enterprise.com/en/solutions/shortest-path-bridging",
+          "publishedOn": "2023-04-07T23:10:50.000Z",
+          "wordCount": null,
+          "title": "Shortest Path Bridging Architecture Design Guide",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35486647",
+          "author": "matt_d",
+          "description": "Article URL: https://rachitnigam.com/files/pubs/filament.pdf\nComments URL: https://news.ycombinator.com/item?id=35486647\nPoints: 2\n# Comments: 0",
+          "link": "https://rachitnigam.com/files/pubs/filament.pdf",
+          "publishedOn": "2023-04-07T20:36:32.000Z",
+          "wordCount": 11049,
+          "title": "Modular Hardware Design with Timeline Types [pdf]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35483703",
+          "author": "elvis70",
+          "description": "Article URL: http://simplecpudesign.com/\nComments URL: https://news.ycombinator.com/item?id=35483703\nPoints: 1\n# Comments: 0",
+          "link": "http://simplecpudesign.com/",
+          "publishedOn": "2023-04-07T16:41:10.000Z",
+          "wordCount": 1239,
+          "title": "Simple CPU Design",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35483387",
+          "author": "andsoitis",
+          "description": "Article URL: https://uxdesign.cc/the-cybernetics-of-design-d9e967c7f256\nComments URL: https://news.ycombinator.com/item?id=35483387\nPoints: 1\n# Comments: 0",
+          "link": "https://uxdesign.cc/the-cybernetics-of-design-d9e967c7f256",
+          "publishedOn": "2023-04-07T16:21:08.000Z",
+          "wordCount": 11134,
+          "title": "The Cybernetics of Design",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*LSddO7xr8drfifpwogKqoA.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35483292",
+          "author": "phamilton",
+          "description": "Article URL: https://learn.microsoft.com/en-us/azure/architecture/patterns/\nComments URL: https://news.ycombinator.com/item?id=35483292\nPoints: 3\n# Comments: 1",
+          "link": "https://learn.microsoft.com/en-us/azure/architecture/patterns/",
+          "publishedOn": "2023-04-07T16:14:57.000Z",
+          "wordCount": 1446,
+          "title": "Cloud Design Patterns",
+          "imageUrl": "https://learn.microsoft.com/en-us/media/logos/logo-ms-social.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35483186",
+          "author": "Snoo7654",
+          "description": "Article URL: https://engineerdog.com/2019/05/03/seven-fundamental-principles-of-design-every-engineer-should-know/\nComments URL: https://news.ycombinator.com/item?id=35483186\nPoints: 4\n# Comments: 1",
+          "link": "https://engineerdog.com/2019/05/03/seven-fundamental-principles-of-design-every-engineer-should-know/",
+          "publishedOn": "2023-04-07T16:07:24.000Z",
+          "wordCount": 5219,
+          "title": "Seven Fundamental Principles of Design Every Engineer Should Know",
+          "imageUrl": "https://engineerdog.files.wordpress.com/2019/05/the-design-of-everyday-things-cover.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35482736",
+          "author": "akyuu",
+          "description": "Article URL: https://github.com/LostRuins/koboldcpp\nComments URL: https://news.ycombinator.com/item?id=35482736\nPoints: 2\n# Comments: 0",
+          "link": "https://github.com/LostRuins/koboldcpp",
+          "publishedOn": "2023-04-07T15:35:51.000Z",
+          "wordCount": 1596,
+          "title": "Koboldcpp – llama.cpp with a fancy UI and many writing features",
+          "imageUrl": "https://opengraph.githubassets.com/04ee137f9c825966685a37ae6758e65f9f1436b28ac19dd772f95364292e20ef/LostRuins/koboldcpp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35481836",
+          "author": "victor96",
+          "description": "Article URL: https://www.infoq.com/articles/architecture-trends-2023/\nComments URL: https://news.ycombinator.com/item?id=35481836\nPoints: 1\n# Comments: 0",
+          "link": "https://www.infoq.com/articles/architecture-trends-2023/",
+          "publishedOn": "2023-04-07T14:20:21.000Z",
+          "wordCount": 9236,
+          "title": "Software Architecture and Design InfoQ Trends Report – April 2023",
+          "imageUrl": "https://res.infoq.com/articles/architecture-trends-2023/en/headerimage/generatedHeaderImage-1680611416202.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35480730",
+          "author": "alexzeitler",
+          "description": "Article URL: https://www.patternfly.org/\nComments URL: https://news.ycombinator.com/item?id=35480730\nPoints: 2\n# Comments: 0",
+          "link": "https://www.patternfly.org/",
+          "publishedOn": "2023-04-07T12:06:41.000Z",
+          "wordCount": 15,
+          "title": "PatternFly: An open source design system",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35479956",
+          "author": "Stratoscope",
+          "description": "Article URL: https://www.theverge.com/23669728/apple-lisa-macintosh-ui-design-history\nComments URL: https://news.ycombinator.com/item?id=35479956\nPoints: 3\n# Comments: 0",
+          "link": "https://www.theverge.com/23669728/apple-lisa-macintosh-ui-design-history",
+          "publishedOn": "2023-04-07T09:58:40.000Z",
+          "wordCount": 7020,
+          "title": "The Apple Lisa was a design revolution – and it still feels like one today",
+          "imageUrl": "https://cdn.vox-cdn.com/thumbor/nAio3b343HC3dUyaNuNG-yDp-D4=/0x0:3000x2000/1200x628/filters:focal(1500x1000:1501x1001)/cdn.vox-cdn.com/uploads/chorus_asset/file/24564041/VRG_TEC_lisa_design_Container_post.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35479354",
+          "author": "MrGagi",
+          "description": "Article URL: https://cloudweekly.xyz\nComments URL: https://news.ycombinator.com/item?id=35479354\nPoints: 1\n# Comments: 0",
+          "link": "https://cloudweekly.xyz/",
+          "publishedOn": "2023-04-07T08:05:36.000Z",
+          "wordCount": 5598,
+          "title": "Tips to Design Fault Tolerant Apps on AWS",
+          "imageUrl": "https://cloudweekly.xyz/assets/images/card.jpg?v=06713584"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35478871",
+          "author": "noob_eng",
+          "description": "Article URL: https://htdp.org/2023-3-6/Book/index.html\nComments URL: https://news.ycombinator.com/item?id=35478871\nPoints: 3\n# Comments: 0",
+          "link": "https://htdp.org/2023-3-6/Book/index.html",
+          "publishedOn": "2023-04-07T06:49:28.000Z",
+          "wordCount": 965,
+          "title": "How to Design Programs 2nd Edition",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35478512",
+          "author": "kovezd",
+          "description": "Comments URL: https://news.ycombinator.com/item?id=35478512\nPoints: 7\n# Comments: 6",
+          "link": "https://news.ycombinator.com/item?id=35478512",
+          "publishedOn": "2023-04-07T05:54:38.000Z",
+          "wordCount": 242,
+          "title": "Ask HN: Where to learn about semiconductors design?",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35475782",
           "author": "glenngillen",
@@ -4237,66 +4307,6 @@
           "wordCount": 339,
           "title": "Ask HN: Design a Better Job Description",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35079382",
-          "author": "BerislavLopac",
-          "description": "Article URL: https://swizec.com/blog/clever-technical-hackery-can-t-solve-the-wrong-design/\nComments URL: https://news.ycombinator.com/item?id=35079382\nPoints: 1\n# Comments: 0",
-          "link": "https://swizec.com/blog/clever-technical-hackery-can-t-solve-the-wrong-design/",
-          "publishedOn": "2023-03-09T08:37:38.000Z",
-          "wordCount": 2022,
-          "title": "Clever technical hackery can't solve the wrong design",
-          "imageUrl": "https://swizec.com/social-cards/clever-technical-hackery-cant-solve-the-wrong-design.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35078590",
-          "author": "craigkerstiens",
-          "description": "Article URL: https://apenwarr.ca/log/20201227\nComments URL: https://news.ycombinator.com/item?id=35078590\nPoints: 114\n# Comments: 27",
-          "link": "https://apenwarr.ca/log/20201227",
-          "publishedOn": "2023-03-09T05:37:36.000Z",
-          "wordCount": 4590,
-          "title": "Systems design explains the world (2021)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35075347",
-          "author": "abunuwas",
-          "description": "Article URL: https://microapis.substack.com/p/apis-with-bounded-contexts\nComments URL: https://news.ycombinator.com/item?id=35075347\nPoints: 3\n# Comments: 1",
-          "link": "https://microapis.substack.com/p/apis-with-bounded-contexts",
-          "publishedOn": "2023-03-08T22:01:12.000Z",
-          "wordCount": 5290,
-          "title": "APIs with bounded contexts – design better APIs with domain-driven design",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1015220-0e09-4b5f-9c01-236d328d9123_789x377.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35073643",
-          "author": "vanilla_nut",
-          "description": "Article URL: https://www.theverge.com/2023/3/8/23630821/spotify-design-home-music-podcasts-audiobooks-app\nComments URL: https://news.ycombinator.com/item?id=35073643\nPoints: 10\n# Comments: 1",
-          "link": "https://www.theverge.com/2023/3/8/23630821/spotify-design-home-music-podcasts-audiobooks-app",
-          "publishedOn": "2023-03-08T19:31:26.000Z",
-          "wordCount": 9109,
-          "title": "Spotify’s new design is part TikTok, part Instagram, and part YouTube",
-          "imageUrl": "https://cdn.vox-cdn.com/thumbor/289wjcg4Q1dteBAiLd2otep2oAY=/0x0:1440x820/1200x628/filters:focal(720x410:721x411)/cdn.vox-cdn.com/uploads/chorus_asset/file/24488987/Preview_On_Home_Music.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35072916",
-          "author": "garymlin",
-          "description": "Article URL: https://www.explo.co/blog/softwares-third-wave\nComments URL: https://news.ycombinator.com/item?id=35072916\nPoints: 2\n# Comments: 0",
-          "link": "https://www.explo.co/blog/softwares-third-wave",
-          "publishedOn": "2023-03-08T18:35:35.000Z",
-          "wordCount": 2224,
-          "title": "Software’s third wave – how embedded apps are changing product design",
-          "imageUrl": "https://uploads-ssl.webflow.com/62f681c18d50325bbd681758/63f7e23de0c4a58cdd0795a1_46tyblovy2.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35069040",
-          "author": "marban",
-          "description": "Article URL: https://www.nngroup.com/articles/why-does-a-design-look-good-part2/\nComments URL: https://news.ycombinator.com/item?id=35069040\nPoints: 1\n# Comments: 0",
-          "link": "https://www.nngroup.com/articles/why-does-a-design-look-good-part2/",
-          "publishedOn": "2023-03-08T14:00:33.000Z",
-          "wordCount": 3093,
-          "title": "The Anatomy of a Good Design: An Analysis of 4 Sites",
-          "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/TheAnatomyofaGoodDesign_Social-Post_2023.jpg"
         }
       ]
     },
@@ -4305,6 +4315,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35481961",
+          "author": "jakeprins",
+          "description": "Article URL: https://www.teamsmart.ai/\nComments URL: https://news.ycombinator.com/item?id=35481961\nPoints: 34\n# Comments: 41",
+          "link": "https://www.teamsmart.ai/",
+          "publishedOn": "2023-04-07T14:32:47.000Z",
+          "wordCount": 808,
+          "title": "Show HN: Chrome extension to improve productivity with ChatGPT",
+          "imageUrl": "https://www.teamsmart.ai/next-assets/teamsmart-ai.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35472816",
           "author": "jehna1",
@@ -4844,76 +4864,6 @@
           "wordCount": 1632,
           "title": "How Cal Newport rewrote the productivity gospel",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35076049",
-          "author": "bookofjoe",
-          "description": "Article URL: https://arxiv.org/abs/2302.06590\nComments URL: https://news.ycombinator.com/item?id=35076049\nPoints: 2\n# Comments: 0",
-          "link": "https://arxiv.org/abs/2302.06590",
-          "publishedOn": "2023-03-08T23:07:44.000Z",
-          "wordCount": 516,
-          "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35073856",
-          "author": "mooreds",
-          "description": "Article URL: https://warwick.ac.uk/fac/soc/economics/staff/omoav/mmp_feb_2020.pdf\nComments URL: https://news.ycombinator.com/item?id=35073856\nPoints: 1\n# Comments: 0",
-          "link": "https://warwick.ac.uk/fac/soc/economics/staff/omoav/mmp_feb_2020.pdf",
-          "publishedOn": "2023-03-08T19:48:24.000Z",
-          "wordCount": 24179,
-          "title": "The Origin of the State: Land Productivity or Appropriability? [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35070952",
-          "author": "KomoD",
-          "description": "Comments URL: https://news.ycombinator.com/item?id=35070952\nPoints: 16\n# Comments: 26",
-          "link": "https://news.ycombinator.com/item?id=35070952",
-          "publishedOn": "2023-03-08T16:24:40.000Z",
-          "wordCount": 967,
-          "title": "Ask HN: Do you use RSS? If yes, which reader do you use?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35070554",
-          "author": "nabla9",
-          "description": "Article URL: https://klementoninvesting.substack.com/p/a-deeper-dive-into-our-productivity\nComments URL: https://news.ycombinator.com/item?id=35070554\nPoints: 1\n# Comments: 0",
-          "link": "https://klementoninvesting.substack.com/p/a-deeper-dive-into-our-productivity",
-          "publishedOn": "2023-03-08T15:54:25.000Z",
-          "wordCount": 2679,
-          "title": "A deeper dive into our productivity (declining) puzzle",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73133c74-78af-4cc9-b441-42fbad34886f_753x404.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35070305",
-          "author": "dsantangelo",
-          "description": "Article URL: https://github.com/searq/searq.org\nComments URL: https://news.ycombinator.com/item?id=35070305\nPoints: 1\n# Comments: 0",
-          "link": "https://github.com/searq/searq.org",
-          "publishedOn": "2023-03-08T15:38:13.000Z",
-          "wordCount": 1686,
-          "title": "Show HN: A RESTful search engine based on RSS",
-          "imageUrl": "https://opengraph.githubassets.com/a9c13f38eb0e2a6f6077217f0e5fa3552864203f1f695028f37a40a952f0ade1/searq/searq.org"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35069802",
-          "author": "Kovah",
-          "description": "Hi HN!\nI am quite excited as this is my second product, launched today: Versionfeeds.\nhttps://versionfeeds.com\nWhat is Versionfeeds? I was quite annoyed by the fact that I had no central place where I could see all the software releases. I use software a lot, be it at my job, to build my side projects, or tools hosted on my NAS at home. It's literally dozens, if not hundreds of tools, packages or even programming languages. And most of them receive updates regularly.\nThat is why I built Versionfeeds. It allows me to bundle all the releases for the software I need and love, into one dedicated feed. At the moment, all public repositories on Github and Gitlab are available. You can also search on npm (Javascript) and Packagist (PHP) for your software. More providers will come soon.\nThe feeds adhere to the Atom standard and can be consumed with any feed reader. If maintainers use markdown in their release notes, it will be converted to HTML.\nAny feedback, wishes and ideas are welcome. Please share your thoughts with me. https://news.ycombinator.com/item?id=35069802\nPoints: 3\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=35069802",
-          "publishedOn": "2023-03-08T15:02:42.000Z",
-          "wordCount": 256,
-          "title": "Show HN: Versionfeeds – Custom RSS feeds for releases of your favorite software",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35069018",
-          "author": "daviducolo",
-          "description": "Article URL: https://searq.org\nComments URL: https://news.ycombinator.com/item?id=35069018\nPoints: 24\n# Comments: 6",
-          "link": "https://searq.org/",
-          "publishedOn": "2023-03-08T13:58:45.000Z",
-          "wordCount": 60,
-          "title": "Show HN: SearQ - A REST API that allows users to search from RSS feeds",
-          "imageUrl": "https://searq.org/logo.png"
         }
       ]
     },
@@ -4922,6 +4872,66 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35486444",
+          "author": "maxwell",
+          "description": "Article URL: https://www.joshwcomeau.com/css/designing-shadows/\nComments URL: https://news.ycombinator.com/item?id=35486444\nPoints: 2\n# Comments: 0",
+          "link": "https://www.joshwcomeau.com/css/designing-shadows/",
+          "publishedOn": "2023-04-07T20:16:25.000Z",
+          "wordCount": 10029,
+          "title": "Designing Beautiful Shadows in CSS (2022)",
+          "imageUrl": "https://www.joshwcomeau.com/images/og-designing-shadows.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35482681",
+          "author": "harrisreynolds",
+          "description": "Article URL: https://www.webase.com/\nComments URL: https://news.ycombinator.com/item?id=35482681\nPoints: 59\n# Comments: 54",
+          "link": "https://www.webase.com/",
+          "publishedOn": "2023-04-07T15:32:35.000Z",
+          "wordCount": 468,
+          "title": "Show HN: I built a website editor for TailwindCSS",
+          "imageUrl": "https://www.webase.com/images/teamwork/building-whiteboard.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35482157",
+          "author": "adityaathalye",
+          "description": "Article URL: https://wstyler.ucsd.edu/posts/pandoc_website.html\nComments URL: https://news.ycombinator.com/item?id=35482157\nPoints: 2\n# Comments: 0",
+          "link": "https://wstyler.ucsd.edu/posts/pandoc_website.html",
+          "publishedOn": "2023-04-07T14:52:38.000Z",
+          "wordCount": 844,
+          "title": "Building a Website Using Pandoc, Markdown, and Static HTML",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35481223",
+          "author": "sebg",
+          "description": "Article URL: https://www.dannyguo.com/blog/what-i-learned-by-relearning-html\nComments URL: https://news.ycombinator.com/item?id=35481223\nPoints: 6\n# Comments: 0",
+          "link": "https://www.dannyguo.com/blog/what-i-learned-by-relearning-html",
+          "publishedOn": "2023-04-07T13:12:48.000Z",
+          "wordCount": 1896,
+          "title": "What I Learned by Relearning HTML",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35480902",
+          "author": "jeena",
+          "description": "Article URL: https://jeena.net/gtk4-and-html\nComments URL: https://news.ycombinator.com/item?id=35480902\nPoints: 1\n# Comments: 0",
+          "link": "https://jeena.net/gtk4-and-html",
+          "publishedOn": "2023-04-07T12:30:30.000Z",
+          "wordCount": 614,
+          "title": "Attempt to render HTML in GTK4 with webkit2gtk and Rust",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35478857",
+          "author": "quyleanh",
+          "description": "Article URL: https://adamschwartz.co/magic-of-css/\nComments URL: https://news.ycombinator.com/item?id=35478857\nPoints: 1\n# Comments: 0",
+          "link": "https://adamschwartz.co/magic-of-css/",
+          "publishedOn": "2023-04-07T06:47:40.000Z",
+          "wordCount": 46,
+          "title": "The Magic of CSS",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35471335",
           "author": "ksec",
@@ -5691,36 +5701,6 @@
           "wordCount": 3769,
           "title": "Integrating custom CSS-like language for graph styling",
           "imageUrl": "https://assets.website-files.com/6141c89a3874c3702674a1c0/6322e109aba6633f5dd63826_memgraph-orb-how-we-integrate-css-like-language-to-style-graphs-cover.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35078601",
-          "author": "thunderbong",
-          "description": "Article URL: https://kovart.github.io/dashed-border-generator/\nComments URL: https://news.ycombinator.com/item?id=35078601\nPoints: 2\n# Comments: 0",
-          "link": "https://kovart.github.io/dashed-border-generator/",
-          "publishedOn": "2023-03-09T05:40:55.000Z",
-          "wordCount": 216,
-          "title": "CSS Trick – Customized Dashed or Dotted Border",
-          "imageUrl": "https://kovart.github.io/dashed-border-generator/intro.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35078387",
-          "author": "spencerchubb",
-          "description": "Article URL: https://keithjgrant.com/posts/2017/07/transitioning-gradients/\nComments URL: https://news.ycombinator.com/item?id=35078387\nPoints: 2\n# Comments: 1",
-          "link": "https://keithjgrant.com/posts/2017/07/transitioning-gradients/",
-          "publishedOn": "2023-03-09T04:42:35.000Z",
-          "wordCount": 363,
-          "title": "Transitioning Gradients in CSS",
-          "imageUrl": "https://keithjgrant.com/images/keithjgrant.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35072127",
-          "author": "ipnon",
-          "description": "Article URL: https://stackoverflow.com/a/1732454\nComments URL: https://news.ycombinator.com/item?id=35072127\nPoints: 2\n# Comments: 0",
-          "link": "https://stackoverflow.com/a/1732454",
-          "publishedOn": "2023-03-08T17:40:40.000Z",
-          "wordCount": 10314,
-          "title": "You can't parse [X]HTML with regex",
-          "imageUrl": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
         }
       ]
     },
@@ -5913,6 +5893,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=45535",
+          "author": "Seth Godin",
+          "description": "A useful metaphor for freelancers and small businesses. Every good restaurant should have two different salads on the menu. The boring salad is the regular kind. It’s there for people who know that they want a reliable, repeatable, unremarkable salad. It’s the safe part of a safe meal. It might remind them of their childhood […]",
+          "link": "https://seths.blog/2023/04/two-kinds-of-salad/",
+          "publishedOn": "2023-04-07T10:46:44.000Z",
+          "wordCount": 1029,
+          "title": "Two kinds of salad",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=45575",
           "author": "Seth Godin",
@@ -6202,26 +6192,6 @@
           "wordCount": 936,
           "title": "Bob Dobalina",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44978",
-          "author": "Seth Godin",
-          "description": "The traveling circus didn’t have to appeal to everyone. They rode into town with the elephants, the bearded lady and the Tasmanian Devil, and the people who came, came. Once the folks who wanted excitement were exhausted, the circus left. The problem kicks in when the circus becomes permanent. When the company seeks to scale. […]",
-          "link": "https://seths.blog/2023/03/dancing-for-the-early-adopters/",
-          "publishedOn": "2023-03-09T09:32:00.000Z",
-          "wordCount": 1179,
-          "title": "Dancing for the early adopters",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42933",
-          "author": "Seth Godin",
-          "description": "Many projects are never finished. There are countless broken and not-quite-fixed cars in garages. There are crafts projects, massive redevelopments and everything in between. They sit unfinished because of bad planning, lack of resources, and most of all, a lack of resolve and skill in overcoming challenges that might have been surmountable. Often, projects get […]",
-          "link": "https://seths.blog/2023/03/projects-and-the-red-zone/",
-          "publishedOn": "2023-03-09T09:14:00.000Z",
-          "wordCount": 1126,
-          "title": "Projects and the red zone",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         }
       ]
     },
@@ -6230,6 +6200,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "qXjBzG8KbEkwxTDxr",
+          "author": "@annasofialesiv",
+          "description": "Tracing the rise of the robot mind.",
+          "link": "https://every.to/p/a-short-history-of-artificial-intelligence",
+          "publishedOn": "2023-04-07T01:58:53.000Z",
+          "wordCount": 4140,
+          "title": "A Short History of Artificial Intelligence",
+          "imageUrl": "https://d24ovhgu8s7341.cloudfront.net/uploads/post/cover/2540/unknown.png"
+        },
+        {
+          "id": "Bc3Ab3ea8TvrXELE2",
+          "author": "@ConstructTeam",
+          "description": "Safari 16.4 rolled out last week, and for us it’s been a nightmare.",
+          "link": "https://www.construct.net/en/blogs/ashleys-blog-2/safari-releases-development-1616",
+          "publishedOn": "2023-04-07T01:57:48.000Z",
+          "wordCount": 5112,
+          "title": "Safari releases are development hell",
+          "imageUrl": "https://construct-static.com/92/v1102/shareimage/1616/ogg/share.png"
+        },
+        {
+          "id": "nQA2M2HCApvNrd2Wx",
+          "author": "@Medium",
+          "description": "How AI misrepresents culture through a facial expression.",
+          "link": "https://medium.com/@socialcreature/ai-and-the-american-smile-76d23a0fbfaf",
+          "publishedOn": "2023-04-07T01:50:20.000Z",
+          "wordCount": 5271,
+          "title": "AI and the American Smile",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1080/0*7o1nPtr260CgeJ-Z"
+        },
+        {
+          "id": "GHDjjzm8F6GbM54aC",
+          "author": "@chromiumdev",
+          "description": "After years of development, the Chrome team ships WebGPU which allows high-performance 3D graphics and data-parallel computation on the web.",
+          "link": "https://developer.chrome.com/blog/webgpu-release/",
+          "publishedOn": "2023-04-07T01:47:37.000Z",
+          "wordCount": 1070,
+          "title": "Chrome ships WebGPU",
+          "imageUrl": "https://wd.imgix.net/image/vvhSqZboQoZZN9wBvoXq72wzGAf1/DV3geEz9FsEc3JiFPSY2.png?auto=format&w=1521"
+        },
+        {
+          "id": "ZGPccCWSkyZdCLsi8",
+          "author": "@brad_frost",
+          "description": "I felt like talking about the importance of choosing a name for your design system.",
+          "link": "https://bradfrost.com/blog/post/choosing-a-name-for-your-design-system/",
+          "publishedOn": "2023-04-07T01:46:53.000Z",
+          "wordCount": 1201,
+          "title": "Choosing a name for your design system",
+          "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
+        },
         {
           "id": "SH8uT9GspKAFQJv7n",
           "author": "@adobe",
@@ -7229,56 +7249,6 @@
           "wordCount": 4686,
           "title": "Your team needs a better balance between starters and finishers",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:540/1*P5Vs9o8bCs4WeJmsyDYUSg.png"
-        },
-        {
-          "id": "rtmHkKLAtxmnfk4Bv",
-          "author": null,
-          "description": "Creating high-quality, polished web animations is both a science and an art.",
-          "link": "https://joshcollinsworth.com/blog/great-transitions",
-          "publishedOn": "2023-03-09T00:55:11.000Z",
-          "wordCount": 5834,
-          "title": "Ten tips for better CSS transitions and animations",
-          "imageUrl": "https://joshcollinsworth.com/images/post_images/great-transitions.png"
-        },
-        {
-          "id": "69pbna7MR8vD7CFka",
-          "author": "@uxdesigncc",
-          "description": "Nothing is easier than to formulate high ideals.",
-          "link": "https://uxdesign.cc/regenerative-ux-8ced0e2e5321",
-          "publishedOn": "2023-03-09T00:50:18.000Z",
-          "wordCount": 3518,
-          "title": "Regenerative UX",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:648/0*-46ySEfiK7V_pmBj"
-        },
-        {
-          "id": "rzkwY7f9MFxsJeaNp",
-          "author": "@CSS",
-          "description": "CSS trigonometry functions are here! Well, they are if you’re using the latest versions of Firefox and Safari, that is.",
-          "link": "https://css-tricks.com/creating-a-clock-with-the-new-css-sin-and-cos-trigonometry-functions/",
-          "publishedOn": "2023-03-09T00:48:35.000Z",
-          "wordCount": 2555,
-          "title": "Creating a Clock with the New CSS sin() and cos() Trigonometry Functions",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/377074"
-        },
-        {
-          "id": "YoMEtKftn6Zo2vEut",
-          "author": "@WashingtonPost",
-          "description": "China will soon pass the U.S. as history’s biggest carbon dioxide emitter.",
-          "link": "https://www.washingtonpost.com/climate-environment/interactive/2023/global-warming-carbon-emissions-china-us/",
-          "publishedOn": "2023-03-09T00:44:20.000Z",
-          "wordCount": 5861,
-          "title": "The U.S. has caused the most global warming. When will China pass it?",
-          "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LCADA5CUZJBRRGVI66VHT2TMN4.jpg&w=1200"
-        },
-        {
-          "id": "pZMa2Ec2uDmDmgcqH",
-          "author": "@astrodotbuild",
-          "description": "A look at how different web frameworks perform in the real world in 2023.",
-          "link": "https://astro.build/blog/2023-web-framework-performance-report/",
-          "publishedOn": "2023-03-09T00:01:40.000Z",
-          "wordCount": 2227,
-          "title": "2023 Web Framework Performance Report",
-          "imageUrl": "https://astro.build/_astro/social.bb99d4ac.jpg"
         }
       ]
     },
@@ -7361,16 +7331,6 @@
           "wordCount": 1304,
           "title": "Enabling the Inspection of Web Content in Apps",
           "imageUrl": "https://webkit.org/wp-content/uploads/Inspectable-Light.png"
-        },
-        {
-          "id": "https://webkit.org/?p=13932",
-          "author": null,
-          "description": "Safari Technology Preview Release 165 is now available for download for macOS Monterey 12.3 or later and macOS Ventura.",
-          "link": "https://webkit.org/blog/13932/release-notes-for-safari-technology-preview-165/",
-          "publishedOn": "2023-03-08T22:03:17.000Z",
-          "wordCount": 830,
-          "title": "Release Notes for Safari Technology Preview 165",
-          "imageUrl": null
         }
       ]
     },
@@ -7652,21 +7612,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://files.smashing.media/articles/pragmatists-guide-lean-user-research/pragmatists-guide-lean-user-research.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/03/building-complex-forms-vue/",
-          "author": "hello@smashingmagazine.com (Olufunke Moronfolu)",
-          "description": "Did you know that creating a complex form can be progressively enhanced using some Vue features like the v-for and the v-model? In this article, Olufunke shares some basic Vue core features that are super useful when building out the complex form in your day-to-day Vue usage.",
-          "link": "https://smashingmagazine.com/2023/03/building-complex-forms-vue/",
-          "publishedOn": "2023-03-09T10:00:00.000Z",
-          "wordCount": 5512,
-          "title": "Building Complex Forms In Vue",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/building-complex-forms-vue/meta-building-complex-forms-vue.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/building-complex-forms-vue/meta-building-complex-forms-vue.jpg"
         }
       ]
     },
@@ -7675,6 +7620,16 @@
       "feedUrl": "https://www.zachleat.com/web/feed/",
       "siteUrl": "https://www.zachleat.com/web/feed/",
       "articles": [
+        {
+          "id": "https://www.zachleat.com/web/styling-web-components/",
+          "author": null,
+          "description": "div.livedemo {\n\tfont-family: fantasy;\n}\n\nWeb components are great. They’re versatile. They can be rendered on the server or (very much less preferably) on the client. They may or may not need interactivity or client-side JavaScript. And unlike heftier legacy frameworks like React, when you need to add interactivity they can still be extremely lightweight by leveraging (dare I say it…) The Platform™ *audible gasp*.\nBut let’s not get distracted from the task at hand: we want to evaluate a few different options on the table to apply styles (CSS) to our web components.\nHere are the things we want to think about:\nEncapsulation. We don’t want styles from distinct components to interfere with each other (that’s what this blog post is here for, after all).\nPerformance. Predictably, a method popula…",
+          "link": "https://www.zachleat.com/web/styling-web-components/",
+          "publishedOn": "2023-04-06T00:00:00.000Z",
+          "wordCount": 6965,
+          "title": "3 Methods for Scoped Styles in Web Components That Work Everywhere",
+          "imageUrl": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.zachleat.com%2Fopengraph%2Fweb%2Fstyling-web-components%2F/opengraph/_z202304_0/"
+        },
         {
           "id": "https://www.zachleat.com/web/single-page-applications/",
           "author": null,
