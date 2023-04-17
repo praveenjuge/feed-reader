@@ -315,16 +315,6 @@
           "wordCount": 658,
           "title": "Looking for a new opportunity",
           "imageUrl": null
-        },
-        {
-          "id": "https://christianheilmann.com/?p=7614",
-          "author": "Chris Heilmann",
-          "description": "Thursday, 30.03.2023 I will be in Microsoft’s Reactor in Berlin together with Yann Duval, Stefan Judis and Tobias Kunisch talking about “Modern Web Development”. The talks will also be streamed, so mark your calendars. Here’s the agenda: 4:30PM: Doors Open 5:00PM – 5:45PM: Azure Developer Community Call “News & Hot Topics”: Centering DIVs in new […]",
-          "link": "https://christianheilmann.com/2023/03/17/next-speaking-gig-modern-web-development-thu-30-mar-5pm-in-berlins-microsoft-reactor-and-streaming/",
-          "publishedOn": "2023-03-17T20:10:48.000Z",
-          "wordCount": 543,
-          "title": "Next speaking gig: Modern Web Development, Thu., 30 Mar, 5pm in Berlin’s Microsoft Reactor and streaming.",
-          "imageUrl": null
         }
       ]
     },
@@ -332,7 +322,18 @@
       "title": "CSS In Real Life",
       "feedUrl": "https://css-irl.info/rss.xml",
       "siteUrl": "https://css-irl.info/rss.xml/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://css-irl.info/exploring-has-again/",
+          "author": null,
+          "description": "It’s been a while since my last article on here (well, a month is a while for me, anyway 😅), as I’ve been busy with my head down preparing for my talk on modern CSS layout at Beyond Tellerand, which is (checks notes) tomorrow!\nAlthough I haven’t had much time for blogging, it has given me a chance to delve once again into messaging about with CSS layout and the :has() pseudo-class, or “parent selector”. I’ve already written about :has() in a previous post, and you can read an in-depth guide by Jen Simmons on the Webkit blog. But to recap, :has() allows us to select a parent or sibling of an element by taking a relative selector list as its argument (to paraphrase MDN).\nBut what I’m realising as I continue to play around with :has() is that in practice, we can select any element in the DOM…",
+          "link": "https://css-irl.info/exploring-has-again/",
+          "publishedOn": "2023-04-16T00:00:00.000Z",
+          "wordCount": 479,
+          "title": "Exploring :has() Again",
+          "imageUrl": "https://css-irl.info/social_1200x630.png"
+        }
+      ]
     },
     {
       "title": "CSS-Tricks",
@@ -925,36 +926,6 @@
           "wordCount": 2831,
           "title": "Minimalism in UX: the blessing of no choices",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11857",
-          "author": "Adam Marsden",
-          "description": "CSSDesign",
-          "link": "https://dailydevlinks.com/modern-font-stacks/",
-          "publishedOn": "2023-03-17T12:30:00.000Z",
-          "wordCount": 2808,
-          "title": "Modern Font Stacks",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11854",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/gpt-4-designed-a-programming-language/",
-          "publishedOn": "2023-03-17T12:30:00.000Z",
-          "wordCount": 2818,
-          "title": "GPT-4 Designed a Programming Language",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11851",
-          "author": "Adam Marsden",
-          "description": "CareerDesign",
-          "link": "https://dailydevlinks.com/leading-a-dream-team-a-managers-guide-to-unlocking-your-teams-potential/",
-          "publishedOn": "2023-03-17T12:30:00.000Z",
-          "wordCount": 2853,
-          "title": "Leading a dream team: A manager’s guide to unlocking your team’s potential",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
         }
       ]
     },
@@ -1205,6 +1176,56 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=67914",
+          "author": "Travis",
+          "description": "A good design might be persuasive on its own; the notion that a thing “just works” implies that its function, however novel, is an intuitive leap from its form.",
+          "link": "https://heydesigner.com/on-persuasion/",
+          "publishedOn": "2023-04-16T17:00:06.000Z",
+          "wordCount": 201,
+          "title": "On persuasion",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67911",
+          "author": "Travis",
+          "description": "Icons are one of the core elements of interface design. A designer needs to have a well-organized library of icons that can be easily updated and extended.",
+          "link": "https://heydesigner.com/maintaining-icon-libraries-in-design-systems/",
+          "publishedOn": "2023-04-16T16:57:38.000Z",
+          "wordCount": 209,
+          "title": "Maintaining icon libraries in Design Systems",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67909",
+          "author": "Travis",
+          "description": "How does a Large Language Model like ChatGPT actually work? Well, they are both amazingly simple and exceedingly complex at the same time.",
+          "link": "https://heydesigner.com/how-chatgpt-works-a-deep-dive/",
+          "publishedOn": "2023-04-16T16:56:45.000Z",
+          "wordCount": 209,
+          "title": "How ChatGPT works: a deep dive",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67907",
+          "author": "Travis",
+          "description": "If you’re anything like me, looking at all the things happening in CSS lately involving color, you’re probably a bit overwhelmed.",
+          "link": "https://heydesigner.com/its-time-to-learn-oklch-color/",
+          "publishedOn": "2023-04-16T16:55:47.000Z",
+          "wordCount": 210,
+          "title": "It’s time to learn OKLCH color",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67904",
+          "author": "Travis",
+          "description": "Solid documentation of a project is important, especially if you’re working in a team.",
+          "link": "https://heydesigner.com/how-to-readme/",
+          "publishedOn": "2023-04-16T16:54:16.000Z",
+          "wordCount": 195,
+          "title": "How to README",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=67899",
           "author": "Travis",
@@ -1924,56 +1945,6 @@
           "wordCount": 206,
           "title": "Native CSS nesting landed",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67706",
-          "author": "Travis",
-          "description": "For the past few years I led the redesign of the Wikipedia desktop interface, which launched this past January.",
-          "link": "https://heydesigner.com/design-notes-on-the-2023-wikipedia-redesign/",
-          "publishedOn": "2023-03-17T13:07:49.000Z",
-          "wordCount": 207,
-          "title": "Design notes on the 2023 Wikipedia redesign",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67704",
-          "author": "Travis",
-          "description": "Why are some typefaces harder to read than others at the same font-size? Well, it has a lot to do with x-height but of course it’s a bit more complicated than that.",
-          "link": "https://heydesigner.com/the-role-of-x-height-in-typefaces/",
-          "publishedOn": "2023-03-17T13:06:24.000Z",
-          "wordCount": 208,
-          "title": "The role of x-height in typefaces",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67702",
-          "author": "Travis",
-          "description": "How minimum choices enhance users’ peace of mind.",
-          "link": "https://heydesigner.com/minimalism-in-ux-the-blessing-of-no-choices/",
-          "publishedOn": "2023-03-17T13:04:58.000Z",
-          "wordCount": 199,
-          "title": "Minimalism in UX: the blessing of no choices",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67700",
-          "author": "Travis",
-          "description": "Explore the collection of 120+ basic SVG shapes for your upcoming project.",
-          "link": "https://heydesigner.com/shapes/",
-          "publishedOn": "2023-03-17T13:04:13.000Z",
-          "wordCount": 188,
-          "title": "Shapes",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67698",
-          "author": "Travis",
-          "description": "I have a lot of nostalgia for the era of blogging that I grew up with during the first decade or so of the 2000s.",
-          "link": "https://heydesigner.com/how-blogs-shaped-the-web/",
-          "publishedOn": "2023-03-17T13:03:03.000Z",
-          "wordCount": 206,
-          "title": "How blogs shaped the web",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -1982,6 +1953,86 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35595077",
+          "author": "yeesian",
+          "description": "Article URL: https://mareknarozniak.com/2020/04/22/vertex-cover-independent-set-game-level-design/\nComments URL: https://news.ycombinator.com/item?id=35595077\nPoints: 1\n# Comments: 0",
+          "link": "https://mareknarozniak.com/2020/04/22/vertex-cover-independent-set-game-level-design/",
+          "publishedOn": "2023-04-16T23:18:17.000Z",
+          "wordCount": 2303,
+          "title": "Vertex Covers and Independent Sets in game level design (2020)",
+          "imageUrl": "https://mareknarozniak.com/assets/figures/vc_mis_results.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35592657",
+          "author": "boraoztunc",
+          "description": "Article URL: https://www.1984.design/c/discussions/usability-heuristics-for-user-interface-design\nComments URL: https://news.ycombinator.com/item?id=35592657\nPoints: 39\n# Comments: 6",
+          "link": "https://www.1984.design/c/discussions/usability-heuristics-for-user-interface-design",
+          "publishedOn": "2023-04-16T18:11:39.000Z",
+          "wordCount": 1147,
+          "title": "Usability heuristics for user interface design",
+          "imageUrl": "https://d2y5h3osumboay.cloudfront.net/f17yjqikvs7qjw4ty4t4s92vd0ft"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35592501",
+          "author": "smknstd",
+          "description": "Article URL: https://awesomeiconlibraries.netlify.app\nComments URL: https://news.ycombinator.com/item?id=35592501\nPoints: 1\n# Comments: 0",
+          "link": "https://awesomeiconlibraries.netlify.app/",
+          "publishedOn": "2023-04-16T17:55:33.000Z",
+          "wordCount": 59,
+          "title": "A list of reliable and open-source icon sets",
+          "imageUrl": "https://awesomeiconlibraries.netlify.app/card.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35590699",
+          "author": "jmillikin",
+          "description": "Article URL: https://nibblestew.blogspot.com/2023/02/plain-c-api-design-real-world-kobayashi.html\nComments URL: https://news.ycombinator.com/item?id=35590699\nPoints: 99\n# Comments: 48",
+          "link": "https://nibblestew.blogspot.com/2023/02/plain-c-api-design-real-world-kobayashi.html",
+          "publishedOn": "2023-04-16T15:17:15.000Z",
+          "wordCount": 3459,
+          "title": "Plain C API design, the real world Kobayashi Maru test",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35589579",
+          "author": "d-s",
+          "description": "Article URL: https://harrison.totty.dev/p/a-lang-design-analysis-of-holyc\nComments URL: https://news.ycombinator.com/item?id=35589579\nPoints: 68\n# Comments: 8",
+          "link": "https://harrison.totty.dev/p/a-lang-design-analysis-of-holyc",
+          "publishedOn": "2023-04-16T12:48:43.000Z",
+          "wordCount": 2125,
+          "title": "A Language Design Analysis of HolyC (2019)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35589198",
+          "author": "eddieweng",
+          "description": "Article URL: https://reroom.ai\nComments URL: https://news.ycombinator.com/item?id=35589198\nPoints: 2\n# Comments: 0",
+          "link": "https://reroom.ai/",
+          "publishedOn": "2023-04-16T11:54:03.000Z",
+          "wordCount": 122,
+          "title": "Show HN: I made an interior design tool to test styles before hiring designers",
+          "imageUrl": "https://reroom.ai/preview.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35587995",
+          "author": "thunderbong",
+          "description": "Article URL: https://github.com/jonp92/Milliner\nComments URL: https://news.ycombinator.com/item?id=35587995\nPoints: 2\n# Comments: 0",
+          "link": "https://github.com/jonp92/Milliner",
+          "publishedOn": "2023-04-16T07:23:24.000Z",
+          "wordCount": 597,
+          "title": "Milliner: A lightweight Headscale Web UI built using Anvil",
+          "imageUrl": "https://opengraph.githubassets.com/8ec702630106037054fab11445a1b34a25c85ea1e2e8450ec16e775ac5a268c0/jonp92/Milliner"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35586585",
+          "author": "alexzeitler",
+          "description": "Article URL: https://www.youtube.com/watch?v=TlU1opuCXB0\nComments URL: https://news.ycombinator.com/item?id=35586585\nPoints: 19\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=TlU1opuCXB0",
+          "publishedOn": "2023-04-16T02:02:44.000Z",
+          "wordCount": null,
+          "title": "Hopelessness and confidence in distributed systems design (2015) [video]",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35585285",
           "author": "Kortaggio",
@@ -4021,116 +4072,6 @@
           "wordCount": 509,
           "title": "Show HN: Dalai Alpaca – Instant Alpaca web UI and API for windows, Linux and Mac",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35208358",
-          "author": "mikaelaast",
-          "description": "Article URL: https://minimal.gallery/metalmorphism/\nComments URL: https://news.ycombinator.com/item?id=35208358\nPoints: 2\n# Comments: 0",
-          "link": "https://minimal.gallery/metalmorphism/",
-          "publishedOn": "2023-03-18T12:02:19.000Z",
-          "wordCount": 769,
-          "title": "Show HN: Metallic UI component library (Metalmorphism)",
-          "imageUrl": "https://minimal.gallery/wp-content/uploads/2023/02/Screenshot-2023-02-10-at-11.52.18.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35208003",
-          "author": "rJade908",
-          "description": "Article URL: https://www.figma.com/community/file/1218870602283863949/DailyUI-115-UI-Kit\nComments URL: https://news.ycombinator.com/item?id=35208003\nPoints: 2\n# Comments: 1",
-          "link": "https://www.figma.com/community/file/1218870602283863949/DailyUI-115-UI-Kit",
-          "publishedOn": "2023-03-18T11:03:01.000Z",
-          "wordCount": 1743,
-          "title": "DailyUI 115 UI Kit",
-          "imageUrl": "https://s3-alpha.figma.com/hub/file/3188542757/ca21229c-1b60-44a1-b0ee-464ca8bd7825-cover.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35207311",
-          "author": "mcaledonensis",
-          "description": "Article URL: https://mcaledonensis.substack.com/p/a-router-design-in-prompt\nComments URL: https://news.ycombinator.com/item?id=35207311\nPoints: 1\n# Comments: 0",
-          "link": "https://mcaledonensis.substack.com/p/a-router-design-in-prompt",
-          "publishedOn": "2023-03-18T08:29:05.000Z",
-          "wordCount": 1579,
-          "title": "A Router Design in Prompt",
-          "imageUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fmcaledonensis.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1122431081%26version%3D9"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35206734",
-          "author": "osener",
-          "description": "Article URL: https://www.warp.dev/blog/why-is-building-a-ui-in-rust-so-hard\nComments URL: https://news.ycombinator.com/item?id=35206734\nPoints: 104\n# Comments: 116",
-          "link": "https://www.warp.dev/blog/why-is-building-a-ui-in-rust-so-hard",
-          "publishedOn": "2023-03-18T06:40:25.000Z",
-          "wordCount": 3939,
-          "title": "Why is building a UI in Rust so hard?",
-          "imageUrl": "https://assets-global.website-files.com/6221c6f68d6664279c408870/63ec391c7c3c77f701fd4584_why%20is%20building%20a%20UI%20in%20Rust%20so%20hard.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35203849",
-          "author": "lproven",
-          "description": "Article URL: https://www.theregister.com/2023/03/16/the_xerox_alto_50_years/\nComments URL: https://news.ycombinator.com/item?id=35203849\nPoints: 1\n# Comments: 1",
-          "link": "https://www.theregister.com/2023/03/16/the_xerox_alto_50_years/",
-          "publishedOn": "2023-03-17T22:40:20.000Z",
-          "wordCount": 1767,
-          "title": "The Stonehenge of PC design, Xerox' Alto, appeared 50 years ago this month",
-          "imageUrl": "https://regmedia.co.uk/2012/10/10/hc20_08.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35200289",
-          "author": "teleforce",
-          "description": "Article URL: https://www.cambridge.org/core/books/software-receiver-design/E049B2A3C871D866B0AEB9015A2D6EA8\nComments URL: https://news.ycombinator.com/item?id=35200289\nPoints: 3\n# Comments: 0",
-          "link": "https://www.cambridge.org/core/books/software-receiver-design/E049B2A3C871D866B0AEB9015A2D6EA8",
-          "publishedOn": "2023-03-17T17:42:30.000Z",
-          "wordCount": 3421,
-          "title": "Software Receiver Design: Build Digital Communication System in Five Easy Steps",
-          "imageUrl": "https://assets.cambridge.org/97811070/07529/large_cover/9781107007529i.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35199596",
-          "author": "azhenley",
-          "description": "Article URL: https://old.reddit.com/r/ProgrammingLanguages/comments/up206c/stack_machines_for_compilers/\nComments URL: https://news.ycombinator.com/item?id=35199596\nPoints: 2\n# Comments: 0",
-          "link": "https://old.reddit.com/r/ProgrammingLanguages/comments/up206c/stack_machines_for_compilers/",
-          "publishedOn": "2023-03-17T16:50:15.000Z",
-          "wordCount": 8072,
-          "title": "The Design of Stack Machines for Compilers",
-          "imageUrl": "https://www.redditstatic.com/new-icon.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35199372",
-          "author": "darbox34",
-          "description": "Looking for feedback. This is an MVP built on GPT. I'd love to hear people's feedback on the quality of the Jira tickets this tool is creating. \nThe purpose of the tool is to save hours spent on writing Jira tickets and bring clarity to what's supposed to be built by Engineering. \nThis tool works for front end products for now.\nComments URL: https://news.ycombinator.com/item?id=35199372\nPoints: 1\n# Comments: 0",
-          "link": "https://productmonkey.ai/",
-          "publishedOn": "2023-03-17T16:35:46.000Z",
-          "wordCount": 565,
-          "title": "Show HN: Product Monkey AI – Auto-create Jira tickets from product design files",
-          "imageUrl": "https://www.productmonkey.ai/assets/images/meta-image-1200x630-v2.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35197924",
-          "author": "KentBeck",
-          "description": "Article URL: https://tidyfirst.substack.com/p/fool-proof-design\nComments URL: https://news.ycombinator.com/item?id=35197924\nPoints: 1\n# Comments: 0",
-          "link": "https://tidyfirst.substack.com/p/fool-proof-design",
-          "publishedOn": "2023-03-17T14:57:47.000Z",
-          "wordCount": 2644,
-          "title": "Software design also saves money by discouraging errors",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d5bc704-451c-4663-a619-d734053bb09d_1125x718.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35196218",
-          "author": "tambourine_man",
-          "description": "Article URL: https://www.sony.com/en/SonyInfo/design/gallery/\nComments URL: https://news.ycombinator.com/item?id=35196218\nPoints: 1\n# Comments: 0",
-          "link": "https://www.sony.com/en/SonyInfo/design/gallery/",
-          "publishedOn": "2023-03-17T12:31:04.000Z",
-          "wordCount": 4974,
-          "title": "Sony Design Gallery – History of Sony Design",
-          "imageUrl": "https://www.sony.com/en/SonyInfo/design/xml/img/publicity.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35196156",
-          "author": "ammo1662",
-          "description": "Article URL: https://store.steampowered.com/news/app/1366540/view/5311472123811585119\nComments URL: https://news.ycombinator.com/item?id=35196156\nPoints: 1\n# Comments: 1",
-          "link": "https://store.steampowered.com/news/app/1366540/view/5311472123811585119",
-          "publishedOn": "2023-03-17T12:26:07.000Z",
-          "wordCount": 372,
-          "title": "Dyson Sphere Program Dev Log: Combat System Design",
-          "imageUrl": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/38718364/738d244e67423f31b4a3357e0ac5d407171a191e.jpg"
         }
       ]
     },
@@ -4139,6 +4080,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35587628",
+          "author": "kiyanwang",
+          "description": "Article URL: https://www.swarmia.com/blog/developer-productivity-goals-signals-metrics/\nComments URL: https://news.ycombinator.com/item?id=35587628\nPoints: 1\n# Comments: 0",
+          "link": "https://www.swarmia.com/blog/developer-productivity-goals-signals-metrics/",
+          "publishedOn": "2023-04-16T05:53:36.000Z",
+          "wordCount": 3799,
+          "title": "Driving developer productivity improvements using goals, signals, and metrics",
+          "imageUrl": "https://www.swarmia.com/static/developer-productivity-goals-signals-metrics-ed98766893574d0f6c58ae5722c00ef3.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35576527",
           "author": "throwaway689236",
@@ -4648,26 +4599,6 @@
           "wordCount": 818,
           "title": "An RSS Reader Written Entirely by GPT-4",
           "imageUrl": "https://opengraph.githubassets.com/cf819b7cec801b2d0e78f75baade943381a2d23857b6454ea37e7641a0d0afaf/jasonborn0/GPT4-RSSreader"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35207734",
-          "author": "OllieB",
-          "description": "Article URL: https://marcusaurelius.ai\nComments URL: https://news.ycombinator.com/item?id=35207734\nPoints: 1\n# Comments: 0",
-          "link": "https://marcusaurelius.ai/",
-          "publishedOn": "2023-03-18T10:04:00.000Z",
-          "wordCount": 8442,
-          "title": "Stoic AI – Marcus Aurelius Stoic Mentor",
-          "imageUrl": "https://marcusaurelius.ai/assets/images/share.jpg?v=05d7809c"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35206824",
-          "author": "textread",
-          "description": "If available, please also include an RSS link to your own blog.\nI have decided to seriously start using RSS feeds. The signal v/s noise\nratio of the internet is no longer acceptable for me.\nI hope to prepare a default list, as a starting point; based on your recommendations below.\nComments URL: https://news.ycombinator.com/item?id=35206824\nPoints: 3\n# Comments: 4",
-          "link": "https://news.ycombinator.com/item?id=35206824",
-          "publishedOn": "2023-03-18T06:58:25.000Z",
-          "wordCount": 301,
-          "title": "Ask HN: Please please share your personally curated long RSS subscriptions list?",
-          "imageUrl": null
         }
       ]
     },
@@ -5435,26 +5366,6 @@
           "wordCount": 6689,
           "title": "Building a Simple Web App with OpenAI’s ChatGPT API, Next.js and Tailwind CSS",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35207551",
-          "author": "Borkdude",
-          "description": "Article URL: https://babashka.org/scittle/\nComments URL: https://news.ycombinator.com/item?id=35207551\nPoints: 3\n# Comments: 1",
-          "link": "https://babashka.org/scittle/",
-          "publishedOn": "2023-03-18T09:26:49.000Z",
-          "wordCount": 345,
-          "title": "Scittle: Run Clojure in HTML script tags",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35203522",
-          "author": "firstSpeaker",
-          "description": "Article URL: https://seekingalpha.com/article/4588321-google-global-trends-provide-massive-tailwind\nComments URL: https://news.ycombinator.com/item?id=35203522\nPoints: 1\n# Comments: 1",
-          "link": "https://seekingalpha.com/article/4588321-google-global-trends-provide-massive-tailwind",
-          "publishedOn": "2023-03-17T22:05:18.000Z",
-          "wordCount": 3919,
-          "title": "Google: Global Trends Provide a Tailwind",
-          "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1364485108/image_1364485108.jpg?io=getty-c-w1536"
         }
       ]
     },
@@ -5627,6 +5538,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=44263",
+          "author": "Seth Godin",
+          "description": "Successful treaties calm things down and let us get back to what’s really important. Sometimes, the fight becomes the entire point. Not surprisingly, when we’re busy fighting a war in our head about a previous injustice or slight, we can effectively consummate a treaty without the other person even knowing about it.",
+          "link": "https://seths.blog/2023/04/a-treaty/",
+          "publishedOn": "2023-04-16T08:24:00.000Z",
+          "wordCount": 876,
+          "title": "A treaty",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=45645",
           "author": "Seth Godin",
@@ -5916,16 +5837,6 @@
           "wordCount": 1113,
           "title": "Shields up",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=45473",
-          "author": "Seth Godin",
-          "description": "It keeps getting shorter and shorter. This video couldn’t have been made, at any price, 18 months ago. 18 weeks ago, it would have required a thousand hours of work. Now, here it is. This impossible is going to happen faster and faster and faster.",
-          "link": "https://seths.blog/2023/03/the-gap-between-impossible-and-normal/",
-          "publishedOn": "2023-03-18T08:42:00.000Z",
-          "wordCount": 890,
-          "title": "The gap between impossible and normal",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
         }
       ]
     },
