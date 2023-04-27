@@ -348,6 +348,26 @@
       "siteUrl": "https://dailydevlinks.com/",
       "articles": [
         {
+          "id": "https://dailydevlinks.com/?p=12101",
+          "author": "Adam Marsden",
+          "description": "UX",
+          "link": "https://dailydevlinks.com/could-ux-be-the-key-to-unlocking-web3-mass-adoption/",
+          "publishedOn": "2023-04-26T11:33:00.000Z",
+          "wordCount": 3102,
+          "title": "Could UX Be The Key To Unlocking Web3 Mass Adoption?",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=12104",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://dailydevlinks.com/a-simpler-page-for-stories-on-medium/",
+          "publishedOn": "2023-04-26T11:30:00.000Z",
+          "wordCount": 3094,
+          "title": "A simpler page for stories on Medium",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
+        {
           "id": "https://dailydevlinks.com/?p=12089",
           "author": "Adam Marsden",
           "description": "UX",
@@ -836,36 +856,6 @@
           "wordCount": 3040,
           "title": "CSS-only Widgets Are Inaccessible",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11921",
-          "author": "Adam Marsden",
-          "description": "Design",
-          "link": "https://dailydevlinks.com/the-best-handoff-is-no-handoff/",
-          "publishedOn": "2023-03-28T11:33:00.000Z",
-          "wordCount": 2861,
-          "title": "The Best Handoff Is No Handoff",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11924",
-          "author": "Adam Marsden",
-          "description": "Design",
-          "link": "https://dailydevlinks.com/your-personal-design-language/",
-          "publishedOn": "2023-03-28T11:30:00.000Z",
-          "wordCount": 2863,
-          "title": "Your personal design language",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=11927",
-          "author": "Adam Marsden",
-          "description": "Design",
-          "link": "https://dailydevlinks.com/wysiwygpt/",
-          "publishedOn": "2023-03-28T11:30:00.000Z",
-          "wordCount": 2848,
-          "title": "WYSIWYGPT",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png"
         }
       ]
     },
@@ -970,6 +960,26 @@
       "feedUrl": "https://developer.chrome.com/feeds/blog.xml",
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
+        {
+          "id": "https://developer.chrome.com/en/blog/new-in-webgpu-113/",
+          "author": null,
+          "description": "After years of development, the Chrome team announces that the first release of WebGPU is now available by default in Chrome on ChromeOS, macOS, and Windows. Check out Chrome ships WebGPU to learn more.\nWe've also started adding comprehensive documentation for WebGPU on MDN.\nAnd there's more.\n# Use WebCodecs VideoFrame source in importExternalTexture()\nWebGPU exposes an API to create opaque \"external texture\" objects from HTMLVideoElement through importExternalTexture(). You can use these objects to sample the video frames efficiently, potentially in a 0-copy way directly from the source YUV data.\nHowever, the initial WebGPU specification does not allow creating GPUExternalTexture objects from WebCodecs VideoFrame objects. This capability is important for advanced video processing apps tha…",
+          "link": "https://developer.chrome.com/en/blog/new-in-webgpu-113/",
+          "publishedOn": "2023-04-26T00:00:00.000Z",
+          "wordCount": 810,
+          "title": "What's New in WebGPU (Chrome&nbsp;113)",
+          "imageUrl": "https://wd.imgix.net/image/vvhSqZboQoZZN9wBvoXq72wzGAf1/CSlUvgWseW4EHsIDJhTD.png?auto=format&w=1521"
+        },
+        {
+          "id": "https://developer.chrome.com/en/blog/css-update-media-query/",
+          "author": null,
+          "description": "CSS media queries are a powerful\ntool that allow you to control the appearance of your website or web app based\non the device it is being viewed on. With media queries, you can create\ndifferent layouts for different screen sizes, orientations, and other factors.\nThe\nupdate\nmedia query gives you a way to adapt the UI to the refresh rate of a device. The\nfeature can report a value of fast, slow, or none which relates to the\ncapabilities of different devices..\nBrowser support\n  \nChrome 113, Supported\n    \n    \n      113\n    \n    \n\n    \n      Firefox 102, Supported\n    \n    \n      102\n    \n    \n\n    \n      Edge 113, Supported\n    \n    \n      113\n    \n    \n\n    \n      Safari, Not supported\n    \n    \n\n\n\n\n  \nSource\n\n# Devices and refresh rate\nMost of the devices you design for are likely to have a fast refresh rate. This\nincludes desktops and most mobile devices.\nYou can query the device, see if it has a fast refresh rate for rendering\ncontent, and style accordingly while still delivering a single stylesheet.\n@media (update: fast) {\n  /* computer screens, totally cool to animate */\n}\neReaders, and devices such as low powered payment systems, may have a slow\nrefresh rate. Knowing that the device can’t handle animation or frequent\nupdates, means that you can save battery usage or faulty view updates.\n@media (update: slow) {\n  /* e-book readers or severely underpowered devices */\n}\nLastly, there are scenarios like printed paper or e-ink displays that may only\noffer a single render pass. Output like this cannot refresh at all, and is\nreferred to as none. It can be queried like this:\n@media (update: none) {\n  /* one time render like printed paper */\n}\nIn the following CodePen, see a progressively enhanced hover animation using\nthis new update media query:\nSee the Pen Pen PoyPMBw by web-dot-dev on Codepen\n# More resources\nCSS Media Queries Level 4\nUpdate Media Query on MDN",
+          "link": "https://developer.chrome.com/en/blog/css-update-media-query/",
+          "publishedOn": "2023-04-26T00:00:00.000Z",
+          "wordCount": 2234,
+          "title": "CSS update Media Query",
+          "imageUrl": "https://wd.imgix.net/image/fuiz5I8Iv7bV8YbrK2PKiY3Vask2/iGPiWTtoy7iF932Xday1.png?auto=format&w=1521"
+        },
         {
           "id": "https://developer.chrome.com/en/blog/richer-install-ui-desktop/",
           "author": null,
@@ -1156,16 +1166,6 @@
           "wordCount": 2527,
           "title": "From Graphic Design to Product Design: Meet Dribbble Grad, Timmera Lindsay",
           "imageUrl": "https://cdn.dribbble.com/uploads/45884/original/d7d7c4629f2eb76426ff77e84cd93664.jpg?1680626068"
-        },
-        {
-          "id": "https://dribbble.com/stories/2023/03/28/why-web-designers-should-use-a-proxy",
-          "author": null,
-          "description": "As a web designer, accessing online resources and tools is an essential part of your work. However, there are times when certain websites or services may be blocked or restricted, preventing you from accessing the content you need for research or inspiration. Sound familiar?\nOnline security and privacy are other concerns for professionals working in this field. That’s where proxies come in handy. These tools can provide web designers with greater flexibility, security, and performance when working online.\nBut before we explain how you can use them to make your projects more efficient and effective, let’s explore what proxy servers are and how they work.\nThanks to our friends at IPRoyal for sponsoring this blog post!\nWhat is a proxy server?\nA proxy server is an intermediary between a client…",
-          "link": "https://dribbble.com/stories/2023/03/28/why-web-designers-should-use-a-proxy",
-          "publishedOn": "2023-03-28T05:00:00.000Z",
-          "wordCount": 3132,
-          "title": "5 reasons why web designers should use a proxy",
-          "imageUrl": "https://cdn.dribbble.com/uploads/45751/original/9b7560a1c57942f03c659ba589f63efb.png?1679420280"
         }
       ]
     },
@@ -1197,6 +1197,46 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=67996",
+          "author": "Travis",
+          "description": "How can we redefine our expectations to match our purpose?",
+          "link": "https://heydesigner.com/accepting-design/",
+          "publishedOn": "2023-04-26T07:18:24.000Z",
+          "wordCount": 191,
+          "title": "Accepting design",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67994",
+          "author": "Travis",
+          "description": "In February 2023, together with @glennui and @almonk we started building a new website for NextJS. On the surface, the design made by Glenn seemed really simple, but with plenty of opportunity for delight and subtle animations.",
+          "link": "https://heydesigner.com/crafting-the-next-js-website/",
+          "publishedOn": "2023-04-26T07:17:42.000Z",
+          "wordCount": 205,
+          "title": "Crafting the NextJS website",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67992",
+          "author": "Travis",
+          "description": "We used React Three Fiber (R3F) to build an eye-catching 3D illustration, inspired by Storybook’s Tetris blocks branding. In this article, we’ll dive into the nitty-gritty of shipping a 3D scene.",
+          "link": "https://heydesigner.com/how-we-built-the-storybook-day-3d-animation/",
+          "publishedOn": "2023-04-26T07:13:39.000Z",
+          "wordCount": 212,
+          "title": "How we built the Storybook Day 3D animation",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=67990",
+          "author": "Travis",
+          "description": "Most companies use A/B tests to help them make product decision decisions. This three minute clip from my Mind the Gap presentation looks at why the cumulative results of these kinds of tests often don’t add up to more significant impact.",
+          "link": "https://heydesigner.com/why-dont-a-b-tests-add-up/",
+          "publishedOn": "2023-04-26T07:12:23.000Z",
+          "wordCount": 209,
+          "title": "Why don’t A/B tests add up?",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=67986",
           "author": "Travis",
@@ -1946,56 +1986,6 @@
           "wordCount": 194,
           "title": "The search element",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67778",
-          "author": "Travis",
-          "description": "The visual design of an application interface is often “layered”. For example, the container layer sits on the background layer.",
-          "link": "https://heydesigner.com/application-interface-layers/",
-          "publishedOn": "2023-03-28T05:22:04.000Z",
-          "wordCount": 201,
-          "title": "Application interface layers",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67776",
-          "author": "Travis",
-          "description": "Brainstorming ideas and solutions together is an extremely popular activity because it feels collaborative and creativity-enhancing even when it’s really not. Research has shown group brainstorming to be a waste of time.",
-          "link": "https://heydesigner.com/brainstorm-questions-not-ideas/",
-          "publishedOn": "2023-03-28T05:20:55.000Z",
-          "wordCount": 205,
-          "title": "Brainstorm questions not ideas",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67774",
-          "author": "Travis",
-          "description": "The intersection of culture, policy, and enforcement.",
-          "link": "https://heydesigner.com/creating-a-positive-workplace-community/",
-          "publishedOn": "2023-03-28T05:19:37.000Z",
-          "wordCount": 191,
-          "title": "Creating a positive workplace community",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67772",
-          "author": "Travis",
-          "description": "Using an outline as a step toward writing an essay is like prototyping as a precursor to a high-fidelity design.",
-          "link": "https://heydesigner.com/outlines-are-information-architecture/",
-          "publishedOn": "2023-03-28T05:18:39.000Z",
-          "wordCount": 203,
-          "title": "Outlines are information architecture",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67770",
-          "author": "Travis",
-          "description": "The separation of concerns we aim for in design systems has an unwanted byproduct: bloated HTML in the space between components.",
-          "link": "https://heydesigner.com/fighting-inter-component-html-bloat/",
-          "publishedOn": "2023-03-28T05:16:13.000Z",
-          "wordCount": 204,
-          "title": "Fighting inter-component HTML bloat",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2004,6 +1994,76 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35715947",
+          "author": "ko27",
+          "description": "Article URL: https://old.reddit.com/r/reactjs/comments/12yxva6/whats_you_opinion_on_the_new_reddit_design/\nComments URL: https://news.ycombinator.com/item?id=35715947\nPoints: 5\n# Comments: 2",
+          "link": "https://old.reddit.com/r/reactjs/comments/12yxva6/whats_you_opinion_on_the_new_reddit_design/",
+          "publishedOn": "2023-04-26T16:04:45.000Z",
+          "wordCount": 7407,
+          "title": "Reddit design ditching React in favor of Lit for mostly performance reasons",
+          "imageUrl": "https://external-preview.redd.it/BMNm9Kt7yLqyKdCSpAmyNUf7Z8l9XhwSBAFvKtoqP-Y.png?width=866&height=453.403141361&auto=webp&crop=866:453.403141361,smart&v=enabled&s=f9c951b9535a2f9d1343a68cd4375440fa502c75"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35715608",
+          "author": "swyx",
+          "description": "Article URL: https://www.latent.space/p/build-ai-ux\nComments URL: https://news.ycombinator.com/item?id=35715608\nPoints: 1\n# Comments: 1",
+          "link": "https://www.latent.space/p/build-ai-ux",
+          "publishedOn": "2023-04-26T15:46:15.000Z",
+          "wordCount": 3045,
+          "title": "It's Time to Build AI – UX",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad174617-2b6f-43ce-910d-81713d1ab94f_2658x1984.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35714731",
+          "author": "twald",
+          "description": "Hey! Alexis and Tobi here. We built a native macOS client for ChatGPT API that is free to use (macOS Ventura).\nhttps://www.jamgpt.app/\nWe built and fine-tuned it to scratch our own specific text-processing itches, so we just wanted to share this with the community.\nIf you work with a lot of text or code like we do, check it out.\nIts core features include:\n- Instantly talk to ChatGPT from anywhere on your Mac by pressing a keyboard shortcut.\n- Avoid typing out repetitive prompts by saving prompts and accessing them quickly.\n- Just download and start typing as you would with ChatGPT. No need to learn anything new.\n- Comes with both dark and light mode options\nBatteries included: For the first 100 prompts, you can use our API key to try it out right away. After that, you can add your own OpenAI API key. The app is completely free to use and will remain so.\nWe may add additional pro features in the future, but we have no commercial intentions at the moment. Whatever you see now will remain free.\nThis is our first version, so things aren't perfect yet, and some features might be missing.\nGive it a spin and let’s talk! We’d love to hear your feedback.\nCheers! Tobi & Alexis\nComments URL: https://news.ycombinator.com/item?id=35714731\nPoints: 7\n# Comments: 8",
+          "link": "https://news.ycombinator.com/item?id=35714731",
+          "publishedOn": "2023-04-26T15:00:48.000Z",
+          "wordCount": 637,
+          "title": "Show HN: A bespoke macOS UI for ChatGPT",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35712288",
+          "author": "donnie12345",
+          "description": "It is said that it is better to find finding defects earlier in the process.\nWhat is the most efficient way to do it?\nEliminate potential bugs in the program earlier in the process. i.e to avoid programming by coincidence\nAnyone want to chip in ?\nComments URL: https://news.ycombinator.com/item?id=35712288\nPoints: 5\n# Comments: 9",
+          "link": "https://news.ycombinator.com/item?id=35712288",
+          "publishedOn": "2023-04-26T11:58:28.000Z",
+          "wordCount": 834,
+          "title": "As a software developer,how do you test your design?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35711804",
+          "author": "makaimc",
+          "description": "Article URL: https://eugeneyan.com/writing/more-patterns/\nComments URL: https://news.ycombinator.com/item?id=35711804\nPoints: 3\n# Comments: 0",
+          "link": "https://eugeneyan.com/writing/more-patterns/",
+          "publishedOn": "2023-04-26T10:55:47.000Z",
+          "wordCount": 6097,
+          "title": "More design patterns for machine learning systems",
+          "imageUrl": "https://eugeneyan.com/assets/og_image/design-patterns-2.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35710998",
+          "author": "awareness_rofl",
+          "description": "Article URL: https://maximilian-rehn.medium.com/three-ways-to-design-better-social-media-feeds-for-humanity-6fc7d0e34241\nComments URL: https://news.ycombinator.com/item?id=35710998\nPoints: 2\n# Comments: 2",
+          "link": "https://maximilian-rehn.medium.com/three-ways-to-design-better-social-media-feeds-for-humanity-6fc7d0e34241",
+          "publishedOn": "2023-04-26T08:46:16.000Z",
+          "wordCount": 2295,
+          "title": "Three ways to design better social media feeds for Humanity",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*GkB0Tpp20U7kJA9AkMb3NQ.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35709388",
+          "author": "jbrake",
+          "description": "Article URL: https://joshbrake.substack.com/p/use-edgecraft-to-enhance-your-creativity\nComments URL: https://news.ycombinator.com/item?id=35709388\nPoints: 2\n# Comments: 0",
+          "link": "https://joshbrake.substack.com/p/use-edgecraft-to-enhance-your-creativity",
+          "publishedOn": "2023-04-26T03:25:27.000Z",
+          "wordCount": 4832,
+          "title": "Edgecraft: What I Learned about Innovation from Fountain Magicians @ WET Design",
+          "imageUrl": "https://images.unsplash.com/photo-1621126551993-b22c2a193512?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHwyNHx8YmVsbGFnaW8lMjBmb3VudGFpbnxlbnwwfHx8fDE2ODIzOTMyNjI&ixlib=rb-4.0.3&q=80&w=1080"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35707013",
           "author": "hot_gril",
@@ -4183,106 +4243,6 @@
           "wordCount": 11266,
           "title": "The new Microsoft Teams is here with big performance improvements and UI changes",
           "imageUrl": "https://cdn.vox-cdn.com/thumbor/d9F8pP1fKEL39cDs2SeDFybWesU=/0x0:1920x1080/1200x628/filters:focal(960x540:961x541)/cdn.vox-cdn.com/uploads/chorus_asset/file/24539335/blog_header_image.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35339357",
-          "author": "jaimefjorge",
-          "description": "Article URL: https://github.com/vuestorefront/storefront-ui\nComments URL: https://news.ycombinator.com/item?id=35339357\nPoints: 28\n# Comments: 12",
-          "link": "https://github.com/vuestorefront/storefront-ui",
-          "publishedOn": "2023-03-28T11:59:41.000Z",
-          "wordCount": 1276,
-          "title": "Storefront UI 2: Tailwind Based, ECommerce Centric, UI Library for Vue and React",
-          "imageUrl": "https://opengraph.githubassets.com/4d10b9546c6f3f4d1140a3b202988c7e9bdac4ed149794809eea371640803420/vuestorefront/storefront-ui"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35338862",
-          "author": "codingclaws",
-          "description": "Article URL: https://www.peachesnstink.com/p/XsFpmd5jRab2ciPv3Jyggn\nComments URL: https://news.ycombinator.com/item?id=35338862\nPoints: 1\n# Comments: 0",
-          "link": "https://www.peachesnstink.com/p/XsFpmd5jRab2ciPv3Jyggn",
-          "publishedOn": "2023-03-28T11:18:50.000Z",
-          "wordCount": 176,
-          "title": "Developers Are Your Best UI/UX People",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35337209",
-          "author": "marban",
-          "description": "Article URL: https://www.jovo.design/writing/ml-in-design-systems\nComments URL: https://news.ycombinator.com/item?id=35337209\nPoints: 1\n# Comments: 0",
-          "link": "https://www.jovo.design/writing/ml-in-design-systems",
-          "publishedOn": "2023-03-28T07:48:35.000Z",
-          "wordCount": 2586,
-          "title": "The machines won’t save your design system",
-          "imageUrl": "http://static1.squarespace.com/static/635b18a10afbb03499f372a5/t/641d1146ad39274a5fbf7130/1679626566751/robot.jpg?format=1500w"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35337036",
-          "author": "zimnicki_ux",
-          "description": "Article URL: https://bootcamp.uxdesign.cc/5-important-lessons-ive-learned-by-using-a-ux-process-to-redesign-my-portfolio-f4c0f9b4e489?gi=97c57ae683eb\nComments URL: https://news.ycombinator.com/item?id=35337036\nPoints: 3\n# Comments: 4",
-          "link": "https://bootcamp.uxdesign.cc/5-important-lessons-ive-learned-by-using-a-ux-process-to-redesign-my-portfolio-f4c0f9b4e489?gi=97c57ae683eb",
-          "publishedOn": "2023-03-28T07:20:37.000Z",
-          "wordCount": 3218,
-          "title": "Important lessons I’ve learned by using a UX process to redesign my portfolio",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*byj48MwXa3DymLab0lwUcA.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35333430",
-          "author": "rbanffy",
-          "description": "Article URL: https://dl.acm.org/doi/10.1145/3569052.3578917\nComments URL: https://news.ycombinator.com/item?id=35333430\nPoints: 2\n# Comments: 0",
-          "link": "https://dl.acm.org/doi/10.1145/3569052.3578917",
-          "publishedOn": "2023-03-27T22:07:49.000Z",
-          "wordCount": 2342,
-          "title": "Automated Design of Chiplets",
-          "imageUrl": "https://dl.acm.org/cms/asset/ab574b55-9725-48b8-a44d-6b10b63b73bb/3569052.3578917.key.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35330302",
-          "author": "l5ymep",
-          "description": "Article URL: https://dobrinin.dev/posts/gh-design/\nComments URL: https://news.ycombinator.com/item?id=35330302\nPoints: 2\n# Comments: 0",
-          "link": "https://dobrinin.dev/posts/gh-design/",
-          "publishedOn": "2023-03-27T18:23:29.000Z",
-          "wordCount": 1617,
-          "title": "GitHub Needs Better Design",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35328919",
-          "author": "zuhayeer",
-          "description": "Article URL: https://arxiv.org/abs/2303.07519\nComments URL: https://news.ycombinator.com/item?id=35328919\nPoints: 1\n# Comments: 0",
-          "link": "https://arxiv.org/abs/2303.07519",
-          "publishedOn": "2023-03-27T16:43:33.000Z",
-          "wordCount": 666,
-          "title": "Architext: Language-Driven Generative Architecture Design",
-          "imageUrl": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35328700",
-          "author": "soraminazuki",
-          "description": "Article URL: https://github.com/tweag/nickel/blob/master/RATIONALE.md\nComments URL: https://news.ycombinator.com/item?id=35328700\nPoints: 1\n# Comments: 0",
-          "link": "https://github.com/tweag/nickel/blob/master/RATIONALE.md",
-          "publishedOn": "2023-03-27T16:27:26.000Z",
-          "wordCount": 2904,
-          "title": "Design rationale for the Nickel configuration language",
-          "imageUrl": "https://opengraph.githubassets.com/4a610c67ac74fc29c24f7ebb33ff3f9e912b1e0c78ae634bd32b791fe384162b/tweag/nickel"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35327522",
-          "author": "andsoitis",
-          "description": "Article URL: http://ccs.mit.edu/dell/wisr8.html\nComments URL: https://news.ycombinator.com/item?id=35327522\nPoints: 1\n# Comments: 0",
-          "link": "http://ccs.mit.edu/dell/wisr8.html",
-          "publishedOn": "2023-03-27T14:57:48.000Z",
-          "wordCount": 2598,
-          "title": "Software Component Interconnection Should Be Treated as Distinct Design Problem",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35326197",
-          "author": "Odb7152",
-          "description": "Article URL: https://medium.com/@ivansk/product-design-with-modern-ai-broader-research-higher-success-rate-a-more-human-centric-process-9018665944a2\nComments URL: https://news.ycombinator.com/item?id=35326197\nPoints: 2\n# Comments: 0",
-          "link": "https://medium.com/@ivansk/product-design-with-modern-ai-broader-research-higher-success-rate-a-more-human-centric-process-9018665944a2",
-          "publishedOn": "2023-03-27T13:06:39.000Z",
-          "wordCount": 4059,
-          "title": "Product design w/ AI:more opportunity, less drudgery, a more human solution",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*ZzQuFAmd139nxCzfkq4VHg.png"
         }
       ]
     },
@@ -4291,6 +4251,26 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35717576",
+          "author": "dpbig",
+          "description": "Article URL: https://www.trybsync.com/\nComments URL: https://news.ycombinator.com/item?id=35717576\nPoints: 3\n# Comments: 0",
+          "link": "https://www.trybsync.com/",
+          "publishedOn": "2023-04-26T17:53:59.000Z",
+          "wordCount": 402,
+          "title": "Show HN: Trybsync – Reddit, but as an RSS Aggregator",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35716873",
+          "author": "user7878",
+          "description": "Unproductive meetings cost companies $37 billion yearly! Meetings should aim to discuss problems and develop new ideas, but often fail to do so. We have the way to make meetings productive to save both time and money.\nWith Scrumrobo, you'll be able to streamline your daily stand-up meetings allowing you to focus on what really matters - delivering high-quality work. Our platform also offers real-time tracking of meeting status, so you'll always know where you stand and can make adjustments as needed. Scrumrobo can single source of truth for all standup report know who achieves goal, who have the blockers and track timesheet right from Microsoft Teams without leaving the app.\nComments URL: https://news.ycombinator.com/item?id=35716873\nPoints: 1\n# Comments: 0",
+          "link": "https://www.scrumrobo.com/",
+          "publishedOn": "2023-04-26T17:03:39.000Z",
+          "wordCount": 1109,
+          "title": "Show HN: Boost Productivity with Scrumrobo – Meeting automation tool",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35701342",
           "author": "imaginarycoder",
@@ -4840,36 +4820,6 @@
           "wordCount": 696,
           "title": "Ask HN: What are some tools/techniques that greatly increased your productivity?",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35337391",
-          "author": "tapanjk",
-          "description": "Article URL: https://effectivesoftwaredesign.com/2023/03/27/excellence-is-a-habit-happiness-is-a-journey/\nComments URL: https://news.ycombinator.com/item?id=35337391\nPoints: 2\n# Comments: 0",
-          "link": "https://effectivesoftwaredesign.com/2023/03/27/excellence-is-a-habit-happiness-is-a-journey/",
-          "publishedOn": "2023-03-28T08:18:17.000Z",
-          "wordCount": 3635,
-          "title": "Excellence is a Habit, Happiness is a Journey",
-          "imageUrl": "https://effectivesoftwaredesign.files.wordpress.com/2023/03/excellence.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35331384",
-          "author": "rntn",
-          "description": "Article URL: https://link.springer.com/article/10.1007/s10734-023-01022-y\nComments URL: https://news.ycombinator.com/item?id=35331384\nPoints: 1\n# Comments: 0",
-          "link": "https://link.springer.com/article/10.1007/s10734-023-01022-y",
-          "publishedOn": "2023-03-27T19:45:10.000Z",
-          "wordCount": 14233,
-          "title": "Full professors’ research productivity from a longitudinal perspective",
-          "imageUrl": "https://media.springernature.com/w200/springer-static/cover/journal/10734.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35327345",
-          "author": "vanyle",
-          "description": "Article URL: https://www.bam.tech/article/how-i-made-open-source-a-habit-in-6-steps\nComments URL: https://news.ycombinator.com/item?id=35327345\nPoints: 1\n# Comments: 0",
-          "link": "https://www.bam.tech/article/how-i-made-open-source-a-habit-in-6-steps",
-          "publishedOn": "2023-03-27T14:46:09.000Z",
-          "wordCount": 2303,
-          "title": "How I made open-source a habit in 6 steps",
-          "imageUrl": "https://uploads-ssl.webflow.com/62c6fbddb12bb54622241c3d/640efb9744d82e8830c5215b_BAM-TECH-21.jpg"
         }
       ]
     },
@@ -4878,6 +4828,26 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35712702",
+          "author": "salzig",
+          "description": "Hello HackerNews. \nSome time ago someone shared a blog article where someone described how they use long lived http connection to update a JPEG by sending multiple (delayed) responses in a Webinterface of some form of Network attached Webcam.\nDoes someone remember the link?\nComments URL: https://news.ycombinator.com/item?id=35712702\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=35712702",
+          "publishedOn": "2023-04-26T12:37:54.000Z",
+          "wordCount": 126,
+          "title": "Ask HN: Article about Webcam streaming jpg to update HTML Page",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35708613",
+          "author": "codazoda",
+          "description": "Today I fixed a couple little bugs and released a new version of my minimalist CSS framework. I built this to scratch my own itch and I've been using it for a few years as the starting point for most of my own websites.\nI noticed I hadn't shared this with HN for about 18 months (5 or 6 minor version changes) so I thought it might be okay to do that now.\nEdit: Err, I missed a post from 7 months ago.\nPrevious Posts:\nhttps://news.ycombinator.com/item?id=32990838\n(7 months ago)\nhttps://news.ycombinator.com/item?id=24594381 (Sept 25, 2021)\nhttps://news.ycombinator.com/item?id=26308052 (March 1, 2021)\nhttps://news.ycombinator.com/item?id=25660317 (January 20, 2021)\nhttps://news.ycombinator.com/item?id=23221957 (May 28, 2020)\nComments URL: https://news.ycombinator.com/item?id=35708613\nPoints: 201\n# Comments: 77",
+          "link": "https://neat.joeldare.com/",
+          "publishedOn": "2023-04-26T00:56:33.000Z",
+          "wordCount": 873,
+          "title": "Show HN: Neat – Minimalist CSS Framework",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35705014",
           "author": "raunometsa",
@@ -5627,56 +5597,6 @@
           "wordCount": 879,
           "title": "Show HN: Chrome extension to execute ChatGPT output inline (HTML/JS –> iframe)",
           "imageUrl": "https://opengraph.githubassets.com/b9fed1767da1d776d83f6eb90b2d51638321bdb8847b6b2db795161fd7ac6156/matthewdowney/rendergpt"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35339357",
-          "author": "jaimefjorge",
-          "description": "Article URL: https://github.com/vuestorefront/storefront-ui\nComments URL: https://news.ycombinator.com/item?id=35339357\nPoints: 28\n# Comments: 12",
-          "link": "https://github.com/vuestorefront/storefront-ui",
-          "publishedOn": "2023-03-28T11:59:41.000Z",
-          "wordCount": 1276,
-          "title": "Storefront UI 2: Tailwind Based, ECommerce Centric, UI Library for Vue and React",
-          "imageUrl": "https://opengraph.githubassets.com/4d10b9546c6f3f4d1140a3b202988c7e9bdac4ed149794809eea371640803420/vuestorefront/storefront-ui"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35339230",
-          "author": "hackmylife",
-          "description": "Article URL: https://evrone.com/hakon-wium-lie-interview\nComments URL: https://news.ycombinator.com/item?id=35339230\nPoints: 16\n# Comments: 1",
-          "link": "https://evrone.com/hakon-wium-lie-interview",
-          "publishedOn": "2023-03-28T11:49:22.000Z",
-          "wordCount": 3344,
-          "title": "CSS Creator Håkon Wium Lie Interview",
-          "imageUrl": "https://evrone.com/sites/default/files/n-fields/cases/hakon.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35338587",
-          "author": "jack_pp",
-          "description": "Article URL: https://making.close.com/posts/rendering-untrusted-html-email-safely\nComments URL: https://news.ycombinator.com/item?id=35338587\nPoints: 1\n# Comments: 0",
-          "link": "https://making.close.com/posts/rendering-untrusted-html-email-safely",
-          "publishedOn": "2023-03-28T10:45:09.000Z",
-          "wordCount": 2253,
-          "title": "Rendering untrusted HTML email, safely",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35336402",
-          "author": "itsuka",
-          "description": "Article URL: https://web.dev/css-trig-functions/\nComments URL: https://news.ycombinator.com/item?id=35336402\nPoints: 112\n# Comments: 46",
-          "link": "https://web.dev/css-trig-functions/",
-          "publishedOn": "2023-03-28T05:43:08.000Z",
-          "wordCount": 1061,
-          "title": "Trigonometric Functions in CSS",
-          "imageUrl": "https://web-dev.imgix.net/image/AeNB0cHNDkYPUYzDuv8gInYA9rY2/dG0sJst2uPCE6Z1g4AZm.jpg?auto=format&fit=max&w=1200&fm=auto"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35326681",
-          "author": "MostlyEmre",
-          "description": "Article URL: https://emre.ca/devlog/120-bytes-of-css/\nComments URL: https://news.ycombinator.com/item?id=35326681\nPoints: 1\n# Comments: 0",
-          "link": "https://emre.ca/devlog/120-bytes-of-css/",
-          "publishedOn": "2023-03-27T13:52:41.000Z",
-          "wordCount": 1724,
-          "title": "120-Byte Responsive CSS for Auto-Adapting Light/Dark Mode",
-          "imageUrl": "https://emre.ca/thumbnails/120-bytes-of-css.png"
         }
       ]
     },
@@ -5849,6 +5769,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=42391",
+          "author": "Seth Godin",
+          "description": "It can be difficult. Explaining atoms or molecules, or decision making, or what you do at your job… The reason that it’s difficult is that in order to explain something, we need to really understand it first. Not simply be able to do the task or ace the test. But understand. And the reason we […]",
+          "link": "https://seths.blog/2023/04/explaining-it-to-a-kid/",
+          "publishedOn": "2023-04-26T08:02:00.000Z",
+          "wordCount": 927,
+          "title": "Explaining it to a kid",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=44328",
           "author": "Seth Godin",
@@ -6138,16 +6068,6 @@
           "wordCount": 933,
           "title": "Opening the pod bay door",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=45523",
-          "author": "Seth Godin",
-          "description": "School sports can have some valuable outputs: And yet, many schools act as if all they have is a trophy shortage. They bench kids who might not (yet) have the physical attributes necessary to win, or they build huge stadiums, go on long road trips, berate students that make an error or simply act as […]",
-          "link": "https://seths.blog/2023/03/rethinking-the-sports-industrial-complex/",
-          "publishedOn": "2023-03-28T08:25:00.000Z",
-          "wordCount": 1052,
-          "title": "Rethinking the Sports-Industrial Complex",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
         }
       ]
     },
@@ -6156,6 +6076,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "BiNQTDLeBesnQziAu",
+          "author": "@medium",
+          "description": "We’ve heard your feedback: A streamlined, easier-to-read page, plus more image options.",
+          "link": "https://blog.medium.com/a-simpler-page-for-stories-on-medium-766eb75c6bd0",
+          "publishedOn": "2023-04-26T05:36:17.000Z",
+          "wordCount": 2284,
+          "title": "A simpler page for stories on Medium",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*V7CDmi4_82KNKXlLVDTbaA.png"
+        },
+        {
+          "id": "CoFSab4yYmmYcixHS",
+          "author": "@kottke",
+          "description": "Over on Twitter, @smllwrlds is publishing a new tiny illustrated sci-fi story every day of 2023.",
+          "link": "https://kottke.org/23/04/tiny-illustrated-sci-fi-stories",
+          "publishedOn": "2023-04-26T05:34:46.000Z",
+          "wordCount": 197,
+          "title": "Tiny Illustrated Sci-fi Stories",
+          "imageUrl": "https://kottke.org/plus/misc/images/tiny-scifi-stories-01.jpg"
+        },
+        {
+          "id": "h7N6Kw4AbmqxNsJFK",
+          "author": "@ChallengesCss",
+          "description": "A wide collection of CSS tips and tricks. The best place to keep up to date with the new CSS features.",
+          "link": "https://css-tip.com/",
+          "publishedOn": "2023-04-26T04:54:17.000Z",
+          "wordCount": 289,
+          "title": "CSS Tip",
+          "imageUrl": "https://css-tip/img/css-tip.jpg"
+        },
+        {
+          "id": "FiXBCpfPQxeDBLfn2",
+          "author": "@winkerVSbecks",
+          "description": "Breakdown of how we built a 3D animation using React Three Fiber. Focusing more on finer details that take a scene from \"done\" to \"ready to ship.\"",
+          "link": "https://varun.ca/storybook-day/",
+          "publishedOn": "2023-04-26T03:03:14.000Z",
+          "wordCount": 2152,
+          "title": "How we built the Storybook Day 3D animation",
+          "imageUrl": "https://varun.ca/static/a087bc42294e5099e5bee79cf963d37f/storybook-day-3d.png"
+        },
+        {
+          "id": "2oTpKFQKjzT52gKMW",
+          "author": "@uxdesigncc",
+          "description": "A century of animation, a decade of Atomic Design, a year of movement.",
+          "link": "https://uxdesign.cc/adding-motion-to-the-next-decade-of-atomic-design-c291abd043bc",
+          "publishedOn": "2023-04-26T03:02:22.000Z",
+          "wordCount": 7434,
+          "title": "Adding Motion to the next decade of Atomic Design",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*2KnDOWLlm6K63M4yhmjlQQ.png"
+        },
         {
           "id": "6NoXm2ofhMR6arkd2",
           "author": "@observablehq",
@@ -7155,56 +7125,6 @@
           "wordCount": 3331,
           "title": "Accessibility vs Emojis",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*ZWOSvmTb2-vGL-cp"
-        },
-        {
-          "id": "cMq4JzZSZQxdjFF2C",
-          "author": "@codepo8",
-          "description": "One of the GPT-4 demos made a massive splash: painting a web app on a napkin and getting the “AI” to create the HTML, CSS and JS to make it work.",
-          "link": "https://christianheilmann.com/2023/03/24/wysiwygpt/",
-          "publishedOn": "2023-03-28T05:02:19.000Z",
-          "wordCount": 1359,
-          "title": "WYSIWYGPT",
-          "imageUrl": null
-        },
-        {
-          "id": "oA5kha3yT7WmhSJZQ",
-          "author": "@scottohara",
-          "description": "The HTML specification added a new grouping content element: the search element.",
-          "link": "https://www.scottohara.me/blog/2023/03/24/search-element.html",
-          "publishedOn": "2023-03-28T05:01:05.000Z",
-          "wordCount": 1196,
-          "title": "The Search Element",
-          "imageUrl": null
-        },
-        {
-          "id": "43LMBfcBk6jCAPaft",
-          "author": "@aardrian",
-          "description": "Interactive widgets powered with only CSS are relatively common.",
-          "link": "https://adrianroselli.com/2023/03/css-only-widgets-are-inaccessible.html",
-          "publishedOn": "2023-03-28T05:00:18.000Z",
-          "wordCount": 2839,
-          "title": "CSS-only Widgets Are Inaccessible",
-          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2023/03/CSS-only_sort-table_thumb_cabin-caps-300x300.png"
-        },
-        {
-          "id": "8dT3X44rtyyMQnth3",
-          "author": "@geoffreylitt",
-          "description": "All computer users may soon have the ability to author small bits of code.",
-          "link": "https://www.geoffreylitt.com/2023/03/25/llm-end-user-programming.html",
-          "publishedOn": "2023-03-28T04:57:18.000Z",
-          "wordCount": 4423,
-          "title": "Malleable software in the age of LLMs",
-          "imageUrl": "https://geoffreylitt.com/images/article_images/llm-eup/robot-coding.png"
-        },
-        {
-          "id": "PuZvJJubj5rFPkAnR",
-          "author": "@youtube",
-          "description": "The complete updated 2023 edition of the classic video essay.",
-          "link": "https://www.youtube.com/watch?v=X9RYuvPCQUA",
-          "publishedOn": "2023-03-28T04:52:33.000Z",
-          "wordCount": null,
-          "title": "Everything is a Remix",
-          "imageUrl": null
         }
       ]
     },
@@ -7230,18 +7150,7 @@
       "title": "Latest WDRL editions via Feed",
       "feedUrl": "https://wdrl.info/feed/xml",
       "siteUrl": "https://wdrl.info/archive",
-      "articles": [
-        {
-          "id": "https://wdrl.info/archive/310",
-          "author": null,
-          "description": "Hey,\nin my area, spring is arriving and while today we had some snow falling again, I’m regularly in my market garden again, planting vegetables, sowing radish, salads, carrots and more. It’s still such a great balance to my web work that I can only recommend having an outdoors activity to all those sitting in front of screens all day.\nIn my current projects, TypeScript, React and other tools are set as defaults. But I also realize that a lot of the standards I have in my mind are still not a default: responsive image optimization, bundle optimization, code splitting, performance audits and budgets, accessibility checks. Is it worth the effort of building type-safe code that in the end is transpiled anyway when we’re serving a nearly 1MB one-in-all JavaScript bundle containing scripts, sty…",
-          "link": "https://wdrl.info/archive/310",
-          "publishedOn": "2023-03-27T19:00:00.000Z",
-          "wordCount": 1099,
-          "title": "WDRL — Edition 310: 4-day Work Weeks, Awesome CSS, Image Performance, and Type-safe APIs.",
-          "imageUrl": "https://wdrl.info/archive/310.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Blog – WebKit",
@@ -7277,16 +7186,6 @@
           "wordCount": 784,
           "title": "Release Notes for Safari Technology Preview 167",
           "imageUrl": null
-        },
-        {
-          "id": "https://webkit.org/?p=13966",
-          "author": null,
-          "description": "Today, we’re thrilled to tell you about the many additions to WebKit that are included in Safari 16.4.",
-          "link": "https://webkit.org/blog/13966/webkit-features-in-safari-16-4/",
-          "publishedOn": "2023-03-27T17:30:02.000Z",
-          "wordCount": 8933,
-          "title": "WebKit Features in Safari 16.4",
-          "imageUrl": "https://webkit.org/wp-content/uploads/Web_Push_on_iOS.png"
         }
       ]
     },
@@ -7536,21 +7435,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://files.smashing.media/articles/access-handling-data-management-row-level-security/access-handling-data-management-row-level-security.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/03/best-handoff-is-no-handoff/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "Design handoffs are inefficient and painful. They cause frustration, friction and a lot of back and forth. Can we avoid them altogether? Of course we can! Let’s see how to do just that.",
-          "link": "https://smashingmagazine.com/2023/03/best-handoff-is-no-handoff/",
-          "publishedOn": "2023-03-27T14:00:00.000Z",
-          "wordCount": 3459,
-          "title": "The Best Handoff Is No Handoff",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/best-handoff-is-no-handoff/meta-best-handoff-is-no-handoff.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/best-handoff-is-no-handoff/meta-best-handoff-is-no-handoff.jpg"
         }
       ]
     },
