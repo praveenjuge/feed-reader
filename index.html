@@ -5,6 +5,203 @@
 <link rel="shortcut icon" href="https://praveenjuge.com/favicon.ico" />
 <style>body{margin:0 auto;max-width:50rem;padding:2rem;font-size:.85rem;line-height:1.6;color:#666;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,sans-serif}body>*,section>*{margin:1.5rem 0}section{overflow-x:hidden;border-radius:.25rem;background-color:#000;padding:1rem}div{display:flow-root;width:100%}p{margin:0}a{text-decoration:none;font-weight:500;color:#ccc}a:visited{color:#666}a:hover{color:#fff}img{float:right;margin-left:1rem;border-radius:.25rem;height:auto}</style>
 
+  <p>2023-04-28</p>
+    <section>
+      <p>daverupert.com</p>
+        <div>
+          <a href=https://daverupert.com/2023/04/arc-boosts-elk/ target="_blank">Using Arc Boosts to identify bots in Elk</a>
+          <p>One of my favorite ideas for Twitter was by Oliver Reichenstein in a post called “Make Bots Identifiable”. Oliver makes the case that apps should notify users if the author of the post is a feed, a bot, or an actual human and the UI of the application should reflect that accordingly. The example Oliver gives is setting bot text into monospace and giving it an obvious 🤖 icon.
+
+It’s a simple premise: “make bots identifiable”. Think of how this would neuter Russian disinformation worldwide. It would expose the underbelly of buying bot followers, exposing fake influencers and hustlers as social and political frauds. This, of course, depends on social media companies running bot analysis on their users, which they’d never do because it would pollute the New Users Chart Goes Brrrr metrics that Wall Street loves.
+On Mastodon, however, you can self-identify your account as a human or a bot. Not every feed/bot account does this and not every Mastodon client reflects this option in their UI, but one that does is Elk. Bots in the main feed get a small 🤖 icon, like in Oliver’s dream! I decided to use Arc’s Boosts feature to add some custom CSS to make the text monospace for an even more obvious effect.
+
+/* Elk.zone */
+div[flex]:has([i-mdi\:robot-outline]) .status-body {
+  font-family: monospace;
+}
+
+
+The result is obvious and clear.
+
+Simple selector, not the cleanest, but got to use :has(). It’d be nice if more Mastodon clients (or Twitter, or YouTube, or Twitch, or Bluesky, or whatever’s next) surfaced this kind of information in the main feed. Anyways…
+Arc Boosts are cool 😎
+Add human-readable classnames and allow humans to change your site if they want (or need) to
+Make the Web more human</p>
+        </div>
+    </section>
+    <section>
+      <p>Hacker News - Newest: &quot;&quot;habit&quot; &quot;productivity&quot; &quot;stoic&quot; &quot;rss&quot;&quot;</p>
+        <div>
+          <a href=https://news.ycombinator.com/item?id&#x3D;35745953 target="_blank">Ask HN: Web devs, what are your biggest productivity boosters?</a>
+          <p>Comments URL: https://news.ycombinator.com/item?id&#x3D;35745953
+Points: 2
+# Comments: 0</p>
+        </div>
+    </section>
+    <section>
+      <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;icon&quot; &quot;typography&quot; &quot;wireframe&quot; &quot;illustration&quot;&quot;</p>
+        <div>
+            <img src="https://github.com/kineticio/runnable/og.png" width="96" loading="lazy" />
+          <a href=https://getrunnable.com/ target="_blank">Show HN: Runnable – Build user-facing internal workflows without writing UI code</a>
+          <p>Would love to share a new open-source project I&#x27;ve been working on - Runnable.
+Runnable is a framework to build user-facing admin-like workflows with ease, while keeping operations internal. No need to setup REST or GraphQL for internal applications.
+There are other similar tools out there that have comparable features, but Runnable is fully open-source and is much easier to set up (due to its simplicity). For example, it does not require a DB or even it&#x27;s own server. There is an option to use Runnable as a library or as a standalone web-socket server.
+Site here: https://getrunnable.com/
+You can demo Runnable here https://demo.getrunnable.com/admin/login and login with any Google creds.
+Open to feedback and feature requests.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;35745237
+Points: 11
+# Comments: 2</p>
+        </div>
+        <div>
+            <img src="https://domains.ray.st/api/og" width="96" loading="lazy" />
+          <a href=https://domains.ray.st/ target="_blank">Bulk domain name search with Simple, Fast, Great UX</a>
+          <p>Article URL: https://domains.ray.st
+Comments URL: https://news.ycombinator.com/item?id&#x3D;35743052
+Points: 1
+# Comments: 1</p>
+        </div>
+        <div>
+            <img src="https://assets.website-files.com/5fabc8dadc66fc8a47db709b/644af956cbc02d5e0ba832a9_copilot-header.webp" width="96" loading="lazy" />
+          <a href=https://www.flux.ai/p/blog/flux-copilot-the-first-ai-powered-hardware-design-assistant target="_blank">Flux Copilot – the first AI powered hardware design assistant</a>
+          <p>Article URL: https://www.flux.ai/p/blog/flux-copilot-the-first-ai-powered-hardware-design-assistant
+Comments URL: https://news.ycombinator.com/item?id&#x3D;35741457
+Points: 3
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://miro.medium.com/v2/resize:fit:1200/1*10O3X2Dz2FlIlqkRJW4t-w.png" width="96" loading="lazy" />
+          <a href=https://bootcamp.uxdesign.cc/streamlining-resume-building-with-ai-resumemaker-online-3-0-a-ux-case-study-35647001d7ea?gi&#x3D;cd55141b8df6 target="_blank">Show HN: Streamlining Resume Building with AI: UX Case Study</a>
+          <p>Streamlining Resume Building with AI: ResumeMaker.Online 3.0 — A UX Case Study
+ResumeMaker.Online is a resume maker tool that aims to help users create a stunning resume with ease. In this UX case study, I will explore the new updated version. This update focuses on two main goals: decluttering and making the experience even more user-friendly with the help of the cutting-edge AI Resume Writing Assistant, powered by OpenAI’s GPT.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;35740042
+Points: 1
+# Comments: 0</p>
+        </div>
+    </section>
+    <section>
+      <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot; &quot;html&quot;&quot;</p>
+        <div>
+            <img src="https://code.mendhak.com/assets/images/css-dark-mode-toggle-sucks/000.png" width="96" loading="lazy" />
+          <a href=https://code.mendhak.com/css-dark-mode-toggle-sucks/ target="_blank">The unpleasant hackiness of CSS dark mode toggles</a>
+          <p>Article URL: https://code.mendhak.com/css-dark-mode-toggle-sucks/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;35744824
+Points: 1
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://unocss.dev/og.png#1" width="96" loading="lazy" />
+          <a href=https://unocss.dev/ target="_blank">UnoCSS: Instant On-Demand Atomic CSS Engine</a>
+          <p>Article URL: https://unocss.dev/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;35737216
+Points: 1
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://external-preview.redd.it/aYroBoqpdl5g9Z53s3MppvbRmo12zenN1Hor7w9RXa8.jpg?width&#x3D;1200&amp;height&#x3D;628&amp;auto&#x3D;webp&amp;crop&#x3D;1200:628,smart&amp;v&#x3D;enabled&amp;s&#x3D;ef059bdce2b1ba70f5ff959790440729b8e51bc9" width="96" loading="lazy" />
+          <a href=https://old.reddit.com/r/selfhosted/comments/130szje/has_cloudflare_recently_changed_their_tos_re_use/ target="_blank">Cloudflare removes limits on serving non-HTML Content</a>
+          <p>Article URL: https://old.reddit.com/r/selfhosted/comments/130szje/has_cloudflare_recently_changed_their_tos_re_use/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;35736894
+Points: 4
+# Comments: 0</p>
+        </div>
+    </section>
+    <section>
+      <p>Christian Heilmann</p>
+        <div>
+          <a href=https://christianheilmann.com/2023/04/28/microsoft-edge-now-allows-you-to-simulate-dark-light-high-contrast-mode-blurred-vision-and-colour-deficiencies-right-from-the-device-emulation-toolbar/ target="_blank">Microsoft Edge now allows you to simulate dark, light, high contrast mode, blurred vision and colour deficiencies right from the Device Emulation toolbar</a>
+          <p>I was incredibly excited to see that from Microsoft Edge 111 onwards you can now emulate different viewing modes and vision deficiencies right from the device emulation toolbar. This has been one of my pet projects that I really wanted to see come to live ever since I created the Skillshare Course on Accessibility testing […]</p>
+        </div>
+    </section>
+    <section>
+      <p>Ahmad Shadeed Blog</p>
+        <div>
+            <img src="https://ishadeed.com/assets/featured-section/twitter-card.jpg" width="96" loading="lazy" />
+          <a href=http://ishadeed.com/article/rebuild-featured-news-modern-css/ target="_blank">Rebuilding a featured news section with modern CSS: Vox news</a>
+          <p>Rebuilding Vox News featured section with modern CSS.</p>
+        </div>
+    </section>
+    <section>
+      <p>HeyDesigner</p>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/designing-empty-states/ target="_blank">Designing empty states</a>
+          <p>Empty states provide opportunities for designers to communicate system status, increase learnability of the system, and deliver direct pathways for key tasks.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/the-role-of-doubt-in-design-2/ target="_blank">The role of doubt in design</a>
+          <p>While it’s important to acknowledge uncertainty, doubt isn’t always the right mindset. Sometimes it’s ok to ask questions, but most times, it’s your job to have answers.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/badging-for-home-screen-web-apps/ target="_blank">Badging for home screen web apps</a>
+          <p>Along with the many other features for web apps on iOS and iPadOS 16.4, WebKit now includes support for the W3C’s Badging API.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/the-curse-of-performative-user-studies/ target="_blank">The curse of performative user studies</a>
+          <p>Anyone who has spent enough time publishing some kind of artistic tools in computer graphics has probably gotten reviews that praised a paper’s ideas and results, but required a user study.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/spinning-diagrams-with-css/ target="_blank">Spinning diagrams with CSS</a>
+          <p>Several people expressed surprise that the spinning diagrams don’t use any JavaScript or animated image formats, just HTML and CSS.</p>
+        </div>
+    </section>
+    <section>
+      <p>Seth&#x27;s Blog</p>
+        <div>
+            <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg" width="96" loading="lazy" />
+          <a href=https://seths.blog/2023/04/the-magic-of-placebos/ target="_blank">The magic of placebos</a>
+          <p>One of two things is true: A placebo is a force beyond understanding, one that is capable of disappearing when we do the appropriate double-blind tests and has mechanisms that defy our knowledge of the laws of physics. Or… A placebo is a prompt for our subconscious to do the hard work of healing our […]</p>
+        </div>
+    </section>
+    <section>
+      <p>Articles on Smashing Magazine — For Web Designers And Developers</p>
+        <div>
+            <img src="http://files.smashing.media/articles/write-better-css-borrow-ideas-functions/write-better-css-borrow-ideas-javascript-functions.jpg" width="96" loading="lazy" />
+          <a href=https://smashingmagazine.com/2023/04/write-better-css-borrow-ideas-javascript-functions/ target="_blank">Write Better CSS By Borrowing Ideas From JavaScript Functions</a>
+          <p>Many problems with website layouts happen when we don’t write CSS with the same care we’d use when writing a JavaScript function. Let’s look at how we can borrow best practices and ideas from writing good JavaScript functions for writing CSS.</p>
+        </div>
+    </section>
+    <section>
+      <p>Sidebar</p>
+        <div>
+            <img src="https://files.smashing.media/articles/accessible-tap-target-sizes-rage-taps-clicks/accessible-tap-target-sizes-rage-taps-clicks.png" width="96" loading="lazy" />
+          <a href=https://www.smashingmagazine.com/2023/04/accessible-tap-target-sizes-rage-taps-clicks/ target="_blank">Accessible Target Sizes Cheatsheet</a>
+          <p>Practical guidelines to prevent rage taps and rage clicks with accessible tap targets for icons, links and buttons.</p>
+        </div>
+        <div>
+            <img src="https://garden.bradwoods.io/ogImages/blendModes.png" width="96" loading="lazy" />
+          <a href=https://garden.bradwoods.io/notes/css/blend-modes target="_blank">CSS Blend Modes</a>
+          <p>What are CSS blend modes. How to use background-blend-mode &amp; mix-blend-mode. Interactive examples.</p>
+        </div>
+        <div>
+            <img src="https://elliotjaystocks.com/images/og-image.jpg" width="96" loading="lazy" />
+          <a href=https://elliotjaystocks.com/blog/i_have_a_logo_now target="_blank">I have a logo now</a>
+          <p>I figured that Emma would be the perfect person to create something I’d been mulling for a while: a logo.</p>
+        </div>
+        <div>
+            <img src="https://i0.wp.com/www.printmag.com/wp-content/uploads/2023/04/Knit-Grotesk15.jpg?fit&#x3D;600%2C600&amp;ssl&#x3D;1" width="96" loading="lazy" />
+          <a href=https://www.printmag.com/type-tuesday/knit-grotesk-is-a-font-you-can-thread-right-into-your-sweater/ target="_blank">Knit Grotesk is a Font You Can Thread Right Into Your Sweater</a>
+          <p>Rüdiger Schlömer’s versatile, ready-to-wear font pushes the limits of what’s possible in the type world.</p>
+        </div>
+        <div>
+            <img src="https://media.wired.com/photos/643f0dd221515ed3833570d1/191:100/w_1280,c_limit/WIRED_TwishaP_03_YouTube-Money-web.jpg" width="96" loading="lazy" />
+          <a href=https://www.wired.com/story/so-your-kid-wants-to-be-a-twitch-streamer-three-questions/ target="_blank">So Your Kid Wants to Be a Twitch Streamer</a>
+          <p>Don’t panic. Instead, teach your beloved offspring to answer the Three Questions of Streaming.</p>
+        </div>
+    </section>
+    <section>
+      <p>David Walsh Blog</p>
+        <div>
+            <img src="https://davidwalsh.name/wp-content/themes/punky/images/logo.png" width="96" loading="lazy" />
+          <a href=https://davidwalsh.name/content-visibility target="_blank">CSS content-visibility</a>
+          <p>The CSS language is full of small gaps which are frustrating to navigate. Between CSS properties to hide a container and its contents, there is still room for improvement. visibility: hidden keeps height and width integrity while display: none on a container hides everything. You can use .container &gt; * to hide all contents of a […]
+The post CSS content-visibility appeared first on David Walsh Blog.</p>
+        </div>
+    </section>
   <p>2023-04-27</p>
     <section>
       <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;icon&quot; &quot;typography&quot; &quot;wireframe&quot; &quot;illustration&quot;&quot;</p>
@@ -5534,79 +5731,6 @@ Comments URL: https://news.ycombinator.com/item?id&#x3D;35374593
 Points: 163
 # Comments: 68</p>
         </div>
-        <div>
-            <img src="https://images.wsj.net/im-753600/social" width="96" loading="lazy" />
-          <a href=https://www.wsj.com/articles/apple-music-classical-app-3325c6ba target="_blank">Apple Music Classical: The importance of using metadata for UX</a>
-          <p>Article URL: https://www.wsj.com/articles/apple-music-classical-app-3325c6ba
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35370779
-Points: 2
-# Comments: 1</p>
-        </div>
-        <div>
-            <img src="https://codeprompt.xyz/ogimage.jpeg" width="96" loading="lazy" />
-          <a href=https://codeprompt.xyz/ target="_blank">Show HN: CodePrompt – a UI for loading code repos into GPT prompts</a>
-          <p>Hi HN, I&#x27;m Chun Rapeepat.
-Last week I started playing with GPT-4 and tried different ways to use it to optimize my dev workflow. It was fun, and I was just blown away by what GPT-4 can do.
-The idea of CodePrompt first came to mind when I read &quot;Show HN: GPT Repo Loader – load entire code repos into GPT prompts&quot; [1]. It was precisely what I wanted to do! So I tried it.
-The GPT Repo Loader works pretty well on a small codebase; However, due to its limitations in loading all files and content into the prompt, I still ran into token context limit issues and needed to copy/edit the code myself.
-That&#x27;s when I started working on CodePrompt. Instead of loading the entire repo, why not just load only relevant files or portions of code (or function headers?) that need for the requirement?
-How I designed the user journey of CodePrompt.xyz:
-1. Choose a GPT model.
-2. Select a repo that you want to work with.
-3. Pick the relevant files that you want to include in the prompt.
-4. Add specific instructions and remove irrelevant codes as needed.
-5. Copy the prompt to your chosen GPT model to generate the desired output. Chat &amp; Iterate.
-6. If you want to do something else, just go to (3) again.
-This allows me to easily generate prompts to do something like 
-- Implement features that evolve edits on multiple files
-- Create new components while reusing existing codebase
-- Generate code with the same style as other files, etc.
-I would love to hear all your feedback and ideas on how I can improve it. Or if you want to chat, feel free to ping me on my Twitter @chunrapeepat.
-P.S. The project is 100% open-source and free to use. 
-Check it out: https://github.com/chunrapeepat/codeprompt
-[1] https://news.ycombinator.com/item?id&#x3D;35191303
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35370579
-Points: 5
-# Comments: 2</p>
-        </div>
-        <div>
-            <img src="https://s3.amazonaws.com/files.growth.design/cms/clfi6oi9d001h0tmr0z3x5vyz.png" width="96" loading="lazy" />
-          <a href=https://growth.design/case-studies/new-bing-ai-ep2 target="_blank">UX Analysis: Bing AI vs. Google</a>
-          <p>Article URL: https://growth.design/case-studies/new-bing-ai-ep2
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35369250
-Points: 1
-# Comments: 0</p>
-        </div>
-        <div>
-            <img src="https://atomix.design/og-atomix.png" width="96" loading="lazy" />
-          <a href=https://atomix.design/ target="_blank">Show HN: Atomix – UX/UI Design Services for Tech Companies and Startups</a>
-          <p>Article URL: https://atomix.design/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35369132
-Points: 5
-# Comments: 0</p>
-        </div>
-        <div>
-            <img src="https://blog.jetbrains.com/wp-content/uploads/2023/03/Blog-featured-image-for-the-release-post_1280x720_CLion-2x-1.png" width="96" loading="lazy" />
-          <a href=https://blog.jetbrains.com/clion/2023/03/clion-2023-1-is-out/ target="_blank">CLion 2023.1 Is Out with Vcpkg, Disassemble on Demand, and Updates to New UI</a>
-          <p>Article URL: https://blog.jetbrains.com/clion/2023/03/clion-2023-1-is-out/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35368414
-Points: 3
-# Comments: 0</p>
-        </div>
-        <div>
-          <a href=http://slipperyskip.com/page23.html target="_blank">Computer Design and Innovation</a>
-          <p>Article URL: http://slipperyskip.com/page23.html
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35367599
-Points: 2
-# Comments: 0</p>
-        </div>
-        <div>
-          <a href=https://twitter.com/mlejva/status/1641151421830529042 target="_blank">Using GPT-4 to create custom UI on demand inside apps</a>
-          <p>Article URL: https://twitter.com/mlejva/status/1641151421830529042
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35366388
-Points: 2
-# Comments: 0</p>
-        </div>
     </section>
     <section>
       <p>HeyDesigner</p>
@@ -5650,187 +5774,5 @@ The post Creating accessible PDFs from InDesign 2-day Masterclass launched appea
             <img src="http://files.smashing.media/articles/organizing-design-workshops-checklist/organizing-design-workshops-checklist.jpg" width="96" loading="lazy" />
           <a href=https://smashingmagazine.com/2023/03/organizing-design-workshops-checklist/ target="_blank">Organizing Design Workshops: A Detailed Checklist</a>
           <p>Workshops are all about people: they involve people, are conducted by people, and aim to close the gaps in people’s communication. Slava Shestopalov shares a checklist with everything you need to keep in mind when running a workshop.</p>
-        </div>
-    </section>
-    <section>
-      <p>Sidebar</p>
-        <div>
-            <img src="https://cdn.dribbble.com/userupload/5857566/file/original-b2e117eb95100cb0fa59b494a74044fd.png?resize&#x3D;1600x1200" width="96" loading="lazy" />
-          <a href=https://dribbble.com/shots/21057636-The-re-designed-Uber-App target="_blank">The re-designed Uber App</a>
-          <p>The re-designed Uber App designed by Charlie Waite.</p>
-        </div>
-        <div>
-            <img src="https://web-dev.imgix.net/image/AeNB0cHNDkYPUYzDuv8gInYA9rY2/dG0sJst2uPCE6Z1g4AZm.jpg?auto&#x3D;format&amp;fit&#x3D;max&amp;w&#x3D;1200&amp;fm&#x3D;auto" width="96" loading="lazy" />
-          <a href=https://web.dev/css-trig-functions/ target="_blank">Trigonometric functions in CSS</a>
-          <p>Calculate the sine, cosine, tangent, and more in CSS.</p>
-        </div>
-        <div>
-            <img src="https://cdn.sanity.io/images/599r6htc/localized/98828f92f927d0f33ad9babe05e86084be6c5bfa-2400x1260.png?w&#x3D;1200&amp;q&#x3D;70&amp;fit&#x3D;max&amp;auto&#x3D;format" width="96" loading="lazy" />
-          <a href=https://www.figma.com/whats-new/ target="_blank">What’s New in Figma</a>
-          <p>Learn about our latest features and updates.</p>
-        </div>
-        <div>
-            <img src="https://miro.medium.com/v2/resize:fit:1200/1*2QTonIiRHypHaL6EgNGvcQ.jpeg" width="96" loading="lazy" />
-          <a href=https://uxdesign.cc/software-accessibility-for-users-with-dyslexia-a506698af4d6 target="_blank">Software accessibility for users with Dyslexia</a>
-          <p>Let’s focus on cognitive accessibility of digital products and how to make them better for users with Dyslexia.</p>
-        </div>
-        <div>
-            <img src="https://i0.wp.com/cabel.com/wp-content/uploads/2023/03/adobestock_316077906.jpeg?fit&#x3D;1200%2C800&amp;ssl&#x3D;1" width="96" loading="lazy" />
-          <a href=https://cabel.com/2023/03/27/apple-passwords-deserve-an-app/ target="_blank">Apple Passwords Deserve An App</a>
-          <p>We all know that Apple has nice built-in password management in macOS and iOS.</p>
-        </div>
-    </section>
-    <section>
-      <p>dailydevlinks</p>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/best-free-resources-for-beginner-ux-ui-engineers/ target="_blank">Best Free Resources for Beginner UX/UI Engineers</a>
-          <p>BeginnersUIUX</p>
-        </div>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/sometimes-you-have-to-hide-the-body/ target="_blank">Sometimes you have to hide the body</a>
-          <p>Design</p>
-        </div>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/trigonometric-functions-in-css/ target="_blank">Trigonometric functions in CSS</a>
-          <p>CSS</p>
-        </div>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2023/01/share-again-1-1200x675.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/accessibility-vs-emojis/ target="_blank">Accessibility vs emojis</a>
-          <p>A11Y</p>
-        </div>
-    </section>
-    <section>
-      <p>remy sharp&#x27;s b:log</p>
-        <div>
-          <a href=https://remysharp.com/tif/2023-03-26-crystal target="_blank">Pokémon Crystal [tif]</a>
-          <p>I have a little Etsy store for gameboy repair (though it&#x27;s currently just carts at the moment), and I had a Pokémon Crystal come in. It didn&#x27;t load at all and I found corrosion around the cart pins.
-Carefully scratching away the solder had it loading up again, but the far right contact (the ground) had solder under the gold finger and I was worried it&#x27;ll eventually fall away. Originally I wanted to swap all the parts to a new PCB, but that requires actually purchasing another Pokémon Crystal (which sell for around £20-30) - which didn&#x27;t make sense.
-Ultimately I cleaned as much as I could under the pad and then used solder mask to secure the gold finger down and now it&#x27;s secure and safe for a good many years of usage. Returned to a very happy customer :)</p>
-        </div>
-        <div>
-          <a href=https://remysharp.com/links/2023-03-30-75858f69 target="_blank">sq [link]</a>
-          <p>Like jq but for postgres databases (or sqlserver, csv or even xlsx).
-What&#x27;s neat is that you register a database with the system, then you can query against that particular database.
-Very nice that I can use this on the command line and then pipe into jq for more data manip.
-Source: sq.io</p>
-        </div>
-    </section>
-    <section>
-      <p>Seth&#x27;s Blog</p>
-        <div>
-            <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061310-1.jpg" width="96" loading="lazy" />
-          <a href=https://seths.blog/2023/03/making-change-happen/ target="_blank">Making change happen</a>
-          <p>One way to do it is to get people to want what you want. The other way is to help them get what they want in a way that gets you what you want. They’re not the same. Changing what someone wants is very different from helping them see the story and the path that […]</p>
-        </div>
-    </section>
-    <section>
-      <p>Ahmad Shadeed Blog</p>
-        <div>
-            <img src="https://ishadeed.com/assets/css-masking/twitter-card.jpg" width="96" loading="lazy" />
-          <a href=http://ishadeed.com/article/css-masking/ target="_blank">CSS Masking</a>
-          <p>A deep dive into CSS masking</p>
-        </div>
-    </section>
-  <p>2023-03-29</p>
-    <section>
-      <p>Hacker News - Newest: &quot;&quot;habit&quot; &quot;productivity&quot; &quot;stoic&quot; &quot;rss&quot;&quot;</p>
-        <div>
-          <a href=https://www.lirent.net/2023/03/boost-your-productivity-with-these-essential-intellij-idea-shortcuts-pdf-included/ target="_blank">Boost Your Productivity with These Essential IntelliJ Idea Shortcuts</a>
-          <p>Article URL: https://www.lirent.net/2023/03/boost-your-productivity-with-these-essential-intellij-idea-shortcuts-pdf-included/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35363957
-Points: 1
-# Comments: 0</p>
-        </div>
-    </section>
-    <section>
-      <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;icon&quot; &quot;typography&quot; &quot;wireframe&quot; &quot;illustration&quot;&quot;</p>
-        <div>
-            <img src="https://opengraph.githubassets.com/b71bb913f325e283e868a7258f81cebe1ba9d8ba54290bd0c49eb1d253df2a99/mckaywrigley/chatbot-ui" width="96" loading="lazy" />
-          <a href=https://github.com/mckaywrigley/chatbot-ui target="_blank">An open source ChatGPT UI</a>
-          <p>Article URL: https://github.com/mckaywrigley/chatbot-ui
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35363468
-Points: 1
-# Comments: 0</p>
-        </div>
-        <div>
-            <img src="https://miro.medium.com/v2/resize:fit:879/1*S82Mj2WVPcatCcjOzhbKrQ.png" width="96" loading="lazy" />
-          <a href=https://caseorganic.medium.com/how-design-is-governance-7c8dd466d753 target="_blank">How Design Is Governance</a>
-          <p>Article URL: https://caseorganic.medium.com/how-design-is-governance-7c8dd466d753
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35361347
-Points: 1
-# Comments: 0</p>
-        </div>
-        <div>
-            <img src="https://cdn.mos.cms.futurecdn.net/xq7K2ZxZgzdyVN26mdjFjh-1200-80.jpg" width="96" loading="lazy" />
-          <a href=https://www.creativebloq.com/news/never-forget-that-utterly-ridiculous-pepsi-logo-design-document target="_blank">Never forget that utterly ridiculous Pepsi logo design document</a>
-          <p>Article URL: https://www.creativebloq.com/news/never-forget-that-utterly-ridiculous-pepsi-logo-design-document
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35358789
-Points: 3
-# Comments: 0</p>
-        </div>
-        <div>
-          <a href=https://www.patternfly.org/v4/ target="_blank">PatternFly – open-source design system for consistency and usability</a>
-          <p>Article URL: https://www.patternfly.org/v4/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35358017
-Points: 3
-# Comments: 0</p>
-        </div>
-        <div>
-            <img src="https://res.cloudinary.com/kentcdodds-com/image/upload/$th_1256,$tw_2400,$gw_$tw_div_24,$gh_$th_div_12/co_rgb:a9adc1,c_fit,g_north_west,w_$gw_mul_14,h_$gh,x_$gw_mul_1.5,y_$gh_mul_1.3,l_text:kentcdodds.com:Matter-Regular.woff2_50:Check%2520out%2520this%2520article/co_white,c_fit,g_north_west,w_$gw_mul_13.5,h_$gh_mul_7,x_$gw_mul_1.5,y_$gh_mul_2.3,l_text:kentcdodds.com:Matter-Regular.woff2_110:Making%2520your%2520UI%2520tests%2520resilient%2520to%2520change/c_fit,g_north_west,r_max,w_$gw_mul_4,h_$gh_mul_3,x_$gw,y_$gh_mul_8,l_kent:profile-transparent/co_rgb:a9adc1,c_fit,g_north_west,w_$gw_mul_5.5,h_$gh_mul_4,x_$gw_mul_4.5,y_$gh_mul_9,l_text:kentcdodds.com:Matter-Regular.woff2_70:Kent%20C.%20Dodds/co_rgb:a9adc1,c_fit,g_north_west,w_$gw_mul_9,x_$gw_mul_4.5,y_$gh_mul_9.8,l_text:kentcdodds.com:Matter-Regular.woff2_40:kentcdodds.com%252Fblog%252Fmaking-your-ui-tests-resilient-to-change/c_fill,ar_3:4,r_12,g_east,h_$gh_mul_10,x_$gw,l_unsplash:photo-1492567291473-fe3dfc175b45/c_fill,w_$tw,h_$th/kentcdodds.com/social-background.png" width="96" loading="lazy" />
-          <a href=https://kentcdodds.com/blog/making-your-ui-tests-resilient-to-change target="_blank">Making your UI tests resilient to change</a>
-          <p>Article URL: https://kentcdodds.com/blog/making-your-ui-tests-resilient-to-change
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35357681
-Points: 1
-# Comments: 0</p>
-        </div>
-    </section>
-    <section>
-      <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot; &quot;html&quot;&quot;</p>
-        <div>
-          <a href=https://cube.fyi/ target="_blank">Cube CSS – Simple, consistent, and pragmatic CSS methodology</a>
-          <p>Article URL: https://cube.fyi/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35363046
-Points: 2
-# Comments: 0</p>
-        </div>
-        <div>
-            <img src="https://opengraph.githubassets.com/e34081375ccd24323d7e0d822579d06298f7ce10992ff18b72739beb8a58f952/sueszli/notionSnapshot" width="96" loading="lazy" />
-          <a href=https://github.com/sueszli/notionSnapshot target="_blank">Show HN: A HTML export tool for Notion.so</a>
-          <p>Hi everyone!
-I&#x27;ve been really frustrated with the way Notion.so exports your data.
-I felt like I was locked into their environment, because the exported files don&#x27;t resemble the original Notion pages very well.
-This HN post really motivated me to take matters into my own hands: https://news.ycombinator.com/item?id&#x3D;35316679
-I built notionSnapshot - a HTML export tool for Notion that looks just like the original pages (it&#x27;s actually a fork of loconotion if you already know that project).
-Anyway - it took me longer than expected to build and I would really appreciate your feedback.
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35362260
-Points: 2
-# Comments: 0</p>
-        </div>
-        <div>
-            <img src="https://www.aha.io/static/aha-engineering-bbb50e0d1222a7d971b5d40760d77df6.png" width="96" loading="lazy" />
-          <a href=https://www.aha.io/engineering/articles/css-is-hard-no-matter-how-good-you-are-at-it target="_blank">CSS is hard no matter how good you are at it</a>
-          <p>Article URL: https://www.aha.io/engineering/articles/css-is-hard-no-matter-how-good-you-are-at-it
-Comments URL: https://news.ycombinator.com/item?id&#x3D;35361628
-Points: 66
-# Comments: 63</p>
-        </div>
-    </section>
-    <section>
-      <p>Christian Heilmann</p>
-        <div>
-          <a href=https://christianheilmann.com/2023/03/29/github-copilot-for-the-command-line-is-amazing/ target="_blank">GitHub Copilot for the Command Line is amazing!</a>
-          <p>I just got access to GitHub Copilot CLI and a few seconds after installing it, I am happy as a clam about it. You can see it in action in this video or let me talk you through it here. GitHub Copilot CLI brings AI code completion to your terminal. After installing it, you get […]</p>
-        </div>
-    </section>
-    <section>
-      <p>Scope for business</p>
-        <div>
-            <img src="https://business.scope.org.uk/wp-content/uploads/2019/11/Big-Hack-Accessibility-and-SEO.jpg" width="96" loading="lazy" />
-          <a href=https://business.scope.org.uk/article/why-content-accessibility-is-good-for-search-engine-optimization-seo target="_blank">Why content accessibility is good for Search Engine Optimization (SEO)</a>
-          <p>The post Why content accessibility is good for Search Engine Optimization (SEO) appeared first on Scope for business.</p>
         </div>
     </section>

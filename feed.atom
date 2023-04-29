@@ -2,10 +2,297 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2023-04-28T00:04:48.641Z</updated>
+    <updated>2023-04-29T00:04:32.885Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Using Arc Boosts to identify bots in Elk]]></title>
+        <id>https://daverupert.com/2023/04/arc-boosts-elk/</id>
+        <link href="https://daverupert.com/2023/04/arc-boosts-elk/"/>
+        <updated>2023-04-28T21:40:00.000Z</updated>
+        <summary type="html"><![CDATA[One of my favorite ideas for Twitter was by Oliver Reichenstein in a post called “Make Bots Identifiable”. Oliver makes the case that apps should notify users if the author of the post is a feed, a bot, or an actual human and the UI of the application should reflect that accordingly. The example Oliver gives is setting bot text into monospace and giving it an obvious 🤖 icon.
+
+It’s a simple premise: “make bots identifiable”. Think of how this would neuter Russian disinformation worldwide. It would expose the underbelly of buying bot followers, exposing fake influencers and hustlers as social and political frauds. This, of course, depends on social media companies running bot analysis on their users, which they’d never do because it would pollute the New Users Chart Goes Brrrr metrics that Wall Street loves.
+On Mastodon, however, you can self-identify your account as a human or a bot. Not every feed/bot account does this and not every Mastodon client reflects this option in their UI, but one that does is Elk. Bots in the main feed get a small 🤖 icon, like in Oliver’s dream! I decided to use Arc’s Boosts feature to add some custom CSS to make the text monospace for an even more obvious effect.
+
+/* Elk.zone */
+div[flex]:has([i-mdi\:robot-outline]) .status-body {
+  font-family: monospace;
+}
+
+
+The result is obvious and clear.
+
+Simple selector, not the cleanest, but got to use :has(). It’d be nice if more Mastodon clients (or Twitter, or YouTube, or Twitch, or Bluesky, or whatever’s next) surfaced this kind of information in the main feed. Anyways…
+Arc Boosts are cool 😎
+Add human-readable classnames and allow humans to change your site if they want (or need) to
+Make the Web more human]]></summary>
+        <author>
+            <name>daverupert.com</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Web devs, what are your biggest productivity boosters?]]></title>
+        <id>https://news.ycombinator.com/item?id=35745953</id>
+        <link href="https://news.ycombinator.com/item?id=35745953"/>
+        <updated>2023-04-28T19:24:49.000Z</updated>
+        <summary type="html"><![CDATA[Comments URL: https://news.ycombinator.com/item?id=35745953
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>aigoochamna</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Runnable – Build user-facing internal workflows without writing UI code]]></title>
+        <id>https://news.ycombinator.com/item?id=35745237</id>
+        <link href="https://getrunnable.com/"/>
+        <updated>2023-04-28T18:30:21.000Z</updated>
+        <summary type="html"><![CDATA[Would love to share a new open-source project I've been working on - Runnable.
+Runnable is a framework to build user-facing admin-like workflows with ease, while keeping operations internal. No need to setup REST or GraphQL for internal applications.
+There are other similar tools out there that have comparable features, but Runnable is fully open-source and is much easier to set up (due to its simplicity). For example, it does not require a DB or even it's own server. There is an option to use Runnable as a library or as a standalone web-socket server.
+Site here: https://getrunnable.com/
+You can demo Runnable here https://demo.getrunnable.com/admin/login and login with any Google creds.
+Open to feedback and feature requests.
+Comments URL: https://news.ycombinator.com/item?id=35745237
+Points: 11
+# Comments: 2]]></summary>
+        <author>
+            <name>mscolnick</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The unpleasant hackiness of CSS dark mode toggles]]></title>
+        <id>https://news.ycombinator.com/item?id=35744824</id>
+        <link href="https://code.mendhak.com/css-dark-mode-toggle-sucks/"/>
+        <updated>2023-04-28T17:58:47.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://code.mendhak.com/css-dark-mode-toggle-sucks/
+Comments URL: https://news.ycombinator.com/item?id=35744824
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>PuddleOfSausage</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bulk domain name search with Simple, Fast, Great UX]]></title>
+        <id>https://news.ycombinator.com/item?id=35743052</id>
+        <link href="https://domains.ray.st/"/>
+        <updated>2023-04-28T16:00:24.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://domains.ray.st
+Comments URL: https://news.ycombinator.com/item?id=35743052
+Points: 1
+# Comments: 1]]></summary>
+        <author>
+            <name>stale-labs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flux Copilot – the first AI powered hardware design assistant]]></title>
+        <id>https://news.ycombinator.com/item?id=35741457</id>
+        <link href="https://www.flux.ai/p/blog/flux-copilot-the-first-ai-powered-hardware-design-assistant"/>
+        <updated>2023-04-28T14:10:58.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.flux.ai/p/blog/flux-copilot-the-first-ai-powered-hardware-design-assistant
+Comments URL: https://news.ycombinator.com/item?id=35741457
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>yuchi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Edge now allows you to simulate dark, light, high contrast mode, blurred vision and colour deficiencies right from the Device Emulation toolbar]]></title>
+        <id>https://christianheilmann.com/?p=7702</id>
+        <link href="https://christianheilmann.com/2023/04/28/microsoft-edge-now-allows-you-to-simulate-dark-light-high-contrast-mode-blurred-vision-and-colour-deficiencies-right-from-the-device-emulation-toolbar/"/>
+        <updated>2023-04-28T13:04:18.000Z</updated>
+        <summary type="html"><![CDATA[I was incredibly excited to see that from Microsoft Edge 111 onwards you can now emulate different viewing modes and vision deficiencies right from the device emulation toolbar. This has been one of my pet projects that I really wanted to see come to live ever since I created the Skillshare Course on Accessibility testing […]]]></summary>
+        <author>
+            <name>Chris Heilmann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rebuilding a featured news section with modern CSS: Vox news]]></title>
+        <id>http://ishadeed.com/article/rebuild-featured-news-modern-css/</id>
+        <link href="http://ishadeed.com/article/rebuild-featured-news-modern-css/"/>
+        <updated>2023-04-28T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Rebuilding Vox News featured section with modern CSS.]]></summary>
+        <author>
+            <name>Ahmad Shadeed Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Streamlining Resume Building with AI: UX Case Study]]></title>
+        <id>https://news.ycombinator.com/item?id=35740042</id>
+        <link href="https://bootcamp.uxdesign.cc/streamlining-resume-building-with-ai-resumemaker-online-3-0-a-ux-case-study-35647001d7ea?gi=cd55141b8df6"/>
+        <updated>2023-04-28T11:38:23.000Z</updated>
+        <summary type="html"><![CDATA[Streamlining Resume Building with AI: ResumeMaker.Online 3.0 — A UX Case Study
+ResumeMaker.Online is a resume maker tool that aims to help users create a stunning resume with ease. In this UX case study, I will explore the new updated version. This update focuses on two main goals: decluttering and making the experience even more user-friendly with the help of the cutting-edge AI Resume Writing Assistant, powered by OpenAI’s GPT.
+Comments URL: https://news.ycombinator.com/item?id=35740042
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>fer_momento</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing empty states]]></title>
+        <id>https://heydesigner.com/?p=68021</id>
+        <link href="https://heydesigner.com/designing-empty-states/"/>
+        <updated>2023-04-28T08:40:58.000Z</updated>
+        <summary type="html"><![CDATA[Empty states provide opportunities for designers to communicate system status, increase learnability of the system, and deliver direct pathways for key tasks.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The role of doubt in design]]></title>
+        <id>https://heydesigner.com/?p=68019</id>
+        <link href="https://heydesigner.com/the-role-of-doubt-in-design-2/"/>
+        <updated>2023-04-28T08:39:54.000Z</updated>
+        <summary type="html"><![CDATA[While it’s important to acknowledge uncertainty, doubt isn’t always the right mindset. Sometimes it’s ok to ask questions, but most times, it’s your job to have answers.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Badging for home screen web apps]]></title>
+        <id>https://heydesigner.com/?p=68017</id>
+        <link href="https://heydesigner.com/badging-for-home-screen-web-apps/"/>
+        <updated>2023-04-28T08:38:51.000Z</updated>
+        <summary type="html"><![CDATA[Along with the many other features for web apps on iOS and iPadOS 16.4, WebKit now includes support for the W3C’s Badging API.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The magic of placebos]]></title>
+        <id>https://seths.blog/?p=43486</id>
+        <link href="https://seths.blog/2023/04/the-magic-of-placebos/"/>
+        <updated>2023-04-28T08:38:00.000Z</updated>
+        <summary type="html"><![CDATA[One of two things is true: A placebo is a force beyond understanding, one that is capable of disappearing when we do the appropriate double-blind tests and has mechanisms that defy our knowledge of the laws of physics. Or… A placebo is a prompt for our subconscious to do the hard work of healing our […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The curse of performative user studies]]></title>
+        <id>https://heydesigner.com/?p=68015</id>
+        <link href="https://heydesigner.com/the-curse-of-performative-user-studies/"/>
+        <updated>2023-04-28T08:37:30.000Z</updated>
+        <summary type="html"><![CDATA[Anyone who has spent enough time publishing some kind of artistic tools in computer graphics has probably gotten reviews that praised a paper’s ideas and results, but required a user study.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spinning diagrams with CSS]]></title>
+        <id>https://heydesigner.com/?p=68013</id>
+        <link href="https://heydesigner.com/spinning-diagrams-with-css/"/>
+        <updated>2023-04-28T08:35:09.000Z</updated>
+        <summary type="html"><![CDATA[Several people expressed surprise that the spinning diagrams don’t use any JavaScript or animated image formats, just HTML and CSS.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Write Better CSS By Borrowing Ideas From JavaScript Functions]]></title>
+        <id>https://smashingmagazine.com/2023/04/write-better-css-borrow-ideas-javascript-functions/</id>
+        <link href="https://smashingmagazine.com/2023/04/write-better-css-borrow-ideas-javascript-functions/"/>
+        <updated>2023-04-28T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Many problems with website layouts happen when we don’t write CSS with the same care we’d use when writing a JavaScript function. Let’s look at how we can borrow best practices and ideas from writing good JavaScript functions for writing CSS.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Yaphi Berhanu)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accessible Target Sizes Cheatsheet]]></title>
+        <id>63wGBbFzMGAD57Zqd</id>
+        <link href="https://www.smashingmagazine.com/2023/04/accessible-tap-target-sizes-rage-taps-clicks/"/>
+        <updated>2023-04-28T06:09:49.000Z</updated>
+        <summary type="html"><![CDATA[Practical guidelines to prevent rage taps and rage clicks with accessible tap targets for icons, links and buttons.]]></summary>
+        <author>
+            <name>@smashingmag</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Blend Modes]]></title>
+        <id>yRoCZkKi4ufzCcW5f</id>
+        <link href="https://garden.bradwoods.io/notes/css/blend-modes"/>
+        <updated>2023-04-28T06:01:37.000Z</updated>
+        <summary type="html"><![CDATA[What are CSS blend modes. How to use background-blend-mode & mix-blend-mode. Interactive examples.]]></summary>
+        <author>
+            <name>@bradwoodsio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I have a logo now]]></title>
+        <id>ushksPpinDLjnovmv</id>
+        <link href="https://elliotjaystocks.com/blog/i_have_a_logo_now"/>
+        <updated>2023-04-28T05:56:46.000Z</updated>
+        <summary type="html"><![CDATA[I figured that Emma would be the perfect person to create something I’d been mulling for a while: a logo.]]></summary>
+        <author>
+            <name>@elliotjaystocks</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Knit Grotesk is a Font You Can Thread Right Into Your Sweater]]></title>
+        <id>kKEABDP9CFMAFzHjR</id>
+        <link href="https://www.printmag.com/type-tuesday/knit-grotesk-is-a-font-you-can-thread-right-into-your-sweater/"/>
+        <updated>2023-04-28T05:53:49.000Z</updated>
+        <summary type="html"><![CDATA[Rüdiger Schlömer’s versatile, ready-to-wear font pushes the limits of what’s possible in the type world.]]></summary>
+        <author>
+            <name>@printmag</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[So Your Kid Wants to Be a Twitch Streamer]]></title>
+        <id>8bWQMzEzCia7rabWM</id>
+        <link href="https://www.wired.com/story/so-your-kid-wants-to-be-a-twitch-streamer-three-questions/"/>
+        <updated>2023-04-28T05:53:17.000Z</updated>
+        <summary type="html"><![CDATA[Don’t panic. Instead, teach your beloved offspring to answer the Three Questions of Streaming.]]></summary>
+        <author>
+            <name>@wired</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UnoCSS: Instant On-Demand Atomic CSS Engine]]></title>
+        <id>https://news.ycombinator.com/item?id=35737216</id>
+        <link href="https://unocss.dev/"/>
+        <updated>2023-04-28T03:37:27.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://unocss.dev/
+Comments URL: https://news.ycombinator.com/item?id=35737216
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>TheBlapse</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudflare removes limits on serving non-HTML Content]]></title>
+        <id>https://news.ycombinator.com/item?id=35736894</id>
+        <link href="https://old.reddit.com/r/selfhosted/comments/130szje/has_cloudflare_recently_changed_their_tos_re_use/"/>
+        <updated>2023-04-28T02:30:33.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://old.reddit.com/r/selfhosted/comments/130szje/has_cloudflare_recently_changed_their_tos_re_use/
+Comments URL: https://news.ycombinator.com/item?id=35736894
+Points: 4
+# Comments: 0]]></summary>
+        <author>
+            <name>fariszr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS content-visibility]]></title>
+        <id>https://davidwalsh.name/content-visibility</id>
+        <link href="https://davidwalsh.name/content-visibility"/>
+        <updated>2023-04-28T00:13:28.000Z</updated>
+        <summary type="html"><![CDATA[<p>The CSS language is full of small gaps which are frustrating to navigate. Between CSS properties to hide a container and its contents, there is still room for improvement. visibility: hidden keeps height and width integrity while display:&#160;none on a container hides everything. You can use .container &#62; * to hide all contents of a [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://davidwalsh.name/content-visibility">CSS content-visibility</a> appeared first on <a rel="nofollow" href="https://davidwalsh.name">David Walsh Blog</a>.</p>
+<p><a href="https://tkjs.us/dwb"><img style="margin:0 auto" alt="" src="https://davidwalsh.name/demo/tjs_block-1.svg"></a></p>]]></summary>
+        <author>
+            <name>David Walsh Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Thrombosis Inhibitors with less bleeding risk via charge tunable ligand design]]></title>
         <id>https://news.ycombinator.com/item?id=35735859</id>
@@ -8423,393 +8710,6 @@ The post Creating accessible PDFs from InDesign 2-day Masterclass launched appea
         <summary type="html"><![CDATA[Workshops are all about people: they involve people, are conducted by people, and aim to close the gaps in people’s communication. Slava Shestopalov shares a checklist with everything you need to keep in mind when running a workshop.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Slava Shestopalov)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The re-designed Uber App]]></title>
-        <id>RfH3CfqPL8HtYGkxA</id>
-        <link href="https://dribbble.com/shots/21057636-The-re-designed-Uber-App"/>
-        <updated>2023-03-30T11:33:52.000Z</updated>
-        <summary type="html"><![CDATA[The re-designed Uber App designed by Charlie Waite.]]></summary>
-        <author>
-            <name>@dribbble</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Best Free Resources for Beginner UX/UI Engineers]]></title>
-        <id>https://dailydevlinks.com/?p=11940</id>
-        <link href="https://dailydevlinks.com/best-free-resources-for-beginner-ux-ui-engineers/"/>
-        <updated>2023-03-30T11:33:00.000Z</updated>
-        <summary type="html"><![CDATA[BeginnersUIUX]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trigonometric functions in CSS]]></title>
-        <id>y924rDsD8YA64nTtb</id>
-        <link href="https://web.dev/css-trig-functions/"/>
-        <updated>2023-03-30T11:32:31.000Z</updated>
-        <summary type="html"><![CDATA[Calculate the sine, cosine, tangent, and more in CSS.]]></summary>
-        <author>
-            <name>@chromiumdev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sometimes you have to hide the body]]></title>
-        <id>https://dailydevlinks.com/?p=11952</id>
-        <link href="https://dailydevlinks.com/sometimes-you-have-to-hide-the-body/"/>
-        <updated>2023-03-30T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Design]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trigonometric functions in CSS]]></title>
-        <id>https://dailydevlinks.com/?p=11949</id>
-        <link href="https://dailydevlinks.com/trigonometric-functions-in-css/"/>
-        <updated>2023-03-30T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Accessibility vs emojis]]></title>
-        <id>https://dailydevlinks.com/?p=11955</id>
-        <link href="https://dailydevlinks.com/accessibility-vs-emojis/"/>
-        <updated>2023-03-30T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[A11Y]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pokémon Crystal [tif]]]></title>
-        <id>2023-03-26-crystal</id>
-        <link href="https://remysharp.com/tif/2023-03-26-crystal"/>
-        <updated>2023-03-30T11:20:08.000Z</updated>
-        <summary type="html"><![CDATA[I have a little Etsy store for gameboy repair (though it's currently just carts at the moment), and I had a Pokémon Crystal come in. It didn't load at all and I found corrosion around the cart pins.
-Carefully scratching away the solder had it loading up again, but the far right contact (the ground) had solder under the gold finger and I was worried it'll eventually fall away. Originally I wanted to swap all the parts to a new PCB, but that requires actually purchasing another Pokémon Crystal (which sell for around £20-30) - which didn't make sense.
-Ultimately I cleaned as much as I could under the pad and then used solder mask to secure the gold finger down and now it's secure and safe for a good many years of usage. Returned to a very happy customer :)]]></summary>
-        <author>
-            <name>remy sharp's b:log</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sq [link]]]></title>
-        <id>2023-03-30-75858f69</id>
-        <link href="https://remysharp.com/links/2023-03-30-75858f69"/>
-        <updated>2023-03-30T11:10:21.000Z</updated>
-        <summary type="html"><![CDATA[Like jq but for postgres databases (or sqlserver, csv or even xlsx).
-What's neat is that you register a database with the system, then you can query against that particular database.
-Very nice that I can use this on the command line and then pipe into jq for more data manip.
-Source: sq.io]]></summary>
-        <author>
-            <name>remy sharp's b:log</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What’s New in Figma]]></title>
-        <id>yzmpLrmdStLDqW87H</id>
-        <link href="https://www.figma.com/whats-new/"/>
-        <updated>2023-03-30T11:03:29.000Z</updated>
-        <summary type="html"><![CDATA[Learn about our latest features and updates.]]></summary>
-        <author>
-            <name>@figma</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Software accessibility for users with Dyslexia]]></title>
-        <id>R2sAS6koaP2maXdvi</id>
-        <link href="https://uxdesign.cc/software-accessibility-for-users-with-dyslexia-a506698af4d6"/>
-        <updated>2023-03-30T10:59:47.000Z</updated>
-        <summary type="html"><![CDATA[Let’s focus on cognitive accessibility of digital products and how to make them better for users with Dyslexia.]]></summary>
-        <author>
-            <name>@uxdesigncc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Music Classical: The importance of using metadata for UX]]></title>
-        <id>https://news.ycombinator.com/item?id=35370779</id>
-        <link href="https://www.wsj.com/articles/apple-music-classical-app-3325c6ba"/>
-        <updated>2023-03-30T10:59:46.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.wsj.com/articles/apple-music-classical-app-3325c6ba
-Comments URL: https://news.ycombinator.com/item?id=35370779
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>treyfitty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Passwords Deserve An App]]></title>
-        <id>oBvtSeCm7eZNgXnAz</id>
-        <link href="https://cabel.com/2023/03/27/apple-passwords-deserve-an-app/"/>
-        <updated>2023-03-30T10:59:33.000Z</updated>
-        <summary type="html"><![CDATA[We all know that Apple has nice built-in password management in macOS and iOS.]]></summary>
-        <author>
-            <name>@cabel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: CodePrompt – a UI for loading code repos into GPT prompts]]></title>
-        <id>https://news.ycombinator.com/item?id=35370579</id>
-        <link href="https://codeprompt.xyz/"/>
-        <updated>2023-03-30T10:32:48.000Z</updated>
-        <summary type="html"><![CDATA[Hi HN, I'm Chun Rapeepat.
-Last week I started playing with GPT-4 and tried different ways to use it to optimize my dev workflow. It was fun, and I was just blown away by what GPT-4 can do.
-The idea of CodePrompt first came to mind when I read "Show HN: GPT Repo Loader – load entire code repos into GPT prompts" [1]. It was precisely what I wanted to do! So I tried it.
-The GPT Repo Loader works pretty well on a small codebase; However, due to its limitations in loading all files and content into the prompt, I still ran into token context limit issues and needed to copy/edit the code myself.
-That's when I started working on CodePrompt. Instead of loading the entire repo, why not just load only relevant files or portions of code (or function headers?) that need for the requirement?
-How I designed the user journey of CodePrompt.xyz:
-1. Choose a GPT model.
-2. Select a repo that you want to work with.
-3. Pick the relevant files that you want to include in the prompt.
-4. Add specific instructions and remove irrelevant codes as needed.
-5. Copy the prompt to your chosen GPT model to generate the desired output. Chat & Iterate.
-6. If you want to do something else, just go to (3) again.
-This allows me to easily generate prompts to do something like 
-- Implement features that evolve edits on multiple files
-- Create new components while reusing existing codebase
-- Generate code with the same style as other files, etc.
-I would love to hear all your feedback and ideas on how I can improve it. Or if you want to chat, feel free to ping me on my Twitter @chunrapeepat.
-P.S. The project is 100% open-source and free to use. 
-Check it out: https://github.com/chunrapeepat/codeprompt
-[1] https://news.ycombinator.com/item?id=35191303
-Comments URL: https://news.ycombinator.com/item?id=35370579
-Points: 5
-# Comments: 2]]></summary>
-        <author>
-            <name>chunza2542</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making change happen]]></title>
-        <id>https://seths.blog/?p=42221</id>
-        <link href="https://seths.blog/2023/03/making-change-happen/"/>
-        <updated>2023-03-30T08:17:00.000Z</updated>
-        <summary type="html"><![CDATA[One way to do it is to get people to want what you want. The other way is to help them get what they want in a way that gets you what you want. They’re not the same. Changing what someone wants is very different from helping them see the story and the path that […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UX Analysis: Bing AI vs. Google]]></title>
-        <id>https://news.ycombinator.com/item?id=35369250</id>
-        <link href="https://growth.design/case-studies/new-bing-ai-ep2"/>
-        <updated>2023-03-30T07:22:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://growth.design/case-studies/new-bing-ai-ep2
-Comments URL: https://news.ycombinator.com/item?id=35369250
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>idonov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Atomix – UX/UI Design Services for Tech Companies and Startups]]></title>
-        <id>https://news.ycombinator.com/item?id=35369132</id>
-        <link href="https://atomix.design/"/>
-        <updated>2023-03-30T07:08:13.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://atomix.design/
-Comments URL: https://news.ycombinator.com/item?id=35369132
-Points: 5
-# Comments: 0]]></summary>
-        <author>
-            <name>lukassoukup</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CLion 2023.1 Is Out with Vcpkg, Disassemble on Demand, and Updates to New UI]]></title>
-        <id>https://news.ycombinator.com/item?id=35368414</id>
-        <link href="https://blog.jetbrains.com/clion/2023/03/clion-2023-1-is-out/"/>
-        <updated>2023-03-30T05:24:17.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.jetbrains.com/clion/2023/03/clion-2023-1-is-out/
-Comments URL: https://news.ycombinator.com/item?id=35368414
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>jandeboevrie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS Masking]]></title>
-        <id>http://ishadeed.com/article/css-masking/</id>
-        <link href="http://ishadeed.com/article/css-masking/"/>
-        <updated>2023-03-30T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A deep dive into CSS masking]]></summary>
-        <author>
-            <name>Ahmad Shadeed Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Computer Design and Innovation]]></title>
-        <id>https://news.ycombinator.com/item?id=35367599</id>
-        <link href="http://slipperyskip.com/page23.html"/>
-        <updated>2023-03-30T03:36:35.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://slipperyskip.com/page23.html
-Comments URL: https://news.ycombinator.com/item?id=35367599
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>thunderbong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using GPT-4 to create custom UI on demand inside apps]]></title>
-        <id>https://news.ycombinator.com/item?id=35366388</id>
-        <link href="https://twitter.com/mlejva/status/1641151421830529042"/>
-        <updated>2023-03-30T01:13:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/mlejva/status/1641151421830529042
-Comments URL: https://news.ycombinator.com/item?id=35366388
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>mlejva</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Boost Your Productivity with These Essential IntelliJ Idea Shortcuts]]></title>
-        <id>https://news.ycombinator.com/item?id=35363957</id>
-        <link href="https://www.lirent.net/2023/03/boost-your-productivity-with-these-essential-intellij-idea-shortcuts-pdf-included/"/>
-        <updated>2023-03-29T21:27:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.lirent.net/2023/03/boost-your-productivity-with-these-essential-intellij-idea-shortcuts-pdf-included/
-Comments URL: https://news.ycombinator.com/item?id=35363957
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>rxe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An open source ChatGPT UI]]></title>
-        <id>https://news.ycombinator.com/item?id=35363468</id>
-        <link href="https://github.com/mckaywrigley/chatbot-ui"/>
-        <updated>2023-03-29T20:55:41.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://github.com/mckaywrigley/chatbot-ui
-Comments URL: https://news.ycombinator.com/item?id=35363468
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>johnxie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cube CSS – Simple, consistent, and pragmatic CSS methodology]]></title>
-        <id>https://news.ycombinator.com/item?id=35363046</id>
-        <link href="https://cube.fyi/"/>
-        <updated>2023-03-29T20:29:55.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://cube.fyi/
-Comments URL: https://news.ycombinator.com/item?id=35363046
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>pps</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: A HTML export tool for Notion.so]]></title>
-        <id>https://news.ycombinator.com/item?id=35362260</id>
-        <link href="https://github.com/sueszli/notionSnapshot"/>
-        <updated>2023-03-29T19:41:14.000Z</updated>
-        <summary type="html"><![CDATA[Hi everyone!
-I've been really frustrated with the way Notion.so exports your data.
-I felt like I was locked into their environment, because the exported files don't resemble the original Notion pages very well.
-This HN post really motivated me to take matters into my own hands: https://news.ycombinator.com/item?id=35316679
-I built notionSnapshot - a HTML export tool for Notion that looks just like the original pages (it's actually a fork of loconotion if you already know that project).
-Anyway - it took me longer than expected to build and I would really appreciate your feedback.
-Comments URL: https://news.ycombinator.com/item?id=35362260
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>sueszli</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS is hard no matter how good you are at it]]></title>
-        <id>https://news.ycombinator.com/item?id=35361628</id>
-        <link href="https://www.aha.io/engineering/articles/css-is-hard-no-matter-how-good-you-are-at-it"/>
-        <updated>2023-03-29T18:58:32.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.aha.io/engineering/articles/css-is-hard-no-matter-how-good-you-are-at-it
-Comments URL: https://news.ycombinator.com/item?id=35361628
-Points: 66
-# Comments: 63]]></summary>
-        <author>
-            <name>SteelWo1f</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Design Is Governance]]></title>
-        <id>https://news.ycombinator.com/item?id=35361347</id>
-        <link href="https://caseorganic.medium.com/how-design-is-governance-7c8dd466d753"/>
-        <updated>2023-03-29T18:37:04.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://caseorganic.medium.com/how-design-is-governance-7c8dd466d753
-Comments URL: https://news.ycombinator.com/item?id=35361347
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>SLHamlet</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Never forget that utterly ridiculous Pepsi logo design document]]></title>
-        <id>https://news.ycombinator.com/item?id=35358789</id>
-        <link href="https://www.creativebloq.com/news/never-forget-that-utterly-ridiculous-pepsi-logo-design-document"/>
-        <updated>2023-03-29T15:38:11.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.creativebloq.com/news/never-forget-that-utterly-ridiculous-pepsi-logo-design-document
-Comments URL: https://news.ycombinator.com/item?id=35358789
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>BerislavLopac</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Copilot for the Command Line is amazing!]]></title>
-        <id>https://christianheilmann.com/?p=7642</id>
-        <link href="https://christianheilmann.com/2023/03/29/github-copilot-for-the-command-line-is-amazing/"/>
-        <updated>2023-03-29T15:32:59.000Z</updated>
-        <summary type="html"><![CDATA[I just got access to GitHub Copilot CLI and a few seconds after installing it, I am happy as a clam about it. You can see it in action in this video or let me talk you through it here. GitHub Copilot CLI brings AI code completion to your terminal. After installing it, you get […]]]></summary>
-        <author>
-            <name>Chris Heilmann</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why content accessibility is good for Search Engine Optimization (SEO)]]></title>
-        <id>https://business.scope.org.uk/?p=6603</id>
-        <link href="https://business.scope.org.uk/article/why-content-accessibility-is-good-for-search-engine-optimization-seo"/>
-        <updated>2023-03-29T14:49:25.000Z</updated>
-        <summary type="html"><![CDATA[The post Why content accessibility is good for Search Engine Optimization (SEO) appeared first on Scope for business.]]></summary>
-        <author>
-            <name>Scope</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PatternFly – open-source design system for consistency and usability]]></title>
-        <id>https://news.ycombinator.com/item?id=35358017</id>
-        <link href="https://www.patternfly.org/v4/"/>
-        <updated>2023-03-29T14:44:27.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.patternfly.org/v4/
-Comments URL: https://news.ycombinator.com/item?id=35358017
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>akamhy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making your UI tests resilient to change]]></title>
-        <id>https://news.ycombinator.com/item?id=35357681</id>
-        <link href="https://kentcdodds.com/blog/making-your-ui-tests-resilient-to-change"/>
-        <updated>2023-03-29T14:20:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://kentcdodds.com/blog/making-your-ui-tests-resilient-to-change
-Comments URL: https://news.ycombinator.com/item?id=35357681
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>vinnyglennon</name>
         </author>
     </entry>
 </feed>
