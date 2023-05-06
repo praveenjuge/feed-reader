@@ -196,6 +196,16 @@
       "siteUrl": "https://christianheilmann.com",
       "articles": [
         {
+          "id": "https://christianheilmann.com/?p=7721",
+          "author": "Chris Heilmann",
+          "description": "And that’s a wrap. I recorded my last video in the German LinkedIn Learning video course on “Browser developer tools for non-developers”. My favourite stumbling block over the course of the last few days was me starting a sentence with “Und hier verwenden Entwickler:innen…” (“…and here is where developers use…”) and making a pig’s ear […]",
+          "link": "https://christianheilmann.com/2023/05/05/here-is-where-developers-perish/",
+          "publishedOn": "2023-05-05T07:15:11.000Z",
+          "wordCount": 750,
+          "title": "Here is where developers perish…",
+          "imageUrl": null
+        },
+        {
           "id": "https://christianheilmann.com/?p=7711",
           "author": "Chris Heilmann",
           "description": "I am currently in Graz, Austria to record a video series of “Developer tools for non-developers” for LinkedIn Learning. We had a massive ride by car down here from Berlin as my partner isn’t too hot on flying. The city is ridiculously pretty and we arrived on first of May which is the day of […]",
@@ -254,16 +264,6 @@
           "wordCount": 582,
           "title": "Resetting Twitter’s interests list using browser developer tools",
           "imageUrl": null
-        },
-        {
-          "id": "https://christianheilmann.com/?p=7673",
-          "author": "Chris Heilmann",
-          "description": "Here’s a quick video of me showing you the benefits of GitHub Copilot for docs: AI powered chat interfaces are a great and fun way to learn about new technologies. The problem is quality and relevance. Chat GPT for example doesn’t tell you the source of the information. Bing chat does at times pull from […]",
-          "link": "https://christianheilmann.com/2023/04/05/github-copilot-for-docs-putting-the-fun-into-rtfm/",
-          "publishedOn": "2023-04-05T13:41:47.000Z",
-          "wordCount": 791,
-          "title": "GitHub Copilot for Docs – putting the “fun” into RTFM",
-          "imageUrl": null
         }
       ]
     },
@@ -316,6 +316,36 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://dailydevlinks.com/",
       "articles": [
+        {
+          "id": "https://dailydevlinks.com/?p=12135",
+          "author": "Adam Marsden",
+          "description": "BrowserTool",
+          "link": "https://dailydevlinks.com/cross-browser-testing-with-the-microsoft-remote-desktop-app/",
+          "publishedOn": "2023-05-05T11:33:00.000Z",
+          "wordCount": 3088,
+          "title": "Cross-browser testing with the Microsoft Remote Desktop app",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=12138",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/dark-mode-in-3-lines-of-css-and-other-adventures/",
+          "publishedOn": "2023-05-05T11:30:00.000Z",
+          "wordCount": 3101,
+          "title": "Dark Mode in 3 Lines of CSS and Other Adventures",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=12141",
+          "author": "Adam Marsden",
+          "description": "A11YUI",
+          "link": "https://dailydevlinks.com/high-contrast-when-you-think-dark-mode-is-enough/",
+          "publishedOn": "2023-05-05T11:30:00.000Z",
+          "wordCount": 3096,
+          "title": "High-contrast — when you think dark mode is enough",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
         {
           "id": "https://dailydevlinks.com/?p=12132",
           "author": "Adam Marsden",
@@ -870,6 +900,16 @@
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
         {
+          "id": "https://developer.chrome.com/en/blog/new-in-devtools-114/",
+          "author": null,
+          "description": "Interested in helping improve DevTools? Sign up to participate in Google User Research here.\nThere is no 'What's new in DevTools' video for this release, but you can watch this quick recap of the recent features.\n  \n  \n\n\n# WebAssembly debugging support\nDevTools enables  Settings > Experiments >  WebAssembly Debugging: Enable DWARF support by default. For more information, see Debugging WebAssembly with modern tools.\nThis experiment lets you pause execution and debug C and C++ code in Wasm apps, with all the debugging information available to you:\nYour original source code, mapped using DWARF debugging information.\nUnderstandable function names in call stack.\nBreakpoints support, and more.\nTo test Wasm debugging, install the C/C++ DevTools Support (DWARF) extension and step through the code…",
+          "link": "https://developer.chrome.com/en/blog/new-in-devtools-114/",
+          "publishedOn": "2023-05-05T00:00:00.000Z",
+          "wordCount": 4260,
+          "title": "What's New in DevTools (Chrome 114)",
+          "imageUrl": "https://wd.imgix.net/image/NJdAV9UgKuN8AhoaPBquL7giZQo1/fy7JKyzJt0EPZd1g8hwl.jpg?auto=format&w=1521"
+        },
+        {
           "id": "https://developer.chrome.com/en/blog/new-in-chrome-113/",
           "author": null,
           "description": "Here's what you need to know:\nWebGPU is here, it allows high-performance 3D graphics and data-parallel computation on the web.\nDevtools can now override network response headers.\nFirst Party Sets, part of the Privacy Sandbox, that allows organizations to declare related sites is starting to roll out.\nAnd there's plenty more.\nI'm Adriana Jara. Let's dive in and see what's new for developers in Chrome 113.\n# WebGPU is here.\nWebGPU is a new API for the web, which exposes modern hardware capabilities and allows rendering and computation operations on a GPU, similar to Direct3D 12, Metal, and Vulkan.\nUnlike the WebGL family of APIs, WebGPU offers access to more advanced GPU features and provides first-class support for general computations on the GPU.\nThe API is designed with the web platform i…",
@@ -1018,26 +1058,6 @@
           "wordCount": 4179,
           "title": "What's New in DevTools (Chrome 113)",
           "imageUrl": "https://wd.imgix.net/image/NJdAV9UgKuN8AhoaPBquL7giZQo1/deVc0yGGerSjHtSI3Drw.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/webgpu-release/",
-          "author": null,
-          "description": "The Chrome team is thrilled to announce that WebGPU is now available by default in Chrome 113, which is currently in the Beta channel. WebGPU is a new web graphics API that offers significant benefits such as greatly reduced JavaScript workload for the same graphics and more than three times improvements in machine learning model inferences. This is possible due to more flexible GPU programming and access to advanced capabilities that WebGL does not provide.\nThis initial release of WebGPU is available on ChromeOS, macOS, and Windows. Support for other platforms is coming later this year.\n# A new dawn for web graphics\nWebGPU is a new API for the web, which exposes modern hardware capabilities and allows rendering and computation operations on a GPU, similar to Direct3D 12, Metal, and Vulkan…",
-          "link": "https://developer.chrome.com/en/blog/webgpu-release/",
-          "publishedOn": "2023-04-06T00:00:00.000Z",
-          "wordCount": 1070,
-          "title": "Chrome ships WebGPU",
-          "imageUrl": "https://wd.imgix.net/image/vvhSqZboQoZZN9wBvoXq72wzGAf1/DV3geEz9FsEc3JiFPSY2.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/chrome-113-beta/",
-          "author": null,
-          "description": "Unless otherwise noted, changes described below apply to the newest Chrome beta channel release for Android, ChromeOS, Linux, macOS, and Windows. Learn more about the features listed here through the provided links or from the list on ChromeStatus.com. Chrome 113 is beta as of 6 April, 2023. You can download the latest on Google.com for desktop or on Google Play Store on Android.\n# CSS\nThis release adds four new CSS features.\n# CSS overflow media features\nChrome 113 includes the overflow-inline and overflow-block media features. They enable testing of how a device handles content that overflows the initial containing block.\n# CSS update media feature\nThe update media feature enables the creation of styles for print, slow, and fast output displays:\nprint: Documents on paper.\nslow: Includes …",
-          "link": "https://developer.chrome.com/en/blog/chrome-113-beta/",
-          "publishedOn": "2023-04-06T00:00:00.000Z",
-          "wordCount": 1479,
-          "title": "Chrome 113 beta",
-          "imageUrl": "https://wd.imgix.net/image/kheDArv5csY6rvQUJDbWRscckLr1/MYpMWroPXERbeqC3LbZS.png?auto=format&w=1521"
         }
       ]
     },
@@ -1943,6 +1963,86 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35836476",
+          "author": "dsego",
+          "description": "Article URL: https://www.nokia.com/phones/en_int/nokia-g-22\nComments URL: https://news.ycombinator.com/item?id=35836476\nPoints: 1\n# Comments: 1",
+          "link": "https://www.nokia.com/phones/en_int/nokia-g-22",
+          "publishedOn": "2023-05-05T23:40:46.000Z",
+          "wordCount": 3154,
+          "title": "Nokia G22 with eco design and repairability",
+          "imageUrl": "https://images.ctfassets.net/wcfotm6rrl7u/1PpGktdz6w2Sbvo2s6ZlsL/69bdabe452f5680b5ee7d8a9964a7cb2/nokia_G22-og_image.jpg?w=1200"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35835654",
+          "author": "davidbarker",
+          "description": "Article URL: https://evilmartians.com/chronicles/icon-transcendence-customizing-icons-to-complement-fonts\nComments URL: https://news.ycombinator.com/item?id=35835654\nPoints: 1\n# Comments: 0",
+          "link": "https://evilmartians.com/chronicles/icon-transcendence-customizing-icons-to-complement-fonts",
+          "publishedOn": "2023-05-05T22:03:42.000Z",
+          "wordCount": 7197,
+          "title": "Icon transcendence: customizing icons to complement fonts",
+          "imageUrl": "https://evilmartians.com/social-cards/chronicles/icon-transcendence-customizing-icons-to-complement-fonts.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35829519",
+          "author": "OJFord",
+          "description": "Article URL: https://philip.greenspun.com/software/design-review\nComments URL: https://news.ycombinator.com/item?id=35829519\nPoints: 1\n# Comments: 0",
+          "link": "https://philip.greenspun.com/software/design-review",
+          "publishedOn": "2023-05-05T14:15:42.000Z",
+          "wordCount": 5668,
+          "title": "Software Design Review (2009)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35828624",
+          "author": "phil294",
+          "description": "Article URL: https://hugotunius.se/2020/10/31/flutter-web-a-fractal-of-bad-design.html\nComments URL: https://news.ycombinator.com/item?id=35828624\nPoints: 87\n# Comments: 68",
+          "link": "https://hugotunius.se/2020/10/31/flutter-web-a-fractal-of-bad-design.html",
+          "publishedOn": "2023-05-05T12:57:20.000Z",
+          "wordCount": 1723,
+          "title": "Flutter Web: A Fractal of Bad Design (2020)",
+          "imageUrl": "https://hugotunius.se/favicon-192.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35828165",
+          "author": "Philpax",
+          "description": "Article URL: https://www.ambient.run/post/ambient-0-2\nComments URL: https://news.ycombinator.com/item?id=35828165\nPoints: 6\n# Comments: 1",
+          "link": "https://www.ambient.run/post/ambient-0-2",
+          "publishedOn": "2023-05-05T12:03:15.000Z",
+          "wordCount": 2050,
+          "title": "Ambient 0.2: multiplayer UI, sound, clientside WASM, and more",
+          "imageUrl": ""
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35827677",
+          "author": "zhiyiYo",
+          "description": "Article URL: https://github.com/zhiyiYo/PyQt-Fluent-Widgets\nComments URL: https://news.ycombinator.com/item?id=35827677\nPoints: 2\n# Comments: 1",
+          "link": "https://github.com/zhiyiYo/PyQt-Fluent-Widgets",
+          "publishedOn": "2023-05-05T11:05:33.000Z",
+          "wordCount": 888,
+          "title": "PyQt-Fluent-Widgets: A fluent design widgets library based on PyQt/PySide",
+          "imageUrl": "https://repository-images.githubusercontent.com/390782193/f0dbea2c-db67-4a6f-8a26-49997b559bdf"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35825516",
+          "author": "flurly",
+          "description": "Article URL: https://github.com/FlowiseAI/Flowise\nComments URL: https://news.ycombinator.com/item?id=35825516\nPoints: 2\n# Comments: 0",
+          "link": "https://github.com/FlowiseAI/Flowise",
+          "publishedOn": "2023-05-05T05:27:05.000Z",
+          "wordCount": 835,
+          "title": "Flowise – Drag and drop UI to build your customized LLM flow using LangchainJS",
+          "imageUrl": "https://opengraph.githubassets.com/c75420f53883b83fa9a1a31e052d19e1f1877c5d3ed4dff7271c5e037863d119/FlowiseAI/Flowise"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35823978",
+          "author": "birriel",
+          "description": "Article URL: https://www.science.org/doi/10.1126/science.adf6591\nComments URL: https://news.ycombinator.com/item?id=35823978\nPoints: 1\n# Comments: 0",
+          "link": "https://www.science.org/doi/10.1126/science.adf6591",
+          "publishedOn": "2023-05-05T00:36:59.000Z",
+          "wordCount": null,
+          "title": "Top-down design of protein architectures with reinforcement learning",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35823197",
           "author": "bookofjoe",
@@ -4302,46 +4402,6 @@
           "wordCount": 2270,
           "title": "Show HN: Semafor UI for HN",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35462920",
-          "author": "jamesy0ung",
-          "description": "Article URL: https://www.emaculation.com/doku.php/m68k-qemu-on-windows#running_qemu-system-m68k_with_a_ux_3x_guests_in_windows\nComments URL: https://news.ycombinator.com/item?id=35462920\nPoints: 1\n# Comments: 0",
-          "link": "https://www.emaculation.com/doku.php/m68k-qemu-on-windows#running_qemu-system-m68k_with_a_ux_3x_guests_in_windows",
-          "publishedOn": "2023-04-06T01:27:52.000Z",
-          "wordCount": 2667,
-          "title": "A/UX on QEMU",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35462860",
-          "author": "mattpallissard",
-          "description": "Anyone know if Spotify measures UI usage?  I find the new UI unusable for browsing.\nI'd like to think they're distinguishing between the various forms of usage like search, home screen, library (I know I would).    I'm tempted to forego the app entirely.  But my wife didn't get the update and my playlists are still usable.\nPS, If anyone here worked on the new UI; how about giving us guinea pigs an opt out option?\nComments URL: https://news.ycombinator.com/item?id=35462860\nPoints: 5\n# Comments: 6",
-          "link": "https://news.ycombinator.com/item?id=35462860",
-          "publishedOn": "2023-04-06T01:21:38.000Z",
-          "wordCount": 616,
-          "title": "Spotify new mobile UI roll out",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35459007",
-          "author": "gravitate",
-          "description": "Article URL: https://www.nngroup.com/articles/agile-glossary/\nComments URL: https://news.ycombinator.com/item?id=35459007\nPoints: 2\n# Comments: 0",
-          "link": "https://www.nngroup.com/articles/agile-glossary/",
-          "publishedOn": "2023-04-05T19:10:38.000Z",
-          "wordCount": 3530,
-          "title": "Lean UX and Agile Glossary",
-          "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/Glossary-Agile_73.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35453718",
-          "author": "RicDan",
-          "description": "Article URL: https://hephaistos.medium.com/using-preview-environments-to-accelerate-ux-feedback-f5bccfcf0837\nComments URL: https://news.ycombinator.com/item?id=35453718\nPoints: 1\n# Comments: 1",
-          "link": "https://hephaistos.medium.com/using-preview-environments-to-accelerate-ux-feedback-f5bccfcf0837",
-          "publishedOn": "2023-04-05T13:22:42.000Z",
-          "wordCount": 5685,
-          "title": "Using Preview Environments to Accelerate UX Feedback",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1172/1*d5BBwg50KoScdpLRiNjLHw.png"
         }
       ]
     },
@@ -4350,6 +4410,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35833890",
+          "author": "tomerbd",
+          "description": "Article URL: https://www.fastcompany.com/90890188/your-to-do-list-is-sabotaging-your-true-productivity-heres-what-to-do-instead\nComments URL: https://news.ycombinator.com/item?id=35833890\nPoints: 3\n# Comments: 0",
+          "link": "https://www.fastcompany.com/90890188/your-to-do-list-is-sabotaging-your-true-productivity-heres-what-to-do-instead",
+          "publishedOn": "2023-05-05T19:13:15.000Z",
+          "wordCount": null,
+          "title": "To-do list is sabotaging your true productivity. Here’s what to do instead",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35820808",
           "author": "burningion",
@@ -4859,56 +4929,6 @@
           "wordCount": 632,
           "title": "Show HN: Using Mastodon as a RSS Reader",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35459841",
-          "author": "PuddleOfSausage",
-          "description": "Article URL: https://onlyrss.org/posts/10-benefits-of-rss-for-product-managers.html\nComments URL: https://news.ycombinator.com/item?id=35459841\nPoints: 3\n# Comments: 0",
-          "link": "https://onlyrss.org/posts/10-benefits-of-rss-for-product-managers.html",
-          "publishedOn": "2023-04-05T20:20:28.000Z",
-          "wordCount": 786,
-          "title": "Benefits of RSS for Product Managers",
-          "imageUrl": "https://onlyrss.org/images/og/10-benefits-of-rss-og.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35456011",
-          "author": "havingfunwithai",
-          "description": "Article URL: https://www.shezennow.com/blogs/news/how-mindfulness-improves-your-productivity/#\nComments URL: https://news.ycombinator.com/item?id=35456011\nPoints: 3\n# Comments: 0",
-          "link": "https://www.shezennow.com/blogs/news/how-mindfulness-improves-your-productivity/#",
-          "publishedOn": "2023-04-05T15:41:14.000Z",
-          "wordCount": 6706,
-          "title": "The Secret to Increased Productivity",
-          "imageUrl": "http://cdn.shopify.com/s/files/1/0717/3396/9195/files/Untitled_design_9b33ad5a-7848-48a0-8922-042f65e2d215.jpg?v=1680487806"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35454784",
-          "author": "gmays",
-          "description": "Article URL: https://www.nature.com/articles/d41586-023-00967-5\nComments URL: https://news.ycombinator.com/item?id=35454784\nPoints: 1\n# Comments: 0",
-          "link": "https://www.nature.com/articles/d41586-023-00967-5",
-          "publishedOn": "2023-04-05T14:25:28.000Z",
-          "wordCount": 3087,
-          "title": "Habit-linked brain circuits light up in people with eating disorders",
-          "imageUrl": "https://media.nature.com/lw1024/magazine-assets/d41586-023-00967-5/d41586-023-00967-5_25201048.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35454760",
-          "author": "ecliptik",
-          "description": "Article URL: https://tedium.co/2023/04/05/productivity-electronics-airplanes-history/\nComments URL: https://news.ycombinator.com/item?id=35454760\nPoints: 1\n# Comments: 0",
-          "link": "https://tedium.co/2023/04/05/productivity-electronics-airplanes-history/",
-          "publishedOn": "2023-04-05T14:24:21.000Z",
-          "wordCount": 3836,
-          "title": "Mile-High Productivity",
-          "imageUrl": "https://images.tedium.co/uploads/tedium040523_2023-04-05-134509_fssi.gif"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35454165",
-          "author": "ingve",
-          "description": "Article URL: https://awesomekling.github.io/Excellence-is-a-habit-but-so-is-failure/\nComments URL: https://news.ycombinator.com/item?id=35454165\nPoints: 3\n# Comments: 0",
-          "link": "https://awesomekling.github.io/Excellence-is-a-habit-but-so-is-failure/",
-          "publishedOn": "2023-04-05T13:50:56.000Z",
-          "wordCount": 288,
-          "title": "Excellence is a habit, but so is failure",
-          "imageUrl": null
         }
       ]
     },
@@ -4917,6 +4937,26 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35835488",
+          "author": "dban",
+          "description": "Article URL: https://blog.railway.app/p/twin-macro-tailwind-migration\nComments URL: https://news.ycombinator.com/item?id=35835488\nPoints: 1\n# Comments: 0",
+          "link": "https://blog.railway.app/p/twin-macro-tailwind-migration",
+          "publishedOn": "2023-05-05T21:44:40.000Z",
+          "wordCount": 5393,
+          "title": "We Ripped Twin out of 400 Components and Replaced it with vanilla Tailwind",
+          "imageUrl": "https://res.cloudinary.com/railway/image/upload/v1683176974/remove-twin_v87jvx.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35828417",
+          "author": "tambourine_man",
+          "description": "Article URL: https://moderncss.dev/\nComments URL: https://news.ycombinator.com/item?id=35828417\nPoints: 29\n# Comments: 1",
+          "link": "https://moderncss.dev/",
+          "publishedOn": "2023-05-05T12:34:05.000Z",
+          "wordCount": 1321,
+          "title": "Modern CSS Solutions",
+          "imageUrl": "https://moderncss.dev/img/social/home.jpeg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35823369",
           "author": "bookstore-romeo",
@@ -5546,36 +5586,6 @@
           "wordCount": 229,
           "title": "Show HN: Free/Open Source Next.js / Tailwind / Firebase web app starter kit",
           "imageUrl": "https:/firestarterapp.com/assets/logo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35466254",
-          "author": "samwillis",
-          "description": "Article URL: https://developer.chrome.com/blog/new-in-chrome-112/\nComments URL: https://news.ycombinator.com/item?id=35466254\nPoints: 1\n# Comments: 0",
-          "link": "https://developer.chrome.com/blog/new-in-chrome-112/",
-          "publishedOn": "2023-04-06T09:44:04.000Z",
-          "wordCount": 1179,
-          "title": "New in Chrome 112 – CSS support for nesting",
-          "imageUrl": "https://wd.imgix.net/image/SeARmcA1EicLXagFnVOe0ou9cqK2/kYS3DlJai8qJioFUduBI.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35465902",
-          "author": "mdhb",
-          "description": "Article URL: https://www.matuzo.at/blog/2022/100-days-of-more-or-less-modern-css/\nComments URL: https://news.ycombinator.com/item?id=35465902\nPoints: 2\n# Comments: 0",
-          "link": "https://www.matuzo.at/blog/2022/100-days-of-more-or-less-modern-css/",
-          "publishedOn": "2023-04-06T08:51:10.000Z",
-          "wordCount": 668,
-          "title": "100 Days of More or Less Modern CSS",
-          "imageUrl": "https://res.cloudinary.com/dp3mem7or/image/upload/w_1200/articles/sm_100days-css.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35458868",
-          "author": "winkmaster",
-          "description": "Article URL: https://medium.com/@grace.lungu/building-a-web-render-plugin-for-chatgpt-a-seamless-html-css-preview-experience-c31d8df36df9\nComments URL: https://news.ycombinator.com/item?id=35458868\nPoints: 3\n# Comments: 1",
-          "link": "https://medium.com/@grace.lungu/building-a-web-render-plugin-for-chatgpt-a-seamless-html-css-preview-experience-c31d8df36df9",
-          "publishedOn": "2023-04-05T18:57:47.000Z",
-          "wordCount": 2179,
-          "title": "ChatGPT renders HTML/CSS right in the chat with this new plugin",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*J-GcNSd76W4SSw2IjYik5g.png"
         }
       ]
     },
@@ -5708,6 +5718,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=45912",
+          "author": "Seth Godin",
+          "description": "Amazon is the last one. They are probably the last huge company where hundreds of thousands of people will be surveilled, measured and ordered to follow the rule book. The pandemic didn’t create distributed work, the laptop did. Human interaction is critical, but the office isn’t actually the most effective way to create that. David […]",
+          "link": "https://seths.blog/2023/05/the-new-way-of-work/",
+          "publishedOn": "2023-05-05T08:35:00.000Z",
+          "wordCount": 968,
+          "title": "The new way of work",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=45916",
           "author": "Seth Godin",
@@ -5992,16 +6012,6 @@
           "wordCount": 1029,
           "title": "Two kinds of salad",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=45575",
-          "author": "Seth Godin",
-          "description": "A metaphor involving parking meters. Over the years, parking meters in town have evolved into a cumbersome, awkward system. Coins are heavy and you need to have them handy, meters need to be reinforced against theft and breakage, town employees have to empty the coins and securely deliver them to the bank, meter feeding allows […]",
-          "link": "https://seths.blog/2023/04/replacing-bad-systems-with-bad-systems/",
-          "publishedOn": "2023-04-06T08:55:00.000Z",
-          "wordCount": 1649,
-          "title": "Replacing bad systems with bad systems",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
         }
       ]
     },
@@ -6010,6 +6020,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "WR8KZe3HLCynCjWBH",
+          "author": "@uxdesigncc",
+          "description": "Learn one of the ways in which AI has elevated my design work.",
+          "link": "https://uxdesign.cc/how-i-used-midjourney-to-design-a-brand-identity-394cf9ddaeed",
+          "publishedOn": "2023-05-05T08:59:14.000Z",
+          "wordCount": 2457,
+          "title": "How I used Midjourney to design a brand identity",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*UUeraGxceJz9P3SX-HQ_BQ.png"
+        },
+        {
+          "id": "bwSpT4irdSbcGEXFQ",
+          "author": "@nytimes",
+          "description": "An interactive explanation of how language models learn to mimic language, from Shakespeare to Star Trek.",
+          "link": "https://www.nytimes.com/interactive/2023/04/26/upshot/gpt-from-scratch.html",
+          "publishedOn": "2023-05-05T08:56:44.000Z",
+          "wordCount": 6094,
+          "title": "Let Us Show You How GPT Works — Using Jane Austen",
+          "imageUrl": "https://static01.nyt.com/images/2023/04/25/upshot/gpt-from-scratch-promo/gpt-from-scratch-promo-facebookJumbo.png"
+        },
+        {
+          "id": "2FHuxkTRu5j92eujT",
+          "author": null,
+          "description": "The visual technique library for visual technique lovers. Enjoy. Learn. Don’t gatekeep.",
+          "link": "https://eycndy.com/",
+          "publishedOn": "2023-05-05T08:55:29.000Z",
+          "wordCount": 5447,
+          "title": "Eyecandy - Visual Technique Library",
+          "imageUrl": "http://static1.squarespace.com/static/641a832cd4167e73e6d2e927/t/642f9da196bf1d2e93bbdb23/1680842152082/eye.jpg?format=1500w"
+        },
+        {
+          "id": "ZgmL7prbdndjW7bJR",
+          "author": "@singularityhub",
+          "description": "Is it fair to judge art that was made with AI alongside works conceived of purely by a human brain?",
+          "link": "https://singularityhub.com/2023/04/19/artist-refuses-photography-prize-after-admitting-his-image-was-ai-generated/",
+          "publishedOn": "2023-05-05T08:52:24.000Z",
+          "wordCount": 17612,
+          "title": "Artist Refuses Photography Prize After Admitting His Image Was AI-Generated",
+          "imageUrl": "https://singularityhub.com/wp-content/uploads/2023/04/Boris-Eldagsen-AI-art.jpg"
+        },
+        {
+          "id": "fe7HePhpojrfyahZu",
+          "author": "@evilmartians",
+          "description": "There are many lovely open source icon sets out there, but sometimes, we just need to ‘transcend’ them.",
+          "link": "https://evilmartians.com/chronicles/icon-transcendence-customizing-icons-to-complement-fonts",
+          "publishedOn": "2023-05-05T08:47:41.000Z",
+          "wordCount": 7197,
+          "title": "Icon transcendence: customizing icons to complement fonts",
+          "imageUrl": "https://evilmartians.com/social-cards/chronicles/icon-transcendence-customizing-icons-to-complement-fonts.jpg"
+        },
         {
           "id": "yuJewW7eSBaeTHjfq",
           "author": "@figma",
@@ -7009,56 +7069,6 @@
           "wordCount": 1201,
           "title": "Choosing a name for your design system",
           "imageUrl": "https://bradfrost.com/wp-content/uploads/2017/08/card-image.png"
-        },
-        {
-          "id": "SH8uT9GspKAFQJv7n",
-          "author": "@adobe",
-          "description": "Create images, vectors, videos, and 3D from text with Adobe’s AI art generator.",
-          "link": "https://www.adobe.com/sensei/generative-ai/firefly.html",
-          "publishedOn": "2023-04-06T05:08:13.000Z",
-          "wordCount": 7578,
-          "title": "Adobe Firefly",
-          "imageUrl": null
-        },
-        {
-          "id": "GdKb8pP2KoCCNddhN",
-          "author": "@verge",
-          "description": "How did one of the most hated elements of web design make a comeback?",
-          "link": "https://www.theverge.com/tech/23653544/pop-up-website-ad-ui-design",
-          "publishedOn": "2023-04-06T05:05:39.000Z",
-          "wordCount": 9687,
-          "title": "Pop-ups are everywhere, even though no one wants them",
-          "imageUrl": "https://cdn.vox-cdn.com/thumbor/FHHUdgYrvRo35j4z4DDerJbIRYU=/0x0:3000x2000/1200x628/filters:focal(1500x1000:1501x1001)/cdn.vox-cdn.com/uploads/chorus_asset/file/24539845/P4_Pop_Ups_236587.jpg"
-        },
-        {
-          "id": "yKwQD2fiyF8qDbRwK",
-          "author": "@meta",
-          "description": "A new AI model from Meta AI that can \"cut out\" any object, in any image, with a single click.",
-          "link": "https://segment-anything.com/",
-          "publishedOn": "2023-04-06T05:04:47.000Z",
-          "wordCount": 5,
-          "title": "Segment Anything",
-          "imageUrl": "/assets/corgi_share.png"
-        },
-        {
-          "id": "yRCHns3FESNnA285a",
-          "author": "@codrops",
-          "description": "Inspiration for “pixel” page transitions based on Niccolò Miranda’s animation.",
-          "link": "https://tympanus.net/codrops/2023/04/05/ideas-for-pixel-page-transitions/",
-          "publishedOn": "2023-04-06T05:03:07.000Z",
-          "wordCount": 1061,
-          "title": "Ideas for Pixel Page Transitions",
-          "imageUrl": "https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2023/04/pixeltransition.jpg"
-        },
-        {
-          "id": "CzCX2sFyDTLjEWTpm",
-          "author": "@DataVizSociety",
-          "description": "We provide high-level summaries of findings and answer important questions about the future of data visualization.",
-          "link": "https://www.datavisualizationsociety.org/soti-report-2022",
-          "publishedOn": "2023-04-06T04:57:01.000Z",
-          "wordCount": 7623,
-          "title": "Data Visualization State of the Industry 2022 Report",
-          "imageUrl": "http://static1.squarespace.com/static/5c6055b5fb18206d45d6b27e/t/63c329cfe629af32615728b7/1641259861241/Screen+Shot+2022-01-03+at+7.30.45+PM.png?format=1500w"
         }
       ]
     },
@@ -7103,6 +7113,16 @@
       "siteUrl": "https://webkit.org",
       "articles": [
         {
+          "id": "https://www.webkit.org/?p=14139",
+          "author": null,
+          "description": "Today, we are excited to announce docs.webkit.org, a new documentation home for the WebKit developer community.",
+          "link": "https://webkit.org/blog/14139/introducing-webkit-documentation/",
+          "publishedOn": "2023-05-05T17:35:27.000Z",
+          "wordCount": 710,
+          "title": "Introducing WebKit Documentation",
+          "imageUrl": "https://webkit.org/wp-content/uploads/webkit-documentation-light.png"
+        },
+        {
           "id": "https://webkit.org/?p=14135",
           "author": null,
           "description": "Safari Technology Preview Release 169 is now available for download for macOS Monterey 12.3 or later and macOS Ventura.",
@@ -7130,16 +7150,6 @@
           "publishedOn": "2023-04-19T21:17:41.000Z",
           "wordCount": 872,
           "title": "Release Notes for Safari Technology Preview 168",
-          "imageUrl": null
-        },
-        {
-          "id": "https://webkit.org/?p=14100",
-          "author": null,
-          "description": "Safari Technology Preview Release 167 is now available for download for macOS Monterey 12.3 or later and macOS Ventura.",
-          "link": "https://webkit.org/blog/14100/release-notes-for-safari-technology-preview-167/",
-          "publishedOn": "2023-04-05T20:50:10.000Z",
-          "wordCount": 784,
-          "title": "Release Notes for Safari Technology Preview 167",
           "imageUrl": null
         }
       ]
@@ -7185,6 +7195,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2023/05/learning-javascript-with-imagination/",
+          "author": "hello@smashingmagazine.com (Kylo Robinson)",
+          "description": "This is the story of how one little octopus, explaining one beginner’s concept, carried such weight and power for Kylo that it drove his work and led him to research something that is really quite silly. And yet, it transformed how he learned to write — and finally understand — JavaScript.",
+          "link": "https://smashingmagazine.com/2023/05/learning-javascript-with-imagination/",
+          "publishedOn": "2023-05-05T09:00:00.000Z",
+          "wordCount": 4699,
+          "title": "Learning JavaScript With Imagination",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/learning-javascript-with-imagination/learning-javascript-with-imagination.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/learning-javascript-with-imagination/learning-javascript-with-imagination.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2023/05/effective-password-management/",
           "author": "hello@smashingmagazine.com (Iliya Garakh)",
@@ -7379,21 +7404,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://files.smashing.media/articles/design-effective-user-onboarding-flow/design-effective-user-onboarding-flow.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/04/protect-app-threat-model-jsondiff/",
-          "author": "hello@smashingmagazine.com (Zack Grossbart & Terry Yao)",
-          "description": "If you are a developer who wants to concentrate on delivering a killer application rather than worrying about countless security issues, threat model documents can help you do that. With small architectural changes, we can make these threats manageable and prevent them in the future.",
-          "link": "https://smashingmagazine.com/2023/04/protect-app-threat-model-jsondiff/",
-          "publishedOn": "2023-04-05T13:00:00.000Z",
-          "wordCount": 6689,
-          "title": "How To Protect Your App With A Threat Model Based On JSONDiff",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/protect-app-threat-model-jsondiff/protect-app-threat-model-jsondiff.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/protect-app-threat-model-jsondiff/protect-app-threat-model-jsondiff.jpg"
         }
       ]
     },
@@ -7401,18 +7411,7 @@
       "title": "Zach Leatherman",
       "feedUrl": "https://www.zachleat.com/web/feed/",
       "siteUrl": "https://www.zachleat.com/web/feed/",
-      "articles": [
-        {
-          "id": "https://www.zachleat.com/web/styling-web-components/",
-          "author": null,
-          "description": "div.livedemo {\n\tfont-family: fantasy;\n}\n\nWeb components are great. They’re versatile. They can be rendered on the server or (very much less preferably) on the client. They may or may not need interactivity or client-side JavaScript. And unlike heftier legacy frameworks like React, when you need to add interactivity they can still be extremely lightweight by leveraging (dare I say it…) The Platform™ *audible gasp*.\nBut let’s not get distracted from the task at hand: we want to evaluate a few different options on the table to apply styles (CSS) to our web components.\nHere are the things we want to think about:\nEncapsulation. We don’t want styles from distinct components to interfere with each other (that’s what this blog post is here for, after all).\nPerformance. Predictably, a method popula…",
-          "link": "https://www.zachleat.com/web/styling-web-components/",
-          "publishedOn": "2023-04-06T00:00:00.000Z",
-          "wordCount": 6965,
-          "title": "3 Methods for Scoped Styles in Web Components That Work Everywhere",
-          "imageUrl": "https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.zachleat.com%2Fopengraph%2Fweb%2Fstyling-web-components%2F/opengraph/_z202304_0/"
-        }
-      ]
+      "articles": []
     }
   ],
   "cliVersion": "1.15.1"
