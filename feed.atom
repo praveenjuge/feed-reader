@@ -2,10 +2,143 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2023-05-13T00:04:24.924Z</updated>
+    <updated>2023-05-14T00:05:42.592Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Stoic Gardener: How George Harrison Found Peace in the Garden]]></title>
+        <id>https://news.ycombinator.com/item?id=35932507</id>
+        <link href="https://ohayo.substack.com/p/the-stoic-gardener"/>
+        <updated>2023-05-13T20:43:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://ohayo.substack.com/p/the-stoic-gardener
+Comments URL: https://news.ycombinator.com/item?id=35932507
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>sjftokyo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Snips.sh: SSH-powered pastebin with human-friendly TUI and web UI]]></title>
+        <id>https://news.ycombinator.com/item?id=35931582</id>
+        <link href="https://snips.sh/"/>
+        <updated>2023-05-13T19:05:18.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://snips.sh/
+Comments URL: https://news.ycombinator.com/item?id=35931582
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>ingve</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VanJS (Vanilla JavaScript) – A 1.2kB Reactive UI Framework Without React/JSX]]></title>
+        <id>https://news.ycombinator.com/item?id=35931478</id>
+        <link href="https://vanjs.org/"/>
+        <updated>2023-05-13T18:53:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://vanjs.org/
+Comments URL: https://news.ycombinator.com/item?id=35931478
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>Ristovski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Socket – Build Native Apps for Desktop and Mobile with HTML, CSS and JavaScript]]></title>
+        <id>https://news.ycombinator.com/item?id=35930295</id>
+        <link href="https://socketsupply.co/"/>
+        <updated>2023-05-13T17:02:05.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://socketsupply.co
+Comments URL: https://news.ycombinator.com/item?id=35930295
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>NayamAmarshe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lexbor: Fast HTML5 Parser with CSS Selectors Written in Crystal]]></title>
+        <id>https://news.ycombinator.com/item?id=35928590</id>
+        <link href="https://github.com/kostya/lexbor"/>
+        <updated>2023-05-13T14:11:46.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/kostya/lexbor
+Comments URL: https://news.ycombinator.com/item?id=35928590
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>ksec</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chores]]></title>
+        <id>https://seths.blog/?p=44434</id>
+        <link href="https://seths.blog/2023/05/chores/"/>
+        <updated>2023-05-13T08:51:00.000Z</updated>
+        <summary type="html"><![CDATA[They’re essential. The house begins to stink if we don’t take out the garbage. But at work, while they might be essential, they may not be important. At least, not important enough for us to spend a lot of focus on. Chores are: The bills have to get paid. But they might not have to […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Call to Arms: Revisiting Database Design [pdf]]]></title>
+        <id>https://news.ycombinator.com/item?id=35925715</id>
+        <link href="https://sigmodrecord.org/publications/sigmodRecord/1109/pdfs/10.openforum.badia.pdf"/>
+        <updated>2023-05-13T05:01:57.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://sigmodrecord.org/publications/sigmodRecord/1109/pdfs/10.openforum.badia.pdf
+Comments URL: https://news.ycombinator.com/item?id=35925715
+Points: 3
+# Comments: 0]]></summary>
+        <author>
+            <name>greghn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: What Are Design Factors for Internationalization, L10n, Accessibility?]]></title>
+        <id>https://news.ycombinator.com/item?id=35925714</id>
+        <link href="https://news.ycombinator.com/item?id=35925714"/>
+        <updated>2023-05-13T05:01:36.000Z</updated>
+        <summary type="html"><![CDATA[I'm working on designing Open Source software, and while I can't internationalize, localize, and accessiblize (!) it now, I want to make it easy to internationalize, localize, and accessibilize it later.
+To design properly, I need to know the factors that go into those things. Please list all that you know of, whether for GUI's or TUI's. It's okay to repeat factors because it's good to know what's most important too.
+Here's my non-complete list for each.
+I18n:
+* Be able to swap all output strings depending on language.
+* If output needs to be formatted, be able to put the format items in any order because languages put things in different orders.
+* Support for left-to-right, right-to-left, and boustrophedon [1] scripts. (Is boustrophedon necessary?)
+* Support for vertical scripts, whether …]]></summary>
+        <author>
+            <name>gavinhoward</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Machines of mind: The case for an AI-powered productivity boom]]></title>
+        <id>https://news.ycombinator.com/item?id=35924906</id>
+        <link href="https://www.brookings.edu/research/machines-of-mind-the-case-for-an-ai-powered-productivity-boom/"/>
+        <updated>2023-05-13T02:32:19.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.brookings.edu/research/machines-of-mind-the-case-for-an-ai-powered-productivity-boom/
+Comments URL: https://news.ycombinator.com/item?id=35924906
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>hhs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: CSS theme for Hacker News that gives it a modern look]]></title>
+        <id>https://news.ycombinator.com/item?id=35924211</id>
+        <link href="https://userstyles.world/style/9813/gen-z-hacker-news"/>
+        <updated>2023-05-13T00:29:46.000Z</updated>
+        <summary type="html"><![CDATA[Since I find myself here way too often, I thought it would be a good idea to make this because I find it too overwhelming. Text is so small, and the light mode sucks (kind of like old reddit).
+It's still kind of buggy, but (for me at least, I've seen lots of people complain about modern uis) it's more comfortable than regular HN, and maybe other people will find it useful.
+IK there's some mirrors of the website but they don't hit the same. Feel free to send me feedback: HeladeraDragon#2036
+Comments URL: https://news.ycombinator.com/item?id=35924211
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>HeladeraDragon</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Geocrypt: Encrypt files into a self decrypting HTML page]]></title>
         <id>https://news.ycombinator.com/item?id=35920980</id>
@@ -8474,55 +8607,6 @@ Points: 1
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Unfettered]]></title>
-        <id>https://seths.blog/?p=44256</id>
-        <link href="https://seths.blog/2023/04/unfettered/"/>
-        <updated>2023-04-14T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[That’s unlikely. You’re rarely going to get the freedom and resources to do your best work unfettered. The hard part (and the opportunity) is to figure out how to get comfortable with fettered. Because fettered is what’s on offer. Boundaries and scarcity aren’t simply impediments. They’re leverage points and opportunities.]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Replying to comments about our web page design]]></title>
-        <id>https://news.ycombinator.com/item?id=35567285</id>
-        <link href="https://research.exoticsilicon.com/articles/replying_to_comments"/>
-        <updated>2023-04-14T09:24:57.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://research.exoticsilicon.com/articles/replying_to_comments
-Comments URL: https://news.ycombinator.com/item?id=35567285
-Points: 270
-# Comments: 200]]></summary>
-        <author>
-            <name>nhanb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UEFI boot-time UI with Rust and Slint]]></title>
-        <id>https://news.ycombinator.com/item?id=35567152</id>
-        <link href="https://twitter.com/slint_ui/status/1646795078881402880"/>
-        <updated>2023-04-14T08:57:42.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://twitter.com/slint_ui/status/1646795078881402880
-Comments URL: https://news.ycombinator.com/item?id=35567152
-Points: 15
-# Comments: 0]]></summary>
-        <author>
-            <name>tronical</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I quit being a tech “influencer” – Jack Domleo – Front end and UX Developer]]></title>
-        <id>https://news.ycombinator.com/item?id=35566079</id>
-        <link href="https://jackdomleo.dev/blog/2023/why-i-quit-being-a-tech-influencer/"/>
-        <updated>2023-04-14T06:10:56.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://jackdomleo.dev/blog/2023/why-i-quit-being-a-tech-influencer/
-Comments URL: https://news.ycombinator.com/item?id=35566079
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>kirillrogovoy</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Photography is Dead. Just Admit It and Move On. There Is No Hope.]]></title>
         <id>H2KB5eS5scnCS6aar</id>
         <link href="https://medium.com/full-frame/photography-is-dead-just-admit-it-and-move-on-there-is-no-hope-b4b1f4898949"/>
@@ -8570,123 +8654,6 @@ Points: 2
         <summary type="html"><![CDATA[Check the contrast between colors using WCAG or APCA, get suggestions for better colors and test with color blindness simulations.]]></summary>
         <author>
             <name>@polypane</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shifting the Balance of Cybersecurity Risk: Security-by-Design and -Default [pdf]]]></title>
-        <id>https://news.ycombinator.com/item?id=35562357</id>
-        <link href="https://www.cisa.gov/sites/default/files/2023-04/principles_approaches_for_security-by-design-default_508_0.pdf"/>
-        <updated>2023-04-13T21:32:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cisa.gov/sites/default/files/2023-04/principles_approaches_for_security-by-design-default_508_0.pdf
-Comments URL: https://news.ycombinator.com/item?id=35562357
-Points: 22
-# Comments: 4]]></summary>
-        <author>
-            <name>dfern</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unleashing Genetic Algorithms on the iOS 7 Icon]]></title>
-        <id>https://news.ycombinator.com/item?id=35562029</id>
-        <link href="https://blog.mikeswanson.com/post/62341902567/unleashing-genetic-algorithms-on-the-ios-7-icon"/>
-        <updated>2023-04-13T21:03:36.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://blog.mikeswanson.com/post/62341902567/unleashing-genetic-algorithms-on-the-ios-7-icon
-Comments URL: https://news.ycombinator.com/item?id=35562029
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>maticzav</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Get a Base64 Version of a File From Command Line]]></title>
-        <id>https://davidwalsh.name/base64-command-line</id>
-        <link href="https://davidwalsh.name/base64-command-line"/>
-        <updated>2023-04-13T20:21:27.000Z</updated>
-        <summary type="html"><![CDATA[<p>A while back I wrote an article on how to Convert Image to Data URI with JavaScript. It&#8217;s a neat trick developers can use for any number of reasons. Instead of abusing canvas, however, why not simply get the base64 data from command line? You can use base64 and pbcopy to convert a file to [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://davidwalsh.name/base64-command-line">How to Get a Base64 Version of a File From Command Line</a> appeared first on <a rel="nofollow" href="https://davidwalsh.name">David Walsh Blog</a>.</p>
-<p><a href="https://tkjs.us/dwb"><img style="margin:0 auto" alt="" src="https://davidwalsh.name/demo/tjs_block-1.svg"></a></p>]]></summary>
-        <author>
-            <name>David Walsh Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Transform Your Photos into Avatars and Design Beautiful Invitations]]></title>
-        <id>https://news.ycombinator.com/item?id=35561204</id>
-        <link href="https://printaismile.com/"/>
-        <updated>2023-04-13T19:51:38.000Z</updated>
-        <summary type="html"><![CDATA[Transform Your Photos into Avatars and Design Beautiful Invitations in Minutes with Our Stunning Templates
-Birthday, wedding, graduation, save the date invitations.
-Comments URL: https://news.ycombinator.com/item?id=35561204
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>talrosto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UX/UI Edge Cases Cheat Sheet]]></title>
-        <id>https://news.ycombinator.com/item?id=35558694</id>
-        <link href="https://drive.google.com/file/d/1_nHOCA__ooY9mq25BsnFx5pms5KWv1d_/view?pli=1"/>
-        <updated>2023-04-13T17:11:31.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://drive.google.com/file/d/1_nHOCA__ooY9mq25BsnFx5pms5KWv1d_/view?pli=1
-Comments URL: https://news.ycombinator.com/item?id=35558694
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>BrandiATMuhkuh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Secure by Design, Secure by Default]]></title>
-        <id>https://news.ycombinator.com/item?id=35557756</id>
-        <link href="https://www.cisa.gov/securebydesign"/>
-        <updated>2023-04-13T16:14:15.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.cisa.gov/securebydesign
-Comments URL: https://news.ycombinator.com/item?id=35557756
-Points: 2
-# Comments: 0]]></summary>
-        <author>
-            <name>bookofjoe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Wasp Auth UI – The first full-stack auth with self-updating forms]]></title>
-        <id>https://news.ycombinator.com/item?id=35557599</id>
-        <link href="https://wasp-lang.dev/blog/2023/04/12/auth-ui"/>
-        <updated>2023-04-13T16:05:59.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://wasp-lang.dev/blog/2023/04/12/auth-ui
-Comments URL: https://news.ycombinator.com/item?id=35557599
-Points: 5
-# Comments: 0]]></summary>
-        <author>
-            <name>matijash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Avalonia UI – A multi-platform open-source framework for .NET applications]]></title>
-        <id>https://news.ycombinator.com/item?id=35555407</id>
-        <link href="https://avaloniaui.net/"/>
-        <updated>2023-04-13T13:48:03.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://avaloniaui.net/
-Comments URL: https://news.ycombinator.com/item?id=35555407
-Points: 3
-# Comments: 0]]></summary>
-        <author>
-            <name>dgellow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[China's Video Game AI Art Crisis: 40x Productivity Spike, 70% Job Loss]]></title>
-        <id>https://news.ycombinator.com/item?id=35555098</id>
-        <link href="https://www.artisana.ai/articles/chinas-video-game-ai-art-crisis-40x-productivity-spike-70-job-loss"/>
-        <updated>2023-04-13T13:26:38.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://www.artisana.ai/articles/chinas-video-game-ai-art-crisis-40x-productivity-spike-70-job-loss
-Comments URL: https://news.ycombinator.com/item?id=35555098
-Points: 36
-# Comments: 77]]></summary>
-        <author>
-            <name>Al0neStar</name>
         </author>
     </entry>
 </feed>
