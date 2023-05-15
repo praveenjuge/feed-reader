@@ -29,6 +29,16 @@
       "siteUrl": "https://adamsilver.io/atom.xml",
       "articles": [
         {
+          "id": "https://adamsilver.io/blog/the-problem-with-disabled-buttons-and-what-to-do-instead/",
+          "author": null,
+          "description": "In 2009 I prototyped a form that disabled the submit button until all the answers were valid.\nThe idea being: the best error is the one the user never sees.\nBut disabled buttons takes this rule to the extreme.\nAnd as a result it can frustrate users or worse, cause them to give up completely.\nHere’s why:\nProblem #1: They don’t give feedback\nWhen a form has mistakes, the user has to look at each field, spot a mistake and work out how to fix it.\n\n\t\t\t\t\n\t\t\tKotak Bank’s disabled button does not give feedback\n\t\n\nProblem #2: They make the interface feel broken\nIf the user thinks their answers are valid, the UI may feel broken. If there are multiple errors and 1 is fixed, the button stays disabled. This feels unresponsive.\n\n\t\t\t\t\n\t\t\tWeTransfer disabled button feels broken\n\t\n\nProblem #3: They’re hard…",
+          "link": "https://adamsilver.io/blog/the-problem-with-disabled-buttons-and-what-to-do-instead/",
+          "publishedOn": "2023-05-14T00:00:00.000Z",
+          "wordCount": 498,
+          "title": "The problem with disabled buttons and what to do instead",
+          "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:The problem with disabled buttons and what to do instead,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter_name:adambsilver/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
+        },
+        {
           "id": "https://adamsilver.io/blog/the-problem-with-sticky-menus-and-what-to-do-instead/",
           "author": null,
           "description": "Designers use sticky menus (menus that stick to the edge of the viewport) to make them easy to access on long pages.\nBut this fancy pattern hurts UX far more than it improves it.\nHere’s why:\nProblem #1: They constantly take up space\nThey get in the way of the actual content. And it’s worse on small screens where space is more limited.\nSemplice’s menu sticks to the top\n\t\n\nProblem #2: They obscure content\nFor example, Material Design’s floating action button always gets in the way of the content behind it.\nMaterial Design’s sticky button obscures the content beneath\n\t\n\nProblem #3: They break when you zoom in\nWhen zooming in, the size of the sticky menu can increase to a point where there’s little space for the content.\nMedium’s website when zooming in and out shows how the content withint he…",
@@ -327,16 +337,6 @@
           "publishedOn": "2023-04-20T06:34:31.000Z",
           "wordCount": 539,
           "title": "Upgrading our CSS habits: aspect-ratio",
-          "imageUrl": null
-        },
-        {
-          "id": "https://christianheilmann.com/?p=7687",
-          "author": "Chris Heilmann",
-          "description": "Background: I’ve been asked in a few applications for new roles to do written interviews. I thought it might be worth while to release some of my answers as posts as it was fun to reflect a bit on these things. One question was what practices I think help software teams build better quality products. […]",
-          "link": "https://christianheilmann.com/2023/04/14/interview-questions-what-practices-in-software-teams-lead-to-better-quality-products/",
-          "publishedOn": "2023-04-14T12:33:36.000Z",
-          "wordCount": 996,
-          "title": "Interview questions: What practices in software teams lead to better quality products?",
           "imageUrl": null
         }
       ]
@@ -1220,6 +1220,46 @@
       "siteUrl": "https://heydesigner.com",
       "articles": [
         {
+          "id": "https://heydesigner.com/?p=68125",
+          "author": "Travis",
+          "description": "The best error is the one the user never sees. But disabled buttons takes this rule to the extreme. And as a result it can frustrate users or worse, cause them to give up completely.",
+          "link": "https://heydesigner.com/the-problem-with-disabled-buttons-and-what-to-do-instead/",
+          "publishedOn": "2023-05-14T14:29:19.000Z",
+          "wordCount": 217,
+          "title": "The problem with disabled buttons and what to do instead",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68123",
+          "author": "Travis",
+          "description": "Ideas don’t stand on their own. When a good idea turns into a good thing, it’s because structure and systems — ones that existed before the idea — made it happen.",
+          "link": "https://heydesigner.com/creative-is-10-structure-and-systems-are-the-rest/",
+          "publishedOn": "2023-05-14T14:27:02.000Z",
+          "wordCount": 217,
+          "title": "Creative is 10%. Structure and systems are the rest",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68121",
+          "author": "Travis",
+          "description": "Design beautiful and modern Android apps that meet your user where they are, whether browsing their phone, reading on their tablet, glancing at their wrist, or watching TV.",
+          "link": "https://heydesigner.com/design-for-android/",
+          "publishedOn": "2023-05-14T14:25:01.000Z",
+          "wordCount": 203,
+          "title": "Design for Android",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68119",
+          "author": "Travis",
+          "description": "Baseline helps you to see, at a glance, whether a feature or API is safe to use in your site or web applications. In this post, learn about the ideas that led to this concept, and how we hope it will help you.",
+          "link": "https://heydesigner.com/introducing-baseline/",
+          "publishedOn": "2023-05-14T14:23:45.000Z",
+          "wordCount": 201,
+          "title": "Introducing Baseline",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
           "id": "https://heydesigner.com/?p=68115",
           "author": "Travis",
           "description": "In March of 1966, Paul Rand finished his Ford logo presentation book. It was a proposal to Ford Motor Company for a new house mark.",
@@ -1996,6 +2036,56 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35938462",
+          "author": "deadcodes",
+          "description": "Article URL: https://www.roomsgpt.io\nComments URL: https://news.ycombinator.com/item?id=35938462\nPoints: 19\n# Comments: 0",
+          "link": "https://www.roomsgpt.io/",
+          "publishedOn": "2023-05-14T14:53:50.000Z",
+          "wordCount": 783,
+          "title": "AI Generated Room Design",
+          "imageUrl": "https://www.roomsgpt.io/og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35937590",
+          "author": "surprisetalk",
+          "description": "Article URL: https://www.youtube.com/watch?v=HAlIWRcldoc\nComments URL: https://news.ycombinator.com/item?id=35937590\nPoints: 1\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=HAlIWRcldoc",
+          "publishedOn": "2023-05-14T12:54:07.000Z",
+          "wordCount": null,
+          "title": "I accidentally made the best way to choose colors for UI design [video]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35935804",
+          "author": "ingve",
+          "description": "Article URL: https://github.com/robherley/snips.sh\nComments URL: https://news.ycombinator.com/item?id=35935804\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/robherley/snips.sh",
+          "publishedOn": "2023-05-14T06:30:39.000Z",
+          "wordCount": 829,
+          "title": "Snips.sh: SSH-powered pastebin with human-friendly TUI and web UI",
+          "imageUrl": "https://opengraph.githubassets.com/47c014ed788cabee06e6ac181a70bae03fb12bba098e54211b4cfc4fbba661d3/robherley/snips.sh"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35935593",
+          "author": "Jimmc414",
+          "description": "Article URL: https://counterhate.com/wp-content/uploads/2022/12/CCDH-Deadly-by-Design_120922.pdf\nComments URL: https://news.ycombinator.com/item?id=35935593\nPoints: 2\n# Comments: 0",
+          "link": "https://counterhate.com/wp-content/uploads/2022/12/CCDH-Deadly-by-Design_120922.pdf",
+          "publishedOn": "2023-05-14T05:37:24.000Z",
+          "wordCount": 84793,
+          "title": "Deadly by Design: TikTok pushes harmful content into user' feeds [pdf]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35935230",
+          "author": "eiiot",
+          "description": "Article URL: https://www.fastcompany.com/3068659/nixon-nasa-and-how-the-federal-government-got-design\nComments URL: https://news.ycombinator.com/item?id=35935230\nPoints: 2\n# Comments: 0",
+          "link": "https://www.fastcompany.com/3068659/nixon-nasa-and-how-the-federal-government-got-design",
+          "publishedOn": "2023-05-14T04:04:46.000Z",
+          "wordCount": null,
+          "title": "Nixon, NASA, and How the Federal Government Got Design (2017)",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35931582",
           "author": "ingve",
@@ -4265,56 +4355,6 @@
           "wordCount": 1889,
           "title": "End System Design Interviews",
           "imageUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fnobuteru.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1849372343%26version%3D9"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35577735",
-          "author": "vinte",
-          "description": "Article URL: https://cba.mit.edu/classes/\nComments URL: https://news.ycombinator.com/item?id=35577735\nPoints: 20\n# Comments: 1",
-          "link": "https://cba.mit.edu/classes/",
-          "publishedOn": "2023-04-15T05:02:18.000Z",
-          "wordCount": 81,
-          "title": "MIT how to {make, grow, design} (almost) anything",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35574988",
-          "author": "matt_d",
-          "description": "Article URL: https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0428823\nComments URL: https://news.ycombinator.com/item?id=35574988\nPoints: 1\n# Comments: 0",
-          "link": "https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0428823",
-          "publishedOn": "2023-04-14T21:26:31.000Z",
-          "wordCount": 2314,
-          "title": "On the design of a gradual dependently typed language for programming",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35571147",
-          "author": "deofoo",
-          "description": "I'm the author of the HLS Downloader extension (reached 180,000 weekly active users, 1.3k stars), and 180 forks).\nOver the past few years, I've noticed many people forking my repository, so I thought creating a template for people interested in the same architecture would be helpful.\nThe template is still \"in beta mode,\" so any feedback (or support) will be helpful.\nLink: https://github.com/puemos/browser-extension-template\nComments URL: https://news.ycombinator.com/item?id=35571147\nPoints: 2\n# Comments: 0",
-          "link": "https://github.com/puemos/browser-extension-template",
-          "publishedOn": "2023-04-14T16:09:43.000Z",
-          "wordCount": 1700,
-          "title": "Show HN: Browser extension template: Clean architecture, React and shadcn/UI:)",
-          "imageUrl": "https://opengraph.githubassets.com/0942107e5a2f275dbcb42ff83b7b41cb5c2a2ae1fe96c949b9e4d3e07e1e3fe5/puemos/browser-extension-template"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35570743",
-          "author": "shanaru",
-          "description": "Article URL: https://juancurti.medium.com/clone-twitter-frontpage-ui-with-react-part-1-4496fb2576f4\nComments URL: https://news.ycombinator.com/item?id=35570743\nPoints: 7\n# Comments: 0",
-          "link": "https://juancurti.medium.com/clone-twitter-frontpage-ui-with-react-part-1-4496fb2576f4",
-          "publishedOn": "2023-04-14T15:37:31.000Z",
-          "wordCount": 984,
-          "title": "Clone Twitter Frontpage UI with React: Part 1",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*zjmlHYgLILUB6Udl.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35568952",
-          "author": "LinuxBender",
-          "description": "Article URL: https://www.theregister.com/2023/04/13/intel_data_center_solutions_group/\nComments URL: https://news.ycombinator.com/item?id=35568952\nPoints: 1\n# Comments: 0",
-          "link": "https://www.theregister.com/2023/04/13/intel_data_center_solutions_group/",
-          "publishedOn": "2023-04-14T12:47:16.000Z",
-          "wordCount": 1439,
-          "title": "Intel pulls plug on server system design division",
-          "imageUrl": "https://regmedia.co.uk/2023/04/13/shutterstock_data_center.jpg"
         }
       ]
     },
@@ -4323,6 +4363,26 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35941533",
+          "author": "j3s",
+          "description": "Article URL: https://j3s.sh/thought/vore-a-new-rss-feed-reader.html\nComments URL: https://news.ycombinator.com/item?id=35941533\nPoints: 42\n# Comments: 28",
+          "link": "https://j3s.sh/thought/vore-a-new-rss-feed-reader.html",
+          "publishedOn": "2023-05-14T21:35:06.000Z",
+          "wordCount": 482,
+          "title": "Vore: A new RSS feed reader",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35937645",
+          "author": "novia",
+          "description": "Article URL: https://www.goingconcern.com/microsoft-crunches-some-data-to-find-out-teams-is-the-biggest-productivity-killer-at-work/\nComments URL: https://news.ycombinator.com/item?id=35937645\nPoints: 5\n# Comments: 1",
+          "link": "https://www.goingconcern.com/microsoft-crunches-some-data-to-find-out-teams-is-the-biggest-productivity-killer-at-work/",
+          "publishedOn": "2023-05-14T13:03:02.000Z",
+          "wordCount": 4403,
+          "title": "Microsoft crunches some data: Finds out Teams is the biggest productivity killer",
+          "imageUrl": "https://www.goingconcern.com/wp-content/uploads/2023/05/Microsoft-Teams-wasting-time.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35932507",
           "author": "sjftokyo",
@@ -4892,16 +4952,6 @@
           "wordCount": 3799,
           "title": "Driving developer productivity improvements using goals, signals, and metrics",
           "imageUrl": "https://www.swarmia.com/static/developer-productivity-goals-signals-metrics-ed98766893574d0f6c58ae5722c00ef3.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35576527",
-          "author": "throwaway689236",
-          "description": "I feel like despite a popular believe, sweet things are not really helping your brain.\nComments URL: https://news.ycombinator.com/item?id=35576527\nPoints: 3\n# Comments: 5",
-          "link": "https://news.ycombinator.com/item?id=35576527",
-          "publishedOn": "2023-04-15T00:35:28.000Z",
-          "wordCount": 467,
-          "title": "What do you eat for productivity?",
-          "imageUrl": null
         }
       ]
     },
@@ -4910,6 +4960,36 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35940287",
+          "author": "aabbcc1241",
+          "description": "Article URL: https://reken.dev/\nComments URL: https://news.ycombinator.com/item?id=35940287\nPoints: 2\n# Comments: 0",
+          "link": "https://reken.dev/",
+          "publishedOn": "2023-05-14T18:46:22.000Z",
+          "wordCount": 546,
+          "title": "Create fast, reactive, HTML compliant web pages without VDOM nor build tools",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35937789",
+          "author": "doclab",
+          "description": "I decided to try new marketing strategy for my early stage startup by taking tools I would need in daily basis and providing them for free. Here is the first one, more to come. What online tools you would like to see next?\nComments URL: https://news.ycombinator.com/item?id=35937789\nPoints: 1\n# Comments: 0",
+          "link": "https://documentationlab.com/html-to-markdown-and-markdown-to-html",
+          "publishedOn": "2023-05-14T13:29:49.000Z",
+          "wordCount": 759,
+          "title": "Show HN: Markdown <-> HTML Converter",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35934074",
+          "author": "akudha",
+          "description": "What is the best way to test React components, specifically CSS? Are there any test frameworks, tricks etc to do it? Is there a way to compare CSS properties of components with Figma designs?\nComments URL: https://news.ycombinator.com/item?id=35934074\nPoints: 1\n# Comments: 7",
+          "link": "https://news.ycombinator.com/item?id=35934074",
+          "publishedOn": "2023-05-14T00:05:17.000Z",
+          "wordCount": 462,
+          "title": "Ask HN: How do you test React components for CSS?",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35930295",
           "author": "NayamAmarshe",
@@ -5519,46 +5599,6 @@
           "wordCount": 509,
           "title": "Sunsetting Windi CSS",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35576225",
-          "author": "jjdeveloper",
-          "description": "At my work we are using Vanilla Extract but I feel there is no need for Types in CSS. CSS fails gracefully so it doesn’t feel like it makes sense like it does for javascript.\nComments URL: https://news.ycombinator.com/item?id=35576225\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=35576225",
-          "publishedOn": "2023-04-14T23:39:48.000Z",
-          "wordCount": 112,
-          "title": "Ask HN: TypeScript for CSS, is it overkill?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35571813",
-          "author": "ivicabatinic",
-          "description": "Excited to share my latest blog post!\nI'm thrilled to announce my new blog post about Panda CSS, the future of Chakra UI!  In this post, I delve into the innovative world of CSS-in-JS without runtime overhead, exploring the promising technology of Panda CSS.\nCheck out my blog post here: https://infinum.com/blog/panda-css-css-in-js-without-runtime-overhead/\nAs a web developer, I'm always on the lookout for new and efficient ways to streamline my front-end development process. Panda CSS offers a unique approach that eliminates the need for runtime overhead, making it a game-changer for Chakra UI enthusiasts.\nThough still in experimental mode, Panda CSS shows immense potential, and I'm excited to share my insights and findings with the community. Join me in exploring the future of Chakra UI with Panda CSS!\nInfinum is also hiring React engineers (ZAGREB,  VARAŽDIN, LJUBLJANA, PODGORICA, SKOPJE,  REMOTE)https://infinum.com/careers/react-engineer/\nComments URL: https://news.ycombinator.com/item?id=35571813\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=35571813",
-          "publishedOn": "2023-04-14T17:00:41.000Z",
-          "wordCount": 206,
-          "title": "Panda CSS: CSS-in-JS Without Runtime Overhead",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35570922",
-          "author": "t_afif",
-          "description": "Article URL: https://css-tip.com/\nComments URL: https://news.ycombinator.com/item?id=35570922\nPoints: 3\n# Comments: 1",
-          "link": "https://css-tip.com/",
-          "publishedOn": "2023-04-14T15:51:54.000Z",
-          "wordCount": 282,
-          "title": "CSS Tip: learn CSS the easy way",
-          "imageUrl": "https://css-tip/img/css-tip.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35570823",
-          "author": "vyrotek",
-          "description": "Article URL: https://unpoly.com\nComments URL: https://news.ycombinator.com/item?id=35570823\nPoints: 4\n# Comments: 0",
-          "link": "https://unpoly.com/",
-          "publishedOn": "2023-04-14T15:43:56.000Z",
-          "wordCount": 258,
-          "title": "Unpoly – Enable fast and flexible front ends for server-rendered HTML views",
-          "imageUrl": null
         }
       ]
     },
@@ -5651,6 +5691,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=44436",
+          "author": "Seth Godin",
+          "description": "Once you use your plates every day, they cease to be the good china. Of course, the plates didn’t change. Your story did. The way you treat them did. The same goes for the red carpet. If you roll it out for every visitor or every customer, it ceases to be red.",
+          "link": "https://seths.blog/2023/05/the-good-china/",
+          "publishedOn": "2023-05-14T08:50:00.000Z",
+          "wordCount": 878,
+          "title": "The good china",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
+        },
         {
           "id": "https://seths.blog/?p=44434",
           "author": "Seth Godin",
@@ -5945,16 +5995,6 @@
           "wordCount": 876,
           "title": "A treaty",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=45645",
-          "author": "Seth Godin",
-          "description": "We spend much of our worrying time on crises. Our media is filled with warnings, coverage and fear of cataclysms. The big boom, the sudden end, the crash. In fact, rot is far more common. Things decay unless we persistently work to support them. Organizations, reputations, systems, health, investments… even our teeth. For every hockey […]",
-          "link": "https://seths.blog/2023/04/the-explosion/",
-          "publishedOn": "2023-04-15T08:49:00.000Z",
-          "wordCount": 906,
-          "title": "The explosion",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         }
       ]
     },
@@ -6962,56 +7002,6 @@
           "wordCount": 779,
           "title": "Recreating the title effect from creativesouth.com",
           "imageUrl": "https://rachsmith.com/twitter-image-6.png"
-        },
-        {
-          "id": "H2KB5eS5scnCS6aar",
-          "author": "@Medium",
-          "description": "After living through several deaths of photography, I see that it has finally come. Oh, woe is us.",
-          "link": "https://medium.com/full-frame/photography-is-dead-just-admit-it-and-move-on-there-is-no-hope-b4b1f4898949",
-          "publishedOn": "2023-04-14T04:27:56.000Z",
-          "wordCount": 3506,
-          "title": "Photography is Dead. Just Admit It and Move On. There Is No Hope.",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*_UB2FhcyyKCyJjaKoNniPA.jpeg"
-        },
-        {
-          "id": "ietD7niHpDj3pd3eK",
-          "author": "@everypixelcom",
-          "description": "Discover how companies are implementing AI adoption strategies: from Shutterstock to Quora.",
-          "link": "https://journal.everypixel.com/ai-adoption",
-          "publishedOn": "2023-04-14T04:24:47.000Z",
-          "wordCount": 3347,
-          "title": "AI Adoption Strategies at Tech Companies",
-          "imageUrl": "https://journal.everypixel.com/wp-content/uploads/2023/04/AI-adoption-1.jpg"
-        },
-        {
-          "id": "KkkB5ewyfjA9zzESb",
-          "author": "@vitalyf",
-          "description": "UX design tips and resources on design process, design patterns and UX.",
-          "link": "https://smart-interface-design-patterns.com/",
-          "publishedOn": "2023-04-14T04:21:11.000Z",
-          "wordCount": 10761,
-          "title": "Smart Interface Design Patterns",
-          "imageUrl": "https://smart-interface-design-patterns.com/static/img/open-graph.jpg"
-        },
-        {
-          "id": "bPcDQhF9d3txNDHRo",
-          "author": "@gizmodo",
-          "description": "As more companies realize it costs quite a bit to create generative AI content, we may be coming to the end of free, open source AI models.",
-          "link": "https://gizmodo.com/stability-ai-xl-deep-fake-stable-diffusion-1850334500",
-          "publishedOn": "2023-04-14T04:20:17.000Z",
-          "wordCount": 6292,
-          "title": "Stability AI’s New ‘XL’",
-          "imageUrl": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/7d70583041c1f7c4657723ba2197f197.png"
-        },
-        {
-          "id": "tEePoWnJwQAGjdmuN",
-          "author": "@polypane",
-          "description": "Check the contrast between colors using WCAG or APCA, get suggestions for better colors and test with color blindness simulations.",
-          "link": "https://colorcontrast.app/",
-          "publishedOn": "2023-04-14T04:14:04.000Z",
-          "wordCount": 1133,
-          "title": "Color Contrast Checker",
-          "imageUrl": "https://colorcontrast.app/img/color-contrast.png"
         }
       ]
     },
