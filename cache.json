@@ -379,6 +379,36 @@
       "siteUrl": "https://dailydevlinks.com/",
       "articles": [
         {
+          "id": "https://dailydevlinks.com/?p=12202",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://dailydevlinks.com/design-patterns-are-a-better-way-to-collaborate-on-your-design-system/",
+          "publishedOn": "2023-05-17T11:30:00.000Z",
+          "wordCount": 3119,
+          "title": "Design Patterns Are A Better Way To Collaborate On Your Design System",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=12205",
+          "author": "Adam Marsden",
+          "description": "DevelopmentUIUX",
+          "link": "https://dailydevlinks.com/reinventing-the-carousel/",
+          "publishedOn": "2023-05-17T11:30:00.000Z",
+          "wordCount": 3074,
+          "title": "Reinventing the carousel",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=12208",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/whats-new-in-css-and-ui-i-o-2023-edition/",
+          "publishedOn": "2023-05-17T11:30:00.000Z",
+          "wordCount": 3104,
+          "title": "What’s new in CSS and UI: I/O 2023 Edition",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
+        {
           "id": "https://dailydevlinks.com/?p=12198",
           "author": "Adam Marsden",
           "description": "Development",
@@ -797,36 +827,6 @@
           "wordCount": 3080,
           "title": "New CSS masking technique",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=12061",
-          "author": "Adam Marsden",
-          "description": "Design",
-          "link": "https://dailydevlinks.com/embracing-ai-as-a-material-for-design/",
-          "publishedOn": "2023-04-18T11:30:00.000Z",
-          "wordCount": 3084,
-          "title": "Embracing AI as a material for design",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=12064",
-          "author": "Adam Marsden",
-          "description": "UX",
-          "link": "https://dailydevlinks.com/ux-case-study-venmo-adding-a-group-savings-feature/",
-          "publishedOn": "2023-04-18T11:30:00.000Z",
-          "wordCount": 3094,
-          "title": "UX Case Study: Venmo. Adding a group savings feature.",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=12058",
-          "author": "Adam Marsden",
-          "description": "Development",
-          "link": "https://dailydevlinks.com/how-to-readme/",
-          "publishedOn": "2023-04-18T11:30:00.000Z",
-          "wordCount": 3064,
-          "title": "How To README",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
         }
       ]
     },
@@ -961,6 +961,16 @@
       "feedUrl": "https://developer.chrome.com/feeds/blog.xml",
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
+        {
+          "id": "https://developer.chrome.com/en/blog/how-blockbench-uses-the-eyedropper-api/",
+          "author": null,
+          "description": "# Introduction\n(This article is also available in form of a video.)\n  \n  \n\nBlockbench is a free, modern model editor for low-poly models with pixel art textures. If you have ever played Minecraft, chances are you have seen assets that were created with Blockbench, for example the goat, which was added to Minecraft as part of the Caves and Cliffs Update, Part 1. The GPL version 3 licensed Blockbench code is open source on GitHub.\nTo try Blockbench, launch the app by navigating to web.blockbench.net. As a PWA, you can install it to your desktop and launch it in a standalone window. If you are new to 3D modeling, you can start with one of the many open source .bbmodel file examples that you can find using GitHub's code search. For example, try the train model that you can see in the following…",
+          "link": "https://developer.chrome.com/en/blog/how-blockbench-uses-the-eyedropper-api/",
+          "publishedOn": "2023-05-17T00:00:00.000Z",
+          "wordCount": 1110,
+          "title": "How the 3D model editor Blockbench uses the EyeDropper API to let users choose colors from everywhere",
+          "imageUrl": "https://wd.imgix.net/image/8WbTDNrhLsU0El80frMBGE4eMCD3/6fIc5QdWayhjyXmIFEi6.png?auto=format&w=1521"
+        },
         {
           "id": "https://developer.chrome.com/en/blog/web-sql-deprecation-timeline-updated/",
           "author": null,
@@ -1160,16 +1170,6 @@
           "wordCount": 1095,
           "title": "Richer UI install available for desktop",
           "imageUrl": "https://wd.imgix.net/image/SeARmcA1EicLXagFnVOe0ou9cqK2/zedzgz8xUD3nFNv1HPQQ.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/test-automation-evolution/",
-          "author": null,
-          "description": "# The birth of test automation\nLet's rewind back to the 1990s when the web browser was born. Test automation didn't become a reality until the 2000s, with the emergence of Selenium and WebDriver projects to tackle cross-browser and multi-device testing challenges.\nThese two projects joined forces in 2011 as Selenium WebDriver and became a W3C standard in 2018. We usually refer to it as WebDriver or WebDriver “Classic”.\nThe evolution of the Selenium WebDriver project\n\nTest automation prior to WebDriver “Classic” was quite tricky. Being able to automate browser testing significantly improved the quality of developers’ and testers’ lives.\n# The rise of JavaScript\nAs web development evolved to rely more on JavaScript, new automation solutions such as WebdriverIO, Appium, Nightwatch, Protractor…",
-          "link": "https://developer.chrome.com/en/blog/test-automation-evolution/",
-          "publishedOn": "2023-04-18T00:00:00.000Z",
-          "wordCount": 1234,
-          "title": "A look back in time: the evolution of test automation",
-          "imageUrl": "https://wd.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/jGD1IO9UitBVPt7IsRol.jpg?auto=format&w=1521"
         }
       ]
     },
@@ -1217,16 +1217,6 @@
           "wordCount": 2106,
           "title": "12 stunning examples of Risograph printing to inspire your designs",
           "imageUrl": "https://cdn.dribbble.com/users/2393410/screenshots/17750661/michelle_merlin_in_bloom_risograph_print_dribbb_4x.jpg"
-        },
-        {
-          "id": "https://dribbble.com/stories/2023/04/18/how-to-design-better-brand-guidelines-faster",
-          "author": null,
-          "description": "Olivia Hoskin\n      Writer & Design Enthusiast \n\nAs designers and teams, we all know the importance of having a solid brand identity consistently communicated across all touchpoints. But creating effective brand guidelines that are easy to follow (and maintain) can take time, and traditional methods, such as creating a PDF document, can be outdated and difficult to work with.\nIn this blog post, we’ll dive into the key elements that make the most successful brand guidelines and provide tips to create better ones. If you’re ready to upgrade your brand guidelines and creation process, let’s get started!\nThanks to our friends at Brandpad for sponsoring this blog post!\nWhat makes great brand guidelines?\nBrand guidelines are the backbone of any successful brand. They are a set of rules that dict…",
-          "link": "https://dribbble.com/stories/2023/04/18/how-to-design-better-brand-guidelines-faster",
-          "publishedOn": "2023-04-18T07:00:00.000Z",
-          "wordCount": 2696,
-          "title": "5 tips to design better brand guidelines, faster",
-          "imageUrl": "https://cdn.dribbble.com/uploads/46048/original/3124e10c40672ce53c56b8cefa5a6eff.png?1681322919"
         }
       ]
     },
@@ -1258,6 +1248,46 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=68148",
+          "author": "Travis",
+          "description": "When designing an interface, you create a way for people to communicate with a product. And words are an essential component, at the same level — if not higher — than icons, colors, or typography.",
+          "link": "https://heydesigner.com/good-ui-cant-fix-bad-copy/",
+          "publishedOn": "2023-05-17T08:54:55.000Z",
+          "wordCount": 211,
+          "title": "Good UI can’t fix bad copy",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68146",
+          "author": "Travis",
+          "description": "The concept of practice is an integral aspect of being human: doing something repeatedly, making errors and learning from them, operating at the edges of your ability, and, most valuable of all, the satisfaction gained from improvement.",
+          "link": "https://heydesigner.com/to-be-creative-practice-2/",
+          "publishedOn": "2023-05-17T08:52:14.000Z",
+          "wordCount": 204,
+          "title": "To be creative, practice",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68144",
+          "author": "Travis",
+          "description": "Proportio is a web application for designers to create the foundations of a proportional design system. You can explore typographic scales and how they can be applied to icons, sizing, spacing, and the composition of a component.",
+          "link": "https://heydesigner.com/proportional-design-systems/",
+          "publishedOn": "2023-05-17T08:51:28.000Z",
+          "wordCount": 203,
+          "title": "Proportional design systems",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68142",
+          "author": "Travis",
+          "description": "Vertical rhythm is a design concept that helps to create a harmonious layout by following consistent spacing between elements, typically using the height of a line as a base.",
+          "link": "https://heydesigner.com/vertical-rhythm-using-css-lh-and-rlh-units/",
+          "publishedOn": "2023-05-17T08:49:43.000Z",
+          "wordCount": 215,
+          "title": "Vertical rhythm using CSS lh and rlh units",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=68138",
           "author": "Travis",
@@ -2007,56 +2037,6 @@
           "wordCount": 195,
           "title": "The roadmap is not the territory",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67927",
-          "author": "Travis",
-          "description": "One of the top questions I get asked is what a portfolio for a manager should look like. Unsurprisingly, the answer is like any design answer: it depends.",
-          "link": "https://heydesigner.com/crafting-a-design-leadership-portfolio/",
-          "publishedOn": "2023-04-17T17:47:22.000Z",
-          "wordCount": 206,
-          "title": "Crafting a design leadership portfolio",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67925",
-          "author": "Travis",
-          "description": "In this three-part series, we’re talking to leaders and managers from teams at Shopify, Ironclad, Twitch, Uber, and more to learn about how they’re rethinking the way they work to keep pace with the outsized change in work right now.",
-          "link": "https://heydesigner.com/how-to-build-ground-breaking-products-a-managers-guide/",
-          "publishedOn": "2023-04-17T17:40:45.000Z",
-          "wordCount": 213,
-          "title": "How to build ground-breaking products: A manager’s guide",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67923",
-          "author": "Travis",
-          "description": "One in 12 men are colorblind, and red-green colorblindness is the most common type. Unfortunately, red and green are the default colors for designers who want to represent opposites.",
-          "link": "https://heydesigner.com/designing-for-colorblindness/",
-          "publishedOn": "2023-04-17T17:40:04.000Z",
-          "wordCount": 202,
-          "title": "Designing for colorblindness",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67921",
-          "author": "Travis",
-          "description": "Spending the time to get the right metrics affects so many things down the line.",
-          "link": "https://heydesigner.com/you-are-what-you-measure/",
-          "publishedOn": "2023-04-17T17:38:26.000Z",
-          "wordCount": 200,
-          "title": "You are what you measure",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67919",
-          "author": "Travis",
-          "description": "A friend showed me something of a design spec they were charged with pulling off.",
-          "link": "https://heydesigner.com/expanding-grid-cards-with-view-transitions/",
-          "publishedOn": "2023-04-17T17:36:47.000Z",
-          "wordCount": 203,
-          "title": "Expanding grid cards with view transitions",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2065,6 +2045,136 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35980608",
+          "author": "zagrebian",
+          "description": "Article URL: https://www.youtube.com/watch?v=Nc_fKyuXaH0\nComments URL: https://news.ycombinator.com/item?id=35980608\nPoints: 4\n# Comments: 1",
+          "link": "https://www.youtube.com/watch?v=Nc_fKyuXaH0",
+          "publishedOn": "2023-05-17T20:10:53.000Z",
+          "wordCount": null,
+          "title": "YouTube’s Like icon does not render unless you allow scripts from gstatic.com",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35980547",
+          "author": "sasakrsmanovic2",
+          "description": "Article URL: https://platform.uno/blog/design-and-navigation-considerations-when-building-multi-platform-applications/\nComments URL: https://news.ycombinator.com/item?id=35980547\nPoints: 1\n# Comments: 0",
+          "link": "https://platform.uno/blog/design-and-navigation-considerations-when-building-multi-platform-applications/",
+          "publishedOn": "2023-05-17T20:05:24.000Z",
+          "wordCount": 9167,
+          "title": "Why is cross-platform navigation and responsive design hard?",
+          "imageUrl": "https://uno-website-assets.s3.amazonaws.com/wp-content/uploads/2023/05/17121916/uno-scaled.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35979031",
+          "author": "albertoorsini",
+          "description": "Article URL: https://www.designmigo.com\nComments URL: https://news.ycombinator.com/item?id=35979031\nPoints: 1\n# Comments: 0",
+          "link": "https://www.designmigo.com/",
+          "publishedOn": "2023-05-17T18:04:58.000Z",
+          "wordCount": 629,
+          "title": "Design service subscription for your startup",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35977460",
+          "author": "ramedina86",
+          "description": "I'm seeing it's a common theme, especially in the Python community, to implement tightly coupled UIs and business logic. It's done in the name of convenience, but inevitably backfires once you go past trivial applications.\nI've lived the whole evolution of web-based applications, back when CSS didn't exist and PHP was something added to HTML to make it \"dynamic\". I'm glad web development has evolved; I think everyone is. But why do we have to go back to it, repackage it as something cool and make the same mistakes?\nI understand it's appealing to those whose title isn't \"software engineer\", because MVC can be a pain. Should it be though?\nI'm working in this space, building a state-driven half no-code/half Python framework , but rather than driving more attention to it I'd like to discuss the premise.\nIs this a battle worth fighting? Or am I making a big deal out of something no one cares about?\nComments URL: https://news.ycombinator.com/item?id=35977460\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=35977460",
+          "publishedOn": "2023-05-17T16:14:07.000Z",
+          "wordCount": 234,
+          "title": "A big challenge: Enabling separation of concerns (UI/logic) for beginners",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35977345",
+          "author": "willm",
+          "description": "Article URL: https://textual.textualize.io/how-to/design-a-layout/\nComments URL: https://news.ycombinator.com/item?id=35977345\nPoints: 3\n# Comments: 0",
+          "link": "https://textual.textualize.io/how-to/design-a-layout/",
+          "publishedOn": "2023-05-17T16:06:53.000Z",
+          "wordCount": 2587,
+          "title": "How to design a flexible layout with Textual",
+          "imageUrl": "https://raw.githubusercontent.com/Textualize/textual/main/imgs/textual.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35976767",
+          "author": "poteboy",
+          "description": "I'd like to introduce Kuma UI, a CSS-in-JS library I've been developing. It allows for intuitive styling similar to Chakra UI's style props but stands out with its zero-runtime performance, ensuring your applications remain fast and your bundle sizes small.\nAny feedback or suggestions would be greatly appreciated.\nComments URL: https://news.ycombinator.com/item?id=35976767\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/poteboy/kuma-ui",
+          "publishedOn": "2023-05-17T15:31:52.000Z",
+          "wordCount": 1131,
+          "title": "Show HN: Zero-Runtime, Utility-First CSS-in-JS Library: Kuma UI",
+          "imageUrl": "https://opengraph.githubassets.com/05b5fa6134bca94ff9ac038ac5b5638af1ce1619214ded0c4f5f9fd05c985905/poteboy/kuma-ui"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35976766",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://github.blog/2023-05-17-designs-journey-towards-accessibility/\nComments URL: https://news.ycombinator.com/item?id=35976766\nPoints: 2\n# Comments: 0",
+          "link": "https://github.blog/2023-05-17-designs-journey-towards-accessibility/",
+          "publishedOn": "2023-05-17T15:31:51.000Z",
+          "wordCount": 2883,
+          "title": "Design’s Journey Towards Accessibility",
+          "imageUrl": "https://github.blog/wp-content/uploads/2023/05/design-journey-blog-image-2x-1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35974894",
+          "author": "nateroling",
+          "description": "Article URL: https://blog.almaer.com/building-a-modern-design-system-in-layers/\nComments URL: https://news.ycombinator.com/item?id=35974894\nPoints: 3\n# Comments: 0",
+          "link": "https://blog.almaer.com/building-a-modern-design-system-in-layers/",
+          "publishedOn": "2023-05-17T13:22:51.000Z",
+          "wordCount": 3000,
+          "title": "Building a modern design system in layers",
+          "imageUrl": "https://blog.almaer.com/wp-content/uploads/2023/05/dalmaer_polaris_design_system_layers_0d199d1d-f74a-4919-ad35-73d478bae274.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35974552",
+          "author": "krapans",
+          "description": "Article URL: https://www.youtube.com/watch?v=V7iW27F9oog\nComments URL: https://news.ycombinator.com/item?id=35974552\nPoints: 1\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=V7iW27F9oog",
+          "publishedOn": "2023-05-17T12:51:50.000Z",
+          "wordCount": null,
+          "title": "Design Patterns Revisited in Modern Java by Venkat Subramaniam",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35974055",
+          "author": "hdivider",
+          "description": "Article URL: https://deeptechai.net/p/the-art-of-ai-based-armor-design\nComments URL: https://news.ycombinator.com/item?id=35974055\nPoints: 1\n# Comments: 0",
+          "link": "https://deeptechai.net/p/the-art-of-ai-based-armor-design",
+          "publishedOn": "2023-05-17T11:59:56.000Z",
+          "wordCount": 2733,
+          "title": "The Art of AI-Based Armor Design",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f839b34-26ab-4c0d-984a-3e5a393489da_600x400.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35973386",
+          "author": "techn00",
+          "description": "Article URL: https://ark-ui.com/\nComments URL: https://news.ycombinator.com/item?id=35973386\nPoints: 1\n# Comments: 1",
+          "link": "https://ark-ui.com/",
+          "publishedOn": "2023-05-17T10:23:59.000Z",
+          "wordCount": 5137,
+          "title": "Ark UI, a headless library for building reusable, scalable Design Systems",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35973282",
+          "author": "porridgeandrice",
+          "description": "Article URL: https://www.youtube.com/watch?v=buChHSdsF9A\nComments URL: https://news.ycombinator.com/item?id=35973282\nPoints: 1\n# Comments: 1",
+          "link": "https://www.youtube.com/watch?v=buChHSdsF9A",
+          "publishedOn": "2023-05-17T10:06:54.000Z",
+          "wordCount": null,
+          "title": "What's New in Web UI",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35972522",
+          "author": "bluewalt",
+          "description": "Article URL: https://ui.nuxtlabs.com/getting-started\nComments URL: https://news.ycombinator.com/item?id=35972522\nPoints: 6\n# Comments: 0",
+          "link": "https://ui.nuxtlabs.com/getting-started",
+          "publishedOn": "2023-05-17T08:13:15.000Z",
+          "wordCount": 362,
+          "title": "NuxtLabs UI",
+          "imageUrl": "/social-preview.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35969312",
           "author": "winkywooster",
@@ -4404,46 +4514,6 @@
           "wordCount": 300,
           "title": "Storefront UI 2.1- open-source library for eCommece projects built with tailwind",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35611856",
-          "author": "teleforce",
-          "description": "Article URL: https://www.pcb-hero.com/blogs/lickys-column/high-speed-printed-circuit-board-pcb-design-guidelines\nComments URL: https://news.ycombinator.com/item?id=35611856\nPoints: 2\n# Comments: 0",
-          "link": "https://www.pcb-hero.com/blogs/lickys-column/high-speed-printed-circuit-board-pcb-design-guidelines",
-          "publishedOn": "2023-04-18T09:44:36.000Z",
-          "wordCount": 3753,
-          "title": "High Speed Printed Circuit Board (PCB) Design Guidelines",
-          "imageUrl": "http://cdn.shopify.com/s/files/1/2015/5255/articles/High_Speed_PCB_Design_v02_1024x1024.png?v=1661149146"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35610203",
-          "author": "davidthewatson",
-          "description": "I've been making some art content and articles using various AI tools since last summer but I never know what preamble to put on the stuff and so I just say something like generated with whatever.\nDoes anybody know if there's a font awesome icon or HTML tags or legal guidance from creative commons that can be used as a canonical placeholder for publishing art or generated code or articles using AI. I could find stuff like this:\nhttps://cacm.acm.org/blogs/blog-cacm/263291-on-the-ethics-of-writing-with-ais/fulltext\nhttps://hbr.org/2023/04/generative-ai-has-an-intellectual-property-problem\nhttps://medium.com/@kevin.menear/structured-data-markup-for-ai-generated-content-73b539e92525\nBut nothing suggesting a style handling disclosure of the AI generation, a tag, an icon, legal marking or anything authoritative that targets both human and computer consumption (crawling, etc.). I'd prefer something easy-to-copy in text or HTML or the like.\nAny ideas?\nThanks!\nComments URL: https://news.ycombinator.com/item?id=35610203\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=35610203",
-          "publishedOn": "2023-04-18T05:12:29.000Z",
-          "wordCount": 196,
-          "title": "Ask HN: HTML and icon for AI generated content?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35608251",
-          "author": "tdaltonc",
-          "description": "Article URL: https://medium.com/microsoft-design/behind-the-design-meet-copilot-2c68182a0e70\nComments URL: https://news.ycombinator.com/item?id=35608251\nPoints: 1\n# Comments: 0",
-          "link": "https://medium.com/microsoft-design/behind-the-design-meet-copilot-2c68182a0e70",
-          "publishedOn": "2023-04-17T23:58:29.000Z",
-          "wordCount": 5856,
-          "title": "Microsoft Copilot UX Design System",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*4K3TN5q79-008dmelFfUNg.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35600125",
-          "author": "anonymousfrog",
-          "description": "I’m looking for screencasts on things like someone going about getting a problem and going through the whole process of a creating a solution. OO design, problem solving, coding it, testing it etc. Does such a thing exist? Sort of like Practical OO Design in Ruby in screencast form? Or even pairing sessions on a problem? More focussed on the thought process of the developer rather than learning a specific language or tool. Seems like there should be, but maybe I’m not looking in the right place!\nComments URL: https://news.ycombinator.com/item?id=35600125\nPoints: 2\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=35600125",
-          "publishedOn": "2023-04-17T13:13:09.000Z",
-          "wordCount": 493,
-          "title": "Are there any programming tutorial screencasts for OO design or problem solving?",
-          "imageUrl": null
         }
       ]
     },
@@ -5021,26 +5091,6 @@
           "wordCount": 3592,
           "title": "The low productivity of Canadian companies threatens our living standards",
           "imageUrl": "https://policyoptions.irpp.org/wp-content/uploads/sites/2/2022/12/Facebook-The-low-productivity-of-Canadian-companies-threatens-our-living-standards.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35604447",
-          "author": "konvio",
-          "description": "Article URL: https://read.redtech.design/boost-your-productivity-the-ultimate-list-of-habits-for-software-engineers\nComments URL: https://news.ycombinator.com/item?id=35604447\nPoints: 3\n# Comments: 0",
-          "link": "https://read.redtech.design/boost-your-productivity-the-ultimate-list-of-habits-for-software-engineers",
-          "publishedOn": "2023-04-17T18:19:11.000Z",
-          "wordCount": 34373,
-          "title": "Boost Your Productivity: The Ultimate List of Habits for Software Engineers",
-          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fstock%2Funsplash%2FlsdA8QpWN_A%2Fupload%2Fd4752af73de2f745bd48a2da46655e0f.jpeg%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35602642",
-          "author": "gaws",
-          "description": "Article URL: https://www.kschaul.com/post/2023/04/16/feedmaker-quickly-generate-an-rss-feed-from-any-website/\nComments URL: https://news.ycombinator.com/item?id=35602642\nPoints: 1\n# Comments: 0",
-          "link": "https://www.kschaul.com/post/2023/04/16/feedmaker-quickly-generate-an-rss-feed-from-any-website/",
-          "publishedOn": "2023-04-17T15:58:35.000Z",
-          "wordCount": 387,
-          "title": "Feedmaker: Quickly generate an RSS feed from any website",
-          "imageUrl": null
         }
       ]
     },
@@ -5049,6 +5099,46 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=35977835",
+          "author": "clessg",
+          "description": "Article URL: https://www.julienthibeaut.xyz/blog/create-modern-spotlight-effect-with-react-css\nComments URL: https://news.ycombinator.com/item?id=35977835\nPoints: 2\n# Comments: 0",
+          "link": "https://www.julienthibeaut.xyz/blog/create-modern-spotlight-effect-with-react-css",
+          "publishedOn": "2023-05-17T16:40:00.000Z",
+          "wordCount": 946,
+          "title": "Crafting a modern spotlight effect with React and Tailwind/CSS",
+          "imageUrl": "https://julienthibeaut.xyz/api/og/?title=Crafting a modern spotlight effect with React and CSS"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35976767",
+          "author": "poteboy",
+          "description": "I'd like to introduce Kuma UI, a CSS-in-JS library I've been developing. It allows for intuitive styling similar to Chakra UI's style props but stands out with its zero-runtime performance, ensuring your applications remain fast and your bundle sizes small.\nAny feedback or suggestions would be greatly appreciated.\nComments URL: https://news.ycombinator.com/item?id=35976767\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/poteboy/kuma-ui",
+          "publishedOn": "2023-05-17T15:31:52.000Z",
+          "wordCount": 1131,
+          "title": "Show HN: Zero-Runtime, Utility-First CSS-in-JS Library: Kuma UI",
+          "imageUrl": "https://opengraph.githubassets.com/05b5fa6134bca94ff9ac038ac5b5638af1ce1619214ded0c4f5f9fd05c985905/poteboy/kuma-ui"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35974517",
+          "author": "luuuzeta",
+          "description": "Article URL: https://stackoverflow.com/a/4234491/10824322\nComments URL: https://news.ycombinator.com/item?id=35974517\nPoints: 34\n# Comments: 19",
+          "link": "https://stackoverflow.com/a/4234491/10824322",
+          "publishedOn": "2023-05-17T12:48:37.000Z",
+          "wordCount": 7747,
+          "title": "Oh Yes You Can Use Regexes to Parse HTML",
+          "imageUrl": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=35971061",
+          "author": "prhrb",
+          "description": "Article URL: https://picocss.com\nComments URL: https://news.ycombinator.com/item?id=35971061\nPoints: 3\n# Comments: 0",
+          "link": "https://picocss.com/",
+          "publishedOn": "2023-05-17T03:52:30.000Z",
+          "wordCount": 2591,
+          "title": "picocss - Minimal CSS Framework for Semantic HTML",
+          "imageUrl": "https://picocss.com/img/opengraph.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=35962098",
           "author": "onnnon",
@@ -5718,26 +5808,6 @@
           "wordCount": 300,
           "title": "Storefront UI 2.1- open-source library for eCommece projects built with tailwind",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35610203",
-          "author": "davidthewatson",
-          "description": "I've been making some art content and articles using various AI tools since last summer but I never know what preamble to put on the stuff and so I just say something like generated with whatever.\nDoes anybody know if there's a font awesome icon or HTML tags or legal guidance from creative commons that can be used as a canonical placeholder for publishing art or generated code or articles using AI. I could find stuff like this:\nhttps://cacm.acm.org/blogs/blog-cacm/263291-on-the-ethics-of-writing-with-ais/fulltext\nhttps://hbr.org/2023/04/generative-ai-has-an-intellectual-property-problem\nhttps://medium.com/@kevin.menear/structured-data-markup-for-ai-generated-content-73b539e92525\nBut nothing suggesting a style handling disclosure of the AI generation, a tag, an icon, legal marking or anything authoritative that targets both human and computer consumption (crawling, etc.). I'd prefer something easy-to-copy in text or HTML or the like.\nAny ideas?\nThanks!\nComments URL: https://news.ycombinator.com/item?id=35610203\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=35610203",
-          "publishedOn": "2023-04-18T05:12:29.000Z",
-          "wordCount": 196,
-          "title": "Ask HN: HTML and icon for AI generated content?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35600116",
-          "author": "davidwu",
-          "description": "Article URL: https://davidwu.io/posts/building-a-chatbot-with-openais-chatgpt-api-nextjs-and-tailwind-css/\nComments URL: https://news.ycombinator.com/item?id=35600116\nPoints: 2\n# Comments: 1",
-          "link": "https://davidwu.io/posts/building-a-chatbot-with-openais-chatgpt-api-nextjs-and-tailwind-css/",
-          "publishedOn": "2023-04-17T13:12:23.000Z",
-          "wordCount": 2952,
-          "title": "Building a Chatbot with OpenAI’s ChatGPT API, Next.js and Tailwind CSS",
-          "imageUrl": null
         }
       ]
     },
@@ -5842,26 +5912,6 @@
           "wordCount": 540,
           "title": "Pokémon Mini [tif]",
           "imageUrl": null
-        },
-        {
-          "id": "2023-04-18-ed17e7ae",
-          "author": null,
-          "description": "An excellent discussion on the explosion, or even, implosion, of AI and how it's being tested and developed in public when the implications seem to have been swept aside in favour of the arms race between the big corps.\nPolicies and law haven't been written and it's the experts that don't even have the confidence you'd hope to hear about:\n\n50% of A.I. researchers believe there's a 10% or greater chance that humans go extinct from our inability to control AI\n\nTristan Harris and Aza Raskin discuss the risk to society and how safety measures are far from adequate and laws need to be implemented.\n\nWhen you invent a new technology, you uncover a new class of responsibilities\n\nIt's a long watch at a little over an hour, but strongly recommend as we plough head long into a future where AI is inter-tangled with society.\nSource: www.youtube.com",
-          "link": "https://remysharp.com/links/2023-04-18-ed17e7ae",
-          "publishedOn": "2023-04-18T11:25:38.000Z",
-          "wordCount": 622,
-          "title": "The A.I. Dilemma [link]",
-          "imageUrl": null
-        },
-        {
-          "id": "2023-04-11-pebble-steel",
-          "author": null,
-          "description": "I bought a joblot of Pebble watches a while back (only to secure a Pebble Round to gift to my mum), but it also included a Pebble Steel. Though the watched happily charged and turned on, when I unplugged the charging port, the watch immediately died.\nWhen I got around to opening the watch (using the same screw bit for the classic) the lipo battery inside had … popped, I guess. It was bad.\nThankfully I found a few replacements on Ebay (as the batteries are particularly small) and with some careful soldering (to some very small solder point) and squeezing of wires to fit into such a tiny space, the Pebble Steel lives again. That's 3 Pebbles I've revived in recent months - I've just got one Pebble Classic left to fix!",
-          "link": "https://remysharp.com/tif/2023-04-11-pebble-steel",
-          "publishedOn": "2023-04-18T09:29:54.000Z",
-          "wordCount": 605,
-          "title": "Pebble Steel [tif]",
-          "imageUrl": null
         }
       ]
     },
@@ -5870,6 +5920,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=44442",
+          "author": "Seth Godin",
+          "description": "Our job as professionals is to show up and do the work. Not simply respond to incoming or do the chores, but to create and innovate. And yet, some days feel more conducive than others. There are moments when it simply flows. When the surf’s up, cancel everything else. Don’t waste it. Postpone the dentist, […]",
+          "link": "https://seths.blog/2023/05/when-the-sun-is-shining/",
+          "publishedOn": "2023-05-17T08:53:00.000Z",
+          "wordCount": 897,
+          "title": "When the sun is shining",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg"
+        },
         {
           "id": "https://seths.blog/?p=46005",
           "author": "Seth Godin",
@@ -6164,16 +6224,6 @@
           "wordCount": 929,
           "title": "The natural size",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061312.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44269",
-          "author": "Seth Godin",
-          "description": "It’s interesting to realize that mirrors weren’t perfected until a few hundred years ago. Human beings spend a lot of time considering our own appearance and our own feelings and most of all, our own needs. The market produces a shift. When it’s a fair and open exchange, the customer gains in power. As a […]",
-          "link": "https://seths.blog/2023/04/the-empathy-device/",
-          "publishedOn": "2023-04-18T08:45:00.000Z",
-          "wordCount": 960,
-          "title": "The empathy device",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
         }
       ]
     },
@@ -6182,6 +6232,106 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "HE9AwkqBAin6WRPv5",
+          "author": "@uxdesigncc",
+          "description": "Making things that think.",
+          "link": "https://uxdesign.cc/intelligent-interfaces-of-the-future-3c17bce2dc0a",
+          "publishedOn": "2023-05-17T12:02:37.000Z",
+          "wordCount": 6021,
+          "title": "Intelligent interfaces of the future",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*2HsBnr-6BXiy0sPILi-lmg.jpeg"
+        },
+        {
+          "id": "cC2WPL8BfhL9z5Agt",
+          "author": "@colossal",
+          "description": "Ryan Newburn photographs his expeditions into Icelandic ice caves and the vast, immense spaces that emerge once inside.",
+          "link": "https://www.thisiscolossal.com/2023/05/ryan-newburn-glacier-photos/",
+          "publishedOn": "2023-05-17T12:01:51.000Z",
+          "wordCount": 2006,
+          "title": "Ryan Newburn Captures the Depths of Iceland’s Ancient Glacial Caves",
+          "imageUrl": "https://www.thisiscolossal.com/wp-content/uploads/2023/05/newburn-og.jpg"
+        },
+        {
+          "id": "jzmgPBWkX25JSYB47",
+          "author": "@forerunnervc",
+          "description": "Building a remarkable brand is foundational to building a remarkable company.",
+          "link": "https://brandpowerscore.com/",
+          "publishedOn": "2023-05-17T12:00:39.000Z",
+          "wordCount": 2020,
+          "title": "Brand Power Score: A New Standard for Measuring Brand Impact",
+          "imageUrl": "https://images.ctfassets.net/s0a8r0huql0j/45oMA357ugflHB41Sdk4BL/b3c7322ab8f1f0d83b7a19a21af8f37b/Brand-Power-Score.jpg"
+        },
+        {
+          "id": "eCqdjmvf3jyS7ZScK",
+          "author": "@lukew",
+          "description": "As artificial intelligence models extend what’s possible with human computer interactions, our user interfaces need to adapt to support them.",
+          "link": "https://www.lukew.com/ff/entry.asp?2018",
+          "publishedOn": "2023-05-17T11:58:37.000Z",
+          "wordCount": 897,
+          "title": "Expanding Conversational User Interfaces",
+          "imageUrl": "https://static.lukew.com/ask_lukew_chatUI.png"
+        },
+        {
+          "id": "JpMkBx4QiPuHtBfxg",
+          "author": "@restofworld",
+          "description": "​​A viral trend imagines alternate timelines in which Western imperial nations never came to power.",
+          "link": "https://restofworld.org/2023/ai-tiktok-creators-rewrite-history/",
+          "publishedOn": "2023-05-17T11:53:47.000Z",
+          "wordCount": 1554,
+          "title": "TikTok creators use AI to rewrite history",
+          "imageUrl": "https://149346090.v2.pressablecdn.com/wp-content/uploads/2023/05/cropped-aiart-tiktok-socialshare.jpg"
+        },
+        {
+          "id": "y9uzJnxy775du5Kdy",
+          "author": "@shadeed9",
+          "description": "A modern look at how to combine CSS :has and :nth-last-child to create powerful conditional CSS patterns.",
+          "link": "http://ishadeed.com/article/conditional-css-has-nth-last-child/",
+          "publishedOn": "2023-05-16T02:11:52.000Z",
+          "wordCount": 2300,
+          "title": "Conditional CSS with :has and :nth-last-child",
+          "imageUrl": "https://ishadeed.com/assets/css-has-nth-last-child/twitter-card.jpg"
+        },
+        {
+          "id": "4CK8FWsHwwCvSqzNu",
+          "author": "@amygoodchild",
+          "description": "A deep dive on the early days of creative computing coming to life. Punch cards, plotters, light pens and lots more.",
+          "link": "https://www.amygoodchild.com/blog/computer-art-50s-and-60s",
+          "publishedOn": "2023-05-16T00:49:20.000Z",
+          "wordCount": 5821,
+          "title": "Early Computer Art in the 50’s & 60’s",
+          "imageUrl": "http://static1.squarespace.com/static/5f33cddd6aff255aabb0c6cd/5f37d09b551f154577577f01/6459586fc50a732c95d4f88d/1684334899709/whitney+3.png?format=1500w"
+        },
+        {
+          "id": "WTtLoWE5BgWeB52Kk",
+          "author": "@materialdesign",
+          "description": "The research and design behind the evolution of the Material 3 carousel.",
+          "link": "https://material.io/blog/material-3-carousel-research-design",
+          "publishedOn": "2023-05-16T00:48:28.000Z",
+          "wordCount": 1062,
+          "title": "Reinventing the carousel",
+          "imageUrl": "https://lh3.googleusercontent.com/xXIH6HCl83ptYq0A9rqhIshASLH9wk05RSfmMQ-ryq5hVYgYYle_Li2elQsQ7Ik_labxNGzjSn9uEmX61i0csjc8ehHaDe3stZAYRigB7Ukkwq8BZYA"
+        },
+        {
+          "id": "YELXMoCNwhuMXfLCd",
+          "author": "@chromiumdev",
+          "description": "The top 20 CSS and UI features highlighted at Google I/O 2023 that you don’t want to miss.",
+          "link": "https://developer.chrome.com/en/blog/whats-new-css-ui-2023",
+          "publishedOn": "2023-05-16T00:46:31.000Z",
+          "wordCount": 6089,
+          "title": "What’s new in CSS and UI: I/O 2023 Edition",
+          "imageUrl": "https://wd.imgix.net/image/HodOHWjMnbNw56hvNASHWSgZyAf2/SFD8CfPWwgHJMOLIAlh3.png?auto=format&w=1521"
+        },
+        {
+          "id": "XjEWCGCLzDR9utyBq",
+          "author": "@PuddingViz",
+          "description": "I loved my grandmother’s fresh kimchi. But as I aged, tasting the defining flavor of my childhood became elusive.",
+          "link": "https://pudding.cool/2023/05/kimchi/",
+          "publishedOn": "2023-05-16T00:45:26.000Z",
+          "wordCount": 63,
+          "title": "The search for my kimchi",
+          "imageUrl": "https://pudding.cool/2023/05/kimchi/assets/social-facebook.png"
+        },
         {
           "id": "FwLqfstcAYbbKCNhW",
           "author": "@kottke",
@@ -7131,56 +7281,6 @@
           "wordCount": null,
           "title": "Typography Manual",
           "imageUrl": null
-        },
-        {
-          "id": "Zg5WAmad5PkDbewxL",
-          "author": "@kottke",
-          "description": "An extraordinary amount of human history -- cultural, scientific, artistic -- is held in private hands.",
-          "link": "https://kottke.org/23/04/a-history-of-the-world-according-to-getty-images",
-          "publishedOn": "2023-04-18T07:14:11.000Z",
-          "wordCount": 544,
-          "title": "A History Of The World According To Getty Images",
-          "imageUrl": ""
-        },
-        {
-          "id": "jMvGvPHbs6QaEAbFq",
-          "author": null,
-          "description": "We are a not-for-profit entity created to safeguard the rich history and design diversity of mobile devices.",
-          "link": "https://www.mobilephonemuseum.com/",
-          "publishedOn": "2023-04-18T07:12:28.000Z",
-          "wordCount": 4228,
-          "title": "Mobile Phone Museum",
-          "imageUrl": null
-        },
-        {
-          "id": "ohDPRQY7t28wdZgux",
-          "author": "@m_ott",
-          "description": "I created and published a template that I will use in my own projects going forward.",
-          "link": "https://matthiasott.com/notes/a-readme-template-with-an-automatically-generated-table-of-contents",
-          "publishedOn": "2023-04-18T07:10:45.000Z",
-          "wordCount": 1045,
-          "title": "A README Template",
-          "imageUrl": null
-        },
-        {
-          "id": "EP5uHAX8Nw5sSTvLh",
-          "author": "@Builtformars",
-          "description": "A study on how Dominos (and Pizza Hut) use dark patterns, UX tricks and design psychology to overcharge customers.",
-          "link": "https://builtformars.com/case-studies/dominos-pizza",
-          "publishedOn": "2023-04-18T07:06:55.000Z",
-          "wordCount": 1877,
-          "title": "Using dark patterns to overcharge for pizza",
-          "imageUrl": "https://builtformars.com/uploads/images/_1200x630_crop_center-center_82_none/Dominos-featured-image.jpg?mtime=1680528182"
-        },
-        {
-          "id": "4BCFWM3TqQecqCr3x",
-          "author": "@atarim_io",
-          "description": "Go Behind The Scenes With 40+ World-Class Web Agency Owners, Developers, Marketers and Project Managers…",
-          "link": "https://atarim.io/summit",
-          "publishedOn": "2023-04-17T15:00:00.000Z",
-          "wordCount": 14373,
-          "title": "The 4th Annual Web Agency Summit (Join Google, Microsoft, Yoast and more)",
-          "imageUrl": "https://atarim.io/wp-content/uploads/web-agency-summit-2023-1.png"
         }
       ]
     },
@@ -7224,6 +7324,16 @@
       "feedUrl": "https://webkit.org/blog/feed/",
       "siteUrl": "https://webkit.org",
       "articles": [
+        {
+          "id": "https://webkit.org/?p=14167",
+          "author": null,
+          "description": "Learn about the latest web technology updates in Safari Technology Preview: CSS, Layout, JavaScript, Media, Popover, and Accessibility.",
+          "link": "https://webkit.org/blog/14167/release-notes-for-safari-technology-preview-170/",
+          "publishedOn": "2023-05-17T20:59:20.000Z",
+          "wordCount": 790,
+          "title": "Release Notes for Safari Technology Preview 170",
+          "imageUrl": null
+        },
         {
           "id": "https://webkit.org/?p=14149",
           "author": null,
@@ -7286,7 +7396,19 @@
       "title": "DigitalA11Y",
       "feedUrl": "https://www.digitala11y.com/feed/",
       "siteUrl": "https://www.digitala11y.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.digitala11y.com/?p=23796",
+          "author": "David Gevorkian",
+          "description": "The web and the internet are some of the most important resources that have helped man in virtually every aspect of life – education, entertainment, information, relationships, healthcare, government, finance, etc. As technology continues to advance, the possibilities of what can be achieved on the web are endless. Hence, it is particularly important that the...",
+          "link": "https://www.digitala11y.com/how-inclusive-web-design-affects-user-experience/",
+          "publishedOn": "2023-05-17T08:25:18.000Z",
+          "wordCount": null,
+          "title": "How Inclusive Web Design Affects User Experience",
+          "itunes": {},
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Sara Soueidan – Blog",
@@ -7305,6 +7427,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2023/05/big-tooling-upgrades-large-organizations/",
+          "author": "hello@smashingmagazine.com (Joran Quinten)",
+          "description": "The process of upgrading large third-party packages in equally large organizations is rarely, if ever, as easy as running an npm update and calling it a day in this context. Joran Quinten shares valuable lessons from his team’s experiences in upgrading third-party code that affects codebases across the entire organization.",
+          "link": "https://smashingmagazine.com/2023/05/big-tooling-upgrades-large-organizations/",
+          "publishedOn": "2023-05-17T10:00:00.000Z",
+          "wordCount": 5068,
+          "title": "How To Deal With Big Tooling Upgrades In Large Organizations",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/how-deal-big-tooling-upgrades-large-organizations/big-tooling-upgrades-large-organizations.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/how-deal-big-tooling-upgrades-large-organizations/big-tooling-upgrades-large-organizations.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2023/05/design-patterns-collaborate-design-system/",
           "author": "hello@smashingmagazine.com (Ben Clemens)",
@@ -7574,36 +7711,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://files.smashing.media/articles/color-mechanics-ui-kits/color-mechanics-ui-kits-sharing-image.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/04/smashing-podcast-episode-59/",
-          "author": "hello@smashingmagazine.com (Drew McLellan)",
-          "description": "In this episode of The Smashing Podcast, we take a look at design storytelling. What is it, and how can it help us shape digital experiences? Vitaly talks to Chiara Aliotta to find out.",
-          "link": "https://smashingmagazine.com/2023/04/smashing-podcast-episode-59/",
-          "publishedOn": "2023-04-18T12:00:00.000Z",
-          "wordCount": 10291,
-          "title": "Smashing Podcast Episode 59 With Chiara Aliotta: What Is Design Storytelling?",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/smashing-podcast-episode-59/smashing-podcast-episode-59.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://files.smashing.media/articles/smashing-podcast-episode-59/smashing-podcast-episode-59.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/04/what-is-design-thinking/",
-          "author": "hello@smashingmagazine.com (Krithika Subramanian)",
-          "description": "Have you ever wondered if things could have been done differently? But not sure how? Well, then, do not fall in love with the solution, but fall in love with the problem! Here’s an article to dive deep into how design thinking could do just that.",
-          "link": "https://smashingmagazine.com/2023/04/what-is-design-thinking/",
-          "publishedOn": "2023-04-17T15:00:00.000Z",
-          "wordCount": 4534,
-          "title": "What Is Design Thinking?",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/what-is-design-thinking/what-is-design-thinking-sharing-image.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/what-is-design-thinking/what-is-design-thinking-sharing-image.jpg"
         }
       ]
     },
