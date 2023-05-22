@@ -29,6 +29,16 @@
       "siteUrl": "https://adamsilver.io/atom.xml",
       "articles": [
         {
+          "id": "https://adamsilver.io/blog/the-billion-dollar-unsubscribe-link/",
+          "author": null,
+          "description": "2 weeks ago I sent an email to 3,855 subscribers using ConvertKit.\nMy newsletter email footer\n\t\n\nBut 177 of them were instantly unsubscribed without clicking the unsubscribe link. What happened?\nThese subscribers work at organisations with strict security. Every link is automatically opened to check it’s not malicious.\nFine, except that:\nmy subscribers were unsubscribed without their consent\nsupport agents spent a lot of time dealing with me and the issue\nI had to spot the issue; work out how to resubscribe everyone; and create a workaround so it doesn’t happen again\nThis is a billion dollar UX mistake\nHere’s why:\nSupport costs go up\nCustomer retention rates go down\nCustomer satisfaction scores go down\nCustomer fees go down (you pay based on subscriber count)\nScale this up to 580,084 ConvertKit customers and 633 million subscribers and you’ve got a billion dollar mistake caused by a teeny tiny link.\nLinks are for navigation, buttons are for actions\nTo solve the problem do this:\nClicking the unsubscribe link takes users to a page with a form\nSubmitting the form unsubscribes the user.\nThe links can still be checked automatically. But only users can submit the form.\nGood design puts users in control.\n(Note: I’ve messaged ConvertKit’s founder about this and offered to help fix the issue. For now, I’ve used a workaround that takes subscribers to a Tally.so form. When submitted it triggers a Zapier automation that removes them from my newsletter.)",
+          "link": "https://adamsilver.io/blog/the-billion-dollar-unsubscribe-link/",
+          "publishedOn": "2023-05-21T00:00:00.000Z",
+          "wordCount": 329,
+          "title": "The billion dollar unsubscribe link",
+          "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:The billion dollar unsubscribe link,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter:75996107/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
+        },
+        {
           "id": "https://adamsilver.io/blog/the-problem-with-disabled-buttons-and-what-to-do-instead/",
           "author": null,
           "description": "In 2009 I prototyped a form that disabled the submit button until all the answers were valid.\nThe idea being: the best error is the one the user never sees.\nBut disabled buttons takes this rule to the extreme.\nAnd as a result it can frustrate users or worse, cause them to give up completely.\nHere’s why:\nProblem #1: They don’t give feedback\nWhen a form has mistakes, the user has to look at each field, spot a mistake and work out how to fix it.\n\n\t\t\t\t\n\t\t\tKotak Bank’s disabled button does not give feedback\n\t\n\nProblem #2: They make the interface feel broken\nIf the user thinks their answers are valid, the UI may feel broken. If there are multiple errors and 1 is fixed, the button stays disabled. This feels unresponsive.\n\n\t\t\t\t\n\t\t\tWeTransfer disabled button feels broken\n\t\n\nProblem #3: They’re hard…",
@@ -1208,6 +1218,46 @@
       "siteUrl": "https://heydesigner.com",
       "articles": [
         {
+          "id": "https://heydesigner.com/?p=68170",
+          "author": "Travis",
+          "description": "Every design comes with assumptions about how much content will be seen by people because the space in which people access our designs is the one thing we cannot control.",
+          "link": "https://heydesigner.com/the-rhythm-of-your-screen/",
+          "publishedOn": "2023-05-21T16:53:40.000Z",
+          "wordCount": 209,
+          "title": "The rhythm of your screen",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68168",
+          "author": "Travis",
+          "description": "The importance of the high-contrast theme in interfaces and its differences from the dark theme.",
+          "link": "https://heydesigner.com/high-contrast-when-you-think-dark-mode-is-enough/",
+          "publishedOn": "2023-05-21T16:51:25.000Z",
+          "wordCount": 207,
+          "title": "High-contrast: When you think dark mode is enough",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68166",
+          "author": "Travis",
+          "description": "Design effective error messages by ensuring they are highly visible, provide constructive communication, and respect user effort.",
+          "link": "https://heydesigner.com/error-message-guidelines/",
+          "publishedOn": "2023-05-21T16:50:42.000Z",
+          "wordCount": 200,
+          "title": "Error message guidelines",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68164",
+          "author": "Travis",
+          "description": "View Transitions for MPAs are a feature that’s high on my CSS wishlist, so I got to it. It took less than an hour to do, requires zero JavaScript, and two lines of CSS. I’m pleased with the results.",
+          "link": "https://heydesigner.com/getting-started-with-view-transitions-on-multi-page-apps/",
+          "publishedOn": "2023-05-21T16:49:21.000Z",
+          "wordCount": 214,
+          "title": "Getting started with View Transitions on multi-page apps",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
           "id": "https://heydesigner.com/?p=68158",
           "author": "Travis",
           "description": "High fidelity design should be done in code, not as mockups, especially when it comes to digital products.",
@@ -1924,6 +1974,56 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36022159",
+          "author": "zi_",
+          "description": "Article URL: https://proportio.app/\nComments URL: https://news.ycombinator.com/item?id=36022159\nPoints: 1\n# Comments: 0",
+          "link": "https://proportio.app/",
+          "publishedOn": "2023-05-21T15:50:30.000Z",
+          "wordCount": 11,
+          "title": "Tool for creating proportional scales in design systems",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36020589",
+          "author": "softwaredoug",
+          "description": "Article URL: http://blog.jnbrymn.com/2023/05/20/primary-objective-of-software-design.html\nComments URL: https://news.ycombinator.com/item?id=36020589\nPoints: 2\n# Comments: 0",
+          "link": "http://blog.jnbrymn.com/2023/05/20/primary-objective-of-software-design.html",
+          "publishedOn": "2023-05-21T13:20:55.000Z",
+          "wordCount": 1813,
+          "title": "The Primary Objective of Software Design: Minimizing Total Cognitive Load",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36019291",
+          "author": "nativecoinc",
+          "description": "Article URL: https://lore.kernel.org/git/nycvar.QRO.7.76.6.2110211150290.56@tvgsbejvaqbjf.bet/\nComments URL: https://news.ycombinator.com/item?id=36019291\nPoints: 3\n# Comments: 1",
+          "link": "https://lore.kernel.org/git/nycvar.QRO.7.76.6.2110211150290.56@tvgsbejvaqbjf.bet/",
+          "publishedOn": "2023-05-21T09:40:13.000Z",
+          "wordCount": 1396,
+          "title": "Meeting notes on Git’s UX (2021)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36017920",
+          "author": "thunderbong",
+          "description": "Article URL: https://bootcamp.uxdesign.cc/ux-journal-catalogue-of-impossible-objects-78269282696c?gi=3071f632de11\nComments URL: https://news.ycombinator.com/item?id=36017920\nPoints: 2\n# Comments: 0",
+          "link": "https://bootcamp.uxdesign.cc/ux-journal-catalogue-of-impossible-objects-78269282696c?gi=3071f632de11",
+          "publishedOn": "2023-05-21T04:04:01.000Z",
+          "wordCount": 3126,
+          "title": "UX Journal – Catalogue of Impossible Objects",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*by-1CJUc4k9MSzhLH-3XHw.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36017520",
+          "author": "enoughalready",
+          "description": "Article URL: https://medium.com/@jasonlmcaffee/i-dont-want-your-bank-s-ui-i-want-chatgpt-integration-1489cc58a2e0\nComments URL: https://news.ycombinator.com/item?id=36017520\nPoints: 6\n# Comments: 12",
+          "link": "https://medium.com/@jasonlmcaffee/i-dont-want-your-bank-s-ui-i-want-chatgpt-integration-1489cc58a2e0",
+          "publishedOn": "2023-05-21T02:35:03.000Z",
+          "wordCount": 3692,
+          "title": "I Don’t Want Your Bank’s UI. I Want a ChatGPT-Like UI",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*rz6XS-5Qj3n9r_CF1ontpg.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36014936",
           "author": "nt9200",
@@ -4273,96 +4373,6 @@
           "wordCount": 1975,
           "title": "Design quirks, limited parts, and other ways Chromebooks frustrate repairs",
           "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2023/04/Chromebook-logo-760x380.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35665229",
-          "author": "eddieweng",
-          "description": "Article URL: https://reroom.ai/roomboost-craigslist\nComments URL: https://news.ycombinator.com/item?id=35665229\nPoints: 1\n# Comments: 0",
-          "link": "https://reroom.ai/roomboost-craigslist",
-          "publishedOn": "2023-04-22T10:57:22.000Z",
-          "wordCount": 416,
-          "title": "Show HN: RoomBoost - AI-Powered Interior Design Tool to Increase Renter Appeal",
-          "imageUrl": "https://reroom.ai/preview-new.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35664563",
-          "author": "myuzio",
-          "description": "This is an interface on top of the OpenAI API for GPT-3 and 4. It looks similar to ChatGPT, but has a few more features.\nIt does require you to have an API key for the GPT API. The API key is stored in your browser local storage , but a hash of it is used to make sure your history is unique to you. The hash is stored in the backend.\nThere are two main reasons why I created this for myself, you also might find it useful:\n- I would really wanted ChatGPT to have access get contents from websites\n- I don't like subscription fees and I don't like how slow the free ChatGPT is, I like to pay-as-I-go, and GPT API already allows me to do that\nP.S. There's also a Chrome extension for summarising pages, but it's my first time creating a Chrome extension. It's ugly and buggy, and the slow review process of the Chrome web app developer  console doesn't help.\nComments URL: https://news.ycombinator.com/item?id=35664563\nPoints: 1\n# Comments: 0",
-          "link": "https://chat.lit.codes/",
-          "publishedOn": "2023-04-22T08:50:49.000Z",
-          "wordCount": 98,
-          "title": "Show HN: GPT UI similar to ChatGPT but with sudo access",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35661526",
-          "author": "mfiguiere",
-          "description": "Article URL: https://arstechnica.com/cars/2023/04/function-explains-itself-bugattis-designer-talks-evs-with-us/\nComments URL: https://news.ycombinator.com/item?id=35661526\nPoints: 1\n# Comments: 0",
-          "link": "https://arstechnica.com/cars/2023/04/function-explains-itself-bugattis-designer-talks-evs-with-us/",
-          "publishedOn": "2023-04-21T23:17:04.000Z",
-          "wordCount": 1864,
-          "title": "How Bugatti is approaching electric car design",
-          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2023/04/08-BUGATTI-W16-Mistral_MCW-760x380.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35658827",
-          "author": "mistermeenr",
-          "description": "Article URL: https://login.sprintdock.app/sso\nComments URL: https://news.ycombinator.com/item?id=35658827\nPoints: 2\n# Comments: 1",
-          "link": "https://login.sprintdock.app/sso",
-          "publishedOn": "2023-04-21T19:30:11.000Z",
-          "wordCount": 165,
-          "title": "Is This Waitlist UX/UI Overkill, or [Chefs Kiss]?",
-          "imageUrl": "https://pub-3d59231d7ecc43e7af32a82026f9e071.r2.dev/website_banner.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35657716",
-          "author": "bcn",
-          "description": "Article URL: https://dl.acm.org/doi/10.1145/3544548.3581166\nComments URL: https://news.ycombinator.com/item?id=35657716\nPoints: 1\n# Comments: 0",
-          "link": "https://dl.acm.org/doi/10.1145/3544548.3581166",
-          "publishedOn": "2023-04-21T18:08:04.000Z",
-          "wordCount": 3551,
-          "title": "Design and Evaluation of an Agency-Based Parrot-to-Parrot Video-Calling System",
-          "imageUrl": "https://dl.acm.org/cms/asset/bb50d8bb-fcb7-45c8-a550-31340c3ceddd/3544548.cover.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35657490",
-          "author": "bhavansri",
-          "description": "Article URL: https://github.com/pageblox-org/pageblox-react\nComments URL: https://news.ycombinator.com/item?id=35657490\nPoints: 1\n# Comments: 1",
-          "link": "https://github.com/pageblox-org/pageblox-react",
-          "publishedOn": "2023-04-21T17:51:04.000Z",
-          "wordCount": 887,
-          "title": "Show HN: Open-source react library to review UX/UI directly in-browser",
-          "imageUrl": "https://opengraph.githubassets.com/593487d2d544cdc24143266c5061cddeb5866177dddd8cbb55440aa6d6f5990e/pageblox-org/pageblox-react"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35657455",
-          "author": "rbanffy",
-          "description": "Article URL: https://www.nextplatform.com/2023/04/20/accelerating-chip-design-with-gpus-and-adding-ai-to-push-it-further/\nComments URL: https://news.ycombinator.com/item?id=35657455\nPoints: 3\n# Comments: 0",
-          "link": "https://www.nextplatform.com/2023/04/20/accelerating-chip-design-with-gpus-and-adding-ai-to-push-it-further/",
-          "publishedOn": "2023-04-21T17:48:57.000Z",
-          "wordCount": 4233,
-          "title": "Accelerating Chip Design with GPUs, and Adding AI to Push It Further",
-          "imageUrl": "http://www.nextplatform.com/wp-content/uploads/2023/04/asml-lithography-logo.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35654853",
-          "author": "jane_flowers",
-          "description": "Article URL: https://affale.substack.com/p/5-limitless-trim\nComments URL: https://news.ycombinator.com/item?id=35654853\nPoints: 1\n# Comments: 0",
-          "link": "https://affale.substack.com/p/5-limitless-trim",
-          "publishedOn": "2023-04-21T15:04:04.000Z",
-          "wordCount": 4892,
-          "title": "Using 3D Printing in Fashion Design",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b149fcd-3d11-4888-88d8-d60929ccd7b6_3929x2655.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35652593",
-          "author": "lucideer",
-          "description": "Article URL: https://twitter.com/cyberleagle/status/1649303677453074435\nComments URL: https://news.ycombinator.com/item?id=35652593\nPoints: 1\n# Comments: 1",
-          "link": "https://twitter.com/cyberleagle/status/1649303677453074435",
-          "publishedOn": "2023-04-21T12:16:24.000Z",
-          "wordCount": 509,
-          "title": "OnlineSafetyBill: If you dont want people to add baubles dont design a xmas tree",
-          "imageUrl": null
         }
       ]
     },
@@ -4371,6 +4381,36 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36023810",
+          "author": "zerojames",
+          "description": "Article URL: https://jamesg.blog/openai.xml\nComments URL: https://news.ycombinator.com/item?id=36023810\nPoints: 2\n# Comments: 1",
+          "link": "https://jamesg.blog/openai.xml",
+          "publishedOn": "2023-05-21T19:05:19.000Z",
+          "wordCount": 280,
+          "title": "Show HN: An RSS feed for the OpenAI blog",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36019502",
+          "author": "firstSpeaker",
+          "description": "Article URL: https://www.forbes.com/sites/jackkelly/2023/05/19/while-ceos-blame-remote-work-for-decreased-productivity-heres-the-bigger-picture/\nComments URL: https://news.ycombinator.com/item?id=36019502\nPoints: 5\n# Comments: 2",
+          "link": "https://www.forbes.com/sites/jackkelly/2023/05/19/while-ceos-blame-remote-work-for-decreased-productivity-heres-the-bigger-picture/",
+          "publishedOn": "2023-05-21T10:19:04.000Z",
+          "wordCount": 12766,
+          "title": "While CEOs Blame Remote Work for Decreased Productivity, Here’s the Big Picture",
+          "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/64668469f3137e650e41e29b/0x0.jpg?format=jpg&crop=2144,1428,x300,y0,safe&width=1200"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36019134",
+          "author": "kiyanwang",
+          "description": "Article URL: https://www.seedtoscale.com/content/maintaining-productivity-as-engineering-teams-scale\nComments URL: https://news.ycombinator.com/item?id=36019134\nPoints: 2\n# Comments: 0",
+          "link": "https://www.seedtoscale.com/content/maintaining-productivity-as-engineering-teams-scale",
+          "publishedOn": "2023-05-21T09:08:26.000Z",
+          "wordCount": 3740,
+          "title": "Maintaining Productivity as Engineering Teams Scale",
+          "imageUrl": "https://assets-global.website-files.com/606cae0c4e05dc45295b04a7/60edde55a8f0b163ea1290a6_5fbe5a5d517111861a856407_Screenshot%2525252525202020-11-25%252525252520at%2525252525206.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36015830",
           "author": "kamphey",
@@ -4900,36 +4940,6 @@
           "wordCount": 333,
           "title": "I created a time-tracking tool that helped me improve my productivity with AI",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35661203",
-          "author": "yamrzou",
-          "description": "Article URL: https://annablake.com/2012/12/07/humor-deficit-disorder-serious-riders-and-stoic-horses/\nComments URL: https://news.ycombinator.com/item?id=35661203\nPoints: 1\n# Comments: 0",
-          "link": "https://annablake.com/2012/12/07/humor-deficit-disorder-serious-riders-and-stoic-horses/",
-          "publishedOn": "2023-04-21T22:39:10.000Z",
-          "wordCount": 2961,
-          "title": "Humor Deficit Disorder: Serious Riders and Stoic Horses (2012)",
-          "imageUrl": "https://annablake.b-cdn.net/wp-content/uploads/2012/12/clara-and-nube-1.jpg?w=1024"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35654693",
-          "author": "mfiguiere",
-          "description": "Article URL: https://lemire.me/blog/2023/04/21/will-emerging-artificial-intelligence-boost-research-productivity/\nComments URL: https://news.ycombinator.com/item?id=35654693\nPoints: 1\n# Comments: 0",
-          "link": "https://lemire.me/blog/2023/04/21/will-emerging-artificial-intelligence-boost-research-productivity/",
-          "publishedOn": "2023-04-21T14:54:34.000Z",
-          "wordCount": 3517,
-          "title": "Will emerging artificial intelligence boost research productivity?",
-          "imageUrl": "https://lemire.me/img/portrait2018facebook.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35653487",
-          "author": "mooreds",
-          "description": "Article URL: https://www.devzero.io/blog/inside-the-world-of-developer-productivity-best-practices-from-google\nComments URL: https://news.ycombinator.com/item?id=35653487\nPoints: 1\n# Comments: 0",
-          "link": "https://www.devzero.io/blog/inside-the-world-of-developer-productivity-best-practices-from-google",
-          "publishedOn": "2023-04-21T13:33:13.000Z",
-          "wordCount": 6483,
-          "title": "The World of Developer Productivity: Best Practices from Google",
-          "imageUrl": "https://cdn.sanity.io/images/vxev1xw8/production/380fd5b54d5341c4b1cc5c4bb0761891e0af8fd7-6720x4480.jpg?rect=0,476,6720,3528&w=1200&h=630"
         }
       ]
     },
@@ -4938,6 +4948,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36019354",
+          "author": "thunderbong",
+          "description": "Article URL: https://petertyliu.github.io/toaster/\nComments URL: https://news.ycombinator.com/item?id=36019354\nPoints: 21\n# Comments: 3",
+          "link": "https://petertyliu.github.io/toaster/",
+          "publishedOn": "2023-05-21T09:52:27.000Z",
+          "wordCount": 22,
+          "title": "Toaster: Pure CSS 3D Modelling Suite",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36010504",
           "author": "popcalc",
@@ -5647,46 +5667,6 @@
           "wordCount": 394,
           "title": "I just learned about HTML redirects",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35664282",
-          "author": "aabbcc1241",
-          "description": "Article URL: https://github.com/Quramy/typed-css-modules\nComments URL: https://news.ycombinator.com/item?id=35664282\nPoints: 1\n# Comments: 0",
-          "link": "https://github.com/Quramy/typed-css-modules",
-          "publishedOn": "2023-04-22T07:46:20.000Z",
-          "wordCount": 1565,
-          "title": "Auto generate type declaration for CSS module",
-          "imageUrl": "https://opengraph.githubassets.com/f64a21cfb24ef286e52ccab09501727d0ac08e5b2ff572575d250fed9b15d980/Quramy/typed-css-modules"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35663583",
-          "author": "_ngw_",
-          "description": "Article URL: https://seoengr.net/2023/04/20/automating-html-validation.html\nComments URL: https://news.ycombinator.com/item?id=35663583\nPoints: 2\n# Comments: 5",
-          "link": "https://seoengr.net/2023/04/20/automating-html-validation.html",
-          "publishedOn": "2023-04-22T05:16:11.000Z",
-          "wordCount": 1395,
-          "title": "Automating HTML Validation for a Happier Life",
-          "imageUrl": "https://seoengr.net/assets/images/w3cs.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35657483",
-          "author": "jsheard",
-          "description": "Article URL: https://twitter.com/JasperRLZ/status/1648046875675856897\nComments URL: https://news.ycombinator.com/item?id=35657483\nPoints: 2\n# Comments: 1",
-          "link": "https://twitter.com/JasperRLZ/status/1648046875675856897",
-          "publishedOn": "2023-04-21T17:50:41.000Z",
-          "wordCount": 509,
-          "title": "Nintendo developed a Wii U game with HTML and JavaScript",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35653596",
-          "author": "shivajikobardan",
-          "description": "I even bought that course by that popular guy. CSS for JS developers that  could not help me because I could not help myself. CSS designs is just not for me no matter how hard I try.\nI find web development to be mostly css(frontend) and if you lack css skills, you can't be a good web developer.\nfailwindcss and bootcrap are no substitute for cs s according to the experts of industry.\nHow do I learn it? Is there a way out?\nComments URL: https://news.ycombinator.com/item?id=35653596\nPoints: 3\n# Comments: 5",
-          "link": "https://news.ycombinator.com/item?id=35653596",
-          "publishedOn": "2023-04-21T13:41:33.000Z",
-          "wordCount": 323,
-          "title": "I quitted web development because I failed to learn CSS",
-          "imageUrl": null
         }
       ]
     },
@@ -5779,6 +5759,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=44506",
+          "author": "Seth Godin",
+          "description": "Sooner or later, we find a place to hide. A place of security or sustenance. A place of safety. That sort of foundation can give us peace of mind and open the door to possibility. But, it’s possible that we can turn it into a trap as well. A situation so perfectly created that we’re […]",
+          "link": "https://seths.blog/2023/05/which-sort-of-sinecure/",
+          "publishedOn": "2023-05-21T08:24:00.000Z",
+          "wordCount": 964,
+          "title": "Which sort of sinecure?",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=43399",
           "author": "Seth Godin",
@@ -6073,16 +6063,6 @@
           "wordCount": 963,
           "title": "The search tax",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43378",
-          "author": "Seth Godin",
-          "description": "The best way to win a short-term game is to bet it all on one strategy. Someone is going to get lucky and it might be you. But we rarely thrive in the long run if we persist in playing a series of short-term games. Instead, organizations, individuals and teams do better when they understand […]",
-          "link": "https://seths.blog/2023/04/but-what-if-it-doesnt-work/",
-          "publishedOn": "2023-04-22T08:43:00.000Z",
-          "wordCount": 955,
-          "title": "“But what if it doesn’t work?”",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         }
       ]
     },
