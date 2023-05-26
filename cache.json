@@ -369,6 +369,26 @@
       "siteUrl": "https://dailydevlinks.com/",
       "articles": [
         {
+          "id": "https://dailydevlinks.com/?p=12257",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://dailydevlinks.com/single-line-comments-in-css/",
+          "publishedOn": "2023-05-25T11:33:00.000Z",
+          "wordCount": 3097,
+          "title": "Single Line Comments in CSS",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
+        {
+          "id": "https://dailydevlinks.com/?p=12260",
+          "author": "Adam Marsden",
+          "description": "A11YCSS",
+          "link": "https://dailydevlinks.com/display-contents-considered-harmful/",
+          "publishedOn": "2023-05-25T11:30:00.000Z",
+          "wordCount": 3099,
+          "title": "display: contents considered harmful",
+          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
+        },
+        {
           "id": "https://dailydevlinks.com/?p=12242",
           "author": "Adam Marsden",
           "description": "Design",
@@ -827,26 +847,6 @@
           "wordCount": 3073,
           "title": "Accepting design",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=12101",
-          "author": "Adam Marsden",
-          "description": "UX",
-          "link": "https://dailydevlinks.com/could-ux-be-the-key-to-unlocking-web3-mass-adoption/",
-          "publishedOn": "2023-04-26T11:33:00.000Z",
-          "wordCount": 3102,
-          "title": "Could UX Be The Key To Unlocking Web3 Mass Adoption?",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=12104",
-          "author": "Adam Marsden",
-          "description": "Design",
-          "link": "https://dailydevlinks.com/a-simpler-page-for-stories-on-medium/",
-          "publishedOn": "2023-04-26T11:30:00.000Z",
-          "wordCount": 3094,
-          "title": "A simpler page for stories on Medium",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
         }
       ]
     },
@@ -861,6 +861,36 @@
       "feedUrl": "https://daverupert.com/atom.xml",
       "siteUrl": "https://daverupert.com",
       "articles": [
+        {
+          "id": "https://daverupert.com/2023/05/js-compiler-double-standards/",
+          "author": null,
+          "description": "The other day, Josh “Triple-Threat” Collinsworth challenged me in the ShopTalkShow D-d-d-discord on why I always caveat Svelte with “if you’re comfortable with the compiler” (which I said in Ep537):\nAssuming you’re using a compiler already, why might Svelte’s [compiler] not be a good choice? What obstacles does that create? … I mean, if you’re using single-file components with Vue, you’re already bought into a compiler. So why is it a fear with Svelte and not with Vue? Am I missing something, or are those not just the same thing?\nOof. He’s right. I am almost certainly applying a double standard and over-thinking the issue. At a high-level, there’s nothing different between Vue and Svelte’s compiler; code goes in → command gets run → website comes out. Why do I have reservations about Svelt…",
+          "link": "https://daverupert.com/2023/05/js-compiler-double-standards/",
+          "publishedOn": "2023-05-25T22:50:00.000Z",
+          "wordCount": 1742,
+          "title": "My double standards about JS framework compilers",
+          "imageUrl": null
+        },
+        {
+          "id": "https://daverupert.com/2023/05/boringness-in-design-systems/",
+          "author": null,
+          "description": "There’s a lot of “same-ness” across design systems. Yesenia Perez-Cruz said it well:\nSameness over cohesion. This is probably the biggest issue I’ve seen with design systems. They can lead to a feeling of visually generic sameness instead of a feeling of cohesion across an experience.\nWe’re all subtly influenced by the zeitgeist of the day but —in my experience— a lot of the look and feel of components in a design system get born out of a fear of variable content. On my first big design system project I remember someone telling me, “This component has to be able to exist in any context” and I felt the weight of the universe pressing on my shoulders. All those contexts and content shapes a component can exist impact the final product.\nTake the humble Card component. Quick riffing, here’s a …",
+          "link": "https://daverupert.com/2023/05/boringness-in-design-systems/",
+          "publishedOn": "2023-05-25T19:47:00.000Z",
+          "wordCount": 853,
+          "title": "Boringness in Design Systems",
+          "imageUrl": null
+        },
+        {
+          "id": "https://daverupert.com/2023/05/markdown-images-anti-pattern/",
+          "author": null,
+          "description": "The shorthand for embedding an image in Markdown is the following:\n\n![descriptive text goes here](example.jpg)\n\n\nThis works for rendering an image in the same way a skateboard is a minimum viable replacement for car; it rolls, but not fast. To render an image responsibly in modern times you need a handful more properties than src and alt ; namely height, width, loading, and decoding attributes.\n\n<img src=\"example.jpg\" \n     alt=\"descriptive text goes here\" \n     height=\"400\" \n     width=\"300\" \n     decoding=\"async\"\n     loading=\"lazy\">\n\n\nHere’s a quick summary of what those other attributes do and why you should have them:\nheight + width - The HTML spec changed slightly and now setting a height and width draws an aspect-ratio’d box for the image to paints in. This prevents layout shift as the image loads.\ndecoding=\"async\" (Optional) - This prevents the browser from blocking other content and move image decoding  it decodes the image data to a bitmap. I feel like this should be the browser default?\nloading=\"lazy\" (Optional) - Recommended for any image below the fold.\nHonorable mentions\nsrcset + sizes - If you want the fastest images, you can offer different sizes and cuts of your images. I don’t do this and Lighthouse is always mad about it.\nfetchpriority - This is like driving a manual stick shift, but may be useful. I think loading=\"lazy|eager\" are easier to reason about than fetchpriority but I’m not your boss.\nSome Markdown formatters have a custom syntax that supports adding more attributes, like Kramdown…\n\n![descriptive text goes here](example.jpg){: height=\"36px\" width=\"36px\" decoding=\"async\" loading=\"lazy\" }\n\n\nThis makes your Markdown less readable and less portable to other engines. If you’re going to include all these attributes, you might as well use an HTML <img> tag. This will make your images consistent with the other (unsupported without plugins) media like <video>, <audio>, <picture>, and <svg> in your Markdown posts.",
+          "link": "https://daverupert.com/2023/05/markdown-images-anti-pattern/",
+          "publishedOn": "2023-05-25T15:48:00.000Z",
+          "wordCount": 673,
+          "title": "Markdown images are an anti-pattern",
+          "imageUrl": null
+        },
         {
           "id": "https://daverupert.com/2023/05/peanut-butter-humor/",
           "author": null,
@@ -1190,36 +1220,6 @@
           "wordCount": 826,
           "title": "Improved video calling with faster AV1 encoding",
           "imageUrl": "https://wd.imgix.net/image/kheDArv5csY6rvQUJDbWRscckLr1/S3R9fqgJNQhGjrl1oIpr.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/devtools-tips-24/",
-          "author": null,
-          "description": "Source maps let you keep your code readable and debuggable even after you've combined and minified it, without impacting performance. To learn how source maps work, see the previous DevTools Tips video.\n  \n  \n\nWatch this video to learn how to work with source maps in DevTools:\nEnable source maps.\nUse Developer Resources tab to check if source maps loaded successfully.\nIf required, load source maps manually.\nDebug your (mapped) original code instead of deployed as you normally would.\nGroup the files you author to navigate the file tree in Sources easier.\nTo learn more, see:\nWhat are source maps?\nDebug your original code instead of deployed with source maps\nDeveloper Resources: View and manually load source maps",
-          "link": "https://developer.chrome.com/en/blog/devtools-tips-24/",
-          "publishedOn": "2023-04-26T00:00:00.000Z",
-          "wordCount": 610,
-          "title": "DevTools Tips: Source maps in DevTools",
-          "imageUrl": "https://wd.imgix.net/image/NJdAV9UgKuN8AhoaPBquL7giZQo1/uTEJAPTsoLQgB3ZLpKEw.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/new-in-webgpu-113/",
-          "author": null,
-          "description": "After years of development, the Chrome team announces that the first release of WebGPU is now available by default in Chrome on ChromeOS, macOS, and Windows. Check out Chrome ships WebGPU to learn more.\nWe've also started adding comprehensive documentation for WebGPU on MDN.\nAnd there's more.\n# Use WebCodecs VideoFrame source in importExternalTexture()\nWebGPU exposes an API to create opaque \"external texture\" objects from HTMLVideoElement through importExternalTexture(). You can use these objects to sample the video frames efficiently, potentially in a 0-copy way directly from the source YUV data.\nHowever, the initial WebGPU specification does not allow creating GPUExternalTexture objects from WebCodecs VideoFrame objects. This capability is important for advanced video processing apps tha…",
-          "link": "https://developer.chrome.com/en/blog/new-in-webgpu-113/",
-          "publishedOn": "2023-04-26T00:00:00.000Z",
-          "wordCount": 810,
-          "title": "What's New in WebGPU (Chrome&nbsp;113)",
-          "imageUrl": "https://wd.imgix.net/image/vvhSqZboQoZZN9wBvoXq72wzGAf1/CSlUvgWseW4EHsIDJhTD.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/css-update-media-query/",
-          "author": null,
-          "description": "CSS media queries are a powerful\ntool that allow you to control the appearance of your website or web app based\non the device it is being viewed on. With media queries, you can create\ndifferent layouts for different screen sizes, orientations, and other factors.\nThe\nupdate\nmedia query gives you a way to adapt the UI to the refresh rate of a device. The\nfeature can report a value of fast, slow, or none which relates to the\ncapabilities of different devices..\nBrowser support\n  \nChrome 113, Supported\n    \n    \n      113\n    \n    \n\n    \n      Firefox 102, Supported\n    \n    \n      102\n    \n    \n\n    \n      Edge 113, Supported\n    \n    \n      113\n    \n    \n\n    \n      Safari, Not supported\n    \n    \n\n\n\n\n  \nSource\n\n# Devices and refresh rate\nMost of the devices you design for are likely to have a fast refresh rate. This\nincludes desktops and most mobile devices.\nYou can query the device, see if it has a fast refresh rate for rendering\ncontent, and style accordingly while still delivering a single stylesheet.\n@media (update: fast) {\n  /* computer screens, totally cool to animate */\n}\neReaders, and devices such as low powered payment systems, may have a slow\nrefresh rate. Knowing that the device can’t handle animation or frequent\nupdates, means that you can save battery usage or faulty view updates.\n@media (update: slow) {\n  /* e-book readers or severely underpowered devices */\n}\nLastly, there are scenarios like printed paper or e-ink displays that may only\noffer a single render pass. Output like this cannot refresh at all, and is\nreferred to as none. It can be queried like this:\n@media (update: none) {\n  /* one time render like printed paper */\n}\nIn the following CodePen, see a progressively enhanced hover animation using\nthis new update media query:\nSee the Pen Pen PoyPMBw by web-dot-dev on Codepen\n# More resources\nCSS Media Queries Level 4\nUpdate Media Query on MDN",
-          "link": "https://developer.chrome.com/en/blog/css-update-media-query/",
-          "publishedOn": "2023-04-26T00:00:00.000Z",
-          "wordCount": 2234,
-          "title": "CSS update Media Query",
-          "imageUrl": "https://wd.imgix.net/image/fuiz5I8Iv7bV8YbrK2PKiY3Vask2/iGPiWTtoy7iF932Xday1.png?auto=format&w=1521"
         }
       ]
     },
@@ -1267,16 +1267,6 @@
           "wordCount": 2886,
           "title": "Design Systems for Interstellar Travel: 7 Case Studies from Dribbble’s Latest Grads 🎓",
           "imageUrl": "https://cdn.dribbble.com/userupload/6451674/file/original-914040de535bac19bb164c2955cace3f.png"
-        },
-        {
-          "id": "https://dribbble.com/stories/2023/04/25/5-reasons-your-design-falls-flat-and-how-to-fix-it",
-          "author": null,
-          "description": "You’ve landed the client, you’ve taken the brief, and you’ve created the most gorgeous, innovative, and on-trend website. Quite frankly, it simply rocks! But why isn’t it hitting the mark? The bounce rate is high and the time spent is lower than ideal.\nIt’s happened to the best of us, the design has led the project and now is time to investigate why it’s not delivering.\nYour website design can be right on-trend and have all the hallmarks of a great site, but does it work functionally? Have you taken the time to get to know your users and what your client wants from them? Ultimately understanding your key users and responding to their needs and desires will lead to a site that is intuitive, logical, and delivers a user experience that will keep them coming back.\nTo help you through the usua…",
-          "link": "https://dribbble.com/stories/2023/04/25/5-reasons-your-design-falls-flat-and-how-to-fix-it",
-          "publishedOn": "2023-04-25T15:32:53.000Z",
-          "wordCount": 3030,
-          "title": "5 reasons your web design falls flat (& how to fix it)",
-          "imageUrl": "https://cdn.dribbble.com/uploads/46247/original/c5bdea08ad72293a4f8f6e9f96526da3.jpg?1681832980"
         }
       ]
     },
@@ -1297,6 +1287,46 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=68207",
+          "author": "Travis",
+          "description": "Pam Clark, writing for the Adobe Blog: “We are thrilled to announce that the Photoshop (beta) app has released Generative Fill”.",
+          "link": "https://heydesigner.com/photoshop-generative-fill/",
+          "publishedOn": "2023-05-25T08:29:18.000Z",
+          "wordCount": 203,
+          "title": "Photoshop: Generative Fill",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68205",
+          "author": "Travis",
+          "description": "Discover the finalists of 2023, honoring excellence in innovation, ingenuity, and technical achievement in app and game design.",
+          "link": "https://heydesigner.com/2023-apple-design-awards/",
+          "publishedOn": "2023-05-25T08:27:45.000Z",
+          "wordCount": 199,
+          "title": "2023 Apple Design Awards",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68203",
+          "author": "Travis",
+          "description": "In Adobe Illustrator, the shape builder tool and the pathfinder panel can both add and and subtract segments of overlapping shapes. They’re predominantly used to create complex shapes from simple ones.",
+          "link": "https://heydesigner.com/shape-builder-vs-pathfinder/",
+          "publishedOn": "2023-05-25T08:25:56.000Z",
+          "wordCount": 206,
+          "title": "Shape builder vs pathfinder",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68201",
+          "author": "Travis",
+          "description": "Brad Frost noted on Twitter how he recently made a website with plain HTML, CSS, JS, etc., and found himself missing some of the ergonomics from Sass.",
+          "link": "https://heydesigner.com/single-line-comments-in-css/",
+          "publishedOn": "2023-05-25T08:22:51.000Z",
+          "wordCount": 208,
+          "title": "Single line comments in CSS",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=68197",
           "author": "Travis",
@@ -1996,46 +2026,6 @@
           "wordCount": 508,
           "title": "CSS blend modes",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67996",
-          "author": "Travis",
-          "description": "How can we redefine our expectations to match our purpose?",
-          "link": "https://heydesigner.com/accepting-design/",
-          "publishedOn": "2023-04-26T07:18:24.000Z",
-          "wordCount": 191,
-          "title": "Accepting design",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67994",
-          "author": "Travis",
-          "description": "In February 2023, together with @glennui and @almonk we started building a new website for NextJS. On the surface, the design made by Glenn seemed really simple, but with plenty of opportunity for delight and subtle animations.",
-          "link": "https://heydesigner.com/crafting-the-next-js-website/",
-          "publishedOn": "2023-04-26T07:17:42.000Z",
-          "wordCount": 205,
-          "title": "Crafting the NextJS website",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67992",
-          "author": "Travis",
-          "description": "We used React Three Fiber (R3F) to build an eye-catching 3D illustration, inspired by Storybook’s Tetris blocks branding. In this article, we’ll dive into the nitty-gritty of shipping a 3D scene.",
-          "link": "https://heydesigner.com/how-we-built-the-storybook-day-3d-animation/",
-          "publishedOn": "2023-04-26T07:13:39.000Z",
-          "wordCount": 212,
-          "title": "How we built the Storybook Day 3D animation",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=67990",
-          "author": "Travis",
-          "description": "Most companies use A/B tests to help them make product decision decisions. This three minute clip from my Mind the Gap presentation looks at why the cumulative results of these kinds of tests often don’t add up to more significant impact.",
-          "link": "https://heydesigner.com/why-dont-a-b-tests-add-up/",
-          "publishedOn": "2023-04-26T07:12:23.000Z",
-          "wordCount": 209,
-          "title": "Why don’t A/B tests add up?",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2044,6 +2034,96 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36077067",
+          "author": "mikece",
+          "description": "Article URL: https://isocpp.org//blog/2023/05/cppcon-2022-back-to-basics-cpp-api-design-jason-turner\nComments URL: https://news.ycombinator.com/item?id=36077067\nPoints: 1\n# Comments: 0",
+          "link": "https://isocpp.org//blog/2023/05/cppcon-2022-back-to-basics-cpp-api-design-jason-turner",
+          "publishedOn": "2023-05-25T22:17:57.000Z",
+          "wordCount": 505,
+          "title": "CppCon 2022 Back to Basics: C++ API Design – Jason Turner",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36075704",
+          "author": "belter",
+          "description": "Article URL: https://arxiv.org/abs/2305.14019\nComments URL: https://news.ycombinator.com/item?id=36075704\nPoints: 1\n# Comments: 1",
+          "link": "https://arxiv.org/abs/2305.14019",
+          "publishedOn": "2023-05-25T20:24:30.000Z",
+          "wordCount": 686,
+          "title": "ChipGPT: How far are we from natural language hardware design",
+          "imageUrl": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36075406",
+          "author": "debarshri",
+          "description": "Article URL: https://hackernews-semafor-duhw.vercel.app/\nComments URL: https://news.ycombinator.com/item?id=36075406\nPoints: 26\n# Comments: 9",
+          "link": "https://hackernews-semafor-duhw.vercel.app/",
+          "publishedOn": "2023-05-25T20:01:18.000Z",
+          "wordCount": 2255,
+          "title": "Hacker New with Semafor UI",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36075187",
+          "author": "dxs",
+          "description": "Article URL: https://www.simplethread.com/your-software-can-learn-a-lot-from-atms/\nComments URL: https://news.ycombinator.com/item?id=36075187\nPoints: 1\n# Comments: 0",
+          "link": "https://www.simplethread.com/your-software-can-learn-a-lot-from-atms/",
+          "publishedOn": "2023-05-25T19:43:30.000Z",
+          "wordCount": 2111,
+          "title": "What Your Software Can Learn from the Ingenious Design of ATMs",
+          "imageUrl": "https://www.simplethread.com/wp-content/uploads/2010/09/atm.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36074959",
+          "author": "caydenpiercehax",
+          "description": "Article URL: https://www.jitx.com/blog/automating-everything-in-a-usb-cable-tester-pcb-design\nComments URL: https://news.ycombinator.com/item?id=36074959\nPoints: 12\n# Comments: 1",
+          "link": "https://www.jitx.com/blog/automating-everything-in-a-usb-cable-tester-pcb-design",
+          "publishedOn": "2023-05-25T19:25:37.000Z",
+          "wordCount": 1709,
+          "title": "Automating Everything in a USB Cable Tester PCB Design",
+          "imageUrl": "https://assets.website-files.com/6044fe74a6d10f725c72398f/646f90c030250c0195045aea_upload_07623380c4f317ba6b139f2257f4815f.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36070233",
+          "author": "Ambolia",
+          "description": "Article URL: https://twitter.com/cirnosad/status/1661129221933264897\nComments URL: https://news.ycombinator.com/item?id=36070233\nPoints: 1\n# Comments: 0",
+          "link": "https://twitter.com/cirnosad/status/1661129221933264897",
+          "publishedOn": "2023-05-25T13:05:51.000Z",
+          "wordCount": null,
+          "title": "Fission Bomb Design and History",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36068696",
+          "author": "GranularRecipe",
+          "description": "Article URL: https://lawsofux.com/\nComments URL: https://news.ycombinator.com/item?id=36068696\nPoints: 3\n# Comments: 0",
+          "link": "https://lawsofux.com/",
+          "publishedOn": "2023-05-25T09:40:35.000Z",
+          "wordCount": 761,
+          "title": "Laws of UX",
+          "imageUrl": "https://lawsofux.com/home/social.en.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36067983",
+          "author": "Lwrless",
+          "description": "Article URL: https://github.com/vanjs-org/van\nComments URL: https://news.ycombinator.com/item?id=36067983\nPoints: 238\n# Comments: 191",
+          "link": "https://github.com/vanjs-org/van",
+          "publishedOn": "2023-05-25T07:31:10.000Z",
+          "wordCount": 1256,
+          "title": "VanJS (Vanilla JavaScript): smallest reactive UI framework",
+          "imageUrl": "https://opengraph.githubassets.com/e0ec51d376a9c21a24a08201faf4886a661fa175a4dad82030c3650113c8ab21/vanjs-org/van"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36066415",
+          "author": "andsoitis",
+          "description": "Article URL: https://www.npr.org/2023/05/24/834507345/tina-turner-rock-and-roll-icon-dead-at-83\nComments URL: https://news.ycombinator.com/item?id=36066415\nPoints: 3\n# Comments: 0",
+          "link": "https://www.npr.org/2023/05/24/834507345/tina-turner-rock-and-roll-icon-dead-at-83",
+          "publishedOn": "2023-05-25T02:23:19.000Z",
+          "wordCount": 2387,
+          "title": "Tina Turner, rock and roll icon, dead at 83",
+          "imageUrl": "https://media.npr.org/assets/img/2023/05/24/gettyimages-566906851_wide-8cdf1708a8bd4f724f8a87b302d7da5a6a81b8b7-s1400-c100.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36063092",
           "author": "spking",
@@ -4403,76 +4483,6 @@
           "wordCount": 637,
           "title": "Show HN: A bespoke macOS UI for ChatGPT",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35712288",
-          "author": "donnie12345",
-          "description": "It is said that it is better to find finding defects earlier in the process.\nWhat is the most efficient way to do it?\nEliminate potential bugs in the program earlier in the process. i.e to avoid programming by coincidence\nAnyone want to chip in ?\nComments URL: https://news.ycombinator.com/item?id=35712288\nPoints: 5\n# Comments: 9",
-          "link": "https://news.ycombinator.com/item?id=35712288",
-          "publishedOn": "2023-04-26T11:58:28.000Z",
-          "wordCount": 834,
-          "title": "As a software developer,how do you test your design?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35711804",
-          "author": "makaimc",
-          "description": "Article URL: https://eugeneyan.com/writing/more-patterns/\nComments URL: https://news.ycombinator.com/item?id=35711804\nPoints: 3\n# Comments: 0",
-          "link": "https://eugeneyan.com/writing/more-patterns/",
-          "publishedOn": "2023-04-26T10:55:47.000Z",
-          "wordCount": 6097,
-          "title": "More design patterns for machine learning systems",
-          "imageUrl": "https://eugeneyan.com/assets/og_image/design-patterns-2.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35710998",
-          "author": "awareness_rofl",
-          "description": "Article URL: https://maximilian-rehn.medium.com/three-ways-to-design-better-social-media-feeds-for-humanity-6fc7d0e34241\nComments URL: https://news.ycombinator.com/item?id=35710998\nPoints: 2\n# Comments: 2",
-          "link": "https://maximilian-rehn.medium.com/three-ways-to-design-better-social-media-feeds-for-humanity-6fc7d0e34241",
-          "publishedOn": "2023-04-26T08:46:16.000Z",
-          "wordCount": 2295,
-          "title": "Three ways to design better social media feeds for Humanity",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*GkB0Tpp20U7kJA9AkMb3NQ.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35709388",
-          "author": "jbrake",
-          "description": "Article URL: https://joshbrake.substack.com/p/use-edgecraft-to-enhance-your-creativity\nComments URL: https://news.ycombinator.com/item?id=35709388\nPoints: 2\n# Comments: 0",
-          "link": "https://joshbrake.substack.com/p/use-edgecraft-to-enhance-your-creativity",
-          "publishedOn": "2023-04-26T03:25:27.000Z",
-          "wordCount": 4832,
-          "title": "Edgecraft: What I Learned about Innovation from Fountain Magicians @ WET Design",
-          "imageUrl": "https://images.unsplash.com/photo-1621126551993-b22c2a193512?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHwyNHx8YmVsbGFnaW8lMjBmb3VudGFpbnxlbnwwfHx8fDE2ODIzOTMyNjI&ixlib=rb-4.0.3&q=80&w=1080"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35707013",
-          "author": "hot_gril",
-          "description": "Today I'm going to share what I've learned over several years of using relational DBMSes (mostly Postgres). I'm probably not the first to agree on this, and there are probably people who disagree.\nThis is how I would build a social media app as an example. But it works for a wide variety applications, from social to money to inventory tracking, and it's served me well each time.\n1. Make each table a logical collection of events that have occurred, not objects or state. This is not CRUD. One row means one event, for example a table `react` means \"a user reacted to some post.\" Keep these events as close as possible to the end user's intent.\n2. Never delete or update rows as a way to record events. This would mean forgetting that something happened. Only do that for manual corrections or spec…",
-          "link": "https://news.ycombinator.com/item?id=35707013",
-          "publishedOn": "2023-04-25T21:31:06.000Z",
-          "wordCount": 857,
-          "title": "Highly opinionated SQL schema design that's easy to start with and scales well",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35701952",
-          "author": "bookofjoe",
-          "description": "Article URL: https://arabicdesignarchive.com/\nComments URL: https://news.ycombinator.com/item?id=35701952\nPoints: 2\n# Comments: 0",
-          "link": "https://arabicdesignarchive.com/",
-          "publishedOn": "2023-04-25T15:36:48.000Z",
-          "wordCount": 2507,
-          "title": "Arabic Design Archive",
-          "imageUrl": "https://arabicdesignarchive.com/arabic_logo.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35700006",
-          "author": "roryreiff",
-          "description": "Article URL: https://www.zoe.works/\nComments URL: https://news.ycombinator.com/item?id=35700006\nPoints: 1\n# Comments: 1",
-          "link": "https://www.zoe.works/",
-          "publishedOn": "2023-04-25T13:16:08.000Z",
-          "wordCount": 1200,
-          "title": "Design Advisor as a Service",
-          "imageUrl": "https://framerusercontent.com/modules/adEExFcoguRkkfNPhxMd/bABbZ68uqlAYNMWVXg00/assets/bLo1FaDx216HbZldCiYxy8Boacw.png"
         }
       ]
     },
@@ -4481,6 +4491,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36073508",
+          "author": "dSebastien",
+          "description": "Article URL: https://www.dsebastien.net/knowledge-content-planning-and-action/\nComments URL: https://news.ycombinator.com/item?id=36073508\nPoints: 1\n# Comments: 0",
+          "link": "https://www.dsebastien.net/knowledge-content-planning-and-action/",
+          "publishedOn": "2023-05-25T17:24:14.000Z",
+          "wordCount": 489,
+          "title": "Systems for health, intention, productivity, learning, knowledge and control",
+          "imageUrl": "https://www.dsebastien.net/content/images/2023/01/2022-12-16-14-59-36-10-babylon_tower_deep_thinker_pencil_drawing_2d_world_class-1212224626-scale10.00-k_euler_a-stable-diffusion-1.5-1.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36064287",
           "author": "turtlegrids",
@@ -5060,16 +5080,6 @@
           "wordCount": 1109,
           "title": "Show HN: Boost Productivity with Scrumrobo – Meeting automation tool",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35701342",
-          "author": "imaginarycoder",
-          "description": "Article URL: https://reederapp.com/\nComments URL: https://news.ycombinator.com/item?id=35701342\nPoints: 2\n# Comments: 0",
-          "link": "https://reederapp.com/",
-          "publishedOn": "2023-04-25T14:55:44.000Z",
-          "wordCount": 527,
-          "title": "RSS Reeder 5",
-          "imageUrl": null
         }
       ]
     },
@@ -5078,6 +5088,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36067541",
+          "author": "CGamesPlay",
+          "description": "Article URL: https://www.mikeaparicio.com/posts/2023-05-22-why-were-bad-at-css/\nComments URL: https://news.ycombinator.com/item?id=36067541\nPoints: 3\n# Comments: 0",
+          "link": "https://www.mikeaparicio.com/posts/2023-05-22-why-were-bad-at-css/",
+          "publishedOn": "2023-05-25T06:10:51.000Z",
+          "wordCount": 2859,
+          "title": "Why We're Bad at CSS",
+          "imageUrl": "https://mikeaparicio.com/images/pain-box.gif"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36064585",
           "author": "8organicbits",
@@ -5787,26 +5807,6 @@
           "wordCount": 126,
           "title": "Ask HN: Article about Webcam streaming jpg to update HTML Page",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35708613",
-          "author": "codazoda",
-          "description": "Today I fixed a couple little bugs and released a new version of my minimalist CSS framework. I built this to scratch my own itch and I've been using it for a few years as the starting point for most of my own websites.\nI noticed I hadn't shared this with HN for about 18 months (5 or 6 minor version changes) so I thought it might be okay to do that now.\nEdit: Err, I missed a post from 7 months ago.\nPrevious Posts:\nhttps://news.ycombinator.com/item?id=32990838\n(7 months ago)\nhttps://news.ycombinator.com/item?id=24594381 (Sept 25, 2021)\nhttps://news.ycombinator.com/item?id=26308052 (March 1, 2021)\nhttps://news.ycombinator.com/item?id=25660317 (January 20, 2021)\nhttps://news.ycombinator.com/item?id=23221957 (May 28, 2020)\nComments URL: https://news.ycombinator.com/item?id=35708613\nPoints: 201\n# Comments: 77",
-          "link": "https://neat.joeldare.com/",
-          "publishedOn": "2023-04-26T00:56:33.000Z",
-          "wordCount": 873,
-          "title": "Show HN: Neat – Minimalist CSS Framework",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35705014",
-          "author": "raunometsa",
-          "description": "Article URL: https://twitter.com/bemicrofounder/status/1650936667182706689\nComments URL: https://news.ycombinator.com/item?id=35705014\nPoints: 2\n# Comments: 0",
-          "link": "https://twitter.com/bemicrofounder/status/1650936667182706689",
-          "publishedOn": "2023-04-25T18:56:03.000Z",
-          "wordCount": 509,
-          "title": "Just started to teach my 8yo daughter HTML and CSS",
-          "imageUrl": null
         }
       ]
     },
@@ -5920,6 +5920,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=46146",
+          "author": "Seth Godin",
+          "description": "“I” is first person. “You” is second person. “She” “They” “It” are all third person. So far, so good. But how can ChatGPT use the word “I”? And when we talk about ChatGPT, is it “he” or “she” or “they” or “it”? Because anything that is an “it” shouldn’t be able to say “I”. We […]",
+          "link": "https://seths.blog/2023/05/the-first-person/",
+          "publishedOn": "2023-05-25T08:52:00.000Z",
+          "wordCount": 1091,
+          "title": "The first person",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=45654",
           "author": "Seth Godin",
@@ -6224,16 +6234,6 @@
           "wordCount": 941,
           "title": "The braid out of balance",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=42391",
-          "author": "Seth Godin",
-          "description": "It can be difficult. Explaining atoms or molecules, or decision making, or what you do at your job… The reason that it’s difficult is that in order to explain something, we need to really understand it first. Not simply be able to do the task or ace the test. But understand. And the reason we […]",
-          "link": "https://seths.blog/2023/04/explaining-it-to-a-kid/",
-          "publishedOn": "2023-04-26T08:02:00.000Z",
-          "wordCount": 927,
-          "title": "Explaining it to a kid",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
         }
       ]
     },
@@ -6242,6 +6242,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "sw5i5Hdpq7XjJ6qMN",
+          "author": "@ericwbailey",
+          "description": "display: contents has a long and storied history when it comes to accessibility.",
+          "link": "https://ericwbailey.website/published/display-contents-considered-harmful/",
+          "publishedOn": "2023-05-25T06:43:23.000Z",
+          "wordCount": 989,
+          "title": "display: contents considered harmful",
+          "imageUrl": "https://ericwbailey.website/static/favicons/social/facebook.png"
+        },
+        {
+          "id": "nv3jRfXA9PD9wGcaK",
+          "author": "@abcnews",
+          "description": "Have you ever wondered how much of your personal information is available online? Here’s your chance to find out.",
+          "link": "https://www.abc.net.au/news/2023-05-18/data-breaches-your-identity-interactive/102175688",
+          "publishedOn": "2023-05-25T06:42:01.000Z",
+          "wordCount": 5702,
+          "title": "Find out what data is available about you online",
+          "imageUrl": "https://live-production.wcms.abc-cdn.net.au/d603479c85b8f774aa0a5a56dde7d3e8?impolicy=wcms_crop_resize&cropH=506&cropW=900&xPos=0&yPos=44&width=862&height=485"
+        },
+        {
+          "id": "qPMzA7tooj5vGuXKP",
+          "author": "@bjango",
+          "description": "In Adobe Illustrator, the shape builder tool and the pathfinder panel can both add and and subtract segments of overlapping shapes.",
+          "link": "https://bjango.com/articles/shapebuildervspathfinder/",
+          "publishedOn": "2023-05-25T06:40:24.000Z",
+          "wordCount": 1588,
+          "title": "Shape builder vs pathfinder",
+          "imageUrl": "https://bjango.com/images/site-icons/bjango-cover.png"
+        },
+        {
+          "id": "Qezhd6oGynLHrEcT3",
+          "author": "@raunofreiberg",
+          "description": "Moving an element along a given path",
+          "link": "https://rauno.me/craft/graph-slider",
+          "publishedOn": "2023-05-25T06:33:24.000Z",
+          "wordCount": 1156,
+          "title": "Graph Slider",
+          "imageUrl": "https://rauno.me/static/craft/og-graph-slider.png"
+        },
+        {
+          "id": "Sdsn5mhNWgij64yFL",
+          "author": "@zajnocrew",
+          "description": "Motion is a website that showcases the power of UI/UX animation in conveying the mood and character of a brand.",
+          "link": "https://motion.zajno.com/",
+          "publishedOn": "2023-05-25T06:32:27.000Z",
+          "wordCount": 1519,
+          "title": "Motion",
+          "imageUrl": "https://uploads-ssl.webflow.com/6384fe1e68c38ac8097a7e47/642fed24bb99285affd212e5_Og%20image.png"
+        },
         {
           "id": "noyh4KNs6Jayq3nJ6",
           "author": "@MicrosoftDesign",
@@ -7241,56 +7291,6 @@
           "wordCount": 8369,
           "title": "A guide on conducting better market and user research with kids",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*ikrrxz035-L5KKGsGJ6wTw.jpeg"
-        },
-        {
-          "id": "BiNQTDLeBesnQziAu",
-          "author": "@medium",
-          "description": "We’ve heard your feedback: A streamlined, easier-to-read page, plus more image options.",
-          "link": "https://blog.medium.com/a-simpler-page-for-stories-on-medium-766eb75c6bd0",
-          "publishedOn": "2023-04-26T05:36:17.000Z",
-          "wordCount": 2284,
-          "title": "A simpler page for stories on Medium",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*V7CDmi4_82KNKXlLVDTbaA.png"
-        },
-        {
-          "id": "CoFSab4yYmmYcixHS",
-          "author": "@kottke",
-          "description": "Over on Twitter, @smllwrlds is publishing a new tiny illustrated sci-fi story every day of 2023.",
-          "link": "https://kottke.org/23/04/tiny-illustrated-sci-fi-stories",
-          "publishedOn": "2023-04-26T05:34:46.000Z",
-          "wordCount": 197,
-          "title": "Tiny Illustrated Sci-fi Stories",
-          "imageUrl": "https://kottke.org/plus/misc/images/tiny-scifi-stories-01.jpg"
-        },
-        {
-          "id": "h7N6Kw4AbmqxNsJFK",
-          "author": "@ChallengesCss",
-          "description": "A wide collection of CSS tips and tricks. The best place to keep up to date with the new CSS features.",
-          "link": "https://css-tip.com/",
-          "publishedOn": "2023-04-26T04:54:17.000Z",
-          "wordCount": 289,
-          "title": "CSS Tip",
-          "imageUrl": "https://css-tip/img/css-tip.jpg"
-        },
-        {
-          "id": "FiXBCpfPQxeDBLfn2",
-          "author": "@winkerVSbecks",
-          "description": "Breakdown of how we built a 3D animation using React Three Fiber. Focusing more on finer details that take a scene from \"done\" to \"ready to ship.\"",
-          "link": "https://varun.ca/storybook-day/",
-          "publishedOn": "2023-04-26T03:03:14.000Z",
-          "wordCount": 2152,
-          "title": "How we built the Storybook Day 3D animation",
-          "imageUrl": "https://varun.ca/static/a087bc42294e5099e5bee79cf963d37f/storybook-day-3d.png"
-        },
-        {
-          "id": "2oTpKFQKjzT52gKMW",
-          "author": "@uxdesigncc",
-          "description": "A century of animation, a decade of Atomic Design, a year of movement.",
-          "link": "https://uxdesign.cc/adding-motion-to-the-next-decade-of-atomic-design-c291abd043bc",
-          "publishedOn": "2023-04-26T03:02:22.000Z",
-          "wordCount": 7434,
-          "title": "Adding Motion to the next decade of Atomic Design",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*2KnDOWLlm6K63M4yhmjlQQ.png"
         }
       ]
     },
@@ -7383,16 +7383,6 @@
           "wordCount": 950,
           "title": "Release Notes for Safari Technology Preview 169",
           "imageUrl": null
-        },
-        {
-          "id": "https://webkit.org/?p=14112",
-          "author": null,
-          "description": "Along with the many other features for web apps on iOS and iPadOS 16.4, WebKit now includes support for the W3C’s Badging API.",
-          "link": "https://webkit.org/blog/14112/badging-for-home-screen-web-apps/",
-          "publishedOn": "2023-04-25T18:00:31.000Z",
-          "wordCount": 1289,
-          "title": "Badging for Home Screen Web Apps",
-          "imageUrl": "https://webkit.org/wp-content/uploads/badged_dock.png"
         }
       ]
     },
@@ -7448,6 +7438,36 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2023/05/success-at-scale-pre-release/",
+          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
+          "description": "Meet “Success At Scale”, our upcoming book with best-practice case studies from industry experts. Print and eBook shipping in fall 2023. Pre-order the book.",
+          "link": "https://smashingmagazine.com/2023/05/success-at-scale-pre-release/",
+          "publishedOn": "2023-05-25T20:00:00.000Z",
+          "wordCount": 3278,
+          "title": "Meet Success At Scale, A New Smashing Book By Addy Osmani",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/success-at-scale-pre-release/success-at-scale-preorder-opt.png",
+            "length": "0",
+            "type": "image/png"
+          },
+          "imageUrl": "http://files.smashing.media/articles/success-at-scale-pre-release/success-at-scale-preorder-opt.png"
+        },
+        {
+          "id": "https://smashingmagazine.com/2023/05/impact-agile-methodologies-code-quality/",
+          "author": "hello@smashingmagazine.com (Sarah Oke Okolo)",
+          "description": "Say goodbye to traditional workflows and embrace Agile to unlock the power of high-quality code. Discover how Agile methodologies promote simplicity, modularization, readability, and continuous improvement, resulting in faster turnaround times, more responsive development processes, and ultimately, the creation of high-quality software that meets customer needs.",
+          "link": "https://smashingmagazine.com/2023/05/impact-agile-methodologies-code-quality/",
+          "publishedOn": "2023-05-25T11:00:00.000Z",
+          "wordCount": 5544,
+          "title": "The Impact Of Agile Methodologies On Code Quality",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/impact-agile-methodologies-code-quality/impact-agile-methodologies-code-quality.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/impact-agile-methodologies-code-quality/impact-agile-methodologies-code-quality.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2023/05/smashing-podcast-episode-61/",
           "author": "hello@smashingmagazine.com (Drew McLellan)",
@@ -7687,21 +7707,6 @@
             "type": "image/png"
           },
           "imageUrl": "http://files.smashing.media/articles/accessible-tap-target-sizes-rage-taps-clicks/accessible-tap-target-sizes-rage-taps-clicks.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/04/ux-web3-mass-adoption/",
-          "author": "hello@smashingmagazine.com (Pete Boyle)",
-          "description": "The decentralized web is our new reality, but Web3 UX is shockingly bad. In this article, Pete Boyle addresses the major shortcomings in Web3 adoption and how we might be able to solve them and make the entire ecosystem more user-friendly.",
-          "link": "https://smashingmagazine.com/2023/04/ux-web3-mass-adoption/",
-          "publishedOn": "2023-04-25T15:30:00.000Z",
-          "wordCount": 6994,
-          "title": "Could UX Be The Key To Unlocking Web3 Mass Adoption?",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/ux-web3-mass-adoption/ux-web3-mass-adoption.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://files.smashing.media/articles/ux-web3-mass-adoption/ux-web3-mass-adoption.png"
         }
       ]
     },
