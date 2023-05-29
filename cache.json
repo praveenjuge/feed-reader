@@ -29,6 +29,16 @@
       "siteUrl": "https://adamsilver.io/atom.xml",
       "articles": [
         {
+          "id": "https://adamsilver.io/blog/the-problem-with-nested-fieldsets-and-how-to-avoid-them/",
+          "author": null,
+          "description": "In 2016 I worked at the Department for Work and Pensions.\nI was working on a complex form field made up of nested fieldsets. It was inaccessible which surprised me because I was only using fieldsets, legends, labels and radio buttons. Nothing fancy.\nBut as I did more research, it became clearer that nested fieldsets can be problematic.\nHere’s why:\nProblem #1: screen readers only announce the inner legend\nLet’s say you have appointment times organised by day and period.\nA fieldset for each day and for morning and afternoon\n\t\n\nIf the user moves from 3:15pm on Tuesday to 9:55am on Wednesday, screen readers will announce ‘9:55am, morning’. They will not announce ‘Wednesday 23 October’.\nThis is confusing and may cause users to select the wrong date. Or it may cause them to traverse the page line by line because they don’t trust the interface.\nProblem #2: screen readers won’t announce the end of a fieldset\nLet’s say you have a question that says ‘Do you like chocolate?’ And selecting ‘Yes’ reveals a nested question that says ‘Do you prefer light or dark chocolate?’\nRadio buttons that reveal another question\n\t\n\nIf the user moves from ‘Dark chocolate’ to ‘No’, screen readers will not announce that they left the inner fieldset.\nThis is confusing because ‘No’ does not make sense as an answer for ‘Do you prefer light or dark chocolate?’\nAvoid nested fieldsets where possible\nFor appointment times the fieldset for morning and afternoon could be removed because each label already says ‘am’ or ‘pm’.\nFor the conditional reveal the nested question could be shown on the next page. This may sound long winded but it usually reduces cognitive load and speeds users up.\n(Note: Some nested fieldsets may be okay. For example, I often use them to reveal a date field with day, month and year inputs after selecting ‘Yes’ to knowing that date. This hasn’t raised issues in accessibility audits.)",
+          "link": "https://adamsilver.io/blog/the-problem-with-nested-fieldsets-and-how-to-avoid-them/",
+          "publishedOn": "2023-05-28T00:00:00.000Z",
+          "wordCount": 420,
+          "title": "The problem with nested fieldsets and how to avoid them",
+          "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:The problem with nested fieldsets and how to avoid them,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter:75996107/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
+        },
+        {
           "id": "https://adamsilver.io/blog/the-billion-dollar-unsubscribe-link/",
           "author": null,
           "description": "2 weeks ago I sent an email to 3,855 subscribers using ConvertKit.\nMy newsletter email footer\n\t\n\nBut 177 of them were instantly unsubscribed without clicking the unsubscribe link. What happened?\nThese subscribers work at organisations with strict security. Every link is automatically opened to check it’s not malicious.\nFine, except that:\nmy subscribers were unsubscribed without their consent\nsupport agents spent a lot of time dealing with me and the issue\nI had to spot the issue; work out how to resubscribe everyone; and create a workaround so it doesn’t happen again\nThis is a billion dollar UX mistake\nHere’s why:\nSupport costs go up\nCustomer retention rates go down\nCustomer satisfaction scores go down\nCustomer fees go down (you pay based on subscriber count)\nScale this up to 580,084 ConvertKit customers and 633 million subscribers and you’ve got a billion dollar mistake caused by a teeny tiny link.\nLinks are for navigation, buttons are for actions\nTo solve the problem do this:\nClicking the unsubscribe link takes users to a page with a form\nSubmitting the form unsubscribes the user.\nThe links can still be checked automatically. But only users can submit the form.\nGood design puts users in control.\n(Note: I’ve messaged ConvertKit’s founder about this and offered to help fix the issue. For now, I’ve used a workaround that takes subscribers to a Tally.so form. When submitted it triggers a Zapier automation that removes them from my newsletter.)",
@@ -326,16 +336,6 @@
           "publishedOn": "2023-05-02T17:47:37.000Z",
           "wordCount": 654,
           "title": "Crown dwarf witness – Recording a new course for LinkedIn Learning in Graz",
-          "imageUrl": null
-        },
-        {
-          "id": "https://christianheilmann.com/?p=7702",
-          "author": "Chris Heilmann",
-          "description": "I was incredibly excited to see that from Microsoft Edge 111 onwards you can now emulate different viewing modes and vision deficiencies right from the device emulation toolbar. This has been one of my pet projects that I really wanted to see come to live ever since I created the Skillshare Course on Accessibility testing […]",
-          "link": "https://christianheilmann.com/2023/04/28/microsoft-edge-now-allows-you-to-simulate-dark-light-high-contrast-mode-blurred-vision-and-colour-deficiencies-right-from-the-device-emulation-toolbar/",
-          "publishedOn": "2023-04-28T13:04:18.000Z",
-          "wordCount": 642,
-          "title": "Microsoft Edge now allows you to simulate dark, light, high contrast mode, blurred vision and colour deficiencies right from the Device Emulation toolbar",
           "imageUrl": null
         }
       ]
@@ -930,16 +930,6 @@
           "wordCount": 546,
           "title": "The Hurdy-Gurdy software engineer",
           "imageUrl": null
-        },
-        {
-          "id": "https://daverupert.com/2023/04/arc-boosts-elk/",
-          "author": null,
-          "description": "One of my favorite ideas for Twitter was by Oliver Reichenstein in a post called “Make Bots Identifiable”. Oliver makes the case that apps should notify users if the author of the post is a feed, a bot, or an actual human and the UI of the application should reflect that accordingly. The example Oliver gives is setting bot text into monospace and giving it an obvious 🤖 icon.\n\nIt’s a simple premise: “make bots identifiable”. Think of how this would neuter Russian disinformation worldwide. It would expose the underbelly of buying bot followers, exposing fake influencers and hustlers as social and political frauds. This, of course, depends on social media companies running bot analysis on their users, which they’d never do because it would pollute the New Users Chart Goes Brrrr metrics that Wall Street loves.\nOn Mastodon, however, you can self-identify your account as a human or a bot. Not every feed/bot account does this and not every Mastodon client reflects this option in their UI, but one that does is Elk. Bots in the main feed get a small 🤖 icon, like in Oliver’s dream! I decided to use Arc’s Boosts feature to add some custom CSS to make the text monospace for an even more obvious effect.\n\n/* Elk.zone */\ndiv[flex]:has([i-mdi\\:robot-outline]) .status-body {\n  font-family: monospace;\n}\n\n\nThe result is obvious and clear.\n\nSimple selector, not the cleanest, but got to use :has(). It’d be nice if more Mastodon clients (or Twitter, or YouTube, or Twitch, or Bluesky, or whatever’s next) surfaced this kind of information in the main feed. Anyways…\nArc Boosts are cool 😎\nAdd human-readable classnames and allow humans to change your site if they want (or need) to\nMake the Web more human",
-          "link": "https://daverupert.com/2023/04/arc-boosts-elk/",
-          "publishedOn": "2023-04-28T21:40:00.000Z",
-          "wordCount": 645,
-          "title": "Using Arc Boosts to identify bots in Elk",
-          "imageUrl": null
         }
       ]
     },
@@ -1287,6 +1277,46 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=68228",
+          "author": "Travis",
+          "description": "When it comes to all the discussions about AI right now, the topic that interests me most is the software application layer and user interface.",
+          "link": "https://heydesigner.com/dynamic-interfaces/",
+          "publishedOn": "2023-05-28T16:45:26.000Z",
+          "wordCount": 201,
+          "title": "Dynamic interfaces",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68226",
+          "author": "Travis",
+          "description": "I was working on a complex form field made up of nested fieldsets. It was inaccessible which surprised me because I was only using fieldsets, legends, labels and radio buttons.",
+          "link": "https://heydesigner.com/the-problem-with-nested-fieldsets-and-how-to-avoid-them/",
+          "publishedOn": "2023-05-28T16:43:29.000Z",
+          "wordCount": 217,
+          "title": "The problem with nested fieldsets and how to avoid them",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68224",
+          "author": "Travis",
+          "description": "Anchoring the most important information to the Y-axis will support better communication.",
+          "link": "https://heydesigner.com/using-the-y-axis-to-maintain-focus-and-attention/",
+          "publishedOn": "2023-05-28T16:39:13.000Z",
+          "wordCount": 203,
+          "title": "Using the Y-axis to maintain focus and attention",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68222",
+          "author": "Travis",
+          "description": "And how we can improve with a practical example.",
+          "link": "https://heydesigner.com/why-were-bad-at-css/",
+          "publishedOn": "2023-05-28T16:33:54.000Z",
+          "wordCount": 195,
+          "title": "Why we’re bad at CSS",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=68216",
           "author": "Travis",
@@ -1984,6 +2014,56 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36108676",
+          "author": "luu",
+          "description": "Article URL: https://radfordneal.wordpress.com/2016/06/25/fixing-rs-design-flaws-in-a-new-version-of-pqr/\nComments URL: https://news.ycombinator.com/item?id=36108676\nPoints: 2\n# Comments: 0",
+          "link": "https://radfordneal.wordpress.com/2016/06/25/fixing-rs-design-flaws-in-a-new-version-of-pqr/",
+          "publishedOn": "2023-05-28T23:05:51.000Z",
+          "wordCount": 4103,
+          "title": "Fixing R’s design flaws in a new version of pqR",
+          "imageUrl": "https://radfordneal.files.wordpress.com/2013/12/logolg.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36108395",
+          "author": "redbell",
+          "description": "Article URL: https://thenewstack.io/bad-by-design-the-world-of-intentionally-awful-user-interfaces/\nComments URL: https://news.ycombinator.com/item?id=36108395\nPoints: 2\n# Comments: 1",
+          "link": "https://thenewstack.io/bad-by-design-the-world-of-intentionally-awful-user-interfaces/",
+          "publishedOn": "2023-05-28T22:29:35.000Z",
+          "wordCount": null,
+          "title": "Bad by Design: The World of Intentionally Awful User Interfaces",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36107116",
+          "author": "yujian",
+          "description": "Article URL: https://old.reddit.com/r/AI_Agents/comments/13osxcx/ai_agents_used_to_design_proteins/\nComments URL: https://news.ycombinator.com/item?id=36107116\nPoints: 1\n# Comments: 0",
+          "link": "https://old.reddit.com/r/AI_Agents/comments/13osxcx/ai_agents_used_to_design_proteins/",
+          "publishedOn": "2023-05-28T19:47:46.000Z",
+          "wordCount": 1349,
+          "title": "AI Agents Used to Design Proteins",
+          "imageUrl": "https://external-preview.redd.it/-89HKpc7k9F67kf9i93VXx_7fnQ638NWgo8kX3Z4DZ8.jpg?width=252&height=131.937172775&auto=webp&crop=252:131.937172775,smart&v=enabled&s=0001223089d44a75ed1d959477ace6f317e3d72f"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36106026",
+          "author": "precompute",
+          "description": "Article URL: https://motion.zajno.com/\nComments URL: https://news.ycombinator.com/item?id=36106026\nPoints: 1\n# Comments: 0",
+          "link": "https://motion.zajno.com/",
+          "publishedOn": "2023-05-28T17:30:33.000Z",
+          "wordCount": 1519,
+          "title": "UI/UX Motion Design Principles",
+          "imageUrl": "https://uploads-ssl.webflow.com/6384fe1e68c38ac8097a7e47/642fed24bb99285affd212e5_Og%20image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36100495",
+          "author": "mrsmee89",
+          "description": "Comments URL: https://news.ycombinator.com/item?id=36100495\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=36100495",
+          "publishedOn": "2023-05-28T02:12:32.000Z",
+          "wordCount": 87,
+          "title": "Ask HN: What’s a good prompt for a descriptive illustration of point particles?",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36099300",
           "author": "azhenley",
@@ -4343,56 +4423,6 @@
           "wordCount": 204,
           "title": "Ask HN: To senior developers,Is the art of software design being lost?",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35750382",
-          "author": "bilegeek",
-          "description": "Article URL: https://dernocua.github.io/notes/its-ddt.html\nComments URL: https://news.ycombinator.com/item?id=35750382\nPoints: 3\n# Comments: 0",
-          "link": "https://dernocua.github.io/notes/its-ddt.html",
-          "publishedOn": "2023-04-29T05:45:56.000Z",
-          "wordCount": 4375,
-          "title": "The astounding UI responsivity of PDP-10 DDT on ITS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35749631",
-          "author": "barefootcoder",
-          "description": "There are two things that almost every website does that just drive me nuts, and I don’t understand the reasoning that would lead to these designs.\n1) Login link for existing users is tiny and hidden\nWhy?!? I get it, you want new users, but your existing users need to log in too!\n2) auto play of video previews.\nNetflix, YouTube, Etc… they all do it. I don’t want the movie to start because I clicked to read the full description, or worse on the main screen just because I stop navigating for a second to read the blurb. I don’t want videos in my suggested feed on YouTube to play silently and then start 20 or 30 seconds into the video once I do click them. Does ANYBODY find these useful?  Why are they the default behaviors? Who do they benefit? Don’t they just end up costing unnecessary bandwidth?  I know that I can usually turn them off, but having to search for the setting is frustrating.\n…and don’t even get me started on form validators that are overly strict when they could just strip the unwanted delimiters or white space themselves, or password fields that cannot be pasted, or password rules that make it impossible to generate a random password.\nComments URL: https://news.ycombinator.com/item?id=35749631\nPoints: 3\n# Comments: 6",
-          "link": "https://news.ycombinator.com/item?id=35749631",
-          "publishedOn": "2023-04-29T03:03:22.000Z",
-          "wordCount": 774,
-          "title": "Ask HN: What UI/UX trends do you find most baffling and annoying?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35745237",
-          "author": "mscolnick",
-          "description": "Would love to share a new open-source project I've been working on - Runnable.\nRunnable is a framework to build user-facing admin-like workflows with ease, while keeping operations internal. No need to setup REST or GraphQL for internal applications.\nThere are other similar tools out there that have comparable features, but Runnable is fully open-source and is much easier to set up (due to its simplicity). For example, it does not require a DB or even it's own server. There is an option to use Runnable as a library or as a standalone web-socket server.\nSite here: https://getrunnable.com/\nYou can demo Runnable here https://demo.getrunnable.com/admin/login and login with any Google creds.\nOpen to feedback and feature requests.\nComments URL: https://news.ycombinator.com/item?id=35745237\nPoints: 11\n# Comments: 2",
-          "link": "https://getrunnable.com/",
-          "publishedOn": "2023-04-28T18:30:21.000Z",
-          "wordCount": 156,
-          "title": "Show HN: Runnable – Build user-facing internal workflows without writing UI code",
-          "imageUrl": "https://github.com/kineticio/runnable/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35743052",
-          "author": "stale-labs",
-          "description": "Article URL: https://domains.ray.st\nComments URL: https://news.ycombinator.com/item?id=35743052\nPoints: 1\n# Comments: 1",
-          "link": "https://domains.ray.st/",
-          "publishedOn": "2023-04-28T16:00:24.000Z",
-          "wordCount": 2,
-          "title": "Bulk domain name search with Simple, Fast, Great UX",
-          "imageUrl": "https://domains.ray.st/api/og"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35741457",
-          "author": "yuchi",
-          "description": "Article URL: https://www.flux.ai/p/blog/flux-copilot-the-first-ai-powered-hardware-design-assistant\nComments URL: https://news.ycombinator.com/item?id=35741457\nPoints: 3\n# Comments: 0",
-          "link": "https://www.flux.ai/p/blog/flux-copilot-the-first-ai-powered-hardware-design-assistant",
-          "publishedOn": "2023-04-28T14:10:58.000Z",
-          "wordCount": 2184,
-          "title": "Flux Copilot – the first AI powered hardware design assistant",
-          "imageUrl": "https://assets.website-files.com/5fabc8dadc66fc8a47db709b/644af956cbc02d5e0ba832a9_copilot-header.webp"
         }
       ]
     },
@@ -4401,6 +4431,26 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36104215",
+          "author": "fagnerbrack",
+          "description": "Article URL: https://fagnerbrack.com/book-summary-hooked-how-to-build-habit-forming-products-a0928a26410?gi=2fa036034d7a\nComments URL: https://news.ycombinator.com/item?id=36104215\nPoints: 3\n# Comments: 0",
+          "link": "https://fagnerbrack.com/book-summary-hooked-how-to-build-habit-forming-products-a0928a26410?gi=2fa036034d7a",
+          "publishedOn": "2023-05-28T14:20:19.000Z",
+          "wordCount": 2511,
+          "title": "Book Summary: Hooked – How to Build Habit-Forming Products",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*zHoBgBt24SQtuHwIHTkdoQ.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36099955",
+          "author": "Anon84",
+          "description": "Article URL: https://www.economist.com/finance-and-economics/2023/05/25/what-performance-enhancing-stimulants-mean-for-economic-growth\nComments URL: https://news.ycombinator.com/item?id=36099955\nPoints: 32\n# Comments: 72",
+          "link": "https://www.economist.com/finance-and-economics/2023/05/25/what-performance-enhancing-stimulants-mean-for-economic-growth",
+          "publishedOn": "2023-05-28T00:38:10.000Z",
+          "wordCount": 8267,
+          "title": "Could America’s Adderall shortage have harmed its productivity?",
+          "imageUrl": "https://www.economist.com/img/b/1280/720/90/media-assets/image/20230527_FND000.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36081796",
           "author": "mimac2",
@@ -4950,16 +5000,6 @@
           "wordCount": 141,
           "title": "Ask HN: Share your favorite lesser-known productivity tools for remote work",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35745953",
-          "author": "aigoochamna",
-          "description": "Comments URL: https://news.ycombinator.com/item?id=35745953\nPoints: 2\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=35745953",
-          "publishedOn": "2023-04-28T19:24:49.000Z",
-          "wordCount": 81,
-          "title": "Ask HN: Web devs, what are your biggest productivity boosters?",
-          "imageUrl": null
         }
       ]
     },
@@ -4968,6 +5008,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36104195",
+          "author": "KodingKitty",
+          "description": "Article URL: https://www.kodingkitty.com/blog/blend-modes/\nComments URL: https://news.ycombinator.com/item?id=36104195\nPoints: 91\n# Comments: 16",
+          "link": "https://www.kodingkitty.com/blog/blend-modes/",
+          "publishedOn": "2023-05-28T14:18:29.000Z",
+          "wordCount": 370,
+          "title": "Mastering CSS blend modes",
+          "imageUrl": "https://www.kodingkitty.com/img/koding-kitty-1200x630.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36097397",
           "author": "kaycebasques",
@@ -5677,16 +5727,6 @@
           "wordCount": 3162,
           "title": "Rebuilding a featured news section with modern CSS: Vox news",
           "imageUrl": "https://ishadeed.com/assets/featured-section/twitter-card.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35744824",
-          "author": "PuddleOfSausage",
-          "description": "Article URL: https://code.mendhak.com/css-dark-mode-toggle-sucks/\nComments URL: https://news.ycombinator.com/item?id=35744824\nPoints: 1\n# Comments: 0",
-          "link": "https://code.mendhak.com/css-dark-mode-toggle-sucks/",
-          "publishedOn": "2023-04-28T17:58:47.000Z",
-          "wordCount": 962,
-          "title": "The unpleasant hackiness of CSS dark mode toggles",
-          "imageUrl": "https://code.mendhak.com/assets/images/css-dark-mode-toggle-sucks/000.png"
         }
       ]
     },
@@ -5790,6 +5830,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=45924",
+          "author": "Seth Godin",
+          "description": "Mike Schur, co-creator of Parks and Recreation, said of his career, “This is not stuff you can read in a book,” he said. “This is stuff that you have to experience.” I think it’s also useful to flip it around. There are things you will have trouble experiencing until you read them in a book. […]",
+          "link": "https://seths.blog/2023/05/on-reading-it-in-a-book/",
+          "publishedOn": "2023-05-28T08:26:00.000Z",
+          "wordCount": 973,
+          "title": "On reading it in a book",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=44541",
           "author": "Seth Godin",
@@ -6094,16 +6144,6 @@
             "type": "audio/mpeg"
           },
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=45666",
-          "author": "Seth Godin",
-          "description": "That’s what we usually try to do. When technology, comfort, convenience, efficiency and price line up, the market takes care of itself. On the other hand, seatbelts would never have happened if they weren’t required. But pizza grew to dominate our diets with no centralized action. They sell a lot of Tide laundry detergent. Billions […]",
-          "link": "https://seths.blog/2023/04/the-rare-trifecta/",
-          "publishedOn": "2023-04-29T08:47:00.000Z",
-          "wordCount": 1091,
-          "title": "We probably can’t buy our way out of it",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
         }
       ]
     },
