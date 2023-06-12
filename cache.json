@@ -18,6 +18,16 @@
       "siteUrl": "https://adamsilver.io/atom.xml",
       "articles": [
         {
+          "id": "https://adamsilver.io/blog/how-to-highlight-required-and-optional-form-fields/",
+          "author": null,
+          "description": "“Just whack a red asterisk next to each field and call it a day.”\nBack in 2008 I worked for a software house. We specialised in e-commerce sites for big organisations like Boots, Argos and Homebase.\nThey had the usual forms.\nRegistration, forgot password, sign in and checkout. We whacked little red asterisks next to each required field; added some text to the top to explain what it means; and called it a day.\nBut we never tested it.\nWe never even really thought about it.\nWe just followed what everyone else did.\nFast forward 15 years and the same thing happens today. Which is a shame as these little asterisks (and other techniques used to denote required) fields can be a real problem.\nSeeing as I get asked about this topic, I thought I’d cover it off so you can focus on more important probl…",
+          "link": "https://adamsilver.io/blog/how-to-highlight-required-and-optional-form-fields/",
+          "publishedOn": "2023-06-11T00:00:00.000Z",
+          "wordCount": 473,
+          "title": "How to highlight required and optional form fields",
+          "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:How to highlight required and optional form fields,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter:75996107/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
+        },
+        {
           "id": "https://adamsilver.io/blog/the-problem-with-automatically-focusing-the-first-input-and-what-to-do-instead/",
           "author": null,
           "description": "In 2009 I was working on the Argos checkout flow.\nWe were considering focusing the first input when the page loads. The idea was to save users a click (never a good sign). Back then we had to use JS, but now we have the HTML5 autofocus attribute.\nEither way, automatically focusing the first input causes 5 specific problems that degrade UX.\nHere they are:\nProblem #1: it makes the page jump unexpectedly\nWhen any normal web page loads, focus remains at the top.\nWith autofocus, focus jumps suddenly to the first input.\nBut this is disorientating and may cause users to think something has gone wrong.\n\n\t\t\t\t\n\t\t\tAutomatically focusing the input makes the page jump\n\t\n\nProblem #2: it stops users scrolling with the keyboard\nUsers often scroll a web page after page load by pressing ↑ and ↓.\nWith autofocus, the keys are ignored because the input is focused.\nThis makes the interface feel broken.\n\n\t\t\t\t\n\t\t\tThe up and down keys get ignored as focus is inside the input\n\t\n\nProblem #3: it stops users going back with the keyboard\nSome users navigate back by keyboard using #+← for example.\nWith autofocus, the shortcut is ignored because the input is focused.\nThis slows users down.\n\n\t\t\t\t\n\t\t\tThe keyboard shortcut to go back is ignored as focus is inside the input\n\t\n\nProblem #4: it’s unexpected for screen reader users\nWhen a web page loads, a screen reader announces the page title.\nWith autofocus, the input’s label is announced instead.\nThis is disorientating and causes users to lose context.\n\n\t\t\t\t\n\t\t\tThe screen reader announces the input instead of the page\n\t\n\nProblem #5: it works badly on mobile\nOn mobile, focusing an input usually opens the keyboard.\nWith autofocus this doesn’t happen. On Android, for example, the input is focused but the user has to tap again to open the keyboard.\nThis makes the interface feel broken.\n\n\t\t\t\t\n\t\t\tOn Android, the input is focused but the user needs to tap \n\t\n\nJust let users focus the first input\nGood design puts users in control.",
@@ -99,16 +109,6 @@
           "wordCount": 3293,
           "title": "Be Careful Using ‘Menu’",
           "imageUrl": "https://adrianroselli.com/wp-content/uploads/2023/04/ikea-menu_outline-300x300.png"
-        },
-        {
-          "id": "https://adrianroselli.com/?p=23315",
-          "author": "Adrian Roselli",
-          "description": "On Wednesday March 8, 2023, a man who turned out to be a process server came to my house and delivered a stack of papers — a 30 page lawsuit from Akin Gump Strauss Hauer & Feld LLP along with Buffalo-area firm Phillips Lytle LLP, both representing AudioEye, Inc. The…",
-          "link": "https://adrianroselli.com/2023/05/audioeye-is-suing-me.html",
-          "publishedOn": "2023-05-12T12:10:26.000Z",
-          "wordCount": 1481,
-          "title": "#AudioEye Is Suing Me",
-          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2023/05/AudioEye-suit_thumb-300x300.jpg"
         }
       ]
     },
@@ -1215,6 +1215,46 @@
       "siteUrl": "https://heydesigner.com",
       "articles": [
         {
+          "id": "https://heydesigner.com/?p=68326",
+          "author": "Travis",
+          "description": "The former design head of Apple, talks about what it takes for the creative process to thrive at any company.",
+          "link": "https://heydesigner.com/jony-ive-on-the-creative-process/",
+          "publishedOn": "2023-06-11T14:45:16.000Z",
+          "wordCount": 209,
+          "title": "Jony Ive on the creative process",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68324",
+          "author": "Travis",
+          "description": "Controlling the space between text styles is as important as differentiating the styles themselves.",
+          "link": "https://heydesigner.com/negative-space-typography/",
+          "publishedOn": "2023-06-11T14:35:59.000Z",
+          "wordCount": 192,
+          "title": "Negative-space typography",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68322",
+          "author": "Travis",
+          "description": "An in-depth analysis of implementing the overlooked baseline grids in Figma.",
+          "link": "https://heydesigner.com/baseline-alignment-in-figma/",
+          "publishedOn": "2023-06-11T14:35:17.000Z",
+          "wordCount": 194,
+          "title": "Baseline alignment in Figma",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68320",
+          "author": "Travis",
+          "description": "Exploring modern project architecture, emphasizing theming, responsive layouts, and component design.",
+          "link": "https://heydesigner.com/modern-css-for-dynamic-component-based-architecture/",
+          "publishedOn": "2023-06-11T14:17:13.000Z",
+          "wordCount": 199,
+          "title": "Modern CSS for dynamic component-based architecture",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
           "id": "https://heydesigner.com/?p=68313",
           "author": "Travis",
           "description": "Apple’s first official design kit for Figma contains a comprehensive set of components, views, system interfaces, text styles, color styles, materials, and layout guides.",
@@ -1941,6 +1981,56 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36286782",
+          "author": "mhitza",
+          "description": "Article URL: https://www.youtube.com/watch?v=agw-wlHGi0E\nComments URL: https://news.ycombinator.com/item?id=36286782\nPoints: 2\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=agw-wlHGi0E",
+          "publishedOn": "2023-06-11T23:26:23.000Z",
+          "wordCount": null,
+          "title": "Dynamic Languages Wizards Series – Panel on Language Design",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36285362",
+          "author": "ibelick",
+          "description": "Article URL: https://ui.ibelick.com/\nComments URL: https://news.ycombinator.com/item?id=36285362\nPoints: 1\n# Comments: 0",
+          "link": "https://ui.ibelick.com/",
+          "publishedOn": "2023-06-11T20:33:35.000Z",
+          "wordCount": 2378,
+          "title": "Ui.ibelick: Modern, Ready-to-Use React and Tailwind CSS UI Components",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36284318",
+          "author": "jumploops",
+          "description": "Article URL: https://project-a.github.io/on-site-search-design-patterns-for-e-commerce/\nComments URL: https://news.ycombinator.com/item?id=36284318\nPoints: 2\n# Comments: 0",
+          "link": "https://project-a.github.io/on-site-search-design-patterns-for-e-commerce/",
+          "publishedOn": "2023-06-11T18:43:40.000Z",
+          "wordCount": 6327,
+          "title": "On-Site Search Design Patterns for E-Commerce",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36283219",
+          "author": "hlbtech",
+          "description": "Article URL: https://www.hlbtech711.com/\nComments URL: https://news.ycombinator.com/item?id=36283219\nPoints: 2\n# Comments: 1",
+          "link": "https://www.hlbtech711.com/",
+          "publishedOn": "2023-06-11T17:07:22.000Z",
+          "wordCount": 890,
+          "title": "Co-Founder Engineering Drafting/Design Software",
+          "imageUrl": "https://storage.googleapis.com/mixo-files/uploads/symdraw-1683864880461.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36282437",
+          "author": "pulse7",
+          "description": "Article URL: https://mail.openjdk.org/pipermail/valhalla-spec-observers/2023-May/002243.html\nComments URL: https://news.ycombinator.com/item?id=36282437\nPoints: 2\n# Comments: 0",
+          "link": "https://mail.openjdk.org/pipermail/valhalla-spec-observers/2023-May/002243.html",
+          "publishedOn": "2023-06-11T15:43:28.000Z",
+          "wordCount": 5377,
+          "title": "Design document on nullability and value types",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36272662",
           "author": "krptos",
@@ -4240,66 +4330,6 @@
           "wordCount": 825,
           "title": "VanJS (Vanilla JavaScript) – A 1.2kB Reactive UI Framework Without React/JSX",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35925715",
-          "author": "greghn",
-          "description": "Article URL: https://sigmodrecord.org/publications/sigmodRecord/1109/pdfs/10.openforum.badia.pdf\nComments URL: https://news.ycombinator.com/item?id=35925715\nPoints: 3\n# Comments: 0",
-          "link": "https://sigmodrecord.org/publications/sigmodRecord/1109/pdfs/10.openforum.badia.pdf",
-          "publishedOn": "2023-05-13T05:01:57.000Z",
-          "wordCount": 7995,
-          "title": "A Call to Arms: Revisiting Database Design [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35925714",
-          "author": "gavinhoward",
-          "description": "I'm working on designing Open Source software, and while I can't internationalize, localize, and accessiblize (!) it now, I want to make it easy to internationalize, localize, and accessibilize it later.\nTo design properly, I need to know the factors that go into those things. Please list all that you know of, whether for GUI's or TUI's. It's okay to repeat factors because it's good to know what's most important too.\nHere's my non-complete list for each.\nI18n:\n* Be able to swap all output strings depending on language.\n* If output needs to be formatted, be able to put the format items in any order because languages put things in different orders.\n* Support for left-to-right, right-to-left, and boustrophedon [1] scripts. (Is boustrophedon necessary?)\n* Support for vertical scripts, whether …",
-          "link": "https://news.ycombinator.com/item?id=35925714",
-          "publishedOn": "2023-05-13T05:01:36.000Z",
-          "wordCount": 394,
-          "title": "Ask HN: What Are Design Factors for Internationalization, L10n, Accessibility?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35919531",
-          "author": "Jeaye",
-          "description": "Article URL: https://clojuredesign.club/\nComments URL: https://news.ycombinator.com/item?id=35919531\nPoints: 1\n# Comments: 0",
-          "link": "https://clojuredesign.club/",
-          "publishedOn": "2023-05-12T17:46:53.000Z",
-          "wordCount": 933,
-          "title": "Functional Design in Clojure",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35917463",
-          "author": "Mobil1",
-          "description": "Article URL: https://www.wired.com/story/machine-learning-chinese-medicine-acupuncture-study-design/\nComments URL: https://news.ycombinator.com/item?id=35917463\nPoints: 1\n# Comments: 0",
-          "link": "https://www.wired.com/story/machine-learning-chinese-medicine-acupuncture-study-design/",
-          "publishedOn": "2023-05-12T15:18:53.000Z",
-          "wordCount": 29817,
-          "title": "Machine-learning-Chinese-medicine-acupuncture-study-design",
-          "imageUrl": "https://media.wired.com/photos/645c1ec952bb92d7ad7c3041/191:100/w_1280,c_limit/ideas_acupuncture_medicine_ai_machine.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35916904",
-          "author": "neom",
-          "description": "Article URL: https://info.ksiadvantage.com/blog/how-the-u.s.-government-had-groovy-design-but-seemingly-lost-it-and-how-to-get-it-back\nComments URL: https://news.ycombinator.com/item?id=35916904\nPoints: 2\n# Comments: 0",
-          "link": "https://info.ksiadvantage.com/blog/how-the-u.s.-government-had-groovy-design-but-seemingly-lost-it-and-how-to-get-it-back",
-          "publishedOn": "2023-05-12T14:32:02.000Z",
-          "wordCount": 3024,
-          "title": "How the U.S. Government Had Sophisticated Design but Seemingly Lost It",
-          "imageUrl": "https://info.ksiadvantage.com/hubfs/Blog%20Images/How%20the%20US%20Government%20Had%20Sophisticated%20Design%2c%20but%20Seemingly%20Lost%20It.png#keepProtocol"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35915066",
-          "author": "khaled",
-          "description": "Article URL: https://medium.com/@paszkowska.marianna/shaping-the-future-of-typography-an-exploration-of-opentype-2-0-enhancements-and-impact-355d691b3bbe\nComments URL: https://news.ycombinator.com/item?id=35915066\nPoints: 1\n# Comments: 0",
-          "link": "https://medium.com/@paszkowska.marianna/shaping-the-future-of-typography-an-exploration-of-opentype-2-0-enhancements-and-impact-355d691b3bbe",
-          "publishedOn": "2023-05-12T12:14:40.000Z",
-          "wordCount": 3373,
-          "title": "Shaping the Future of Typography: embedded WASM in fonts and more",
-          "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:779/1*CJGhkwN83D5spgwRIhjGYA.gif"
         }
       ]
     },
@@ -4308,6 +4338,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36282224",
+          "author": "Tomte",
+          "description": "Article URL: https://mastodon.social/@davew/110520163594030698\nComments URL: https://news.ycombinator.com/item?id=36282224\nPoints: 2\n# Comments: 0",
+          "link": "https://mastodon.social/@davew/110520163594030698",
+          "publishedOn": "2023-06-11T15:23:46.000Z",
+          "wordCount": 121,
+          "title": "There was a lot of confusion about what RSS was until RSS 2.0 came out",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36267563",
           "author": "johnwheeler",
@@ -4837,26 +4877,6 @@
           "wordCount": 1971,
           "title": "The Stoic Gardener: How George Harrison Found Peace in the Garden",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcea0d344-5096-406f-8d80-b2810152925d_465x564.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35924906",
-          "author": "hhs",
-          "description": "Article URL: https://www.brookings.edu/research/machines-of-mind-the-case-for-an-ai-powered-productivity-boom/\nComments URL: https://news.ycombinator.com/item?id=35924906\nPoints: 2\n# Comments: 0",
-          "link": "https://www.brookings.edu/research/machines-of-mind-the-case-for-an-ai-powered-productivity-boom/",
-          "publishedOn": "2023-05-13T02:32:19.000Z",
-          "wordCount": 4920,
-          "title": "Machines of mind: The case for an AI-powered productivity boom",
-          "imageUrl": "https://www.brookings.edu/wp-content/uploads/2023/05/Shutterstock_2250721589.jpg?w=1200&h=630&crop=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35919227",
-          "author": "gleb_the_human",
-          "description": "Article URL: https://github.com/hleb-kastseika/tg-channel-to-rss\nComments URL: https://news.ycombinator.com/item?id=35919227\nPoints: 64\n# Comments: 18",
-          "link": "https://github.com/hleb-kastseika/tg-channel-to-rss",
-          "publishedOn": "2023-05-12T17:27:30.000Z",
-          "wordCount": 649,
-          "title": "AWS Lambda function for converting of Telegram channel to RSS feed",
-          "imageUrl": "https://opengraph.githubassets.com/34732458ac59a658ab5eba8e012fe3be895c7ea81a16bc1d5ce8abfb2cd7e0f0/hleb-kastseika/tg-channel-to-rss"
         }
       ]
     },
@@ -4865,6 +4885,26 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36285362",
+          "author": "ibelick",
+          "description": "Article URL: https://ui.ibelick.com/\nComments URL: https://news.ycombinator.com/item?id=36285362\nPoints: 1\n# Comments: 0",
+          "link": "https://ui.ibelick.com/",
+          "publishedOn": "2023-06-11T20:33:35.000Z",
+          "wordCount": 2378,
+          "title": "Ui.ibelick: Modern, Ready-to-Use React and Tailwind CSS UI Components",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36276710",
+          "author": "promiseofbeans",
+          "description": "Article URL: https://shkspr.mobi/blog/2023/02/how-to-password-protect-a-static-html-page-with-no-js/\nComments URL: https://news.ycombinator.com/item?id=36276710\nPoints: 47\n# Comments: 27",
+          "link": "https://shkspr.mobi/blog/2023/02/how-to-password-protect-a-static-html-page-with-no-js/",
+          "publishedOn": "2023-06-11T00:16:01.000Z",
+          "wordCount": 1745,
+          "title": "How to password protect a static HTML page with no JavaScript",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36269725",
           "author": "skadamat",
@@ -5564,36 +5604,6 @@
           "wordCount": 939,
           "title": "Lexbor: Fast HTML5 Parser with CSS Selectors Written in Crystal",
           "imageUrl": "https://opengraph.githubassets.com/e5b2cd8fdad91923719ab52722e91afc62c0ccbc07e4a96cdd16f4688982c82b/kostya/lexbor"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35924211",
-          "author": "HeladeraDragon",
-          "description": "Since I find myself here way too often, I thought it would be a good idea to make this because I find it too overwhelming. Text is so small, and the light mode sucks (kind of like old reddit).\nIt's still kind of buggy, but (for me at least, I've seen lots of people complain about modern uis) it's more comfortable than regular HN, and maybe other people will find it useful.\nIK there's some mirrors of the website but they don't hit the same. Feel free to send me feedback: HeladeraDragon#2036\nComments URL: https://news.ycombinator.com/item?id=35924211\nPoints: 1\n# Comments: 0",
-          "link": "https://userstyles.world/style/9813/gen-z-hacker-news",
-          "publishedOn": "2023-05-13T00:29:46.000Z",
-          "wordCount": 1462,
-          "title": "Show HN: CSS theme for Hacker News that gives it a modern look",
-          "imageUrl": "https://userstyles.world/preview/9813/2.webp"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35920980",
-          "author": "WorldPeas",
-          "description": "Article URL: https://geocrypt.me\nComments URL: https://news.ycombinator.com/item?id=35920980\nPoints: 6\n# Comments: 1",
-          "link": "https://geocrypt.me/",
-          "publishedOn": "2023-05-12T19:21:48.000Z",
-          "wordCount": 124,
-          "title": "Geocrypt: Encrypt files into a self decrypting HTML page",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=35916310",
-          "author": "Dachande663",
-          "description": "Article URL: https://daveshea.com/projects/zen/\nComments URL: https://news.ycombinator.com/item?id=35916310\nPoints: 4\n# Comments: 1",
-          "link": "https://daveshea.com/projects/zen/",
-          "publishedOn": "2023-05-12T13:52:36.000Z",
-          "wordCount": 564,
-          "title": "CSS Zen Garden is 20 years old",
-          "imageUrl": "http://daveshea.com/i/projects/zen/main.jpg"
         }
       ]
     },
@@ -5717,6 +5727,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=46447",
+          "author": "Seth Godin",
+          "description": "Every driver benefits from good brakes. It makes driving safer. Only a few skilled drivers benefit from better acceleration. Our habit is to compare top speed, horsepower, short-term returns and status. In every field, not just cars. But it probably pays to make sure that there good brakes too.",
+          "link": "https://seths.blog/2023/06/brakes-and-acceleration/",
+          "publishedOn": "2023-06-11T09:52:00.000Z",
+          "wordCount": 932,
+          "title": "Brakes and acceleration",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=46442",
           "author": "Seth Godin",
@@ -6036,16 +6056,6 @@
           "wordCount": 878,
           "title": "The good china",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44434",
-          "author": "Seth Godin",
-          "description": "They’re essential. The house begins to stink if we don’t take out the garbage. But at work, while they might be essential, they may not be important. At least, not important enough for us to spend a lot of focus on. Chores are: The bills have to get paid. But they might not have to […]",
-          "link": "https://seths.blog/2023/05/chores/",
-          "publishedOn": "2023-05-13T08:51:00.000Z",
-          "wordCount": 1002,
-          "title": "Chores",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg"
         }
       ]
     },
