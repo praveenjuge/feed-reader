@@ -18,6 +18,16 @@
       "siteUrl": "https://adamsilver.io/atom.xml",
       "articles": [
         {
+          "id": "https://adamsilver.io/blog/the-problem-with-sticky-menus-that-appear-on-scroll-and-what-to-do-instead/",
+          "author": null,
+          "description": "I’ve previously written about the problems with regular sticky menus.\nIn response to those issues, some people suggest showing and hiding the menu as the user scrolls up and down.\n\n\t\t\t\t\n\t\t\tBondir’s sticky menu appears and disappears as the user scrolls\n\t\n\nThis seems smart because:\nthe menu gets out of the way to allow users to focus on the content\nit allows users to access the menu without having to scroll back to the top\nBut this approach is worse than regular sticky menus.\nHere’s why:\nProblem #1: They’re distracting\nThis is because as the user scrolls the content to fit in the viewport, the menu will suddenly appear.\nGood design doesn’t guess (wrongly) about what users need.\nProblem #2: They’re hard to control\nThis is because scrolling up too much reveals the menu when it’s not wanted. And scrolling down a bit by accident will hide it when it is wanted.\nGood design doesn’t take control away.\nProblem #3: They cause dizziness and nausea\nThis is because animation can cause dizziness, nausea, headaches and more.\nGood design avoids physical stress.\nProblem #4: They can impact performance\nThis is because JavaScript is needed to react to the scroll event which can drain the battery and degrade performance especially on low-powered devices.\nGood design is lightweight.\nWhat to do instead\nKeep pages short: Sticky menus are a symptom of long pages so fix the root cause.\nJust let users scroll: It’s a myth that scrolling is a problem. Even on mobile, the top of the page is a flick or 2 away mostly.\nPut relevant links in context: For example, add a subscribe form to the end of a post or add a CTA to a pricing section.\nUse a back-to-top link: They’re relatively unobtrusive (but only do this once you exhaust the other options).",
+          "link": "https://adamsilver.io/blog/the-problem-with-sticky-menus-that-appear-on-scroll-and-what-to-do-instead/",
+          "publishedOn": "2023-06-18T00:00:00.000Z",
+          "wordCount": 409,
+          "title": "The problem with sticky menus that appear on scroll and what to do instead",
+          "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:The problem with sticky menus that appear on scroll and what to do instead,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter:75996107/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
+        },
+        {
           "id": "https://adamsilver.io/blog/how-to-highlight-required-and-optional-form-fields/",
           "author": null,
           "description": "“Just whack a red asterisk next to each field and call it a day.”\nBack in 2008 I worked for a software house. We specialised in e-commerce sites for big organisations like Boots, Argos and Homebase.\nThey had the usual forms.\nRegistration, forgot password, sign in and checkout. We whacked little red asterisks next to each required field; added some text to the top to explain what it means; and called it a day.\nBut we never tested it.\nWe never even really thought about it.\nWe just followed what everyone else did.\nFast forward 15 years and the same thing happens today. Which is a shame as these little asterisks (and other techniques used to denote required) fields can be a real problem.\nSeeing as I get asked about this topic, I thought I’d cover it off so you can focus on more important probl…",
@@ -1584,16 +1594,6 @@
           "wordCount": 3044,
           "title": "Avoid these 7 mistakes when designing a landing page",
           "imageUrl": "https://cdn.dribbble.com/uploads/46715/original/3d0f2a6d8fedecd94aa7df02ca75b7c9.jpg?1684425978"
-        },
-        {
-          "id": "https://dribbble.com/stories/2023/05/20/design-freebies-on-dribbble",
-          "author": null,
-          "description": "Designers, rejoice! Dribbble is a treasure trove of inspiration, creativity, and resources. In this article, we’ve handpicked 15 fantastic design freebies available to download on Dribbble that will take your design projects to the next level. From Figma templates to Adobe resources, these free design assets cover icons, illustrations, templates, mockups, gradients, and so much more. Happy designing!\nFree downloads for designers\nFrom beautifully crafted icons to stunning illustrations, slick UI templates to mesmerizing gradients, this compilation has it all. Each design freebie has been carefully selected to inspire and empower you to create exceptional designs that leave a lasting impression.\n\n\n    \n      Shot Link\n\n\n    \nfigma gradient background visuals freebie\nChristos\n\n      \nGet it h…",
-          "link": "https://dribbble.com/stories/2023/05/20/design-freebies-on-dribbble",
-          "publishedOn": "2023-05-20T05:00:00.000Z",
-          "wordCount": 2660,
-          "title": "21 must-have design freebies you can get on Dribbble",
-          "imageUrl": "https://cdn.dribbble.com/users/925655/screenshots/17383028/grads-v2-03_4x.png"
         }
       ]
     },
@@ -1614,6 +1614,46 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=68379",
+          "author": "Travis",
+          "description": "AI is introducing the third user-interface paradigm in computing history, shifting to a new interaction mechanism where users tell the computer what they want, not how to do it.",
+          "link": "https://heydesigner.com/ai-first-new-ui-paradigm-in-60-years/",
+          "publishedOn": "2023-06-18T17:44:58.000Z",
+          "wordCount": 213,
+          "title": "AI: First new UI paradigm in 60 years",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68377",
+          "author": "Travis",
+          "description": "When objects are placed near one another, the mind perceives them as a group.",
+          "link": "https://heydesigner.com/gestalt-principles-of-design-proximity/",
+          "publishedOn": "2023-06-18T17:43:41.000Z",
+          "wordCount": 199,
+          "title": "Gestalt principles of design: Proximity",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68375",
+          "author": "Travis",
+          "description": "Sadly, research is one of the practices that constantly gets questions about the value and the first to go when there is any reduction in the workforce, but they are crucial.",
+          "link": "https://heydesigner.com/the-value-of-continuous-research/",
+          "publishedOn": "2023-06-18T17:40:55.000Z",
+          "wordCount": 207,
+          "title": "The value of continuous research",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68373",
+          "author": "Travis",
+          "description": "I’ve written before about the problems you can run into with CSS nesting.",
+          "link": "https://heydesigner.com/the-gotchas-of-css-nesting/",
+          "publishedOn": "2023-06-18T17:40:01.000Z",
+          "wordCount": 199,
+          "title": "The gotchas of CSS Nesting",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=68367",
           "author": "Travis",
@@ -2381,6 +2421,56 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36385580",
+          "author": "izzyfink",
+          "description": "Article URL: https://www.haystack.design/\nComments URL: https://news.ycombinator.com/item?id=36385580\nPoints: 1\n# Comments: 0",
+          "link": "https://www.haystack.design/",
+          "publishedOn": "2023-06-18T23:23:32.000Z",
+          "wordCount": 949,
+          "title": "Haystack is an unlimited data visualization design service",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36384132",
+          "author": "belter",
+          "description": "Article URL: https://www.sod-muc.com/en\nComments URL: https://news.ycombinator.com/item?id=36384132\nPoints: 2\n# Comments: 0",
+          "link": "https://www.sod-muc.com/en",
+          "publishedOn": "2023-06-18T20:29:22.000Z",
+          "wordCount": 264,
+          "title": "Stone OffRoad Design",
+          "imageUrl": "https://www.sod-muc.com/assets/images/layout/keyvisual.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36381330",
+          "author": "ptrkcsk",
+          "description": "Article URL: https://archives.design\nComments URL: https://news.ycombinator.com/item?id=36381330\nPoints: 162\n# Comments: 16",
+          "link": "https://archives.design/",
+          "publishedOn": "2023-06-18T15:51:18.000Z",
+          "wordCount": 2261,
+          "title": "Graphic design items from Internet Archive",
+          "imageUrl": "https://64.media.tumblr.com/8a753d09f8ff44640cc1988072a93b63/d456509066361d78-3b/s128x128u_c1/f8d0640ff3728d46da0eb9e6e4d6328530a39e3f.pnj"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36381266",
+          "author": "swyx",
+          "description": "Article URL: https://github.com/smol-ai/logger\nComments URL: https://news.ycombinator.com/item?id=36381266\nPoints: 4\n# Comments: 0",
+          "link": "https://github.com/smol-ai/logger",
+          "publishedOn": "2023-06-18T15:43:55.000Z",
+          "wordCount": 2537,
+          "title": "Show HN: Zero Dependency Logger – Using IDE as Log UI",
+          "imageUrl": "https://opengraph.githubassets.com/a4eca96e01017c3867f603a159457cfe3dcbcec3d4b646e3962ccb1e1bb549a7/smol-ai/logger"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36378224",
+          "author": "plamartin",
+          "description": "Article URL: https://abitgamey.substack.com/p/less-is-more-in-app-design\nComments URL: https://news.ycombinator.com/item?id=36378224\nPoints: 2\n# Comments: 0",
+          "link": "https://abitgamey.substack.com/p/less-is-more-in-app-design",
+          "publishedOn": "2023-06-18T08:04:49.000Z",
+          "wordCount": 2472,
+          "title": "Less is more in app design",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43003ef2-b310-44d8-b0d8-5e1c4eb226ef_3539x2654.jpeg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36373976",
           "author": "t0bia_s",
@@ -4540,76 +4630,6 @@
           "wordCount": 1339,
           "title": "GPT-Code UI Editor",
           "imageUrl": "https://external-preview.redd.it/ixBjgYKhndVN780BOG9C-XQEzEgUsnlTf7XRXnXw1sk.jpg?width=1200&height=600&auto=webp&crop=1200:600,smart&v=enabled&s=8b27473c973f03b5ffb41a537779ae981b768271"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36009662",
-          "author": "monyluak",
-          "description": "Article URL: https://blog.monyluak.com/design-thinking-101\nComments URL: https://news.ycombinator.com/item?id=36009662\nPoints: 1\n# Comments: 0",
-          "link": "https://blog.monyluak.com/design-thinking-101",
-          "publishedOn": "2023-05-20T05:48:37.000Z",
-          "wordCount": 4703,
-          "title": "Design Thinking 101",
-          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1684562184196%2F85f4ffbb-9a3a-4436-b632-42166423b10f.png%3Fw%3D1200%26h%3D630%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36006236",
-          "author": "stephdin",
-          "description": "Article URL: https://utopia.fyi/\nComments URL: https://news.ycombinator.com/item?id=36006236\nPoints: 2\n# Comments: 0",
-          "link": "https://utopia.fyi/",
-          "publishedOn": "2023-05-19T20:03:45.000Z",
-          "wordCount": 4967,
-          "title": "Utopia: Fluid Responsive Design Without Breakpoints",
-          "imageUrl": "https://utopia.fyi/og.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36006009",
-          "author": "diginova",
-          "description": "Article URL: https://mobbin.com\nComments URL: https://news.ycombinator.com/item?id=36006009\nPoints: 3\n# Comments: 0",
-          "link": "https://mobbin.com/",
-          "publishedOn": "2023-05-19T19:43:56.000Z",
-          "wordCount": null,
-          "title": "Browse-search iOS, Android and web Apps – UI/UX",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36004310",
-          "author": "tim_sw",
-          "description": "Article URL: https://www.youtube.com/watch?v=_jfOk4L7CiY\nComments URL: https://news.ycombinator.com/item?id=36004310\nPoints: 1\n# Comments: 0",
-          "link": "https://www.youtube.com/watch?v=_jfOk4L7CiY",
-          "publishedOn": "2023-05-19T17:06:43.000Z",
-          "wordCount": null,
-          "title": "A New Era for Database Design with TigerBeetle",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36003756",
-          "author": "tithos1981",
-          "description": "Article URL: https://www.youtube.com/watch?v=HAlIWRcldoc&list=TLPQMTkwNTIwMjN6Ys80mKeccg&index=1\nComments URL: https://news.ycombinator.com/item?id=36003756\nPoints: 1\n# Comments: 1",
-          "link": "https://www.youtube.com/watch?v=HAlIWRcldoc&list=TLPQMTkwNTIwMjN6Ys80mKeccg&index=1",
-          "publishedOn": "2023-05-19T16:27:07.000Z",
-          "wordCount": null,
-          "title": "I accidentally made the best way to choose colors for UI design-Realtime Colors",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36003352",
-          "author": "waaanda",
-          "description": "Article URL: https://discord.com/invite/5hrRD87Z\nComments URL: https://news.ycombinator.com/item?id=36003352\nPoints: 2\n# Comments: 1",
-          "link": "https://discord.com/invite/5hrRD87Z",
-          "publishedOn": "2023-05-19T15:50:44.000Z",
-          "wordCount": 143,
-          "title": "Make game without coding and design",
-          "imageUrl": "undefined//discord.com/assets/652f40427e1f5186ad54836074898279.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36001949",
-          "author": "grishka",
-          "description": "Article URL: https://learn.microsoft.com/en-us/windows/win32/uxguide/designprinciples\nComments URL: https://news.ycombinator.com/item?id=36001949\nPoints: 2\n# Comments: 2",
-          "link": "https://learn.microsoft.com/en-us/windows/win32/uxguide/designprinciples",
-          "publishedOn": "2023-05-19T13:52:40.000Z",
-          "wordCount": 318,
-          "title": "Microsoft UX guidelines (Windows 7-era)",
-          "imageUrl": "https://learn.microsoft.com/en-us/media/logos/logo-ms-social.png"
         }
       ]
     },
@@ -4618,6 +4638,36 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36384581",
+          "author": "surprisetalk",
+          "description": "Article URL: https://ktheory.com/paradigm-for-developer-productivity/\nComments URL: https://news.ycombinator.com/item?id=36384581\nPoints: 3\n# Comments: 1",
+          "link": "https://ktheory.com/paradigm-for-developer-productivity/",
+          "publishedOn": "2023-06-18T21:17:10.000Z",
+          "wordCount": 3290,
+          "title": "A paradigm for developer productivity (2022)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36380235",
+          "author": "KqAmJQ7",
+          "description": "Article URL: https://headbirths.wordpress.com/2014/04/04/the-science-delusion-part-1/\nComments URL: https://news.ycombinator.com/item?id=36380235\nPoints: 2\n# Comments: 0",
+          "link": "https://headbirths.wordpress.com/2014/04/04/the-science-delusion-part-1/",
+          "publishedOn": "2023-06-18T13:43:32.000Z",
+          "wordCount": 5224,
+          "title": "Dogma and Habit",
+          "imageUrl": "http://www.sheldrake.org/files/images/books/The-Science-Delusion.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36377953",
+          "author": "Tomte",
+          "description": "Article URL: http://scripting.com/2023/06/17/193133.html\nComments URL: https://news.ycombinator.com/item?id=36377953\nPoints: 22\n# Comments: 10",
+          "link": "http://scripting.com/2023/06/17/193133.html",
+          "publishedOn": "2023-06-18T06:54:48.000Z",
+          "wordCount": 634,
+          "title": "W3C and My RSS Spec",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36366106",
           "author": "cvwright",
@@ -5217,36 +5267,6 @@
           "wordCount": 880,
           "title": "Stoic Vibes, Man",
           "imageUrl": "https://whatisemerging.s3.eu-central-1.amazonaws.com/store/289eae6d579d9a0f5a2e4bd90a2ae5c9.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36011146",
-          "author": "altneu",
-          "description": "Now in beta with registration open...\nComments URL: https://news.ycombinator.com/item?id=36011146\nPoints: 1\n# Comments: 0",
-          "link": "https://ssr.altneu.me/",
-          "publishedOn": "2023-05-20T11:58:46.000Z",
-          "wordCount": 220,
-          "title": "Show HN: Such Simple RSS",
-          "imageUrl": "https://ssr.altneu.me/assets/ssr-neutral-23.svg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36006676",
-          "author": "rbanffy",
-          "description": "Article URL: https://www.newyorker.com/culture/office-space/its-time-to-embrace-slow-productivity\nComments URL: https://news.ycombinator.com/item?id=36006676\nPoints: 45\n# Comments: 40",
-          "link": "https://www.newyorker.com/culture/office-space/its-time-to-embrace-slow-productivity",
-          "publishedOn": "2023-05-19T20:45:59.000Z",
-          "wordCount": 30580,
-          "title": "It’s Time to Embrace Slow Productivity",
-          "imageUrl": "https://media.newyorker.com/photos/61cf4f8f30fefda15cb51e7e/16:9/w_1280,c_limit/Newport-SlowProductivity.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36005160",
-          "author": "aard",
-          "description": "Article URL: https://martinfowler.com/bliki/CannotMeasureProductivity.html\nComments URL: https://news.ycombinator.com/item?id=36005160\nPoints: 3\n# Comments: 1",
-          "link": "https://martinfowler.com/bliki/CannotMeasureProductivity.html",
-          "publishedOn": "2023-05-19T18:19:52.000Z",
-          "wordCount": 1284,
-          "title": "Cannot Measure Productivity",
-          "imageUrl": "https://martinfowler.com/logo-sq.png"
         }
       ]
     },
@@ -5255,6 +5275,26 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36382127",
+          "author": "samwillis",
+          "description": "Article URL: https://frosted-glass.shud.in/\nComments URL: https://news.ycombinator.com/item?id=36382127\nPoints: 1\n# Comments: 1",
+          "link": "https://frosted-glass.shud.in/",
+          "publishedOn": "2023-06-18T17:10:15.000Z",
+          "wordCount": 65,
+          "title": "Depth-Based Blur in CSS",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36376564",
+          "author": "Hexigonz",
+          "description": "I have moved onto other side projects since writing a short book for those looking to cover the fundamentals of CSS, so I made it free and stopped marketing it. Enjoy.\nComments URL: https://news.ycombinator.com/item?id=36376564\nPoints: 25\n# Comments: 0",
+          "link": "https://www.dropbox.com/s/frxsd344nbr245m/PrereleaseVersion.pdf?dl=0",
+          "publishedOn": "2023-06-18T01:47:23.000Z",
+          "wordCount": 2807,
+          "title": "Show HN: Conquer CSS, a free introductory book for CSS [pdf]",
+          "imageUrl": "https://www.dropbox.com/temp_thumb_from_token/s/frxsd344nbr245m?preserve_transparency=False&size=1200x1200&size_mode=4"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36375179",
           "author": "tambourine_man",
@@ -5974,36 +6014,6 @@
           "wordCount": 22,
           "title": "Toaster: Pure CSS 3D Modelling Suite",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36010504",
-          "author": "popcalc",
-          "description": "Article URL: https://github.com/airform/airform\nComments URL: https://news.ycombinator.com/item?id=36010504\nPoints: 1\n# Comments: 0",
-          "link": "https://github.com/airform/airform",
-          "publishedOn": "2023-05-20T09:32:24.000Z",
-          "wordCount": 795,
-          "title": "Airform.io – Functional HTML Forms for Front-End Developers",
-          "imageUrl": "https://repository-images.githubusercontent.com/129330207/bb063280-031a-11ea-84bc-ecf928314143"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36010444",
-          "author": "jcwsw129",
-          "description": "Article URL: https://chrome.google.com/webstore/detail/windchat-chatgpt-tailwind/ipafbgdehdljgphjgfmpkohhbelebdhm\nComments URL: https://news.ycombinator.com/item?id=36010444\nPoints: 1\n# Comments: 0",
-          "link": "https://chrome.google.com/webstore/detail/windchat-chatgpt-tailwind/ipafbgdehdljgphjgfmpkohhbelebdhm",
-          "publishedOn": "2023-05-20T09:16:29.000Z",
-          "wordCount": 1601,
-          "title": "Show HN: WindChat – ChatGPT TailwindCSS HTML Previewer",
-          "imageUrl": "https://lh3.googleusercontent.com/efmatJR7hjUpFA-M0ZkSIDfx8dZZa8RP0gy9kiSi1eDfngFG-pZbyBMyQGz-EfKhwb_OMGpqi57d7jSzYnEpTkHzEg=w128-h128-e365-rj-sc0x00ffffff"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36001569",
-          "author": "mateonunez",
-          "description": "Article URL: https://github.com/mateonunez/website\nComments URL: https://news.ycombinator.com/item?id=36001569\nPoints: 3\n# Comments: 1",
-          "link": "https://github.com/mateonunez/website",
-          "publishedOn": "2023-05-19T13:17:13.000Z",
-          "wordCount": 943,
-          "title": "SEO-Friendly Next.js Site with Tailwind, Spotify, GitHub and MDX Blog",
-          "imageUrl": "https://opengraph.githubassets.com/8174130a8c4c9af8eb03a111997e00d79e1dcbb829849840e4421ab61d349608/mateonunez/website"
         }
       ]
     },
@@ -6117,6 +6127,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=46321",
+          "author": "Seth Godin",
+          "description": "The first few moves of a chess game give the player almost unlimited freedom. There are countless legal moves, and nothing to constrain the choices that a player makes among them. But as we add leverage to our culture and our organizations, the choices aren’t as easy. Jerry Garcia couldn’t easily change the Grateful Dead’s […]",
+          "link": "https://seths.blog/2023/06/finding-agency/",
+          "publishedOn": "2023-06-18T08:42:00.000Z",
+          "wordCount": 1108,
+          "title": "Finding agency",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
+        },
         {
           "id": "https://seths.blog/?p=44382",
           "author": "Seth Godin",
@@ -6446,16 +6466,6 @@
           "wordCount": 964,
           "title": "Which sort of sinecure?",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=43399",
-          "author": "Seth Godin",
-          "description": "More hope. More health. More security. More innovation. More breakthroughs. More connection. More creation. More joy. The climate movement doesn’t have to be about asking individuals to bear the burden of systemic problems. It’s not about living with less.  It’s about demanding more.  From your employer, your community, your local government, your country.  The more […]",
-          "link": "https://seths.blog/2023/05/more-is-more/",
-          "publishedOn": "2023-05-20T08:02:00.000Z",
-          "wordCount": 911,
-          "title": "More is More",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
         }
       ]
     },
