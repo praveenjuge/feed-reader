@@ -56,16 +56,6 @@
           "wordCount": 420,
           "title": "The problem with nested fieldsets and how to avoid them",
           "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:The problem with nested fieldsets and how to avoid them,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter:75996107/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
-        },
-        {
-          "id": "https://adamsilver.io/blog/the-billion-dollar-unsubscribe-link/",
-          "author": null,
-          "description": "2 weeks ago I sent an email to 3,855 subscribers using ConvertKit.\nMy newsletter email footer\n\t\n\nBut 177 of them were instantly unsubscribed without clicking the unsubscribe link. What happened?\nThese subscribers work at organisations with strict security. Every link is automatically opened to check it’s not malicious.\nFine, except that:\nmy subscribers were unsubscribed without their consent\nsupport agents spent a lot of time dealing with me and the issue\nI had to spot the issue; work out how to resubscribe everyone; and create a workaround so it doesn’t happen again\nThis is a billion dollar UX mistake\nHere’s why:\nSupport costs go up\nCustomer retention rates go down\nCustomer satisfaction scores go down\nCustomer fees go down (you pay based on subscriber count)\nScale this up to 580,084 ConvertKit customers and 633 million subscribers and you’ve got a billion dollar mistake caused by a teeny tiny link.\nLinks are for navigation, buttons are for actions\nTo solve the problem do this:\nClicking the unsubscribe link takes users to a page with a form\nSubmitting the form unsubscribes the user.\nThe links can still be checked automatically. But only users can submit the form.\nGood design puts users in control.\n(Note: I’ve messaged ConvertKit’s founder about this and offered to help fix the issue. For now, I’ve used a workaround that takes subscribers to a Tally.so form. When submitted it triggers a Zapier automation that removes them from my newsletter.)",
-          "link": "https://adamsilver.io/blog/the-billion-dollar-unsubscribe-link/",
-          "publishedOn": "2023-05-21T00:00:00.000Z",
-          "wordCount": 329,
-          "title": "The billion dollar unsubscribe link",
-          "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:The billion dollar unsubscribe link,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter:75996107/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
         }
       ]
     },
@@ -99,16 +89,6 @@
           "wordCount": 1954,
           "title": "Brief Note on Popovers with Dialogs",
           "imageUrl": "https://adrianroselli.com/wp-content/uploads/2023/05/Popover-vs-Dialog_thumb-300x300.png"
-        },
-        {
-          "id": "https://adrianroselli.com/?p=22965",
-          "author": "Adrian Roselli",
-          "description": "TL;DR: Be careful when using the word menu. Be certain you have chosen the term that accurately describes the control you want. If this post looks familiar to you, that is because it is essentially a redress of my 2020 post Stop Using ‘Drop-down’. It is not as divergent as…",
-          "link": "https://adrianroselli.com/2023/05/be-careful-using-menu.html",
-          "publishedOn": "2023-05-20T14:48:34.000Z",
-          "wordCount": 3293,
-          "title": "Be Careful Using ‘Menu’",
-          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2023/04/ikea-menu_outline-300x300.png"
         }
       ]
     },
@@ -283,8 +263,48 @@
     {
       "title": "Unicorn Club",
       "feedUrl": "https://dailydevlinks.com/feed/",
-      "siteUrl": "http://unicornclub.dev/",
+      "siteUrl": "https://unicornclub.dev/",
       "articles": [
+        {
+          "id": "https://unicornclub.dev/?p=12399",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://unicornclub.dev/gestalt-principles-of-design-proximity/",
+          "publishedOn": "2023-06-19T11:34:00.000Z",
+          "wordCount": 3250,
+          "title": "Gestalt Principles of Design — Proximity",
+          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
+        },
+        {
+          "id": "https://unicornclub.dev/?p=12402",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://unicornclub.dev/2023-logo-trend-report/",
+          "publishedOn": "2023-06-19T11:30:00.000Z",
+          "wordCount": 3246,
+          "title": "2023 Logo Trend Report",
+          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
+        },
+        {
+          "id": "https://unicornclub.dev/?p=12405",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://unicornclub.dev/blur-vignette-effect-in-css/",
+          "publishedOn": "2023-06-19T11:28:00.000Z",
+          "wordCount": 3254,
+          "title": "Blur Vignette effect in CSS",
+          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
+        },
+        {
+          "id": "https://unicornclub.dev/?p=12396",
+          "author": "Adam Marsden",
+          "description": "UX",
+          "link": "https://unicornclub.dev/the-value-of-continuous-research/",
+          "publishedOn": "2023-06-19T11:28:00.000Z",
+          "wordCount": 3254,
+          "title": "The value of continuous research",
+          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
+        },
         {
           "id": "https://unicornclub.dev/?p=12393",
           "author": "Adam Marsden",
@@ -2422,6 +2442,66 @@
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
         {
+          "id": "https://news.ycombinator.com/item?id=36395957",
+          "author": "dallasg3",
+          "description": "Article URL: https://www.youtube.com/watch?v=vw2XffPmlYo\nComments URL: https://news.ycombinator.com/item?id=36395957\nPoints: 1\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=vw2XffPmlYo",
+          "publishedOn": "2023-06-19T20:15:31.000Z",
+          "wordCount": null,
+          "title": "Intentional Code – Minimalism in a World of Dogmatic Design – David Whitney",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36394569",
+          "author": "ssn",
+          "description": "Article URL: https://www.nngroup.com/articles/ai-paradigm/\nComments URL: https://news.ycombinator.com/item?id=36394569\nPoints: 177\n# Comments: 132",
+          "link": "https://www.nngroup.com/articles/ai-paradigm/",
+          "publishedOn": "2023-06-19T18:11:09.000Z",
+          "wordCount": 2476,
+          "title": "AI: First New UI Paradigm in 60 Years",
+          "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/AI_First_New_UI_Paradigm_1.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36392315",
+          "author": "andersource",
+          "description": "Article URL: https://designofapproxalgs.com/\nComments URL: https://news.ycombinator.com/item?id=36392315\nPoints: 1\n# Comments: 0",
+          "link": "https://designofapproxalgs.com/",
+          "publishedOn": "2023-06-19T15:37:31.000Z",
+          "wordCount": 231,
+          "title": "The Design of Approximation Algorithms",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36390812",
+          "author": "rtontic",
+          "description": "Article URL: https://thereader.mitpress.mit.edu/virtual-nuclear-weapons-design-and-the-blur-of-reality/\nComments URL: https://news.ycombinator.com/item?id=36390812\nPoints: 1\n# Comments: 0",
+          "link": "https://thereader.mitpress.mit.edu/virtual-nuclear-weapons-design-and-the-blur-of-reality/",
+          "publishedOn": "2023-06-19T13:24:21.000Z",
+          "wordCount": 2606,
+          "title": "Virtual Nuclear Weapons Design and the Blur of Reality",
+          "imageUrl": "https://thereader.mitpress.mit.edu/wp-content/uploads/2020/01/nuclear-with-effects.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36388821",
+          "author": "ogoffart",
+          "description": "Slint is a declarative GUI toolkit written primarily in Rust, with API support for multiple programming languages such as C++ and JavaScript. It is designed for desktop and embedded usage.\nThe Slint website has just been redesigned. And we added a new Royalty-Free License option besides GPL and commercial\nComments URL: https://news.ycombinator.com/item?id=36388821\nPoints: 261\n# Comments: 126",
+          "link": "https://slint.dev/",
+          "publishedOn": "2023-06-19T08:57:22.000Z",
+          "wordCount": 459,
+          "title": "Show HN: Slint – A declarative UI toolkit for embedded and desktop",
+          "imageUrl": "/assets/img/responsive.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36388221",
+          "author": "devoorhoede",
+          "description": "Article URL: https://www.voorhoede.nl/en/blog/building-design-system-react-web-components/\nComments URL: https://news.ycombinator.com/item?id=36388221\nPoints: 2\n# Comments: 0",
+          "link": "https://www.voorhoede.nl/en/blog/building-design-system-react-web-components/",
+          "publishedOn": "2023-06-19T07:17:16.000Z",
+          "wordCount": 1870,
+          "title": "Building a Design System with React Web Components",
+          "imageUrl": "https://www.datocms-assets.com/6524/1687161534-linkedin-post-1.jpg"
+        },
+        {
           "id": "https://news.ycombinator.com/item?id=36385580",
           "author": "izzyfink",
           "description": "Article URL: https://www.haystack.design/\nComments URL: https://news.ycombinator.com/item?id=36385580\nPoints: 1\n# Comments: 0",
@@ -4550,86 +4630,6 @@
           "wordCount": 1813,
           "title": "The Primary Objective of Software Design: Minimizing Total Cognitive Load",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36019291",
-          "author": "nativecoinc",
-          "description": "Article URL: https://lore.kernel.org/git/nycvar.QRO.7.76.6.2110211150290.56@tvgsbejvaqbjf.bet/\nComments URL: https://news.ycombinator.com/item?id=36019291\nPoints: 3\n# Comments: 1",
-          "link": "https://lore.kernel.org/git/nycvar.QRO.7.76.6.2110211150290.56@tvgsbejvaqbjf.bet/",
-          "publishedOn": "2023-05-21T09:40:13.000Z",
-          "wordCount": 1396,
-          "title": "Meeting notes on Git’s UX (2021)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36017920",
-          "author": "thunderbong",
-          "description": "Article URL: https://bootcamp.uxdesign.cc/ux-journal-catalogue-of-impossible-objects-78269282696c?gi=3071f632de11\nComments URL: https://news.ycombinator.com/item?id=36017920\nPoints: 2\n# Comments: 0",
-          "link": "https://bootcamp.uxdesign.cc/ux-journal-catalogue-of-impossible-objects-78269282696c?gi=3071f632de11",
-          "publishedOn": "2023-05-21T04:04:01.000Z",
-          "wordCount": 3126,
-          "title": "UX Journal – Catalogue of Impossible Objects",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*by-1CJUc4k9MSzhLH-3XHw.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36017520",
-          "author": "enoughalready",
-          "description": "Article URL: https://medium.com/@jasonlmcaffee/i-dont-want-your-bank-s-ui-i-want-chatgpt-integration-1489cc58a2e0\nComments URL: https://news.ycombinator.com/item?id=36017520\nPoints: 6\n# Comments: 12",
-          "link": "https://medium.com/@jasonlmcaffee/i-dont-want-your-bank-s-ui-i-want-chatgpt-integration-1489cc58a2e0",
-          "publishedOn": "2023-05-21T02:35:03.000Z",
-          "wordCount": 3692,
-          "title": "I Don’t Want Your Bank’s UI. I Want a ChatGPT-Like UI",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*rz6XS-5Qj3n9r_CF1ontpg.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36014936",
-          "author": "nt9200",
-          "description": "Article URL: https://twitter.com/perplexity_ai/status/1659229846587711490\nComments URL: https://news.ycombinator.com/item?id=36014936\nPoints: 1\n# Comments: 0",
-          "link": "https://twitter.com/perplexity_ai/status/1659229846587711490",
-          "publishedOn": "2023-05-20T19:43:33.000Z",
-          "wordCount": null,
-          "title": "Perplexity Copilot (Generative UX)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36013871",
-          "author": "simon_acca",
-          "description": "Article URL: https://groups.csail.mit.edu/ana/People/DDC/ebook-arch.pdf\nComments URL: https://news.ycombinator.com/item?id=36013871\nPoints: 1\n# Comments: 0",
-          "link": "https://groups.csail.mit.edu/ana/People/DDC/ebook-arch.pdf",
-          "publishedOn": "2023-05-20T17:35:40.000Z",
-          "wordCount": null,
-          "title": "Design for an Internet – David D Clark (2017) [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36013186",
-          "author": "Brajeshwar",
-          "description": "Article URL: https://www.noemamag.com/the-endless-possibilities-of-open-source-urban-design/\nComments URL: https://news.ycombinator.com/item?id=36013186\nPoints: 2\n# Comments: 0",
-          "link": "https://www.noemamag.com/the-endless-possibilities-of-open-source-urban-design/",
-          "publishedOn": "2023-05-20T16:18:48.000Z",
-          "wordCount": 4863,
-          "title": "The Endless Possibilities of Open-Source Urban Design",
-          "imageUrl": "https://noemamag.imgix.net/2023/05/Manifesta-Green-Corridor-8-HR-Photo-Credit-Ivan-Erofeev-1.jpg-1.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.0&w=1200&wpsize=noema-social-facebook&s=a32d4521a0b3747c3449327e4c4dda7a"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36012569",
-          "author": "hlandau",
-          "description": "Article URL: https://www.devever.net/~hl/regmap\nComments URL: https://news.ycombinator.com/item?id=36012569\nPoints: 3\n# Comments: 0",
-          "link": "https://www.devever.net/~hl/regmap",
-          "publishedOn": "2023-05-20T15:12:11.000Z",
-          "wordCount": 4831,
-          "title": "Patterns in Register Map Design",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36012327",
-          "author": "yujian",
-          "description": "Article URL: https://old.reddit.com/r/AI_Agents/comments/13lbp4e/gptcode_ui_editor/\nComments URL: https://news.ycombinator.com/item?id=36012327\nPoints: 1\n# Comments: 0",
-          "link": "https://old.reddit.com/r/AI_Agents/comments/13lbp4e/gptcode_ui_editor/",
-          "publishedOn": "2023-05-20T14:44:06.000Z",
-          "wordCount": 1339,
-          "title": "GPT-Code UI Editor",
-          "imageUrl": "https://external-preview.redd.it/ixBjgYKhndVN780BOG9C-XQEzEgUsnlTf7XRXnXw1sk.jpg?width=1200&height=600&auto=webp&crop=1200:600,smart&v=enabled&s=8b27473c973f03b5ffb41a537779ae981b768271"
         }
       ]
     },
@@ -4638,6 +4638,36 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36395790",
+          "author": "coreymaass",
+          "description": "I launched Timerdoro.com in 2009 as a side project, and I've rebuilt it a few times over the years. I just released a new version that fixes some bugs. If you need a productivity timer, take a look!\nComments URL: https://news.ycombinator.com/item?id=36395790\nPoints: 1\n# Comments: 0",
+          "link": "https://timerdoro.com/",
+          "publishedOn": "2023-06-19T19:54:53.000Z",
+          "wordCount": 831,
+          "title": "Show HN: Timerdoro productivity timer (new version)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36391042",
+          "author": "Nadeus",
+          "description": "Article URL: https://www.businessinsider.com/ai-work-chatgpt-workers-automation-wharton-professor-2023-6\nComments URL: https://news.ycombinator.com/item?id=36391042\nPoints: 2\n# Comments: 0",
+          "link": "https://www.businessinsider.com/ai-work-chatgpt-workers-automation-wharton-professor-2023-6",
+          "publishedOn": "2023-06-19T13:47:28.000Z",
+          "wordCount": 3509,
+          "title": "Workers are hiding their AI productivity hacks from bosses",
+          "imageUrl": "https://i.insider.com/649026cc20f78100189feb59?width=1200&format=jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36389652",
+          "author": "paw_lean",
+          "description": "Article URL: https://www.gitpod.io/blog/boosting-developer-productivity-unleashing-the-power-of-sourcegraph-cody-in-gitpod\nComments URL: https://news.ycombinator.com/item?id=36389652\nPoints: 5\n# Comments: 1",
+          "link": "https://www.gitpod.io/blog/boosting-developer-productivity-unleashing-the-power-of-sourcegraph-cody-in-gitpod",
+          "publishedOn": "2023-06-19T11:07:38.000Z",
+          "wordCount": 1663,
+          "title": "Boosting Developer Productivity: The Power of Sourcegraph Cody in Gitpod",
+          "imageUrl": "https://www.gitpod.io/images/blog/boosting-developer-productivity-unleashing-the-power-of-sourcegraph-cody-in-gitpod/teaser.webp"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36384581",
           "author": "surprisetalk",
@@ -5227,46 +5257,6 @@
           "wordCount": 280,
           "title": "Show HN: An RSS feed for the OpenAI blog",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36019502",
-          "author": "firstSpeaker",
-          "description": "Article URL: https://www.forbes.com/sites/jackkelly/2023/05/19/while-ceos-blame-remote-work-for-decreased-productivity-heres-the-bigger-picture/\nComments URL: https://news.ycombinator.com/item?id=36019502\nPoints: 5\n# Comments: 2",
-          "link": "https://www.forbes.com/sites/jackkelly/2023/05/19/while-ceos-blame-remote-work-for-decreased-productivity-heres-the-bigger-picture/",
-          "publishedOn": "2023-05-21T10:19:04.000Z",
-          "wordCount": 12766,
-          "title": "While CEOs Blame Remote Work for Decreased Productivity, Here’s the Big Picture",
-          "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/64668469f3137e650e41e29b/0x0.jpg?format=jpg&crop=2144,1428,x300,y0,safe&width=1200"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36019134",
-          "author": "kiyanwang",
-          "description": "Article URL: https://www.seedtoscale.com/content/maintaining-productivity-as-engineering-teams-scale\nComments URL: https://news.ycombinator.com/item?id=36019134\nPoints: 2\n# Comments: 0",
-          "link": "https://www.seedtoscale.com/content/maintaining-productivity-as-engineering-teams-scale",
-          "publishedOn": "2023-05-21T09:08:26.000Z",
-          "wordCount": 3740,
-          "title": "Maintaining Productivity as Engineering Teams Scale",
-          "imageUrl": "https://assets-global.website-files.com/606cae0c4e05dc45295b04a7/60edde55a8f0b163ea1290a6_5fbe5a5d517111861a856407_Screenshot%2525252525202020-11-25%252525252520at%2525252525206.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36015830",
-          "author": "kamphey",
-          "description": "Article URL: https://twitter.com/Kamphey/status/1660028660462809088\nComments URL: https://news.ycombinator.com/item?id=36015830\nPoints: 1\n# Comments: 1",
-          "link": "https://twitter.com/Kamphey/status/1660028660462809088",
-          "publishedOn": "2023-05-20T21:34:10.000Z",
-          "wordCount": null,
-          "title": "On Writing by Stephen King can be summed up in one habit: write 6 pages a day",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36014062",
-          "author": "peterlimberg",
-          "description": "Article URL: https://www.whatisemerging.com/opinions/stoic-vibes-man\nComments URL: https://news.ycombinator.com/item?id=36014062\nPoints: 2\n# Comments: 0",
-          "link": "https://www.whatisemerging.com/opinions/stoic-vibes-man",
-          "publishedOn": "2023-05-20T17:55:50.000Z",
-          "wordCount": 880,
-          "title": "Stoic Vibes, Man",
-          "imageUrl": "https://whatisemerging.s3.eu-central-1.amazonaws.com/store/289eae6d579d9a0f5a2e4bd90a2ae5c9.jpg"
         }
       ]
     },
@@ -5275,6 +5265,36 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36395296",
+          "author": "hundredwatt",
+          "description": "Article URL: https://notes.eatonphil.com/2023-06-19-metaprogramming-in-zig-and-parsing-css.html\nComments URL: https://news.ycombinator.com/item?id=36395296\nPoints: 70\n# Comments: 7",
+          "link": "https://notes.eatonphil.com/2023-06-19-metaprogramming-in-zig-and-parsing-css.html",
+          "publishedOn": "2023-06-19T19:09:15.000Z",
+          "wordCount": 4681,
+          "title": "Metaprogramming in Zig and parsing CSS",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36394236",
+          "author": "infogulch",
+          "description": "Article URL: http://classless.de/\nComments URL: https://news.ycombinator.com/item?id=36394236\nPoints: 1\n# Comments: 1",
+          "link": "http://classless.de/",
+          "publishedOn": "2023-06-19T17:45:33.000Z",
+          "wordCount": 3277,
+          "title": "Classless.css – Less Classes. Less Overhead",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36389238",
+          "author": "kilian",
+          "description": "Article URL: https://kilianvalkhof.com/2023/css-html/the-gotchas-of-css-nesting/\nComments URL: https://news.ycombinator.com/item?id=36389238\nPoints: 2\n# Comments: 0",
+          "link": "https://kilianvalkhof.com/2023/css-html/the-gotchas-of-css-nesting/",
+          "publishedOn": "2023-06-19T10:01:00.000Z",
+          "wordCount": 1825,
+          "title": "The Gotchas of CSS Nesting",
+          "imageUrl": "https://kilianvalkhof.com/wp-content/uploads/og.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36382127",
           "author": "samwillis",
@@ -6004,16 +6024,6 @@
           "wordCount": 113,
           "title": "Tell HN: I think HN's RSS feed is escaping HTML entities twice",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36019354",
-          "author": "thunderbong",
-          "description": "Article URL: https://petertyliu.github.io/toaster/\nComments URL: https://news.ycombinator.com/item?id=36019354\nPoints: 21\n# Comments: 3",
-          "link": "https://petertyliu.github.io/toaster/",
-          "publishedOn": "2023-05-21T09:52:27.000Z",
-          "wordCount": 22,
-          "title": "Toaster: Pure CSS 3D Modelling Suite",
-          "imageUrl": null
         }
       ]
     },
@@ -6127,6 +6137,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=46490",
+          "author": "Seth Godin",
+          "description": "The urgent problem might actually benefit from a short cooling-off period. But important challenges can’t wait. Today is a good day to remember that better is possible, and that we shouldn’t wait for the problem to become easy or fade away. Better begins with each of us, but it evaporates when we settle for less. […]",
+          "link": "https://seths.blog/2023/06/cant-wait/",
+          "publishedOn": "2023-06-19T08:58:00.000Z",
+          "wordCount": 957,
+          "title": "Can’t wait",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
+        },
         {
           "id": "https://seths.blog/?p=46321",
           "author": "Seth Godin",
@@ -6456,16 +6476,6 @@
           "wordCount": 1067,
           "title": "Compounding head starts",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44506",
-          "author": "Seth Godin",
-          "description": "Sooner or later, we find a place to hide. A place of security or sustenance. A place of safety. That sort of foundation can give us peace of mind and open the door to possibility. But, it’s possible that we can turn it into a trap as well. A situation so perfectly created that we’re […]",
-          "link": "https://seths.blog/2023/05/which-sort-of-sinecure/",
-          "publishedOn": "2023-05-21T08:24:00.000Z",
-          "wordCount": 964,
-          "title": "Which sort of sinecure?",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806137-1.jpg"
         }
       ]
     },
@@ -6474,6 +6484,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "Ns9gLL6TdQYZr5KrC",
+          "author": "@Yahoo",
+          "description": "I’ll buy a consonant, please.",
+          "link": "https://www.yahoo.com/lifestyle/british-columbia-logo-looks-mistake-050051963.html",
+          "publishedOn": "2023-06-19T04:54:53.000Z",
+          "wordCount": 14083,
+          "title": "This British Columbia logo looks like a mistake but deserves a prize",
+          "imageUrl": "https://media.zenfs.com/en/creative_bloq_161/7455312597b283c3b017555fb793ec79"
+        },
+        {
+          "id": "oanYNbLZEhhBWttnu",
+          "author": "@logolounge",
+          "description": "Logo design article named 2023 Logo Trend Report",
+          "link": "https://www.logolounge.com/articles/2023-logo-trend-report",
+          "publishedOn": "2023-06-19T04:51:00.000Z",
+          "wordCount": 5336,
+          "title": "2023 Logo Trend Report",
+          "imageUrl": "https://www.logolounge.com/assets/images/trends/covers/2023 TREND COVER.jpg"
+        },
+        {
+          "id": "Jf8js5vJm6mB4Ys8m",
+          "author": "@nngroup",
+          "description": "A bottom sheet is a user-interface pattern used commonly in mobile apps for providing contextual details or controls in the lower area of the screen.",
+          "link": "https://www.nngroup.com/articles/bottom-sheet/",
+          "publishedOn": "2023-06-19T04:48:50.000Z",
+          "wordCount": 2599,
+          "title": "Bottom Sheets: Definition and UX Guidelines",
+          "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/Bottom_Sheets_1.jpg"
+        },
+        {
+          "id": "nMEmBzLwFdPF5xCjC",
+          "author": "@artur_bien",
+          "description": "Create Blur Vignette effects with pure CSS.",
+          "link": "https://expensive.toys/blog/blur-vignette",
+          "publishedOn": "2023-06-19T04:47:12.000Z",
+          "wordCount": 1649,
+          "title": "Blur Vignette effect in CSS",
+          "imageUrl": "https://expensive.toys/blur-vignette.png"
+        },
+        {
+          "id": "PGYaHfbSQdcmfoBEp",
+          "author": "@arstechnica",
+          "description": "Image-synthesis technique relies upon QR’s natural error-correction properties.",
+          "link": "https://arstechnica.com/information-technology/2023/06/redditor-creates-working-anime-qr-codes-using-stable-diffusion/",
+          "publishedOn": "2023-06-19T04:46:06.000Z",
+          "wordCount": 1995,
+          "title": "Redditor creates working anime QR codes using Stable Diffusion",
+          "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2023/06/qr_code_lady-760x380.jpg"
+        },
         {
           "id": "NwivvuGLQFti9FfS7",
           "author": "@jimniels",
@@ -7609,6 +7669,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2023/06/gatsby-headaches-i18n-part-2/",
+          "author": "hello@smashingmagazine.com (Juan Diego Rodríguez)",
+          "description": "Part 2 of the series concentrates on implementing internationalization (i18n) on a Gatsby website, an essential feature on any multilingual website that can be quite a bit of trouble if incorrectly implemented, creating more problems than it solves.",
+          "link": "https://smashingmagazine.com/2023/06/gatsby-headaches-i18n-part-2/",
+          "publishedOn": "2023-06-19T17:00:00.000Z",
+          "wordCount": 6912,
+          "title": "Gatsby Headaches And How To Cure Them: i18n (Part 2)",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/gatsby-headaches-i18n-part-2/gatsby-headaches-i18n-part-2.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/gatsby-headaches-i18n-part-2/gatsby-headaches-i18n-part-2.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2023/06/smashingconf-sanfrancisco2023-recap/",
           "author": "hello@smashingmagazine.com (Ren Chen)",
