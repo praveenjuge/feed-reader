@@ -1095,26 +1095,6 @@
           "wordCount": 3102,
           "title": "Why we’re bad at CSS",
           "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
-        },
-        {
-          "id": "https://unicornclub.dev/?p=12263",
-          "author": "Adam Marsden",
-          "description": "Design",
-          "link": "https://unicornclub.dev/how-to-design-fonts/",
-          "publishedOn": "2023-05-26T11:33:00.000Z",
-          "wordCount": null,
-          "title": "How to Design Fonts",
-          "imageUrl": null
-        },
-        {
-          "id": "https://dailydevlinks.com/?p=12263",
-          "author": "Adam Marsden",
-          "description": "Design",
-          "link": "https://dailydevlinks.com/how-to-design-fonts/",
-          "publishedOn": "2023-05-26T11:33:00.000Z",
-          "wordCount": 3093,
-          "title": "How to Design Fonts",
-          "imageUrl": "https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png"
         }
       ]
     },
@@ -1147,46 +1127,6 @@
           "publishedOn": "2023-05-31T23:40:00.000Z",
           "wordCount": 1066,
           "title": "Lessons from Soviet Russia on deploying small nuclear generators",
-          "imageUrl": null
-        },
-        {
-          "id": "https://daverupert.com/2023/05/behind-the-scenes-animation-playlist/",
-          "author": null,
-          "description": "I love Behind The Scenes style documentaries of animated films. It’s a niche genre but very fulfilling for me – a dad who watches almost exclusively animated TV and films with my children. Above is a playlist of ~20 short behind-the-scenes documentaries of some of the greatest animated films from some of the greatest animation studios. I rewatch all these from time to time and reference them frequently, so I thought I’d collect them in a playlist and share.\nThe obsession started before kids actually, as part of trying to learning how large creative projects are successful. I get a lot of inspiration from seeing how animated films come together. Animated films that take years to make are incredibly different from the work I do but share some principles that I feel apply to large software projects like websites.\nThere’s tons of gleanable insights from their processes and tools. Processes like “dailies” or a “brain trust” like they talked about in the book Creativity, Inc. seem apt for web development. I often wonder if a Producer/Director-model would be better for websites.\nI have some non-YouTube recommendations as well. I’ve posted some them before, but here’s a running list of documentaries and docu-series I’ve come across:\nBeyond Infinity (2022, Disney+)\nInto the Unknown: Making Frozen 2 (2020, Disney+)\nInside Pixar (2020, Disney+)\nI Know That Voice (2013, Prime Video)\nThe Kingdom of Dreams and Madness (2013, HBO Max)\nWaking Sleeping Beauty (2009, Disney+)\nThe Pixar Story (2007, Disney+)\nFrank and Ollie (1995, Disney+)\nAlways up for more YouTube and feature length documentaries, if you have any you liked send them my way.",
-          "link": "https://daverupert.com/2023/05/behind-the-scenes-animation-playlist/",
-          "publishedOn": "2023-05-26T01:28:00.000Z",
-          "wordCount": 641,
-          "title": "My behind the scenes of animation YouTube playlist",
-          "imageUrl": null
-        },
-        {
-          "id": "https://daverupert.com/2023/05/js-compiler-double-standards/",
-          "author": null,
-          "description": "The other day, Josh “Triple-Threat” Collinsworth challenged me in the ShopTalkShow D-d-d-discord on why I always caveat Svelte with “if you’re comfortable with the compiler” (which I said in Ep537):\nAssuming you’re using a compiler already, why might Svelte’s [compiler] not be a good choice? What obstacles does that create? … I mean, if you’re using single-file components with Vue, you’re already bought into a compiler. So why is it a fear with Svelte and not with Vue? Am I missing something, or are those not just the same thing?\nOof. He’s right. I am almost certainly applying a double standard and over-thinking the issue. At a high-level, there’s nothing different between Vue and Svelte’s compiler; code goes in → command gets run → website comes out. Why do I have reservations about Svelt…",
-          "link": "https://daverupert.com/2023/05/js-compiler-double-standards/",
-          "publishedOn": "2023-05-25T22:50:00.000Z",
-          "wordCount": 1742,
-          "title": "My double standards about JS framework compilers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://daverupert.com/2023/05/boringness-in-design-systems/",
-          "author": null,
-          "description": "There’s a lot of “same-ness” across design systems. Yesenia Perez-Cruz said it well:\nSameness over cohesion. This is probably the biggest issue I’ve seen with design systems. They can lead to a feeling of visually generic sameness instead of a feeling of cohesion across an experience.\nWe’re all subtly influenced by the zeitgeist of the day but —in my experience— a lot of the look and feel of components in a design system get born out of a fear of variable content. On my first big design system project I remember someone telling me, “This component has to be able to exist in any context” and I felt the weight of the universe pressing on my shoulders. All those contexts and content shapes a component can exist impact the final product.\nTake the humble Card component. Quick riffing, here’s a …",
-          "link": "https://daverupert.com/2023/05/boringness-in-design-systems/",
-          "publishedOn": "2023-05-25T19:47:00.000Z",
-          "wordCount": 853,
-          "title": "Boringness in Design Systems",
-          "imageUrl": null
-        },
-        {
-          "id": "https://daverupert.com/2023/05/markdown-images-anti-pattern/",
-          "author": null,
-          "description": "The shorthand for embedding an image in Markdown is the following:\n\n![descriptive text goes here](example.jpg)\n\n\nThis works for rendering an image in the same way a skateboard is a minimum viable replacement for car; it rolls, but not fast. To render an image responsibly in modern times you need a handful more properties than src and alt ; namely height, width, loading, and decoding attributes.\n\n<img src=\"example.jpg\" \n     alt=\"descriptive text goes here\" \n     height=\"400\" \n     width=\"300\" \n     decoding=\"async\"\n     loading=\"lazy\">\n\n\nHere’s a quick summary of what those other attributes do and why you should have them:\nheight + width - The HTML spec changed slightly and now setting a height and width draws an aspect-ratio’d box for the image to paints in. This prevents layout shift as the image loads.\ndecoding=\"async\" (Optional) - This prevents the browser from blocking other content and move image decoding  it decodes the image data to a bitmap. I feel like this should be the browser default?\nloading=\"lazy\" (Optional) - Recommended for any image below the fold.\nHonorable mentions\nsrcset + sizes - If you want the fastest images, you can offer different sizes and cuts of your images. I don’t do this and Lighthouse is always mad about it.\nfetchpriority - This is like driving a manual stick shift, but may be useful. I think loading=\"lazy|eager\" are easier to reason about than fetchpriority but I’m not your boss.\nSome Markdown formatters have a custom syntax that supports adding more attributes, like Kramdown…\n\n![descriptive text goes here](example.jpg){: height=\"36px\" width=\"36px\" decoding=\"async\" loading=\"lazy\" }\n\n\nThis makes your Markdown less readable and less portable to other engines. If you’re going to include all these attributes, you might as well use an HTML <img> tag. This will make your images consistent with the other (unsupported without plugins) media like <video>, <audio>, <picture>, and <svg> in your Markdown posts.",
-          "link": "https://daverupert.com/2023/05/markdown-images-anti-pattern/",
-          "publishedOn": "2023-05-25T15:48:00.000Z",
-          "wordCount": 673,
-          "title": "Markdown images are an anti-pattern",
           "imageUrl": null
         }
       ]
@@ -2224,46 +2164,6 @@
           "wordCount": 195,
           "title": "Why we’re bad at CSS",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=68216",
-          "author": "Travis",
-          "description": "This course will walk you through the entire design system journey, from fundamental concepts, to building and documenting your system.",
-          "link": "https://heydesigner.com/introduction-to-design-systems/",
-          "publishedOn": "2023-05-26T08:57:02.000Z",
-          "wordCount": 202,
-          "title": "Introduction to design systems",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=68218",
-          "author": "Travis",
-          "description": "Explore the next evolution of Microsoft’s design system, enabling more seamless collaboration and creativity than ever. Move fluidly from design to development, between apps, and across platforms.",
-          "link": "https://heydesigner.com/fluent-2-design-system/",
-          "publishedOn": "2023-05-26T08:56:56.000Z",
-          "wordCount": 205,
-          "title": "Fluent 2 Design System",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=68213",
-          "author": "Travis",
-          "description": "We’re all subtly influenced by the zeitgeist of the day but – in my experience- a lot of the look and feel of components in a design system get born out of a fear of variable content.",
-          "link": "https://heydesigner.com/boringness-in-design-systems/",
-          "publishedOn": "2023-05-26T08:53:24.000Z",
-          "wordCount": 205,
-          "title": "Boringness in design systems",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=68211",
-          "author": "Travis",
-          "description": "One thing I’ve learned over time is to read fewer books but to take the time to write summaries for the good ones.",
-          "link": "https://heydesigner.com/writing-summaries-is-more-important-than-reading-more-books/",
-          "publishedOn": "2023-05-26T08:34:30.000Z",
-          "wordCount": 214,
-          "title": "Writing summaries is more important than reading more books",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -2272,6 +2172,36 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36460821",
+          "author": "RadixDLT",
+          "description": "Article URL: https://www.smashingmagazine.com/2010/06/why-design-by-commitee-should-die/\nComments URL: https://news.ycombinator.com/item?id=36460821\nPoints: 3\n# Comments: 0",
+          "link": "https://www.smashingmagazine.com/2010/06/why-design-by-commitee-should-die/",
+          "publishedOn": "2023-06-24T17:35:41.000Z",
+          "wordCount": 4339,
+          "title": "Why Design by Committee Should Die",
+          "imageUrl": "https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/5aabd3b7-64b9-4f1a-a1a4-3a4eae7967fa/propaganda.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36460035",
+          "author": "swyx",
+          "description": "Article URL: https://www.swyx.io/why-temporal\nComments URL: https://news.ycombinator.com/item?id=36460035\nPoints: 1\n# Comments: 0",
+          "link": "https://www.swyx.io/why-temporal",
+          "publishedOn": "2023-06-24T16:23:28.000Z",
+          "wordCount": 7471,
+          "title": "The iPhone of System Design (2021)",
+          "imageUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f4gjemgd6pr1494mmu9g.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36456442",
+          "author": "zhiyiYo",
+          "description": "Article URL: https://github.com/zhiyiYo/PyQt-Fluent-Widgets\nComments URL: https://news.ycombinator.com/item?id=36456442\nPoints: 3\n# Comments: 2",
+          "link": "https://github.com/zhiyiYo/PyQt-Fluent-Widgets",
+          "publishedOn": "2023-06-24T07:32:31.000Z",
+          "wordCount": 916,
+          "title": "Make Qt Great Again. PFW: A fluent design widgets library based on PyQt/PySide",
+          "imageUrl": "https://repository-images.githubusercontent.com/390782193/8f77368d-8b8b-47c3-b413-95e01fb0325b"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36453749",
           "author": "eliyak",
@@ -4571,96 +4501,6 @@
           "wordCount": 182,
           "title": "Ask HN: What modern sites are masterpieces of design?",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36079460",
-          "author": "doodlesdev",
-          "description": "Article URL: https://carbondesignsystem.com/\nComments URL: https://news.ycombinator.com/item?id=36079460\nPoints: 2\n# Comments: 0",
-          "link": "https://carbondesignsystem.com/",
-          "publishedOn": "2023-05-26T03:29:35.000Z",
-          "wordCount": 12428,
-          "title": "Carbon – IBM’s open source design system for products and digital experiences",
-          "imageUrl": "/ogimage.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36079424",
-          "author": "sbmthakur",
-          "description": "Article URL: https://en.wikipedia.org/wiki/Service_design\nComments URL: https://news.ycombinator.com/item?id=36079424\nPoints: 2\n# Comments: 0",
-          "link": "https://en.wikipedia.org/wiki/Service_design",
-          "publishedOn": "2023-05-26T03:23:51.000Z",
-          "wordCount": 5252,
-          "title": "Service Design",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36078952",
-          "author": "marban",
-          "description": "Article URL: https://vowe.net/2023/05/24/ux-disaster-in-mastodon-an-innocent-weapon-of-mass-destruction/\nComments URL: https://news.ycombinator.com/item?id=36078952\nPoints: 5\n# Comments: 1",
-          "link": "https://vowe.net/2023/05/24/ux-disaster-in-mastodon-an-innocent-weapon-of-mass-destruction/",
-          "publishedOn": "2023-05-26T02:15:55.000Z",
-          "wordCount": 1656,
-          "title": "UX disaster in Mastodon: an innocent weapon of mass destruction",
-          "imageUrl": "https://vowe.net/wp-content/uploads/2023/05/993c5fbea83262ac.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36077067",
-          "author": "mikece",
-          "description": "Article URL: https://isocpp.org//blog/2023/05/cppcon-2022-back-to-basics-cpp-api-design-jason-turner\nComments URL: https://news.ycombinator.com/item?id=36077067\nPoints: 1\n# Comments: 0",
-          "link": "https://isocpp.org//blog/2023/05/cppcon-2022-back-to-basics-cpp-api-design-jason-turner",
-          "publishedOn": "2023-05-25T22:17:57.000Z",
-          "wordCount": 505,
-          "title": "CppCon 2022 Back to Basics: C++ API Design – Jason Turner",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36075704",
-          "author": "belter",
-          "description": "Article URL: https://arxiv.org/abs/2305.14019\nComments URL: https://news.ycombinator.com/item?id=36075704\nPoints: 1\n# Comments: 1",
-          "link": "https://arxiv.org/abs/2305.14019",
-          "publishedOn": "2023-05-25T20:24:30.000Z",
-          "wordCount": 686,
-          "title": "ChipGPT: How far are we from natural language hardware design",
-          "imageUrl": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36075406",
-          "author": "debarshri",
-          "description": "Article URL: https://hackernews-semafor-duhw.vercel.app/\nComments URL: https://news.ycombinator.com/item?id=36075406\nPoints: 26\n# Comments: 9",
-          "link": "https://hackernews-semafor-duhw.vercel.app/",
-          "publishedOn": "2023-05-25T20:01:18.000Z",
-          "wordCount": 2255,
-          "title": "Hacker New with Semafor UI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36075187",
-          "author": "dxs",
-          "description": "Article URL: https://www.simplethread.com/your-software-can-learn-a-lot-from-atms/\nComments URL: https://news.ycombinator.com/item?id=36075187\nPoints: 1\n# Comments: 0",
-          "link": "https://www.simplethread.com/your-software-can-learn-a-lot-from-atms/",
-          "publishedOn": "2023-05-25T19:43:30.000Z",
-          "wordCount": 2111,
-          "title": "What Your Software Can Learn from the Ingenious Design of ATMs",
-          "imageUrl": "https://www.simplethread.com/wp-content/uploads/2010/09/atm.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36074959",
-          "author": "caydenpiercehax",
-          "description": "Article URL: https://www.jitx.com/blog/automating-everything-in-a-usb-cable-tester-pcb-design\nComments URL: https://news.ycombinator.com/item?id=36074959\nPoints: 12\n# Comments: 1",
-          "link": "https://www.jitx.com/blog/automating-everything-in-a-usb-cable-tester-pcb-design",
-          "publishedOn": "2023-05-25T19:25:37.000Z",
-          "wordCount": 1709,
-          "title": "Automating Everything in a USB Cable Tester PCB Design",
-          "imageUrl": "https://assets.website-files.com/6044fe74a6d10f725c72398f/646f90c030250c0195045aea_upload_07623380c4f317ba6b139f2257f4815f.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36070233",
-          "author": "Ambolia",
-          "description": "Article URL: https://twitter.com/cirnosad/status/1661129221933264897\nComments URL: https://news.ycombinator.com/item?id=36070233\nPoints: 1\n# Comments: 0",
-          "link": "https://twitter.com/cirnosad/status/1661129221933264897",
-          "publishedOn": "2023-05-25T13:05:51.000Z",
-          "wordCount": null,
-          "title": "Fission Bomb Design and History",
-          "imageUrl": null
         }
       ]
     },
@@ -4669,6 +4509,36 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36461701",
+          "author": "mrzool",
+          "description": "Article URL: https://www.rssboard.org/news/211/every-mastodon-user-has-rss-feed\nComments URL: https://news.ycombinator.com/item?id=36461701\nPoints: 129\n# Comments: 55",
+          "link": "https://www.rssboard.org/news/211/every-mastodon-user-has-rss-feed",
+          "publishedOn": "2023-06-24T19:03:02.000Z",
+          "wordCount": 459,
+          "title": "Every Mastodon User Has an RSS Feed",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36459962",
+          "author": "Noghartt",
+          "description": "Article URL: https://github.com/noghartt/youtube-rss\nComments URL: https://news.ycombinator.com/item?id=36459962\nPoints: 1\n# Comments: 1",
+          "link": "https://github.com/noghartt/youtube-rss",
+          "publishedOn": "2023-06-24T16:17:11.000Z",
+          "wordCount": 799,
+          "title": "Getting URLs from RSS feed from YouTube channel easily",
+          "imageUrl": "https://opengraph.githubassets.com/5a1194a7582c654909f858e9d75e9c0e1d56e4286b1db20071ed02f7391c0816/noghartt/youtube-rss"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36459598",
+          "author": "legrande",
+          "description": "Article URL: https://muffinlabs.com/2023/03/09/feedsin-space/\nComments URL: https://news.ycombinator.com/item?id=36459598\nPoints: 2\n# Comments: 0",
+          "link": "https://muffinlabs.com/2023/03/09/feedsin-space/",
+          "publishedOn": "2023-06-24T15:38:52.000Z",
+          "wordCount": 553,
+          "title": "Feedsin.space – RSS Feeds on the Fediverse",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36427570",
           "author": "ghostfoxgod",
@@ -5208,26 +5078,6 @@
           "wordCount": 8267,
           "title": "Could America’s Adderall shortage have harmed its productivity?",
           "imageUrl": "https://www.economist.com/img/b/1280/720/90/media-assets/image/20230527_FND000.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36081796",
-          "author": "mimac2",
-          "description": "Article URL: https://www.rss-hosting.com/\nComments URL: https://news.ycombinator.com/item?id=36081796\nPoints: 2\n# Comments: 1",
-          "link": "https://www.rss-hosting.com/",
-          "publishedOn": "2023-05-26T09:10:29.000Z",
-          "wordCount": 150,
-          "title": "Simple cloud hosting for RSS feeds and content",
-          "imageUrl": "https://www.rss-hosting.com/assets/images/logo.svg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36073508",
-          "author": "dSebastien",
-          "description": "Article URL: https://www.dsebastien.net/knowledge-content-planning-and-action/\nComments URL: https://news.ycombinator.com/item?id=36073508\nPoints: 1\n# Comments: 0",
-          "link": "https://www.dsebastien.net/knowledge-content-planning-and-action/",
-          "publishedOn": "2023-05-25T17:24:14.000Z",
-          "wordCount": 489,
-          "title": "Systems for health, intention, productivity, learning, knowledge and control",
-          "imageUrl": "https://www.dsebastien.net/content/images/2023/01/2022-12-16-14-59-36-10-babylon_tower_deep_thinker_pencil_drawing_2d_world_class-1212224626-scale10.00-k_euler_a-stable-diffusion-1.5-1.png"
         }
       ]
     },
@@ -5236,6 +5086,26 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36458809",
+          "author": "freemh",
+          "description": "Article URL: https://boxshadows.xyz\nComments URL: https://news.ycombinator.com/item?id=36458809\nPoints: 3\n# Comments: 1",
+          "link": "https://boxshadows.xyz/",
+          "publishedOn": "2023-06-24T14:08:44.000Z",
+          "wordCount": 307,
+          "title": "Create, control, hide, and generate multiple custom CSS box shadows",
+          "imageUrl": "/images/og/boxshadows-og.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36456513",
+          "author": "dulvui",
+          "description": "Article URL: https://simondalvai.com/blog/css-only-darkmode/\nComments URL: https://news.ycombinator.com/item?id=36456513\nPoints: 29\n# Comments: 52",
+          "link": "https://simondalvai.com/blog/css-only-darkmode/",
+          "publishedOn": "2023-06-24T07:46:33.000Z",
+          "wordCount": 298,
+          "title": "CSS Only dark mode without JS",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36446851",
           "author": "thunderbong",
@@ -6045,16 +5915,6 @@
           "wordCount": 145,
           "title": "We've Designed a Feature to Prevent Copy-Pasting for Passing HTML/CSS Challenges",
           "imageUrl": "https://cdn.divize.io/images/brand/divize_og.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36082180",
-          "author": "ingve",
-          "description": "Article URL: https://utcc.utoronto.ca/~cks/space/blog/programming/OnHTMLViaStringTemplates\nComments URL: https://news.ycombinator.com/item?id=36082180\nPoints: 204\n# Comments: 324",
-          "link": "https://utcc.utoronto.ca/~cks/space/blog/programming/OnHTMLViaStringTemplates",
-          "publishedOn": "2023-05-26T10:07:19.000Z",
-          "wordCount": 657,
-          "title": "That people produce HTML with string templates is telling us something",
-          "imageUrl": null
         }
       ]
     },
@@ -6148,6 +6008,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=44757",
+          "author": "Seth Godin",
+          "description": "The empty part of the drawer is what makes it a useful tool. Same goes for a filing cabinet, a toolbox and a calendar. Slack is underrated.",
+          "link": "https://seths.blog/2023/06/overstuffed/",
+          "publishedOn": "2023-06-24T08:58:00.000Z",
+          "wordCount": 914,
+          "title": "Overstuffed",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
+        },
         {
           "id": "https://seths.blog/?p=46540",
           "author": "Seth Godin",
@@ -6467,16 +6337,6 @@
           "wordCount": 892,
           "title": "Captives of memetic desire",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=41627",
-          "author": "Seth Godin",
-          "description": "An asteroid has never destroyed the Earth, therefore an asteroid never will. This brand has been involved in scandals before, and it has always come back stronger, so there’s nothing to worry about. There have been technology changes before, but we’ve always managed to find clients for what we do. Survivor bias is the trap […]",
-          "link": "https://seths.blog/2023/05/survivor-bias-and-the-mistake-of-stability/",
-          "publishedOn": "2023-05-26T09:37:00.000Z",
-          "wordCount": 1007,
-          "title": "Survivor bias and the mistake of stability",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
         }
       ]
     },
@@ -7484,56 +7344,6 @@
           "wordCount": 3524,
           "title": "Introducing the popover API",
           "imageUrl": "https://wd.imgix.net/image/HodOHWjMnbNw56hvNASHWSgZyAf2/xy3BEDAAn4GXMDudViTN.png?auto=format&w=1521"
-        },
-        {
-          "id": "YPAfGv4HzBWg5FSvf",
-          "author": "@creativeboom",
-          "description": "Has Blaze Type created the most accessible typography guide?",
-          "link": "https://www.creativeboom.com/features/how-to-design-fonts/",
-          "publishedOn": "2023-05-26T05:19:54.000Z",
-          "wordCount": 1530,
-          "title": "How to Design Fonts",
-          "imageUrl": "https://www.creativeboom.com/uploads/articles/c8/c83bfc9f00462aa2ae86e3bf02cd67b94e7842d2_800.jpg"
-        },
-        {
-          "id": "F5wWNGZANyrYWuv7K",
-          "author": "@w3c",
-          "description": "Today we launched a beta version of the redesign of our website.",
-          "link": "https://www.w3.org/blog/2023/02/w3c-launches-beta-of-its-new-website/",
-          "publishedOn": "2023-05-26T05:16:48.000Z",
-          "wordCount": 1843,
-          "title": "W3C launches beta of its new website",
-          "imageUrl": null
-        },
-        {
-          "id": "Esev4ED247YZgrEDw",
-          "author": "@jimniels",
-          "description": "Brad Westfall reminded me of a Sass feature that is probably the one I miss the most every single time I write vanilla CSS.",
-          "link": "https://blog.jim-nielsen.com/2023/single-line-comments-in-css/",
-          "publishedOn": "2023-05-26T05:14:34.000Z",
-          "wordCount": 3121,
-          "title": "Single Line Comments in CSS",
-          "imageUrl": null
-        },
-        {
-          "id": "NE2ySNbbr9cwhhYu9",
-          "author": "@Firefox",
-          "description": "We asked Jon Hicks, creator of the original Firefox and Thunderbird logos, to re-imagine his iconic design in light of our exciting future.",
-          "link": "https://blog.thunderbird.net/2023/05/introducing-the-brand-new-thunderbird-logo/",
-          "publishedOn": "2023-05-26T05:12:40.000Z",
-          "wordCount": 1543,
-          "title": "Introducing The Brand New Thunderbird Logo",
-          "imageUrl": "https://blog.thunderbird.net/files/2023/05/1024x1024@2x-600x600.png"
-        },
-        {
-          "id": "epzhY7vpSEybNTazT",
-          "author": "@microsoft",
-          "description": "Explore the next evolution of Microsoft’s design system, enabling more seamless collaboration and creativity than ever.",
-          "link": "https://fluent2.microsoft.design/",
-          "publishedOn": "2023-05-26T05:11:49.000Z",
-          "wordCount": 328,
-          "title": "Fluent 2 Design System",
-          "imageUrl": "/assets/img/fluent-logo-metadata.png"
         }
       ]
     },
@@ -7943,21 +7753,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://files.smashing.media/articles/designing-better-design-handoff-file-figma/designing-better-design-handoff-file-figma.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/05/success-at-scale-pre-release/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "Meet “Success At Scale”, our upcoming book with best-practice case studies from industry experts. Print and eBook shipping in fall 2023. Pre-order the book.",
-          "link": "https://smashingmagazine.com/2023/05/success-at-scale-pre-release/",
-          "publishedOn": "2023-05-25T20:00:00.000Z",
-          "wordCount": 3278,
-          "title": "Meet Success At Scale, A New Smashing Book By Addy Osmani",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/success-at-scale-pre-release/success-at-scale-preorder-opt.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://files.smashing.media/articles/success-at-scale-pre-release/success-at-scale-preorder-opt.png"
         }
       ]
     },
