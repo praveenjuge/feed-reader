@@ -18,6 +18,16 @@
       "siteUrl": "https://adamsilver.io/atom.xml",
       "articles": [
         {
+          "id": "https://adamsilver.io/blog/the-problem-with-input-masks-and-what-to-do-instead/",
+          "author": null,
+          "description": "In 2010 I discovered input masks.\nThey seemed like a smart way to prevent errors. Because they help users follow a format. And they do so without taking up space.\nBut the truth is that this fancy pattern degrades UX.\nHere’s why:\nProblem #1: They’re confusing\nFor example, the cursor advances automatically to the next position. And placeholder characters can’t be deleted.\n\n\t\t\t\t\n\t\t\tTelephone input mask replacing characters and advancing to the next position automatically\n\t\n\nProblem #2: They may be mistaken for an actual answer\nThis is because the mask looks like an input causing using to submit the form with errors.\nInput masks make the input look like it’s been answered\n\t\n\nProblem #3: They make the interface feel broken\nThis is because typing a restricted character gets ignored.\n\n\t\t\t\t\n\t\t\tRestricted characters get ignored without giving users any feedback\n\t\n\nProblem #4: The format may be unfamiliar\nFor example, a phone number may require a country code which isn’t always expected and makes users work harder.\nInput masks may use unfamiliar formats that don’t make sense to everyone\n\t\n\nProblem #5: They’re misleading and verbose in screen readers\nFor example, they announce placeholder characters which aren’t part of the answer. And they don’t announce characters that were typed but ignored.\n\n\t\t\t\t\n\t\t\tVoiceover announces placeholder characters. And fails to announce characters that were typed but ignored.\n\t\n\nWhat to do instead\nLeave the input empty to make it obvious where the answer goes\nLet users type what they like so the interface doesn’t feel unresponsive and broken\nAllow multiple formats so users don’t have to fix something unnecessarily\nAllow users to check their answers either on a separate page or just below the field",
+          "link": "https://adamsilver.io/blog/the-problem-with-input-masks-and-what-to-do-instead/",
+          "publishedOn": "2023-06-25T00:00:00.000Z",
+          "wordCount": 375,
+          "title": "The problem with input masks and what to do instead",
+          "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:The problem with input masks and what to do instead,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter:75996107/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
+        },
+        {
           "id": "https://adamsilver.io/blog/the-problem-with-sticky-menus-that-appear-on-scroll-and-what-to-do-instead/",
           "author": null,
           "description": "I’ve previously written about the problems with regular sticky menus.\nIn response to those issues, some people suggest showing and hiding the menu as the user scrolls up and down.\n\n\t\t\t\t\n\t\t\tBondir’s sticky menu appears and disappears as the user scrolls\n\t\n\nThis seems smart because:\nthe menu gets out of the way to allow users to focus on the content\nit allows users to access the menu without having to scroll back to the top\nBut this approach is worse than regular sticky menus.\nHere’s why:\nProblem #1: They’re distracting\nThis is because as the user scrolls the content to fit in the viewport, the menu will suddenly appear.\nGood design doesn’t guess (wrongly) about what users need.\nProblem #2: They’re hard to control\nThis is because scrolling up too much reveals the menu when it’s not wanted. And scrolling down a bit by accident will hide it when it is wanted.\nGood design doesn’t take control away.\nProblem #3: They cause dizziness and nausea\nThis is because animation can cause dizziness, nausea, headaches and more.\nGood design avoids physical stress.\nProblem #4: They can impact performance\nThis is because JavaScript is needed to react to the scroll event which can drain the battery and degrade performance especially on low-powered devices.\nGood design is lightweight.\nWhat to do instead\nKeep pages short: Sticky menus are a symptom of long pages so fix the root cause.\nJust let users scroll: It’s a myth that scrolling is a problem. Even on mobile, the top of the page is a flick or 2 away mostly.\nPut relevant links in context: For example, add a subscribe form to the end of a post or add a CTA to a pricing section.\nUse a back-to-top link: They’re relatively unobtrusive (but only do this once you exhaust the other options).",
@@ -79,16 +89,6 @@
           "wordCount": 1943,
           "title": "No, ‘AI’ Will Not Fix Accessibility",
           "imageUrl": "https://adrianroselli.com/wp-content/uploads/2023/06/treat-candle-300x300.jpg"
-        },
-        {
-          "id": "https://adrianroselli.com/?p=23668",
-          "author": "Adrian Roselli",
-          "description": "This is not a comparison between popovers and dialogs, nor is it a discussion of support. This is me trying to get ahead of a potential issue for users when developers mix and match the patterns. I will let this 32 second video explain: Sorry, your browser doesn’t support embedded…",
-          "link": "https://adrianroselli.com/2023/05/brief-note-on-popovers-with-dialogs.html",
-          "publishedOn": "2023-05-26T22:42:33.000Z",
-          "wordCount": 1954,
-          "title": "Brief Note on Popovers with Dialogs",
-          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2023/05/Popover-vs-Dialog_thumb-300x300.png"
         }
       ]
     },
@@ -1406,6 +1406,46 @@
       "siteUrl": "https://heydesigner.com",
       "articles": [
         {
+          "id": "https://heydesigner.com/?p=68434",
+          "author": "Travis",
+          "description": "A collection of 437 free and open-source SVG icons based on solid and outline styles with React and Figma support.",
+          "link": "https://heydesigner.com/flowbite-icons-free-and-open-source-svg-icons/",
+          "publishedOn": "2023-06-25T17:39:00.000Z",
+          "wordCount": 213,
+          "title": "Flowbite Icons: Free and open-source SVG icons",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68432",
+          "author": "Travis",
+          "description": "AI is more than a product, it’s a platform that will change how and what we design and who gets involved.",
+          "link": "https://heydesigner.com/ai-the-next-chapter-in-design/",
+          "publishedOn": "2023-06-25T17:28:51.000Z",
+          "wordCount": 208,
+          "title": "AI: The next chapter in design",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68430",
+          "author": "Travis",
+          "description": "When objects look similar to one another, the mind perceives them as a group or pattern.",
+          "link": "https://heydesigner.com/gestalt-principles-of-design-similarity/",
+          "publishedOn": "2023-06-25T17:27:17.000Z",
+          "wordCount": 201,
+          "title": "Gestalt principles of design: Similarity",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68427",
+          "author": "Travis",
+          "description": "A new project has me thinking about how digital design has changed over the decades. The shifts I’m thinking about aren’t merely new techniques.",
+          "link": "https://heydesigner.com/the-structure-of-digital-design-revolutions/",
+          "publishedOn": "2023-06-25T17:25:59.000Z",
+          "wordCount": 209,
+          "title": "The structure of digital design revolutions",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
           "id": "https://heydesigner.com/?p=68421",
           "author": "Travis",
           "description": "Some design terms have a useful meaning, but aren’t in common use. Here’s a collection of the terms I’ve come across.",
@@ -2172,6 +2212,106 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36473340",
+          "author": "peter_d_sherman",
+          "description": "Article URL: https://www.youtube.com/watch?v=NeHgMaIkPuY\nComments URL: https://news.ycombinator.com/item?id=36473340\nPoints: 2\n# Comments: 1",
+          "link": "https://www.youtube.com/watch?v=NeHgMaIkPuY",
+          "publishedOn": "2023-06-25T22:32:27.000Z",
+          "wordCount": null,
+          "title": "AI Learned to Design Computer Chips (The View of a Chip Engineer) [video]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36472155",
+          "author": "blymphony",
+          "description": "Article URL: https://www.gdcvault.com/play/1025683/Board-Game-Design-Day-King\nComments URL: https://news.ycombinator.com/item?id=36472155\nPoints: 1\n# Comments: 0",
+          "link": "https://www.gdcvault.com/play/1025683/Board-Game-Design-Day-King",
+          "publishedOn": "2023-06-25T20:17:41.000Z",
+          "wordCount": 2375,
+          "title": "King Me: A Defense of Kingmaking in Game Design (2019)",
+          "imageUrl": "https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2019/images/gdc19-thumbnail.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36471274",
+          "author": "redbell",
+          "description": "Article URL: https://www.adhamdannaway.com/blog/ui-design/16-ui-design-rules\nComments URL: https://news.ycombinator.com/item?id=36471274\nPoints: 2\n# Comments: 0",
+          "link": "https://www.adhamdannaway.com/blog/ui-design/16-ui-design-rules",
+          "publishedOn": "2023-06-25T18:35:09.000Z",
+          "wordCount": 3572,
+          "title": "Little UI design rules that make a big impact",
+          "imageUrl": "https://www.adhamdannaway.com/wp-content/uploads/2023/03/ui-design-tips-hero.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36469851",
+          "author": "World_Peace",
+          "description": "I'm currently a SWE working at FAANGMULA, feeling a bit burnt out and exploring other paths within tech. I've been paying much more attention to the design space in tech and have become enamored with the idea of learning how to create similarly beautiful experiences. I've been particularly inspired by Andrew Wilkinson/Metalab, Brian Chesky/AirBNB, Apple, Any Distance, Flighty, etc. As I pay more attention to high quality design and UX, I'm realizing that outstanding design in and of itself can be enough to launch successful and beautiful software.\nI've been searching for high quality online education to study design in a more formal and rigorous manner, something equivalent to the MIT challenge, but all I've found are RISD's online certificates which cost $10k, or youtuber/twitter influencer courses. I'm willing to pay the 10 grand for those courses, but if I'm going to spend that much I'd like some validation that its really worth it.\nPrimarily though, I'd love to hear from any designers here about how you learned and honed your craft.\nComments URL: https://news.ycombinator.com/item?id=36469851\nPoints: 1\n# Comments: 0",
+          "link": "https://news.ycombinator.com/item?id=36469851",
+          "publishedOn": "2023-06-25T16:21:52.000Z",
+          "wordCount": 238,
+          "title": "Ask HN: Design Equivalent to MIT Challenge?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36468535",
+          "author": "jph",
+          "description": "I'm creating a UI/UX Primer as an e-book to help students learn about user iterfaces, user experience, and usability in general.\nI have 100 topics or so thus far. What topics do you suggest that UI/UX practitioners should learn a bit about in a primer?\nhttps://github.com/sixarm/ui-ux-primer\nComments URL: https://news.ycombinator.com/item?id=36468535\nPoints: 115\n# Comments: 56",
+          "link": "https://news.ycombinator.com/item?id=36468535",
+          "publishedOn": "2023-06-25T14:31:55.000Z",
+          "wordCount": 2462,
+          "title": "Ask HN: What topics are good for a UI/UX Primer?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36468008",
+          "author": "jakobov",
+          "description": "Does anyone know of a good list of the many, many layers of computing systems?\nI am looking for a list that includes everything such as atoms, transistors, firmware, OS layers etc..\nComments URL: https://news.ycombinator.com/item?id=36468008\nPoints: 3\n# Comments: 5",
+          "link": "https://news.ycombinator.com/item?id=36468008",
+          "publishedOn": "2023-06-25T13:30:50.000Z",
+          "wordCount": 411,
+          "title": "Ask HN: What are the layers of computing from atoms to UI?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36466821",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://rubyhero.dev/rails-design-patterns-the-big-picture\nComments URL: https://news.ycombinator.com/item?id=36466821\nPoints: 3\n# Comments: 0",
+          "link": "https://rubyhero.dev/rails-design-patterns-the-big-picture",
+          "publishedOn": "2023-06-25T10:43:00.000Z",
+          "wordCount": 11411,
+          "title": "Rails Design Patterns",
+          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1687371457546%2F2e400d24-f14c-4b53-ac9b-f15716d13413.jpeg%3Fw%3D1200%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36465399",
+          "author": "World_Peace",
+          "description": "I'm currently a SWE working at FAANGMULA, feeling a bit burnt out and exploring other paths within tech. I've been paying much more attention to the design space in tech and have become enamored with the idea of learning how to create similarly beautiful experiences. I've been particularly inspired by Andrew Wilkinson/Metalab, Brian Chesky/AirBNB, Apple, Any Distance, Flighty, etc. As I pay more attention to high quality design and UX, I'm realizing that outstanding design in and of itself can be enough to launch successful and beautiful software.\nI've been searching for high quality online education to study design in a more formal and rigorous manner, something equivalent to the MIT challenge, but all I've found are RISD's online certificates which cost $10k, or youtuber/twitter influencer courses. I'm willing to pay the 10 grand for those courses, but if I'm going to spend that much I'd like some validation that its really worth it.\nPrimarily though, I'd love to hear from any designers here about how you learned and honed your craft.\nComments URL: https://news.ycombinator.com/item?id=36465399\nPoints: 5\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=36465399",
+          "publishedOn": "2023-06-25T05:44:33.000Z",
+          "wordCount": 296,
+          "title": "Ask HN: Design Equivalent to MIT Challenge?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36464369",
+          "author": "Lwrless",
+          "description": "Article URL: https://github.com/GoogleChromeLabs/ProjectVisBug\nComments URL: https://news.ycombinator.com/item?id=36464369\nPoints: 3\n# Comments: 0",
+          "link": "https://github.com/GoogleChromeLabs/ProjectVisBug",
+          "publishedOn": "2023-06-25T01:31:51.000Z",
+          "wordCount": 1255,
+          "title": "VisBug: Open-source web design debug tools",
+          "imageUrl": "https://repository-images.githubusercontent.com/137987910/f6f1e400-cfc7-11e9-8df7-cc0d9d7b4a04"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36464320",
+          "author": "cinquemb",
+          "description": "Article URL: https://www.solarpaces.org/published-at-energies-a-novel-dual-receiver-storage-design-for-concentrating-solar-thermal-plants-using-beam-down-optics/\nComments URL: https://news.ycombinator.com/item?id=36464320\nPoints: 1\n# Comments: 0",
+          "link": "https://www.solarpaces.org/published-at-energies-a-novel-dual-receiver-storage-design-for-concentrating-solar-thermal-plants-using-beam-down-optics/",
+          "publishedOn": "2023-06-25T01:20:45.000Z",
+          "wordCount": 11915,
+          "title": "Dual Receiver Storage Design for CSP Plants Using Beam-Down Optics",
+          "imageUrl": "https://www.solarpaces.org/wp-content/uploads/Beam-down-receiver-reactor-1.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36460821",
           "author": "RadixDLT",
@@ -4431,76 +4571,6 @@
           "wordCount": 3232,
           "title": "Lowering in language design, part one (2014)",
           "imageUrl": "https://s0.wp.com/i/blank.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36092453",
-          "author": "Ddeisadze",
-          "description": "Hey! Any hints on how to find low or no cost UI/UX designer for a super early stage startup?\nComments URL: https://news.ycombinator.com/item?id=36092453\nPoints: 1\n# Comments: 2",
-          "link": "https://news.ycombinator.com/item?id=36092453",
-          "publishedOn": "2023-05-27T06:07:47.000Z",
-          "wordCount": 126,
-          "title": "Where to find UI/UX designers for startups?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36091891",
-          "author": "latchkey",
-          "description": "Article URL: https://www.youtube.com/watch?v=j_AIhsWlB6U\nComments URL: https://news.ycombinator.com/item?id=36091891\nPoints: 3\n# Comments: 0",
-          "link": "https://www.youtube.com/watch?v=j_AIhsWlB6U",
-          "publishedOn": "2023-05-27T03:40:44.000Z",
-          "wordCount": null,
-          "title": "What My Rivian Accident Reveals about the Tesla Cybertrucks Design Flaw",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36091351",
-          "author": "nexuist",
-          "description": "Article URL: https://github.com/SpellcraftAI/ui\nComments URL: https://news.ycombinator.com/item?id=36091351\nPoints: 2\n# Comments: 0",
-          "link": "https://github.com/SpellcraftAI/ui",
-          "publishedOn": "2023-05-27T01:50:13.000Z",
-          "wordCount": 1141,
-          "title": "Spellcraft/UI: Use AI to style HTML elements from natural language descriptions",
-          "imageUrl": "https://opengraph.githubassets.com/9b4f10c7e018ab894f5a3a6a9ce1841217c2dfa9cc49a633523b7698dda4fead/SpellcraftAI/ui"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36090111",
-          "author": "mattkevan",
-          "description": "I remember finding it in about year 2000 on my university’s classic Macs. For a joke, it was remarkably well executed and could actually be used for making designs. It had filters to remix your work in the style of trendy design studios such as Tomato and if it thought your design was boring it’d quit without saving your work.\nI’d love to find if anyone else encountered it or knows of the backstory, I’d love to know more. I can’t even remember what it was called.\nComments URL: https://news.ycombinator.com/item?id=36090111\nPoints: 2\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=36090111",
-          "publishedOn": "2023-05-26T22:10:41.000Z",
-          "wordCount": 173,
-          "title": "Ask HN: Does anyone remember a spoof design app for classic Mac OS?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36085874",
-          "author": "nirvanis",
-          "description": "Article URL: https://newsletter.keepitboring.com/p/the-evolution-of-digital-interactions\nComments URL: https://news.ycombinator.com/item?id=36085874\nPoints: 1\n# Comments: 0",
-          "link": "https://newsletter.keepitboring.com/p/the-evolution-of-digital-interactions",
-          "publishedOn": "2023-05-26T15:58:36.000Z",
-          "wordCount": 4221,
-          "title": "The Evolution of Digital Interactions: From UX to MX",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80531551-2e34-4797-b433-738d19ecc47b_1930x1884.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36085580",
-          "author": "belter",
-          "description": "Article URL: https://spacenews.com/missile-warning-satellite-passes-preliminary-design-review/\nComments URL: https://news.ycombinator.com/item?id=36085580\nPoints: 2\n# Comments: 0",
-          "link": "https://spacenews.com/missile-warning-satellite-passes-preliminary-design-review/",
-          "publishedOn": "2023-05-26T15:38:23.000Z",
-          "wordCount": 6416,
-          "title": "Missile-warning satellite passes preliminary design review",
-          "imageUrl": "https://i0.wp.com/spacenews.com/wp-content/uploads/2023/05/rsz_poster_ngpb_cam2_7200x10800_v3_25.png?fit=879%2C586"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36084847",
-          "author": "vwcx",
-          "description": "Given the complexities of modern front-end, responsive design, every site is a masterpiece. But are there corners of the internet where the front-end craft is in the 99th percentile?\nWho is the K10K.net of 2023?\nComments URL: https://news.ycombinator.com/item?id=36084847\nPoints: 6\n# Comments: 2",
-          "link": "https://news.ycombinator.com/item?id=36084847",
-          "publishedOn": "2023-05-26T14:43:31.000Z",
-          "wordCount": 182,
-          "title": "Ask HN: What modern sites are masterpieces of design?",
-          "imageUrl": null
         }
       ]
     },
@@ -5086,6 +5156,26 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36471736",
+          "author": "amadeuspagel",
+          "description": "Article URL: https://github.com/loreanvictor/rehtm\nComments URL: https://news.ycombinator.com/item?id=36471736\nPoints: 7\n# Comments: 2",
+          "link": "https://github.com/loreanvictor/rehtm",
+          "publishedOn": "2023-06-25T19:28:44.000Z",
+          "wordCount": 1787,
+          "title": "Create and Hydrate HTML with HTM",
+          "imageUrl": "https://opengraph.githubassets.com/5f169615a0ed51599a10a2b6a61fe8b91ce698f2acf4d6798e143b9e04f5387c/loreanvictor/rehtm"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36470179",
+          "author": "redbell",
+          "description": "Article URL: https://revealjs.com/\nComments URL: https://news.ycombinator.com/item?id=36470179\nPoints: 18\n# Comments: 1",
+          "link": "https://revealjs.com/",
+          "publishedOn": "2023-06-25T16:50:14.000Z",
+          "wordCount": 932,
+          "title": "RevealJS – An open source HTML presentation framework",
+          "imageUrl": "https://revealjs.com/images/meta/reveal-og-card-1200-630.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36458809",
           "author": "freemh",
@@ -5895,26 +5985,6 @@
           "wordCount": 4956,
           "title": "Inside a super fast CSS engine: Quantum CSS (a.k.a. Stylo)",
           "imageUrl": "https://hacks.mozilla.org/wp-content/themes/Hax/img/hacks-meta-image.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36091351",
-          "author": "nexuist",
-          "description": "Article URL: https://github.com/SpellcraftAI/ui\nComments URL: https://news.ycombinator.com/item?id=36091351\nPoints: 2\n# Comments: 0",
-          "link": "https://github.com/SpellcraftAI/ui",
-          "publishedOn": "2023-05-27T01:50:13.000Z",
-          "wordCount": 1141,
-          "title": "Spellcraft/UI: Use AI to style HTML elements from natural language descriptions",
-          "imageUrl": "https://opengraph.githubassets.com/9b4f10c7e018ab894f5a3a6a9ce1841217c2dfa9cc49a633523b7698dda4fead/SpellcraftAI/ui"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36084406",
-          "author": "freemh",
-          "description": "Article URL: https://divize.io/guide/editor/copy-paste-not-allowed\nComments URL: https://news.ycombinator.com/item?id=36084406\nPoints: 1\n# Comments: 0",
-          "link": "https://divize.io/guide/editor/copy-paste-not-allowed",
-          "publishedOn": "2023-05-26T14:11:00.000Z",
-          "wordCount": 145,
-          "title": "We've Designed a Feature to Prevent Copy-Pasting for Passing HTML/CSS Challenges",
-          "imageUrl": "https://cdn.divize.io/images/brand/divize_og.jpg"
         }
       ]
     },
@@ -6008,6 +6078,26 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=46560",
+          "author": "Seth Godin",
+          "description": "The alphabet is one. 26 letters, no more. One order, that’s it. The Beatles are another. John, Paul, George and then Ringo. The Marx Brothers, the Three Stooges, The Supremes. The astrological zodiac gets us to twelve, but I’m having a really difficult time finding a memorable set with more than that. When we start […]",
+          "link": "https://seths.blog/2023/06/a-finite-ordered-set-of-interesting-objects/",
+          "publishedOn": "2023-06-25T15:28:00.000Z",
+          "wordCount": 1092,
+          "title": "A finite ordered set of interesting objects",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
+        },
+        {
+          "id": "https://seths.blog/?p=44771",
+          "author": "Seth Godin",
+          "description": "…perhaps we should stop. Unless the going was the point.",
+          "link": "https://seths.blog/2023/06/when-we-get-to-where-were-going/",
+          "publishedOn": "2023-06-25T08:50:00.000Z",
+          "wordCount": 910,
+          "title": "When we get to where we’re going",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=44757",
           "author": "Seth Godin",
@@ -6327,16 +6417,6 @@
           "wordCount": 973,
           "title": "On reading it in a book",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806138-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44541",
-          "author": "Seth Godin",
-          "description": "How much of what we want, really want, is due to the ideas that culture has given us, and how much is truly what we need? If memetic desire isn’t making us happy, perhaps we can find some new ideas.",
-          "link": "https://seths.blog/2023/05/captives-of-memetic-desire/",
-          "publishedOn": "2023-05-27T08:30:00.000Z",
-          "wordCount": 892,
-          "title": "Captives of memetic desire",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
         }
       ]
     },
@@ -7738,21 +7818,6 @@
             "type": "image/png"
           },
           "imageUrl": "http://files.smashing.media/articles/desktop-wallpaper-calendars-june-2023/june-22-create-your-own-path-preview-opt.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/05/designing-better-design-handoff-file-figma/",
-          "author": "hello@smashingmagazine.com (Ben Shih)",
-          "description": "This article provides practical tips for improving the handoff process between design and development in product development. The guidance covers effective communication, documentation, design details, version control, and plugin usage.",
-          "link": "https://smashingmagazine.com/2023/05/designing-better-design-handoff-file-figma/",
-          "publishedOn": "2023-05-26T15:30:00.000Z",
-          "wordCount": 5880,
-          "title": "Designing A Better Design Handoff File In Figma",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/designing-better-design-handoff-file-figma/designing-better-design-handoff-file-figma.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/designing-better-design-handoff-file-figma/designing-better-design-handoff-file-figma.jpg"
         }
       ]
     },
