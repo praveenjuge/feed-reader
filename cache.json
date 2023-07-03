@@ -29,6 +29,16 @@
       "siteUrl": "https://adamsilver.io/atom.xml",
       "articles": [
         {
+          "id": "https://adamsilver.io/blog/4-design-principles-i-use-every-day-to-avoid-bad-ux-and-create-products-that-work-for-everyone/",
+          "author": null,
+          "description": "Picture this.\nYou’re designing a form but the questions are complicated. Users need a lot of guidance to understand each question. But this makes the page long and messy.\nYou run through various patterns.\n‘Tooltips!’, you say to yourself.\nAnd that’s cool because tooltips keep things clean while allowing users to access extra information. You polish the designs, get them ready for dev and you go to bed happy.\nAt least until you do some usability testing.\nNow picture this.\nYou’re designing a form but the questions are complicated. Users need a lot of guidance to understand each question. But this makes the page long and messy.\nYou run through various patterns.\n‘Tooltips!’, you say to yourself.\nBut this time you have 4 design principles to course-correct any potential bad decisions at the off…",
+          "link": "https://adamsilver.io/blog/4-design-principles-i-use-every-day-to-avoid-bad-ux-and-create-products-that-work-for-everyone/",
+          "publishedOn": "2023-07-02T00:00:00.000Z",
+          "wordCount": 663,
+          "title": "4 design principles I use every day to avoid bad UX and create products that work for everyone",
+          "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:4 design principles I use every day to avoid bad UX and create products that work for everyone,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter:75996107/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
+        },
+        {
           "id": "https://adamsilver.io/blog/the-problem-with-input-masks-and-what-to-do-instead/",
           "author": null,
           "description": "In 2010 I discovered input masks.\nThey seemed like a smart way to prevent errors. Because they help users follow a format. And they do so without taking up space.\nBut the truth is that this fancy pattern degrades UX.\nHere’s why:\nProblem #1: They’re confusing\nFor example, the cursor advances automatically to the next position. And placeholder characters can’t be deleted.\n\n\t\t\t\t\n\t\t\tTelephone input mask replacing characters and advancing to the next position automatically\n\t\n\nProblem #2: They may be mistaken for an actual answer\nThis is because the mask looks like an input causing using to submit the form with errors.\nInput masks make the input look like it’s been answered\n\t\n\nProblem #3: They make the interface feel broken\nThis is because typing a restricted character gets ignored.\n\n\t\t\t\t\n\t\t\tRestricted characters get ignored without giving users any feedback\n\t\n\nProblem #4: The format may be unfamiliar\nFor example, a phone number may require a country code which isn’t always expected and makes users work harder.\nInput masks may use unfamiliar formats that don’t make sense to everyone\n\t\n\nProblem #5: They’re misleading and verbose in screen readers\nFor example, they announce placeholder characters which aren’t part of the answer. And they don’t announce characters that were typed but ignored.\n\n\t\t\t\t\n\t\t\tVoiceover announces placeholder characters. And fails to announce characters that were typed but ignored.\n\t\n\nWhat to do instead\nLeave the input empty to make it obvious where the answer goes\nLet users type what they like so the interface doesn’t feel unresponsive and broken\nAllow multiple formats so users don’t have to fix something unnecessarily\nAllow users to check their answers either on a separate page or just below the field",
@@ -136,18 +146,7 @@
       "title": "Scope for business",
       "feedUrl": "https://bighack.org/feed/",
       "siteUrl": "https://business.scope.org.uk/",
-      "articles": [
-        {
-          "id": "https://business.scope.org.uk/?p=7481",
-          "author": "Scope",
-          "description": "The post Examples and case studies of reasonable adjustments in the workplace appeared first on Scope for business.",
-          "link": "https://business.scope.org.uk/article/examples-and-case-studies-of-reasonable-adjustments-in-the-workplace",
-          "publishedOn": "2023-06-02T13:55:25.000Z",
-          "wordCount": 2345,
-          "title": "Examples and case studies of reasonable adjustments in the workplace",
-          "imageUrl": "https://business.scope.org.uk/wp-content/uploads/2023/06/Disability-icons-1.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Ambition & Balance",
@@ -1236,6 +1235,46 @@
       "siteUrl": "https://heydesigner.com",
       "articles": [
         {
+          "id": "https://heydesigner.com/?p=68474",
+          "author": "Travis",
+          "description": "The design principles emerged after watching 100s of people struggle to use the things I designed. Every struggle failed at least one principle.",
+          "link": "https://heydesigner.com/4-design-principles-to-avoid-bad-ux/",
+          "publishedOn": "2023-07-02T17:51:25.000Z",
+          "wordCount": 211,
+          "title": "4 design principles to avoid bad UX",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68472",
+          "author": "Travis",
+          "description": "Elements that are arranged on a line or curve are perceived as more related than elements that are not.",
+          "link": "https://heydesigner.com/gestalt-principles-of-design-continuity/",
+          "publishedOn": "2023-07-02T17:49:22.000Z",
+          "wordCount": 204,
+          "title": "Gestalt principles of design: Continuity",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68470",
+          "author": "Travis",
+          "description": "I’d like to expand on the five core areas I see: The value chain, materials of the output, company scale, tooling, and the production cycle.",
+          "link": "https://heydesigner.com/design-methods-and-value-delivery/",
+          "publishedOn": "2023-07-02T17:48:35.000Z",
+          "wordCount": 207,
+          "title": "Design methods and value delivery",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=68468",
+          "author": "Travis",
+          "description": "The MDN Playground is pretty much what you expect it to be – a simple way to preview HTML, CSS, and JavaScript.",
+          "link": "https://heydesigner.com/introducing-the-mdn-playground/",
+          "publishedOn": "2023-07-02T17:46:53.000Z",
+          "wordCount": 206,
+          "title": "Introducing the MDN Playground",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
           "id": "https://heydesigner.com/?p=68462",
           "author": "Travis",
           "description": "Don’t put in metrics just because having many of them on your dashboard will look fantastic. If it’s not an actionable metric, it’s a vanity metric.",
@@ -2002,6 +2041,76 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36565671",
+          "author": "skilled",
+          "description": "Article URL: https://arxiv.org/abs/2306.12456\nComments URL: https://news.ycombinator.com/item?id=36565671\nPoints: 73\n# Comments: 21",
+          "link": "https://arxiv.org/abs/2306.12456",
+          "publishedOn": "2023-07-02T20:59:10.000Z",
+          "wordCount": 833,
+          "title": "Automated CPU Design with AI",
+          "imageUrl": "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36564670",
+          "author": "rntn",
+          "description": "Article URL: https://www.tomshardware.com/news/chinese-researchers-usedai-to-design-industrial-scale-risc-v-cpu-in-under-5-hours\nComments URL: https://news.ycombinator.com/item?id=36564670\nPoints: 1\n# Comments: 0",
+          "link": "https://www.tomshardware.com/news/chinese-researchers-usedai-to-design-industrial-scale-risc-v-cpu-in-under-5-hours",
+          "publishedOn": "2023-07-02T19:15:51.000Z",
+          "wordCount": 9295,
+          "title": "Chinese Researchers Used AI to Design RISC-V CPU in Under 5 Hours",
+          "imageUrl": "https://cdn.mos.cms.futurecdn.net/BVhgk28xcNiCofVbhkT3rZ-1200-80.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36563214",
+          "author": "PaulHoule",
+          "description": "Article URL: https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(23)00154-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0167779923001543%3Fshowall%3Dtrue\nComments URL: https://news.ycombinator.com/item?id=36563214\nPoints: 3\n# Comments: 0",
+          "link": "https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(23)00154-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0167779923001543%3Fshowall%3Dtrue",
+          "publishedOn": "2023-07-02T16:50:10.000Z",
+          "wordCount": null,
+          "title": "Rise of the RNA machines – self-amplification in mRNA vaccine design",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36562296",
+          "author": "rungood",
+          "description": "Article URL: https://twitter.com/AustinTByrd/status/1675189255465779200\nComments URL: https://news.ycombinator.com/item?id=36562296\nPoints: 2\n# Comments: 0",
+          "link": "https://twitter.com/AustinTByrd/status/1675189255465779200",
+          "publishedOn": "2023-07-02T15:25:10.000Z",
+          "wordCount": null,
+          "title": "Brian Chesky on leadership and organization design",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36559152",
+          "author": "justincxa",
+          "description": "Article URL: https://www.justbeepit.com/get\nComments URL: https://news.ycombinator.com/item?id=36559152\nPoints: 1\n# Comments: 1",
+          "link": "https://www.justbeepit.com/get",
+          "publishedOn": "2023-07-02T07:29:27.000Z",
+          "wordCount": 9355,
+          "title": "UX review of your landing page done by experts – FREE, just use Beep",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36558420",
+          "author": "animesh371g",
+          "description": "Article URL: https://uxdesign.cc/system-design-interviews-101-979eb8d6f23b\nComments URL: https://news.ycombinator.com/item?id=36558420\nPoints: 4\n# Comments: 0",
+          "link": "https://uxdesign.cc/system-design-interviews-101-979eb8d6f23b",
+          "publishedOn": "2023-07-02T05:09:25.000Z",
+          "wordCount": 4726,
+          "title": "System Design Interview – 101",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*nQ8Ga1WGIHUHBtnCLTdKHg.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36557496",
+          "author": "axiomdata316",
+          "description": "Article URL: https://www.economist.com/leaders/2023/06/29/how-to-design-better-flags\nComments URL: https://news.ycombinator.com/item?id=36557496\nPoints: 3\n# Comments: 0",
+          "link": "https://www.economist.com/leaders/2023/06/29/how-to-design-better-flags",
+          "publishedOn": "2023-07-02T02:12:14.000Z",
+          "wordCount": 7529,
+          "title": "How to Design Better Flags",
+          "imageUrl": "https://www.economist.com/img/b/1280/720/90/media-assets/image/20230701_LDP502.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36546470",
           "author": "nborwankar",
@@ -4291,56 +4400,6 @@
           "wordCount": 20524,
           "title": "A systematic design exploration of Visual Studio's IntelliCode [pdf]",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36175155",
-          "author": "jimbiniyaz",
-          "description": "Article URL: https://uxparrot.com/exploring-the-ux-of-sharly-the-ai-tool-revolutionizing-document-interactions/\nComments URL: https://news.ycombinator.com/item?id=36175155\nPoints: 1\n# Comments: 0",
-          "link": "https://uxparrot.com/exploring-the-ux-of-sharly-the-ai-tool-revolutionizing-document-interactions/",
-          "publishedOn": "2023-06-03T09:44:37.000Z",
-          "wordCount": 4098,
-          "title": "Exploring the UX of Sharly, the AI Tool Revolutionizing Document Interactions",
-          "imageUrl": "https://uxparrot.com/wp-content/uploads/2023/06/sharly2.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36175097",
-          "author": "kens",
-          "description": "Article URL: https://www.fastcompany.com/90901113/inside-snopes-the-rise-fall-and-rebirth-of-an-internet-icon\nComments URL: https://news.ycombinator.com/item?id=36175097\nPoints: 23\n# Comments: 12",
-          "link": "https://www.fastcompany.com/90901113/inside-snopes-the-rise-fall-and-rebirth-of-an-internet-icon",
-          "publishedOn": "2023-06-03T09:32:14.000Z",
-          "wordCount": null,
-          "title": "Snopes: the rise, fall, and rebirth of an internet icon",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36167251",
-          "author": "MarlonPro",
-          "description": "Article URL: https://marlonribunal.com/sql-query-design-patterns-and-best-practices/\nComments URL: https://news.ycombinator.com/item?id=36167251\nPoints: 2\n# Comments: 0",
-          "link": "https://marlonribunal.com/sql-query-design-patterns-and-best-practices/",
-          "publishedOn": "2023-06-02T16:28:54.000Z",
-          "wordCount": 2079,
-          "title": "Book Review: SQL Query Design Patterns and Best Practices",
-          "imageUrl": "https://marlonribunal.com/wp-content/uploads/2023/05/SQL_Query_Design_Patterns_and_Best_Practices-e1684568976847.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36166443",
-          "author": "greghn",
-          "description": "Article URL: http://smalldatum.blogspot.com/2020/07/review-design-of-postgres-storage-system.html\nComments URL: https://news.ycombinator.com/item?id=36166443\nPoints: 2\n# Comments: 0",
-          "link": "http://smalldatum.blogspot.com/2020/07/review-design-of-postgres-storage-system.html",
-          "publishedOn": "2023-06-02T15:26:42.000Z",
-          "wordCount": 3775,
-          "title": "Review: The Design of the Postgres Storage System",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36166271",
-          "author": "thunderbong",
-          "description": "Article URL: https://www.youtube.com/watch?v=7SH4irC_xMs\nComments URL: https://news.ycombinator.com/item?id=36166271\nPoints: 2\n# Comments: 0",
-          "link": "https://www.youtube.com/watch?v=7SH4irC_xMs",
-          "publishedOn": "2023-06-02T15:15:22.000Z",
-          "wordCount": null,
-          "title": "Primitive Technology: New Brick Kiln Design [video]",
-          "imageUrl": null
         }
       ]
     },
@@ -4349,6 +4408,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36559258",
+          "author": "nathan-wailes",
+          "description": "Has anyone here tried using an oxygen concentrator to increase their productivity?  I can get the CO2 level in my room to around 580 with a comfortable temperature, but I never feel quite as clear-headed as when I'm working outside.  I'm wondering if getting an oxygen concentrator that gets my effective CO2 level to ~400 would carry any risks or downsides that I should know about. For example, one thing I'm learning is that these machines can be loud, so I'd need to consider whether the productivity gain from increased oxygen would be offset by increased ambient noise.\nUpdate: Here are a list of things I think I'll try based on comments: 1. oxygen cylinder, 2. CO2 scrubber, 3. oxygen concentrator, 4. air exchanger.\nComments URL: https://news.ycombinator.com/item?id=36559258\nPoints: 24\n# Comments: 60",
+          "link": "https://news.ycombinator.com/item?id=36559258",
+          "publishedOn": "2023-07-02T07:45:23.000Z",
+          "wordCount": 4285,
+          "title": "Ask HN: Could an oxygen concentrator increase my productivity?",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36556187",
           "author": "aleph_minus_one",
@@ -4958,26 +5027,6 @@
           "wordCount": 3,
           "title": "Spontaneous Productivity",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36166022",
-          "author": "elaetc",
-          "description": "Article URL: https://flexiana.com/2022/12/team-productivity\nComments URL: https://news.ycombinator.com/item?id=36166022\nPoints: 2\n# Comments: 1",
-          "link": "https://flexiana.com/2022/12/team-productivity",
-          "publishedOn": "2023-06-02T14:58:43.000Z",
-          "wordCount": 1568,
-          "title": "How to Increase Team Productivity?",
-          "imageUrl": "https://flexiana.com/app/uploads/2022/12/team-productivity.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36164504",
-          "author": "kapshares",
-          "description": "Article URL: https://www.releasesnotes.dev\nComments URL: https://news.ycombinator.com/item?id=36164504\nPoints: 1\n# Comments: 3",
-          "link": "https://www.releasesnotes.dev/",
-          "publishedOn": "2023-06-02T13:01:37.000Z",
-          "wordCount": 647,
-          "title": "Show HN: ReleasesNotes – Automate Your Release Notes and Boost Productivity",
-          "imageUrl": null
         }
       ]
     },
@@ -4986,6 +5035,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36563744",
+          "author": "spencerchubb",
+          "description": "Article URL: https://github.com/spencerchubb/inline-pseudo\nComments URL: https://news.ycombinator.com/item?id=36563744\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/spencerchubb/inline-pseudo",
+          "publishedOn": "2023-07-02T17:48:40.000Z",
+          "wordCount": 912,
+          "title": "Show HN: Inline-pseudo, hover and focus directly in HTML",
+          "imageUrl": "https://opengraph.githubassets.com/56de8abd258c7ebfb1b9a44cd0b7a2fbaad96cb2fb3259ad7b9ebdaa166a77a2/spencerchubb/inline-pseudo"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36548041",
           "author": "jesprenj",
@@ -5825,26 +5884,6 @@
           "wordCount": 1363,
           "title": "Show HN: SVG to CSS data url converter with minimal output size",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36175271",
-          "author": "samwillis",
-          "description": "Article URL: https://fullystacked.net/posts/scope-in-css/\nComments URL: https://news.ycombinator.com/item?id=36175271\nPoints: 2\n# Comments: 0",
-          "link": "https://fullystacked.net/posts/scope-in-css/",
-          "publishedOn": "2023-06-03T10:09:33.000Z",
-          "wordCount": 913,
-          "title": "An introduction to the new @scope in CSS, coming in Chrome 117",
-          "imageUrl": "https://fullystacked.net/assets/scope.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36173338",
-          "author": "nomdep",
-          "description": "Article URL: https://web.dev/color-spaces-and-functions/\nComments URL: https://news.ycombinator.com/item?id=36173338\nPoints: 2\n# Comments: 0",
-          "link": "https://web.dev/color-spaces-and-functions/",
-          "publishedOn": "2023-06-03T03:09:46.000Z",
-          "wordCount": 572,
-          "title": "New CSS color spaces and functions in all major engines",
-          "imageUrl": "https://web-dev.imgix.net/image/kheDArv5csY6rvQUJDbWRscckLr1/Kp4WW9nvbo5JexN1MMuN.jpg?auto=format&fit=max&w=1200&fm=auto"
         }
       ]
     },
@@ -5852,18 +5891,7 @@
       "title": "iA",
       "feedUrl": "https://ia.net/feed",
       "siteUrl": "https://ia.net",
-      "articles": [
-        {
-          "id": "https://ia.net/?p=18344",
-          "author": "Oliver Reichenstein",
-          "description": "The first time you heard the word “launch” you may not have known what it meant. But likely, you quickly understood that launch day is like test day in school. \nThe post Launch Day appeared first on iA.",
-          "link": "https://ia.net/topics/launch-day",
-          "publishedOn": "2023-06-02T17:20:16.000Z",
-          "wordCount": 749,
-          "title": "Launch Day",
-          "imageUrl": "https://ia.net/wp-content/uploads/2023/06/launch-day-1024x432.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Inclusive Components",
@@ -5938,6 +5966,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=44759",
+          "author": "Seth Godin",
+          "description": "There’s a high-end grocer in a very expensive neighborhood of New York–and they focus all of their energy on Italian food. Everything is imported, and they spend a lot of time and money earning the premium they charge for an authentic Italian shopping experience. And then a lazy brand manager decided to plaster “Sale-A-Bration” signs […]",
+          "link": "https://seths.blog/2023/07/who-is-undermining-your-brand/",
+          "publishedOn": "2023-07-02T08:45:00.000Z",
+          "wordCount": 1077,
+          "title": "Who is undermining your brand?",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
+        },
         {
           "id": "https://seths.blog/?p=43703",
           "author": "Seth Godin",
@@ -6257,16 +6295,6 @@
           "wordCount": 1065,
           "title": "Volition and placebos",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=46323",
-          "author": "Seth Godin",
-          "description": "Assets are ownable. They are devices, skills, connections or properties that allow us to amplify our effort and do our work with more impact. A drill press is an asset, so is your law degree. The permission you have to talk with your customers, the benefit of the doubt you get from your patients and […]",
-          "link": "https://seths.blog/2023/06/productive-assets-and-useful-flows/",
-          "publishedOn": "2023-06-03T08:46:00.000Z",
-          "wordCount": 1106,
-          "title": "Productive assets and useful flows",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061318.jpg"
         }
       ]
     },
@@ -7641,21 +7669,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://files.smashing.media/articles/primitive-objects-javascript-part-2/primitive-objects-javascript-part-2.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/06/enable-collaboration-multiparty-setting/",
-          "author": "hello@smashingmagazine.com (Hannah Kühne & Madlaina Kalunder)",
-          "description": "As Artificial Intelligence becomes more widespread, so too does the adoption of digital agents and voice interactions. Explore the power of mixed reality systems and multimodal communication to enhance collaboration between consultants and clients, transforming advisory services.",
-          "link": "https://smashingmagazine.com/2023/06/enable-collaboration-multiparty-setting/",
-          "publishedOn": "2023-06-02T16:00:00.000Z",
-          "wordCount": 5513,
-          "title": "How To Enable Collaboration In A Multiparty Setting",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/enable-collaboration-multiparty-setting/enable-collaboration-multiparty-setting.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/enable-collaboration-multiparty-setting/enable-collaboration-multiparty-setting.jpg"
         }
       ]
     },
