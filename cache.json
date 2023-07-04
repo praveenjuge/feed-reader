@@ -67,16 +67,6 @@
           "wordCount": 473,
           "title": "How to highlight required and optional form fields",
           "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:How to highlight required and optional form fields,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter:75996107/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
-        },
-        {
-          "id": "https://adamsilver.io/blog/the-problem-with-automatically-focusing-the-first-input-and-what-to-do-instead/",
-          "author": null,
-          "description": "In 2009 I was working on the Argos checkout flow.\nWe were considering focusing the first input when the page loads. The idea was to save users a click (never a good sign). Back then we had to use JS, but now we have the HTML5 autofocus attribute.\nEither way, automatically focusing the first input causes 5 specific problems that degrade UX.\nHere they are:\nProblem #1: it makes the page jump unexpectedly\nWhen any normal web page loads, focus remains at the top.\nWith autofocus, focus jumps suddenly to the first input.\nBut this is disorientating and may cause users to think something has gone wrong.\n\n\t\t\t\t\n\t\t\tAutomatically focusing the input makes the page jump\n\t\n\nProblem #2: it stops users scrolling with the keyboard\nUsers often scroll a web page after page load by pressing ↑ and ↓.\nWith autofocus, the keys are ignored because the input is focused.\nThis makes the interface feel broken.\n\n\t\t\t\t\n\t\t\tThe up and down keys get ignored as focus is inside the input\n\t\n\nProblem #3: it stops users going back with the keyboard\nSome users navigate back by keyboard using #+← for example.\nWith autofocus, the shortcut is ignored because the input is focused.\nThis slows users down.\n\n\t\t\t\t\n\t\t\tThe keyboard shortcut to go back is ignored as focus is inside the input\n\t\n\nProblem #4: it’s unexpected for screen reader users\nWhen a web page loads, a screen reader announces the page title.\nWith autofocus, the input’s label is announced instead.\nThis is disorientating and causes users to lose context.\n\n\t\t\t\t\n\t\t\tThe screen reader announces the input instead of the page\n\t\n\nProblem #5: it works badly on mobile\nOn mobile, focusing an input usually opens the keyboard.\nWith autofocus this doesn’t happen. On Android, for example, the input is focused but the user has to tap again to open the keyboard.\nThis makes the interface feel broken.\n\n\t\t\t\t\n\t\t\tOn Android, the input is focused but the user needs to tap \n\t\n\nJust let users focus the first input\nGood design puts users in control.",
-          "link": "https://adamsilver.io/blog/the-problem-with-automatically-focusing-the-first-input-and-what-to-do-instead/",
-          "publishedOn": "2023-06-04T00:00:00.000Z",
-          "wordCount": 439,
-          "title": "The problem with automatically focusing the first input and what to do instead",
-          "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:The problem with automatically focusing the first input and what to do instead,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter:75996107/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
         }
       ]
     },
@@ -285,6 +275,56 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://unicornclub.dev/",
       "articles": [
+        {
+          "id": "https://unicornclub.dev/?p=12476",
+          "author": "Adam Marsden",
+          "description": "DesignTool",
+          "link": "https://unicornclub.dev/design-system-metrics/",
+          "publishedOn": "2023-07-03T11:34:00.000Z",
+          "wordCount": 3228,
+          "title": "Design System Metrics",
+          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
+        },
+        {
+          "id": "https://unicornclub.dev/?p=12488",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://unicornclub.dev/design-for-the-web-without-figma/",
+          "publishedOn": "2023-07-03T11:33:00.000Z",
+          "wordCount": 3246,
+          "title": "Design for the web without Figma",
+          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
+        },
+        {
+          "id": "https://unicornclub.dev/?p=12482",
+          "author": "Adam Marsden",
+          "description": "UX",
+          "link": "https://unicornclub.dev/4-design-principles-to-avoid-bad-ux/",
+          "publishedOn": "2023-07-03T11:30:00.000Z",
+          "wordCount": 3254,
+          "title": "4 design principles to avoid bad UX",
+          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
+        },
+        {
+          "id": "https://unicornclub.dev/?p=12485",
+          "author": "Adam Marsden",
+          "description": "CSS",
+          "link": "https://unicornclub.dev/faking-a-snapped-selector-with-scroll-driven-animations/",
+          "publishedOn": "2023-07-03T11:28:00.000Z",
+          "wordCount": 3250,
+          "title": "Faking a :snapped selector with Scroll-Driven Animations",
+          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
+        },
+        {
+          "id": "https://unicornclub.dev/?p=12479",
+          "author": "Adam Marsden",
+          "description": "DevelopmentPerformance",
+          "link": "https://unicornclub.dev/webperf-snippets/",
+          "publishedOn": "2023-07-03T11:25:00.000Z",
+          "wordCount": 3229,
+          "title": "Webperf Snippets",
+          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
+        },
         {
           "id": "https://unicornclub.dev/?p=12472",
           "author": "Adam Marsden",
@@ -2041,6 +2081,86 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36576040",
+          "author": "thunderbong",
+          "description": "Article URL: https://qz.com/ai-cpu-five-hours-intel-risc-v-32ia-china-1850600823\nComments URL: https://news.ycombinator.com/item?id=36576040\nPoints: 3\n# Comments: 2",
+          "link": "https://qz.com/ai-cpu-five-hours-intel-risc-v-32ia-china-1850600823",
+          "publishedOn": "2023-07-03T17:18:04.000Z",
+          "wordCount": 6060,
+          "title": "It only took five hours for an AI model to design a functional computer",
+          "imageUrl": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/0225d3dd0115e20c82808690dd0e15e5.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36574217",
+          "author": "strexy",
+          "description": "Article URL: https://www.designdept.co\nComments URL: https://news.ycombinator.com/item?id=36574217\nPoints: 1\n# Comments: 0",
+          "link": "https://www.designdept.co/",
+          "publishedOn": "2023-07-03T15:24:05.000Z",
+          "wordCount": 975,
+          "title": "Anyone familiar with Design Dept courses?",
+          "imageUrl": "http://static1.squarespace.com/static/59e14634f14aa119a3ed9c3f/t/5c9e98c36e9a7f52e4dcd61c/1553897668637/SocialSplash.png?format=1500w"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36573929",
+          "author": "gwenzek",
+          "description": "Article URL: https://zig.news/gwenzek/zig-great-design-for-great-optimizations-638\nComments URL: https://news.ycombinator.com/item?id=36573929\nPoints: 8\n# Comments: 2",
+          "link": "https://zig.news/gwenzek/zig-great-design-for-great-optimizations-638",
+          "publishedOn": "2023-07-03T15:04:35.000Z",
+          "wordCount": 3071,
+          "title": "Zig: Great Design for Great Optimizations",
+          "imageUrl": "https://zig.news/social_previews/article/467.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36573651",
+          "author": "thunderbong",
+          "description": "Article URL: https://www.reuters.com/technology/apple-forced-make-cuts-vision-pro-production-plans-ft-2023-07-03/\nComments URL: https://news.ycombinator.com/item?id=36573651\nPoints: 1\n# Comments: 0",
+          "link": "https://www.reuters.com/technology/apple-forced-make-cuts-vision-pro-production-plans-ft-2023-07-03/",
+          "publishedOn": "2023-07-03T14:45:17.000Z",
+          "wordCount": 4244,
+          "title": "Apple scales back Vision Pro production plans on design challenges",
+          "imageUrl": "https://www.reuters.com/resizer/vZFidltwu2hre4TPGgvKVmaVbWQ=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/BZNGGGKNKVPYZF4TRWV3KI5OAQ.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36572916",
+          "author": "eromanenko",
+          "description": "Everypixel introduces Wonderslide, a groundbreaking AI-powered tool that effortlessly creates stunning presentations from basic drafts at lightning speed. The software will be released to the public in July 2023.\n“This project is a result of our company's efforts in the field of creative technologies. The field we've been always focused on, that we support and invest in,” - says Dmitry Shironosov, founder of Everypixel.\nWonderslide enables millions of PowerPoint and Google Slide users to automatically design presentations with just a few clicks, making it ideal for those who need last-minute slides before a deadline.\nThe product is powered by a system of neural networks that can analyze and understand different types of content, including text, images, icons, color schemes, and slide struc…",
+          "link": "https://news.ycombinator.com/item?id=36572916",
+          "publishedOn": "2023-07-03T13:55:20.000Z",
+          "wordCount": 453,
+          "title": "Wonderslide: Fast Presentation Design, Powered by AI",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36571116",
+          "author": "DeathArrow",
+          "description": "Article URL: https://github.com/dbartolini/data-oriented-design\nComments URL: https://news.ycombinator.com/item?id=36571116\nPoints: 39\n# Comments: 3",
+          "link": "https://github.com/dbartolini/data-oriented-design",
+          "publishedOn": "2023-07-03T10:41:47.000Z",
+          "wordCount": 1383,
+          "title": "A curated list of data oriented design resources",
+          "imageUrl": "https://opengraph.githubassets.com/01d071e3793e3961cc664b9431178b63176a1f10200d43bfd564a27b47215d5e/dbartolini/data-oriented-design"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36571110",
+          "author": "DeathArrow",
+          "description": "Article URL: https://www.dataorienteddesign.com/dodbook/dodmain.html\nComments URL: https://news.ycombinator.com/item?id=36571110\nPoints: 273\n# Comments: 94",
+          "link": "https://www.dataorienteddesign.com/dodbook/dodmain.html",
+          "publishedOn": "2023-07-03T10:41:09.000Z",
+          "wordCount": 407,
+          "title": "Data-Oriented Design (2018)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36570564",
+          "author": "Poleself",
+          "description": "Article URL: https://medium.com/@miniproject2019/optimizing-your-architecture-with-microservices-design-patterns-98738a0b60dd\nComments URL: https://news.ycombinator.com/item?id=36570564\nPoints: 2\n# Comments: 1",
+          "link": "https://medium.com/@miniproject2019/optimizing-your-architecture-with-microservices-design-patterns-98738a0b60dd",
+          "publishedOn": "2023-07-03T09:13:34.000Z",
+          "wordCount": 3517,
+          "title": "Optimizing Your Architecture with Microservices Design Patterns",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*bibk3gUGs6oReBa-7SF0Pg.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36565671",
           "author": "skilled",
@@ -4290,116 +4410,6 @@
           "wordCount": 2028,
           "title": "What makes anti-design important in today’s context?",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:800/1*x55w7_55jrEhGbU7uVIRSw.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36184556",
-          "author": "akasakahakada",
-          "description": "For example + (phillips) screws.\nAny more you can think of?\nComments URL: https://news.ycombinator.com/item?id=36184556\nPoints: 1\n# Comments: 3",
-          "link": "https://news.ycombinator.com/item?id=36184556",
-          "publishedOn": "2023-06-04T10:43:56.000Z",
-          "wordCount": 223,
-          "title": "Ask HN: Example of design flaw that never fade out",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36184428",
-          "author": "obl",
-          "description": "Article URL: https://docs.google.com/document/d/13CwgSL4yawxuYg3iNlM-4ZPCB8RgJya6b8H_E2F-Aek/edit?usp=sharing\nComments URL: https://news.ycombinator.com/item?id=36184428\nPoints: 48\n# Comments: 16",
-          "link": "https://docs.google.com/document/d/13CwgSL4yawxuYg3iNlM-4ZPCB8RgJya6b8H_E2F-Aek/edit?usp=sharing",
-          "publishedOn": "2023-06-04T10:14:07.000Z",
-          "wordCount": 5742,
-          "title": "V8 Maglev: compiler design doc",
-          "imageUrl": "https://lh3.googleusercontent.com/docs/ADP-6oGBO0d1jcULaN_4ZMZYt7VLtZhE-cn2EgeKNfmLVeW8Dpd7HtK5PIHYyewFl3MKrOLT8PNa3PlaxLhloJ19ew8B64qXmG1WwgHVPew1lJQ=w1200-h630-p"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36184261",
-          "author": "Tomte",
-          "description": "Article URL: https://blog.privacyperfect.com/press/iso-31700\nComments URL: https://news.ycombinator.com/item?id=36184261\nPoints: 2\n# Comments: 0",
-          "link": "https://blog.privacyperfect.com/press/iso-31700",
-          "publishedOn": "2023-06-04T09:30:51.000Z",
-          "wordCount": 1565,
-          "title": "ISO’s new standard on privacy by design (ISO 31700)",
-          "imageUrl": "https://blog.privacyperfect.com/hubfs/Blog%20post%20images/1200x700%20Blog%20post%20%28SPARK%29%20%281%29.png#keepProtocol"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36184038",
-          "author": "sph",
-          "description": "Article URL: http://harmful.cat-v.org/cat-v/unix_prog_design.pdf\nComments URL: https://news.ycombinator.com/item?id=36184038\nPoints: 2\n# Comments: 0",
-          "link": "http://harmful.cat-v.org/cat-v/unix_prog_design.pdf",
-          "publishedOn": "2023-06-04T08:34:53.000Z",
-          "wordCount": 825,
-          "title": "Program design in the UNIX environment (1983) [pdf]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36183550",
-          "author": "gregw134",
-          "description": "Yesterday's article (https://news.ycombinator.com/item?id=36170105) on flying metallic orbs caught my eye, so I decided to ask ChatGPT how this could be designed. It came up with a design that seems plausible to me (a non-expert), essentially using gyroscopes to induce controllable spin, and uses the Magnus effect to allow the orb to bend through the air like a soccer ball. Wanted to get Hacker New's take on whether this design is possible.\nStructure and Composition: The orb's structure is a sphere composed of strong, lightweight materials akin to those used in modern aircraft or spacecraft. These materials are capable of withstanding the pressures and forces experienced during flight while also minimizing the orb's overall weight.\nBuoyancy: The orb is filled with a lighter-than-air gas su…",
-          "link": "https://news.ycombinator.com/item?id=36183550",
-          "publishedOn": "2023-06-04T06:34:30.000Z",
-          "wordCount": 510,
-          "title": "Potential Metallic Orb Design",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36183426",
-          "author": "gorpo85",
-          "description": "Does anyone out there do good design? I need someone to design me a login screen and home page for a social network. if anyone can help me please message me [here] (https://postingthings.com/messages=xiffu85)\nComments URL: https://news.ycombinator.com/item?id=36183426\nPoints: 1\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=36183426",
-          "publishedOn": "2023-06-04T05:57:41.000Z",
-          "wordCount": 99,
-          "title": "Any design here to help me?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36183415",
-          "author": "itsuka",
-          "description": "Article URL: https://developer.chrome.com/blog/extension-side-panel-launch/\nComments URL: https://news.ycombinator.com/item?id=36183415\nPoints: 2\n# Comments: 0",
-          "link": "https://developer.chrome.com/blog/extension-side-panel-launch/",
-          "publishedOn": "2023-06-04T05:55:21.000Z",
-          "wordCount": 1387,
-          "title": "Design a superior user experience with the new Side Panel API",
-          "imageUrl": "https://wd.imgix.net/image/BhuKGJaIeLNPW9ehns59NfwqKxF2/UnBAJwan7EQbuFS3xHwW.jpg?auto=format&w=1521"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36182160",
-          "author": "fagnerbrack",
-          "description": "Article URL: https://fagnerbrack.com/book-summary-implementing-domain-driven-design-55e7fca95cd7?gi=14c71fc96e9c\nComments URL: https://news.ycombinator.com/item?id=36182160\nPoints: 3\n# Comments: 0",
-          "link": "https://fagnerbrack.com/book-summary-implementing-domain-driven-design-55e7fca95cd7?gi=14c71fc96e9c",
-          "publishedOn": "2023-06-04T01:31:17.000Z",
-          "wordCount": 1924,
-          "title": "Book Summary: Implementing Domain-Driven Design",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:600/1*HTOYnkHPXXBkAFJMxpPAkw.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36180051",
-          "author": "Vishal19111999",
-          "description": "Just saw a few creators building better UI versions of HN.\nI realize now, that one of the important factors that keep HN's audience selective is its simple UI.\nIMO if we put the design and UI/UX elements of modern social platforms, it may start to attract a wider audience which certainly is not the intent of this platform.\nComments URL: https://news.ycombinator.com/item?id=36180051\nPoints: 89\n# Comments: 64",
-          "link": "https://news.ycombinator.com/item?id=36180051",
-          "publishedOn": "2023-06-03T20:07:44.000Z",
-          "wordCount": null,
-          "title": "The UI of Hacker News Is Perfect",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36179175",
-          "author": "jjeaff",
-          "description": "I recently needed to check a past transfer to confirm that I was sending some crypto to the same wallet address. In the past, the last few transactions showed up on the \"Pay\" page. They have since renamed \"Pay\" to Transfers or something like that. They no longer show past transactions, so I went down a rabbit hole of searching through the app, couldn't find it, then had to google it and found a help page for Coinbase. There is a link in the article to coinbase.com/reports (I can find no way to get to it from the web app except by following the link from the help article.) Once there, you can select the date ranges you want and generate a transaction report in PDF or CSV and then you have to wait a bit while it generates the report for you to download.\nWhat kind of UI craziness is this? A user's transaction history is such a basic feature, I can't imagine contributing the obfuscation of this history to just incompetence. There must be some dark pattern here. Perhaps the want to hide from user's how much real money they are putting into the system? It seems like a serious security risk anyway. Someone with unauthorized access to an account could easily siphon off crypto and it would be difficult to notice unless you are frequently generating and downloading transaction reports and going through them.\nI am not finding much talk of this. Am I in the minority thinking that this is a mission critical, absolutely bare bones feature that should be front and center of any finance related app?\nComments URL: https://news.ycombinator.com/item?id=36179175\nPoints: 4\n# Comments: 2",
-          "link": "https://news.ycombinator.com/item?id=36179175",
-          "publishedOn": "2023-06-03T18:25:16.000Z",
-          "wordCount": null,
-          "title": "Intentional dark pattern by Coinbase or just terrible UI?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36178086",
-          "author": "azhenley",
-          "description": "Article URL: https://austinhenley.com/pubs/Vaithilingam2023ICSE_IntelliCode.pdf\nComments URL: https://news.ycombinator.com/item?id=36178086\nPoints: 2\n# Comments: 0",
-          "link": "https://austinhenley.com/pubs/Vaithilingam2023ICSE_IntelliCode.pdf",
-          "publishedOn": "2023-06-03T16:35:55.000Z",
-          "wordCount": 20524,
-          "title": "A systematic design exploration of Visual Studio's IntelliCode [pdf]",
-          "imageUrl": null
         }
       ]
     },
@@ -4408,6 +4418,26 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36574535",
+          "author": "cyb_",
+          "description": "Article URL: https://wfhresearch.com/wp-content/uploads/2023/07/SIEPR1.pdf\nComments URL: https://news.ycombinator.com/item?id=36574535\nPoints: 2\n# Comments: 2",
+          "link": "https://wfhresearch.com/wp-content/uploads/2023/07/SIEPR1.pdf",
+          "publishedOn": "2023-07-03T15:42:59.000Z",
+          "wordCount": 35614,
+          "title": "The Evolution of Working from Home (productivity research) [pdf]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36569130",
+          "author": "matricaria",
+          "description": "Article URL: https://www.rssboard.org/news/214/rss-enclosure-support-microblog\nComments URL: https://news.ycombinator.com/item?id=36569130\nPoints: 4\n# Comments: 0",
+          "link": "https://www.rssboard.org/news/214/rss-enclosure-support-microblog",
+          "publishedOn": "2023-07-03T05:06:42.000Z",
+          "wordCount": 650,
+          "title": "RSS Enclosure Support in Micro.Blog",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36559258",
           "author": "nathan-wailes",
@@ -4967,66 +4997,6 @@
           "wordCount": 9307,
           "title": "Show HN: An RSS reader that is curated for you",
           "imageUrl": "https://boredreading.com/img/screenshot.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36184640",
-          "author": "ingve",
-          "description": "Article URL: https://hbr.org/2016/01/trick-yourself-into-breaking-a-bad-habit\nComments URL: https://news.ycombinator.com/item?id=36184640\nPoints: 112\n# Comments: 34",
-          "link": "https://hbr.org/2016/01/trick-yourself-into-breaking-a-bad-habit",
-          "publishedOn": "2023-06-04T11:02:03.000Z",
-          "wordCount": 2807,
-          "title": "Trick Yourself into Breaking a Bad Habit",
-          "imageUrl": "https://hbr.org/resources/images/article_assets/2016/01/jan16-18-168705197.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36184605",
-          "author": "luka373",
-          "description": "I struggle with staying productive and organizing myself. I am a chronic procrastinator and have tried everything to be more productive like lists, calendars, apps, etc. but I still can't seem to get things done. I want to study more, read more, and finish my coding projects. However, I end up not doing much and feel terribly guilty. I suspect I may have ADHD or some kind of dopamine addiction but I'm not sure. I do well in school even by studying at the last minute, and I attend a rather challenging school. In my free time though, I end up doing very little or nothing, not knowing where my time went. I try to remove all distractions but it doesn't seem to work.\nDoes anyone have any advice or strategies on how I can improve my productivity and focus? How have you overcome similar challenges to achieve your goals and stay focused? I feel stuck in this cycle of procrastination and distraction and want to break free.\nComments URL: https://news.ycombinator.com/item?id=36184605\nPoints: 49\n# Comments: 62",
-          "link": "https://news.ycombinator.com/item?id=36184605",
-          "publishedOn": "2023-06-04T10:53:20.000Z",
-          "wordCount": 8252,
-          "title": "Ask HN: Struggling with Productivity and Procrastination",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36181372",
-          "author": "ngeorger",
-          "description": "Article URL: https://www.sredevops.cl/rss/\nComments URL: https://news.ycombinator.com/item?id=36181372\nPoints: 1\n# Comments: 0",
-          "link": "https://www.sredevops.cl/rss/",
-          "publishedOn": "2023-06-03T23:07:38.000Z",
-          "wordCount": 3935,
-          "title": "Sredevops.cl RSS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36176972",
-          "author": "azhenley",
-          "description": "Article URL: https://www.johndcook.com/blog/2023/06/03/productive-productivity/\nComments URL: https://news.ycombinator.com/item?id=36176972\nPoints: 2\n# Comments: 0",
-          "link": "https://www.johndcook.com/blog/2023/06/03/productive-productivity/",
-          "publishedOn": "2023-06-03T14:27:29.000Z",
-          "wordCount": 1494,
-          "title": "Productive Productivity",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36176930",
-          "author": "mensetmanusman",
-          "description": "Article URL: https://www.brookings.edu/research/machines-of-mind-the-case-for-an-ai-powered-productivity-boom/\nComments URL: https://news.ycombinator.com/item?id=36176930\nPoints: 1\n# Comments: 0",
-          "link": "https://www.brookings.edu/research/machines-of-mind-the-case-for-an-ai-powered-productivity-boom/",
-          "publishedOn": "2023-06-03T14:23:24.000Z",
-          "wordCount": 4930,
-          "title": "The Case for an AI-Powered Productivity Boom",
-          "imageUrl": "https://www.brookings.edu/wp-content/uploads/2023/05/Shutterstock_2250721589.jpg?w=1200&h=630&crop=1"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36176929",
-          "author": "oDot",
-          "description": "Article URL: https://nestful.app/blog/spontaneous-productivity\nComments URL: https://news.ycombinator.com/item?id=36176929\nPoints: 2\n# Comments: 0",
-          "link": "https://nestful.app/blog/spontaneous-productivity",
-          "publishedOn": "2023-06-03T14:23:08.000Z",
-          "wordCount": 3,
-          "title": "Spontaneous Productivity",
-          "imageUrl": null
         }
       ]
     },
@@ -5035,6 +5005,36 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36577112",
+          "author": "ris58h",
+          "description": "Article URL: https://plugins.jetbrains.com/plugin/21826-webcalm-javascript-and-css\nComments URL: https://news.ycombinator.com/item?id=36577112\nPoints: 1\n# Comments: 0",
+          "link": "https://plugins.jetbrains.com/plugin/21826-webcalm-javascript-and-css",
+          "publishedOn": "2023-07-03T18:36:22.000Z",
+          "wordCount": 1163,
+          "title": "Show HN: WebCalm – Free JavaScript and CSS Support for JetBrains IDEs",
+          "imageUrl": "/files/21826/355260/icon/pluginIcon.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36574388",
+          "author": "iphone14pro",
+          "description": "Article URL: https://www.thefinalhop.com/chinese-cyber-espionage-unmasking-the-html-smuggling-technique/\nComments URL: https://news.ycombinator.com/item?id=36574388\nPoints: 6\n# Comments: 0",
+          "link": "https://www.thefinalhop.com/chinese-cyber-espionage-unmasking-the-html-smuggling-technique/",
+          "publishedOn": "2023-07-03T15:34:16.000Z",
+          "wordCount": 1040,
+          "title": "Chinese Cyber Espionage: Unmasking the HTML Smuggling Technique",
+          "imageUrl": "https://www.thefinalhop.com/content/images/2023/07/0_1.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36573936",
+          "author": "Issaclabs",
+          "description": "Article URL: https://twitter.com/levelsio/status/1675829733668319233\nComments URL: https://news.ycombinator.com/item?id=36573936\nPoints: 2\n# Comments: 1",
+          "link": "https://twitter.com/levelsio/status/1675829733668319233",
+          "publishedOn": "2023-07-03T15:05:11.000Z",
+          "wordCount": null,
+          "title": "14,000 lines of raw PHP/HTML/CSS/JS has $61k/month revenue",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36563744",
           "author": "spencerchubb",
@@ -5834,56 +5834,6 @@
           "wordCount": 160,
           "title": "CSS snippet to hide HN posts of specified URL domain",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36184582",
-          "author": "murkle",
-          "description": "Article URL: https://murkle.github.io/utils/browserFonts.html\nComments URL: https://news.ycombinator.com/item?id=36184582\nPoints: 1\n# Comments: 1",
-          "link": "https://murkle.github.io/utils/browserFonts.html",
-          "publishedOn": "2023-06-04T10:49:31.000Z",
-          "wordCount": 863,
-          "title": "Handy list of CSS font stacks for Windows and macOS browsers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36183922",
-          "author": "fulafel",
-          "description": "Article URL: https://github.com/matthewdowney/rendergpt\nComments URL: https://news.ycombinator.com/item?id=36183922\nPoints: 1\n# Comments: 0",
-          "link": "https://github.com/matthewdowney/rendergpt",
-          "publishedOn": "2023-06-04T08:12:48.000Z",
-          "wordCount": 902,
-          "title": "RenderGPT – A Chrome Extension to Render HTML/JavaScript/CSS from ChatGPT",
-          "imageUrl": "https://opengraph.githubassets.com/35eae7e62d81773f6525f45c1b38dece3b76fa9d558f4281b4ae49abe7ea699e/matthewdowney/rendergpt"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36178966",
-          "author": "brycewray",
-          "description": "Article URL: https://www.brycewray.com/posts/2023/06/hugo-tailwind-peace-at-last-maybe/\nComments URL: https://news.ycombinator.com/item?id=36178966\nPoints: 1\n# Comments: 0",
-          "link": "https://www.brycewray.com/posts/2023/06/hugo-tailwind-peace-at-last-maybe/",
-          "publishedOn": "2023-06-03T18:05:30.000Z",
-          "wordCount": 739,
-          "title": "Hugo and Tailwind: peace at last (maybe)",
-          "imageUrl": "https://www.brycewray.com/images/social-OG-bkgd-for-left-align-text_1280x669_hu30910665284931ace4f57faa1e01d828_29870_filter_3264000628897889878.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36178079",
-          "author": "croes",
-          "description": "Article URL: https://jinntec.github.io/Fore/doc/index.html\nComments URL: https://news.ycombinator.com/item?id=36178079\nPoints: 34\n# Comments: 6",
-          "link": "https://jinntec.github.io/Fore/doc/index.html",
-          "publishedOn": "2023-06-03T16:35:12.000Z",
-          "wordCount": 442,
-          "title": "Fore – Declarative user interfaces in plain HTML",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36177761",
-          "author": "DitheringIdiot",
-          "description": "Not exactly a mind blowing tool — but I use tools like this all the time, and none of them (as far as I can tell) have output that is as minimal as it could be. Maybe someone will find it useful.\n- only encodes necessary characters\n- changes attribute quotes to single quotes\n- lowercases percent-encoding hex pairs\n- swaps hex colors to their shorter named equivalents\n- adds xlmns attribute if missing\n- removes useless whitespace\nIf anyone spots any missing optimizations. do let me know.\nComments URL: https://news.ycombinator.com/item?id=36177761\nPoints: 2\n# Comments: 0",
-          "link": "https://inputoutput.dev/svg-to-css-converter/",
-          "publishedOn": "2023-06-03T16:04:16.000Z",
-          "wordCount": 1363,
-          "title": "Show HN: SVG to CSS data url converter with minimal output size",
-          "imageUrl": null
         }
       ]
     },
@@ -5940,6 +5890,16 @@
       "siteUrl": "https://remysharp.com",
       "articles": [
         {
+          "id": "ip-to-timezone-the-30-second-way",
+          "author": null,
+          "description": "After my wrangle with getting a timezone from an IP address by reducing large databases down from several hundred megabytes down to only a few, then discovering IPv6 didn't work (so I then applied my same logic to get 700MB to 10MB), the ever lovely Phil Hawksworth pointed out that (of course) Netlify has this data available in their edge functions.\nI totally overlooked the feature (maybe I didn't even look!). So let's implement that and then discover the glaring bug in all of the code so far.\n\nNetlify edge function's geo prop\nPhil kindly sent me a direct message on Space Karen's website pointing me to the geo property provided in edge function calls.\nThis (of course 🤦‍♂️) means the code for the function is (for me) stupid simple:\nexport default async (request, context) => {\n  return new …",
+          "link": "https://remysharp.com/2023/07/03/ip-to-timezone-the-30-second-way",
+          "publishedOn": "2023-07-03T00:00:00.000Z",
+          "wordCount": 1102,
+          "title": "IP to timezone, the 30 second way [blog]",
+          "imageUrl": "https://remysharp.com/images/cards/og/9-4.jpg"
+        },
+        {
           "id": "ip-to-timezone-the-hard-but-fast-way",
           "author": null,
           "description": "This week I decided it was time to try to revive some of the casualties from my recent Vercel incident, and though webmentions.app is the more useful, I though I'd start with the, so I thought, low hanging fruit - \"how many days to Christmas\".\nIt turned into 3 days of complicated problem solving and working against systems that just didn't want to work the way I needed.\n\nThe context\nI have a little app that runs on a internet connected clock that shows the days to Christmas. A little while ago, during December and Jan, the traffic (along with traffic on webmentions.app) spiked hard enough to cause Vercel to block my entire account.\nSo for the short term, I disabled the countdown app. Christmas, at the time, was a full year away, so I figured it wouldn't be missed.\nI then started getting re…",
@@ -5966,6 +5926,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=43745",
+          "author": "Seth Godin",
+          "description": "The future never arrives, of course, but it has a powerful force that’s impossible to avoid. We can see it as a threshold, a doorway toward something new. Or we can fight it as an unwanted change, and discover that it has traction, tenacity and leverage. We can influence the future, but we can’t pretend […]",
+          "link": "https://seths.blog/2023/07/when-the-future-finds-us/",
+          "publishedOn": "2023-07-03T09:52:00.000Z",
+          "wordCount": 953,
+          "title": "When the future finds us",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=44759",
           "author": "Seth Godin",
@@ -6285,16 +6255,6 @@
           "wordCount": 1159,
           "title": "Avoid false proxies",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=46327",
-          "author": "Seth Godin",
-          "description": "If a placebo heals your illness, does that mean it was all in your head in the first place? That you weren’t really sick, or didn’t really want to get better? If expensive wine tastes better to you, but you can’t tell wine apart in a double-blind taste test, does that mean it doesn’t really […]",
-          "link": "https://seths.blog/2023/06/volition-and-placebos/",
-          "publishedOn": "2023-06-04T09:03:00.000Z",
-          "wordCount": 1065,
-          "title": "Volition and placebos",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061315.jpg"
         }
       ]
     },
@@ -6303,6 +6263,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "CK27w3EajBXoYB864",
+          "author": "@chrbutler",
+          "description": "The Gestalt Principles of Design are a set of concepts and guidelines drawn from gestalt psychology.",
+          "link": "https://www.chrbutler.com/gestalt-principles-of-design-continuit",
+          "publishedOn": "2023-07-03T06:23:22.000Z",
+          "wordCount": null,
+          "title": "Gestalt Principles of Design – Continuity",
+          "imageUrl": null
+        },
+        {
+          "id": "viJb7uuqjxDfrk3FT",
+          "author": "@dhh",
+          "description": "By all accounts, Figma has been an amazing tool for designers.",
+          "link": "https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218",
+          "publishedOn": "2023-07-03T06:20:55.000Z",
+          "wordCount": 560,
+          "title": "Design for the web without Figma",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
+          "id": "QPJWRMMLziA4NNgnA",
+          "author": "@uxdesigncc",
+          "description": "It is a band-aid for a deeper problem.",
+          "link": "https://uxdesign.cc/democratization-wont-save-research-d438b7b590b8",
+          "publishedOn": "2023-07-03T06:19:42.000Z",
+          "wordCount": 7914,
+          "title": "Democratization won’t save research",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*5NyFaanoWWkBWnSn"
+        },
+        {
+          "id": "7ma3wkHbHJQ6tifc5",
+          "author": "@axbom",
+          "description": "It will mostly “guess” your aim, tend to miss the nail and push for a different design. Often unnoticeably.",
+          "link": "https://axbom.com/hammer-ai/",
+          "publishedOn": "2023-07-03T06:19:30.000Z",
+          "wordCount": 1619,
+          "title": "If a hammer was like AI…",
+          "imageUrl": "https://axbom.com/content/images/2023/06/axbom-ai-hammer-poster.jpeg"
+        },
+        {
+          "id": "TbCAXicyivLrewudP",
+          "author": "@MozDevNet",
+          "description": "MDN is launching a code Playground. Users can prototype ideas and expand all live samples into an interactive experience.",
+          "link": "https://developer.mozilla.org/en-US/blog/introducing-the-mdn-playground/",
+          "publishedOn": "2023-07-03T06:12:10.000Z",
+          "wordCount": 6597,
+          "title": "Introducing the MDN Playground: Bring your code to life!",
+          "imageUrl": "https://developer.mozilla.org/en-US/blog/introducing-the-mdn-playground/play.png"
+        },
         {
           "id": "ThFfEdHym6zrPKnDz",
           "author": "@adweek",
@@ -7327,7 +7337,18 @@
       "title": "Latest WDRL editions via Feed",
       "feedUrl": "https://wdrl.info/feed/xml",
       "siteUrl": "https://wdrl.info/archive",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://wdrl.info/archive/312",
+          "author": null,
+          "description": "Hey,\nit’s been a while again since my last edition. Spring and summer here are always a busy season for me, splitting my available time into two jobs: Web work (or currently project management) and my garden. I’ll try to catch up more regularly now again, so maybe another edition will follow soon.\nI’m learning to value my market garden nursery more and more. It forces me to be in a passive, listening and watching mode, and only interfere if I have a proper plan to make an impact. When you do things improperly, you may end up having twice the work. Or even worse, your plants suffer and you get less crop.\nWith software development it’s often very similar. We can push forwards and run behind latest trends and technologies but without a proper plan, you end up having these endless projects. Be…",
+          "link": "https://wdrl.info/archive/312",
+          "publishedOn": "2023-07-03T15:00:00.000Z",
+          "wordCount": 895,
+          "title": "WDRL — Edition 312: Modern CSS isn’t always easy, DOM efficiency, and how the room sounds right now.",
+          "imageUrl": "https://wdrl.info/archive/312.png"
+        }
+      ]
     },
     {
       "title": "Blog – WebKit",
