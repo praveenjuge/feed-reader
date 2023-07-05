@@ -2,10 +2,278 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://praveenjuge.github.io/feed-reader/index.html</id>
     <title>News | Praveen Juge</title>
-    <updated>2023-07-04T00:50:19.682Z</updated>
+    <updated>2023-07-05T00:51:52.995Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://praveenjuge.github.io/feed-reader/index.html"/>
     <link rel="self" href="https://praveenjuge.github.io/feed-reader/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ML system design: 200 case studies to learn from]]></title>
+        <id>https://news.ycombinator.com/item?id=36593713</id>
+        <link href="https://www.evidentlyai.com/ml-system-design"/>
+        <updated>2023-07-04T23:14:31.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.evidentlyai.com/ml-system-design
+Comments URL: https://news.ycombinator.com/item?id=36593713
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>synergy20</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: How do you display HTML tables on any screen size?]]></title>
+        <id>https://news.ycombinator.com/item?id=36593583</id>
+        <link href="https://news.ycombinator.com/item?id=36593583"/>
+        <updated>2023-07-04T22:57:28.000Z</updated>
+        <summary type="html"><![CDATA[For the longest time I hated how I could not easily make HTML tables that are showing nice excel like data (i.e. they are really correctly using table, tr, and td tags for data not layout) to look good on mobile.
+I finally have a solution I love. I keep using it over and over.
+headers := []string{"name", "age", "species", "home_planet", "language", "occupation"}
+I define the headers and call:
+c.MakeCells(list, headers, "_welcome")
+The list is an array of key values pairs, and _welcome is just the name of the view.
+{{ define "_welcome_col1" }}
+{{ $row := index . "row" }}
+{{ index $row "name" }}
+{{ end }}
+{{ define "_welcome_col2" }}
+{{ $row := index . "row" }}
+{{ index $row "age" }}
+{{ end }}
+etc.
+Then with tailwindcss I have:
+
+    {{ template "_table_large" . }}
+
+
+    {{ template "_table_small" . }}
+
+So I'm rendering both the tables on the page but only 1 will show depending on the size of the screen.
+And the logic in _table_small is the secret to the whole thing. Instead of displaying each row horizontally, it repeats the headers vertically as col1 and then col2 is each row value.
+You can see demo at https://many.pw/
+Just make the window smaller if you are on desktop and it will jump to the small version.
+Comments URL: https://news.ycombinator.com/item?id=36593583
+Points: 1
+# Comments: 3]]></summary>
+        <author>
+            <name>andrewfromx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: What productivity hacks did you bring from other industries to yours?]]></title>
+        <id>https://news.ycombinator.com/item?id=36592614</id>
+        <link href="https://news.ycombinator.com/item?id=36592614"/>
+        <updated>2023-07-04T21:18:23.000Z</updated>
+        <summary type="html"><![CDATA[Comments URL: https://news.ycombinator.com/item?id=36592614
+Points: 5
+# Comments: 2]]></summary>
+        <author>
+            <name>mkagenius</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Web3” and “AI”]]></title>
+        <id>https://adactio.com/articles/20290</id>
+        <link href="https://adactio.com/articles/20290"/>
+        <updated>2023-07-04T17:44:14.000Z</updated>
+        <summary type="html"><![CDATA[A short talk delivered at a gathering in Brighton by the Design Business Association in July 2023 on the topic of “Web3, AI and Design”.]]></summary>
+        <author>
+            <name>Adactio: Articles</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UI Design for Engineers]]></title>
+        <id>https://news.ycombinator.com/item?id=36588872</id>
+        <link href="https://uidesignforengineers.com/"/>
+        <updated>2023-07-04T16:26:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://uidesignforengineers.com
+Comments URL: https://news.ycombinator.com/item?id=36588872
+Points: 1
+# Comments: 1]]></summary>
+        <author>
+            <name>krm01</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remote Design System vs. App Builder]]></title>
+        <id>https://news.ycombinator.com/item?id=36588526</id>
+        <link href="https://buildwiththeta.com/blog/remote-design-systems-vs-app-builder"/>
+        <updated>2023-07-04T16:07:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://buildwiththeta.com/blog/remote-design-systems-vs-app-builder
+Comments URL: https://news.ycombinator.com/item?id=36588526
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>andreabutta</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We 10x Improved Flutter UI Testing with Patrol 2.0]]></title>
+        <id>https://news.ycombinator.com/item?id=36587806</id>
+        <link href="https://leancode.co/blog/patrol-2-0-improved-flutter-ui-testing"/>
+        <updated>2023-07-04T15:17:39.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://leancode.co/blog/patrol-2-0-improved-flutter-ui-testing
+Comments URL: https://news.ycombinator.com/item?id=36587806
+Points: 2
+# Comments: 0]]></summary>
+        <author>
+            <name>weetniet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Llama.cpp now has a simple web UI for chat]]></title>
+        <id>https://news.ycombinator.com/item?id=36587461</id>
+        <link href="https://github.com/ggerganov/llama.cpp/pull/1998"/>
+        <updated>2023-07-04T14:47:08.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://github.com/ggerganov/llama.cpp/pull/1998
+Comments URL: https://news.ycombinator.com/item?id=36587461
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>wsgeorge</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Getting AI to bullshit for you]]></title>
+        <id>https://christianheilmann.com/?p=7832</id>
+        <link href="https://christianheilmann.com/2023/07/04/getting-ai-to-bullshit-for-you/"/>
+        <updated>2023-07-04T11:29:18.000Z</updated>
+        <summary type="html"><![CDATA[One thing I am not good at is write in superlatives about myself. That’s a good thing, I think? But often you are asked to big yourself up for some official publication or marketing materials. So I thought I give ChatGPT a go to turn a list of facts about myself into a big-up intro. […]]]></summary>
+        <author>
+            <name>Chris Heilmann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Can’t Design Chips Without People]]></title>
+        <id>https://news.ycombinator.com/item?id=36584360</id>
+        <link href="https://www.eetimes.com/ai-cant-design-chips-without-people/"/>
+        <updated>2023-07-04T09:48:06.000Z</updated>
+        <summary type="html"><![CDATA[Article URL: https://www.eetimes.com/ai-cant-design-chips-without-people/
+Comments URL: https://news.ycombinator.com/item?id=36584360
+Points: 1
+# Comments: 0]]></summary>
+        <author>
+            <name>JoachimS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sustainable Design Toolkits And Resources]]></title>
+        <id>https://smashingmagazine.com/2023/07/sustainable-design-toolkits-and-resources/</id>
+        <link href="https://smashingmagazine.com/2023/07/sustainable-design-toolkits-and-resources/"/>
+        <updated>2023-07-04T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How can we create products and experiences that don’t cause harm to the planet and to the people who use them? What do we need to consider to make more sustainable design decisions and reduce the carbon footprint of our websites? In this post, we compiled valuable resources that will get you familiar with the principles of sustainable design.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Cosima Mielke &amp; Geoff Graham)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are we cannibals?]]></title>
+        <id>https://seths.blog/?p=43731</id>
+        <link href="https://seths.blog/2023/07/we-are-cannibals/"/>
+        <updated>2023-07-04T08:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Part of the challenge of hanging out with cannibals is that it’s very difficult to get a good night’s sleep. The math of finding a group of people that cares about community is pretty compelling. While individual selfish choices might feel productive in the moment, if they undermine the health of the community, they’re ultimately […]]]></summary>
+        <author>
+            <name>Seth Godin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s next for Chris? I’ve got a new job!]]></title>
+        <id>https://christianheilmann.com/?p=7823</id>
+        <link href="https://christianheilmann.com/2023/07/04/whats-next-for-chris-ive-got-a-new-job/"/>
+        <updated>2023-07-04T07:58:26.000Z</updated>
+        <summary type="html"><![CDATA[In my last few posts and talks I covered my worries about the current job market in technology. Lots of people have been laid off in the last months and it is tough to find a role without making a lot of concessions. Every big tech company is slashing budgets and trying to save money […]]]></summary>
+        <author>
+            <name>Chris Heilmann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to sell design]]></title>
+        <id>https://heydesigner.com/?p=68486</id>
+        <link href="https://heydesigner.com/how-to-sell-design/"/>
+        <updated>2023-07-04T06:12:29.000Z</updated>
+        <summary type="html"><![CDATA[Writing about something is one of the best ways to learn about it. There’s something magical that happens when you change the way of communicating from visual to vocal.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[So where are we all supposed to go now?]]></title>
+        <id>WswaCNXv2FdXhQ3bf</id>
+        <link href="https://www.theverge.com/2023/7/3/23782607/social-web-public-apps-end-reddit-twitter-mastodon"/>
+        <updated>2023-07-04T06:11:19.000Z</updated>
+        <summary type="html"><![CDATA[Twitter’s dying, Reddit’s changing, everything else is entertainment – and there’s nowhere left to hang out.]]></summary>
+        <author>
+            <name>@verge</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI-powered tools for UX research: Issues and limitations]]></title>
+        <id>https://heydesigner.com/?p=68484</id>
+        <link href="https://heydesigner.com/ai-powered-tools-for-ux-research-issues-and-limitations/"/>
+        <updated>2023-07-04T06:10:31.000Z</updated>
+        <summary type="html"><![CDATA[Be skeptical of the marketing claims being made by AI tools designed for UX researchers. Many of these systems are not able to do everything they claim.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How one design studio crafted a brand campaign entirely from AI]]></title>
+        <id>iDKomnSN7kjZarueH</id>
+        <link href="https://www.fastcompany.com/90915469/design-studio-crafted-brand-campaign-entirely-from-ai"/>
+        <updated>2023-07-04T06:10:26.000Z</updated>
+        <summary type="html"><![CDATA[Design Army wanted to know if AI was a fad or the future—so it employed AI to design an entire campaign for a longtime client.]]></summary>
+        <author>
+            <name>@fastcodesign</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Product IA is hard to talk about]]></title>
+        <id>https://heydesigner.com/?p=68482</id>
+        <link href="https://heydesigner.com/product-ia-is-hard-to-talk-about/"/>
+        <updated>2023-07-04T06:09:35.000Z</updated>
+        <summary type="html"><![CDATA[The information architecture of products happens at a higher level of abstraction than the IA of web sites, and is therefore harder to recognize, acknowledge, and discuss.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding SVG paths]]></title>
+        <id>https://heydesigner.com/?p=68480</id>
+        <link href="https://heydesigner.com/understanding-svg-paths/"/>
+        <updated>2023-07-04T06:08:55.000Z</updated>
+        <summary type="html"><![CDATA[If you’ve ever looked at the SVG code for an icon before, you might have noticed that they’re usually made up of a bunch of path elements, each with a cryptic d attribute.]]></summary>
+        <author>
+            <name>Travis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Fake Aura of Care]]></title>
+        <id>98nt3eahDzdjJq6Yu</id>
+        <link href="https://fasterandworse.com/the-aura-of-care/"/>
+        <updated>2023-07-04T06:07:00.000Z</updated>
+        <summary type="html"><![CDATA[UX has an aura of empathy and care for the people who use tech products. Businesses capitalise on this aura without having to entertain it.]]></summary>
+        <author>
+            <name>@uxdesigncc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mosaic: Scalable, interactive data visualization]]></title>
+        <id>EdgGGRssq6wAQkYMF</id>
+        <link href="https://uwdata.github.io/mosaic/"/>
+        <updated>2023-07-04T06:05:35.000Z</updated>
+        <summary type="html"><![CDATA[Mosaic is an extensible framework for linking databases and interactive views.]]></summary>
+        <author>
+            <name>@uwdata</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Deep Dive Into SVG Path Commands]]></title>
+        <id>WBhLxJbFR6ec9gG5r</id>
+        <link href="https://www.nan.fyi/svg-paths"/>
+        <updated>2023-07-04T05:56:50.000Z</updated>
+        <summary type="html"><![CDATA[An interactive guide to understanding SVG paths and path commands.]]></summary>
+        <author>
+            <name>@nandafyi</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Show HN: WebCalm – Free JavaScript and CSS Support for JetBrains IDEs]]></title>
         <id>https://news.ycombinator.com/item?id=36577112</id>
@@ -8596,302 +8864,6 @@ Points: 6
 # Comments: 1]]></summary>
         <author>
             <name>khet</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Adapt Long-Page Designs for Better Scanning]]></title>
-        <id>https://unicornclub.dev/?p=12299</id>
-        <link href="https://unicornclub.dev/how-to-adapt-long-page-designs-for-better-scanning/"/>
-        <updated>2023-06-05T11:33:00.000Z</updated>
-        <summary type="html"><![CDATA[Design]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Adapt Long-Page Designs for Better Scanning]]></title>
-        <id>https://dailydevlinks.com/?p=12299</id>
-        <link href="https://dailydevlinks.com/how-to-adapt-long-page-designs-for-better-scanning/"/>
-        <updated>2023-06-05T11:33:00.000Z</updated>
-        <summary type="html"><![CDATA[Design]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The many ways to select the n-th character from a string.]]></title>
-        <id>https://unicornclub.dev/?p=12311</id>
-        <link href="https://unicornclub.dev/the-many-ways-to-select-the-n-th-character-from-a-string/"/>
-        <updated>2023-06-05T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[JS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[300ms Faster: Reducing Wikipedia’s Total Blocking Time]]></title>
-        <id>https://unicornclub.dev/?p=12305</id>
-        <link href="https://unicornclub.dev/300ms-faster-reducing-wikipedias-total-blocking-time/"/>
-        <updated>2023-06-05T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Performance]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Watch Out for Layout Shifts with ‘ch’ Units]]></title>
-        <id>https://unicornclub.dev/?p=12308</id>
-        <link href="https://unicornclub.dev/watch-out-for-layout-shifts-with-ch-units/"/>
-        <updated>2023-06-05T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Every design team needs writers]]></title>
-        <id>https://unicornclub.dev/?p=12302</id>
-        <link href="https://unicornclub.dev/every-design-team-needs-writers/"/>
-        <updated>2023-06-05T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Design]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The many ways to select the n-th character from a string.]]></title>
-        <id>https://dailydevlinks.com/?p=12311</id>
-        <link href="https://dailydevlinks.com/the-many-ways-to-select-the-n-th-character-from-a-string/"/>
-        <updated>2023-06-05T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[JS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Every design team needs writers]]></title>
-        <id>https://dailydevlinks.com/?p=12302</id>
-        <link href="https://dailydevlinks.com/every-design-team-needs-writers/"/>
-        <updated>2023-06-05T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Design]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Watch Out for Layout Shifts with ‘ch’ Units]]></title>
-        <id>https://dailydevlinks.com/?p=12308</id>
-        <link href="https://dailydevlinks.com/watch-out-for-layout-shifts-with-ch-units/"/>
-        <updated>2023-06-05T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CSS]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[300ms Faster: Reducing Wikipedia’s Total Blocking Time]]></title>
-        <id>https://dailydevlinks.com/?p=12305</id>
-        <link href="https://dailydevlinks.com/300ms-faster-reducing-wikipedias-total-blocking-time/"/>
-        <updated>2023-06-05T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Performance]]></summary>
-        <author>
-            <name>Adam Marsden</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Adapt Long-Page Designs for Better Scanning]]></title>
-        <id>potFbwypykuHvPWXJ</id>
-        <link href="https://www.chrbutler.com/adapt-long-page-designs-for-better-scanning"/>
-        <updated>2023-06-05T11:17:06.000Z</updated>
-        <summary type="html"><![CDATA[The longer your page, the harder it is to scan.]]></summary>
-        <author>
-            <name>Sidebar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[300ms Faster: Reducing Wikipedia’s Total Blocking Time]]></title>
-        <id>csEqPkaxQvoEwLrky</id>
-        <link href="https://www.nray.dev/blog/300ms-faster-reducing-wikipedias-total-blocking-time/"/>
-        <updated>2023-06-05T11:15:03.000Z</updated>
-        <summary type="html"><![CDATA[How two simple steps improved the responsiveness of Wikipedia’s mobile site.]]></summary>
-        <author>
-            <name>Sidebar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rooms.xyz]]></title>
-        <id>sYQLM4pHJP5bhvCz2</id>
-        <link href="https://rooms.xyz/"/>
-        <updated>2023-06-05T11:13:52.000Z</updated>
-        <summary type="html"><![CDATA[Create & remix interactive rooms from your browser]]></summary>
-        <author>
-            <name>Sidebar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Nike became the brand to imitate]]></title>
-        <id>nq3J5r67gHJTik64Q</id>
-        <link href="https://webflow.com/blog/nike-marketing-strategy"/>
-        <updated>2023-06-05T11:12:57.000Z</updated>
-        <summary type="html"><![CDATA[Lessons marketers can take from studying one of the world’s most iconic brands]]></summary>
-        <author>
-            <name>@webflow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Make Something Wonderful]]></title>
-        <id>oYYLZYyAR59m94Wd3</id>
-        <link href="https://www.arun.is/blog/make-something-wonderful/"/>
-        <updated>2023-06-05T11:11:41.000Z</updated>
-        <summary type="html"><![CDATA[A review of the physical and digital editions of Make Something Wonderful, a book dedicated to the words of Steve Jobs.]]></summary>
-        <author>
-            <name>@zhenpixels</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS Nesting]]></title>
-        <id>https://news.ycombinator.com/item?id=36194641</id>
-        <link href="https://robinrendle.com/notes/css-nesting/"/>
-        <updated>2023-06-05T10:49:05.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://robinrendle.com/notes/css-nesting/
-Comments URL: https://news.ycombinator.com/item?id=36194641
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>todsacerdoti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Primitive Objects In JavaScript: When To Use Them (Part 2)]]></title>
-        <id>https://smashingmagazine.com/2023/06/primitive-objects-javascript-part-2/</id>
-        <link href="https://smashingmagazine.com/2023/06/primitive-objects-javascript-part-2/"/>
-        <updated>2023-06-05T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In the second part of the series, Kirill looks at the usefulness of primitive objects, exploring how reducing capabilities could be a benefit for your project.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Kirill Myshkin)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Avoid false proxies]]></title>
-        <id>https://seths.blog/?p=45719</id>
-        <link href="https://seths.blog/2023/06/avoid-false-proxies/"/>
-        <updated>2023-06-05T08:49:00.000Z</updated>
-        <summary type="html"><![CDATA[They’re toxic, wasteful and a tempting trap. It’s one of the most important topics in my new book. (And here’s a new podcast on it). We need proxies. You’re not allowed to read the book before you buy it or taste the ketchup before you leave the store. We rely on labels and cultural cues […]]]></summary>
-        <author>
-            <name>Seth Godin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Photoshop solved working with files larger than can fit into memory]]></title>
-        <id>https://developer.chrome.com/en/blog/how-photoshop-solved-working-with-files-larger-than-can-fit-into-memory/</id>
-        <link href="https://developer.chrome.com/en/blog/how-photoshop-solved-working-with-files-larger-than-can-fit-into-memory/"/>
-        <updated>2023-06-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[# Introduction
-(This article is also available in form of a video.)
-  
-  
-
-In 2021, Adobe, together with Chrome engineering, brought a version of Photoshop to the web. The software makes innovative use of WebAssembly with features like SIMD, high performance storage in the origin private file system, the P3 color space for canvas, and Web Components with Lit. In this article, we want to focus on how Adobe Photoshop engineering solved working with files larger than can fit into memory. And, in the case of WebAssembly, how Photoshop works with files larger than the 32-bit address space of wasm32.
-# The problem
-Opening a file for editing requires a large amount of memory, significantly more than opening a file for viewing. The files edited in Photoshop often require more memory than a user ha…]]></summary>
-        <author>
-            <name>Chrome Developers - Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS snippet to hide HN posts of specified URL domain]]></title>
-        <id>https://news.ycombinator.com/item?id=36190183</id>
-        <link href="https://news.ycombinator.com/item?id=36190183"/>
-        <updated>2023-06-04T22:28:17.000Z</updated>
-        <summary type="html"><![CDATA[Via browser extensions like Stylish[0] etc.
-tr.athing:has(td a[href="substack.com"]), tr.athing:has(td a[href="substack.com"]) + tr, tr.athing:has(td a[href*="substack.com"]) + tr + tr.spacer {display:none !important;}
-The above example CSS rules hide all submitted posts that link to substack.com, including substack subdomains (and the immediately following "spacer" TR)
-Note: Be sure that your browser supports the :has() CSS pseudo-class.
-[0] https://addons.mozilla.org/en-US/firefox/addon/stylish/
-Comments URL: https://news.ycombinator.com/item?id=36190183
-Points: 4
-# Comments: 2]]></summary>
-        <author>
-            <name>slater</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long-page designs]]></title>
-        <id>https://heydesigner.com/?p=68270</id>
-        <link href="https://heydesigner.com/long-page-designs/"/>
-        <updated>2023-06-04T17:00:50.000Z</updated>
-        <summary type="html"><![CDATA[The longer your page, the harder it is to scan. Finding ways to consolidate content and shorten the page length will help focus your visitor’s attention and action.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Every design team needs writers]]></title>
-        <id>https://heydesigner.com/?p=68268</id>
-        <link href="https://heydesigner.com/every-design-team-needs-writers/"/>
-        <updated>2023-06-04T16:59:21.000Z</updated>
-        <summary type="html"><![CDATA[In my experience, successful teams have one thing in common. They keep the discipline of writing on equal footing with design.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What working at Figma taught me about customer obsession]]></title>
-        <id>https://heydesigner.com/?p=68266</id>
-        <link href="https://heydesigner.com/what-working-at-figma-taught-me-about-customer-obsession/"/>
-        <updated>2023-06-04T16:57:14.000Z</updated>
-        <summary type="html"><![CDATA[VP of Product Sho Kuwamoto on the importance of feel, service, and staying close to customers.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Make Something Wonderful]]></title>
-        <id>https://heydesigner.com/?p=68264</id>
-        <link href="https://heydesigner.com/make-something-wonderful/"/>
-        <updated>2023-06-04T16:53:06.000Z</updated>
-        <summary type="html"><![CDATA[A review of the physical and digital editions of Make Something Wonderful, a book dedicated to the words of Steve Jobs.]]></summary>
-        <author>
-            <name>Travis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Journal of Mechanism and Institution Design]]></title>
-        <id>https://news.ycombinator.com/item?id=36186828</id>
-        <link href="http://www.mechanism-design.org/"/>
-        <updated>2023-06-04T16:17:40.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: http://www.mechanism-design.org/
-Comments URL: https://news.ycombinator.com/item?id=36186828
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>abrax3141</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Manifesto for the Radical Redefinition of Design in the Age of AI]]></title>
-        <id>https://news.ycombinator.com/item?id=36185706</id>
-        <link href="https://bootcamp.uxdesign.cc/design-nouveau-630dfb1d1387?gi=4fa8ccc3d11a"/>
-        <updated>2023-06-04T14:06:09.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://bootcamp.uxdesign.cc/design-nouveau-630dfb1d1387?gi=4fa8ccc3d11a
-Comments URL: https://news.ycombinator.com/item?id=36185706
-Points: 1
-# Comments: 0]]></summary>
-        <author>
-            <name>chrbutler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What makes anti-design important in today’s context?]]></title>
-        <id>https://news.ycombinator.com/item?id=36185401</id>
-        <link href="https://antiantiart.co/what-makes-anti-design-important-in-todays-context-97a53eb101bc?gi=df9dbbaa9988"/>
-        <updated>2023-06-04T13:24:02.000Z</updated>
-        <summary type="html"><![CDATA[Article URL: https://antiantiart.co/what-makes-anti-design-important-in-todays-context-97a53eb101bc?gi=df9dbbaa9988
-Comments URL: https://news.ycombinator.com/item?id=36185401
-Points: 2
-# Comments: 1]]></summary>
-        <author>
-            <name>chrbutler</name>
         </author>
     </entry>
 </feed>

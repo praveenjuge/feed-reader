@@ -5,6 +5,185 @@
 <link rel="shortcut icon" href="https://praveenjuge.com/favicon.ico" />
 <style>body{margin:0 auto;max-width:50rem;padding:2rem;font-size:.85rem;line-height:1.6;color:#666;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,sans-serif}body>*,section>*{margin:1.5rem 0}section{overflow-x:hidden;border-radius:.25rem;background-color:#000;padding:1rem}div{display:flow-root;width:100%}p{margin:0}a{text-decoration:none;font-weight:500;color:#ccc}a:visited{color:#666}a:hover{color:#fff}img{float:right;margin-left:1rem;border-radius:.25rem;height:auto}</style>
 
+  <p>2023-07-04</p>
+    <section>
+      <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;icon&quot; &quot;typography&quot; &quot;wireframe&quot; &quot;illustration&quot;&quot;</p>
+        <div>
+            <img src="https://uploads-ssl.webflow.com/6266b595eef18c96eef938e2/6489b7c3d12047d8f5560700_ML%20use%20cases_linkedin-min.png" width="96" loading="lazy" />
+          <a href=https://www.evidentlyai.com/ml-system-design target="_blank">ML system design: 200 case studies to learn from</a>
+          <p>Article URL: https://www.evidentlyai.com/ml-system-design
+Comments URL: https://news.ycombinator.com/item?id&#x3D;36593713
+Points: 2
+# Comments: 0</p>
+        </div>
+        <div>
+          <a href=https://uidesignforengineers.com/ target="_blank">UI Design for Engineers</a>
+          <p>Article URL: https://uidesignforengineers.com
+Comments URL: https://news.ycombinator.com/item?id&#x3D;36588872
+Points: 1
+# Comments: 1</p>
+        </div>
+        <div>
+            <img src="https://framerusercontent.com/images/KcsL8hMatyYvbrqR2fHkPkrJVE.jpg" width="96" loading="lazy" />
+          <a href=https://buildwiththeta.com/blog/remote-design-systems-vs-app-builder target="_blank">Remote Design System vs. App Builder</a>
+          <p>Article URL: https://buildwiththeta.com/blog/remote-design-systems-vs-app-builder
+Comments URL: https://news.ycombinator.com/item?id&#x3D;36588526
+Points: 2
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://images.prismic.io/leancodelanding2/921f0367-dd68-40ea-84b6-da2031df42e2_1200x600_2.png?auto&#x3D;compress,format&amp;rect&#x3D;0,8,1201,586&amp;w&#x3D;1230&amp;h&#x3D;600" width="96" loading="lazy" />
+          <a href=https://leancode.co/blog/patrol-2-0-improved-flutter-ui-testing target="_blank">We 10x Improved Flutter UI Testing with Patrol 2.0</a>
+          <p>Article URL: https://leancode.co/blog/patrol-2-0-improved-flutter-ui-testing
+Comments URL: https://news.ycombinator.com/item?id&#x3D;36587806
+Points: 2
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://opengraph.githubassets.com/dbac60055f16c8d48c8e476a9d701aefa2e464e6356413471b7162db31678466/ggerganov/llama.cpp/pull/1998" width="96" loading="lazy" />
+          <a href=https://github.com/ggerganov/llama.cpp/pull/1998 target="_blank">Llama.cpp now has a simple web UI for chat</a>
+          <p>Article URL: https://github.com/ggerganov/llama.cpp/pull/1998
+Comments URL: https://news.ycombinator.com/item?id&#x3D;36587461
+Points: 1
+# Comments: 0</p>
+        </div>
+        <div>
+            <img src="https://www.eetimes.com/wp-content/uploads/AIchipdesign-covercarousel.jpg" width="96" loading="lazy" />
+          <a href=https://www.eetimes.com/ai-cant-design-chips-without-people/ target="_blank">AI Can’t Design Chips Without People</a>
+          <p>Article URL: https://www.eetimes.com/ai-cant-design-chips-without-people/
+Comments URL: https://news.ycombinator.com/item?id&#x3D;36584360
+Points: 1
+# Comments: 0</p>
+        </div>
+    </section>
+    <section>
+      <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot; &quot;html&quot;&quot;</p>
+        <div>
+          <a href=https://news.ycombinator.com/item?id&#x3D;36593583 target="_blank">Ask HN: How do you display HTML tables on any screen size?</a>
+          <p>For the longest time I hated how I could not easily make HTML tables that are showing nice excel like data (i.e. they are really correctly using table, tr, and td tags for data not layout) to look good on mobile.
+I finally have a solution I love. I keep using it over and over.
+headers :&#x3D; []string{&quot;name&quot;, &quot;age&quot;, &quot;species&quot;, &quot;home_planet&quot;, &quot;language&quot;, &quot;occupation&quot;}
+I define the headers and call:
+c.MakeCells(list, headers, &quot;_welcome&quot;)
+The list is an array of key values pairs, and _welcome is just the name of the view.
+{{ define &quot;_welcome_col1&quot; }}
+{{ $row :&#x3D; index . &quot;row&quot; }}
+{{ index $row &quot;name&quot; }}
+{{ end }}
+{{ define &quot;_welcome_col2&quot; }}
+{{ $row :&#x3D; index . &quot;row&quot; }}
+{{ index $row &quot;age&quot; }}
+{{ end }}
+etc.
+Then with tailwindcss I have:
+
+    {{ template &quot;_table_large&quot; . }}
+
+
+    {{ template &quot;_table_small&quot; . }}
+
+So I&#x27;m rendering both the tables on the page but only 1 will show depending on the size of the screen.
+And the logic in _table_small is the secret to the whole thing. Instead of displaying each row horizontally, it repeats the headers vertically as col1 and then col2 is each row value.
+You can see demo at https://many.pw/
+Just make the window smaller if you are on desktop and it will jump to the small version.
+Comments URL: https://news.ycombinator.com/item?id&#x3D;36593583
+Points: 1
+# Comments: 3</p>
+        </div>
+    </section>
+    <section>
+      <p>Hacker News - Newest: &quot;&quot;habit&quot; &quot;productivity&quot; &quot;stoic&quot; &quot;rss&quot;&quot;</p>
+        <div>
+          <a href=https://news.ycombinator.com/item?id&#x3D;36592614 target="_blank">Ask HN: What productivity hacks did you bring from other industries to yours?</a>
+          <p>Comments URL: https://news.ycombinator.com/item?id&#x3D;36592614
+Points: 5
+# Comments: 2</p>
+        </div>
+    </section>
+    <section>
+      <p>Adactio: Articles</p>
+        <div>
+            <img src="https://adactio.com/images/photo-300.jpg" width="96" loading="lazy" />
+          <a href=https://adactio.com/articles/20290 target="_blank">“Web3” and “AI”</a>
+          <p>A short talk delivered at a gathering in Brighton by the Design Business Association in July 2023 on the topic of “Web3, AI and Design”.</p>
+        </div>
+    </section>
+    <section>
+      <p>Christian Heilmann</p>
+        <div>
+          <a href=https://christianheilmann.com/2023/07/04/getting-ai-to-bullshit-for-you/ target="_blank">Getting AI to bullshit for you</a>
+          <p>One thing I am not good at is write in superlatives about myself. That’s a good thing, I think? But often you are asked to big yourself up for some official publication or marketing materials. So I thought I give ChatGPT a go to turn a list of facts about myself into a big-up intro. […]</p>
+        </div>
+        <div>
+          <a href=https://christianheilmann.com/2023/07/04/whats-next-for-chris-ive-got-a-new-job/ target="_blank">What’s next for Chris? I’ve got a new job!</a>
+          <p>In my last few posts and talks I covered my worries about the current job market in technology. Lots of people have been laid off in the last months and it is tough to find a role without making a lot of concessions. Every big tech company is slashing budgets and trying to save money […]</p>
+        </div>
+    </section>
+    <section>
+      <p>Articles on Smashing Magazine — For Web Designers And Developers</p>
+        <div>
+            <img src="http://files.smashing.media/articles/sustainable-design-toolkits/sustainability-innovation-framework-opt.png" width="96" loading="lazy" />
+          <a href=https://smashingmagazine.com/2023/07/sustainable-design-toolkits-and-resources/ target="_blank">Sustainable Design Toolkits And Resources</a>
+          <p>How can we create products and experiences that don’t cause harm to the planet and to the people who use them? What do we need to consider to make more sustainable design decisions and reduce the carbon footprint of our websites? In this post, we compiled valuable resources that will get you familiar with the principles of sustainable design.</p>
+        </div>
+    </section>
+    <section>
+      <p>Seth&#x27;s Blog</p>
+        <div>
+            <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806133-1.jpg" width="96" loading="lazy" />
+          <a href=https://seths.blog/2023/07/we-are-cannibals/ target="_blank">Are we cannibals?</a>
+          <p>Part of the challenge of hanging out with cannibals is that it’s very difficult to get a good night’s sleep. The math of finding a group of people that cares about community is pretty compelling. While individual selfish choices might feel productive in the moment, if they undermine the health of the community, they’re ultimately […]</p>
+        </div>
+    </section>
+    <section>
+      <p>HeyDesigner</p>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/how-to-sell-design/ target="_blank">How to sell design</a>
+          <p>Writing about something is one of the best ways to learn about it. There’s something magical that happens when you change the way of communicating from visual to vocal.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/ai-powered-tools-for-ux-research-issues-and-limitations/ target="_blank">AI-powered tools for UX research: Issues and limitations</a>
+          <p>Be skeptical of the marketing claims being made by AI tools designed for UX researchers. Many of these systems are not able to do everything they claim.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/product-ia-is-hard-to-talk-about/ target="_blank">Product IA is hard to talk about</a>
+          <p>The information architecture of products happens at a higher level of abstraction than the IA of web sites, and is therefore harder to recognize, acknowledge, and discuss.</p>
+        </div>
+        <div>
+            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
+          <a href=https://heydesigner.com/understanding-svg-paths/ target="_blank">Understanding SVG paths</a>
+          <p>If you’ve ever looked at the SVG code for an icon before, you might have noticed that they’re usually made up of a bunch of path elements, each with a cryptic d attribute.</p>
+        </div>
+    </section>
+    <section>
+      <p>Sidebar</p>
+        <div>
+            <img src="https://cdn.vox-cdn.com/thumbor/nqgJRJCkAkPue64Fr7vB85U2wDE&#x3D;/0x0:4288x2848/1200x628/filters:focal(2144x1424:2145x1425)/cdn.vox-cdn.com/uploads/chorus_asset/file/24767998/868706204.jpg" width="96" loading="lazy" />
+          <a href=https://www.theverge.com/2023/7/3/23782607/social-web-public-apps-end-reddit-twitter-mastodon target="_blank">So where are we all supposed to go now?</a>
+          <p>Twitter’s dying, Reddit’s changing, everything else is entertainment – and there’s nowhere left to hang out.</p>
+        </div>
+        <div>
+          <a href=https://www.fastcompany.com/90915469/design-studio-crafted-brand-campaign-entirely-from-ai target="_blank">How one design studio crafted a brand campaign entirely from AI</a>
+          <p>Design Army wanted to know if AI was a fad or the future—so it employed AI to design an entire campaign for a longtime client.</p>
+        </div>
+        <div>
+            <img src="https://fasterandworse.com/wp-content/uploads/2023/06/the-aura-of-care-opengraph-1.png" width="96" loading="lazy" />
+          <a href=https://fasterandworse.com/the-aura-of-care/ target="_blank">The Fake Aura of Care</a>
+          <p>UX has an aura of empathy and care for the people who use tech products. Businesses capitalise on this aura without having to entertain it.</p>
+        </div>
+        <div>
+          <a href=https://uwdata.github.io/mosaic/ target="_blank">Mosaic: Scalable, interactive data visualization</a>
+          <p>Mosaic is an extensible framework for linking databases and interactive views.</p>
+        </div>
+        <div>
+            <img src="/_next/static/media/metadata/opengraph-image.e48e994a.png" width="96" loading="lazy" />
+          <a href=https://www.nan.fyi/svg-paths target="_blank">A Deep Dive Into SVG Path Commands</a>
+          <p>An interactive guide to understanding SVG paths and path commands.</p>
+        </div>
+    </section>
   <p>2023-07-03</p>
     <section>
       <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot; &quot;html&quot;&quot;</p>
@@ -5582,184 +5761,5 @@ Points: 6
             <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
           <a href=https://heydesigner.com/design-token-visualiser-by-adobe/ target="_blank">Design token visualiser by Adobe</a>
           <p>This tool allows you to organically explore the relationship between these tokens by directly selecting tokens to expand their connections, filtering displayed values and connections by scale and theme, and by directly searching for token names or values.</p>
-        </div>
-    </section>
-    <section>
-      <p>Unicorn Club</p>
-        <div>
-          <a href=https://unicornclub.dev/how-to-adapt-long-page-designs-for-better-scanning/ target="_blank">How to Adapt Long-Page Designs for Better Scanning</a>
-          <p>Design</p>
-        </div>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/how-to-adapt-long-page-designs-for-better-scanning/ target="_blank">How to Adapt Long-Page Designs for Better Scanning</a>
-          <p>Design</p>
-        </div>
-        <div>
-          <a href=https://unicornclub.dev/the-many-ways-to-select-the-n-th-character-from-a-string/ target="_blank">The many ways to select the n-th character from a string.</a>
-          <p>JS</p>
-        </div>
-        <div>
-          <a href=https://unicornclub.dev/300ms-faster-reducing-wikipedias-total-blocking-time/ target="_blank">300ms Faster: Reducing Wikipedia’s Total Blocking Time</a>
-          <p>Performance</p>
-        </div>
-        <div>
-          <a href=https://unicornclub.dev/watch-out-for-layout-shifts-with-ch-units/ target="_blank">Watch Out for Layout Shifts with ‘ch’ Units</a>
-          <p>CSS</p>
-        </div>
-        <div>
-          <a href=https://unicornclub.dev/every-design-team-needs-writers/ target="_blank">Every design team needs writers</a>
-          <p>Design</p>
-        </div>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/the-many-ways-to-select-the-n-th-character-from-a-string/ target="_blank">The many ways to select the n-th character from a string.</a>
-          <p>JS</p>
-        </div>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/every-design-team-needs-writers/ target="_blank">Every design team needs writers</a>
-          <p>Design</p>
-        </div>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/watch-out-for-layout-shifts-with-ch-units/ target="_blank">Watch Out for Layout Shifts with ‘ch’ Units</a>
-          <p>CSS</p>
-        </div>
-        <div>
-            <img src="https://dailydevlinks.com/wp-content/uploads/2023/04/share-again-1200x675.png" width="96" loading="lazy" />
-          <a href=https://dailydevlinks.com/300ms-faster-reducing-wikipedias-total-blocking-time/ target="_blank">300ms Faster: Reducing Wikipedia’s Total Blocking Time</a>
-          <p>Performance</p>
-        </div>
-    </section>
-    <section>
-      <p>Sidebar</p>
-        <div>
-          <a href=https://www.chrbutler.com/adapt-long-page-designs-for-better-scanning target="_blank">How to Adapt Long-Page Designs for Better Scanning</a>
-          <p>The longer your page, the harder it is to scan.</p>
-        </div>
-        <div>
-            <img src="https://www.nray.dev/covers/clock-in-pastel-background.jpg" width="96" loading="lazy" />
-          <a href=https://www.nray.dev/blog/300ms-faster-reducing-wikipedias-total-blocking-time/ target="_blank">300ms Faster: Reducing Wikipedia’s Total Blocking Time</a>
-          <p>How two simple steps improved the responsiveness of Wikipedia’s mobile site.</p>
-        </div>
-        <div>
-          <a href=https://rooms.xyz/ target="_blank">Rooms.xyz</a>
-          <p>Create &amp; remix interactive rooms from your browser</p>
-        </div>
-        <div>
-            <img src="https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/6478c53cd43d47f1dd749e33_nike.png" width="96" loading="lazy" />
-          <a href=https://webflow.com/blog/nike-marketing-strategy target="_blank">How Nike became the brand to imitate</a>
-          <p>Lessons marketers can take from studying one of the world’s most iconic brands</p>
-        </div>
-        <div>
-            <img src="https://www.arun.is/static/9c2a0ab097e6d861d0fcc215f22df69e/social.jpg" width="96" loading="lazy" />
-          <a href=https://www.arun.is/blog/make-something-wonderful/ target="_blank">Make Something Wonderful</a>
-          <p>A review of the physical and digital editions of Make Something Wonderful, a book dedicated to the words of Steve Jobs.</p>
-        </div>
-    </section>
-    <section>
-      <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot; &quot;html&quot;&quot;</p>
-        <div>
-          <a href=https://robinrendle.com/notes/css-nesting/ target="_blank">CSS Nesting</a>
-          <p>Article URL: https://robinrendle.com/notes/css-nesting/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;36194641
-Points: 1
-# Comments: 0</p>
-        </div>
-    </section>
-    <section>
-      <p>Articles on Smashing Magazine — For Web Designers And Developers</p>
-        <div>
-            <img src="http://files.smashing.media/articles/primitive-objects-javascript-part-2/primitive-objects-javascript-part-2.jpg" width="96" loading="lazy" />
-          <a href=https://smashingmagazine.com/2023/06/primitive-objects-javascript-part-2/ target="_blank">Primitive Objects In JavaScript: When To Use Them (Part 2)</a>
-          <p>In the second part of the series, Kirill looks at the usefulness of primitive objects, exploring how reducing capabilities could be a benefit for your project.</p>
-        </div>
-    </section>
-    <section>
-      <p>Seth&#x27;s Blog</p>
-        <div>
-            <img src="https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg" width="96" loading="lazy" />
-          <a href=https://seths.blog/2023/06/avoid-false-proxies/ target="_blank">Avoid false proxies</a>
-          <p>They’re toxic, wasteful and a tempting trap. It’s one of the most important topics in my new book. (And here’s a new podcast on it). We need proxies. You’re not allowed to read the book before you buy it or taste the ketchup before you leave the store. We rely on labels and cultural cues […]</p>
-        </div>
-    </section>
-    <section>
-      <p>Chrome Developers - Blog</p>
-        <div>
-            <img src="https://wd.imgix.net/image/8WbTDNrhLsU0El80frMBGE4eMCD3/tTlvAYtbWrg8xLqXdjua.png?auto&#x3D;format&amp;w&#x3D;1521" width="96" loading="lazy" />
-          <a href=https://developer.chrome.com/en/blog/how-photoshop-solved-working-with-files-larger-than-can-fit-into-memory/ target="_blank">How Photoshop solved working with files larger than can fit into memory</a>
-          <p># Introduction
-(This article is also available in form of a video.)
-  
-  
-
-In 2021, Adobe, together with Chrome engineering, brought a version of Photoshop to the web. The software makes innovative use of WebAssembly with features like SIMD, high performance storage in the origin private file system, the P3 color space for canvas, and Web Components with Lit. In this article, we want to focus on how Adobe Photoshop engineering solved working with files larger than can fit into memory. And, in the case of WebAssembly, how Photoshop works with files larger than the 32-bit address space of wasm32.
-# The problem
-Opening a file for editing requires a large amount of memory, significantly more than opening a file for viewing. The files edited in Photoshop often require more memory than a user ha…</p>
-        </div>
-    </section>
-  <p>2023-06-04</p>
-    <section>
-      <p>Hacker News - Newest: &quot;&quot;tailwind&quot; &quot;tailwindcss&quot; &quot;CSS&quot; &quot;html&quot;&quot;</p>
-        <div>
-          <a href=https://news.ycombinator.com/item?id&#x3D;36190183 target="_blank">CSS snippet to hide HN posts of specified URL domain</a>
-          <p>Via browser extensions like Stylish[0] etc.
-tr.athing:has(td a[href&#x3D;&quot;substack.com&quot;]), tr.athing:has(td a[href&#x3D;&quot;substack.com&quot;]) + tr, tr.athing:has(td a[href*&#x3D;&quot;substack.com&quot;]) + tr + tr.spacer {display:none !important;}
-The above example CSS rules hide all submitted posts that link to substack.com, including substack subdomains (and the immediately following &quot;spacer&quot; TR)
-Note: Be sure that your browser supports the :has() CSS pseudo-class.
-[0] https://addons.mozilla.org/en-US/firefox/addon/stylish/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;36190183
-Points: 4
-# Comments: 2</p>
-        </div>
-    </section>
-    <section>
-      <p>HeyDesigner</p>
-        <div>
-            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
-          <a href=https://heydesigner.com/long-page-designs/ target="_blank">Long-page designs</a>
-          <p>The longer your page, the harder it is to scan. Finding ways to consolidate content and shorten the page length will help focus your visitor’s attention and action.</p>
-        </div>
-        <div>
-            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
-          <a href=https://heydesigner.com/every-design-team-needs-writers/ target="_blank">Every design team needs writers</a>
-          <p>In my experience, successful teams have one thing in common. They keep the discipline of writing on equal footing with design.</p>
-        </div>
-        <div>
-            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
-          <a href=https://heydesigner.com/what-working-at-figma-taught-me-about-customer-obsession/ target="_blank">What working at Figma taught me about customer obsession</a>
-          <p>VP of Product Sho Kuwamoto on the importance of feel, service, and staying close to customers.</p>
-        </div>
-        <div>
-            <img src="https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9" width="96" loading="lazy" />
-          <a href=https://heydesigner.com/make-something-wonderful/ target="_blank">Make Something Wonderful</a>
-          <p>A review of the physical and digital editions of Make Something Wonderful, a book dedicated to the words of Steve Jobs.</p>
-        </div>
-    </section>
-    <section>
-      <p>Hacker News - Newest: &quot;&quot;design&quot; &quot;ux&quot; &quot;ui&quot; &quot;icon&quot; &quot;typography&quot; &quot;wireframe&quot; &quot;illustration&quot;&quot;</p>
-        <div>
-          <a href=http://www.mechanism-design.org/ target="_blank">Journal of Mechanism and Institution Design</a>
-          <p>Article URL: http://www.mechanism-design.org/
-Comments URL: https://news.ycombinator.com/item?id&#x3D;36186828
-Points: 1
-# Comments: 0</p>
-        </div>
-        <div>
-            <img src="https://miro.medium.com/v2/resize:fit:1200/1*lLzBxLS4KPR69gRMx16CSg.png" width="96" loading="lazy" />
-          <a href=https://bootcamp.uxdesign.cc/design-nouveau-630dfb1d1387?gi&#x3D;4fa8ccc3d11a target="_blank">A Manifesto for the Radical Redefinition of Design in the Age of AI</a>
-          <p>Article URL: https://bootcamp.uxdesign.cc/design-nouveau-630dfb1d1387?gi&#x3D;4fa8ccc3d11a
-Comments URL: https://news.ycombinator.com/item?id&#x3D;36185706
-Points: 1
-# Comments: 0</p>
-        </div>
-        <div>
-            <img src="https://miro.medium.com/v2/resize:fit:800/1*x55w7_55jrEhGbU7uVIRSw.jpeg" width="96" loading="lazy" />
-          <a href=https://antiantiart.co/what-makes-anti-design-important-in-todays-context-97a53eb101bc?gi&#x3D;df9dbbaa9988 target="_blank">What makes anti-design important in today’s context?</a>
-          <p>Article URL: https://antiantiart.co/what-makes-anti-design-important-in-todays-context-97a53eb101bc?gi&#x3D;df9dbbaa9988
-Comments URL: https://news.ycombinator.com/item?id&#x3D;36185401
-Points: 2
-# Comments: 1</p>
         </div>
     </section>
