@@ -169,18 +169,7 @@
       "title": "A List Apart: The Full Feed",
       "feedUrl": "https://alistapart.com/main/feed/",
       "siteUrl": "https://alistapart.com",
-      "articles": [
-        {
-          "id": "https://alistapart.com/article/humility-an-essential-value/",
-          "author": "by",
-          "description": "Humility, a designer’s essential value—that has a nice ring to it. What about humility, an office manager’s essential value? Or a dentist’s? Or a librarian’s? They all sound great. When humility is our guiding light, the path is always open for fulfillment, evolution, connection, and engagement. In this chapter, we’re going to talk about why.\nThat said, this is a book for designers, and to that end, I’d like to start with a story—well, a journey, really. It’s a personal one, and I’m going to make myself a bit vulnerable along the way. I call it:\nThe Tale of Justin’s Preposterous Pate\nWhen I was coming out of art school, a long-haired, goateed neophyte, print was a known quantity to me; design on the web, however, was rife with complexities to navigate and discover, a problem to be solved. …",
-          "link": "https://alistapart.com/article/humility-an-essential-value/",
-          "publishedOn": "2023-06-22T13:00:00.000Z",
-          "wordCount": 3968,
-          "title": "Humility: An Essential Value",
-          "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2018/12/excerptillustration_300.png?fit=1200%2C586&ssl=1"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Axess Lab",
@@ -897,36 +886,6 @@
           "wordCount": 3237,
           "title": "Behind The Curtains Of Wikipedia Redesign",
           "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
-        },
-        {
-          "id": "https://unicornclub.dev/?p=12438",
-          "author": "Adam Marsden",
-          "description": "SVGTool",
-          "link": "https://unicornclub.dev/flowbite-icons-open-source-svg-icons/",
-          "publishedOn": "2023-06-23T11:35:00.000Z",
-          "wordCount": 3231,
-          "title": "Flowbite Icons – Open-source SVG icons",
-          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
-        },
-        {
-          "id": "https://unicornclub.dev/?p=12435",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://unicornclub.dev/fit-to-width-text/",
-          "publishedOn": "2023-06-23T11:31:00.000Z",
-          "wordCount": 3217,
-          "title": "Fit-to-Width Text",
-          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
-        },
-        {
-          "id": "https://unicornclub.dev/?p=12432",
-          "author": "Adam Marsden",
-          "description": "Design",
-          "link": "https://unicornclub.dev/designing-for-visionos/",
-          "publishedOn": "2023-06-23T11:28:00.000Z",
-          "wordCount": 3217,
-          "title": "Designing for visionOS",
-          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
         }
       ]
     },
@@ -1021,6 +980,16 @@
       "feedUrl": "https://developer.chrome.com/feeds/blog.xml",
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
+        {
+          "id": "https://developer.chrome.com/en/blog/fedcm-chrome-116-updates/",
+          "author": null,
+          "description": "In Chrome 116, Chrome is shipping the following three new Federated Credential\nManagement (FedCM)\nfeatures:\nLogin Hint API: Specify a preferred user account to be\nsigned in.\nUser Info API: Fetch the information of the returning user\nso that the identity provider (IdP) can render a personalized sign-in button\nwithin an iframe.\nRP Context API: Use a title different from 'Sign in'  in\nthe FedCM dialog.\nAdditionally, Chrome is starting an origin\ntrial for the IdP Sign-In Status\nAPI. The IdP Sign-in Status API is a requirement and will be a\nbreaking change when it's shipped. If you have an existing implementation of\nFedCM, make sure to participate in the origin trial.\n# Login Hint API\nWhen FedCM is invoked, the browser shows the signed-in account from the\nspecified identity provider (IdP). When…",
+          "link": "https://developer.chrome.com/en/blog/fedcm-chrome-116-updates/",
+          "publishedOn": "2023-07-21T00:00:00.000Z",
+          "wordCount": 2871,
+          "title": "FedCM updates: IdP Sign-In Status API, Login Hint, and more",
+          "imageUrl": "https://wd.imgix.net/image/YLflGBAPWecgtKJLqCJHSzHqe2J2/n09K1iWRmDWNFzb2A2y7.jpg?auto=format&w=1521"
+        },
         {
           "id": "https://developer.chrome.com/en/blog/webgpu-cross-platform/",
           "author": null,
@@ -1150,16 +1119,6 @@
           "wordCount": 2402,
           "title": "Better full screen mode with the Keyboard Lock API",
           "imageUrl": "https://wd.imgix.net/image/fuiz5I8Iv7bV8YbrK2PKiY3Vask2/iGPiWTtoy7iF932Xday1.png?auto=format&w=1521"
-        },
-        {
-          "id": "https://developer.chrome.com/en/blog/new-in-devtools-116/",
-          "author": null,
-          "description": "Interested in helping improve DevTools? Sign up to participate in Google User Research here.\nThere is no 'What's new in DevTools' video for this release, but you can watch this quick recap of the recent features.\n  \n  \n\n\n# Improved debugging of missing stylesheets\nDevTools gets a number of improvements to help you identify and debug issues with missing stylesheets faster:\nThe Sources > Page tree now shows only the successfully deployed and loaded stylesheets to minimize confusion.\nThe Sources > Editor now underlines and shows inline error tooltips next to failed @import, url(), and href statements.\nThe Console, in addition to links to failed requests, now provides links to the exact line that references a stylesheet that failed to load.\nThe Network panel consistently populates the Initiato…",
-          "link": "https://developer.chrome.com/en/blog/new-in-devtools-116/",
-          "publishedOn": "2023-06-23T00:00:00.000Z",
-          "wordCount": 4171,
-          "title": "What's New in DevTools (Chrome 116)",
-          "imageUrl": "https://wd.imgix.net/image/NJdAV9UgKuN8AhoaPBquL7giZQo1/AcuNkf8XxCL3z5qSfzBS.png?auto=format&w=1521"
         }
       ]
     },
@@ -1886,46 +1845,6 @@
           "wordCount": 209,
           "title": "The structure of digital design revolutions",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=68421",
-          "author": "Travis",
-          "description": "Some design terms have a useful meaning, but aren’t in common use. Here’s a collection of the terms I’ve come across.",
-          "link": "https://heydesigner.com/uncommon-but-useful-design-terms/",
-          "publishedOn": "2023-06-23T10:32:29.000Z",
-          "wordCount": 206,
-          "title": "Uncommon but useful design terms",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=68419",
-          "author": "Travis",
-          "description": "This year, 2023, marks the first Wikipedia redesign since 2014. Alex Hollender and Jon Robson led the effort and were kind enough to discuss it with us.",
-          "link": "https://heydesigner.com/behind-the-curtains-of-wikipedia-redesign/",
-          "publishedOn": "2023-06-23T10:31:22.000Z",
-          "wordCount": 209,
-          "title": "Behind the curtains of Wikipedia redesign",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=68417",
-          "author": "Travis",
-          "description": "If we are always students of our craft, we are also continually making ourselves available to evolve.",
-          "link": "https://heydesigner.com/humility-an-essential-value/",
-          "publishedOn": "2023-06-23T10:27:30.000Z",
-          "wordCount": 199,
-          "title": "Humility: An essential value",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=68414",
-          "author": "Travis",
-          "description": "Nikolas ‘Niko’ Klein, a product designer at Figma since ’18. Focuses on Prototyping with contributions to Smart animate, Variants, and Interactive components.",
-          "link": "https://heydesigner.com/interview-with-nikolas-klein-product-designer-at-figma/",
-          "publishedOn": "2023-06-23T10:26:19.000Z",
-          "wordCount": 212,
-          "title": "Interview with Nikolas Klein, product designer at Figma",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -1934,6 +1853,16 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36824999",
+          "author": "thunderbong",
+          "description": "Article URL: https://www.srdesign.org/post/wordpress-is-planning-a-complete-admin-ui-revamp-transforming-the-traditional-dashboard-experience\nComments URL: https://news.ycombinator.com/item?id=36824999\nPoints: 2\n# Comments: 0",
+          "link": "https://www.srdesign.org/post/wordpress-is-planning-a-complete-admin-ui-revamp-transforming-the-traditional-dashboard-experience",
+          "publishedOn": "2023-07-22T10:19:36.000Z",
+          "wordCount": 15156,
+          "title": "WordPress Is Planning a Complete Admin UI Revamp, Transforming the Dashboard",
+          "imageUrl": "https://static.wixstatic.com/media/9e4663_d8bdbc11e94340d3a5f6e10411ed5d03~mv2.png/v1/fill/w_1000,h_1000,al_c,q_90,usm_0.66_1.00_0.01/9e4663_d8bdbc11e94340d3a5f6e10411ed5d03~mv2.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36818979",
           "author": "coyleandrew",
@@ -4063,126 +3992,6 @@
           "wordCount": 470,
           "title": "Ansible Semaphore – a modern open-source UI for Ansible",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36445109",
-          "author": "boraoztunc",
-          "description": "Article URL: https://www.1984.design/c/discussions/5w2h-framework-a-powerful-tool-for-product-discovery-in-design\nComments URL: https://news.ycombinator.com/item?id=36445109\nPoints: 1\n# Comments: 0",
-          "link": "https://www.1984.design/c/discussions/5w2h-framework-a-powerful-tool-for-product-discovery-in-design",
-          "publishedOn": "2023-06-23T10:46:31.000Z",
-          "wordCount": 1068,
-          "title": "5W2H Framework: A powerful tool for product discovery in design",
-          "imageUrl": "https://d2y5h3osumboay.cloudfront.net/vboqbbxfjuhd0jw0mrdrvxcww78z"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36445093",
-          "author": "signa11",
-          "description": "Article URL: https://computeradsfromthepast.substack.com/p/byte-interview-with-the-creators\nComments URL: https://news.ycombinator.com/item?id=36445093\nPoints: 21\n# Comments: 1",
-          "link": "https://computeradsfromthepast.substack.com/p/byte-interview-with-the-creators",
-          "publishedOn": "2023-06-23T10:44:13.000Z",
-          "wordCount": 18921,
-          "title": "An Interview: The Macintosh Design Team (1984)",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09e9ab6f-1fa7-4f4e-a211-07b6a921ba9c_500x687.jpeg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36444837",
-          "author": "rosaline149",
-          "description": "Article URL: https://hackernoon.com/debugging-user-interface-ui-issues-in-mobile-apps-a-comprehensive-guide\nComments URL: https://news.ycombinator.com/item?id=36444837\nPoints: 3\n# Comments: 1",
-          "link": "https://hackernoon.com/debugging-user-interface-ui-issues-in-mobile-apps-a-comprehensive-guide",
-          "publishedOn": "2023-06-23T10:04:34.000Z",
-          "wordCount": 13340,
-          "title": "Debugging User Interface (UI) Issues in Mobile Apps: A Comprehensive Guide",
-          "imageUrl": "https://hackernoon.imgix.net/images/dYS1YGEDJnYvNorgqqKV2VUHJ7e2-ik93qgt.jpeg?mark-pad=0&mark=http://hackernoon.imgix.net/HackerNoon%20Rounded%20Horizontal.png?w=400"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36444386",
-          "author": "jakey_bakey",
-          "description": "Article URL: https://jacobbartlett.substack.com/p/enums-and-design-systems\nComments URL: https://news.ycombinator.com/item?id=36444386\nPoints: 1\n# Comments: 0",
-          "link": "https://jacobbartlett.substack.com/p/enums-and-design-systems",
-          "publishedOn": "2023-06-23T08:51:59.000Z",
-          "wordCount": 4160,
-          "title": "Learn to Implement Progressive Disclosure in Your Design Systems",
-          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ff74cca-d79e-4bf5-824f-791bd1f05947_786x612.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36441889",
-          "author": "asnyder",
-          "description": "Article URL: https://www.nytimes.com/2023/06/22/science/james-cameron-titanic-submersible.html\nComments URL: https://news.ycombinator.com/item?id=36441889\nPoints: 9\n# Comments: 2",
-          "link": "https://www.nytimes.com/2023/06/22/science/james-cameron-titanic-submersible.html",
-          "publishedOn": "2023-06-23T01:55:55.000Z",
-          "wordCount": null,
-          "title": "Director and deep-sea explorer James Cameron points to flaws in Titan design",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36440568",
-          "author": "syngrog66",
-          "description": "Article URL: https://synystron.substack.com/p/deepsea-challenger-design-vs-titan\nComments URL: https://news.ycombinator.com/item?id=36440568\nPoints: 1\n# Comments: 1",
-          "link": "https://synystron.substack.com/p/deepsea-challenger-design-vs-titan",
-          "publishedOn": "2023-06-22T23:17:35.000Z",
-          "wordCount": 1415,
-          "title": "Deepsea Challenger Design vs. Titan, and Lessons?",
-          "imageUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fsynystron.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1149332841%26version%3D9"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36438240",
-          "author": "dustingetz",
-          "description": "Article URL: https://precursorapp.com/blog/clojure-is-a-product-design-tool\nComments URL: https://news.ycombinator.com/item?id=36438240\nPoints: 83\n# Comments: 16",
-          "link": "https://precursorapp.com/blog/clojure-is-a-product-design-tool",
-          "publishedOn": "2023-06-22T20:16:07.000Z",
-          "wordCount": 1023,
-          "title": "Clojure is a product design tool (2015)",
-          "imageUrl": "https://dtwdl3ecuoduc.cloudfront.net/blog/clojurescript-is-a-design-tool/illustrator-onoff.gif"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36435229",
-          "author": "Jackobrien",
-          "description": "Article URL: https://lowtech.ai/blog/hide-your-prompt-a-better-ux-for-sharing-simple-ai-tools\nComments URL: https://news.ycombinator.com/item?id=36435229\nPoints: 1\n# Comments: 0",
-          "link": "https://lowtech.ai/blog/hide-your-prompt-a-better-ux-for-sharing-simple-ai-tools",
-          "publishedOn": "2023-06-22T17:00:02.000Z",
-          "wordCount": 2241,
-          "title": "Hide Your Prompt: A Better UX for Sharing Simple AI Tools",
-          "imageUrl": "https://cdn.sanity.io/images/27n1nnfh/production/5ce4aa79e2a188da3c6e845054a3be642a599f64-2110x926.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36434128",
-          "author": "jandeboevrie",
-          "description": "Article URL: https://it-tools.tech\nComments URL: https://news.ycombinator.com/item?id=36434128\nPoints: 1\n# Comments: 0",
-          "link": "https://it-tools.tech/",
-          "publishedOn": "2023-06-22T15:55:07.000Z",
-          "wordCount": 10,
-          "title": "Collection of handy online tools for developers, open source with great UX",
-          "imageUrl": "https://it-tools.tech/banner.png?v=2"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36433874",
-          "author": "qkeast",
-          "description": "Article URL: https://quinnkeast.com/writing/design-syntropy\nComments URL: https://news.ycombinator.com/item?id=36433874\nPoints: 1\n# Comments: 0",
-          "link": "https://quinnkeast.com/writing/design-syntropy",
-          "publishedOn": "2023-06-22T15:40:46.000Z",
-          "wordCount": 883,
-          "title": "Design Syntropy",
-          "imageUrl": "https://quinnkeast.com/assets/writing/vincent-botta-84PTCoyzRBA-unsplash.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36432007",
-          "author": "laacz",
-          "description": "Article URL: https://systemdesign.one/slack-architecture/\nComments URL: https://news.ycombinator.com/item?id=36432007\nPoints: 1\n# Comments: 0",
-          "link": "https://systemdesign.one/slack-architecture/",
-          "publishedOn": "2023-06-22T13:40:29.000Z",
-          "wordCount": 8732,
-          "title": "Slack Architecture – Slack System Design",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36431761",
-          "author": "simonhamp",
-          "description": "Article URL: https://devdojo.com/pines\nComments URL: https://news.ycombinator.com/item?id=36431761\nPoints: 2\n# Comments: 0",
-          "link": "https://devdojo.com/pines",
-          "publishedOn": "2023-06-22T13:21:52.000Z",
-          "wordCount": null,
-          "title": "Pines: A beautiful UI library for Alpine and Tailwind",
-          "imageUrl": null
         }
       ]
     },
@@ -4191,6 +4000,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36827995",
+          "author": "argh2_d2",
+          "description": "Article URL: https://myndmap.uk\nComments URL: https://news.ycombinator.com/item?id=36827995\nPoints: 3\n# Comments: 0",
+          "link": "https://myndmap.uk/",
+          "publishedOn": "2023-07-22T17:22:42.000Z",
+          "wordCount": 11961,
+          "title": "MyndMap – AI-Powered Productivity for People with ADHD",
+          "imageUrl": "https://myndmap.uk/assets/images/share.jpg?v=72b806ba"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36815071",
           "author": "dannylmathews",
@@ -4858,6 +4677,16 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36824595",
+          "author": "underpig1",
+          "description": "Article URL: https://github.com/underpig1/octos\nComments URL: https://news.ycombinator.com/item?id=36824595\nPoints: 139\n# Comments: 37",
+          "link": "https://github.com/underpig1/octos",
+          "publishedOn": "2023-07-22T08:56:14.000Z",
+          "wordCount": 1094,
+          "title": "Octos – HTML live wallpaper engine",
+          "imageUrl": "https://opengraph.githubassets.com/faaaf40a1b7ca802a777e50ea7bb42f2536bff4568855cb773f47a7f23f2e0af/underpig1/octos"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36817257",
           "author": "hackvertor",
@@ -5537,36 +5366,6 @@
           "wordCount": 657,
           "title": "Tailwind plugin to help visually identify an element at dev time",
           "imageUrl": "https://opengraph.githubassets.com/2bc23c6eb458621be31df1bd9f6c1da1baf31eb9afc8b535d714622a80a62d69/GavinJoyce/tailwindcss-question-mark"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36440741",
-          "author": "cybice",
-          "description": "Most of the frameworks I used (svelte-kit/remix/nextjs) in IOS when navigating backwards either don't show the previous page (especially if it was scrolled) or lose scroll position. (sometimes they work but not on every visit, some race condition or like exists)\nWithout a client router with native navigation, everything looks fine.\nComments URL: https://news.ycombinator.com/item?id=36440741\nPoints: 3\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=36440741",
-          "publishedOn": "2023-06-22T23:36:44.000Z",
-          "wordCount": 131,
-          "title": "Ask HN: Why most/all client HTML routers suck in iOS for swipe-back navigation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36438919",
-          "author": "notaboredguy",
-          "description": "Article URL: https://css-tricks.com/css-database-queries/\nComments URL: https://news.ycombinator.com/item?id=36438919\nPoints: 2\n# Comments: 0",
-          "link": "https://css-tricks.com/css-database-queries/",
-          "publishedOn": "2023-06-22T21:00:18.000Z",
-          "wordCount": 1279,
-          "title": "CSS Database Queries",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363937"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36431761",
-          "author": "simonhamp",
-          "description": "Article URL: https://devdojo.com/pines\nComments URL: https://news.ycombinator.com/item?id=36431761\nPoints: 2\n# Comments: 0",
-          "link": "https://devdojo.com/pines",
-          "publishedOn": "2023-06-22T13:21:52.000Z",
-          "wordCount": null,
-          "title": "Pines: A beautiful UI library for Alpine and Tailwind",
-          "imageUrl": null
         }
       ]
     },
@@ -5690,6 +5489,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=46751",
+          "author": "Seth Godin",
+          "description": "I’m told that the hardest part of being a teaching golf pro isn’t helping adult golfers develop a good swing. It’s getting them to stop using a bad one. Our position feels so fragile, we hold on very tightly. Competence, status and connection are fleeting yet hard-won. We can often feel like an impostor and […]",
+          "link": "https://seths.blog/2023/07/closed-open/",
+          "publishedOn": "2023-07-22T08:31:00.000Z",
+          "wordCount": 1098,
+          "title": "Closed/open",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061317.jpg"
+        },
         {
           "id": "https://seths.blog/?p=46693",
           "author": "Seth Godin",
@@ -5989,16 +5798,6 @@
           "wordCount": 914,
           "title": "Overstuffed",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=46540",
-          "author": "Seth Godin",
-          "description": "The wrong question is, “our project isn’t catching on, how do we promote it better?” The right question is a little more nuanced and far more important, “We’re seeking to make a change in part of the world. How do we find the right people and tell them the right (true) story that helps them […]",
-          "link": "https://seths.blog/2023/06/the-right-marketing-question/",
-          "publishedOn": "2023-06-23T08:43:00.000Z",
-          "wordCount": 1194,
-          "title": "The right marketing question",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806135-1.jpg"
         }
       ]
     },
@@ -6906,56 +6705,6 @@
           "wordCount": 11,
           "title": "svghub",
           "imageUrl": null
-        },
-        {
-          "id": "EeiKjDWk2dLz2hNK6",
-          "author": "@apple",
-          "description": "When people wear Apple Vision Pro, they enter an infinite 3D space.",
-          "link": "https://developer.apple.com/design/human-interface-guidelines/designing-for-visionos",
-          "publishedOn": "2023-06-23T06:37:22.000Z",
-          "wordCount": 61,
-          "title": "Designing for visionOS",
-          "imageUrl": "https://docs.developer.apple.com/tutorials/developer-og.jpg"
-        },
-        {
-          "id": "zwasewSYc5ytFdXHj",
-          "author": "@zoltanszogyenyi",
-          "description": "Get started with a collection of free and open-source collection of SVG icons compatible with Flowbite and Tailwind CSS.",
-          "link": "https://flowbite.com/icons/",
-          "publishedOn": "2023-06-23T06:31:26.000Z",
-          "wordCount": 151,
-          "title": "Flowbite Icons: Open-source SVG icons",
-          "imageUrl": null
-        },
-        {
-          "id": "pS5MYzfw7vHP5K5Mx",
-          "author": "@sveltejs",
-          "description": "Updated performance, developer experience, and site",
-          "link": "https://svelte.dev/blog/svelte-4",
-          "publishedOn": "2023-06-23T06:26:34.000Z",
-          "wordCount": 2301,
-          "title": "Announcing Svelte 4",
-          "imageUrl": null
-        },
-        {
-          "id": "2c7xhQYEuMi6xw6pj",
-          "author": "@kizmarh",
-          "description": "What if I will tell you how we could solve fit-to-width text with pure CSS without any hardcoded parameters?",
-          "link": "https://kizu.dev/fit-to-width-text/",
-          "publishedOn": "2023-06-23T06:25:09.000Z",
-          "wordCount": 1796,
-          "title": "Fit-to-Width Text",
-          "imageUrl": null
-        },
-        {
-          "id": "WHY9hkxnwwsEtmHXB",
-          "author": "@jasonfried",
-          "description": "What an interesting moment. We’re staring at two distinctly different visions of the future.",
-          "link": "https://world.hey.com/jason/two-visions-of-the-future-88e4d9bf",
-          "publishedOn": "2023-06-23T06:24:20.000Z",
-          "wordCount": 250,
-          "title": "Two visions of the future",
-          "imageUrl": "https://world.hey.com/jason/88e4d9bf/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2REZFRWSyIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b4fdc618359050bd93dd5305462f293e1d5e788c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/sidebyside.png"
         }
       ]
     },
@@ -7254,21 +7003,6 @@
             "type": "image/jpg"
           },
           "imageUrl": "http://files.smashing.media/articles/penpot-flex-layout-building-css-layouts-design-tool/penpot-flex-layout-building-css-layouts-design-tool.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2023/06/behind-curtains-wikipedia-redesign/",
-          "author": "hello@smashingmagazine.com (Geoff Graham)",
-          "description": "The Wikipedia team shipped a redesign of the ubiquitous and one of the [most visited websites](https://en.wikipedia.org/wiki/List_of_most_visited_websites) on the web. Alex Hollendar and Jon Robson led the work and generously discussed the effort with us in a thorough, wide-ranging interview that covers the design, development, and processes that went into the project.",
-          "link": "https://smashingmagazine.com/2023/06/behind-curtains-wikipedia-redesign/",
-          "publishedOn": "2023-06-23T08:00:00.000Z",
-          "wordCount": 6432,
-          "title": "Behind The Curtains Of Wikipedia Redesign",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/behind-curtains-wikipedia-redesign/behind-curtains-wikipedia-redesign.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/behind-curtains-wikipedia-redesign/behind-curtains-wikipedia-redesign.jpg"
         }
       ]
     },
