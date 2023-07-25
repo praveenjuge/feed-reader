@@ -58,16 +58,6 @@
           "wordCount": 663,
           "title": "4 design principles I use every day to avoid bad UX and create products that work for everyone",
           "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:4 design principles I use every day to avoid bad UX and create products that work for everyone,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter:75996107/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
-        },
-        {
-          "id": "https://adamsilver.io/blog/the-problem-with-input-masks-and-what-to-do-instead/",
-          "author": null,
-          "description": "In 2010 I discovered input masks.\nThey seemed like a smart way to prevent errors. Because they help users follow a format. And they do so without taking up space.\nBut the truth is that this fancy pattern degrades UX.\nHere’s why:\nProblem #1: They’re confusing\nFor example, the cursor advances automatically to the next position. And placeholder characters can’t be deleted.\n\n\t\t\t\t\n\t\t\tTelephone input mask replacing characters and advancing to the next position automatically\n\t\n\nProblem #2: They may be mistaken for an actual answer\nThis is because the mask looks like an input causing using to submit the form with errors.\nInput masks make the input look like it’s been answered\n\t\n\nProblem #3: They make the interface feel broken\nThis is because typing a restricted character gets ignored.\n\n\t\t\t\t\n\t\t\tRestricted characters get ignored without giving users any feedback\n\t\n\nProblem #4: The format may be unfamiliar\nFor example, a phone number may require a country code which isn’t always expected and makes users work harder.\nInput masks may use unfamiliar formats that don’t make sense to everyone\n\t\n\nProblem #5: They’re misleading and verbose in screen readers\nFor example, they announce placeholder characters which aren’t part of the answer. And they don’t announce characters that were typed but ignored.\n\n\t\t\t\t\n\t\t\tVoiceover announces placeholder characters. And fails to announce characters that were typed but ignored.\n\t\n\nWhat to do instead\nLeave the input empty to make it obvious where the answer goes\nLet users type what they like so the interface doesn’t feel unresponsive and broken\nAllow multiple formats so users don’t have to fix something unnecessarily\nAllow users to check their answers either on a separate page or just below the field",
-          "link": "https://adamsilver.io/blog/the-problem-with-input-masks-and-what-to-do-instead/",
-          "publishedOn": "2023-06-25T00:00:00.000Z",
-          "wordCount": 375,
-          "title": "The problem with input masks and what to do instead",
-          "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:The problem with input masks and what to do instead,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter:75996107/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
         }
       ]
     },
@@ -367,6 +357,26 @@
       "feedUrl": "https://dailydevlinks.com/feed/",
       "siteUrl": "https://unicornclub.dev/",
       "articles": [
+        {
+          "id": "https://unicornclub.dev/?p=12608",
+          "author": "Adam Marsden",
+          "description": "CSSTool",
+          "link": "https://unicornclub.dev/flexer-css-flexbox-playground/",
+          "publishedOn": "2023-07-24T11:28:00.000Z",
+          "wordCount": 3241,
+          "title": "Flexer – CSS Flexbox Playground",
+          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
+        },
+        {
+          "id": "https://unicornclub.dev/?p=12605",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://unicornclub.dev/using-imagery-in-visual-design/",
+          "publishedOn": "2023-07-24T11:28:00.000Z",
+          "wordCount": 3241,
+          "title": "Using Imagery in Visual Design",
+          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
+        },
         {
           "id": "https://unicornclub.dev/?p=12599",
           "author": "Adam Marsden",
@@ -1177,6 +1187,46 @@
       "siteUrl": "https://heydesigner.com",
       "articles": [
         {
+          "id": "https://heydesigner.com/?p=69209",
+          "author": "Travis",
+          "description": "The design process is messy. You might be following a structured approach, but too often, it takes a life of its own. And before you know it, you are designing in chaos, with last-minute changes and missed deadlines.",
+          "link": "https://heydesigner.com/whats-the-perfect-design-process/",
+          "publishedOn": "2023-07-24T06:16:59.000Z",
+          "wordCount": 207,
+          "title": "What’s the perfect design process?",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=69207",
+          "author": "Travis",
+          "description": "When choosing images for your visual designs, match similar characteristics, balance high quality with adequate file size, prioritize information-carrying images over purely decorative ones, and provide robust alternative text.",
+          "link": "https://heydesigner.com/using-imagery-in-visual-design/",
+          "publishedOn": "2023-07-24T06:06:54.000Z",
+          "wordCount": 207,
+          "title": "Using imagery in Visual Design",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=69205",
+          "author": "Travis",
+          "description": "We invited the Pentagram partner to share her “10 rules for play” noted down over a formidable and long-lasting career.",
+          "link": "https://heydesigner.com/paula-schers-10-rules-for-play/",
+          "publishedOn": "2023-07-24T06:03:05.000Z",
+          "wordCount": 207,
+          "title": "Paula Scher’s 10 rules for play",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=69202",
+          "author": "Travis",
+          "description": "Using variable fonts and color fonts with @font-face. The new @font-face syntax has also been supported since Safari 17, Firefox 106 and Chrome 108.",
+          "link": "https://heydesigner.com/the-new-font-face-syntax/",
+          "publishedOn": "2023-07-24T05:48:12.000Z",
+          "wordCount": 206,
+          "title": "The new @font-face syntax",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
           "id": "https://heydesigner.com/?p=69195",
           "author": "Travis",
           "description": "Emerging opportunities for entrepreneurial designers in the new age of work.",
@@ -1863,6 +1913,76 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36851565",
+          "author": "goranmoomin",
+          "description": "Article URL: https://nickpunt.com/blog/group-messagings-balancing-act/\nComments URL: https://news.ycombinator.com/item?id=36851565\nPoints: 2\n# Comments: 1",
+          "link": "https://nickpunt.com/blog/group-messagings-balancing-act/",
+          "publishedOn": "2023-07-24T17:38:31.000Z",
+          "wordCount": 2273,
+          "title": "Group Messaging's Balancing Act: Design tradeoffs in small group social medium",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36851555",
+          "author": "vinnyglennon",
+          "description": "Article URL: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fp%2FCuoFwHJNpOT%2F\nComments URL: https://news.ycombinator.com/item?id=36851555\nPoints: 2\n# Comments: 2",
+          "link": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fp%2FCuoFwHJNpOT%2F",
+          "publishedOn": "2023-07-24T17:37:30.000Z",
+          "wordCount": 1408,
+          "title": "Engineers competing who creates the worse UI on Reddit",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36851545",
+          "author": "rbinv",
+          "description": "Article URL: https://developer.apple.com/videos/play/wwdc2023/10072/\nComments URL: https://news.ycombinator.com/item?id=36851545\nPoints: 1\n# Comments: 0",
+          "link": "https://developer.apple.com/videos/play/wwdc2023/10072/",
+          "publishedOn": "2023-07-24T17:36:30.000Z",
+          "wordCount": 4025,
+          "title": "VisionOS: Principles of Spatial Design [video]",
+          "imageUrl": "https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/8126/8126_wide_250x141_2x.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36850508",
+          "author": "mystertea",
+          "description": "Article URL: https://uxdesign.cc/loading-progress-indicators-ui-components-series-f4b1fc35339a\nComments URL: https://news.ycombinator.com/item?id=36850508\nPoints: 1\n# Comments: 0",
+          "link": "https://uxdesign.cc/loading-progress-indicators-ui-components-series-f4b1fc35339a",
+          "publishedOn": "2023-07-24T16:26:51.000Z",
+          "wordCount": 5337,
+          "title": "Loading and progress indicator design tips",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*RbQgNfy_Lu83wSgPbpQs3A.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36848780",
+          "author": "samwillis",
+          "description": "Article URL: https://mattiasgustavsson.itch.io/yarnspin/devlog/544215/coding-an-ad-hoc-ui\nComments URL: https://news.ycombinator.com/item?id=36848780\nPoints: 2\n# Comments: 0",
+          "link": "https://mattiasgustavsson.itch.io/yarnspin/devlog/544215/coding-an-ad-hoc-ui",
+          "publishedOn": "2023-07-24T14:39:10.000Z",
+          "wordCount": null,
+          "title": "Coding an ad-hoc UI system in C",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36843777",
+          "author": "nikjohannknecht",
+          "description": "Article URL: https://taskforce95.co/\nComments URL: https://news.ycombinator.com/item?id=36843777\nPoints: 1\n# Comments: 0",
+          "link": "https://taskforce95.co/",
+          "publishedOn": "2023-07-24T06:28:37.000Z",
+          "wordCount": 1494,
+          "title": "Unlimited design subscription. Make unlimited requests, get unlimited revisions",
+          "imageUrl": "https://uploads-ssl.webflow.com/64affe471340ad16f5e323f2/64b27283a3284e103ecd87a9_webgraph-image.webp"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36843610",
+          "author": "hamsterbase",
+          "description": "Article URL: https://iconpark.oceanengine.com/\nComments URL: https://news.ycombinator.com/item?id=36843610\nPoints: 3\n# Comments: 0",
+          "link": "https://iconpark.oceanengine.com/",
+          "publishedOn": "2023-07-24T06:00:53.000Z",
+          "wordCount": 64,
+          "title": "2600 free and open source SVG icon, by ByteDance",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36838572",
           "author": "krm01",
@@ -3922,66 +4042,6 @@
           "wordCount": 411,
           "title": "Ask HN: What are the layers of computing from atoms to UI?",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36466821",
-          "author": "todsacerdoti",
-          "description": "Article URL: https://rubyhero.dev/rails-design-patterns-the-big-picture\nComments URL: https://news.ycombinator.com/item?id=36466821\nPoints: 3\n# Comments: 0",
-          "link": "https://rubyhero.dev/rails-design-patterns-the-big-picture",
-          "publishedOn": "2023-06-25T10:43:00.000Z",
-          "wordCount": 11411,
-          "title": "Rails Design Patterns",
-          "imageUrl": "https://hashnode.com/utility/r?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1687371457546%2F2e400d24-f14c-4b53-ac9b-f15716d13413.jpeg%3Fw%3D1200%26auto%3Dcompress%2Cformat%26format%3Dwebp%26fm%3Dpng"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36465399",
-          "author": "World_Peace",
-          "description": "I'm currently a SWE working at FAANGMULA, feeling a bit burnt out and exploring other paths within tech. I've been paying much more attention to the design space in tech and have become enamored with the idea of learning how to create similarly beautiful experiences. I've been particularly inspired by Andrew Wilkinson/Metalab, Brian Chesky/AirBNB, Apple, Any Distance, Flighty, etc. As I pay more attention to high quality design and UX, I'm realizing that outstanding design in and of itself can be enough to launch successful and beautiful software.\nI've been searching for high quality online education to study design in a more formal and rigorous manner, something equivalent to the MIT challenge, but all I've found are RISD's online certificates which cost $10k, or youtuber/twitter influencer courses. I'm willing to pay the 10 grand for those courses, but if I'm going to spend that much I'd like some validation that its really worth it.\nPrimarily though, I'd love to hear from any designers here about how you learned and honed your craft.\nComments URL: https://news.ycombinator.com/item?id=36465399\nPoints: 5\n# Comments: 1",
-          "link": "https://news.ycombinator.com/item?id=36465399",
-          "publishedOn": "2023-06-25T05:44:33.000Z",
-          "wordCount": 296,
-          "title": "Ask HN: Design Equivalent to MIT Challenge?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36464369",
-          "author": "Lwrless",
-          "description": "Article URL: https://github.com/GoogleChromeLabs/ProjectVisBug\nComments URL: https://news.ycombinator.com/item?id=36464369\nPoints: 3\n# Comments: 0",
-          "link": "https://github.com/GoogleChromeLabs/ProjectVisBug",
-          "publishedOn": "2023-06-25T01:31:51.000Z",
-          "wordCount": 1255,
-          "title": "VisBug: Open-source web design debug tools",
-          "imageUrl": "https://repository-images.githubusercontent.com/137987910/f6f1e400-cfc7-11e9-8df7-cc0d9d7b4a04"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36464320",
-          "author": "cinquemb",
-          "description": "Article URL: https://www.solarpaces.org/published-at-energies-a-novel-dual-receiver-storage-design-for-concentrating-solar-thermal-plants-using-beam-down-optics/\nComments URL: https://news.ycombinator.com/item?id=36464320\nPoints: 1\n# Comments: 0",
-          "link": "https://www.solarpaces.org/published-at-energies-a-novel-dual-receiver-storage-design-for-concentrating-solar-thermal-plants-using-beam-down-optics/",
-          "publishedOn": "2023-06-25T01:20:45.000Z",
-          "wordCount": 11915,
-          "title": "Dual Receiver Storage Design for CSP Plants Using Beam-Down Optics",
-          "imageUrl": "https://www.solarpaces.org/wp-content/uploads/Beam-down-receiver-reactor-1.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36460821",
-          "author": "RadixDLT",
-          "description": "Article URL: https://www.smashingmagazine.com/2010/06/why-design-by-commitee-should-die/\nComments URL: https://news.ycombinator.com/item?id=36460821\nPoints: 3\n# Comments: 0",
-          "link": "https://www.smashingmagazine.com/2010/06/why-design-by-commitee-should-die/",
-          "publishedOn": "2023-06-24T17:35:41.000Z",
-          "wordCount": 4339,
-          "title": "Why Design by Committee Should Die",
-          "imageUrl": "https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/5aabd3b7-64b9-4f1a-a1a4-3a4eae7967fa/propaganda.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36460035",
-          "author": "swyx",
-          "description": "Article URL: https://www.swyx.io/why-temporal\nComments URL: https://news.ycombinator.com/item?id=36460035\nPoints: 1\n# Comments: 0",
-          "link": "https://www.swyx.io/why-temporal",
-          "publishedOn": "2023-06-24T16:23:28.000Z",
-          "wordCount": 7471,
-          "title": "The iPhone of System Design (2021)",
-          "imageUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f4gjemgd6pr1494mmu9g.png"
         }
       ]
     },
@@ -3990,6 +4050,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36855413",
+          "author": "nateb2022",
+          "description": "Article URL: https://www.jsonfeed.org/\nComments URL: https://news.ycombinator.com/item?id=36855413\nPoints: 12\n# Comments: 5",
+          "link": "https://www.jsonfeed.org/",
+          "publishedOn": "2023-07-24T22:58:40.000Z",
+          "wordCount": 360,
+          "title": "JSON Feed: An Atom/RSS feed alternative",
+          "imageUrl": null
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36839412",
           "author": "headalgorithm",
@@ -4659,36 +4729,6 @@
           "wordCount": 1145,
           "title": "Question the W3C's advice re RSS",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36461701",
-          "author": "mrzool",
-          "description": "Article URL: https://www.rssboard.org/news/211/every-mastodon-user-has-rss-feed\nComments URL: https://news.ycombinator.com/item?id=36461701\nPoints: 129\n# Comments: 55",
-          "link": "https://www.rssboard.org/news/211/every-mastodon-user-has-rss-feed",
-          "publishedOn": "2023-06-24T19:03:02.000Z",
-          "wordCount": 459,
-          "title": "Every Mastodon User Has an RSS Feed",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36459962",
-          "author": "Noghartt",
-          "description": "Article URL: https://github.com/noghartt/youtube-rss\nComments URL: https://news.ycombinator.com/item?id=36459962\nPoints: 1\n# Comments: 1",
-          "link": "https://github.com/noghartt/youtube-rss",
-          "publishedOn": "2023-06-24T16:17:11.000Z",
-          "wordCount": 799,
-          "title": "Getting URLs from RSS feed from YouTube channel easily",
-          "imageUrl": "https://opengraph.githubassets.com/5a1194a7582c654909f858e9d75e9c0e1d56e4286b1db20071ed02f7391c0816/noghartt/youtube-rss"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36459598",
-          "author": "legrande",
-          "description": "Article URL: https://muffinlabs.com/2023/03/09/feedsin-space/\nComments URL: https://news.ycombinator.com/item?id=36459598\nPoints: 2\n# Comments: 0",
-          "link": "https://muffinlabs.com/2023/03/09/feedsin-space/",
-          "publishedOn": "2023-06-24T15:38:52.000Z",
-          "wordCount": 553,
-          "title": "Feedsin.space – RSS Feeds on the Fediverse",
-          "imageUrl": null
         }
       ]
     },
@@ -4697,6 +4737,26 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=36851648",
+          "author": "favourable",
+          "description": "Article URL: https://animate.style/\nComments URL: https://news.ycombinator.com/item?id=36851648\nPoints: 2\n# Comments: 1",
+          "link": "https://animate.style/",
+          "publishedOn": "2023-07-24T17:43:43.000Z",
+          "wordCount": 2934,
+          "title": "Animate.css – A cross-browser library of CSS animations",
+          "imageUrl": "https://animate.style/img/animatecss-opengraph.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=36847366",
+          "author": "skilled",
+          "description": "Article URL: https://una.im/radial-menu/\nComments URL: https://news.ycombinator.com/item?id=36847366\nPoints: 3\n# Comments: 0",
+          "link": "https://una.im/radial-menu/",
+          "publishedOn": "2023-07-24T13:08:01.000Z",
+          "wordCount": 2340,
+          "title": "Building a no-JS radial menu with CSS trigonometry",
+          "imageUrl": "https://una.im/posts/radial-menu/social-cover.jpg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=36824595",
           "author": "underpig1",
@@ -5356,16 +5416,6 @@
           "wordCount": 932,
           "title": "RevealJS – An open source HTML presentation framework",
           "imageUrl": "https://revealjs.com/images/meta/reveal-og-card-1200-630.png"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36458809",
-          "author": "freemh",
-          "description": "Article URL: https://boxshadows.xyz\nComments URL: https://news.ycombinator.com/item?id=36458809\nPoints: 3\n# Comments: 1",
-          "link": "https://boxshadows.xyz/",
-          "publishedOn": "2023-06-24T14:08:44.000Z",
-          "wordCount": 307,
-          "title": "Create, control, hide, and generate multiple custom CSS box shadows",
-          "imageUrl": "/images/og/boxshadows-og.jpg"
         }
       ]
     },
@@ -5489,6 +5539,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=46767",
+          "author": "Seth Godin",
+          "description": "The trick is knowing where it is and using it well. Wanting control doesn’t always mean needing to have control. Sometimes it is simply a desire to be acknowledged. HT to Brian.",
+          "link": "https://seths.blog/2023/07/theres-always-a-placebo-switch/",
+          "publishedOn": "2023-07-24T08:33:00.000Z",
+          "wordCount": 940,
+          "title": "There’s always a placebo switch",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806134-1.jpg"
+        },
         {
           "id": "https://seths.blog/?p=43946",
           "author": "Seth Godin",
@@ -5788,16 +5848,6 @@
           "wordCount": 1092,
           "title": "A finite ordered set of interesting objects",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061313.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44771",
-          "author": "Seth Godin",
-          "description": "…perhaps we should stop. Unless the going was the point.",
-          "link": "https://seths.blog/2023/06/when-we-get-to-where-were-going/",
-          "publishedOn": "2023-06-25T08:50:00.000Z",
-          "wordCount": 910,
-          "title": "When we get to where we’re going",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806136-1.jpg"
         }
       ]
     },
@@ -5806,6 +5856,116 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "hSCg4wKuGdyDzeo3R",
+          "author": "@chromiumdev",
+          "description": "Learn how to build an app with WebGPU for the web and specific platforms.",
+          "link": "https://developer.chrome.com/blog/webgpu-cross-platform/",
+          "publishedOn": "2023-07-24T09:30:17.000Z",
+          "wordCount": 2345,
+          "title": "WebGPU: the cross-platform graphics API of tomorrow",
+          "imageUrl": "https://wd.imgix.net/image/vvhSqZboQoZZN9wBvoXq72wzGAf1/C9CyIqxrytYlH4uqCbgX.jpg?auto=format&w=1521"
+        },
+        {
+          "id": "N2f5XuNpLW8o5KqkH",
+          "author": "@PorscheNewsroom",
+          "description": "With its rearing horse the Porsche crest is one of the most famous designs in automotive history, and every detail has huge significance.",
+          "link": "https://newsroom.porsche.com/en/2023/history/porsche-crest-alternative-designs-33127.html",
+          "publishedOn": "2023-07-24T09:26:45.000Z",
+          "wordCount": 1839,
+          "title": "Alternative designs: how the Porsche Crest could have looked",
+          "imageUrl": "https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/teaser_700x395/dam/pnr/2023/History/Porsche-alternative-Wappen/AlternativeCrests2.jpeg/jcr:content/AlternativeCrests2.jpeg"
+        },
+        {
+          "id": "XfwACxPycwBciyQrj",
+          "author": "@verge",
+          "description": "The new X logo has started replacing the blue bird on the web.",
+          "link": "https://www.theverge.com/2023/7/24/23804973/twitter-x-logo-brand-replacement",
+          "publishedOn": "2023-07-24T09:24:11.000Z",
+          "wordCount": 2775,
+          "title": "Twitter is now X as the little blue bird disappears",
+          "imageUrl": "https://cdn.vox-cdn.com/thumbor/U5JauDsmiNoX2JghBFnRNZKLCjo=/0x0:1320x880/1200x628/filters:focal(660x440:661x441)/cdn.vox-cdn.com/uploads/chorus_asset/file/24805496/xlogo.jpg"
+        },
+        {
+          "id": "o3x6Zwcba3fe2Cq5w",
+          "author": "@ericwbailey",
+          "description": "Here are things other people have written that have helped to shape who I am. Enjoy!",
+          "link": "https://ericwbailey.website/formative-posts/",
+          "publishedOn": "2023-07-24T09:20:34.000Z",
+          "wordCount": 396,
+          "title": "Formative Posts",
+          "imageUrl": "https://ericwbailey.website/static/favicons/social/facebook.png"
+        },
+        {
+          "id": "nT3GTcWBMBeY7gZR2",
+          "author": null,
+          "description": "A tool for creating proportional scales for typography, iconography, spacing, and components in design systems.",
+          "link": "https://proportio.app/",
+          "publishedOn": "2023-07-24T09:19:15.000Z",
+          "wordCount": 11,
+          "title": "Proportio",
+          "imageUrl": null
+        },
+        {
+          "id": "Rci9Bdu2gKbru4c9Z",
+          "author": "@uxpin",
+          "description": "Tight deadlines? Not a problem! Build prototypes that work just like end-products. Speed up every part of product design process.",
+          "link": "https://uxpin.com/merge?utm_source=partnerships&utm_medium=partner&utm_campaign=sidebar.io_merge_promo_07_23",
+          "publishedOn": "2023-07-24T00:00:00.000Z",
+          "wordCount": 1537,
+          "title": "Build production-ready prototypes – in minutes! 🔥",
+          "imageUrl": "https://cdn.buttercms.com/ne0iJYeBQeicoPREbqB1"
+        },
+        {
+          "id": "d68c9EToAjH8bwQc2",
+          "author": "@readymag",
+          "description": "Take part in a survey that studies crucial aspects of design teamwork.",
+          "link": "https://readymag.com/readymag/design-collaboration-report/?utm_source=sidebar.io&utm_medium=partnership_website&utm_campaign=survey",
+          "publishedOn": "2023-07-21T00:45:06.000Z",
+          "wordCount": 697,
+          "title": "Readymag Survey: help unscramble collaboration in design",
+          "imageUrl": "https://d3n32ilufxuvd1.cloudfront.net/50dad5df6b52d70000000006/Image-12d9b316-cdc3-4f28-8cd5-2b089fa27f52.png"
+        },
+        {
+          "id": "Y8ooXSL3ostm6NfwQ",
+          "author": null,
+          "description": "A loving homage to a brief period in our technological past when VCRs and VHS revolutionized the way we watched movies.",
+          "link": "https://cinemasojourns.com/2023/07/18/portable-grindhouse-the-lost-art-of-the-vhs-box/",
+          "publishedOn": "2023-07-21T00:41:04.000Z",
+          "wordCount": 5224,
+          "title": "Portable Grindhouse: The Lost Art of the VHS Box",
+          "imageUrl": "https://jeffstafford76.files.wordpress.com/2023/07/adjust-your-tracking-poster.jpg"
+        },
+        {
+          "id": "oKxKjEDqyCyosGSpx",
+          "author": "@lehrjulian",
+          "description": "Calendars cover the entire spectrum of time. Past, present and future. They are the closest thing we have to a time machine.",
+          "link": "https://julian.digital/2023/07/06/multi-layered-calendars",
+          "publishedOn": "2023-07-21T00:36:50.000Z",
+          "wordCount": 2203,
+          "title": "Multi-layered Calendars",
+          "imageUrl": "https://julian.digital/wp-content/uploads/2023/07/og.png"
+        },
+        {
+          "id": "YouWp3np5nojwkmz9",
+          "author": "@antfu7",
+          "description": "I recently replaced the logo on the top left corner with an animated SVG.",
+          "link": "https://antfu.me/posts/animated-svg-logo",
+          "publishedOn": "2023-07-21T00:35:21.000Z",
+          "wordCount": 742,
+          "title": "Animated SVG Logo",
+          "imageUrl": "https://antfu.me/og/animated-svg-logo.png"
+        },
+        {
+          "id": "maMNPRYsCHtunM2ta",
+          "author": "@itsnicethat",
+          "description": "In an all encompassing visual and verbal rebrand of the job searching site, Koto aims to enhance the company’s dedication to workplace transparency.",
+          "link": "https://www.itsnicethat.com/news/koto-glassdoor-graphic-design-180723",
+          "publishedOn": "2023-07-21T00:33:30.000Z",
+          "wordCount": 2235,
+          "title": "Koto rebrands Glassdoor",
+          "imageUrl": "https://admin.itsnicethat.com/images/Eic748xv30tsCzxSs0Ce-R0aa9c=/243272/width-1440/02_GD_2_Illo_Large.jpg"
+        },
         {
           "id": "HzijzBg6mgAeQy53u",
           "author": "@petapixel",
@@ -6809,6 +6969,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2023/07/recreating-youtube-ambient-mode-glow-effect/",
+          "author": "hello@smashingmagazine.com (Adrian Bece)",
+          "description": "In this article, Adrian deconstructs YouTube’s “Ambient Mode” feature and how HTML `` and the `requestAnimationFrame` function are used to create the glowing effect.",
+          "link": "https://smashingmagazine.com/2023/07/recreating-youtube-ambient-mode-glow-effect/",
+          "publishedOn": "2023-07-24T12:00:00.000Z",
+          "wordCount": 5715,
+          "title": "Recreating YouTube’s Ambient Mode Glow Effect",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/recreating-youtube-ambient-mode-glow-effect/recreating-youtube-ambient-mode-glow-effect.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/recreating-youtube-ambient-mode-glow-effect/recreating-youtube-ambient-mode-glow-effect.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2023/07/critical-reflection-individual-contributors/",
           "author": "hello@smashingmagazine.com (Kristian Mikhel)",
