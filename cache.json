@@ -376,8 +376,18 @@
     {
       "title": "Unicorn Club",
       "feedUrl": "https://dailydevlinks.com/feed/",
-      "siteUrl": "https://unicornclub.dev/",
+      "siteUrl": "http://unicornclub.dev/",
       "articles": [
+        {
+          "id": "https://unicornclub.dev/?p=12691",
+          "author": "Adam Marsden",
+          "description": "Design",
+          "link": "https://unicornclub.dev/how-new-twitter-x-logo-fails/",
+          "publishedOn": "2023-08-08T11:39:20.000Z",
+          "wordCount": 3187,
+          "title": "How new Twitter X logo fails",
+          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
+        },
         {
           "id": "https://unicornclub.dev/?p=12688",
           "author": "Adam Marsden",
@@ -887,46 +897,6 @@
           "wordCount": 3245,
           "title": "Write more, design less (and better)",
           "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
-        },
-        {
-          "id": "https://unicornclub.dev/?p=12526",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://unicornclub.dev/solved-tricky-floating-image-alignment/",
-          "publishedOn": "2023-07-10T11:33:00.000Z",
-          "wordCount": 3234,
-          "title": "Solved: Tricky Floating Image Alignment",
-          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
-        },
-        {
-          "id": "https://unicornclub.dev/?p=12517",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://unicornclub.dev/shines-perspective-and-rotations-fancy-css-3d-effects-for-images/",
-          "publishedOn": "2023-07-10T11:33:00.000Z",
-          "wordCount": 3259,
-          "title": "Shines, Perspective, And Rotations: Fancy CSS 3D Effects For Images",
-          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
-        },
-        {
-          "id": "https://unicornclub.dev/?p=12520",
-          "author": "Adam Marsden",
-          "description": "UX",
-          "link": "https://unicornclub.dev/quantitative-ux-glossary/",
-          "publishedOn": "2023-07-10T11:30:00.000Z",
-          "wordCount": 3234,
-          "title": "Quantitative UX: Glossary",
-          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
-        },
-        {
-          "id": "https://unicornclub.dev/?p=12523",
-          "author": "Adam Marsden",
-          "description": "CSS",
-          "link": "https://unicornclub.dev/css-only-floating-labels/",
-          "publishedOn": "2023-07-10T11:26:00.000Z",
-          "wordCount": 3240,
-          "title": "CSS only floating labels",
-          "imageUrl": "https://unicornclub.dev/wp-content/uploads/2023/06/share-unicorn-img-1200x675.png"
         }
       ]
     },
@@ -1031,6 +1001,16 @@
       "feedUrl": "https://developer.chrome.com/feeds/blog.xml",
       "siteUrl": "https://developer.chrome.com/feeds/blog.xml",
       "articles": [
+        {
+          "id": "https://developer.chrome.com/en/blog/new-in-webgpu-116/",
+          "author": null,
+          "description": "# WebCodecs integration\nWebGPU exposes an API to create opaque \"external texture\" objects from HTMLVideoElement through importExternalTexture(). You can use these objects to sample the video frames efficiently, potentially in a 0-copy way directly from the source YUV color model data.\nHowever, the initial WebGPU specification did not allow creating GPUExternalTexture objects from WebCodecs VideoFrame objects. This capability is important for advanced video processing apps that already use WebCodecs and would like to integrate WebGPU in the video processing pipeline. WebCodecs integration adds support for using a VideoFrame as the source for a GPUExternalTexture and a copyExternalImageToTexture() call. See the following example, and the chromestatus entry.\n// Access the GPU device.\nconst ad…",
+          "link": "https://developer.chrome.com/en/blog/new-in-webgpu-116/",
+          "publishedOn": "2023-08-08T00:00:00.000Z",
+          "wordCount": 1178,
+          "title": "What's New in WebGPU (Chrome&nbsp;116)",
+          "imageUrl": "https://wd.imgix.net/image/vvhSqZboQoZZN9wBvoXq72wzGAf1/HPmAwocOzAsHp5hoUkMU.png?auto=format&w=1521"
+        },
         {
           "id": "https://developer.chrome.com/en/blog/one-time-permissions/",
           "author": null,
@@ -1187,6 +1167,46 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=69313",
+          "author": "Travis",
+          "description": "If you collected lists of techniques for doing great work in a lot of different fields, what would the intersection look like? I decided to find out by making it.",
+          "link": "https://heydesigner.com/how-to-do-great-work/",
+          "publishedOn": "2023-08-08T20:50:30.000Z",
+          "wordCount": 206,
+          "title": "How to do great work",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=69311",
+          "author": "Travis",
+          "description": "What makes the path to solving a problem predicable or unpredictable? It has to do with how much control you have over influencing factors.",
+          "link": "https://heydesigner.com/death-to-the-double-diamond/",
+          "publishedOn": "2023-08-08T20:46:56.000Z",
+          "wordCount": 207,
+          "title": "Death to the double diamond",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=69309",
+          "author": "Travis",
+          "description": "A beautiful, open source component library that’s built on top of the primitives so many developers love.",
+          "link": "https://heydesigner.com/announcing-radix-themes/",
+          "publishedOn": "2023-08-08T20:45:45.000Z",
+          "wordCount": 204,
+          "title": "Announcing Radix Themes",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=69307",
+          "author": "Travis",
+          "description": "Essentially, you can pause and resume animations in CSS using the animation-play-state property. This property accepts two values: running and paused.",
+          "link": "https://heydesigner.com/resume-and-pause-animations-in-css/",
+          "publishedOn": "2023-08-08T20:43:50.000Z",
+          "wordCount": 209,
+          "title": "Resume and pause animations in CSS",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=69302",
           "author": "Travis",
@@ -1906,46 +1926,6 @@
           "wordCount": 193,
           "title": "New viewport units",
           "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=68519",
-          "author": "Travis",
-          "description": "I’ve found that there are 5 key elements a design system needs to have in order to make it so good that designers choose it over doing their own thing.",
-          "link": "https://heydesigner.com/5-key-design-system-elements/",
-          "publishedOn": "2023-07-09T15:25:30.000Z",
-          "wordCount": 207,
-          "title": "5 key design system elements",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=68517",
-          "author": "Travis",
-          "description": "Read about how the Automattic Design team celebrated the WordPress 20th anniversary.",
-          "link": "https://heydesigner.com/twentieth-year-of-wordpress-designed/",
-          "publishedOn": "2023-07-09T15:24:23.000Z",
-          "wordCount": 196,
-          "title": "Twentieth year of WordPress, Designed",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=68515",
-          "author": "Travis",
-          "description": "We tend to perceive symmetrical elements as being connected, even if they are not.",
-          "link": "https://heydesigner.com/gestalt-principles-of-design-symmetry/",
-          "publishedOn": "2023-07-09T15:21:42.000Z",
-          "wordCount": 199,
-          "title": "Gestalt principles of design: Symmetry",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
-        },
-        {
-          "id": "https://heydesigner.com/?p=68513",
-          "author": "Travis",
-          "description": "I recently learned about the pseudo CSS class :placeholder-shown. Obviously, it is a class that is added only when input placeholder is shown.",
-          "link": "https://heydesigner.com/css-only-floating-labels/",
-          "publishedOn": "2023-07-09T15:20:48.000Z",
-          "wordCount": 206,
-          "title": "CSS only floating labels",
-          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
         }
       ]
     },
@@ -1954,6 +1934,116 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=37056878",
+          "author": "larve",
+          "description": "Article URL: https://the.scapegoat.dev/my-creative-software-design-process/\nComments URL: https://news.ycombinator.com/item?id=37056878\nPoints: 2\n# Comments: 0",
+          "link": "https://the.scapegoat.dev/my-creative-software-design-process/",
+          "publishedOn": "2023-08-08T23:33:21.000Z",
+          "wordCount": 1154,
+          "title": "My creative software design process",
+          "imageUrl": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/manuel-1691513415-0.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37052495",
+          "author": "spansoa",
+          "description": "Article URL: https://vanjs.org/\nComments URL: https://news.ycombinator.com/item?id=37052495\nPoints: 1\n# Comments: 0",
+          "link": "https://vanjs.org/",
+          "publishedOn": "2023-08-08T17:22:14.000Z",
+          "wordCount": 1062,
+          "title": "VanJS: Grab 'N Go Reactive UI Framework Without React/JSX",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37052279",
+          "author": "f_devd",
+          "description": "Article URL: https://www.youtube.com/watch?v=RYG4VMqatEY\nComments URL: https://news.ycombinator.com/item?id=37052279\nPoints: 2\n# Comments: 0",
+          "link": "https://www.youtube.com/watch?v=RYG4VMqatEY",
+          "publishedOn": "2023-08-08T17:08:49.000Z",
+          "wordCount": null,
+          "title": "Horrible design of Apple's soldered SSDs; it's WORSE than you thought [video]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37052257",
+          "author": "palmdeezy",
+          "description": "Article URL: https://twitter.com/shadcn/status/1688945578439499776\nComments URL: https://news.ycombinator.com/item?id=37052257\nPoints: 1\n# Comments: 0",
+          "link": "https://twitter.com/shadcn/status/1688945578439499776",
+          "publishedOn": "2023-08-08T17:07:50.000Z",
+          "wordCount": null,
+          "title": "Shadcn is joining Vercel as a Design Engineer",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37051779",
+          "author": "todsacerdoti",
+          "description": "Article URL: https://tunnelcrack.mathyvanhoef.com/\nComments URL: https://news.ycombinator.com/item?id=37051779\nPoints: 5\n# Comments: 0",
+          "link": "https://tunnelcrack.mathyvanhoef.com/",
+          "publishedOn": "2023-08-08T16:42:10.000Z",
+          "wordCount": 924,
+          "title": "TunnelCrack: Widespread design flaws in VPN clients",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37049525",
+          "author": "peaBerberian",
+          "description": "I frequently make quick and small JS projects which do not need a complete React + Redux + Webpack environment (too heavy, bothersome to setup, re-learn and debug when it goes wrong).\nUntil now, I was mainly writing in them simple utils on top of native HTML API like `document.createElement` and `Element.prototype.textContent`.\nHowever, on a recent project, I just hit a spot where I began to have a lot of nodes, which made this call-based syntax hard to read.\nAfter wondering if I should use React and its nice JSX (leading to a whole setup) or learn another generally-complex UI framework with a nice syntax, I wondered if I could not just implement a solution that would both be readable yet very simple to setup and understand.\nSo here we comes! It's a very young and simple project (meant to be low maintenance), I may have missed some HTML peculiarities and I'm sure its share of performance gains.\nThe code is in the `main.mjs` file at the root of the repository.\nComments URL: https://news.ycombinator.com/item?id=37049525\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/peaBerberian/str-html",
+          "publishedOn": "2023-08-08T14:30:39.000Z",
+          "wordCount": 2145,
+          "title": "Show HN: JavaScript UI Tool Making HTMLElements Based on Template Literals",
+          "imageUrl": "https://opengraph.githubassets.com/368957ab4985d345487fd1e4933ba86f34ee4dc8ef759cd37f995c40fca7ee1a/peaBerberian/str-html"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37048996",
+          "author": "blfr",
+          "description": "I am joining a new company, one primarily focused on UI/UX. My role will be on the backend and around infrastructure but since this is a core thing for them, I want to know more.\nIn particular, what is the best book/resource you would recommend for learning about modern UI/UX: principles, design methodology, practical tips?\nIt's important that it's not some foundational text from Bell Labs written in the 60s, although obviously nice if it mentioned a bit of history, but rather something focused on modern stuff, especially mobile apps. How is it actually done today.\nWhich technologies should I have at least cursory knowledge of, which tools are widely used, which are hip, and which are on the COBOL path? What is the modern approach to measuring and improving user experience?\nComments URL: https://news.ycombinator.com/item?id=37048996\nPoints: 5\n# Comments: 4",
+          "link": "https://news.ycombinator.com/item?id=37048996",
+          "publishedOn": "2023-08-08T13:54:17.000Z",
+          "wordCount": 352,
+          "title": "Ask HN: Best book/resource on modern UI/UX",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37048517",
+          "author": "davidbarker",
+          "description": "Article URL: https://github.com/radix-ui/themes\nComments URL: https://news.ycombinator.com/item?id=37048517\nPoints: 1\n# Comments: 0",
+          "link": "https://github.com/radix-ui/themes",
+          "publishedOn": "2023-08-08T13:17:01.000Z",
+          "wordCount": 799,
+          "title": "Radix-UI/themes: Radix Themes – open-source React component library",
+          "imageUrl": "https://opengraph.githubassets.com/a93740f30239dedad810e4e2b0b5dd0e5d1d98847bde0b9bb6522a432fe9b416/radix-ui/themes"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37045962",
+          "author": "rcarmo",
+          "description": "Article URL: https://www.phoronix.com/news/WindowMaker-0.96\nComments URL: https://news.ycombinator.com/item?id=37045962\nPoints: 3\n# Comments: 0",
+          "link": "https://www.phoronix.com/news/WindowMaker-0.96",
+          "publishedOn": "2023-08-08T08:09:34.000Z",
+          "wordCount": 1274,
+          "title": "Window Maker 0.96 Released for Window Manager Inspired by NeXTSTEP UI",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37044751",
+          "author": "rajeshgajera",
+          "description": "We are thrilled to announce new innovative design marketplace for creators and designers.\nUnicorn UI is design marketplace where designers can upload designs, engage with other artist and earn money by selling designs.\nComments URL: https://news.ycombinator.com/item?id=37044751\nPoints: 1\n# Comments: 1",
+          "link": "https://news.ycombinator.com/item?id=37044751",
+          "publishedOn": "2023-08-08T05:11:42.000Z",
+          "wordCount": 112,
+          "title": "We launched a new innovative design marketplace",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37044137",
+          "author": "dannyeei",
+          "description": "Article URL: https://library.relume.io/site-builder\nComments URL: https://news.ycombinator.com/item?id=37044137\nPoints: 2\n# Comments: 0",
+          "link": "https://library.relume.io/site-builder",
+          "publishedOn": "2023-08-08T03:23:12.000Z",
+          "wordCount": 4454,
+          "title": "Show HN: Relume Site Builder – The fastest way to design and build a website",
+          "imageUrl": "/__assets/6177739448baa66404ce1d9c/64cdffca8c987a0c52b103a2_August%20component%20day%20v2.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=37040540",
           "author": "pmestha",
@@ -4043,36 +4133,6 @@
           "wordCount": 137,
           "title": "Ask HN: Where to learn chip and processor design/creation/repair?",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36661502",
-          "author": "Windson",
-          "description": "Article URL: https://github.com/resumejob/system-design-in-practice\nComments URL: https://news.ycombinator.com/item?id=36661502\nPoints: 2\n# Comments: 0",
-          "link": "https://github.com/resumejob/system-design-in-practice",
-          "publishedOn": "2023-07-10T02:55:04.000Z",
-          "wordCount": 1121,
-          "title": "Show HN: System Design In Practice – get ready for interview with examples",
-          "imageUrl": "https://opengraph.githubassets.com/811c9bd7282dfe14192febb8c59647aa7a2d57fd07ad3af057bed1dd51cfbeb0/resumejob/system-design-in-practice"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36654912",
-          "author": "nabi_nafio",
-          "description": "Comments URL: https://news.ycombinator.com/item?id=36654912\nPoints: 3\n# Comments: 0",
-          "link": "https://news.ycombinator.com/item?id=36654912",
-          "publishedOn": "2023-07-09T14:50:41.000Z",
-          "wordCount": 74,
-          "title": "Ask HN: Are You Interested to Learn About UX Design?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36654392",
-          "author": "softwaredoug",
-          "description": "Article URL: https://www.elastic.co/blog/vector-search-elasticsearch-rationale\nComments URL: https://news.ycombinator.com/item?id=36654392\nPoints: 1\n# Comments: 0",
-          "link": "https://www.elastic.co/blog/vector-search-elasticsearch-rationale",
-          "publishedOn": "2023-07-09T13:42:38.000Z",
-          "wordCount": 24307,
-          "title": "Vector search in Elasticsearch: The rationale behind the design",
-          "imageUrl": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt17dd3988f3a0348b/6297bad15711a40f708ca8d8/enterprise-search-magnifying-glass-1680x980-white.png"
         }
       ]
     },
@@ -4081,6 +4141,36 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=37054819",
+          "author": "argh2_d2",
+          "description": "Article URL: https://tome.app/myndmap/myndmap-cll0giksc07yco95qgt4wf667\nComments URL: https://news.ycombinator.com/item?id=37054819\nPoints: 3\n# Comments: 0",
+          "link": "https://tome.app/myndmap/myndmap-cll0giksc07yco95qgt4wf667",
+          "publishedOn": "2023-08-08T20:10:10.000Z",
+          "wordCount": 889,
+          "title": "Pitch Deck for AI-Powered Productivity for ADHD Individuals",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37048910",
+          "author": "allclues",
+          "description": "Hi everyone,\nHope you all doing well. I would like to introduce our new product, Allclues (http://www.allclues.ai), with you all. We've been working on it for 6+ months, and we hope you like it as much as we do!\nTo give you some background, our goal is to empower individuals and teams to effortlessly organize, process, and collaborate with information in a seamless and efficient manner. In the past, we lacked this ability, but now with AI, we can liberate users from organizing folders and tags, losing clues between messages, and reading long and deep articles...\nAllclues wants to change the way people manage knowledge. In the web beta version, you will experience the game-changing features:\nSave with Ease - Allclues supports a wide range of content types. From web articles, PDFs, and newsl…",
+          "link": "https://news.ycombinator.com/item?id=37048910",
+          "publishedOn": "2023-08-08T13:47:32.000Z",
+          "wordCount": 586,
+          "title": "Boost Productivity with AI-powered workspace-Allclues",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37043997",
+          "author": "muwoo",
+          "description": "Article URL: https://github.com/rubickCenter/rubick\nComments URL: https://news.ycombinator.com/item?id=37043997\nPoints: 1\n# Comments: 1",
+          "link": "https://github.com/rubickCenter/rubick",
+          "publishedOn": "2023-08-08T03:01:38.000Z",
+          "wordCount": 1189,
+          "title": "Boost Your Productivity with Rubcik",
+          "imageUrl": "https://opengraph.githubassets.com/15c34dcf5d49c7bfa91baf05380d48ed6e65e00405f97af55ed590e67d5141cb/rubickCenter/rubick"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=37033837",
           "author": "rsgoheen",
@@ -4690,36 +4780,6 @@
           "wordCount": 796,
           "title": "The #1 Productivity App for the Opening Weekend of the App Store",
           "imageUrl": "https://www.omnigroup.com/{opengraph_image'}"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36661384",
-          "author": "chidog12",
-          "description": "Article URL: https://www.mapdeduce.com/\nComments URL: https://news.ycombinator.com/item?id=36661384\nPoints: 2\n# Comments: 0",
-          "link": "https://www.mapdeduce.com/",
-          "publishedOn": "2023-07-10T02:35:19.000Z",
-          "wordCount": 303,
-          "title": "Show HN: MapDeduce – Supercharge Your Document Analysis Productivity with OpenAI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36658175",
-          "author": "cborenstein",
-          "description": "Article URL: https://leaddev.com/team/embracing-cycles-productivity-healthier-teams\nComments URL: https://news.ycombinator.com/item?id=36658175\nPoints: 1\n# Comments: 0",
-          "link": "https://leaddev.com/team/embracing-cycles-productivity-healthier-teams",
-          "publishedOn": "2023-07-09T19:49:14.000Z",
-          "wordCount": 17082,
-          "title": "Embracing cycles of productivity for healthier teams",
-          "imageUrl": "https://leaddev.com/sites/default/files/styles/linkedin_card/public/2023-07/Embracing%20cycles%20of%20productivity%20for%20healthier%20teams%20.png?itok=PwbDxF-K"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36654347",
-          "author": "8organicbits",
-          "description": "Article URL: https://github.com/dariusk/rss-to-activitypub\nComments URL: https://news.ycombinator.com/item?id=36654347\nPoints: 3\n# Comments: 0",
-          "link": "https://github.com/dariusk/rss-to-activitypub",
-          "publishedOn": "2023-07-09T13:35:39.000Z",
-          "wordCount": 2076,
-          "title": "RSS to ActivityPub Converter",
-          "imageUrl": "https://opengraph.githubassets.com/3cf1c81098390024f6461aa70e30b7af9801a3ce49a8744c106eb1d8e8a7678f/dariusk/rss-to-activitypub"
         }
       ]
     },
@@ -5377,16 +5437,6 @@
           "wordCount": 2295,
           "title": "Make GitHub navigation pane always visible using local JavaScript/CSS",
           "imageUrl": "https://cdn.sstatic.net/Sites/superuser/Img/apple-touch-icon@2.png?v=e869e4459439"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36660557",
-          "author": "g4zj",
-          "description": "Article URL: https://css-tricks.com/\nComments URL: https://news.ycombinator.com/item?id=36660557\nPoints: 2\n# Comments: 0",
-          "link": "https://css-tricks.com/",
-          "publishedOn": "2023-07-10T00:28:40.000Z",
-          "wordCount": 1839,
-          "title": "CSS Tricks",
-          "imageUrl": "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/12/default-social-css-tricks.png"
         }
       ]
     },
@@ -5479,6 +5529,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=43929",
+          "author": "Seth Godin",
+          "description": "If the ferry is leaving in fifteen minutes, do you drive faster than normal to get to the dock on time? If someone is driving close behind you and pressuring you to turn when you don’t feel safe, are you more likely to go for it? We can do our work as fast as makes […]",
+          "link": "https://seths.blog/2023/08/deadlines-and-tailgaters/",
+          "publishedOn": "2023-08-08T08:14:00.000Z",
+          "wordCount": 1044,
+          "title": "Deadlines and tailgaters",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061311.jpg"
+        },
         {
           "id": "https://seths.blog/?p=45041",
           "author": "Seth Godin",
@@ -5778,16 +5838,6 @@
           "wordCount": 965,
           "title": "The commonweal",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806132-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=44872",
-          "author": "Seth Godin",
-          "description": "The hard part isn’t good ideas. It never has been. The hard part is choosing. Ask GPT for ten subtitles for your book, or sixteen ways to hold a surprise party, and you’ll be delighted at how useful they are. Ask Dreamstudio or Kittl for some logo designs, same thing. There is creativity in discernment. […]",
-          "link": "https://seths.blog/2023/07/discernment-in-creativity/",
-          "publishedOn": "2023-07-10T08:10:00.000Z",
-          "wordCount": 1004,
-          "title": "Discernment in creativity",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_180613-1.jpg"
         }
       ]
     },
@@ -5796,6 +5846,56 @@
       "feedUrl": "https://sidebar.io/feed.xml",
       "siteUrl": "https://sidebar.io",
       "articles": [
+        {
+          "id": "XEPJcop3exdKK5ahE",
+          "author": "@smashingmag",
+          "description": "Friction often has a negative connotation in user experience design, but it actually has many benefits.",
+          "link": "https://www.smashingmagazine.com/2023/08/friction-feature-machine-learning-algorithms/",
+          "publishedOn": "2023-08-08T12:02:55.000Z",
+          "wordCount": 6416,
+          "title": "Using Friction As A Feature In Machine Learning Algorithms",
+          "imageUrl": "https://files.smashing.media/articles/friction-feature-machine-learning-algorithms/friction-feature-machine-learning-algorithms.jpg"
+        },
+        {
+          "id": "vhh4bKkFogyBNWWcS",
+          "author": "@fastco",
+          "description": "5 examples of how the app has lost its way.",
+          "link": "https://www.fastcompany.com/90930810/google-maps-eyesore-5-examples-apple-maps",
+          "publishedOn": "2023-08-08T11:58:27.000Z",
+          "wordCount": null,
+          "title": "Google Maps has become an eyesore.",
+          "imageUrl": null
+        },
+        {
+          "id": "wtkQ23r7QASiDCkTo",
+          "author": "@uxdesigncc",
+          "description": "Small is the new big in social.",
+          "link": "https://uxdesign.cc/small-is-the-new-big-in-social-1f2c9ab4ab43",
+          "publishedOn": "2023-08-08T11:56:43.000Z",
+          "wordCount": 3986,
+          "title": "Why smaller, more private communities are thriving",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*gLlmjQxRVfflOrgvYGzY_Q.jpeg"
+        },
+        {
+          "id": "2LjcKMBQRnNpKikNx",
+          "author": "@figma",
+          "description": "John Maeda shares takeaways from this year’s Design In Tech Report, and why we should embrace uphill thinking.",
+          "link": "https://www.figma.com/blog/uphill-thinking",
+          "publishedOn": "2023-08-08T11:55:02.000Z",
+          "wordCount": 4865,
+          "title": "John Maeda on Creativity, AI, and the Human Pursuit of Uphill Thinking",
+          "imageUrl": "https://cdn.sanity.io/images/599r6htc/localized/5b2fb9fbb9294897b7168c48c4e83ca01664ab77-2400x1260.png?w=1200&q=70&fit=max&auto=format"
+        },
+        {
+          "id": "Wx4FcannyGuPicvMH",
+          "author": "@PuddingViz",
+          "description": "Songwriting credits since 1958, broken down by gender",
+          "link": "https://pudding.cool/2023/07/songwriters/",
+          "publishedOn": "2023-08-08T11:54:35.000Z",
+          "wordCount": 68,
+          "title": "Women are superstars on stage, but still rarely get to write songs",
+          "imageUrl": "https://pudding.cool/2023/07/songwriters/assets/facebook.jpg"
+        },
         {
           "id": "mmSTmqJ7cRHm8sqZX",
           "author": "@zeldman",
@@ -6805,56 +6905,6 @@
           "wordCount": 1451,
           "title": "My jeans’ metadata may outlive the company that sold them",
           "imageUrl": "https://ericwbailey.website/img/posts/my-jeans-metadata-may-outlive-the-company-that-sold-them/share-image-facebook.png"
-        },
-        {
-          "id": "gynY6NnNCjtAFsPDR",
-          "author": "@polypane",
-          "description": "They are fundamental CSS concepts you use every single day whether you know it or not: the offset parent and stacking context.",
-          "link": "https://polypane.app/blog/offset-parent-and-stacking-context-positioning-elements-in-all-three-dimensions/",
-          "publishedOn": "2023-07-10T06:10:44.000Z",
-          "wordCount": 9192,
-          "title": "Offset parent and stacking context: positioning elements in all three dimensions",
-          "imageUrl": "https://polypane.app/og-images/offset-parent-and-stacking-context-positioning-elements-in-all-three-dimensions.png"
-        },
-        {
-          "id": "af4DvF6hLh7Wnuwb8",
-          "author": "@smashingmag",
-          "description": "CSS has all kinds of tricks that are capable of turning images into neat, interactive elements.",
-          "link": "https://www.smashingmagazine.com/2023/07/shines-perspective-rotations-css-3d-effects-images/",
-          "publishedOn": "2023-07-10T06:09:56.000Z",
-          "wordCount": 5869,
-          "title": "Shines, Perspective, And Rotations: Fancy CSS 3D Effects For Images",
-          "imageUrl": "https://files.smashing.media/articles/shines-perspective-rotations-css-3d-effects-images/shines-perspective-rotations-css-3d-effects-images.jpg"
-        },
-        {
-          "id": "zuj7fcsjTGRbzfyC6",
-          "author": null,
-          "description": "We can detect if text input has value by using :placeholder-shown pseudo class.",
-          "link": "https://muffinman.io/blog/css-only-floating-input-labels",
-          "publishedOn": "2023-07-10T06:08:23.000Z",
-          "wordCount": 398,
-          "title": "CSS only floating labels",
-          "imageUrl": "https://muffinman.io/img/css-only-floating-label.png"
-        },
-        {
-          "id": "wsdHKTQ8NMFSjcwGv",
-          "author": "@uxdesigncc",
-          "description": "Guidelines and strategies for meaningfully leveraging AI in your applications",
-          "link": "https://uxdesign.cc/designing-for-ai-beyond-the-chatbot-5edc0efe84a3",
-          "publishedOn": "2023-07-10T06:07:09.000Z",
-          "wordCount": 6331,
-          "title": "Designing for AI: beyond the chatbot",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*t74jCMtc2aHEeprSIzyOdA.png"
-        },
-        {
-          "id": "Aub6MfN9CEdh9b7aK",
-          "author": "@r_graph_gallery",
-          "description": "The React Graph Gallery displays hundreds of charts made with React, always with explanation and reproduciible code.",
-          "link": "https://www.react-graph-gallery.com/",
-          "publishedOn": "2023-07-10T06:04:45.000Z",
-          "wordCount": 394,
-          "title": "React Graph Gallery: Learn to build unique charts with React",
-          "imageUrl": "https://raw.githubusercontent.com/holtzy/react-graph-gallery/main/public/overview-gallery.png"
         }
       ]
     },
@@ -6961,6 +7011,21 @@
       "feedUrl": "https://www.smashingmagazine.com/feed/",
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
+        {
+          "id": "https://smashingmagazine.com/2023/08/friction-feature-machine-learning-algorithms/",
+          "author": "hello@smashingmagazine.com (Maximillian Piras)",
+          "description": "Friction often has a negative connotation in user experience design, but it actually has many benefits. Its best-known use case is mitigating unintended consequences in high-risk scenarios, yet it has a new place in the age of artificial intelligence. Adding strategic friction to interfaces can lead to profound efficiency gains in machine learning algorithms.",
+          "link": "https://smashingmagazine.com/2023/08/friction-feature-machine-learning-algorithms/",
+          "publishedOn": "2023-08-07T14:00:00.000Z",
+          "wordCount": 6416,
+          "title": "Using Friction As A Feature In Machine Learning Algorithms",
+          "enclosure": {
+            "url": "http://files.smashing.media/articles/friction-feature-machine-learning-algorithms/friction-feature-machine-learning-algorithms.jpg",
+            "length": "0",
+            "type": "image/jpg"
+          },
+          "imageUrl": "http://files.smashing.media/articles/friction-feature-machine-learning-algorithms/friction-feature-machine-learning-algorithms.jpg"
+        },
         {
           "id": "https://smashingmagazine.com/2023/08/designing-accessible-text-over-images-part1/",
           "author": "hello@smashingmagazine.com (Hannah Milan)",
