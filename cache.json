@@ -29,6 +29,16 @@
       "siteUrl": "https://adamsilver.io/atom.xml",
       "articles": [
         {
+          "id": "https://adamsilver.io/blog/3-questions-to-evaluate-design-patterns-and-avoid-unnecessary-work-that-degrades-ux/",
+          "author": null,
+          "description": "There’s a new form design trend going around:\nButtons inside inputs.\nAnthony Hobday mentioned it by asking his audience if there was any significant difference in usability between these 3 designs:\n3 different layouts for an input and button combination\n\t\n\n\nButton inside the input\nButton touching input\nButton next to the input with space between\nGuess which one I recommend.\nOne thing I know is that it’s hard to convince fancy-pants designers to practice boring design. And I hear the same from other UXers all the time.\nIt’s a tough one, that’s for sure.\nBut when it comes to the button-inside-input pattern, it’s funny because on the face of it, it’s not that fancy and it seems harmless?\nBut then again, that’s just not how I design. The idea of doing something like this, and then testing to s…",
+          "link": "https://adamsilver.io/blog/3-questions-to-evaluate-design-patterns-and-avoid-unnecessary-work-that-degrades-ux/",
+          "publishedOn": "2023-08-06T00:00:00.000Z",
+          "wordCount": 705,
+          "title": "3 questions to evaluate design patterns and avoid unnecessary work that degrades UX",
+          "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:3 questions to evaluate design patterns and avoid unnecessary work that degrades UX,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/l_twitter:75996107/c_thumb,g_face,r_max,w_320,h_320,q_100/fl_layer_apply,w_110,g_north_west,x_100,y_80/card3.png"
+        },
+        {
           "id": "https://adamsilver.io/blog/the-problem-with-disabling-paste-and-what-to-do-instead/",
           "author": null,
           "description": "Disabling paste is usually done in the name of security.\nFor example, let’s say the user has to type their email address twice. Using 2 separate inputs means a mismatch can be caught. But that doesn’t work if they paste an error from the first input into the second.\nBut disabling paste degrades UX and is a terrible way to stop users from making mistakes.\nHere’s why:\nProblem #1: It makes the interface feel broken\nThis is because users expect to be able to paste but instead it just gets ignored with no feedback.\n\n\t\t\t\t\n\t\t\tTrying to paste into the password field gets ignored as paste is disabled\n\t\n\nProblem #2: It slows users down\nThis is because the user has to type everything again from scratch.\n\n\t\t\t\t\n\t\t\tUser has to type the password manually because paste is disabled\n\t\n\nProblem #3: It increases the chance of error\nThis is because typing manually increases the chance of a mistake.\nGive control and let users check answers\nTo do this consider using:\nan email verification step\na ‘check answers’ page\na password reveal",
@@ -172,6 +182,16 @@
       "feedUrl": "https://adrianroselli.com/feed",
       "siteUrl": "https://adrianroselli.com",
       "articles": [
+        {
+          "id": "https://adrianroselli.com/?p=24722",
+          "author": "Adrian Roselli",
+          "description": "I use the CSS :has() pseudo-class to provide an interactive alt text decision tree (from the W3C WAI Tutorial) that uses no script. It is progressively enhanced, so browsers without support for :has() still get all the content. See my post Under-Engineered Dependency Questions if you want my argument why…",
+          "link": "https://adrianroselli.com/2023/08/an-alt-decision-tree-using-only-has.html",
+          "publishedOn": "2023-08-13T15:57:37.000Z",
+          "wordCount": 2700,
+          "title": "An alt Decision Tree Using Only :has()",
+          "imageUrl": "https://adrianroselli.com/wp-content/uploads/2023/08/decision-tree-support-compare_thumb-300x300.png"
+        },
         {
           "id": "https://adrianroselli.com/?p=24631",
           "author": "Adrian Roselli",
@@ -908,6 +928,16 @@
       "siteUrl": "https://daverupert.com",
       "articles": [
         {
+          "id": "https://daverupert.com/2023/08/vibe-check-28/",
+          "author": null,
+          "description": "Cicadas electrifying the treetops, the hot air hotter, crispy grasses under sandaled feet, asphalt sizzling to the touch. Children ebb and flow from camps, playdates, sleepovers, long days, missed bed times, and the familiar feeling of parental shame over too much screentime. School starts tomorrow, back to the top of the luge track we go.\nTrying to staying calm\nIn my last vibe check I talked about my “Stress Reduction Journey” after a mild health scare and some self-realizations about the impact stress is having on my body. Journeys are long, but it’s nice to see some immediate results. It made me happy to get an alert from my watch notifying me that my average resting heart rate lowered ~10 BPM.\nThat’s a significant change in lifestyle. On top of that, I’ve lost ~20 pounds! I’m on a diet…",
+          "link": "https://daverupert.com/2023/08/vibe-check-28/",
+          "publishedOn": "2023-08-13T22:10:00.000Z",
+          "wordCount": 1950,
+          "title": "Vibe Check  №28",
+          "imageUrl": null
+        },
+        {
           "id": "https://daverupert.com/2023/07/dig-up-a-road/",
           "author": null,
           "description": "All the roads in Austin are awful. It destroys my faith in civil engineering a bit. There’s a couple spots (southbound Burnet near North Loop) where you can catch air on a storm drain if you’re going the speed limit. The extreme Texas heat determines a lot of the road conditions by  warping the asphalt. The giant live oak tree clusters lifting entire sections of concrete do their part as well. But that doesn’t explain all the shoddy patch work rattling your hubcaps off.\nThere’s a human element happening as well. Some years ago I learned almost anyone can dig up a road. My friend who owns a food trailer park in South Austin told me about this when he connected his sewer main. Get the permits, maybe prove you have the correct equipment, then jackhammer your way through the city road until yo…",
@@ -1153,6 +1183,46 @@
       "feedUrl": "https://heydesigner.com/feed/",
       "siteUrl": "https://heydesigner.com",
       "articles": [
+        {
+          "id": "https://heydesigner.com/?p=69336",
+          "author": "Travis",
+          "description": "3 questions to evaluate design patterns and avoid unnecessary work that degrades UX.",
+          "link": "https://heydesigner.com/3-questions-for-better-ux/",
+          "publishedOn": "2023-08-13T17:02:26.000Z",
+          "wordCount": 198,
+          "title": "3 questions for better UX",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=69334",
+          "author": "Travis",
+          "description": "There is now strong evidence that AI can help make us more innovative.",
+          "link": "https://heydesigner.com/automating-creativity/",
+          "publishedOn": "2023-08-13T17:00:51.000Z",
+          "wordCount": 193,
+          "title": "Automating creativity",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=69332",
+          "author": "Travis",
+          "description": "These are not for everyone, but very useful if you want to build better habits that compound over time and give you an edge in your career.",
+          "link": "https://heydesigner.com/simple-ways-to-build-career-alpha/",
+          "publishedOn": "2023-08-13T16:59:35.000Z",
+          "wordCount": 208,
+          "title": "Simple ways to build career alpha",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
+        {
+          "id": "https://heydesigner.com/?p=69330",
+          "author": "Travis",
+          "description": "Every week I create a weekly note, and write my to-dos for the week. I may add more items to it during the week.",
+          "link": "https://heydesigner.com/how-i-do-my-to-dos/",
+          "publishedOn": "2023-08-13T16:55:49.000Z",
+          "wordCount": 206,
+          "title": "How I do my to-dos",
+          "imageUrl": "https://heydesigner.com/wp-content/uploads/social-meta-img.png?v9"
+        },
         {
           "id": "https://heydesigner.com/?p=69324",
           "author": "Travis",
@@ -1800,6 +1870,26 @@
       "feedUrl": "https://hnrss.org/newest?q=design+OR+ux+OR+ui+OR+icon+OR+typography+OR+wireframe+OR+illustration",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=37111338",
+          "author": "shubham_saboo",
+          "description": "Article URL: https://unwindai.substack.com/p/machine-learning-from-the-lens-of\nComments URL: https://news.ycombinator.com/item?id=37111338\nPoints: 2\n# Comments: 0",
+          "link": "https://unwindai.substack.com/p/machine-learning-from-the-lens-of",
+          "publishedOn": "2023-08-13T16:21:21.000Z",
+          "wordCount": 3852,
+          "title": "Machine Learning from the Lens of Design Thinking",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd24fd8a1-84e1-4f19-a5a8-99946c1ab35e_1152x768.jpeg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37110983",
+          "author": "night-rider",
+          "description": "Article URL: https://neumorphism.io/\nComments URL: https://news.ycombinator.com/item?id=37110983\nPoints: 1\n# Comments: 0",
+          "link": "https://neumorphism.io/",
+          "publishedOn": "2023-08-13T15:43:28.000Z",
+          "wordCount": 68,
+          "title": "Neumorphism: Soft UI CSS shadow generator",
+          "imageUrl": "https://neumorphism.io/ogImage.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=37101669",
           "author": "syngrog66",
@@ -3749,66 +3839,6 @@
           "wordCount": 287,
           "title": "Data-Oriented Design Principles",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36733755",
-          "author": "ArVID220u",
-          "description": "Article URL: https://arvid.xyz/posts/prompt-design/\nComments URL: https://news.ycombinator.com/item?id=36733755\nPoints: 2\n# Comments: 0",
-          "link": "https://arvid.xyz/posts/prompt-design/",
-          "publishedOn": "2023-07-15T05:04:42.000Z",
-          "wordCount": 1098,
-          "title": "Prompt Design",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36732298",
-          "author": "Stratoscope",
-          "description": "Article URL: https://www.nytimes.com/interactive/2023/07/14/us/titan-submersible-implode-design.html\nComments URL: https://news.ycombinator.com/item?id=36732298\nPoints: 1\n# Comments: 0",
-          "link": "https://www.nytimes.com/interactive/2023/07/14/us/titan-submersible-implode-design.html",
-          "publishedOn": "2023-07-15T01:38:58.000Z",
-          "wordCount": 7267,
-          "title": "The Maverick Design Choices That May Have Doomed Titan",
-          "imageUrl": "https://static01.nyt.com/images/2023/07/11/us/titan-submersible-implode-design-promo/titan-submersible-implode-design-promo-facebookJumbo-v3.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36732208",
-          "author": "sherilm",
-          "description": "Article URL: https://medium.com/@ericsnowden/why-you-didnt-get-that-design-job-60957c927db6\nComments URL: https://news.ycombinator.com/item?id=36732208\nPoints: 2\n# Comments: 0",
-          "link": "https://medium.com/@ericsnowden/why-you-didnt-get-that-design-job-60957c927db6",
-          "publishedOn": "2023-07-15T01:25:59.000Z",
-          "wordCount": 3979,
-          "title": "Why You didn’t get that design job",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*FNg9znYtp-t8wkMq"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36730913",
-          "author": "damascus",
-          "description": "I just bought a house that has a really weird layout. Previous owner had it split for a rental unit and I'm taking over the whole house. It needs a lot of work and I'm pretty handy when it comes to the work but not when it comes to know how to layout rooms / spaces and even less when it comes to design. I'm already looking for a professional interior designer but I'd also like to play with some layouts myself as well.\nComments URL: https://news.ycombinator.com/item?id=36730913\nPoints: 2\n# Comments: 3",
-          "link": "https://news.ycombinator.com/item?id=36730913",
-          "publishedOn": "2023-07-14T22:41:35.000Z",
-          "wordCount": 286,
-          "title": "Ask HN: Are there any modern AI-assisted Interior Design / Layout remodel apps?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36726824",
-          "author": "gl-prod",
-          "description": "Article URL: https://book.leveldesignbook.com/\nComments URL: https://news.ycombinator.com/item?id=36726824\nPoints: 7\n# Comments: 0",
-          "link": "https://book.leveldesignbook.com/",
-          "publishedOn": "2023-07-14T17:11:47.000Z",
-          "wordCount": 2020,
-          "title": "The Level Design Book gathers level design knowledge for 3D video games",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36725406",
-          "author": "janjoseph",
-          "description": "Article URL: https://rosacarbo.notion.site/Game-design-wiki-6902c5dc9d1242c9a70822f13e6c76b3\nComments URL: https://news.ycombinator.com/item?id=36725406\nPoints: 86\n# Comments: 24",
-          "link": "https://rosacarbo.notion.site/Game-design-wiki-6902c5dc9d1242c9a70822f13e6c76b3",
-          "publishedOn": "2023-07-14T15:29:09.000Z",
-          "wordCount": 74,
-          "title": "Game design wiki",
-          "imageUrl": "https://www.notion.so/images/meta/default.png"
         }
       ]
     },
@@ -3817,6 +3847,16 @@
       "feedUrl": "https://hnrss.org/newest?q=habit+OR+productivity+OR+stoic+OR+rss",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=37111855",
+          "author": "PaulHoule",
+          "description": "Article URL: https://www.okdoomer.io/heres-why-they-want-you-back-at-the-office-so-bad/\nComments URL: https://news.ycombinator.com/item?id=37111855\nPoints: 264\n# Comments: 305",
+          "link": "https://www.okdoomer.io/heres-why-they-want-you-back-at-the-office-so-bad/",
+          "publishedOn": "2023-08-13T17:10:16.000Z",
+          "wordCount": 2314,
+          "title": "The elite's war on remote work has nothing to do with productivity",
+          "imageUrl": "https://www.okdoomer.io/content/images/2023/08/AdobeStock_589251839.jpeg"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=37082522",
           "author": "throwaw12",
@@ -4366,36 +4406,6 @@
           "wordCount": 3407,
           "title": "ChatGPT gives an extra productivity boost to weaker writers",
           "imageUrl": "https://media.nature.com/lw1024/magazine-assets/d41586-023-02270-9/d41586-023-02270-9_25602404.jpg"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36734986",
-          "author": "adr1an",
-          "description": "Article URL: https://kill-the-newsletter.com/\nComments URL: https://news.ycombinator.com/item?id=36734986\nPoints: 3\n# Comments: 1",
-          "link": "https://kill-the-newsletter.com/",
-          "publishedOn": "2023-07-15T09:11:04.000Z",
-          "wordCount": 263,
-          "title": "Convert email newsletters into RSS feeds",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36729424",
-          "author": "thirdplace_",
-          "description": "Article URL: https://rss-bridge.org/bridge01/#bridge-CssSelectorBridge\nComments URL: https://news.ycombinator.com/item?id=36729424\nPoints: 96\n# Comments: 19",
-          "link": "https://rss-bridge.org/bridge01/#bridge-CssSelectorBridge",
-          "publishedOn": "2023-07-14T20:23:44.000Z",
-          "wordCount": 23390,
-          "title": "Generate RSS feed for any website using CSS selectors",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36727888",
-          "author": "berniedurfee",
-          "description": "Article URL: https://news.ycombinator.com/best\nComments URL: https://news.ycombinator.com/item?id=36727888\nPoints: 2\n# Comments: 1",
-          "link": "https://news.ycombinator.com/best",
-          "publishedOn": "2023-07-14T18:20:47.000Z",
-          "wordCount": 630,
-          "title": "Where’s Hacker News Best RSS?",
-          "imageUrl": null
         }
       ]
     },
@@ -4404,6 +4414,76 @@
       "feedUrl": "https://hnrss.org/newest?q=tailwind+OR+tailwindcss+OR+CSS+OR+html",
       "siteUrl": "https://news.ycombinator.com/newest",
       "articles": [
+        {
+          "id": "https://news.ycombinator.com/item?id=37110983",
+          "author": "night-rider",
+          "description": "Article URL: https://neumorphism.io/\nComments URL: https://news.ycombinator.com/item?id=37110983\nPoints: 1\n# Comments: 0",
+          "link": "https://neumorphism.io/",
+          "publishedOn": "2023-08-13T15:43:28.000Z",
+          "wordCount": 68,
+          "title": "Neumorphism: Soft UI CSS shadow generator",
+          "imageUrl": "https://neumorphism.io/ogImage.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37108365",
+          "author": "flux_w42",
+          "description": "Article URL: https://cohost.org/lunasorcery/post/2465593-testing-your-animati\nComments URL: https://news.ycombinator.com/item?id=37108365\nPoints: 49\n# Comments: 10",
+          "link": "https://cohost.org/lunasorcery/post/2465593-testing-your-animati",
+          "publishedOn": "2023-08-13T09:58:29.000Z",
+          "wordCount": 6338,
+          "title": "Testing your animation refresh rate with CSS",
+          "imageUrl": "https://staging.cohostcdn.org/avatar/11911-04dcfc35-362d-4d05-9541-3fd2970d1f00-profile.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37107735",
+          "author": "dharmatech",
+          "description": "Article URL: https://gist.github.com/dharmatech/a19ca644b3a4a1fb0b340e9f0084c141\nComments URL: https://news.ycombinator.com/item?id=37107735\nPoints: 2\n# Comments: 0",
+          "link": "https://gist.github.com/dharmatech/a19ca644b3a4a1fb0b340e9f0084c141",
+          "publishedOn": "2023-08-13T08:10:50.000Z",
+          "wordCount": 432,
+          "title": "How I convert PowerShell terminal output to HTML",
+          "imageUrl": "https://github.githubassets.com/images/modules/gists/gist-og-image.png"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37106550",
+          "author": "ohjeez",
+          "description": "Article URL: https://www.bryanbraun.com/after-dark-css/all/flying-toasters.html\nComments URL: https://news.ycombinator.com/item?id=37106550\nPoints: 148\n# Comments: 35",
+          "link": "https://www.bryanbraun.com/after-dark-css/all/flying-toasters.html",
+          "publishedOn": "2023-08-13T03:58:11.000Z",
+          "wordCount": 1345,
+          "title": "Flying Toasters Screensaver After Dark in CSS",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37105895",
+          "author": "lopkeny12ko",
+          "description": "Article URL: https://cohost.org/lunasorcery/post/2465593-testing-your-animati\nComments URL: https://news.ycombinator.com/item?id=37105895\nPoints: 1\n# Comments: 0",
+          "link": "https://cohost.org/lunasorcery/post/2465593-testing-your-animati",
+          "publishedOn": "2023-08-13T01:51:31.000Z",
+          "wordCount": 6338,
+          "title": "Testing your animation refresh rate with CSS crimes",
+          "imageUrl": "https://staging.cohostcdn.org/avatar/11911-04dcfc35-362d-4d05-9541-3fd2970d1f00-profile.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37105629",
+          "author": "debdut",
+          "description": "Article URL: https://swiftpackageindex.com/vapor-community/HTMLKit/2.8.1/documentation/htmlkit\nComments URL: https://news.ycombinator.com/item?id=37105629\nPoints: 2\n# Comments: 0",
+          "link": "https://swiftpackageindex.com/vapor-community/HTMLKit/2.8.1/documentation/htmlkit",
+          "publishedOn": "2023-08-13T01:02:29.000Z",
+          "wordCount": 120,
+          "title": "SwiftUI for HTML",
+          "imageUrl": null
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=37100419",
+          "author": "lovegrenoble",
+          "description": "Article URL: https://developer.mozilla.org/en-US/blog/scroll-progress-animations-in-css/\nComments URL: https://news.ycombinator.com/item?id=37100419\nPoints: 2\n# Comments: 0",
+          "link": "https://developer.mozilla.org/en-US/blog/scroll-progress-animations-in-css/",
+          "publishedOn": "2023-08-12T14:15:15.000Z",
+          "wordCount": 16958,
+          "title": "Scroll Progress Animations in CSS",
+          "imageUrl": "https://developer.mozilla.org/en-US/blog/scroll-progress-animations-in-css/scroll-animations.png"
+        },
         {
           "id": "https://news.ycombinator.com/item?id=37093776",
           "author": "DerekBickerton",
@@ -4923,46 +5003,6 @@
           "wordCount": 894,
           "title": "HTML Notepad",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36732407",
-          "author": "tpkahlon",
-          "description": "Article URL: http://jackal.surge.sh/\nComments URL: https://news.ycombinator.com/item?id=36732407\nPoints: 2\n# Comments: 0",
-          "link": "http://jackal.surge.sh/",
-          "publishedOn": "2023-07-15T01:56:09.000Z",
-          "wordCount": 6,
-          "title": "Show HN: I adopted TailwindCSS on Jackal",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36729424",
-          "author": "thirdplace_",
-          "description": "Article URL: https://rss-bridge.org/bridge01/#bridge-CssSelectorBridge\nComments URL: https://news.ycombinator.com/item?id=36729424\nPoints: 96\n# Comments: 19",
-          "link": "https://rss-bridge.org/bridge01/#bridge-CssSelectorBridge",
-          "publishedOn": "2023-07-14T20:23:44.000Z",
-          "wordCount": 23390,
-          "title": "Generate RSS feed for any website using CSS selectors",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36728013",
-          "author": "edward",
-          "description": "Article URL: https://juniper.github.io/libxo/libxo-manual.html\nComments URL: https://news.ycombinator.com/item?id=36728013\nPoints: 67\n# Comments: 21",
-          "link": "https://juniper.github.io/libxo/libxo-manual.html",
-          "publishedOn": "2023-07-14T18:29:10.000Z",
-          "wordCount": 104714,
-          "title": "Libxo: Easy way to generate text, XML, JSON, and HTML",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=36725505",
-          "author": "nalgeon",
-          "description": "Article URL: https://www.smashingmagazine.com/2023/07/writing-css-2023/\nComments URL: https://news.ycombinator.com/item?id=36725505\nPoints: 2\n# Comments: 0",
-          "link": "https://www.smashingmagazine.com/2023/07/writing-css-2023/",
-          "publishedOn": "2023-07-14T15:35:53.000Z",
-          "wordCount": 5337,
-          "title": "Writing CSS in 2023: Is It Any Different Than a Few Years Ago?",
-          "imageUrl": "https://files.smashing.media/articles/writing-css-2023/writing-css-2023-sharing-card.jpg"
         }
       ]
     },
@@ -5046,6 +5086,16 @@
       "feedUrl": "https://seths.blog/feed/",
       "siteUrl": "https://seths.blog",
       "articles": [
+        {
+          "id": "https://seths.blog/?p=45089",
+          "author": "Seth Godin",
+          "description": "Contrary to expectations, written contracts don’t have to be adversarial. In fact, the effective ones rarely are. When you hand someone a release, a royalty agreement or even a partnership document, it pays to point out the gnarly parts, the controversial bits and the ones that are worth paying attention to. After all, the very […]",
+          "link": "https://seths.blog/2023/08/the-useful-agreement/",
+          "publishedOn": "2023-08-13T08:16:00.000Z",
+          "wordCount": 1035,
+          "title": "The useful agreement",
+          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061314.jpg"
+        },
         {
           "id": "https://seths.blog/?p=45070",
           "author": "Seth Godin",
@@ -5334,16 +5384,6 @@
           "publishedOn": "2023-07-16T08:04:00.000Z",
           "wordCount": 1115,
           "title": "(Without the bad parts)",
-          "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
-        },
-        {
-          "id": "https://seths.blog/?p=45094",
-          "author": "Seth Godin",
-          "description": "What if there were a pipeline into your day, a series of emails or posts or feeds that had nothing but nice things, positive feedback and encouragement coming your way? Amazingly, you could build something like that in just a few minutes and have it forever. If the bad news (comments, drama and controversy) is […]",
-          "link": "https://seths.blog/2023/07/the-good-news/",
-          "publishedOn": "2023-07-15T08:50:00.000Z",
-          "wordCount": 1055,
-          "title": "The good news",
           "imageUrl": "https://149521506.v2.pressablecdn.com/wp-content/uploads/2018/06/seth_godin_ogimages_v02_1806139-1.jpg"
         }
       ]
